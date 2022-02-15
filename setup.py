@@ -37,7 +37,7 @@ setup(
         'pillow',  # windows binary http://www.lfd.uci.edu/~gohlke/pythonlibs/
         'polib',
         'psutil',  # windows binary code.google.com/p/psutil/downloads/list
-        'psycopg2 >= 2.2',
+        'psycopg2-binary >= 2.2',
         'pydot',
         'pyopenssl',
         'pypdf2',
