@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_sale_coupon
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_sale_coupon
@@ -166,7 +166,6 @@ msgstr "Delen"
 
 #. module: website_sale_coupon
 #: code:addons/website_sale_coupon/wizard/sale_coupon_share.py:0
-#: code:addons/website_sale_coupon/wizard/sale_coupon_share.py:0
 #: model_terms:ir.ui.view,arch_db:website_sale_coupon.coupon_share_view_form
 #, python-format
 msgid "Share Coupon"
@@ -181,8 +180,7 @@ msgstr "Koppeling delen"
 #: code:addons/website_sale_coupon/controllers/main.py:0
 #, python-format
 msgid ""
-"The coupon will be automatically applied when you add something in your "
-"cart."
+"The coupon will be automatically applied when you add something in your cart."
 msgstr ""
 "De coupon wordt automatisch toegepast wanneer je iets in je winkelmandje "
 "plaatst."
@@ -215,10 +213,12 @@ msgstr "Website"
 #: model_terms:ir.ui.view,arch_db:website_sale_coupon.coupon_share_view_form
 msgid ""
 "You can share this promotion with your customers.\n"
-"                            It will be applied at checkout when the customer uses this link."
+"                            It will be applied at checkout when the customer "
+"uses this link."
 msgstr ""
 "Je kunt deze actie delen met je klanten.\n"
-"                            Het wordt toegepast bij het afrekenen wanneer de klant deze link gebruikt."
+"                            Het wordt toegepast bij het afrekenen wanneer de "
+"klant deze link gebruikt."
 
 #. module: website_sale_coupon
 #: model_terms:ir.ui.view,arch_db:website_sale_coupon.sale_coupon_result
