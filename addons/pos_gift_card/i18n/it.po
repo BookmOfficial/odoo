@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_gift_card
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_gift_card
@@ -27,7 +27,6 @@ msgstr "<strong>Codice carta regalo</strong>"
 
 #. module: pos_gift_card
 #. openerp-web
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
 #: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
 #, python-format
 msgid "Amount of the gift card:"
@@ -56,7 +55,6 @@ msgstr ""
 #. module: pos_gift_card
 #. openerp-web
 #: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
 #, python-format
 msgid "Cancel"
 msgstr "Annulla"
@@ -76,10 +74,6 @@ msgstr ""
 #. module: pos_gift_card
 #. openerp-web
 #: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
 #, python-format
 msgid "Confirm"
 msgstr "Conferma"
@@ -96,9 +90,6 @@ msgstr "Definisce il modo in cui vuoi impostare le tue carte regalo."
 
 #. module: pos_gift_card
 #. openerp-web
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
 #: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
 #, python-format
 msgid "Discard"
@@ -134,9 +125,6 @@ msgstr "Carta regalo"
 #. module: pos_gift_card
 #. openerp-web
 #: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
-#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
 #, python-format
 msgid "Gift Card Barcode:"
 msgstr "Codice a barre carta regalo:"
@@ -148,7 +136,6 @@ msgstr "Conteggio carte regalo"
 
 #. module: pos_gift_card
 #. openerp-web
-#: code:addons/pos_gift_card/static/src/js/PaymentScreen.js:0
 #: code:addons/pos_gift_card/static/src/js/PaymentScreen.js:0
 #, python-format
 msgid "Gift Card Error"
@@ -251,6 +238,13 @@ msgid "Scan gift card"
 msgstr "Scansiona carta regalo"
 
 #. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/GiftCardPopup.js:0
+#, python-format
+msgid "This gift card has already been sold"
+msgstr ""
+
+#. module: pos_gift_card
 #: model:ir.model.fields,help:pos_gift_card.field_pos_config__gift_card_product_id
 msgid "This product is used as reference on customer receipts."
 msgstr "Questo prodotto è usato come riferimento nelle ricevute cliente."
@@ -266,3 +260,10 @@ msgstr "Tipologia"
 #, python-format
 msgid "Use a gift card"
 msgstr "Usa una carta regalo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/GiftCardPopup.js:0
+#, python-format
+msgid "You cannot sell a gift card that has already been sold"
+msgstr ""
