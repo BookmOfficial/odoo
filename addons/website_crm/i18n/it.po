@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_crm
-# 
+#
 # Translators:
 # Sergio Zanchetta <primes2h@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_crm
@@ -40,10 +40,12 @@ msgstr "<span class=\"o_form_label\">Modulo contatto</span>"
 #: model_terms:ir.ui.view,arch_db:website_crm.contactus_form
 msgid ""
 "<span class=\"s_website_form_label_content\">Email</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">E-mail</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: website_crm
 #: model_terms:ir.ui.view,arch_db:website_crm.contactus_form
@@ -54,10 +56,12 @@ msgstr "<span class=\"s_website_form_label_content\">Numero di telefono</span>"
 #: model_terms:ir.ui.view,arch_db:website_crm.contactus_form
 msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Ogetto</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: website_crm
 #: model_terms:ir.ui.view,arch_db:website_crm.contactus_form
@@ -68,19 +72,23 @@ msgstr "<span class=\"s_website_form_label_content\">Azienda</span>"
 #: model_terms:ir.ui.view,arch_db:website_crm.contactus_form
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Nome</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: website_crm
 #: model_terms:ir.ui.view,arch_db:website_crm.contactus_form
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Question</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Domanda</span>\n"
-"                                                <span class=\"s_website_form_mark\"> *</span>"
+"                                                <span class="
+"\"s_website_form_mark\"> *</span>"
 
 #. module: website_crm
 #: model_terms:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
