@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_track
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_event_track
@@ -115,12 +115,19 @@ msgstr "<b>Presentatie introductie</b>:"
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "<div>\n"
-"    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
-"    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
+"    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    We are pleased to inform you that your proposal <t t-out=\"object.name "
+"or ''\">What This Event Is All About</t> has been accepted and confirmed for "
+"the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online "
+"Reveal</t>.\n"
 "    <br/>\n"
 "    You will find more details here:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
-"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object."
+"id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; "
+"text-decoration: none !important; background-color: #875A7B; border: 0px "
+"solid #875A7B; border-radius:3px\">\n"
 "            View Talk\n"
 "        </a>\n"
 "    </div>\n"
@@ -133,12 +140,19 @@ msgid ""
 "</div>"
 msgstr ""
 "<div>\n"
-"    Beste <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
-"    We zijn blij je te kunnen mededelen dat je voorstel <t t-out=\"object.name or ''\">What This Event Is All About</t> is geaccepteerd en bevestigd voor het evenement <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
+"    Beste <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    We zijn blij je te kunnen mededelen dat je voorstel <t t-out=\"object."
+"name or ''\">What This Event Is All About</t> is geaccepteerd en bevestigd "
+"voor het evenement <t t-out=\"object.event_id.name or ''\">OpenWood "
+"Collection Online Reveal</t>.\n"
 "    <br/>\n"
 "    Meer details vind je hier:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
-"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object."
+"id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; "
+"text-decoration: none !important; background-color: #875A7B; border: 0px "
+"solid #875A7B; border-radius:3px\">\n"
 "            Bekijk presentatie\n"
 "        </a>\n"
 "    </div>\n"
@@ -183,13 +197,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
-"                                        <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
-"                                        <span class=\"o_wetrack_proposal_error_message\"/>\n"
+"                                        <i class=\"fa fa-close mr4\" role="
+"\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+"                                        <span class="
+"\"o_wetrack_proposal_error_message\"/>\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
-"                                        <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Fout\" title=\"Fout\"/>\n"
-"                                        <span class=\"o_wetrack_proposal_error_message\"/>\n"
+"                                        <i class=\"fa fa-close mr4\" role="
+"\"img\" aria-label=\"Fout\" title=\"Fout\"/>\n"
+"                                        <span class="
+"\"o_wetrack_proposal_error_message\"/>\n"
 "                                    </span>"
 
 #. module: website_event_track
@@ -248,10 +266,13 @@ msgstr "<span>uren</span>"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<strong>Lightning Talks</strong>. These are 30 minutes talks on many\n"
-"                                    different topics. Most topics are accepted in lightning talks."
+"                                    different topics. Most topics are "
+"accepted in lightning talks."
 msgstr ""
-"<strong>Korte presentaties</strong>. Dit zijn 30 minuten durende presentaties over veel\n"
-"verschillende onderwerpen. De meeste onderwerpen zijn geaccepteerd in de korte presentaties."
+"<strong>Korte presentaties</strong>. Dit zijn 30 minuten durende "
+"presentaties over veel\n"
+"verschillende onderwerpen. De meeste onderwerpen zijn geaccepteerd in de "
+"korte presentaties."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
@@ -264,7 +285,8 @@ msgid ""
 "<strong>Regular Talks</strong>. These are standard talks with slides,\n"
 "                                    alocated in slots of 60 minutes."
 msgstr ""
-"<strong>Reguliere presentaties</strong>. Dit zijn standaard presentaties met dia-slides,\n"
+"<strong>Reguliere presentaties</strong>. Dit zijn standaard presentaties met "
+"dia-slides,\n"
 "toegewezen in blokken van 60 minuten."
 
 #. module: website_event_track
@@ -282,10 +304,12 @@ msgid ""
 " * Red indicates something is preventing the progress of this track\n"
 " * Green indicates the track is ready to be pulled to the next stage"
 msgstr ""
-"De kanban status van een track geeft speciale situaties aan die van invloed zijn:\n"
+"De kanban status van een track geeft speciale situaties aan die van invloed "
+"zijn:\n"
 "* Grijs is de standaard situatie\n"
 "* Rood geeft aan dat iets de voortgang van deze track belemmert\n"
-"* Groen geeft aan dat de track gereed is om naar de volgende fase te worden gezet"
+"* Groen geeft aan dat de track gereed is om naar de volgende fase te worden "
+"gezet"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_needaction
@@ -323,8 +347,8 @@ msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
 msgstr ""
-"Voeg een beschrijving toe om je collega's te helpen de betekenis en het doel"
-" van de fase te begrijpen."
+"Voeg een beschrijving toe om je collega's te helpen de betekenis en het doel "
+"van de fase te begrijpen."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -381,10 +405,12 @@ msgstr "Pushmeldingen toestaan?"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "Allow video and audio recording of their\n"
-"                                    presentation, for publishing on our website."
+"                                    presentation, for publishing on our "
+"website."
 msgstr ""
 "Sta het opnemen van video en audio opnames van de\n"
-"                                    presentaties toe, voor het publiceren op onze website."
+"                                    presentaties toe, voor het publiceren op "
+"onze website."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__wishlisted_by_default
@@ -415,20 +441,26 @@ msgid ""
 "As key track cannot be un-favorited, this field store the partner choice to "
 "remove the reminder for key tracks."
 msgstr ""
-"Omdat een keytrack niet uit de favorieten kan worden gehaald, slaat dit veld"
-" de relatiekeuze op om de herinnering voor keytracks te verwijderen."
+"Omdat een keytrack niet uit de favorieten kan worden gehaald, slaat dit veld "
+"de relatiekeuze op om de herinnering voor keytracks te verwijderen."
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
-"As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
-"    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
-"    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
+"As you may have heard before, making your own furniture is actually not as "
+"difficult or as complicated as you think.\n"
+"    In fact, some projects are so easy anyone could successfully complete "
+"them. For example, making a cute stool out of\n"
+"    a old tire is a real piece of cake and if you’re in need of a coffee "
+"table you can easily put one together using\n"
 "    wood crates."
 msgstr ""
-"Zoals je misschien al eerder hebt gehoord, is het maken van je eigen meubels eigenlijk niet zo moeilijk of ingewikkeld als je denkt.\n"
-"      Sommige projecten zijn zelfs zo eenvoudig dat iedereen ze met succes kan voltooien. Bijvoorbeeld om er een schattig krukje van te maken.\n"
-"      Een oude band is een fluitje van een cent en als je een salontafel nodig hebt, zet je er gemakkelijk een in elkaar\n"
+"Zoals je misschien al eerder hebt gehoord, is het maken van je eigen meubels "
+"eigenlijk niet zo moeilijk of ingewikkeld als je denkt.\n"
+"      Sommige projecten zijn zelfs zo eenvoudig dat iedereen ze met succes "
+"kan voltooien. Bijvoorbeeld om er een schattig krukje van te maken.\n"
+"      Een oude band is een fluitje van een cent en als je een salontafel "
+"nodig hebt, zet je er gemakkelijk een in elkaar\n"
 "       gemaakt van houten kratten."
 
 #. module: website_event_track
@@ -978,7 +1010,6 @@ msgstr "Evenementen Progressive Web Apps"
 #. module: website_event_track
 #. openerp-web
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
-#: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_widget_reminder
 #, python-format
 msgid "Favorite On"
@@ -1212,8 +1243,8 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
-"If set, the talk will be set as favorite for each attendee registered to the"
-" event."
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
 msgstr ""
 "Indien ingesteld, wordt de presentatie als favoriet ingesteld voor elke "
 "deelnemer die is geregistreerd voor het evenement."
@@ -1308,8 +1339,7 @@ msgstr "In deze video laten we zien hoe hout wordt gemaakt in een zagerij."
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "In this video, I covered 6 tips and tricks to help out beginners:"
-msgstr ""
-"In deze video heb ik 6 tips en trucs behandeld om beginners te helpen:"
+msgstr "In deze video heb ik 6 tips en trucs behandeld om beginners te helpen:"
 
 #. module: website_event_track
 #. openerp-web
@@ -1491,8 +1521,8 @@ msgid ""
 "Link to Q&amp;A here! The time has come to hide those old block walls. Love "
 "simple and transformation type projects like this! :)-"
 msgstr ""
-"Link hier naar Q&amp;A! Het is tijd om die oude blokmuren te verbergen. Houd"
-" van eenvoudige en transformatie-achtige projecten zoals deze! :) -"
+"Link hier naar Q&amp;A! Het is tijd om die oude blokmuren te verbergen. Houd "
+"van eenvoudige en transformatie-achtige projecten zoals deze! :) -"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main_track
@@ -1809,8 +1839,8 @@ msgid ""
 "furniture!"
 msgstr ""
 "Waarschijnlijk een van de meest gestelde vragen die ik heb gekregen, is hoe "
-"ik begon met houtbewerking! In deze video deel ik met jullie hoe / waarom ik"
-" begon met het maken van meubels!"
+"ik begon met houtbewerking! In deze video deel ik met jullie hoe / waarom ik "
+"begon met het maken van meubels!"
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage0
@@ -2007,7 +2037,6 @@ msgstr "Reeks"
 
 #. module: website_event_track
 #. openerp-web
-#: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_widget_reminder
 #, python-format
@@ -2226,17 +2255,20 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
-"There are several variants of wood is available in the world but we are talking about most expensive\n"
-"    ones in the world and keeping to the point we have arranged ten most expensive wood."
+"There are several variants of wood is available in the world but we are "
+"talking about most expensive\n"
+"    ones in the world and keeping to the point we have arranged ten most "
+"expensive wood."
 msgstr ""
-"Er zijn verschillende varianten van hout verkrijgbaar in de wereld maar we hebben het over de duurste\n"
-"die in de wereld en door ons bij het punt te houden, hebben we de tien duurste houtsoorten geregeld."
+"Er zijn verschillende varianten van hout verkrijgbaar in de wereld maar we "
+"hebben het over de duurste\n"
+"die in de wereld en door ons bij het punt te houden, hebben we de tien "
+"duurste houtsoorten geregeld."
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
-"They will be created automatically once attendees start browsing your "
-"events."
+"They will be created automatically once attendees start browsing your events."
 msgstr ""
 "Ze worden automatisch gemaakt zodra bezoekers door je evenementen gaan "
 "bladeren."
@@ -2252,8 +2284,8 @@ msgid ""
 "This field holds the image used as mobile app icon on the website (PNG "
 "format)."
 msgstr ""
-"Dit veld bevat de afbeelding die wordt gebruikt als pictogram van de mobiele"
-" app op de website (PNG-formaat)."
+"Dit veld bevat de afbeelding die wordt gebruikt als pictogram van de mobiele "
+"app op de website (PNG-formaat)."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_res_config_settings__events_app_name
@@ -2316,11 +2348,15 @@ msgstr "Top 10 duurste hout ter wereld"
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
-"Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
-"    that there are hundreds of wood types exist around the globe following different properties and use."
+"Top most expensive wood in the world is quite interesting topic and several "
+"people may be surprised\n"
+"    that there are hundreds of wood types exist around the globe following "
+"different properties and use."
 msgstr ""
-"Het duurste hout ter wereld is een behoorlijk interessant onderwerp en verschillende mensen zullen misschien verrast zijn\n"
-"dat er over de hele wereld honderden houtsoorten bestaan, met verschillende eigenschappen en gebruik."
+"Het duurste hout ter wereld is een behoorlijk interessant onderwerp en "
+"verschillende mensen zullen misschien verrast zijn\n"
+"dat er over de hele wereld honderden houtsoorten bestaan, met verschillende "
+"eigenschappen en gebruik."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__track_id
@@ -2432,8 +2468,8 @@ msgid ""
 "Track Visitors store statistics on your events, including how many times "
 "tracks have been wishlisted."
 msgstr ""
-"Trackbezoekers slaan statistieken op over je evenementen, inclusief hoe vaak"
-" tracks op de verlanglijst zijn geplaatst."
+"Trackbezoekers slaan statistieken op over je evenementen, inclusief hoe vaak "
+"tracks op de verlanglijst zijn geplaatst."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_track_soon
@@ -2537,22 +2573,32 @@ msgstr "Aantal ongelezen berichten"
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
-"Use these simple steps to easily haul LONG lumber in a short box pickup truck.  A dose of carpenter's\n"
-"    ingenuity along with a couple boards, a sturdy strap and a few screws are all I use to easily haul\n"
-"    long boards from the lumberyard to the Next Level Carpentry shop or jobsite."
+"Use these simple steps to easily haul LONG lumber in a short box pickup "
+"truck.  A dose of carpenter's\n"
+"    ingenuity along with a couple boards, a sturdy strap and a few screws "
+"are all I use to easily haul\n"
+"    long boards from the lumberyard to the Next Level Carpentry shop or "
+"jobsite."
 msgstr ""
-"Gebruik deze eenvoudige stappen om gemakkelijk LANG hout te vervoeren in een pick-uptruck met korte bak. Een dosis timmerman\n"
-"vindingrijkheid samen met een paar planken, een stevige riem en een paar schroeven zijn alles wat ik gebruik om gemakkelijk te vervoeren\n"
-"lange planken van de houtzagerij naar de Next Level Timmerwerkplaats of bouwplaats."
+"Gebruik deze eenvoudige stappen om gemakkelijk LANG hout te vervoeren in een "
+"pick-uptruck met korte bak. Een dosis timmerman\n"
+"vindingrijkheid samen met een paar planken, een stevige riem en een paar "
+"schroeven zijn alles wat ik gebruik om gemakkelijk te vervoeren\n"
+"lange planken van de houtzagerij naar de Next Level Timmerwerkplaats of "
+"bouwplaats."
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
-"Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
-"    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
+"Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) "
+"allows lumber to be\n"
+"    cinched securely WITHOUT the need to tie and untie tricky or complicated "
+"knots."
 msgstr ""
-"Door een unieke wikkelmethode te gebruiken voor een spanband (GEEN elastische koorden !!!), kan er hout worden gemaakt\n"
-"veilig vastgemaakt ZONDER de noodzaak om lastige of gecompliceerde knopen te knopen en los te maken."
+"Door een unieke wikkelmethode te gebruiken voor een spanband (GEEN "
+"elastische koorden !!!), kan er hout worden gemaakt\n"
+"veilig vastgemaakt ZONDER de noodzaak om lastige of gecompliceerde knopen te "
+"knopen en los te maken."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
@@ -2594,8 +2640,7 @@ msgstr "Stem van de klant"
 #: model_terms:ir.actions.act_window,help:website_event_track.website_visitor_action_from_track
 msgid "Wait for visitors to add this track to their list of favorites"
 msgstr ""
-"Wacht tot bezoekers dit nummer aan hun lijst met favorieten hebben "
-"toegevoegd"
+"Wacht tot bezoekers dit nummer aan hun lijst met favorieten hebben toegevoegd"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
@@ -2761,8 +2806,8 @@ msgid ""
 "You have to enable push notifications to get reminders for your favorite "
 "tracks."
 msgstr ""
-"Je moet pushmeldingen inschakelen om herinneringen voor je favoriete nummers"
-" te krijgen."
+"Je moet pushmeldingen inschakelen om herinneringen voor je favoriete nummers "
+"te krijgen."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.pwa_offline

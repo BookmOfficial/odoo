@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_track
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Ahmed Aly <ahmed.aly@datenpol.at>, 2021
 # Raymond Vetter, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -16,10 +16,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_event_track
@@ -117,12 +117,19 @@ msgstr "<b>Einleitung zum Vortrag:</b>"
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
 msgid ""
 "<div>\n"
-"    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
-"    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
+"    Dear <t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    We are pleased to inform you that your proposal <t t-out=\"object.name "
+"or ''\">What This Event Is All About</t> has been accepted and confirmed for "
+"the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online "
+"Reveal</t>.\n"
 "    <br/>\n"
 "    You will find more details here:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
-"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object."
+"id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; "
+"text-decoration: none !important; background-color: #875A7B; border: 0px "
+"solid #875A7B; border-radius:3px\">\n"
 "            View Talk\n"
 "        </a>\n"
 "    </div>\n"
@@ -135,12 +142,19 @@ msgid ""
 "</div>"
 msgstr ""
 "<div>\n"
-"    Hallo<t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
-"    Wir freuen uns Ihnen mitteilen zu können, dass Ihr Beitrag <t t-out=\"object.name or ''\">Alles über diese Veranstaltung</t> eingegangen ist und für die Veranstaltung <t t-out=\"object.event_id.name or ''\">Online-Enthüllung der OpenWood-Kollektion</t>akzeptiert wurde.\n"
+"    Hallo<t t-out=\"object.partner_id.name or object.partner_name or "
+"''\">Brandon Freeman</t><br/>\n"
+"    Wir freuen uns Ihnen mitteilen zu können, dass Ihr Beitrag <t t-out="
+"\"object.name or ''\">Alles über diese Veranstaltung</t> eingegangen ist und "
+"für die Veranstaltung <t t-out=\"object.event_id.name or ''\">Online-"
+"Enthüllung der OpenWood-Kollektion</t>akzeptiert wurde.\n"
 "    <br/>\n"
 "    Mehr Details finden Sie hier:\n"
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
-"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object."
+"id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; "
+"text-decoration: none !important; background-color: #875A7B; border: 0px "
+"solid #875A7B; border-radius:3px\">\n"
 "            Talk anzeigen\n"
 "        </a>\n"
 "    </div>\n"
@@ -185,13 +199,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
-"                                        <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
-"                                        <span class=\"o_wetrack_proposal_error_message\"/>\n"
+"                                        <i class=\"fa fa-close mr4\" role="
+"\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+"                                        <span class="
+"\"o_wetrack_proposal_error_message\"/>\n"
 "                                    </span>"
 msgstr ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
-"                                        <i class=\"fa fa-close mr4\" role=\"img\" aria-label=\"Error\" title=\"Fehler\"/>\n"
-"                                        <span class=\"o_wetrack_proposal_error_message\"/>\n"
+"                                        <i class=\"fa fa-close mr4\" role="
+"\"img\" aria-label=\"Error\" title=\"Fehler\"/>\n"
+"                                        <span class="
+"\"o_wetrack_proposal_error_message\"/>\n"
 "                                    </span>"
 
 #. module: website_event_track
@@ -248,9 +266,11 @@ msgstr "<span>Stunden</span>"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<strong>Lightning Talks</strong>. These are 30 minutes talks on many\n"
-"                                    different topics. Most topics are accepted in lightning talks."
+"                                    different topics. Most topics are "
+"accepted in lightning talks."
 msgstr ""
-"<strong>Informative Vorträge</strong>. Es werden 30 Min. Vorträge zu verschiedenen\n"
+"<strong>Informative Vorträge</strong>. Es werden 30 Min. Vorträge zu "
+"verschiedenen\n"
 "Themen stattfinden. Die Themen und Vorträge wurden dabei vorausgewählt."
 
 #. module: website_event_track
@@ -280,10 +300,12 @@ msgid ""
 " * Red indicates something is preventing the progress of this track\n"
 " * Green indicates the track is ready to be pulled to the next stage"
 msgstr ""
-"Der Kanbanstatus eines Tracks zeigt spezielle Situationen an, die ihn betreffen:\n"
+"Der Kanbanstatus eines Tracks zeigt spezielle Situationen an, die ihn "
+"betreffen:\n"
 " * Grau zeigt eine Standardsituation an.\n"
 " * Rot zeigt an, das etwas den Fortschritt dieses Tracks blockiert.\n"
-" * Grün zeigt an, dass der Track bereit ist, in die nächste Stufe überführt zu werden."
+" * Grün zeigt an, dass der Track bereit ist, in die nächste Stufe überführt "
+"zu werden."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_needaction
@@ -321,8 +343,8 @@ msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
 msgstr ""
-"Fügen Sie eine Beschreibung hinzu, damit Ihre Kollegen die Bedeutung und den"
-" Nutzen dieser Phase verstehen."
+"Fügen Sie eine Beschreibung hinzu, damit Ihre Kollegen die Bedeutung und den "
+"Nutzen dieser Phase verstehen."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -379,7 +401,8 @@ msgstr "Push-Nachrichten erlauben?"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "Allow video and audio recording of their\n"
-"                                    presentation, for publishing on our website."
+"                                    presentation, for publishing on our "
+"website."
 msgstr ""
 "Erlaubniss zur Video und Audioaufzeichung \n"
 "                   des Vortrags zur Veröffentlichung auf unserer Website."
@@ -417,9 +440,12 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
 msgid ""
-"As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
-"    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
-"    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
+"As you may have heard before, making your own furniture is actually not as "
+"difficult or as complicated as you think.\n"
+"    In fact, some projects are so easy anyone could successfully complete "
+"them. For example, making a cute stool out of\n"
+"    a old tire is a real piece of cake and if you’re in need of a coffee "
+"table you can easily put one together using\n"
 "    wood crates."
 msgstr ""
 
@@ -964,7 +990,6 @@ msgstr ""
 #. module: website_event_track
 #. openerp-web
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
-#: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_widget_reminder
 #, python-format
 msgid "Favorite On"
@@ -1134,8 +1159,7 @@ msgstr "Hardware-Materialien in Möbelstücke integrieren"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid "How to optimize your sales, from leads to sales orders"
-msgstr ""
-"So können Sie Ihre Verkäufe steigern, von Leads bis hin zur Bestellung"
+msgstr "So können Sie Ihre Verkäufe steigern, von Leads bis hin zur Bestellung"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__id
@@ -1180,8 +1204,8 @@ msgstr "Wenn gewählt, ist das Senden einiger Nachrichten fehlgeschlagen."
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__is_visible_in_agenda
 msgid "If checked, the related tracks will be visible in the frontend."
 msgstr ""
-"Wenn diese Option aktiviert ist, werden die entsprechenden Titel im Frontend"
-" angezeigt."
+"Wenn diese Option aktiviert ist, werden die entsprechenden Titel im Frontend "
+"angezeigt."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__mail_template_id
@@ -1189,14 +1213,14 @@ msgid ""
 "If set an email will be sent to the customer when the track reaches this "
 "step."
 msgstr ""
-"Wurde eine E-Mail-Adresse definiert, wird eine E-Mail an den Kunden gesandt,"
-" wenn der Track diesen Schritt erreicht."
+"Wurde eine E-Mail-Adresse definiert, wird eine E-Mail an den Kunden gesandt, "
+"wenn der Track diesen Schritt erreicht."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
 msgid ""
-"If set, the talk will be set as favorite for each attendee registered to the"
-" event."
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
 msgstr ""
 "Wenn diese Option aktiviert ist, wird der Vortrag als Favorit für jeden für "
 "die Veranstaltung registrierten Teilnehmer festgelegt."
@@ -1756,8 +1780,8 @@ msgstr ""
 #, python-format
 msgid "Please enter either a contact email address or a contact phone number."
 msgstr ""
-"Bitte geben Sie eine E-Mail-Adresse oder Telefonnummer an, unter der wir Sie"
-" erreichen können."
+"Bitte geben Sie eine E-Mail-Adresse oder Telefonnummer an, unter der wir Sie "
+"erreichen können."
 
 #. module: website_event_track
 #. openerp-web
@@ -1993,7 +2017,6 @@ msgstr "Sequenz"
 #. module: website_event_track
 #. openerp-web
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
-#: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_widget_reminder
 #, python-format
 msgid "Set Favorite"
@@ -2210,15 +2233,16 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
-"There are several variants of wood is available in the world but we are talking about most expensive\n"
-"    ones in the world and keeping to the point we have arranged ten most expensive wood."
+"There are several variants of wood is available in the world but we are "
+"talking about most expensive\n"
+"    ones in the world and keeping to the point we have arranged ten most "
+"expensive wood."
 msgstr ""
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid ""
-"They will be created automatically once attendees start browsing your "
-"events."
+"They will be created automatically once attendees start browsing your events."
 msgstr ""
 "Sie werden automatisch erstellt, sobald die Teilnehmer beginnen, Ihre "
 "Veranstaltungen zu durchsuchen."
@@ -2265,8 +2289,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 msgid "This step is done. Click to block or set in progress."
 msgstr ""
-"Dieser Schritt ist abgeschlossen. Klicken Sie hier, um zu blockieren oder in"
-" Bearbeitung zu setzen."
+"Dieser Schritt ist abgeschlossen. Klicken Sie hier, um zu blockieren oder in "
+"Bearbeitung zu setzen."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -2300,8 +2324,10 @@ msgstr "Die 10 teuersten Holzsorten der Welt"
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
 msgid ""
-"Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
-"    that there are hundreds of wood types exist around the globe following different properties and use."
+"Top most expensive wood in the world is quite interesting topic and several "
+"people may be surprised\n"
+"    that there are hundreds of wood types exist around the globe following "
+"different properties and use."
 msgstr ""
 
 #. module: website_event_track
@@ -2517,16 +2543,21 @@ msgstr "Anzahl ungelesener Nachrichten"
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
-"Use these simple steps to easily haul LONG lumber in a short box pickup truck.  A dose of carpenter's\n"
-"    ingenuity along with a couple boards, a sturdy strap and a few screws are all I use to easily haul\n"
-"    long boards from the lumberyard to the Next Level Carpentry shop or jobsite."
+"Use these simple steps to easily haul LONG lumber in a short box pickup "
+"truck.  A dose of carpenter's\n"
+"    ingenuity along with a couple boards, a sturdy strap and a few screws "
+"are all I use to easily haul\n"
+"    long boards from the lumberyard to the Next Level Carpentry shop or "
+"jobsite."
 msgstr ""
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
-"Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
-"    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
+"Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) "
+"allows lumber to be\n"
+"    cinched securely WITHOUT the need to tie and untie tricky or complicated "
+"knots."
 msgstr ""
 
 #. module: website_event_track
