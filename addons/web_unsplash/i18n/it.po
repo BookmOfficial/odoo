@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* web_unsplash
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: web_unsplash
@@ -133,8 +133,8 @@ msgstr "Qualcosa è andato storto"
 #: code:addons/web_unsplash/static/src/xml/unsplash_image_widget.xml:0
 #, python-format
 msgid ""
-"The max number of searches is exceeded. Please retry in an hour or extend to"
-" a better account."
+"The max number of searches is exceeded. Please retry in an hour or extend to "
+"a better account."
 msgstr ""
 "È stato superato il numero massimo di ricerche. Riprovare tra un'ora o "
 "passare a un'account superiore."
