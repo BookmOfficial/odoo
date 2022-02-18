@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* survey
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: survey
@@ -185,19 +185,25 @@ msgstr ""
 #: model:survey.question,description:survey.survey_demo_quiz_p4_q6
 msgid ""
 "<div class=\"text-center\">\n"
-"                <div class=\"media_iframe_video\" data-oe-expression=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" style=\"width: 50%;\">\n"
+"                <div class=\"media_iframe_video\" data-oe-expression=\"//www."
+"youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" style=\"width: 50%;\">\n"
 "                    <div class=\"css_editable_mode_display\"/>\n"
-"                    <div class=\"media_iframe_video_size\" contenteditable=\"false\"/>\n"
-"                    <iframe src=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" frameborder=\"0\" contenteditable=\"false\"/>\n"
+"                    <div class=\"media_iframe_video_size\" contenteditable="
+"\"false\"/>\n"
+"                    <iframe src=\"//www.youtube.com/embed/7y4T6yv5L1k?"
+"autoplay=0&amp;rel=0\" frameborder=\"0\" contenteditable=\"false\"/>\n"
 "                </div><br/>\n"
 "            </div>\n"
 "        "
 msgstr ""
 "<div class=\"text-center\">\n"
-"                <div class=\"media_iframe_video\" data-oe-expression=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" style=\"width: 50%;\">\n"
+"                <div class=\"media_iframe_video\" data-oe-expression=\"//www."
+"youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" style=\"width: 50%;\">\n"
 "                    <div class=\"css_editable_mode_display\"/>\n"
-"                    <div class=\"media_iframe_video_size\" contenteditable=\"false\"/>\n"
-"                    <iframe src=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" frameborder=\"0\" contenteditable=\"false\"/>\n"
+"                    <div class=\"media_iframe_video_size\" contenteditable="
+"\"false\"/>\n"
+"                    <iframe src=\"//www.youtube.com/embed/7y4T6yv5L1k?"
+"autoplay=0&amp;rel=0\" frameborder=\"0\" contenteditable=\"false\"/>\n"
 "                </div><br/>\n"
 "            </div>\n"
 "        "
@@ -205,24 +211,32 @@ msgstr ""
 #. module: survey
 #: model:mail.template,body_html:survey.mail_template_certification
 msgid ""
-"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+"<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:"
+"Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
 "        <tbody>\n"
 "            <tr><td>\n"
-"                <!-- We use the logo of the company that created the survey (to handle multi company cases) -->\n"
-"                <a href=\"/\"><img t-attf-src=\"/logo.png?company={{ object.survey_id.create_uid.company_id.id }}\" style=\"vertical-align:baseline;max-width:100px;\"/></a>\n"
+"                <!-- We use the logo of the company that created the survey "
+"(to handle multi company cases) -->\n"
+"                <a href=\"/\"><img t-attf-src=\"/logo.png?company={{ object."
+"survey_id.create_uid.company_id.id }}\" style=\"vertical-align:baseline;max-"
+"width:100px;\"/></a>\n"
 "            </td><td style=\"text-align:right;vertical-align:middle;\">\n"
-"                    Certification: <t t-out=\"object.survey_id.display_name or ''\">Feedback Form</t>\n"
+"                    Certification: <t t-out=\"object.survey_id.display_name "
+"or ''\">Feedback Form</t>\n"
 "            </td></tr>\n"
 "        </tbody>\n"
 "    </table>\n"
-"    <table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
+"    <table style=\"width:600px;margin:0px auto;background:white;border:1px "
+"solid #e1e1e1;\">\n"
 "        <tbody>\n"
 "            <tr><td style=\"padding:15px 20px 10px 20px;\">\n"
-"                <p>Dear <span t-out=\"object.partner_id.name or 'participant'\">participant</span></p>\n"
+"                <p>Dear <span t-out=\"object.partner_id.name or "
+"'participant'\">participant</span></p>\n"
 "                <p>\n"
 "                    Here is, in attachment, your certification document for\n"
-"                        <strong t-out=\"object.survey_id.display_name or ''\">Feedback Form</strong>\n"
+"                        <strong t-out=\"object.survey_id.display_name or "
+"''\">Feedback Form</strong>\n"
 "                </p>\n"
 "                <p>Congratulations for succeeding the test!</p>\n"
 "            </td></tr>\n"
@@ -237,15 +251,19 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
-"        Dear <t t-out=\"object.partner_id.name or 'participant'\">participant</t><br/><br/>\n"
+"        Dear <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t><br/><br/>\n"
 "        <t t-if=\"object.survey_id.certification\">\n"
 "            You have been invited to take a new certification.\n"
 "        </t>\n"
 "        <t t-else=\"\">\n"
-"            We are conducting a survey and your response would be appreciated.\n"
+"            We are conducting a survey and your response would be "
+"appreciated.\n"
 "        </t>\n"
 "        <div style=\"margin: 16px 0px 16px 0px;\">\n"
-"            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"            <a t-att-href=\"(object.get_start_url())\" style=\"background-"
+"color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
+"#fff; border-radius: 5px; font-size:13px;\">\n"
 "                <t t-if=\"object.survey_id.certification\">\n"
 "                    Start Certification\n"
 "                </t>\n"
@@ -255,7 +273,8 @@ msgid ""
 "            </a>\n"
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
-"            Please answer the survey for <t t-out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+"            Please answer the survey for <t t-out=\"format_date(object."
+"deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
 "        </t>\n"
 "        Thank you for your participation.\n"
 "    </p>\n"
@@ -265,10 +284,12 @@ msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
-msgid "<i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric\">123..</i>"
+msgid ""
+"<i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numeric"
+"\">123..</i>"
 msgstr ""
-"<i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" "
-"title=\"Numerico\">123..</i>"
+"<i class=\"fa fa-2x\" role=\"img\" aria-label=\"Numeric\" title=\"Numerico"
+"\">123..</i>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -330,10 +351,12 @@ msgstr "<i class=\"fa fa-dot-circle-o fa-lg\"/> risposta"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid ""
-"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Download certification\"/>\n"
+"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
+"certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
 msgstr ""
-"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download certification\" title=\"Scarica certificazione\"/>\n"
+"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
+"certification\" title=\"Scarica certificazione\"/>\n"
 "                                        Scarica certificazione"
 
 #. module: survey
@@ -355,11 +378,11 @@ msgstr "<i class=\"fa fa-list-ol\"/> Più comuni"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
-"<i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" "
-"title=\"Single Line\"/>"
+"<i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title="
+"\"Single Line\"/>"
 msgstr ""
-"<i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" "
-"title=\"Riga singola\"/>"
+"<i class=\"fa fa-minus fa-4x\" role=\"img\" aria-label=\"Single Line\" title="
+"\"Riga singola\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -375,12 +398,14 @@ msgstr "<i class=\"fa fa-times\"/> Cancella tutti i filtri"
 #: model:survey.question,description:survey.survey_demo_quiz_p4_q3
 msgid ""
 "<p>\n"
-"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/coniferous.jpg\"/><br/>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" "
+"src=\"/survey/static/img/coniferous.jpg\"/><br/>\n"
 "            </p>\n"
 "        "
 msgstr ""
 "<p>\n"
-"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/coniferous.jpg\"/><br/>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" "
+"src=\"/survey/static/img/coniferous.jpg\"/><br/>\n"
 "            </p>\n"
 "        "
 
@@ -388,12 +413,16 @@ msgstr ""
 #: model:survey.question,description:survey.survey_demo_quiz_p4_q4
 msgid ""
 "<p>\n"
-"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/pinus_sylvestris.jpg\" style=\"width: 100%;\"/><br/>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" "
+"src=\"/survey/static/img/pinus_sylvestris.jpg\" style=\"width: 100%;\"/><br/"
+">\n"
 "            </p>\n"
 "        "
 msgstr ""
 "<p>\n"
-"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/pinus_sylvestris.jpg\" style=\"width: 100%;\"/><br/>\n"
+"                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" "
+"src=\"/survey/static/img/pinus_sylvestris.jpg\" style=\"width: 100%;\"/><br/"
+">\n"
 "            </p>\n"
 "        "
 
@@ -401,12 +430,14 @@ msgstr ""
 #: model:survey.question,description:survey.survey_demo_quiz_p4
 msgid ""
 "<p>\n"
-"                We like to say that the apple doesn't fall far from the tree, so here are trees.\n"
+"                We like to say that the apple doesn't fall far from the "
+"tree, so here are trees.\n"
 "            </p>\n"
 "        "
 msgstr ""
 "<p>\n"
-"                Ci piace dire che la mela non cade mai lontano dall'albero. Quindi, ecco gli alberi.\n"
+"                Ci piace dire che la mela non cade mai lontano dall'albero. "
+"Quindi, ecco gli alberi.\n"
 "            </p>\n"
 "        "
 
@@ -417,8 +448,7 @@ msgstr "<p>Una mela al giorno leva il medico di torno.</p>"
 
 #. module: survey
 #: model:survey.survey,description:survey.survey_demo_burger_quiz
-msgid ""
-"<p>Choose your favourite subject and show how good you are. Ready ?</p>"
+msgid "<p>Choose your favourite subject and show how good you are. Ready ?</p>"
 msgstr ""
 "<p>Scegli l'argomento che preferisci e mostra la tua bravura. Pronto ?</p>"
 
@@ -464,8 +494,8 @@ msgstr "<p>Metti alla prova le tue competenze di vendita.</p>"
 #. module: survey
 #: model:survey.question,description:survey.survey_feedback_p1
 msgid ""
-"<p>This section is about general information about you. Answering them helps"
-" qualifying your answers.</p>"
+"<p>This section is about general information about you. Answering them helps "
+"qualifying your answers.</p>"
 msgstr ""
 "<p>Sezione relativa a informazioni personali generali. Completarla aiuta a "
 "qualificare le risposte.</p>"
@@ -478,18 +508,20 @@ msgstr "<p>Questa sezione riguarda l'esperienza con il nostro e-commerce.</p>"
 #. module: survey
 #: model:survey.survey,description:survey.survey_demo_quiz
 msgid ""
-"<p>This small quiz will test your knowledge about our Company. Be prepared "
-"!</p>"
+"<p>This small quiz will test your knowledge about our Company. Be prepared !"
+"</p>"
 msgstr ""
 "<p>Questo breve quiz misura la conoscenza dell'azienda. Preparati !</p>"
 
 #. module: survey
 #: model:survey.survey,description:survey.survey_feedback
 msgid ""
-"<p>This survey allows you to give a feedback about your experience with our products.\n"
+"<p>This survey allows you to give a feedback about your experience with our "
+"products.\n"
 "    Filling it helps us improving your experience.</p>"
 msgstr ""
-"<p>Questo sondaggio consente di fornire un riscontro riguardo la tua esperienza con i nostri prodotti.\n"
+"<p>Questo sondaggio consente di fornire un riscontro riguardo la tua "
+"esperienza con i nostri prodotti.\n"
 "    Compilandolo ci aiuti a migliorarla.</p>"
 
 #. module: survey
@@ -500,20 +532,20 @@ msgstr "<p>Potremmo essere interessati ai tuoi suggerimenti.</p>"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
-"<span attrs=\"{'invisible': [('is_time_limited', '=', False)]}\"> "
-"seconds</span>"
+"<span attrs=\"{'invisible': [('is_time_limited', '=', False)]}\"> seconds</"
+"span>"
 msgstr ""
-"<span attrs=\"{'invisible': [('is_time_limited', '=', False)]}\"> "
-"secondi</span>"
+"<span attrs=\"{'invisible': [('is_time_limited', '=', False)]}\"> secondi</"
+"span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_inner
 msgid ""
-"<span class=\"badge badge-primary only_left_radius\"><i class=\"fa fa-"
-"filter\" role=\"img\" aria-label=\"Filter\" title=\"Filter\"/></span>"
+"<span class=\"badge badge-primary only_left_radius\"><i class=\"fa fa-filter"
+"\" role=\"img\" aria-label=\"Filter\" title=\"Filter\"/></span>"
 msgstr ""
-"<span class=\"badge badge-primary only_left_radius\"><i class=\"fa fa-"
-"filter\" role=\"img\" aria-label=\"Filter\" title=\"Filtro\"/></span>"
+"<span class=\"badge badge-primary only_left_radius\"><i class=\"fa fa-filter"
+"\" role=\"img\" aria-label=\"Filter\" title=\"Filtro\"/></span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.question_result_number_or_date
@@ -541,14 +573,14 @@ msgid ""
 "<span class=\"font-weight-bold text-muted ml-2 d-none d-md-inline\"> or "
 "press Enter</span>"
 msgstr ""
-"<span class=\"font-weight-bold text-muted ml-2 d-none d-md-inline\"> o premi"
-" Invio</span>"
+"<span class=\"font-weight-bold text-muted ml-2 d-none d-md-inline\"> o premi "
+"Invio</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
 msgid ""
-"<span class=\"font-weight-bold text-muted ml-2 d-none d-md-inline\">or press"
-" Enter</span>"
+"<span class=\"font-weight-bold text-muted ml-2 d-none d-md-inline\">or press "
+"Enter</span>"
 msgstr ""
 "<span class=\"font-weight-bold text-muted ml-2 d-none d-md-inline\">o premi "
 "Invio</span>"
@@ -556,20 +588,28 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_company_count', '&lt;', 2)]}\">Certifications</span>\n"
-"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_company_count', '&gt;', 1)]}\">Certification</span>"
+"<span class=\"o_stat_text\" attrs=\"{'invisible': "
+"[('certifications_company_count', '&lt;', 2)]}\">Certifications</span>\n"
+"                        <span class=\"o_stat_text\" attrs=\"{'invisible': "
+"[('certifications_company_count', '&gt;', 1)]}\">Certification</span>"
 msgstr ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_company_count', '==', 1)]}\">certificazioni</span>\n"
-"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_company_count', '!=', 1)]}\">certificazione</span>"
+"<span class=\"o_stat_text\" attrs=\"{'invisible': "
+"[('certifications_company_count', '==', 1)]}\">certificazioni</span>\n"
+"                        <span class=\"o_stat_text\" attrs=\"{'invisible': "
+"[('certifications_company_count', '!=', 1)]}\">certificazione</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_count', '&lt;', 2)]}\">Certifications</span>\n"
-"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_count', '&gt;', 1)]}\">Certification</span>"
+"<span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_count', "
+"'&lt;', 2)]}\">Certifications</span>\n"
+"                        <span class=\"o_stat_text\" attrs=\"{'invisible': "
+"[('certifications_count', '&gt;', 1)]}\">Certification</span>"
 msgstr ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_count', '==', 1)]}\">certificazioni</span>\n"
-"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_count', '!=', 1)]}\">certificazione</span>"
+"<span class=\"o_stat_text\" attrs=\"{'invisible': [('certifications_count', "
+"'==', 1)]}\">certificazioni</span>\n"
+"                        <span class=\"o_stat_text\" attrs=\"{'invisible': "
+"[('certifications_count', '!=', 1)]}\">certificazione</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
@@ -601,8 +641,10 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_session_code
 msgid ""
-"<span class=\"o_survey_session_error_invalid_code d-none\">Code is incorrect.</span>\n"
-"                                    <span class=\"o_survey_session_error_closed d-none\">Session is finished.</span>"
+"<span class=\"o_survey_session_error_invalid_code d-none\">Code is incorrect."
+"</span>\n"
+"                                    <span class="
+"\"o_survey_session_error_closed d-none\">Session is finished.</span>"
 msgstr ""
 
 #. module: survey
@@ -620,8 +662,7 @@ msgstr "<span class=\"text-muted\">Successo</span>"
 msgid ""
 "<span>\"Red\" is not a category, I know what you are trying to do ;)</span>"
 msgstr ""
-"<span>\"Rosso\" non è una categoria, so cosa stai cercando di fare "
-";-)</span>"
+"<span>\"Rosso\" non è una categoria, so cosa stai cercando di fare ;-)</span>"
 
 #. module: survey
 #: model:survey.question,description:survey.survey_demo_quiz_p3_q6
@@ -637,8 +678,7 @@ msgstr "<span>Data</span>"
 #. module: survey
 #: model:survey.question,description:survey.survey_demo_quiz_p5_q1
 msgid ""
-"<span>If you don't like us, please try to be as objective as "
-"possible.</span>"
+"<span>If you don't like us, please try to be as objective as possible.</span>"
 msgstr ""
 "<span>Se non siamo di tuo gradimento, cerca di essere il più obiettivo "
 "possibile.</span>"
@@ -657,8 +697,8 @@ msgstr "<span>Il nostro celebre leader !</span>"
 #: model:survey.question,description:survey.survey_demo_quiz_p3_q3
 msgid "<span>Our sales people have an advantage, but you can do it !</span>"
 msgstr ""
-"<span>I nostri addetti alle vendite sono avvantaggiati, ma tu puoi farcela "
-"!</span>"
+"<span>I nostri addetti alle vendite sono avvantaggiati, ma tu puoi farcela !"
+"</span>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
@@ -843,8 +883,8 @@ msgid ""
 "All \"Is a scored question = True\" and \"Question Type: Date\" questions "
 "need an answer"
 msgstr ""
-"Risposta obbligatoria per tutte le domande con \"Domanda con punteggio = "
-"Vero\" e \"Tipo di domanda: data\""
+"Risposta obbligatoria per tutte le domande con \"Domanda con punteggio = Vero"
+"\" e \"Tipo di domanda: data\""
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_question_scored_datetime_have_answers
@@ -852,8 +892,8 @@ msgid ""
 "All \"Is a scored question = True\" and \"Question Type: Datetime\" "
 "questions need an answer"
 msgstr ""
-"Risposta obbligatoria per tutte le domande con \"Domanda con punteggio = "
-"Vero\" e \"Tipo di domanda: data e ora\""
+"Risposta obbligatoria per tutte le domande con \"Domanda con punteggio = Vero"
+"\" e \"Tipo di domanda: data e ora\""
 
 #. module: survey
 #: model:ir.model.fields.selection,name:survey.selection__survey_survey__questions_selection__all
@@ -1492,7 +1532,6 @@ msgstr ""
 
 #. module: survey
 #: code:addons/survey/models/survey_survey.py:0
-#: code:addons/survey/models/survey_survey.py:0
 #, python-format
 msgid ""
 "Creating token for external people is not allowed for surveys requesting "
@@ -1601,8 +1640,7 @@ msgstr "Descrizione"
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form
 msgid "Design easily your survey, send invitations and analyze answers."
 msgstr ""
-"Realizza facilmente un sondaggio, spedisci gli inviti e analizza le "
-"risposte."
+"Realizza facilmente un sondaggio, spedisci gli inviti e analizza le risposte."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_2
@@ -1638,8 +1676,8 @@ msgstr "Nome visualizzato"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__allow_value_image
 msgid ""
-"Display images in addition to answer label. Valid only for simple / multiple"
-" choice questions."
+"Display images in addition to answer label. Valid only for simple / multiple "
+"choice questions."
 msgstr ""
 "Visualizza immagini oltre all'etichetta della risposta. Valido solo per "
 "domande a risposta semplice / multipla."
@@ -2088,8 +2126,8 @@ msgid ""
 "If a customer purchases a product on 6 January 2020, what is the latest day "
 "we expect to ship it?"
 msgstr ""
-"Se un cliente acquista un prodotto il 6 gennaio 2020, qual è l'ultimo giorno"
-" utile previsto per l'invio?"
+"Se un cliente acquista un prodotto il 6 gennaio 2020, qual è l'ultimo giorno "
+"utile previsto per l'invio?"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__message_needaction
@@ -2108,8 +2146,8 @@ msgstr "Se selezionata, alcuni messaggi presentano un errore di consegna."
 msgid ""
 "If checked, this option will save the user's answer as its email address."
 msgstr ""
-"Se selezionata, l'opzione salva la risposta dell'utente come suo indirizzo "
-"e-mail."
+"Se selezionata, l'opzione salva la risposta dell'utente come suo indirizzo e-"
+"mail."
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__save_as_nickname
@@ -2121,10 +2159,12 @@ msgstr ""
 #: model:ir.model.fields,help:survey.field_survey_question__is_conditional
 msgid ""
 "If checked, this question will be displayed only \n"
-"        if the specified conditional answer have been selected in a previous question"
+"        if the specified conditional answer have been selected in a previous "
+"question"
 msgstr ""
 "Se selezionata, la domanda viene visualizzata solo \n"
-"        se in una delle precedenti è stata selezionata la risposta condizionata specificata"
+"        se in una delle precedenti è stata selezionata la risposta "
+"condizionata specificata"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__users_can_go_back
@@ -2279,8 +2319,8 @@ msgstr "In quale nazione è stata sviluppata la tecnica Bonsai ?"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__is_scored_question
 msgid ""
-"Include this question as part of quiz scoring. Requires an answer and answer"
-" score to be taken into account."
+"Include this question as part of quiz scoring. Requires an answer and answer "
+"score to be taken into account."
 msgstr ""
 "Include la domanda come parte di un quiz a punteggio. Richiede che venga "
 "considerata una risposta con relativo punteggio."
@@ -2411,8 +2451,8 @@ msgstr "Etichette usate per le scelte proposte: righe di matrice"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__suggested_answer_ids
 msgid ""
-"Labels used for proposed choices: simple choice, multiple choice and columns"
-" of matrix"
+"Labels used for proposed choices: simple choice, multiple choice and columns "
+"of matrix"
 msgstr ""
 "Etichette usate per le scelte proposte: scelta semplice, scelta multipla e "
 "colonne di matrice"
@@ -2926,7 +2966,6 @@ msgstr "Tutte le domande in una pagina"
 
 #. module: survey
 #: code:addons/survey/models/survey_survey.py:0
-#: code:addons/survey/models/survey_survey.py:0
 #, python-format
 msgid "Only survey users can manage sessions."
 msgstr "Le sessioni possono essere gestite solo dagli utenti dei sondaggi."
@@ -2941,8 +2980,8 @@ msgstr "Apri gestore sessioni"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
-"a placeholder expression that provides the appropriate language, e.g. {{ "
-"object.partner_id.lang }}."
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
 msgstr ""
 "Lingua di traduzione opzionale (codice ISO) da selezionare quando si invia "
 "un'email. Se non impostato, verrà usata la versione inglese. Di solito "
@@ -2961,7 +3000,6 @@ msgid "Options"
 msgstr "Opzioni"
 
 #. module: survey
-#: code:addons/survey/models/survey_question.py:0
 #: code:addons/survey/models/survey_question.py:0
 #, python-format
 msgid "Other (see comments)"
@@ -3464,10 +3502,12 @@ msgstr "Seleziona tutti i prodotti venduti a 100 € o più"
 #: model:ir.model.fields,help:survey.field_survey_invite__model_object_field
 msgid ""
 "Select target field from the related document model.\n"
-"If it is a relationship field you will be able to select a target field at the destination of the relationship."
+"If it is a relationship field you will be able to select a target field at "
+"the destination of the relationship."
 msgstr ""
 "Selezionare il campo di destinazione dal model del documento relativo.\n"
-"Se è un campo relazione sarà possibile selezionare un campo come destinazione della relazione."
+"Se è un campo relazione sarà possibile selezionare un campo come "
+"destinazione della relazione."
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p3_q3
@@ -3932,8 +3972,8 @@ msgstr "La risposta inserita non è valida."
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_attempts_limit_check
 msgid ""
-"The attempts limit needs to be a positive number if the survey has a limited"
-" number of attempts."
+"The attempts limit needs to be a positive number if the survey has a limited "
+"number of attempts."
 msgstr ""
 "Se il sondaggio ha un limite di tentativi, questo deve essere un numero "
 "positivo."
@@ -3974,9 +4014,9 @@ msgid ""
 "use this to give the purpose and guidelines to your candidates before they "
 "start it."
 msgstr ""
-"La descrizione viene visualizzata nella pagina principale del sondaggio. Può"
-" essere utilizzata per fornire ai candidati, prima di iniziare, lo scopo e "
-"le linee guida."
+"La descrizione viene visualizzata nella pagina principale del sondaggio. Può "
+"essere utilizzata per fornire ai candidati, prima di iniziare, lo scopo e le "
+"linee guida."
 
 #. module: survey
 #: code:addons/survey/wizard/survey_invite.py:0
@@ -4003,8 +4043,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q2_row1
 msgid "The new layout and design is fresh and up-to-date"
-msgstr ""
-"La nuova struttura e Il design sono innovativi e al passo con i tempi "
+msgstr "La nuova struttura e Il design sono innovativi e al passo con i tempi "
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_403_page
@@ -4041,11 +4080,11 @@ msgstr "Sondaggio con tempo massimo"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_start_time
 msgid ""
-"The time at which the current question has started, used to handle the timer"
-" for attendees."
+"The time at which the current question has started, used to handle the timer "
+"for attendees."
 msgstr ""
-"L'orario nel quale è iniziata la domanda corrente, utilizzato per gestire il"
-" timer per i partecipanti."
+"L'orario nel quale è iniziata la domanda corrente, utilizzato per gestire il "
+"timer per i partecipanti."
 
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_time_limit_check
@@ -4074,8 +4113,8 @@ msgstr "Riscontrato un errore durante la validazione del sondaggio."
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__column_nb
 msgid ""
-"These options refer to col-xx-[12|6|4|3|2] classes in Bootstrap for "
-"dropdown-based simple and multiple choice questions."
+"These options refer to col-xx-[12|6|4|3|2] classes in Bootstrap for dropdown-"
+"based simple and multiple choice questions."
 msgstr ""
 "Le opzioni si riferiscono alle classi col-xx-[12|6|4|3|2] di Bootstrap per "
 "domande a scelta semplice e multipla."
@@ -4109,11 +4148,11 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_code
 msgid ""
-"This code will be used by your attendees to reach your session. Feel free to"
-" customize it however you like!"
+"This code will be used by your attendees to reach your session. Feel free to "
+"customize it however you like!"
 msgstr ""
-"Questo codice viene utilizzato dai partecipanti per raggiungere la sessione,"
-" può essere personalizzato a piacere."
+"Questo codice viene utilizzato dai partecipanti per raggiungere la sessione, "
+"può essere personalizzato a piacere."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_button_form_view
@@ -4142,15 +4181,14 @@ msgid ""
 "This list of emails of recipients will not be converted in contacts.        "
 "Emails must be separated by commas, semicolons or newline."
 msgstr ""
-"La lista con le e-mail dei destinatari non viene convertita in contatti."
-"        Le e-mail devono essere separate da virgole, punti e virgola oppure "
-"a capo."
+"La lista con le e-mail dei destinatari non viene convertita in "
+"contatti.        Le e-mail devono essere separate da virgole, punti e "
+"virgola oppure a capo."
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__description_done
 msgid "This message will be displayed when survey is completed"
-msgstr ""
-"Questo messaggio viene mostrato quando il sondaggio è stato completato"
+msgstr "Questo messaggio viene mostrato quando il sondaggio è stato completato"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_form
@@ -4237,8 +4275,8 @@ msgstr "Domanda con risposta obbligatoria."
 #: code:addons/survey/wizard/survey_invite.py:0
 #, python-format
 msgid ""
-"This survey does not allow external people to participate. You should create"
-" user accounts or update survey access mode accordingly."
+"This survey does not allow external people to participate. You should create "
+"user accounts or update survey access mode accordingly."
 msgstr ""
 "Il sondaggio non consente la partecipazione di persone esterne. Devono "
 "essere creati account utente o aggiornati di conseguenza gli accessi al "
@@ -4405,8 +4443,8 @@ msgid ""
 "Used on randomized sections to take X random questions from all the "
 "questions of that section."
 msgstr ""
-"Utilizzato nelle sezioni arbitrarie per prelevare X domande casuali da tutte"
-" quelle presenti nella sezione."
+"Utilizzato nelle sezioni arbitrarie per prelevare X domande casuali da tutte "
+"quelle presenti nella sezione."
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_feedback_p2_q1_sug2
@@ -4631,8 +4669,7 @@ msgstr "Qual è il vulcano più alto d'Europa ?"
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p2_q1
 msgid "Which of the following words would you use to describe our products ?"
-msgstr ""
-"Quali delle seguenti parole useresti per descrivere i nostri prodotti?"
+msgstr "Quali delle seguenti parole useresti per descrivere i nostri prodotti?"
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p3_q2
@@ -4687,19 +4724,23 @@ msgstr "Inverno"
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
 "YYYY-MM-DD\n"
-"                                        <i class=\"fa fa-calendar fa-2x\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+"                                        <i class=\"fa fa-calendar fa-2x\" "
+"role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "AAAA-MM-GG\n"
-"                                        <i class=\"fa fa-calendar fa-2x\" role=\"img\" aria-label=\"Calendar\" title=\"Calendario\"/>"
+"                                        <i class=\"fa fa-calendar fa-2x\" "
+"role=\"img\" aria-label=\"Calendar\" title=\"Calendario\"/>"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
 "YYYY-MM-DD hh:mm:ss\n"
-"                                        <i class=\"fa fa-calendar fa-2x\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
+"                                        <i class=\"fa fa-calendar fa-2x\" "
+"role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
 "AAAA-MM-GG oo:mm:ss\n"
-"                                        <i class=\"fa fa-calendar fa-2x\" role=\"img\" aria-label=\"Calendar\" title=\"Calendario\"/>"
+"                                        <i class=\"fa fa-calendar fa-2x\" "
+"role=\"img\" aria-label=\"Calendar\" title=\"Calendario\"/>"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_quiz_p4_q6_sug1
@@ -4726,8 +4767,7 @@ msgstr ""
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_certification_check
 msgid ""
-"You can only create certifications for surveys that have a scoring "
-"mechanism."
+"You can only create certifications for surveys that have a scoring mechanism."
 msgstr ""
 "Le certificazioni possono essere create solo per sondaggi con un meccanismo "
 "a punteggi."
