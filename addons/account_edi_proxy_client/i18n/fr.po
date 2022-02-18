@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_edi_proxy_client
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Chaplet34 <charleskolie2@gmail.com>, 2021
 # Gwladys Jouble <g.jouble@vieconnect.io>, 2021
 # Cécile Collart <cco@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -16,10 +16,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:19+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: account_edi_proxy_client
@@ -125,8 +125,8 @@ msgstr "La clé pour crypter toutes les données de l'utilisateur"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,help:account_edi_proxy_client.field_account_edi_proxy_client_user__edi_identification
 msgid ""
-"The unique id that identifies this user for on the edi format, typically the"
-" vat"
+"The unique id that identifies this user for on the edi format, typically the "
+"vat"
 msgstr ""
 
 #. module: account_edi_proxy_client
