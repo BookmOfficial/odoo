@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_event_track_live
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: website_event_track_live
@@ -40,8 +40,7 @@ msgstr ""
 
 #. module: website_event_track_live
 #: model:ir.model.fields,help:website_event_track_live.field_event_track__youtube_video_url
-msgid ""
-"Configure this URL so that event attendees can see your Track in video!"
+msgid "Configure this URL so that event attendees can see your Track in video!"
 msgstr ""
 
 #. module: website_event_track_live
@@ -52,8 +51,8 @@ msgstr "Session d'événement"
 #. module: website_event_track_live
 #: model:ir.model.fields,help:website_event_track_live.field_event_track__youtube_video_id
 msgid ""
-"Extracted from the video URL and used to infer various links "
-"(embed/thumbnail/...)"
+"Extracted from the video URL and used to infer various links (embed/"
+"thumbnail/...)"
 msgstr ""
 
 #. module: website_event_track_live
@@ -73,7 +72,6 @@ msgstr ""
 
 #. module: website_event_track_live
 #. openerp-web
-#: code:addons/website_event_track_live/static/src/xml/website_event_track_live_templates.xml:0
 #: code:addons/website_event_track_live/static/src/xml/website_event_track_live_templates.xml:0
 #, python-format
 msgid "Replay Video"
@@ -95,7 +93,6 @@ msgstr ""
 
 #. module: website_event_track_live
 #. openerp-web
-#: code:addons/website_event_track_live/static/src/xml/website_event_track_live_templates.xml:0
 #: code:addons/website_event_track_live/static/src/xml/website_event_track_live_templates.xml:0
 #, python-format
 msgid "You just watched:"
