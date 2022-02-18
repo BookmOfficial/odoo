@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:19+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_check_printing
@@ -160,7 +160,6 @@ msgstr "Anzeigename"
 
 #. module: account_check_printing
 #: code:addons/account_check_printing/models/account_payment.py:0
-#: code:addons/account_check_printing/models/account_payment.py:0
 #, python-format
 msgid "Go to the configuration panel"
 msgstr "Benutzen Sie das Hauptmenü"
@@ -174,8 +173,8 @@ msgstr "ID"
 #: code:addons/account_check_printing/models/account_payment.py:0
 #, python-format
 msgid ""
-"In order to print multiple checks at once, they must belong to the same bank"
-" journal."
+"In order to print multiple checks at once, they must belong to the same bank "
+"journal."
 msgstr ""
 "Zum Druck mehrerer Schecks, müssen diese zum gleichen Bankjournal gehören."
 
@@ -214,11 +213,17 @@ msgstr "Manuelle Nummerierungen"
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
 "Manual: Pay or Get paid by any method outside of Odoo.\n"
-"Payment Acquirers: Each payment acquirer has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
+"Payment Acquirers: Each payment acquirer has its own Payment Method. Request "
+"a transaction on/to a card thanks to a payment token saved by the partner "
+"when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
-"Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
-"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
-"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
+"Batch Deposit: Collect several customer checks at once generating and "
+"submitting a batch deposit to your bank. Module account_batch_payment is "
+"necessary.\n"
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
+"Transfer file to your bank. Module account_sepa is necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your "
+"partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
 
 #. module: account_check_printing
@@ -275,8 +280,8 @@ msgstr ""
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
 msgid ""
-"Please enter the number of the first pre-printed check that you are about to"
-" print on."
+"Please enter the number of the first pre-printed check that you are about to "
+"print on."
 msgstr ""
 "Bitte geben Sie die Nummer für den ersten vorab auszudruckenden Scheck ein."
 
@@ -343,10 +348,12 @@ msgstr "Rechter Rand"
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_layout
 #: model:ir.model.fields,help:account_check_printing.field_res_config_settings__account_check_printing_layout
 msgid ""
-"Select the format corresponding to the check paper you will be printing your checks on.\n"
+"Select the format corresponding to the check paper you will be printing your "
+"checks on.\n"
 "In order to disable the printing feature, select 'None'."
 msgstr ""
-"Wählen Sie das Format aus, das dem Kontrollpapier entspricht, auf dem Sie Ihre Schecks drucken möchten.\n"
+"Wählen Sie das Format aus, das dem Kontrollpapier entspricht, auf dem Sie "
+"Ihre Schecks drucken möchten.\n"
 "Um die Druckfunktion zu deaktivieren, wählen Sie \"Keine\"."
 
 #. module: account_check_printing
@@ -388,8 +395,8 @@ msgid ""
 "the bank, you can only use a greater number."
 msgstr ""
 "Die letzte Nummer für einen Scheck war %s. Um eine Ablehnung eines Schecks "
-"seitens der Bank zu verhindern, müssen Se auf jeden Fall eine größere Nummer"
-" wählen."
+"seitens der Bank zu verhindern, müssen Se auf jeden Fall eine größere Nummer "
+"wählen."
 
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__check_number
@@ -419,8 +426,10 @@ msgid ""
 "This option allows you to print the date label on the check as per CPA.\n"
 "Disable this if your pre-printed check includes the date label."
 msgstr ""
-"Mit dieser Option können Sie das Datumsetikett gemäß CPA auf den Scheck drucken.\n"
-"Deaktivieren Sie dies, wenn Ihr vorgedruckter Scheck das Datumsetikett enthält."
+"Mit dieser Option können Sie das Datumsetikett gemäß CPA auf den Scheck "
+"drucken.\n"
+"Deaktivieren Sie dies, wenn Ihr vorgedruckter Scheck das Datumsetikett "
+"enthält."
 
 #. module: account_check_printing
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
@@ -447,6 +456,6 @@ msgid ""
 "You have to choose a check layout. For this, go in Invoicing/Accounting "
 "Settings, search for 'Checks layout' and set one."
 msgstr ""
-"Sie müssen ein Scheck-Layout wählen. Gehen Sie dazu in "
-"Rechnungs-/Buchhaltungseinstellungen, suchen Sie nach 'Schecklayout' und "
-"stellen Sie eines ein."
+"Sie müssen ein Scheck-Layout wählen. Gehen Sie dazu in Rechnungs-/"
+"Buchhaltungseinstellungen, suchen Sie nach 'Schecklayout' und stellen Sie "
+"eines ein."
