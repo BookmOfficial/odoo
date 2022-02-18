@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* google_drive
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -13,28 +13,47 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 msgid ""
 "<b>To create a new filter:</b><br/>\n"
-"                                - Go to the Odoo document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
-"                                - In this \"Search\" view, select the option \"Save Current Filter\", enter the name (Ex: Sales Department)<br/>\n"
-"                                - If you select \"Share with all users\", link of google document in \"More\" options will appear for all users in opportunities of Sales Department.<br/>\n"
-"                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
-"                                - If filter is not specified, link of google document will appear in \"More\" option for all users for all opportunities."
+"                                - Go to the Odoo document you want to "
+"filter. For instance, go to Opportunities and search on Sales Department.<br/"
+">\n"
+"                                - In this \"Search\" view, select the option "
+"\"Save Current Filter\", enter the name (Ex: Sales Department)<br/>\n"
+"                                - If you select \"Share with all users\", "
+"link of google document in \"More\" options will appear for all users in "
+"opportunities of Sales Department.<br/>\n"
+"                                - If you don't select \"Share with all users"
+"\", link of google document in \"More\" options will not appear for other "
+"users in opportunities of Sales Department.<br/>\n"
+"                                - If filter is not specified, link of google "
+"document will appear in \"More\" option for all users for all opportunities."
 msgstr ""
 "<b>Para crear un nuevo filtro:</b><br/>\n"
-"                                - Dirígete al documento de Odoo que quieres filtrar. Por ejemplo, ve a Oportunidades y busca por departamento de ventas.<br/>\n"
-"                                - En esta vista de \"Búsqueda\", selecciona la opción \"Guardar filtro actual\", introduce el nombre (por ejemplo: departamento de ventas)<br/>\n"
-"                                - Si seleccionas \"compartir con todos los usuarios\", el enlace al documento de google aparecerá en el botón de opciones \"Más\" para todos los usuarios en las oportunidades del departamento de ventas.<br/>\n"
-"                                - Si no seleccionas \"compartir con todos los usuarios\", el enlace al documento no estará disponible para otros usuarios en las oportunidades del Departamento de ventas.<br/>\n"
-"                                - Si no se especifica un filtro, el enlace al documento de google aparecerá en el botón de opciones \"Más\" para todos los usuarios en todas las oportunidades."
+"                                - Dirígete al documento de Odoo que quieres "
+"filtrar. Por ejemplo, ve a Oportunidades y busca por departamento de ventas."
+"<br/>\n"
+"                                - En esta vista de \"Búsqueda\", selecciona "
+"la opción \"Guardar filtro actual\", introduce el nombre (por ejemplo: "
+"departamento de ventas)<br/>\n"
+"                                - Si seleccionas \"compartir con todos los "
+"usuarios\", el enlace al documento de google aparecerá en el botón de "
+"opciones \"Más\" para todos los usuarios en las oportunidades del "
+"departamento de ventas.<br/>\n"
+"                                - Si no seleccionas \"compartir con todos "
+"los usuarios\", el enlace al documento no estará disponible para otros "
+"usuarios en las oportunidades del Departamento de ventas.<br/>\n"
+"                                - Si no se especifica un filtro, el enlace "
+"al documento de google aparecerá en el botón de opciones \"Más\" para todos "
+"los usuarios en todas las oportunidades."
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
@@ -49,8 +68,8 @@ msgstr "<i class=\"fa fa-arrow-right\"/> Configurar token"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
 msgid ""
-"<i class=\"fa fa-exclamation-triangle text-warning\"/> &amp;nbsp; No refresh"
-" token set"
+"<i class=\"fa fa-exclamation-triangle text-warning\"/> &amp;nbsp; No refresh "
+"token set"
 msgstr ""
 " <i class=\"fa fa-exclamation-triangle text-warning\"/>  No se ha "
 "configurado ningún token de actualización"
@@ -103,8 +122,8 @@ msgstr "Archivado"
 #, python-format
 msgid "At least one key cannot be found in your Google Drive name pattern."
 msgstr ""
-"Al menos una de las claves no se encuentra en el patrón de nombres de Google"
-" Drive."
+"Al menos una de las claves no se encuentra en el patrón de nombres de Google "
+"Drive."
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_res_config_settings__google_drive_authorization_code
@@ -119,8 +138,8 @@ msgstr "Cancelar"
 #. module: google_drive
 #: model:ir.model.fields,help:google_drive.field_google_drive_config__name_template
 msgid ""
-"Choose how the new google drive will be named, on google side. Eg. "
-"gdoc_%(field_name)s"
+"Choose how the new google drive will be named, on google side. Eg. gdoc_"
+"%(field_name)s"
 msgstr ""
 "Elige el nombre de la nueva unidad de Google Drive, en el lado de Google. "
 "ej.: gdoc_%(field_name)s"
@@ -150,8 +169,7 @@ msgstr "Creado el"
 #, python-format
 msgid "Creating google drive may only be done by one at a time."
 msgstr ""
-"Es posible que la creación de Google Drive sólo se pueda hacer de una en "
-"una."
+"Es posible que la creación de Google Drive sólo se pueda hacer de una en una."
 
 #. module: google_drive
 #: model:ir.filters,name:google_drive.filter_partner
@@ -174,7 +192,6 @@ msgid "Get Authorization Code"
 msgstr ""
 
 #. module: google_drive
-#: code:addons/google_drive/models/google_drive.py:0
 #: code:addons/google_drive/models/google_drive.py:0
 #, python-format
 msgid "Go to the configuration panel"
@@ -202,7 +219,6 @@ msgid "Google Drive Templates"
 msgstr "Plantillas de Google Drive"
 
 #. module: google_drive
-#: code:addons/google_drive/models/google_drive.py:0
 #: code:addons/google_drive/models/google_drive.py:0
 #, python-format
 msgid "Google Drive is not yet configured. Please contact your administrator."
@@ -254,9 +270,9 @@ msgstr ""
 "Vincula tus plantillas de Google Drive a cualquier registro de Odoo. Si "
 "tienes documentos muy específicos que quieres que tus colaboradores "
 "completen, por ejemplo, usar una hoja de cálculo para controlar la calidad "
-"de tu producto o revisar la lista de envío de cada orden en el extranjero, "
-"... es muy sencillo gestionarlas, vincúlalas a Odoo y úsalas para colaborar "
-"con tus empleados."
+"de tu producto o revisar la lista de envío de cada orden en el "
+"extranjero, ... es muy sencillo gestionarlas, vincúlalas a Odoo y úsalas "
+"para colaborar con tus empleados."
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__model_id
@@ -335,23 +351,30 @@ msgstr "El URL para generar el código de autorización de Google"
 #: code:addons/google_drive/models/google_drive.py:0
 #, python-format
 msgid ""
-"The document filter must not include any 'dynamic' part, so it should not be"
-" based on the current time or current user, for example."
+"The document filter must not include any 'dynamic' part, so it should not be "
+"based on the current time or current user, for example."
 msgstr ""
-"El filtro de documentos no debe incluir ninguna parte 'dinámica', por lo que"
-" no debe basarse en la hora actual o en el usuario actual, por ejemplo."
+"El filtro de documentos no debe incluir ninguna parte 'dinámica', por lo que "
+"no debe basarse en la hora actual o en el usuario actual, por ejemplo."
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 msgid ""
-"The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
-"                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Deco_Addict_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Odoo attachment will be named\n"
+"The name of the attached document can use fixed or variable data. To "
+"distinguish between documents in\n"
+"                                Google Drive, use fixed words and fields. "
+"For instance, in the example above, if you wrote Deco_Addict_%(name)s_Sales\n"
+"                                in the Google Drive name field, the document "
+"in your Google Drive and in Odoo attachment will be named\n"
 "                                'Deco_Addict_SO0001_Sales'."
 msgstr ""
-"El nombre del documento adjunto puede usar datos fijos o variables. Para distinguir entre documentos en\n"
-"                                Google Drive, usa palabras y campos fijos. Por ejemplo, en el ejemplo anterior, si escribiste Deco_Addict_%(name)s_Sales\n"
-"                                en el campo de nombre de Google Drive  el documento en tu Google Drive entonces en Odoo el adjunto sera nombrado\n"
+"El nombre del documento adjunto puede usar datos fijos o variables. Para "
+"distinguir entre documentos en\n"
+"                                Google Drive, usa palabras y campos fijos. "
+"Por ejemplo, en el ejemplo anterior, si escribiste Deco_Addict_"
+"%(name)s_Sales\n"
+"                                en el campo de nombre de Google Drive  el "
+"documento en tu Google Drive entonces en Odoo el adjunto sera nombrado\n"
 "                                'Deco_Addict_SO0001_Sales'."
 
 #. module: google_drive
@@ -382,6 +405,8 @@ msgstr "URI"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 msgid ""
-"https://docs.google.com/document/d/1vOtpJK9scIQz6taD9tJRIETWbEw3fSiaQHArsJYcua4/edit"
+"https://docs.google.com/document/"
+"d/1vOtpJK9scIQz6taD9tJRIETWbEw3fSiaQHArsJYcua4/edit"
 msgstr ""
-"https://docs.google.com/document/d/1vOtpJK9scIQz6taD9tJRIETWbEw3fSiaQHArsJYcua4/edit"
+"https://docs.google.com/document/"
+"d/1vOtpJK9scIQz6taD9tJRIETWbEw3fSiaQHArsJYcua4/edit"
