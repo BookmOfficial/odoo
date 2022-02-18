@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_automation
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_automation
@@ -168,11 +168,14 @@ msgstr "Dagen"
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_range
 msgid ""
 "Delay after the trigger date.\n"
-"                                    You can put a negative number if you need a delay before the\n"
-"                                    trigger date, like sending a reminder 15 minutes before a meeting."
+"                                    You can put a negative number if you "
+"need a delay before the\n"
+"                                    trigger date, like sending a reminder 15 "
+"minutes before a meeting."
 msgstr ""
 "Vertraging na de aanroep datum. \n"
-"Je kunt een negatieve waarde invoeren, als je een actie wilt uitvoeren voor de aanroep datum, bijvoorbeeld een herinnering 15 minuten voor een afspraak."
+"Je kunt een negatieve waarde invoeren, als je een actie wilt uitvoeren voor "
+"de aanroep datum, bijvoorbeeld een herinnering 15 minuten voor een afspraak."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_range
@@ -197,12 +200,16 @@ msgstr "Actie uitschakelen"
 #, python-format
 msgid ""
 "Disabling this automated action will enable you to continue your workflow\n"
-"                but any data created after this could potentially be corrupted,\n"
-"                as you are effectively disabling a customization that may set\n"
+"                but any data created after this could potentially be "
+"corrupted,\n"
+"                as you are effectively disabling a customization that may "
+"set\n"
 "                important and/or required fields."
 msgstr ""
-"Als j deze geautomatiseerde actie uitschakelt, kun je doorgaan met je workflow\n"
-"maar alle gegevens die daarna zijn gemaakt, kunnen mogelijk beschadigd zijn,\n"
+"Als j deze geautomatiseerde actie uitschakelt, kun je doorgaan met je "
+"workflow\n"
+"maar alle gegevens die daarna zijn gemaakt, kunnen mogelijk beschadigd "
+"zijn,\n"
 "omdat je in feite een aanpassing uitschakelt die kan worden gebruikt\n"
 "om belangrijke en/of verplichte velden in te stellen."
 
@@ -275,11 +282,10 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_pre_domain
 msgid ""
-"If present, this condition must be satisfied before the update of the "
-"record."
+"If present, this condition must be satisfied before the update of the record."
 msgstr ""
-"Indien aanwezig, moet aan deze conditie zijn voldaan, voor het bijwerken van"
-" het record."
+"Indien aanwezig, moet aan deze conditie zijn voldaan, voor het bijwerken van "
+"het record."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation____last_update
@@ -385,11 +391,11 @@ msgstr "Bij bijwerken"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__help
 msgid ""
-"Optional help text for the users with a description of the target view, such"
-" as its usage and purpose."
+"Optional help text for the users with a description of the target view, such "
+"as its usage and purpose."
 msgstr ""
-"Optionele helptekst voor de gebruikers met een beschrijving van de weergave,"
-" zoals haar gebruik en bedoeling."
+"Optionele helptekst voor de gebruikers met een beschrijving van de weergave, "
+"zoals haar gebruik en bedoeling."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__link_field_id
@@ -397,8 +403,8 @@ msgid ""
 "Provide the field used to link the newly created record on the record used "
 "by the server action."
 msgstr ""
-"Geef het veld op dat wordt gebruikt om het nieuw gemaakte record te koppelen"
-" aan het record dat wordt gebruikt door de serveractie."
+"Geef het veld op dat wordt gebruikt om het nieuw gemaakte record te koppelen "
+"aan het record dat wordt gebruikt door de serveractie."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__code
@@ -466,14 +472,14 @@ msgid ""
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr ""
-"De \"%(trigger_value)s\" %(trigger_label)s kan alleen gebruikt worden met de"
-"  \"%(state_value)s\" actie type"
+"De \"%(trigger_value)s\" %(trigger_label)s kan alleen gebruikt worden met "
+"de  \"%(state_value)s\" actie type"
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trigger_field_ids
 msgid ""
-"The action will be triggered if and only if one of these fields is "
-"updated.If empty, all fields are watched."
+"The action will be triggered if and only if one of these fields is updated."
+"If empty, all fields are watched."
 msgstr ""
 "De actie gaat af wanneer, en enkel wanneer, een van deze velden bijgewerkt "
 "wordt. Indien leeg wordt er naar alle velden gekeken."
@@ -512,7 +518,8 @@ msgid ""
 "- 'Execute Python Code': a block of python code that will be executed\n"
 "- 'Create': create a new record with new values\n"
 "- 'Update a Record': update the values of a record\n"
-"- 'Execute several actions': define an action that triggers several other server actions\n"
+"- 'Execute several actions': define an action that triggers several other "
+"server actions\n"
 "- 'Send Email': automatically send an email (Discuss)\n"
 "- 'Add Followers': add followers to a record (Discuss)\n"
 "- 'Create Next Activity': create an activity (Discuss)"
@@ -521,7 +528,8 @@ msgstr ""
 "- 'Python-code uitvoeren': een blok python-code dat wordt uitgevoerd\n"
 "- 'Maken': maak een nieuw record met nieuwe waarden\n"
 "- 'Update een record': update de waarden van een record\n"
-"- 'Meerdere acties uitvoeren': definieer een actie die verschillende andere serveracties activeert\n"
+"- 'Meerdere acties uitvoeren': definieer een actie die verschillende andere "
+"serveracties activeert\n"
 "- 'E-mail verzenden': automatisch een e-mail verzenden (Discuss)\n"
 "- 'Volgers toevoegen': volgers toevoegen aan een record (Discuss)\n"
 "- 'Maak volgende activiteit': maak een activiteit aan (Discuss)"
@@ -536,8 +544,8 @@ msgstr "Gebruik"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__activity_user_type
 msgid ""
-"Use 'Specific User' to always assign the same user on the next activity. Use"
-" 'Generic User From Record' to specify the field name of the user to choose "
+"Use 'Specific User' to always assign the same user on the next activity. Use "
+"'Generic User From Record' to specify the field name of the user to choose "
 "on the record."
 msgstr ""
 "Gebruik 'Specifieke gebruiker' om altijd dezelfde gebruiker toe te wijzen "
@@ -553,9 +561,11 @@ msgstr "Gebruik kalender"
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid ""
 "Use automated actions to automatically trigger actions for\n"
-"                various screens. Example: a lead created by a specific user may\n"
+"                various screens. Example: a lead created by a specific user "
+"may\n"
 "                be automatically set to a specific Sales Team, or an\n"
-"                opportunity which still has status pending after 14 days might\n"
+"                opportunity which still has status pending after 14 days "
+"might\n"
 "                trigger an automatic reminder email."
 msgstr ""
 "Gebruik geautomatiseerde acties om acties automatisch te activeren\n"
@@ -576,7 +586,6 @@ msgid "Value Mapping"
 msgstr "Waarde verdeling"
 
 #. module: base_automation
-#: code:addons/base_automation/models/base_automation.py:0
 #: code:addons/base_automation/models/base_automation.py:0
 #, python-format
 msgid "Warning"
@@ -605,10 +614,12 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
 msgid ""
 "When should the condition be triggered.\n"
-"                                  If present, will be checked by the scheduler. If empty, will be checked at creation and update."
+"                                  If present, will be checked by the "
+"scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "Wanneer moet de conditie worden aangeroepen.\n"
-"Indien aanwezig wordt deze aangevinkt door de planner. Indien leeg, wordt deze aangevinkt bij het aanmaken en bijwerken."
+"Indien aanwezig wordt deze aangevinkt door de planner. Indien leeg, wordt "
+"deze aangevinkt bij het aanmaken en bijwerken."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__active
@@ -620,12 +631,12 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__code
 msgid ""
-"Write Python code that the action will execute. Some variables are available"
-" for use; help about python expression is given in the help tab."
+"Write Python code that the action will execute. Some variables are available "
+"for use; help about python expression is given in the help tab."
 msgstr ""
 "Schrijf Python code die de actie uitvoert. Sommige variabelen zijn "
-"beschikbaar voor gebruik; help over Python expressies is gegeven in het hulp"
-" tabblad."
+"beschikbaar voor gebruik; help over Python expressies is gegeven in het hulp "
+"tabblad."
 
 #. module: base_automation
 #. openerp-web
@@ -634,8 +645,8 @@ msgstr ""
 msgid ""
 "You can ask an administrator to disable or correct this automated action."
 msgstr ""
-"Je kunt een beheerder vragen om deze geautomatiseerde actie uit te schakelen"
-" of te corrigeren."
+"Je kunt een beheerder vragen om deze geautomatiseerde actie uit te schakelen "
+"of te corrigeren."
 
 #. module: base_automation
 #. openerp-web
@@ -643,8 +654,8 @@ msgstr ""
 #, python-format
 msgid "You can disable this automated action or edit it to solve the issue."
 msgstr ""
-"Je kunt deze geautomatiseerde actie uitschakelen of bewerken om het probleem"
-" op te lossen."
+"Je kunt deze geautomatiseerde actie uitschakelen of bewerken om het probleem "
+"op te lossen."
 
 #. module: base_automation
 #: code:addons/base_automation/models/base_automation.py:0
