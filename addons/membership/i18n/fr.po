@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* membership
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: membership
@@ -37,16 +37,18 @@ msgstr "Nb. en attente"
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_kanban
 msgid ""
-"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Period\" "
-"title=\"Period\"/><strong> From: </strong>"
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Period\" title=\"Period"
+"\"/><strong> From: </strong>"
 msgstr ""
-"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Période\" "
-"title=\"Période\"/><strong> De: </strong>"
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Période\" title="
+"\"Période\"/><strong> De: </strong>"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_kanban
-msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Price\" title=\"Price\"/>"
-msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Prix\" title=\"Prix\"/>"
+msgid ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Price\" title=\"Price\"/>"
+msgstr ""
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Prix\" title=\"Prix\"/>"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_kanban
@@ -60,8 +62,8 @@ msgid ""
 "A member with whom you want to associate your membership.It will consider "
 "the membership state of the associated member."
 msgstr ""
-"Un membre auquel vous voulez associer votre adhésion. Cela prendra en compte"
-" l'état de l'adhésion du membre associé."
+"Un membre auquel vous voulez associer votre adhésion. Cela prendra en compte "
+"l'état de l'adhésion du membre associé."
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line__account_invoice_line
@@ -323,7 +325,8 @@ msgid ""
 "-Non Member: A partner who has not applied for any membership.\n"
 "-Cancelled Member: A member who has cancelled his membership.\n"
 "-Old Member: A member whose membership date has expired.\n"
-"-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"-Waiting Member: A member who has applied for the membership and whose "
+"invoice is going to be created.\n"
 "-Invoiced Member: A member whose invoice has been created.\n"
 "-Paying member: A member who has paid the membership fee."
 msgstr ""
@@ -331,7 +334,8 @@ msgstr ""
 "-Non membre : Un partenaire qui n'a jamais adhéré.\n"
 "-Adhésion annulée : Un membre qui a annulé son adhésion.\n"
 "-Ancien membre : Un membre dont l'adhésion a expiré.\n"
-"-Membre en attente : Un membre qui a demandé son adhésion et dont la facture va être créée.\n"
+"-Membre en attente : Un membre qui a demandé son adhésion et dont la facture "
+"va être créée.\n"
 "-Membre facturé : Un membre dont la facture a été créée.\n"
 "-Membre payé : Un membre qui a payé son adhésion."
 
@@ -342,7 +346,8 @@ msgid ""
 "-Non Member: A member who has not applied for any membership.\n"
 "-Cancelled Member: A member who has cancelled his membership.\n"
 "-Old Member: A member whose membership date has expired.\n"
-"-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"-Waiting Member: A member who has applied for the membership and whose "
+"invoice is going to be created.\n"
 "-Invoiced Member: A member whose invoice has been created.\n"
 "-Paid Member: A member who has paid the membership amount."
 msgstr ""
@@ -350,7 +355,8 @@ msgstr ""
 "-Non Membre: Un partenaire qui n'a jamais adhéré.\n"
 "-Adhésion annulée: Un membre qui a annulé son adhésion.\n"
 "-Ancien Membre: Un membre dont l'adhésion a expiré.\n"
-"-Membre en attente: Un membre qui a demandé son adhésion et dont la facture va être créée.\n"
+"-Membre en attente: Un membre qui a demandé son adhésion et dont la facture "
+"va être créée.\n"
 "-Membre facturé: Un membre dont la facture a été créée.\n"
 "-Membre payé: Un membre qui a payé son adhésion."
 
@@ -550,7 +556,8 @@ msgstr "Non membre"
 #: model_terms:ir.actions.act_window,help:membership.action_membership_members
 msgid ""
 "Odoo helps you easily track all activities related to a member: \n"
-"                  Current Membership Status, Discussions and History of Membership, etc."
+"                  Current Membership Status, Discussions and History of "
+"Membership, etc."
 msgstr ""
 "Odoo vous aide à suivre toutes les activités liées à un membre :\n"
 "Etat Actuel de l'Adhésion, Discussions et Historique de l'Adhésion, etc."
