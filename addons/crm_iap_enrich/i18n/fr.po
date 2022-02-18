@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* crm_iap_enrich
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Alexandra Jubert <aju@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: crm_iap_enrich
@@ -26,8 +26,8 @@ msgid ""
 "<span> No company data found based on the email address or email address is "
 "one of an email provider. No credit was consumed. </span>"
 msgstr ""
-"<span> Aucunes données trouvées sur l'entreprise à partir de l'adresse "
-"e-mail ou l'adresse e-mail appartient à un fournisseur d'adresses e-mail. "
+"<span> Aucunes données trouvées sur l'entreprise à partir de l'adresse e-"
+"mail ou l'adresse e-mail appartient à un fournisseur d'adresses e-mail. "
 "Aucun crédit n'a été consommé. </span>"
 
 #. module: crm_iap_enrich
@@ -107,8 +107,8 @@ msgstr "Piste/opportunité"
 #. module: crm_iap_enrich
 #: model:ir.model.fields,help:crm_iap_enrich.field_crm_lead__iap_enrich_done
 msgid ""
-"Whether IAP service for lead enrichment based on email has been performed on"
-" this lead."
+"Whether IAP service for lead enrichment based on email has been performed on "
+"this lead."
 msgstr ""
 "Si le service IAP pour l'enrichissement des pistes à partir de l'e-mail a "
 "été effectué pour cette piste."
