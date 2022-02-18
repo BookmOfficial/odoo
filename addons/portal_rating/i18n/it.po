@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* portal_rating
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: portal_rating
@@ -102,7 +102,6 @@ msgstr "Instradamento HTTP"
 #. module: portal_rating
 #. openerp-web
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
-#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 #, python-format
 msgid "Half a star"
 msgstr "Una mezza stella"
@@ -165,7 +164,6 @@ msgstr "Modifica la recensione"
 #. module: portal_rating
 #. openerp-web
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
-#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 #, python-format
 msgid "One star"
 msgstr "Una stella"
@@ -175,8 +173,7 @@ msgstr "Una stella"
 #, python-format
 msgid "Only the publisher of the website can change the rating comment"
 msgstr ""
-"Il commento di valutazione può essere cambiato solo dall'editore del sito "
-"web"
+"Il commento di valutazione può essere cambiato solo dall'editore del sito web"
 
 #. module: portal_rating
 #. openerp-web
@@ -187,7 +184,6 @@ msgstr "Pubblica commento"
 
 #. module: portal_rating
 #. openerp-web
-#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 #, python-format
 msgid "Published on"
@@ -205,7 +201,6 @@ msgstr "Valutazione"
 
 #. module: portal_rating
 #. openerp-web
-#: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 #: code:addons/portal_rating/static/src/xml/portal_tools.xml:0
 #, python-format
 msgid "Remove Selection"
@@ -235,7 +230,6 @@ msgstr "Scrivi commento"
 
 #. module: portal_rating
 #. openerp-web
-#: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 #: code:addons/portal_rating/static/src/xml/portal_chatter.xml:0
 #, python-format
 msgid "avatar"
