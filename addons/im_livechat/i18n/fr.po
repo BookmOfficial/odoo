@@ -1,24 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # SBO-Sebastien <sebastien@sbo-solutions.fr>, 2021
 # Cécile Collart <cco@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-01-24 08:19+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: im_livechat
@@ -76,11 +76,14 @@ msgstr "%s, %s et d'autres sont en train d'écrire..."
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__action
 msgid ""
 "* 'Display the button' displays the chat button on the pages.\n"
-"* 'Auto popup' displays the button and automatically open the conversation pane.\n"
+"* 'Auto popup' displays the button and automatically open the conversation "
+"pane.\n"
 "* 'Hide the button' hides the chat button on the pages."
 msgstr ""
-"* « Afficher le bouton » affiche le bouton de messagerie instantanée sur les pages ;\n"
-"* « Auto popup » affiche le bouton et ouvre automatiquement la fenêtre de conversation ;\n"
+"* « Afficher le bouton » affiche le bouton de messagerie instantanée sur les "
+"pages ;\n"
+"* « Auto popup » affiche le bouton et ouvre automatiquement la fenêtre de "
+"conversation ;\n"
 "* « Masquer le bouton » masque le bouton sur les pages."
 
 #. module: im_livechat
@@ -98,26 +101,27 @@ msgstr "-------- Montrer les anciens messages --------"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid ""
-"<i class=\"fa fa-smile-o text-success\" title=\"Percentage of happy "
-"ratings\" role=\"img\" aria-label=\"Happy face\"/>"
+"<i class=\"fa fa-smile-o text-success\" title=\"Percentage of happy ratings"
+"\" role=\"img\" aria-label=\"Happy face\"/>"
 msgstr ""
-"<i class=\"fa fa-smile-o text-success\" title=\"Percentage of happy "
-"ratings\" role=\"img\" aria-label=\"Happy face\"/>"
+"<i class=\"fa fa-smile-o text-success\" title=\"Percentage of happy ratings"
+"\" role=\"img\" aria-label=\"Happy face\"/>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
-msgid "<i class=\"fa fa-user\" role=\"img\" aria-label=\"User\" title=\"User\"/>"
+msgid ""
+"<i class=\"fa fa-user\" role=\"img\" aria-label=\"User\" title=\"User\"/>"
 msgstr ""
-"<i class=\"fa fa-user\" role=\"img\" aria-label=\"Utilisateur\" "
-"title=\"Utilisateur\"/>"
+"<i class=\"fa fa-user\" role=\"img\" aria-label=\"Utilisateur\" title="
+"\"Utilisateur\"/>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
 "<span class=\"text-muted\">Define rules for your live support channel. You "
 "can apply an action for the given URL, and per country.<br/>To identify the "
-"country, GeoIP must be installed on your server, otherwise, the countries of"
-" the rule will not be taken into account.</span>"
+"country, GeoIP must be installed on your server, otherwise, the countries of "
+"the rule will not be taken into account.</span>"
 msgstr ""
 "<span class=\"text-muted\">Définissez des règles pour votre canal "
 "d'assistance en ligne. Vous pouvez associer une action à une URL donnée, ou "
@@ -144,10 +148,12 @@ msgstr "<span>Bonjour,</span> <br/>Voici une copie de votre conversation avec"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__is_without_answer
 msgid ""
 "A session is without answer if the operator did not answer. \n"
-"                                       If the visitor is also the operator, the session will always be answered."
+"                                       If the visitor is also the operator, "
+"the session will always be answered."
 msgstr ""
 "Une session est sans réponse si l'opérateur n'a pas répondu. \n"
-"                                       Si le visiteur est aussi l'opérateur, la session sera toujours considérée comme répondue."
+"                                       Si le visiteur est aussi l'opérateur, "
+"la session sera toujours considérée comme répondue."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__action
@@ -233,7 +239,6 @@ msgstr "Mauvais"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Bounced"
 msgstr "Rejeté"
@@ -251,7 +256,6 @@ msgstr "Couleur du texte du bouton"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Canceled"
 msgstr "Annulé"
@@ -267,13 +271,13 @@ msgstr "Réponses Enregistrées"
 msgid ""
 "Canned responses allow you to insert prewritten responses in\n"
 "                your messages by typing <i>:shortcut</i>. The shortcut is\n"
-"                replaced directly in your message, so that you can still edit\n"
+"                replaced directly in your message, so that you can still "
+"edit\n"
 "                it before sending."
 msgstr "<i/>"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Changed"
@@ -330,11 +334,11 @@ msgstr "Placeholder pour la boîte de discussion"
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_mail_channel__channel_type
 msgid ""
-"Chat is private and unique between 2 persons. Group is private among invited"
-" persons. Channel can be freely joined (depending on its configuration)."
+"Chat is private and unique between 2 persons. Group is private among invited "
+"persons. Channel can be freely joined (depending on its configuration)."
 msgstr ""
-"Le chat est privé et unique entre 2 personnes. Le groupe est privé parmi les"
-" personnes invitées. Le canal peut être librement rejoint (selon sa "
+"Le chat est privé et unique entre 2 personnes. Le groupe est privé parmi les "
+"personnes invitées. Le canal peut être librement rejoint (selon sa "
 "configuration)."
 
 #. module: im_livechat
@@ -347,14 +351,12 @@ msgstr "Discutez en ligne avec un de nos collaborateurs"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Close"
 msgstr "Fermer"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Close chat window"
@@ -436,8 +438,7 @@ msgstr "Pays du visiteur du canal"
 #: model_terms:ir.actions.act_window,help:im_livechat.mail_channel_action
 msgid "Create a channel and start chatting to fill up your history."
 msgstr ""
-"Créez un nouveau canal et commencez à discuter pour remplir votre "
-"historique."
+"Créez un nouveau canal et commencez à discuter pour remplir votre historique."
 
 #. module: im_livechat
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_canned_response_action
@@ -537,7 +538,6 @@ msgstr ""
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Delete"
 msgstr "Supprimer"
@@ -582,12 +582,6 @@ msgstr "Document non téléchargeable"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Download"
 msgstr "Télécharger"
@@ -600,7 +594,6 @@ msgstr "Durée de la conversation (en secondes)"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Error"
@@ -628,8 +621,8 @@ msgid ""
 "given url/country, the one with the lowest sequence will be chosen."
 msgstr ""
 "Donne l'ordre pour trouver une règle correspondante. Si 2 règles "
-"correspondent à l'adresse/pays donnée, celle avec la séquence la plus petite"
-" sera choisie."
+"correspondent à l'adresse/pays donnée, celle avec la séquence la plus petite "
+"sera choisie."
 
 #. module: im_livechat
 #. openerp-web
@@ -696,7 +689,6 @@ msgstr "Inactif"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__image_128
 #, python-format
@@ -908,7 +900,6 @@ msgstr ""
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Loading"
 msgstr "En cours de chargement..."
@@ -922,7 +913,6 @@ msgstr "Chargement des messages plus anciens..."
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Mark as Read"
@@ -948,6 +938,11 @@ msgid "Matching order"
 msgstr "Commande correspondante"
 
 #. module: im_livechat
+#: model:ir.model,name:im_livechat.model_mail_message
+msgid "Message"
+msgstr ""
+
+#. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 msgid "Missed sessions"
 msgstr "Sessions manquées"
@@ -967,14 +962,12 @@ msgstr "Nouveaux messages"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Next"
 msgstr "Suivant"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.js:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.js:0
 #, python-format
 msgid "No available collaborator, please try again later."
@@ -1093,11 +1086,13 @@ msgstr "Opérateurs"
 msgid ""
 "Operators\n"
 "                                            <br/>\n"
-"                                            <i class=\"fa fa-comments\" role=\"img\" aria-label=\"Comments\" title=\"Comments\"/>"
+"                                            <i class=\"fa fa-comments\" role="
+"\"img\" aria-label=\"Comments\" title=\"Comments\"/>"
 msgstr ""
 "Opérateurs\n"
 "                                            <br/>\n"
-"                                            <i class=\"fa fa-comments\" role=\"img\" aria-label=\"Commentaires\" title=\"Commentaires\"/>"
+"                                            <i class=\"fa fa-comments\" role="
+"\"img\" aria-label=\"Commentaires\" title=\"Commentaires\"/>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -1105,8 +1100,8 @@ msgid ""
 "Operators that do not show any activity In Odoo for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Les opérateurs qui ne montrent pas d'activité pendant plus de 30 minutes sur"
-" Odoo seront considérés comme déconnectés. "
+"Les opérateurs qui ne montrent pas d'activité pendant plus de 30 minutes sur "
+"Odoo seront considérés comme déconnectés. "
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -1115,7 +1110,6 @@ msgstr "Options"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "PDF file"
@@ -1136,7 +1130,6 @@ msgstr "Merci de vérifier votre connexion Internet."
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Please wait"
 msgstr "Patientez s'il-vous-plait"
@@ -1156,14 +1149,12 @@ msgstr "Fourni par"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Previous"
 msgstr "Précedent"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Print"
@@ -1228,7 +1219,6 @@ msgstr "Évaluations pour le canal de Live Chat"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Ready"
 msgstr "Prêt"
@@ -1270,7 +1260,6 @@ msgstr ""
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Reply"
 msgstr "Répondre"
@@ -1283,7 +1272,6 @@ msgstr "Rapport"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Reset Zoom"
 msgstr "Réinitialiser le zoom"
@@ -1295,7 +1283,6 @@ msgstr "Réinitialiser les couleurs par défaut"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Rotate"
@@ -1364,7 +1351,6 @@ msgstr "Vu par:"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Sent"
 msgstr "Envoyé"
@@ -1389,7 +1375,6 @@ msgstr "Statistiques de session"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.js:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.js:0
 #, python-format
 msgid "Session expired... Please refresh and try again."
@@ -1479,8 +1464,8 @@ msgstr ""
 "La règle sera uniquement appliquée pour ces pays. Exemple : si vous "
 "sélectionnez « Belgique» et « États-Unis » et que vous définissez l'action "
 "sur « Masquer le bouton », le bouton d'assistance sera masqué sur l'URL "
-"spécifiée pour les visiteurs situés dans ces deux pays. Cette fonctionnalité"
-" nécessite que GeoIP soit installé sur votre serveur."
+"spécifiée pour les visiteurs situés dans ces deux pays. Cette fonctionnalité "
+"nécessite que GeoIP soit installé sur votre serveur."
 
 #. module: im_livechat
 #: model:res.groups,comment:im_livechat.im_livechat_group_manager
@@ -1586,8 +1571,8 @@ msgid ""
 "URL to a static page where you client can discuss with the operator of the "
 "channel."
 msgstr ""
-"URL vers une page statique où votre client peut discuter avec l'opérateur de"
-" la chaîne."
+"URL vers une page statique où votre client peut discuter avec l'opérateur de "
+"la chaîne."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__uuid
@@ -1604,7 +1589,6 @@ msgstr "Indéfini"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Uploaded"
 msgstr "Téléchargé"
@@ -1619,9 +1603,8 @@ msgstr "Téléchargement en cours..."
 #. module: im_livechat
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
-"Use canned responses to define templates of messages in the livechat app. To"
-" load a canned response, start your sentence with ':' and select the "
-"template."
+"Use canned responses to define templates of messages in the livechat app. To "
+"load a canned response, start your sentence with ':' and select the template."
 msgstr ""
 
 #. module: im_livechat
@@ -1629,6 +1612,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "User"
 msgstr "Utilisateur"
+
+#. module: im_livechat
+#: model:ir.model.fields,field_description:im_livechat.field_res_partner__user_livechat_username
+#: model:ir.model.fields,field_description:im_livechat.field_res_users__user_livechat_username
+msgid "User Livechat Username"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_res_users_settings
@@ -1664,7 +1653,6 @@ msgstr "Utilisateurs"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Video"
 msgstr "Vidéo"
@@ -1680,7 +1668,6 @@ msgstr "Viseur"
 #. openerp-web
 #: code:addons/im_livechat/controllers/main.py:0
 #: code:addons/im_livechat/models/im_livechat_channel.py:0
-#: code:addons/im_livechat/models/mail_channel.py:0
 #: code:addons/im_livechat/models/mail_channel.py:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.js:0
 #, python-format
@@ -1759,7 +1746,8 @@ msgstr "Hier"
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid ""
 "You can create channels for each website on which you want\n"
-"                to integrate the website live chat widget, allowing your website\n"
+"                to integrate the website live chat widget, allowing your "
+"website\n"
 "                visitors to talk in real time with your operators."
 msgstr ""
 "Vous pouvez créer des canaux pour chaque site Web sur lequel vous souhaitez\n"
@@ -1774,14 +1762,12 @@ msgstr "Votre historique de chat est vide"
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Zoom In"
 msgstr "Agrandir"
 
 #. module: im_livechat
 #. openerp-web
-#: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
 msgid "Zoom Out"
