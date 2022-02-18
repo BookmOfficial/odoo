@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* auth_totp
-# 
+#
 # Translators:
 # Sergio Zanchetta <primes2h@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: auth_totp
@@ -52,19 +52,26 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid ""
 "<span class=\"d-md-none d-block\">Or install an authenticator app</span>\n"
-"                                        <span class=\"d-none d-md-block\">Install an authenticator app on your mobile device</span>"
+"                                        <span class=\"d-none d-md-block"
+"\">Install an authenticator app on your mobile device</span>"
 msgstr ""
-"<span class=\"d-md-none d-block\">O installa un'app di autenticazione</span>\n"
-"                                        <span class=\"d-none d-md-block\">Installa un'app di autenticazione sul tuo dispositivo mobile</span>"
+"<span class=\"d-md-none d-block\">O installa un'app di autenticazione</"
+"span>\n"
+"                                        <span class=\"d-none d-md-block"
+"\">Installa un'app di autenticazione sul tuo dispositivo mobile</span>"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid ""
-"<span class=\"d-none d-md-block\">When requested to do so, scan the barcode below</span>\n"
-"                                    <span class=\"d-block d-md-none\">When requested to do so, copy the key below</span>"
+"<span class=\"d-none d-md-block\">When requested to do so, scan the barcode "
+"below</span>\n"
+"                                    <span class=\"d-block d-md-none\">When "
+"requested to do so, copy the key below</span>"
 msgstr ""
-"<span class=\"d-none d-md-block\">Quando è richiesto, scannerizza il codice a barre qui sotto</span>\n"
-"                                    <span class=\"d-block d-md-none\">Quando è richiesto di farlo, copia la chiave qui sotto</span>"
+"<span class=\"d-none d-md-block\">Quando è richiesto, scannerizza il codice "
+"a barre qui sotto</span>\n"
+"                                    <span class=\"d-block d-md-none\">Quando "
+"è richiesto di farlo, copia la chiave qui sotto</span>"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
@@ -283,10 +290,12 @@ msgstr "Il codice di verifica deve contenere solo numeri"
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid ""
-"To login, enter below the six-digit authentication code provided by your Authenticator app.\n"
+"To login, enter below the six-digit authentication code provided by your "
+"Authenticator app.\n"
 "                        <br/>"
 msgstr ""
-"Per accedere, inserisci qui sotto il codice di autenticazione a sei cifre fornito dalla tua app di autenticazione..\n"
+"Per accedere, inserisci qui sotto il codice di autenticazione a sei cifre "
+"fornito dalla tua app di autenticazione..\n"
 "                        <br/>"
 
 #. module: auth_totp
@@ -322,23 +331,33 @@ msgstr "Autenticazione a due fattori"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid ""
 "Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
-"                                The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
-"                                Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
+"                                The first one is done with your password and "
+"the second one with a code you get from a dedicated mobile app.\n"
+"                                Popular ones include Authy, Google "
+"Authenticator or the Microsoft Authenticator."
 msgstr ""
-"L'autenticazione a due fattori (\"2FA\") è un sistema di doppia autenticazione.\n"
-"La prima è fatta con la tua password e la seconda con un codice che ottieni tramite un'applicazione mobile dedicata.\n"
-"I più popolari includono Authy, Google Authenticator o Microsoft Authenticator."
+"L'autenticazione a due fattori (\"2FA\") è un sistema di doppia "
+"autenticazione.\n"
+"La prima è fatta con la tua password e la seconda con un codice che ottieni "
+"tramite un'applicazione mobile dedicata.\n"
+"I più popolari includono Authy, Google Authenticator o Microsoft "
+"Authenticator."
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 msgid ""
 "Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
-"                            The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
-"                            Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
+"                            The first one is done with your password and the "
+"second one with a code you get from a dedicated mobile app.\n"
+"                            Popular ones include Authy, Google Authenticator "
+"or the Microsoft Authenticator."
 msgstr ""
-"L'autenticazione a due fattori (\"2FA\") è un sistema di doppia autenticazione.\n"
-"La prima è fatta con la tua password e la seconda con un codice che ottieni tramite un'applicazione mobile dedicata.\n"
-"I più popolari includono Authy, Google Authenticator o Microsoft Authenticator."
+"L'autenticazione a due fattori (\"2FA\") è un sistema di doppia "
+"autenticazione.\n"
+"La prima è fatta con la tua password e la seconda con un codice che ottieni "
+"tramite un'applicazione mobile dedicata.\n"
+"I più popolari includono Authy, Google Authenticator o Microsoft "
+"Authenticator."
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_enabled
@@ -365,8 +384,7 @@ msgstr "Autenticazione a due fattori già abilitata"
 #: code:addons/auth_totp/models/res_users.py:0
 #, python-format
 msgid "Two-factor authentication can only be enabled for yourself"
-msgstr ""
-"L'autenticazione a due fattori può essere abilitata solo per se stessi"
+msgstr "L'autenticazione a due fattori può essere abilitata solo per se stessi"
 
 #. module: auth_totp
 #: code:addons/auth_totp/models/res_users.py:0
@@ -397,7 +415,7 @@ msgid "Verification Code"
 msgstr "Codice di verifica"
 
 #. module: auth_totp
-#: code:addons/auth_totp/controllers/home.py:0
+#: code:addons/auth_totp/models/res_users.py:0
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 #, python-format
 msgid "Verification failed, please double-check the 6-digit code"
