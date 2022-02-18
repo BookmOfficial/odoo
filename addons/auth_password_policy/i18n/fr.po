@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* auth_password_policy
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: auth_password_policy
@@ -51,11 +51,14 @@ msgstr ""
 msgid ""
 "Required: %s.\n"
 "\n"
-"Hint: increase length, use multiple words and use non-letter characters to increase your password's strength."
+"Hint: increase length, use multiple words and use non-letter characters to "
+"increase your password's strength."
 msgstr ""
 "Requis: %s.\n"
 "\n"
-"Astuce: augmentez la longueur, utilisez plusieurs mots et utilisez des caractères autres que des lettres pour augmenter la force de votre mot de passe."
+"Astuce: augmentez la longueur, utilisez plusieurs mots et utilisez des "
+"caractères autres que des lettres pour augmenter la force de votre mot de "
+"passe."
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_users
