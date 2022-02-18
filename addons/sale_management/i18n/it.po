@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_management
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale_management
@@ -177,10 +177,14 @@ msgstr "Descrizione"
 #: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
 msgid ""
 "Design your quotation templates using building blocks<br/>\n"
-"                            <em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">Warning: this option will install the Website app.</em>"
+"                            <em attrs=\"{'invisible': "
+"[('module_sale_quotation_builder','=',False)]}\">Warning: this option will "
+"install the Website app.</em>"
 msgstr ""
 "Progetta modelli di preventivo utilizzando componenti<br/>\n"
-"                            <em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">Avvertenza: questa opzione installa l'applicazione sito web.</em>"
+"                            <em attrs=\"{'invisible': "
+"[('module_sale_quotation_builder','=',False)]}\">Avvertenza: questa opzione "
+"installa l'applicazione sito web.</em>"
 
 #. module: sale_management
 #: model:ir.model,name:sale_management.model_digest_digest
@@ -542,8 +546,7 @@ msgid ""
 msgstr ""
 "I termini e le condizioni predefinite possono essere stabilite "
 "dall'amministratore nelle impostazioni di vendita. Se viene selezionato "
-"questo modello di preventivo vengono invece mostrati i termini impostati "
-"qui."
+"questo modello di preventivo vengono invece mostrati i termini impostati qui."
 
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_template__mail_template_id
@@ -607,11 +610,13 @@ msgstr "UdM"
 #: model_terms:ir.actions.act_window,help:sale_management.sale_order_template_action
 msgid ""
 "Use templates to create polished, professional quotes in minutes.\n"
-"                Send these quotes by email and let your customers sign online.\n"
+"                Send these quotes by email and let your customers sign "
+"online.\n"
 "                Use cross-selling and discounts to push and boost your sales."
 msgstr ""
 "Usa i modelli per creare preventivi professionali in pochi minuti.\n"
-"Invia questi preventivi via e-mail e lascia che i tuoi clienti firmino online.\n"
+"Invia questi preventivi via e-mail e lascia che i tuoi clienti firmino "
+"online.\n"
 "Usa il cross-selling e gli sconti per spingere e aumentare le tue vendite."
 
 #. module: sale_management
@@ -634,11 +639,15 @@ msgstr ""
 #: code:addons/sale_management/models/sale_order.py:0
 #, python-format
 msgid ""
-"Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
-" Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
+"Your quotation contains products from company %(product_company)s whereas "
+"your quotation belongs to company %(quote_company)s. \n"
+" Please change the company of your quotation or remove the products from "
+"other companies (%(bad_products)s)."
 msgstr ""
-"Il preventivo contiene prodotti dell'azienda %(product_company)s ma appartiene invece a %(quote_company)s. \n"
-" Cambiare l'azienda del preventivo o rimuovere i prodotti dalle altre (%(bad_products)s)."
+"Il preventivo contiene prodotti dell'azienda %(product_company)s ma "
+"appartiene invece a %(quote_company)s. \n"
+" Cambiare l'azienda del preventivo o rimuovere i prodotti dalle altre "
+"(%(bad_products)s)."
 
 #. module: sale_management
 #: code:addons/sale_management/models/sale_order_template.py:0
@@ -650,10 +659,13 @@ msgstr "Il modello non può contenere prodotti di più di una azienda."
 #: code:addons/sale_management/models/sale_order_template.py:0
 #, python-format
 msgid ""
-"Your template contains products from company %(product_company)s whereas your template belongs to company %(template_company)s. \n"
-" Please change the company of your template or remove the products from other companies."
+"Your template contains products from company %(product_company)s whereas "
+"your template belongs to company %(template_company)s. \n"
+" Please change the company of your template or remove the products from "
+"other companies."
 msgstr ""
-"Il modello contiene prodotti dell'azienda %(product_company)s ma appartiene invece a %(template_company)s. \n"
+"Il modello contiene prodotti dell'azienda %(product_company)s ma appartiene "
+"invece a %(template_company)s. \n"
 " Cambiare l'azienda del modello o rimuovere i prodotti dalle altre."
 
 #. module: sale_management
