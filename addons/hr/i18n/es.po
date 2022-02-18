@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Sergio Flores <vitavitae1@gmail.com>, 2021
@@ -9,7 +9,7 @@
 # José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
 # Daniela Cervantes <dace@odoo.com>, 2021
 # Braulio D. López Vázquez <bdl@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -18,10 +18,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
 "Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr
@@ -61,16 +61,20 @@ msgstr "12 días al año, incluidos<br> 6 a tu elección."
 #: code:addons/hr/models/hr_employee.py:0
 #, python-format
 msgid ""
-"<b>Congratulations!</b> May I recommend you to setup an <a "
-"href=\"%s\">onboarding plan?</a>"
+"<b>Congratulations!</b> May I recommend you to setup an <a href=\"%s"
+"\">onboarding plan?</a>"
 msgstr ""
-"<b>¡Felicidades!</b> ¿Puedo recomendarte que configures un<a "
-"href=\"%s\">plan de incorporación?</a>"
+"<b>¡Felicidades!</b> ¿Puedo recomendarte que configures un<a href=\"%s"
+"\">plan de incorporación?</a>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
-msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
-msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+msgid ""
+"<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title="
+"\"Manage\"/>"
+msgstr ""
+"<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title="
+"\"Manage\"/>"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -87,53 +91,63 @@ msgstr "<small><b>APRENDE MÁS</b></small>"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr.hr_kanban_view_employees
 msgid ""
-"<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"Present\" title=\"Present\" name=\"presence_present\">\n"
+"<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"Present"
+"\" title=\"Present\" name=\"presence_present\">\n"
 "                                                </span>"
 msgstr ""
-"<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"Presente\" title=\"Presente\" name=\"presence_present\">\n"
+"<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"Presente"
+"\" title=\"Presente\" name=\"presence_present\">\n"
 "                                                </span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr.hr_kanban_view_employees
 msgid ""
-"<span class=\"fa fa-circle text-warning\" role=\"img\" aria-label=\"To define\" title=\"To define\" name=\"presence_to_define\">\n"
+"<span class=\"fa fa-circle text-warning\" role=\"img\" aria-label=\"To define"
+"\" title=\"To define\" name=\"presence_to_define\">\n"
 "                                                </span>"
 msgstr ""
-"<span class=\"fa fa-circle text-warning\" role=\"img\" aria-label=\"Por definir\" title=\"Por definir\" name=\"presence_to_define\">\n"
+"<span class=\"fa fa-circle text-warning\" role=\"img\" aria-label=\"Por "
+"definir\" title=\"Por definir\" name=\"presence_to_define\">\n"
 "                                                </span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr.hr_kanban_view_employees
 msgid ""
-"<span class=\"fa fa-circle-o text-muted\" role=\"img\" aria-label=\"Absent\" title=\"Absent\" name=\"presence_absent\">\n"
+"<span class=\"fa fa-circle-o text-muted\" role=\"img\" aria-label=\"Absent\" "
+"title=\"Absent\" name=\"presence_absent\">\n"
 "                                                </span>"
 msgstr ""
-"<span class=\"fa fa-circle-o text-muted\" role=\"img\" aria-label=\"Ausente\" title=\"Ausente\" name=\"presence_absent\">\n"
+"<span class=\"fa fa-circle-o text-muted\" role=\"img\" aria-label=\"Ausente"
+"\" title=\"Ausente\" name=\"presence_absent\">\n"
 "                                                </span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr.hr_kanban_view_employees
 msgid ""
-"<span class=\"fa fa-circle-o text-success\" role=\"img\" aria-label=\"Present but not active\" title=\"Present but not active\" name=\"presence_absent_active\">\n"
+"<span class=\"fa fa-circle-o text-success\" role=\"img\" aria-label="
+"\"Present but not active\" title=\"Present but not active\" name="
+"\"presence_absent_active\">\n"
 "                                                </span>"
 msgstr ""
-"<span class=\"fa fa-circle-o text-success\" role=\"img\" aria-label=\"Presente pero no activo\" title=\"Presente pero no activo\" name=\"presence_absent_active\">\n"
+"<span class=\"fa fa-circle-o text-success\" role=\"img\" aria-label="
+"\"Presente pero no activo\" title=\"Presente pero no activo\" name="
+"\"presence_absent_active\">\n"
 "                                                </span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" role=\"img\" aria-label=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
+"specific.\" role=\"img\" aria-label=\"Values set here are company-specific."
+"\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Los valores establecidos aquí"
-" son específicos de la empresa.\" role=\"img\" aria-label=\"Los valores "
-"establecidos aquí son específicos de la empresa.\" "
-"groups=\"base.group_multi_company\"/>"
+"<span class=\"fa fa-lg fa-building-o\" title=\"Los valores establecidos aquí "
+"son específicos de la empresa.\" role=\"img\" aria-label=\"Los valores "
+"establecidos aquí son específicos de la empresa.\" groups=\"base."
+"group_multi_company\"/>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -144,8 +158,8 @@ msgstr "<span class=\"ml8 mr-2\">Direcciones IP (separadas por comas)</span>"
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"ml8 mr-2\">Minimum number of emails to sent </span>"
 msgstr ""
-"<span class=\"ml8 mr-2\">Cantidad mínima de correos electrónicos a "
-"enviar</span>"
+"<span class=\"ml8 mr-2\">Cantidad mínima de correos electrónicos a enviar</"
+"span>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
@@ -394,8 +408,8 @@ msgstr "Seudónimo del contacto de seguridad"
 #: model:ir.model.fields,help:hr.field_hr_employee__lang
 #: model:ir.model.fields,help:hr.field_res_users__private_lang
 msgid ""
-"All the emails and documents sent to this contact will be translated in this"
-" language."
+"All the emails and documents sent to this contact will be translated in this "
+"language."
 msgstr ""
 "Todos los correos electrónicos y documentos enviados a este contacto se "
 "traducirán en este idioma."
@@ -424,7 +438,6 @@ msgstr "Aprobadores"
 
 #. module: hr
 #. openerp-web
-#: code:addons/hr/static/src/js/hr_employee.js:0
 #: code:addons/hr/static/src/js/hr_employee.js:0
 #, python-format
 msgid "Archive"
@@ -456,21 +469,34 @@ msgstr "Archivado"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid ""
-"As an employee of our company, you will <b>collaborate with each department to create and deploy\n"
-"                                disruptive products.</b> Come work at a growing company that offers great benefits with opportunities to\n"
-"                                moving forward and learn alongside accomplished leaders. We're seeking an experienced and outstanding member of staff.\n"
+"As an employee of our company, you will <b>collaborate with each department "
+"to create and deploy\n"
+"                                disruptive products.</b> Come work at a "
+"growing company that offers great benefits with opportunities to\n"
+"                                moving forward and learn alongside "
+"accomplished leaders. We're seeking an experienced and outstanding member of "
+"staff.\n"
 "                                <br><br>\n"
-"                                This position is both <b>creative and rigorous</b> by nature you need to think outside the box.\n"
-"                                We expect the candidate to be proactive and have a \"get it done\" spirit. To be successful,\n"
+"                                This position is both <b>creative and "
+"rigorous</b> by nature you need to think outside the box.\n"
+"                                We expect the candidate to be proactive and "
+"have a \"get it done\" spirit. To be successful,\n"
 "                                you will have solid solving problem skills."
 msgstr ""
-"Como empleado de nuestra empresa, <b>colaborarás con cada departamento para crear e implementar \n"
-"                                productos disruptivos.</b> Ven a trabajar en una empresa en crecimiento que ofrece grandes beneficios con oportunidades para\n"
-"                                avanzar y aprender junto con líderes consumados. Buscamos un miembro del personal experimentado y excepcional.\n"
+"Como empleado de nuestra empresa, <b>colaborarás con cada departamento para "
+"crear e implementar \n"
+"                                productos disruptivos.</b> Ven a trabajar en "
+"una empresa en crecimiento que ofrece grandes beneficios con oportunidades "
+"para\n"
+"                                avanzar y aprender junto con líderes "
+"consumados. Buscamos un miembro del personal experimentado y excepcional.\n"
 "                                <br><br>\n"
-"                                Esta posición es <b>creativa y rigurosa</b> por naturaleza, debes pensar fuera de la caja.\n"
-"                                Esperamos que el candidato sea proactivo y tenga una mentalidad orientada a resultados. Para tener éxito,\n"
-"                                debes tener sólidas habilidades para resolver problemas."
+"                                Esta posición es <b>creativa y rigurosa</b> "
+"por naturaleza, debes pensar fuera de la caja.\n"
+"                                Esperamos que el candidato sea proactivo y "
+"tenga una mentalidad orientada a resultados. Para tener éxito,\n"
+"                                debes tener sólidas habilidades para "
+"resolver problemas."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_attachment_count
@@ -1009,16 +1035,22 @@ msgstr "Licencia para conducir"
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid ""
 "Each employee has a chance to see the impact of his work.\n"
-"                        You can make a real contribution to the success of the company.\n"
+"                        You can make a real contribution to the success of "
+"the company.\n"
 "                        <br>\n"
-"                        Several activities are often organized all over the year, such as weekly\n"
-"                        sports sessions, team building events, monthly drink, and much more"
+"                        Several activities are often organized all over the "
+"year, such as weekly\n"
+"                        sports sessions, team building events, monthly "
+"drink, and much more"
 msgstr ""
 "Cada empleado tiene la oportunidad de ver el impacto de su trabajo.\n"
-"                        Tú puedes hacer una contribución real al éxito de la empresa.\n"
+"                        Tú puedes hacer una contribución real al éxito de la "
+"empresa.\n"
 "                        <br>\n"
-"                        Se organizan varias actividades a lo largo del año, como actividades deportivas\n"
-"                        semanales, eventos para fomentar el trabajo en equipo, una convivencia al mes, ¡y mucho más!"
+"                        Se organizan varias actividades a lo largo del año, "
+"como actividades deportivas\n"
+"                        semanales, eventos para fomentar el trabajo en "
+"equipo, una convivencia al mes, ¡y mucho más!"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1243,8 +1275,7 @@ msgstr "Nuevos empleados esperados"
 msgid ""
 "Expected number of employees for this job position after new recruitment."
 msgstr ""
-"Número previsto de empleados para este puesto tras las nuevas "
-"contrataciones."
+"Número previsto de empleados para este puesto tras las nuevas contrataciones."
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1505,8 +1536,8 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
-"Si el campo activo está establecido en False, te permite ocultar el registro"
-" del recurso sin eliminarlo."
+"Si el campo activo está establecido en False, te permite ocultar el registro "
+"del recurso sin eliminarlo."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_1920
@@ -2014,11 +2045,14 @@ msgstr "Número de mensajes sin leer"
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
 "Odoo's department structure is used to manage all documents\n"
-"                    related to employees by departments: expenses, timesheets,\n"
+"                    related to employees by departments: expenses, "
+"timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"La estructura del departamento de Odoo se utiliza para administrar todos los documentos.\n"
-"                    relacionados con los empleados por departamentos: gastos, partes de horas,\n"
+"La estructura del departamento de Odoo se utiliza para administrar todos los "
+"documentos.\n"
+"                    relacionados con los empleados por departamentos: "
+"gastos, partes de horas,\n"
 "                    permisos, contrataciones, etc."
 
 #. module: hr
@@ -2028,8 +2062,10 @@ msgid ""
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"La estructura del departamento de Odoo se utiliza para administrar todos los documentos.\n"
-"                relacionados con los empleados por departamentos: gastos, partes de horas,\n"
+"La estructura del departamento de Odoo se utiliza para administrar todos los "
+"documentos.\n"
+"                relacionados con los empleados por departamentos: gastos, "
+"partes de horas,\n"
 "                permisos, contrataciones, etc."
 
 #. module: hr
@@ -2070,8 +2106,8 @@ msgstr "Código NIP"
 #: model:ir.model.fields,help:hr.field_hr_employee__pin
 #: model:ir.model.fields,help:hr.field_res_users__pin
 msgid ""
-"PIN used to Check In/Out in the Kiosk Mode of the Attendance application (if"
-" enabled in Configuration) and to change the cashier in the Point of Sale "
+"PIN used to Check In/Out in the Kiosk Mode of the Attendance application (if "
+"enabled in Configuration) and to change the cashier in the Point of Sale "
 "application."
 msgstr ""
 
@@ -2201,8 +2237,7 @@ msgstr "Planes"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Play any sport with colleagues, <br>the bill is covered."
-msgstr ""
-"Practica cualquier deporte con tus colegas, <br>y nosotros lo pagamos."
+msgstr "Practica cualquier deporte con tus colegas, <br>y nosotros lo pagamos."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_mail_alias__alias_contact
@@ -2211,12 +2246,15 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
-"- followers: only followers of the related document or members of following channels\n"
+"- followers: only followers of the related document or members of following "
+"channels\n"
 msgstr ""
-"Política para publicar un mensaje en el documento utilizando el servidor de correo.\n"
+"Política para publicar un mensaje en el documento utilizando el servidor de "
+"correo.\n"
 "- todo el mundo: todos pueden publicar\n"
 "- partners: solo partners autenticados\n"
-"- seguidores: solo seguidores del documento relacionado o miembros de los siguientes canales\n"
+"- seguidores: solo seguidores del documento relacionado o miembros de los "
+"siguientes canales\n"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -2485,7 +2523,8 @@ msgid ""
 "The \"Coach\" has no specific rights or responsibilities by default."
 msgstr ""
 "Selecciona el \"empleado\" que es el instructor de este empleado.\n"
-"El “instructor” no tiene derechos o responsabilidades específicos predeterminados."
+"El “instructor” no tiene derechos o responsabilidades específicos "
+"predeterminados."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_reason__sequence
@@ -2957,22 +2996,26 @@ msgstr "Viudo(a)"
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
 "With just a quick glance on the Odoo employee screen, you\n"
-"                can easily find all the information you need for each person;\n"
+"                can easily find all the information you need for each "
+"person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
 "Con un vistazo rápido a la pantalla de empleados de Odoo\n"
-"                puedes encontrar fácilmente toda la información que necesitas de cada persona:\n"
+"                puedes encontrar fácilmente toda la información que "
+"necesitas de cada persona:\n"
 "                datos de contacto, puesto de trabajo, disponibilidad, etc."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
 "With just a quick glance on the Odoo employee screen, you\n"
-"               can easily find all the information you need for each person;\n"
+"               can easily find all the information you need for each "
+"person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
 "Con un vistazo rápido a la pantalla de empleados de Odoo\n"
-"               puedes encontrar fácilmente toda la información que necesitas de cada persona:\n"
+"               puedes encontrar fácilmente toda la información que necesitas "
+"de cada persona:\n"
 "               datos de contacto, puesto de trabajo, disponibilidad, etc."
 
 #. module: hr
@@ -3070,8 +3113,8 @@ msgstr "Horas laborales"
 #: code:addons/hr/models/res_users.py:0
 #, python-format
 msgid ""
-"You are only allowed to update your preferences. Please contact a HR officer"
-" to update other information."
+"You are only allowed to update your preferences. Please contact a HR officer "
+"to update other information."
 msgstr ""
 "Solamente tienes permitido actualizar tus preferencias. Contacta con el "
 "personal de RRHH para actualizar otra información."
@@ -3081,8 +3124,7 @@ msgstr ""
 #: code:addons/hr/static/src/models/employee/employee.js:0
 #, python-format
 msgid "You can only chat with employees that have a dedicated user."
-msgstr ""
-"Solamente puedes chatear con empleados que tienen un usuario dedicado."
+msgstr "Solamente puedes chatear con empleados que tienen un usuario dedicado."
 
 #. module: hr
 #: code:addons/hr/models/hr_department.py:0
