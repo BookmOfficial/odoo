@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment_paypal
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: payment_paypal
@@ -48,14 +48,18 @@ msgid ""
 "Hello,\n"
 "                <br/><br/>\n"
 "                You have received a payment through PayPal.<br/>\n"
-"                Kindly follow the instructions given by PayPal to create your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Odoo.<br/><br/>"
+"                Kindly follow the instructions given by PayPal to create "
+"your account.<br/>\n"
+"                Then, help us complete your Paypal credentials in Odoo.<br/"
+"><br/>"
 msgstr ""
 "Guten Tag\n"
 "                <br/><br/>\n"
 "                Sie haben eine Zahlung von Paypal erhalten.<br/>\n"
-"                Bitte folgen Sie den Anweisungen von Paypal, um Ihr Konto zu konfigurieren.<br/>\n"
-"                Helfen Sie uns anschließend, Ihre Anmeldeinformation für Paypal in Odoo zu vervollständigen.<br/><br/>"
+"                Bitte folgen Sie den Anweisungen von Paypal, um Ihr Konto zu "
+"konfigurieren.<br/>\n"
+"                Helfen Sie uns anschließend, Ihre Anmeldeinformation für "
+"Paypal in Odoo zu vervollständigen.<br/><br/>"
 
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.payment_acquirer_form
@@ -155,8 +159,8 @@ msgstr "Der mit diesem Zahlungsanbieter zu verwendende Dienstleister"
 msgid ""
 "The public business email solely used to identify the account with PayPal"
 msgstr ""
-"Die öffentliche Geschäfts-E-Mail, die ausschließlich zur Identifizierung des"
-" PayPal-Kontos verwendet wird"
+"Die öffentliche Geschäfts-E-Mail, die ausschließlich zur Identifizierung des "
+"PayPal-Kontos verwendet wird"
 
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_transaction__paypal_type
