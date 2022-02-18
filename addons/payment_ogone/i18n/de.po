@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment_ogone
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: payment_ogone
@@ -88,10 +88,12 @@ msgstr "Empfangene Daten mit ungültigem Zahlungsstatus: %s"
 #: code:addons/payment_ogone/controllers/main.py:0
 #, python-format
 msgid ""
-"Received data with invalid signature. expected: %(exp)s ; received: %(rec)s ; data:\n"
+"Received data with invalid signature. expected: %(exp)s ; received: "
+"%(rec)s ; data:\n"
 "%(data)s"
 msgstr ""
-"Empfangene Daten mit ungültiger Signatur. Erwartet: %(exp)s; Empfangen: %(rec)s; Daten:\n"
+"Empfangene Daten mit ungültiger Signatur. Erwartet: %(exp)s; Empfangen: "
+"%(rec)s; Daten:\n"
 "%(data)s"
 
 #. module: payment_ogone
@@ -115,8 +117,8 @@ msgstr "SHA Schlüssel OUT"
 #, python-format
 msgid "Saved payment methods cannot be restored once they have been archived."
 msgstr ""
-"Gespeicherte Zahlungsmethoden können nicht wiederhergestellt werden, nachdem"
-" sie archiviert wurden."
+"Gespeicherte Zahlungsmethoden können nicht wiederhergestellt werden, nachdem "
+"sie archiviert wurden."
 
 #. module: payment_ogone
 #: code:addons/payment_ogone/models/payment_transaction.py:0
