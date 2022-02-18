@@ -1,14 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_contract
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Tivisse <yti@odoo.com>, 2021
 # Eloïse Stilmant <est@odoo.com>, 2021
 # Alexandra Jubert <aju@odoo.com>, 2021
 # Cécile Collart <cco@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -17,10 +17,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: hr_contract
@@ -42,36 +42,50 @@ msgstr ""
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid ""
-"<span attrs=\"{'invisible': ['|', ('calendar_mismatch', '=', False), ('state', '!=', 'open')]}\" class=\"fa fa-exclamation-triangle text-danger o_calendar_warning pl-3\">\n"
+"<span attrs=\"{'invisible': ['|', ('calendar_mismatch', '=', False), "
+"('state', '!=', 'open')]}\" class=\"fa fa-exclamation-triangle text-danger "
+"o_calendar_warning pl-3\">\n"
 "                                    </span>\n"
-"                                    <span class=\"o_calendar_warning_tooltip text-danger\">\n"
-"                                        Calendar Mismatch : The employee's calendar does not match this contract's calendar. This could lead to unexpected behaviors.\n"
+"                                    <span class=\"o_calendar_warning_tooltip "
+"text-danger\">\n"
+"                                        Calendar Mismatch : The employee's "
+"calendar does not match this contract's calendar. This could lead to "
+"unexpected behaviors.\n"
 "                                    </span>"
 msgstr ""
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid ""
-"<span attrs=\"{'invisible': [('calendar_mismatch', '=', False)]}\" class=\"fa fa-exclamation-triangle text-danger o_calendar_warning pl-3\">\n"
+"<span attrs=\"{'invisible': [('calendar_mismatch', '=', False)]}\" class="
+"\"fa fa-exclamation-triangle text-danger o_calendar_warning pl-3\">\n"
 "                            </span>\n"
-"                            <span class=\"o_calendar_warning_tooltip text-danger\">\n"
-"                                Calendar Mismatch : The employee's calendar does not match its current contract calendar. This could lead to unexpected behaviors.\n"
+"                            <span class=\"o_calendar_warning_tooltip text-"
+"danger\">\n"
+"                                Calendar Mismatch : The employee's calendar "
+"does not match its current contract calendar. This could lead to unexpected "
+"behaviors.\n"
 "                            </span>"
 msgstr ""
-"<span attrs=\"{'invisible': [('calendar_mismatch', '=', False)]}\" class=\"fa fa-exclamation-triangle text-danger o_calendar_warning pl-3\">\n"
+"<span attrs=\"{'invisible': [('calendar_mismatch', '=', False)]}\" class="
+"\"fa fa-exclamation-triangle text-danger o_calendar_warning pl-3\">\n"
 "</span>\n"
 "<span class=\"o_calendar_warning_tooltip text-danger\">\n"
-"Incohérence entre les calendriers : le calendrier de l'employé ne correspond pas à son calendrier de contrat actuel. Cela pourrait conduire à des comportements inattendus.\n"
+"Incohérence entre les calendriers : le calendrier de l'employé ne correspond "
+"pas à son calendrier de contrat actuel. Cela pourrait conduire à des "
+"comportements inattendus.\n"
 "</span>"
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid ""
-"<span class=\"o_stat_text text-danger\" attrs=\"{'invisible' : [('contract_warning', '=', False)]}\" title=\"In Contract Since\">\n"
+"<span class=\"o_stat_text text-danger\" attrs=\"{'invisible' : "
+"[('contract_warning', '=', False)]}\" title=\"In Contract Since\">\n"
 "                                    In Contract Since\n"
 "                                </span>"
 msgstr ""
-"<span class=\"o_stat_text text-danger\" attrs=\"{'invisible' : [('contract_warning', '=', False)]}\" title=\"In Contract Since\">\n"
+"<span class=\"o_stat_text text-danger\" attrs=\"{'invisible' : "
+"[('contract_warning', '=', False)]}\" title=\"In Contract Since\">\n"
 "                                    En contrat depuis\n"
 "                                </span>"
 
@@ -94,8 +108,8 @@ msgid ""
 "Contract Since</span>"
 msgstr ""
 "<span class=\"o_stat_text text-success\" attrs=\"{'invisible' : "
-"[('contract_warning', '=', True)]}\" title=\"In Contract Since\"> En contrat"
-" depuis</span>"
+"[('contract_warning', '=', True)]}\" title=\"In Contract Since\"> En contrat "
+"depuis</span>"
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
@@ -152,7 +166,8 @@ msgstr "Administrateur"
 #: code:addons/hr_contract/models/hr_contract.py:0
 #, python-format
 msgid ""
-"An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
+"An employee can only have one contract at the same time. (Excluding Draft "
+"and Cancelled contracts).\n"
 "\n"
 "Employee: %(employee_name)s"
 msgstr ""
