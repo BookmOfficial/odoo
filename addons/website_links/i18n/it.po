@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_links
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_links
@@ -45,8 +45,8 @@ msgstr "n. di clic"
 #: model_terms:ir.ui.view,arch_db:website_links.share_page_menu
 msgid "<span title=\"Track this page to count clicks\">Link Tracker</span>"
 msgstr ""
-"<span title=\"Monitora la pagina per contare i clic\">Monitoraggio "
-"link</span>"
+"<span title=\"Monitora la pagina per contare i clic\">Monitoraggio link</"
+"span>"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
@@ -92,8 +92,8 @@ msgid ""
 "special promotion.\"/>"
 msgstr ""
 "Campagna <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-"
-"placement=\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Definisce"
-" il contesto del link. Può essere un evento da promuovere o una promozione "
+"placement=\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Definisce "
+"il contesto del link. Può essere un evento da promuovere o una promozione "
 "speciale.\"/>"
 
 #. module: website_links
@@ -113,7 +113,6 @@ msgstr "Copia"
 
 #. module: website_links
 #. openerp-web
-#: code:addons/website_links/static/src/xml/recent_link.xml:0
 #: code:addons/website_links/static/src/xml/recent_link.xml:0
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -159,15 +158,15 @@ msgstr "Monitoraggio link"
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
-"Medium <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-"
-"placement=\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Defines "
-"the medium used to share your link. It might be an email, or a Facebook Ads "
-"for instance.\"/>"
+"Medium <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-placement="
+"\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Defines the medium "
+"used to share your link. It might be an email, or a Facebook Ads for "
+"instance.\"/>"
 msgstr ""
-"Mezzo <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-"
-"placement=\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Definisce"
-" il mezzo utilizzato per condividere il link. Ad esempio può essere una "
-"e-mail o un'inserzione di Facebook.\"/>"
+"Mezzo <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-placement="
+"\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Definisce il mezzo "
+"utilizzato per condividere il link. Ad esempio può essere una e-mail o "
+"un'inserzione di Facebook.\"/>"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -203,14 +202,13 @@ msgstr ""
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
-"Source <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-"
-"placement=\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Defines "
-"the source from which your traffic will come from, Facebook or Twitter for "
-"instance.\"/>"
+"Source <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-placement="
+"\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Defines the source "
+"from which your traffic will come from, Facebook or Twitter for instance.\"/>"
 msgstr ""
 "Origine <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-"
-"placement=\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Definisce"
-" la fonte di provenienza del traffico, ad esempio Facebook o Twitter.\"/>"
+"placement=\"top\" role=\"img\" aria-label=\"Tooltip info\" title=\"Definisce "
+"la fonte di provenienza del traffico, ad esempio Facebook o Twitter.\"/>"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.graphs
@@ -236,8 +234,6 @@ msgstr "Il codice non può essere lasciato vuoto"
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:0
-#: code:addons/website_links/static/src/js/website_links_charts.js:0
-#: code:addons/website_links/static/src/js/website_links_charts.js:0
 #, python-format
 msgid "There is no data to show"
 msgstr "Nessun dato da visualizzare"
@@ -253,12 +249,11 @@ msgstr "Questo codice è già occupato"
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
-"Those trackers can be used in Google Analytics to track clicks and visitors,"
-" or in Odoo reports to track opportunities and related revenues."
+"Those trackers can be used in Google Analytics to track clicks and visitors, "
+"or in Odoo reports to track opportunities and related revenues."
 msgstr ""
 "Questi link possono esser usati in Google Analytics per tracciare clic e "
-"visitatori, o nei resoconti Odoo per tracciare opportunità e relativi "
-"ricavi."
+"visitatori, o nei resoconti Odoo per tracciare opportunità e relativi ricavi."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
