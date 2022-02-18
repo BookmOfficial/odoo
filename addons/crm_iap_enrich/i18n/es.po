@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* crm_iap_enrich
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Braulio D. López Vázquez <bdl@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: crm_iap_enrich
@@ -26,9 +26,9 @@ msgid ""
 "<span> No company data found based on the email address or email address is "
 "one of an email provider. No credit was consumed. </span>"
 msgstr ""
-"<span>No se encontraron datos de la empresa basado en la dirección de correo"
-" electrónico ó la dirección de correo es de un proveedor de correos "
-"genérico. No se han consumido créditos. </span>"
+"<span>No se encontraron datos de la empresa basado en la dirección de correo "
+"electrónico ó la dirección de correo es de un proveedor de correos genérico. "
+"No se han consumido créditos. </span>"
 
 #. module: crm_iap_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.mail_message_lead_enrich_no_email
@@ -105,8 +105,8 @@ msgstr "Iniciativa/Oportunidad"
 #. module: crm_iap_enrich
 #: model:ir.model.fields,help:crm_iap_enrich.field_crm_lead__iap_enrich_done
 msgid ""
-"Whether IAP service for lead enrichment based on email has been performed on"
-" this lead."
+"Whether IAP service for lead enrichment based on email has been performed on "
+"this lead."
 msgstr ""
 "Si se ha enriquecido esta iniciativa usando el servicio de enriquecimiento "
 "de iniciativas IAP basado en dirección de correo."
@@ -115,8 +115,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.mail_message_lead_enrich_no_credit
 msgid "Your balance for Lead Enrichment is insufficient. Please go to your"
 msgstr ""
-"Tu balance para Enriquecimiento de Iniciativas es insuficiente. Por favor ve"
-" a tu"
+"Tu balance para Enriquecimiento de Iniciativas es insuficiente. Por favor ve "
+"a tu"
 
 #. module: crm_iap_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.mail_message_lead_enrich_no_credit
