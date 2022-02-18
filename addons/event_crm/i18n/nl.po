@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* event_crm
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: event_crm
@@ -147,8 +147,10 @@ msgid ""
 "Attended: when attendance is confirmed and registration set to done;"
 msgstr ""
 "Creatie: bij creatie van de deelnemer;\n"
-"Bevestiging: wanneer de deelnemer wordt bevestigd, handmatig of automatisch;\n"
-"Bijgewoond: wanneer de aanwezigheid is bevestigd en de registratie is voltooid."
+"Bevestiging: wanneer de deelnemer wordt bevestigd, handmatig of "
+"automatisch;\n"
+"Bijgewoond: wanneer de aanwezigheid is bevestigd en de registratie is "
+"voltooid."
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_type
@@ -209,8 +211,8 @@ msgstr ""
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_id
 msgid ""
-"Filter the attendees to include those of this specific event. If not set, no"
-" event restriction will be applied."
+"Filter the attendees to include those of this specific event. If not set, no "
+"event restriction will be applied."
 msgstr ""
 "Filter de bezoekers om die in deze specifieke evenement op te nemen. Indien "
 "het niet is ingesteld, wordt er geen beperking van de evenementcategorie "
@@ -334,7 +336,6 @@ msgstr "Verkoopkans"
 
 #. module: event_crm
 #: code:addons/event_crm/models/event_registration.py:0
-#: code:addons/event_crm/models/event_registration.py:0
 #, python-format
 msgid "Participants"
 msgstr "Deelnemers"
@@ -376,10 +377,12 @@ msgstr "Registraties die de regel triggeren die deze lead heeft gemaakt."
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__company_id
 msgid ""
-"Restrict the trigger of this rule to events belonging to a specific company.\n"
+"Restrict the trigger of this rule to events belonging to a specific "
+"company.\n"
 "If not set, no company restriction will be applied."
 msgstr ""
-"Beperk de trigger van deze regel tot gebeurtenissen die tot een specifiek bedrijf behoren.\n"
+"Beperk de trigger van deze regel tot gebeurtenissen die tot een specifiek "
+"bedrijf behoren.\n"
 "Indien deze niet is ingesteld, wordt er geen bedrijfsbeperking toegepast."
 
 #. module: event_crm
@@ -438,7 +441,6 @@ msgid "Trigger Type"
 msgstr "Soort trigger"
 
 #. module: event_crm
-#: code:addons/event_crm/models/event_registration.py:0
 #: code:addons/event_crm/models/event_registration.py:0
 #, python-format
 msgid "Updated registrations"
