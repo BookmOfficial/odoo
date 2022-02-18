@@ -1,14 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_payment
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Jonathan Castillo <jcs@odoo.com>, 2021
 # RHTodoo, 2021
 # Cécile Collart <cco@odoo.com>, 2021
 # Clément Watthez <cwa@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -17,10 +17,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Clément Watthez <cwa@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: website_payment
@@ -28,7 +28,8 @@ msgstr ""
 msgid ""
 ".\n"
 "                        <br/>\n"
-"                        We appreciate your support for our organization as such.\n"
+"                        We appreciate your support for our organization as "
+"such.\n"
 "                        <br/>\n"
 "                        Regards."
 msgstr ""
@@ -67,7 +68,8 @@ msgstr "<b>Méthode de paiement :</b>"
 #: model_terms:ir.ui.view,arch_db:website_payment.donation_pay
 msgid ""
 "<strong>No suitable payment option could be found.</strong><br/>\n"
-"                                If you believe that it is an error, please contact the website administrator."
+"                                If you believe that it is an error, please "
+"contact the website administrator."
 msgstr ""
 
 #. module: website_payment
@@ -102,7 +104,6 @@ msgstr ""
 
 #. module: website_payment
 #. openerp-web
-#: code:addons/website_payment/static/src/snippets/s_donation/000.xml:0
 #: code:addons/website_payment/static/src/snippets/s_donation/000.xml:0
 #, python-format
 msgid "Amount"
@@ -157,7 +158,6 @@ msgstr "Pays..."
 
 #. module: website_payment
 #. openerp-web
-#: code:addons/website_payment/static/src/snippets/s_donation/000.xml:0
 #: code:addons/website_payment/static/src/snippets/s_donation/000.xml:0
 #: model_terms:ir.ui.view,arch_db:website_payment.donation_input
 #: model_terms:ir.ui.view,arch_db:website_payment.s_donation_options
