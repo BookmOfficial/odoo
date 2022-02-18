@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_quotation_builder
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -14,32 +14,36 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
 msgid ""
 ":\n"
-"                                        this content will appear on the quotation only if this\n"
+"                                        this content will appear on the "
+"quotation only if this\n"
 "                                        product is put on the quote."
 msgstr ""
 ":\n"
-"                                        questo contenuto compare nel preventivo solo se il\n"
+"                                        questo contenuto compare nel "
+"preventivo solo se il\n"
 "                                        prodotto viene aggiunto."
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
 msgid ""
 ":\n"
-"                                        this content will appear on the quotation only if this\n"
+"                                        this content will appear on the "
+"quotation only if this\n"
 "                                        product is used in the quote."
 msgstr ""
 ":\n"
-"                                        questo contenuto compare nel preventivo solo se il\n"
+"                                        questo contenuto compare nel "
+"preventivo solo se il\n"
 "                                        prodotto viene utilizzato."
 
 #. module: sale_quotation_builder
@@ -57,11 +61,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
 msgid ""
 "<strong>Template Header:</strong> this content\n"
-"                                    will appear on all quotations using this\n"
+"                                    will appear on all quotations using "
+"this\n"
 "                                    template."
 msgstr ""
 "<strong>Intestazione modello:</strong> questo contenuto\n"
-"                                    compare su tutti i preventivi che utilizzano\n"
+"                                    compare su tutti i preventivi che "
+"utilizzano\n"
 "                                    il modello."
 
 #. module: sale_quotation_builder
@@ -83,7 +89,8 @@ msgid ""
 msgstr ""
 "Come azienda leader nel settore dei servizi professionali,\n"
 "                                sappiamo che il successo è legato \n"
-"                                al nostro impegno per offrire servizi di qualità. "
+"                                al nostro impegno per offrire servizi di "
+"qualità. "
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
@@ -104,25 +111,35 @@ msgstr "Progetta modello"
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
 "Great quotation templates will significantly\n"
-"                                <strong>boost your success rate</strong>. The\n"
-"                                first section is usually about your company,\n"
+"                                <strong>boost your success rate</strong>. "
+"The\n"
+"                                first section is usually about your "
+"company,\n"
 "                                your references, your methodology or\n"
-"                                guarantees, your team, SLA, terms and conditions, etc."
+"                                guarantees, your team, SLA, terms and "
+"conditions, etc."
 msgstr ""
 "Degli ottimi template di preventivi \n"
-"                                <strong>incrementeranno significativamente il tasso di successo</strong>. La prima sezione di solito è relativa all'azienda, le tue referenze, la tua metodologia, il tuo team, temini e condizioni, etc."
+"                                <strong>incrementeranno significativamente "
+"il tasso di successo</strong>. La prima sezione di solito è relativa "
+"all'azienda, le tue referenze, la tua metodologia, il tuo team, temini e "
+"condizioni, etc."
 
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
 "If you edit a quotation from the 'Preview' of a quotation, you will\n"
-"                        update that quotation only. If you edit the quotation\n"
-"                        template (from the Configuration menu), all future quotations will\n"
+"                        update that quotation only. If you edit the "
+"quotation\n"
+"                        template (from the Configuration menu), all future "
+"quotations will\n"
 "                        use this modified template."
 msgstr ""
 "La modifica di un preventivo da \"anteprima\" aggiorna solo il\n"
-"                        preventivo stesso. Modificando un modello di preventivo\n"
-"                        (dal menu di configurazione), tutti i preventivi futuri\n"
+"                        preventivo stesso. Modificando un modello di "
+"preventivo\n"
+"                        (dal menu di configurazione), tutti i preventivi "
+"futuri\n"
 "                        utilizzeranno il modello modificato."
 
 #. module: sale_quotation_builder
@@ -165,7 +182,8 @@ msgstr "Modello prodotto"
 msgid ""
 "Product quality is the foundation we\n"
 "                                stand on; we build it with a relentless\n"
-"                                focus on fabric, performance and craftsmanship."
+"                                focus on fabric, performance and "
+"craftsmanship."
 msgstr ""
 "La qualità dei nostri prodotti è particolarmente\n"
 "                                importante per noi; ci concentriamo\n"
@@ -245,12 +263,16 @@ msgstr ""
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
 "This is a <strong>sample quotation template</strong>. You should\n"
-"                                customize it to fit your own needs from the <i>Sales</i>\n"
-"                                application, using the menu: Configuration /\n"
+"                                customize it to fit your own needs from the "
+"<i>Sales</i>\n"
+"                                application, using the menu: "
+"Configuration /\n"
 "                                Quotation Templates."
 msgstr ""
-"Questo è un <strong>modello di preventivo</strong>. Dovresti personalizzarlo secondo le tue necessità utilizzando l'applicazione <i>Vendite</i>\n"
-"                                tramite il menu: Configurazione / Modello di preventivo"
+"Questo è un <strong>modello di preventivo</strong>. Dovresti personalizzarlo "
+"secondo le tue necessità utilizzando l'applicazione <i>Vendite</i>\n"
+"                                tramite il menu: Configurazione / Modello di "
+"preventivo"
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
@@ -261,7 +283,8 @@ msgstr "Anteprima del modello ordine di vendita."
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
 msgid ""
 "Titles with style <i>Heading 2</i> and\n"
-"                                    <i>Heading 3</i> will be used to generate the\n"
+"                                    <i>Heading 3</i> will be used to "
+"generate the\n"
 "                                    table of content automatically."
 msgstr ""
 
@@ -273,7 +296,8 @@ msgid ""
 "                                happy to buy them."
 msgstr ""
 "Ci assicuriamo sempre che i nostri prodotti\n"
-"                                siano fissati ad un prezzo equo, in modo che tu sia\n"
+"                                siano fissati ad un prezzo equo, in modo che "
+"tu sia\n"
 "                                felici di acquistarli."
 
 #. module: sale_quotation_builder
@@ -291,13 +315,19 @@ msgstr "Descrizione sito web"
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
 "You can <strong>set a description per product</strong>. Odoo will\n"
-"                        automatically create a quotation using the descriptions\n"
-"                        of all products in the proposal. The table of content\n"
-"                        on the left is generated automatically using the styles you\n"
+"                        automatically create a quotation using the "
+"descriptions\n"
+"                        of all products in the proposal. The table of "
+"content\n"
+"                        on the left is generated automatically using the "
+"styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"È possibile <strong>configurare una descrizione per prodotto</strong>. Odoo creerà\n"
-"                        automaticamente un preventivo utilizzando le descrizioni\n"
+"È possibile <strong>configurare una descrizione per prodotto</strong>. Odoo "
+"creerà\n"
+"                        automaticamente un preventivo utilizzando le "
+"descrizioni\n"
 "                        di tutti i prodotti della proposta. Il sommario\n"
-"                        a sinistra viene generato automaticamente con gli stili\n"
+"                        a sinistra viene generato automaticamente con gli "
+"stili\n"
 "                        utilizzati nella descrizione (titolo 1, titolo 2,...)"
