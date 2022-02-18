@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* payment_paypal
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: payment_paypal
@@ -48,14 +48,18 @@ msgid ""
 "Hello,\n"
 "                <br/><br/>\n"
 "                You have received a payment through PayPal.<br/>\n"
-"                Kindly follow the instructions given by PayPal to create your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Odoo.<br/><br/>"
+"                Kindly follow the instructions given by PayPal to create "
+"your account.<br/>\n"
+"                Then, help us complete your Paypal credentials in Odoo.<br/"
+"><br/>"
 msgstr ""
 "Ciao,\n"
 "                <br/><br/>\n"
 "                Hai ricevuto un pagamento attraverso PayPal.<br/>\n"
-"                Per favore segui le istruzioni date da PayPal per creare il tuo account.<br/>\n"
-"                Successivamente, aiutaci a completare le tue credenziali Paypal su Odoo.<br/><br/>"
+"                Per favore segui le istruzioni date da PayPal per creare il "
+"tuo account.<br/>\n"
+"                Successivamente, aiutaci a completare le tue credenziali "
+"Paypal su Odoo.<br/><br/>"
 
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.payment_acquirer_form
