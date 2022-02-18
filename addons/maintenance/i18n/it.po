@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* maintenance
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Sergio Zanchetta <primes2h@gmail.com>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: maintenance
@@ -43,8 +43,12 @@ msgstr "<b>Numero di serie:</b>"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
-msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
-msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Gestisci\"/>"
+msgid ""
+"<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title="
+"\"Manage\"/>"
+msgstr ""
+"<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title="
+"\"Gestisci\"/>"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -82,8 +86,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
-"Dizionario Python che verrà esaminato per fornire valori predefiniti durante"
-" la creazione di nuovi record per l'alias."
+"Dizionario Python che verrà esaminato per fornire valori predefiniti durante "
+"la creazione di nuovi record per l'alias."
 
 #. module: maintenance
 #: model:maintenance.equipment,name:maintenance.equipment_computer3
@@ -365,8 +369,8 @@ msgid ""
 "Date at which the equipment became effective. This date will be used to "
 "compute the Mean Time Between Failure."
 msgstr ""
-"Data nella quale l'attrezzatura diventa operativa. Viene usata per calcolare"
-" il tempo medio tra i guasti (MTBF)."
+"Data nella quale l'attrezzatura diventa operativa. Viene usata per calcolare "
+"il tempo medio tra i guasti (MTBF)."
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__next_action_date
@@ -612,8 +616,8 @@ msgstr "ID"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_thread_id
 msgid ""
-"ID of the parent record holding the alias (example: project holding the task"
-" creation alias)"
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
 msgstr ""
 "ID del record principale contenente l’alias (esempio: progetto che contiene "
 "l’alias di creazione del lavoro)"
@@ -1062,8 +1066,8 @@ msgstr "ID discussione record principale"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_parent_model_id
 msgid ""
-"Parent model holding the alias. The model holding the alias reference is not"
-" necessarily the model given by alias_model_id (example: project "
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
 "Modello principale contenente l'alias. Il modello che contiene il "
@@ -1081,12 +1085,14 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
-"- followers: only followers of the related document or members of following channels\n"
+"- followers: only followers of the related document or members of following "
+"channels\n"
 msgstr ""
 "Politica di pubblicazione messaggi su documenti usando il gateway di posta.\n"
 "- tutti: tutti possono pubblicare\n"
 "- partner: solo partner autenticati\n"
-"- follower: solo chi segue il documento collegato o gli iscritti ai relativi canali\n"
+"- follower: solo chi segue il documento collegato o gli iscritti ai relativi "
+"canali\n"
 
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__maintenance_type__preventive
@@ -1182,10 +1188,12 @@ msgstr "Richiesta completata"
 #. module: maintenance
 #: code:addons/maintenance/models/maintenance.py:0
 #, python-format
-msgid "Request planned for <a href=\"#\" data-oe-model=\"%s\" data-oe-id=\"%s\">%s</a>"
+msgid ""
+"Request planned for <a href=\"#\" data-oe-model=\"%s\" data-oe-id=\"%s\">%s</"
+"a>"
 msgstr ""
-"Richiesta pianificata per <a href=\"#\" data-oe-model=\"%s\" data-oe-"
-"id=\"%s\">%s</a>"
+"Richiesta pianificata per <a href=\"#\" data-oe-model=\"%s\" data-oe-id=\"%s"
+"\">%s</a>"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -1355,12 +1363,12 @@ msgstr "Tecnico"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
-" email that does not reply to an existing record will cause the creation of "
-"a new record of this model (e.g. a Project Task)"
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
 msgstr ""
-"Il modello (tipo di documento Odoo) a cui corrisponde questo alias. Le "
-"e-mail in ingresso che non rispondono a un record esistente attiveranno la "
+"Il modello (tipo di documento Odoo) a cui corrisponde questo alias. Le e-"
+"mail in ingresso che non rispondono a un record esistente attiveranno la "
 "creazione di un nuovo record per questo modello (es. lavoro di un progetto)"
 
 #. module: maintenance
@@ -1380,8 +1388,8 @@ msgid ""
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
 msgstr ""
-"Proprietario dei record creati al ricevimento di e-mail per questo alias. Se"
-" questo campo non è impostato, il sistema proverà a cercare il proprietario "
+"Proprietario dei record creati al ricevimento di e-mail per questo alias. Se "
+"questo campo non è impostato, il sistema proverà a cercare il proprietario "
 "in base al mittente (campo \"Da\"). Se all'indirizzo non è associato alcun "
 "utente di sistema verrà usato l'account amministratore."
 
@@ -1412,10 +1420,13 @@ msgstr "Priorità"
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_action_from_category_form
 msgid ""
 "Track equipments and link it to an employee or department.\n"
-"                You will be able to manage allocations, issues and maintenance of your equipment."
+"                You will be able to manage allocations, issues and "
+"maintenance of your equipment."
 msgstr ""
-"Tiene traccia delle attrezzature e le collega a un dipendente o a un ufficio.\n"
-"                Sarà possibile gestire assegnazioni, problematiche e manutenzioni delle attrezzature."
+"Tiene traccia delle attrezzature e le collega a un dipendente o a un "
+"ufficio.\n"
+"                Sarà possibile gestire assegnazioni, problematiche e "
+"manutenzioni delle attrezzature."
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment__activity_exception_decoration
@@ -1485,11 +1496,11 @@ msgstr "Data scadenza garanzia"
 #: code:addons/maintenance/models/maintenance.py:0
 #, python-format
 msgid ""
-"You cannot delete an equipment category containing equipments or maintenance"
-" requests."
+"You cannot delete an equipment category containing equipments or maintenance "
+"requests."
 msgstr ""
-"Impossibile eliminare una categoria che contiene attrezzature o richieste di"
-" manutenzione."
+"Impossibile eliminare una categoria che contiene attrezzature o richieste di "
+"manutenzione."
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
