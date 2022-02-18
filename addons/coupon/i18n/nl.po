@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* coupon
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: coupon
@@ -77,21 +77,21 @@ msgstr "10.0% koring op totaalbedrag"
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
 msgid ""
 "<span attrs=\"{'invisible': [('discount_type', '!=', "
-"'percentage')],'required': [('discount_type', '=', 'percentage')]}\" "
-"class=\"oe_inline\">%</span>"
+"'percentage')],'required': [('discount_type', '=', 'percentage')]}\" class="
+"\"oe_inline\">%</span>"
 msgstr ""
 "<span attrs=\"{'invisible': [('discount_type', '!=', "
-"'percentage')],'required': [('discount_type', '=', 'percentage')]}\" "
-"class=\"oe_inline\">%</span>"
+"'percentage')],'required': [('discount_type', '=', 'percentage')]}\" class="
+"\"oe_inline\">%</span>"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_coupon_program_form
 msgid ""
-"<span class=\"o_form_label oe_inline\"> Days</span> <span "
-"class=\"oe_grey\">if 0, infinite use</span>"
+"<span class=\"o_form_label oe_inline\"> Days</span> <span class=\"oe_grey"
+"\">if 0, infinite use</span>"
 msgstr ""
-"<span class=\"o_form_label oe_inline\"> Dagen</span> <span "
-"class=\"oe_grey\">als 0, eindeloos gebruik</span>"
+"<span class=\"o_form_label oe_inline\"> Dagen</span> <span class=\"oe_grey"
+"\">als 0, eindeloos gebruik</span>"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
@@ -102,10 +102,12 @@ msgstr "<span class=\"oe_grey\"> als 0, geen limiet</span>"
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_promo_program_form
 msgid ""
 "<span> Days</span>\n"
-"                    <span class=\"oe_grey\"> if 0, coupon doesn't expire</span>"
+"                    <span class=\"oe_grey\"> if 0, coupon doesn't expire</"
+"span>"
 msgstr ""
 "<span> Dagen</span>\n"
-"                    <span class=\"oe_grey\"> als 0, vervalt coupon niet</span>"
+"                    <span class=\"oe_grey\"> als 0, vervalt coupon niet</"
+"span>"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_promo_program_form
@@ -114,7 +116,8 @@ msgid ""
 "                    <span class=\"oe_grey\"> if 0, infinite use</span>"
 msgstr ""
 "<span> Orders</span>\n"
-"                    <span class=\"oe_grey\"> indien 0, eindeloos gebruik</span>"
+"                    <span class=\"oe_grey\"> indien 0, eindeloos gebruik</"
+"span>"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
@@ -136,8 +139,8 @@ msgstr "<span>producten</span>"
 msgid ""
 "<strong style=\"font-size: 55px; color: #875A7B\">get free shipping</strong>"
 msgstr ""
-"<strong style=\"font-size: 55px; color: #875A7B\">geef gratis "
-"verzenden</strong>"
+"<strong style=\"font-size: 55px; color: #875A7B\">geef gratis verzenden</"
+"strong>"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.view_coupon_program_kanban
@@ -157,8 +160,8 @@ msgstr "Een programma is beschikbaar voor de klant wanneer het actief is"
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__promo_code
 msgid ""
-"A promotion code is a code that is associated with a marketing discount. For"
-" example, a retailer might tell frequent customers to enter the promotion "
+"A promotion code is a code that is associated with a marketing discount. For "
+"example, a retailer might tell frequent customers to enter the promotion "
 "code 'THX001' to receive a 10%% discount on their whole order."
 msgstr ""
 "Een promotiecode is een code die gekoppeld is aan een marketingkorting. Een "
@@ -168,17 +171,24 @@ msgstr ""
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__program_type
 msgid ""
-"A promotional program can be either a limited promotional offer without code (applied automatically)\n"
-"                or with a code (displayed on a magazine for example) that may generate a discount on the current\n"
+"A promotional program can be either a limited promotional offer without code "
+"(applied automatically)\n"
+"                or with a code (displayed on a magazine for example) that "
+"may generate a discount on the current\n"
 "                order or create a coupon for a next order.\n"
 "\n"
-"                A coupon program generates coupons with a code that can be used to generate a discount on the current\n"
+"                A coupon program generates coupons with a code that can be "
+"used to generate a discount on the current\n"
 "                order or create a coupon for a next order."
 msgstr ""
-"Een promotieprogramma kan een beperkte promotie-aanbieding zonder code zijn (automatisch toegepast)\n"
-"of met een code zijn (weergegeven op een tijdschrift bijvoorbeeld), die een korting op de huidige order kan genereren\n"
+"Een promotieprogramma kan een beperkte promotie-aanbieding zonder code zijn "
+"(automatisch toegepast)\n"
+"of met een code zijn (weergegeven op een tijdschrift bijvoorbeeld), die een "
+"korting op de huidige order kan genereren\n"
 "bestelt of maakt een kortingsbon voor een volgende order.\n"
-"Een kortingsbonprogramma genereert kortingsbonnen met een code die kunnen worden gebruikt om een korting op de huidige order te genereren of maakt een kortingsbon voor een volgende order."
+"Een kortingsbonprogramma genereert kortingsbonnen met een code die kunnen "
+"worden gebruikt om een korting op de huidige order te genereren of maakt een "
+"kortingsbon voor een volgende order."
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__active
@@ -220,11 +230,17 @@ msgstr "Automatisch toegepast"
 #. module: coupon
 #: model:ir.model.fields,help:coupon.field_coupon_program__promo_code_usage
 msgid ""
-"Automatically Applied - No code is required, if the program rules are met, the reward is applied (Except the global discount or the free shipping rewards which are not cumulative)\n"
-"Use a code - If the program rules are met, a valid code is mandatory for the reward to be applied\n"
+"Automatically Applied - No code is required, if the program rules are met, "
+"the reward is applied (Except the global discount or the free shipping "
+"rewards which are not cumulative)\n"
+"Use a code - If the program rules are met, a valid code is mandatory for the "
+"reward to be applied\n"
 msgstr ""
-"Automatisch toegepast - Er is geen code vereist, als aan de programmaregels is voldaan, wordt de beloning toegepast (Exclusief de globale korting of de gratis verzendkosten die niet cumulatief zijn)\n"
-"Gebruik een code - als aan de programmaregels is voldaan, is een geldige code verplicht om de beloning te ontvangen.\n"
+"Automatisch toegepast - Er is geen code vereist, als aan de programmaregels "
+"is voldaan, wordt de beloning toegepast (Exclusief de globale korting of de "
+"gratis verzendkosten die niet cumulatief zijn)\n"
+"Gebruik een code - als aan de programmaregels is voldaan, is een geldige "
+"code verplicht om de beloning te ontvangen.\n"
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__rule_partners_domain
@@ -241,11 +257,15 @@ msgstr "Gebaseerd op producten"
 #. module: coupon
 #: model_terms:ir.actions.act_window,help:coupon.coupon_program_action_promo_program
 msgid ""
-"Build up promotion programs to attract more customers with discounts, free products, free delivery, etc.\n"
-"                You can share promotion codes or grant the promotions automatically if some conditions are met."
+"Build up promotion programs to attract more customers with discounts, free "
+"products, free delivery, etc.\n"
+"                You can share promotion codes or grant the promotions "
+"automatically if some conditions are met."
 msgstr ""
-"Stel promotieprogramma's op om meer klanten aan te trekken met kortingen, gratis producten, gratis bezorging, enz.\n"
-"Je kunt promotiecodes delen of de promoties automatisch toestaan als aan een aantal voorwaarden is voldaan."
+"Stel promotieprogramma's op om meer klanten aan te trekken met kortingen, "
+"gratis producten, gratis bezorging, enz.\n"
+"Je kunt promotiecodes delen of de promoties automatisch toestaan als aan een "
+"aantal voorwaarden is voldaan."
 
 #. module: coupon
 #: model:coupon.program,name:coupon.3_cabinets_plus_1_free
@@ -439,11 +459,13 @@ msgstr "Korting"
 msgid ""
 "Discount - Reward will be provided as discount.\n"
 "Free Product - Free product will be provide as reward \n"
-"Free Shipping - Free shipping will be provided as reward (Need delivery module)"
+"Free Shipping - Free shipping will be provided as reward (Need delivery "
+"module)"
 msgstr ""
 "Korting - Beloning wordt gegeven als korting.\n"
 "Gratis product - Gratis product wordt als beloning gegeven.\n"
-"Gratis verzending - Gratis verzending wordt als beloning gegeven (verzend module is nodig)"
+"Gratis verzending - Gratis verzending wordt als beloning gegeven (verzend "
+"module is nodig)"
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__discount_apply_on
@@ -556,11 +578,11 @@ msgstr "Genereer kortingsbonnen"
 #. module: coupon
 #: model_terms:ir.actions.act_window,help:coupon.coupon_program_action_coupon_program
 msgid ""
-"Generate and share coupon codes with your customers to get discounts or free"
-" products."
+"Generate and share coupon codes with your customers to get discounts or free "
+"products."
 msgstr ""
-"Genereer en deel couponcodes met je klanten om kortingen of gratis producten"
-" te krijgen."
+"Genereer en deel couponcodes met je klanten om kortingen of gratis producten "
+"te krijgen."
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__coupon_ids
@@ -777,8 +799,7 @@ msgid ""
 "has its own reward product for reporting purpose"
 msgstr ""
 "Producten gebruikt in het verkooporder om korting op toe te passen. Elk "
-"coupon programma heeft een eigen beloningsproduct voor rapportage "
-"doeleinden."
+"coupon programma heeft een eigen beloningsproduct voor rapportage doeleinden."
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__discount_specific_product_ids
