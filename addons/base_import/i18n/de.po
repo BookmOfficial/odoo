@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_import
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Kevin Harrings <kha@odoo.com>, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -15,15 +15,14 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_import
 #. openerp-web
-#: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "%d records successfully imported"
@@ -67,8 +66,8 @@ msgstr ""
 #, python-format
 msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
-"limit exceeded or memory limits exceeded). Please retry in case the issue is"
-" transient. If the issue still occurs, try to split the file rather than "
+"limit exceeded or memory limits exceeded). Please retry in case the issue is "
+"transient. If the issue still occurs, try to split the file rather than "
 "import it at once."
 msgstr ""
 "Beim Import ist ein unbekanntes Problem aufgetreten (möglicherweise "
@@ -142,7 +141,6 @@ msgstr "Spaltenname"
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/js/import_action.js:0
-#: code:addons/base_import/static/src/legacy/js/import_action.js:0
 #, python-format
 msgid "Comma"
 msgstr "Komma"
@@ -158,11 +156,10 @@ msgstr "Kommentare"
 #: code:addons/base_import/models/base_import.py:0
 #, python-format
 msgid ""
-"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
-"%(error)s"
+"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 msgstr ""
-"URL konnte nicht aufgerufen werden: %(url)s [%(field_name)s: "
-"L%(line_number)d]: %(error)s"
+"URL konnte nicht aufgerufen werden: %(url)s [%(field_name)s: L"
+"%(line_number)d]: %(error)s"
 
 #. module: base_import
 #. openerp-web
@@ -221,7 +218,6 @@ msgstr "Währung"
 
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:0
-#: code:addons/base_import/models/base_import.py:0
 #, python-format
 msgid "Database ID"
 msgstr "Datenbank ID"
@@ -278,9 +274,6 @@ msgstr "Punkt"
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "Download"
 msgstr "Herunterladen"
@@ -334,7 +327,6 @@ msgstr ""
 
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:0
-#: code:addons/base_import/models/base_import.py:0
 #, python-format
 msgid "External ID"
 msgstr "Externe ID"
@@ -352,9 +344,6 @@ msgstr "Datei"
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "File Column"
 msgstr "Datei Spalte"
@@ -370,7 +359,6 @@ msgid "File Type"
 msgstr "Dateiformat"
 
 #. module: base_import
-#: code:addons/base_import/models/base_import.py:0
 #: code:addons/base_import/models/base_import.py:0
 #, python-format
 msgid "File size exceeds configured maximum (%s bytes)"
@@ -408,8 +396,8 @@ msgstr "Formatierung"
 #: code:addons/base_import/models/base_import.py:0
 #, python-format
 msgid ""
-"Found invalid image data, images should be imported as either URLs or "
-"base64-encoded data."
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
 msgstr ""
 "Wenn ungültige Bilddaten gefunden werden, sollten die Bilder entweder als "
 "URLs oder als base64-kodierte Daten importiert werden."
@@ -764,7 +752,6 @@ msgstr "Ein Feld suchen"
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "See possible values"
 msgstr "Siehe mögliche Werte"
@@ -1048,7 +1035,8 @@ msgstr "Typ"
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:0
 #, python-format
-msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
+msgid ""
+"Unable to load \"{extension}\" file: requires Python module \"{modname}\""
 msgstr ""
 "Kann Datei \"{extension}\" nicht laden: Python-Modul \"{modname}\" ist "
 "erforderlich"
@@ -1059,8 +1047,8 @@ msgstr ""
 msgid ""
 "Unsupported file format \"{}\", import only supports CSV, ODS, XLS and XLSX"
 msgstr ""
-"Nicht unterstütztes Dateiformat \"{}\", Import unterstützt nur CSV, ODS, XLS"
-" und XLSX"
+"Nicht unterstütztes Dateiformat \"{}\", Import unterstützt nur CSV, ODS, XLS "
+"und XLSX"
 
 #. module: base_import
 #. openerp-web
@@ -1181,7 +1169,6 @@ msgstr "batch"
 
 #. module: base_import
 #. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
 msgid "in field"
