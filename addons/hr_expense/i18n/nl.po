@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Bert Burggraaf, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -15,17 +15,16 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
-msgid ""
-"%(user)s confirms this expense is not a duplicate with similar expense."
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 msgstr ""
 "%(user)s bevestigt dat deze uitgave geen duplicaat is met vergelijkbare "
 "uitgaven."
@@ -36,8 +35,8 @@ msgid ""
 "'Expenses - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
 msgstr ""
-"'Declaraties - %s - %s' % (object.employee_id.name, "
-"(object.name).replace('/', ''))"
+"'Declaraties - %s - %s' % (object.employee_id.name, (object.name)."
+"replace('/', ''))"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -62,8 +61,8 @@ msgid ""
 "<p>Approve the report here.</p><p>Tip: if you refuse, don’t forget to give "
 "the reason thanks to the hereunder message tool</p>"
 msgstr ""
-"<p>Keur het rapport hier goed.</p><p>Tip: Als je het afwijst kan je de reden"
-" opgeven dankzij de berichten tool hieronder</p>"
+"<p>Keur het rapport hier goed.</p><p>Tip: Als je het afwijst kan je de reden "
+"opgeven dankzij de berichten tool hieronder</p>"
 
 #. module: hr_expense
 #. openerp-web
@@ -105,9 +104,9 @@ msgid ""
 "<p>The accountant receive approved expense reports.</p><p>He can post "
 "journal entries in one click if taxes and accounts are right.</p>"
 msgstr ""
-"<p>De financiële afdeling ontvangt goedgekeurde "
-"declaratieformulieren.</p><p>Zij kunnen met 1-klik boekingen maken wanneer "
-"de BTW en grootboeken correct zijn.</p>"
+"<p>De financiële afdeling ontvangt goedgekeurde declaratieformulieren.</"
+"p><p>Zij kunnen met 1-klik boekingen maken wanneer de BTW en grootboeken "
+"correct zijn.</p>"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -1316,7 +1315,6 @@ msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
-#: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "Only Managers and HR Officers can approve expenses"
 msgstr "Alleen managers en HR functionarissen kunnen declaraties goedkeuren"
@@ -1617,17 +1615,20 @@ msgstr "Scan deze QR-code om de Odoo-app te krijgen:"
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
-"If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
 msgstr ""
-"Selecteer de gebruiker die verantwoordelijk is voor het goedkeuren van \"declaraties\" van deze werknemer.\n"
-"Indien leeg, wordt de goedkeuring gedaan door een Beheerder of Goedkeurder (bepaald in instellingen / gebruikers)."
+"Selecteer de gebruiker die verantwoordelijk is voor het goedkeuren van "
+"\"declaraties\" van deze werknemer.\n"
+"Indien leeg, wordt de goedkeuring gedaan door een Beheerder of Goedkeurder "
+"(bepaald in instellingen / gebruikers)."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid ""
-"Selected Unit of Measure for expense %(expense)s does not belong to the same"
-" category as the Unit of Measure of product %(product)s."
+"Selected Unit of Measure for expense %(expense)s does not belong to the same "
+"category as the Unit of Measure of product %(product)s."
 msgstr ""
 "Geselecteerde maateenheid voor declaraties %(expense)s behoort niet tot "
 "dezelfde categorie als de maateenheid van product %(product)s."
@@ -1642,8 +1643,8 @@ msgid ""
 "subject to set it on the expense too."
 msgstr ""
 "Stuur een e-mail naar deze e-mailalias met het kassabon in bijlage om met "
-"één klik een declaratie te maken. Als het eerste woord van het "
-"e-mailonderwerp de interne referentie van de categorie of de categorienaam "
+"één klik een declaratie te maken. Als het eerste woord van het e-"
+"mailonderwerp de interne referentie van de categorie of de categorienaam "
 "bevat, wordt automatisch de bijbehorende categorie ingesteld. Typ het "
 "declaratiebedrag in het e-mailonderwerp om het ook op de declaratie in te "
 "stellen."
@@ -1761,8 +1762,7 @@ msgstr "Goedkeurder team"
 msgid ""
 "The accountant can register a payment to reimburse the employee directly."
 msgstr ""
-"De accountant kan een betaling aanmaken en de werknemer direct terug "
-"betalen."
+"De accountant kan een betaling aanmaken en de werknemer direct terug betalen."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -1780,8 +1780,8 @@ msgstr "De declaraties zijn succesvol goedgekeurd."
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid ""
-"The first word of the email subject did not correspond to any category code."
-" You'll have to set the category manually on the expense."
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
 msgstr ""
 "Het eerste woord van het onderwerp van de e-mail kwam niet overeen met een "
 "categoriecode. Je moet de categorie handmatig instellen op kosten."
@@ -1937,7 +1937,6 @@ msgstr "Maateenheid categorie"
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/xml/documents_upload_views.xml:0
-#: code:addons/hr_expense/static/src/xml/documents_upload_views.xml:0
 #, python-format
 msgid "Upload"
 msgstr "Upload"
@@ -1976,7 +1975,6 @@ msgstr "Bekijk rapport"
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
-#: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 #, python-format
 msgid "Want to manage your expenses? It starts here."
 msgstr "Wil je je declaraties beheren? Het start hier."
@@ -1996,17 +1994,17 @@ msgstr "Website communicatie geschiedenis"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
-"When the cost of an expense product is different than 0, then the user using"
-" this product won't be able to change the amount of the expense, only the "
+"When the cost of an expense product is different than 0, then the user using "
+"this product won't be able to change the amount of the expense, only the "
 "quantity. Use a cost different than 0 for expense categories funded by the "
-"company at fixed cost like allowances for mileage, per diem, accomodation or"
-" meal."
+"company at fixed cost like allowances for mileage, per diem, accomodation or "
+"meal."
 msgstr ""
 "Als de kosten van een declaratieproduct anders zijn dan 0, kan de gebruiker "
-"die dit product gebruikt het bedrag van de onkosten niet wijzigen, alleen de"
-" hoeveelheid. Gebruik andere kosten dan 0 voor declaratiecategorieën die "
-"door het bedrijf worden gefinancierd tegen vaste kosten, zoals vergoedingen "
-"voor kilometers, dagvergoedingen, accommodatie of maaltijd."
+"die dit product gebruikt het bedrag van de onkosten niet wijzigen, alleen de "
+"hoeveelheid. Gebruik andere kosten dan 0 voor declaratiecategorieën die door "
+"het bedrijf worden gefinancierd tegen vaste kosten, zoals vergoedingen voor "
+"kilometers, dagvergoedingen, accommodatie of maaltijd."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -2106,8 +2104,8 @@ msgstr "Je kunt dezelfde regel niet twee keer rapporteren."
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid ""
-"You need to have at least one category that can be expensed in your database"
-" to proceed!"
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
 msgstr ""
 "Je moet minstens één categorie hebben die in je database kan worden "
 "opgenomen om door te gaan!"
