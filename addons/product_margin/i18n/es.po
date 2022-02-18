@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* product_margin
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: product_margin
@@ -274,14 +274,13 @@ msgstr ""
 #: model:ir.model.fields,help:product_margin.field_product_product__total_cost
 msgid "Sum of Multiplication of Invoice price and quantity of Vendor Bills "
 msgstr ""
-"Suma de la multiplicación del precio de la factura y la cantidad de facturas"
-" de proveedores"
+"Suma de la multiplicación del precio de la factura y la cantidad de facturas "
+"de proveedores"
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__sale_expected
 msgid ""
-"Sum of Multiplication of Sale Catalog price and quantity of Customer "
-"Invoices"
+"Sum of Multiplication of Sale Catalog price and quantity of Customer Invoices"
 msgstr ""
 "Suma de la multiplicación del PVP y la cantidad de las facturas de cliente."
 
