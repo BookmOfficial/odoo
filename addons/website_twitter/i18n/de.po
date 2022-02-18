@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_twitter
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -14,29 +14,33 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
 msgid ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                Show me how to obtain the Twitter API key and Twitter API secret"
+"                                Show me how to obtain the Twitter API key "
+"and Twitter API secret"
 msgstr ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                Wie bekomme ich meinen Twitter API key und mein Twitter API secret"
+"                                Wie bekomme ich meinen Twitter API key und "
+"mein Twitter API secret"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
 msgid ""
 "<span class=\"o_form_label\">Twitter Roller</span>\n"
-"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
+"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set "
+"here are website-specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
 "<span class=\"o_form_label\">Twitter Roller</span>\n"
-"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
+"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set "
+"here are website-specific.\" groups=\"website.group_multi_website\"/>"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
@@ -187,8 +191,7 @@ msgstr ""
 #, python-format
 msgid "Please set the Twitter API Key and Secret in the Website Settings."
 msgstr ""
-"Bitte tragen Sie Twitter API Key und Secret in den Website-Einstellungen "
-"ein."
+"Bitte tragen Sie Twitter API Key und Secret in den Website-Einstellungen ein."
 
 #. module: website_twitter
 #. openerp-web
@@ -249,8 +252,8 @@ msgstr ""
 #: code:addons/website_twitter/models/res_config_settings.py:0
 #, python-format
 msgid ""
-"The request is understood, but it has been refused or access is not allowed."
-" Please check your Twitter API Key and Secret."
+"The request is understood, but it has been refused or access is not allowed. "
+"Please check your Twitter API Key and Secret."
 msgstr ""
 "Die Anfrage wurde verstanden, jedoch abgelehnt oder hat keine "
 "Zugriffsberechtigung. Bitte überprüfen Sie Twitter-API-Schlüssel und Secret."
@@ -369,8 +372,8 @@ msgstr "Twitter-Anleitung"
 #: code:addons/website_twitter/controllers/main.py:0
 #, python-format
 msgid ""
-"Twitter user @%(username)s has less than 12 favorite tweets. Please add more"
-" or choose a different screen name."
+"Twitter user @%(username)s has less than 12 favorite tweets. Please add more "
+"or choose a different screen name."
 msgstr ""
 "Der Twitter Benutzer @%(username)s hat weniger als 12 favorisierte Tweets. "
 "Bitte ergänzen Sie weitere Favoriten oder wählen Sie einen anderen "
