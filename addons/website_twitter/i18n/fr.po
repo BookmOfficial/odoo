@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_twitter
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Ludvig Auvens <lau@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -14,29 +14,33 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Ludvig Auvens <lau@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
 msgid ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                Show me how to obtain the Twitter API key and Twitter API secret"
+"                                Show me how to obtain the Twitter API key "
+"and Twitter API secret"
 msgstr ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                Montrez-moi comment obtenir la Clé d'API Twitter et la Clé d'API Twitter secrète"
+"                                Montrez-moi comment obtenir la Clé d'API "
+"Twitter et la Clé d'API Twitter secrète"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
 msgid ""
 "<span class=\"o_form_label\">Twitter Roller</span>\n"
-"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
+"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set "
+"here are website-specific.\" groups=\"website.group_multi_website\"/>"
 msgstr ""
 "<span class=\"o_form_label\">Rouleau Twitter</span>\n"
-"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set here are website-specific.\" groups=\"website.group_multi_website\"/>"
+"                        <span class=\"fa fa-lg fa-globe\" title=\"Values set "
+"here are website-specific.\" groups=\"website.group_multi_website\"/>"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
@@ -186,8 +190,7 @@ msgstr ""
 #, python-format
 msgid "Please set the Twitter API Key and Secret in the Website Settings."
 msgstr ""
-"Merci d'encoder votre clé API Twitter et secrète dans les paramètres "
-"Website."
+"Merci d'encoder votre clé API Twitter et secrète dans les paramètres Website."
 
 #. module: website_twitter
 #. openerp-web
@@ -241,15 +244,15 @@ msgid ""
 "The Twitter servers are up, but the request could not be serviced due to "
 "some failure within our stack. Try again later."
 msgstr ""
-"Les serveurs de Twitter sont fonctionnels, mais la requête n'a pu être prise"
-" dû à quelques failles dans notre file. Veuillez réessayer plus tard."
+"Les serveurs de Twitter sont fonctionnels, mais la requête n'a pu être prise "
+"dû à quelques failles dans notre file. Veuillez réessayer plus tard."
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/res_config_settings.py:0
 #, python-format
 msgid ""
-"The request is understood, but it has been refused or access is not allowed."
-" Please check your Twitter API Key and Secret."
+"The request is understood, but it has been refused or access is not allowed. "
+"Please check your Twitter API Key and Secret."
 msgstr ""
 "Cette requête est comprise, mais a été refusée ou l'accès n'a pas été "
 "permis. Veuillez vérifier votre Clé API Twitter et Secret."
@@ -348,8 +351,8 @@ msgid ""
 "on Twitter forums to get help."
 msgstr ""
 "Twitter semble cassé. Veuillez réessayer plus tard. Vous pouvez "
-"éventuellement poster une plainte sur les forums de Twitter pour recevoir de"
-" l'aide."
+"éventuellement poster une plainte sur les forums de Twitter pour recevoir de "
+"l'aide."
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_res_config_settings__twitter_server_uri
@@ -365,11 +368,11 @@ msgstr "Tutoriel Twitter"
 #: code:addons/website_twitter/controllers/main.py:0
 #, python-format
 msgid ""
-"Twitter user @%(username)s has less than 12 favorite tweets. Please add more"
-" or choose a different screen name."
+"Twitter user @%(username)s has less than 12 favorite tweets. Please add more "
+"or choose a different screen name."
 msgstr ""
-"L'utilisateur Twitter @%(username)s a moins de 12 tweets favoris. Merci d'en"
-" ajouter plus ou d'utiliser un autre compte twitter."
+"L'utilisateur Twitter @%(username)s a moins de 12 tweets favoris. Merci d'en "
+"ajouter plus ou d'utiliser un autre compte twitter."
 
 #. module: website_twitter
 #. openerp-web
