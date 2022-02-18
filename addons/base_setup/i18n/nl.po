@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_setup
@@ -31,51 +31,61 @@ msgstr "(Community versie)"
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" aria-label=\"Values set here are company-specific.\" "
-"groups=\"base.group_multi_company\" role=\"img\"/>"
+"specific.\" aria-label=\"Values set here are company-specific.\" groups="
+"\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Waardes die hier ingesteld "
 "staan zijn bedrijfsspecifiek.\" aria-label=\"Waardes die hier ingesteld "
-"staan zijn bedrijfsspecifiek.\" groups=\"base.group_multi_company\" "
-"role=\"img\"/>"
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
-msgstr "<span class=\"fa fa-lg fa-users\" aria-label=\"Aantal actieve gebruikers\"/>"
+"staan zijn bedrijfsspecifiek.\" groups=\"base.group_multi_company\" role="
+"\"img\"/>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', '&gt;', '1')]}\">\n"
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Number of active users\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-users\" aria-label=\"Aantal actieve gebruikers\"/>"
+
+#. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', "
+"'&gt;', '1')]}\">\n"
 "                                            Active User\n"
 "                                        </span>\n"
-"                                        <span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', '&lt;=', '1')]}\">\n"
+"                                        <span class=\"o_form_label\" attrs="
+"\"{'invisible':[('active_user_count', '&lt;=', '1')]}\">\n"
 "                                            Active Users\n"
 "                                        </span>"
 msgstr ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', '&gt;', '1')]}\">\n"
+"<span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', "
+"'&gt;', '1')]}\">\n"
 "                                            Actieve gebruiker\n"
 "                                        </span>\n"
-"                                        <span class=\"o_form_label\" attrs=\"{'invisible':[('active_user_count', '&lt;=', '1')]}\">\n"
+"                                        <span class=\"o_form_label\" attrs="
+"\"{'invisible':[('active_user_count', '&lt;=', '1')]}\">\n"
 "                                            Actieve gebruikers\n"
 "                                        </span>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&gt;', '1')]}\">\n"
+"<span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&gt;', "
+"'1')]}\">\n"
 "                                            Company\n"
 "                                        </span>\n"
-"                                        <span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&lt;=', '1')]}\">\n"
+"                                        <span class=\"o_form_label\" attrs="
+"\"{'invisible':[('company_count', '&lt;=', '1')]}\">\n"
 "                                            Companies\n"
 "                                        </span>\n"
 "                                        <br/>"
 msgstr ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&gt;', '1')]}\">\n"
+"<span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&gt;', "
+"'1')]}\">\n"
 "                                            Bedrijf\n"
 "                                        </span>\n"
-"                                        <span class=\"o_form_label\" attrs=\"{'invisible':[('company_count', '&lt;=', '1')]}\">\n"
+"                                        <span class=\"o_form_label\" attrs="
+"\"{'invisible':[('company_count', '&lt;=', '1')]}\">\n"
 "                                            Bedrijven\n"
 "                                        </span>\n"
 "                                        <br/>"
@@ -83,17 +93,21 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', '&gt;', '1')]}\">\n"
+"<span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', "
+"'&gt;', '1')]}\">\n"
 "                                                Language\n"
 "                                            </span>\n"
-"                                            <span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', '&lt;=', '1')]}\">\n"
+"                                            <span class=\"o_form_label\" "
+"attrs=\"{'invisible':[('language_count', '&lt;=', '1')]}\">\n"
 "                                                Languages\n"
 "                                            </span>"
 msgstr ""
-"<span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', '&gt;', '1')]}\">\n"
+"<span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', "
+"'&gt;', '1')]}\">\n"
 "                                                Taal\n"
 "                                            </span>\n"
-"                                            <span class=\"o_form_label\" attrs=\"{'invisible':[('language_count', '&lt;=', '1')]}\">\n"
+"                                            <span class=\"o_form_label\" "
+"attrs=\"{'invisible':[('language_count', '&lt;=', '1')]}\">\n"
 "                                                Talen\n"
 "                                            </span>"
 
@@ -101,10 +115,16 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
 "<span class=\"o_form_label\">Document Layout</span>\n"
-"                                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                                        <span class=\"fa fa-lg fa-building-o"
+"\" title=\"Values set here are company-specific.\" aria-label=\"Values set "
+"here are company-specific.\" groups=\"base.group_multi_company\" role=\"img"
+"\"/>"
 msgstr ""
 "<span class=\"o_form_label\">Document lay-out</span>\n"
-"                                        <span class=\"fa fa-lg fa-building-o\" title=\"Waardes die hier ingesteld worden zijn bedrijfsspecifiek.\" aria-label=\"Waardes die hier ingesteld worden zijn bedrijfsspecifiek.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                                        <span class=\"fa fa-lg fa-building-o"
+"\" title=\"Waardes die hier ingesteld worden zijn bedrijfsspecifiek.\" aria-"
+"label=\"Waardes die hier ingesteld worden zijn bedrijfsspecifiek.\" groups="
+"\"base.group_multi_company\" role=\"img\"/>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -117,8 +137,7 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid ""
-"<strong>Save</strong> this page and come back here to set up reCaptcha."
+msgid "<strong>Save</strong> this page and come back here to set up reCaptcha."
 msgstr ""
 "<strong>Bewaar </strong> deze pagina en kom hier terug om reCaptcha in te "
 "stellen."
@@ -225,8 +244,7 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid ""
-"By default, new users get highest access rights for all installed apps."
+msgid "By default, new users get highest access rights for all installed apps."
 msgstr ""
 "Standaard krijgen nieuwe gebruikers de hoogste toegangsrechten voor alle "
 "geïnstalleerde apps."
