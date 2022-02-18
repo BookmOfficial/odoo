@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sms
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sms
@@ -38,7 +38,6 @@ msgstr "%s (kopie)"
 
 #. module: sms
 #. openerp-web
-#: code:addons/sms/static/src/js/fields_sms_widget.js:0
 #: code:addons/sms/static/src/js/fields_sms_widget.js:0
 #, python-format
 msgid "%s characters, fits in %s SMS (%s) "
@@ -70,19 +69,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
-"                                <span class=\"o_stat_text\">Context Action</span>"
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
 msgstr ""
 "<span class=\"o_stat_text\">Toevoegen</span>\n"
-"                                <span class=\"o_stat_text\">Context actie</span>"
+"                                <span class=\"o_stat_text\">Context actie</"
+"span>"
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
-"                                <span class=\"o_stat_text\">Context Action</span>"
+"                                <span class=\"o_stat_text\">Context Action</"
+"span>"
 msgstr ""
 "<span class=\"o_stat_text\">Verwijder</span>\n"
-"                                <span class=\"o_stat_text\">Contextuele actie</span>"
+"                                <span class=\"o_stat_text\">Contextuele "
+"actie</span>"
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
@@ -141,8 +144,8 @@ msgstr "Heeft betrekking op"
 #: code:addons/sms/wizard/sms_cancel.py:0
 #, python-format
 msgid ""
-"Are you sure you want to discard %s SMS delivery failures? You won't be able"
-" to re-send these SMS later!"
+"Are you sure you want to discard %s SMS delivery failures? You won't be able "
+"to re-send these SMS later!"
 msgstr ""
 "Weet je zeker dat je %s mislukte sms-bezorgingen wilt verwijderen? Je kunt "
 "deze sms later niet opnieuw verzenden!"
@@ -499,8 +502,8 @@ msgstr "indien aangevinkt hebben sommige leveringen een fout."
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized_blacklisted
 msgid ""
-"If the sanitized phone number is on the blacklist, the contact won't receive"
-" mass mailing sms anymore, from any list"
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
 msgstr ""
 "Als het telefoonnummer op de blacklist staat, ontvangt de contactpersoon "
 "geen mass-sms meer van welke lijst dan ook"
@@ -749,8 +752,8 @@ msgstr "Aantal berichten met leveringsfout"
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_composer__res_ids_count
 msgid ""
-"Number of recipients that will receive the SMS if sent in mass mode, without"
-" applying the Active Domain value"
+"Number of recipients that will receive the SMS if sent in mass mode, without "
+"applying the Active Domain value"
 msgstr ""
 "Aantal ontvangers dat de sms ontvangt als deze in massamodus wordt "
 "verzonden, zonder de waarde van actief domein toe te passen."
@@ -775,13 +778,13 @@ msgstr "Afgemeld"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
-"a placeholder expression that provides the appropriate language, e.g. {{ "
-"object.partner_id.lang }}."
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
 msgstr ""
 "Optionele vertaaltaal (ISO-code) om te selecteren bij het verzenden van een "
 "e-mail. Indien niet ingesteld, wordt de Engelse versie gebruikt. Dit moet "
-"meestal een tijdelijke aanduiding zijn die de juiste taal biedt, bijv. {{ "
-"object.partner_id.lang }}."
+"meestal een tijdelijke aanduiding zijn die de juiste taal biedt, bijv. "
+"{{ object.partner_id.lang }}."
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__null_value
@@ -910,7 +913,6 @@ msgstr "Opnieuw proberen"
 #. module: sms
 #. openerp-web
 #: code:addons/sms/static/src/components/message/message.xml:0
-#: code:addons/sms/static/src/components/message/message.xml:0
 #: model:ir.actions.act_window,name:sms.sms_sms_action
 #: model:ir.model.fields,field_description:sms.field_mail_notification__sms_id
 #: model:ir.model.fields.selection,name:sms.selection__mail_message__message_type__sms
@@ -981,7 +983,6 @@ msgstr "SMS voorbeeld"
 #. module: sms
 #. openerp-web
 #: code:addons/sms/static/src/js/fields_sms_widget.js:0
-#: code:addons/sms/static/src/js/fields_sms_widget.js:0
 #, python-format
 msgid "SMS Pricing"
 msgstr "SMS prijzen"
@@ -1046,10 +1047,12 @@ msgstr "Zoek SMS sjablonen"
 #: model:ir.model.fields,help:sms.field_sms_template__model_object_field
 msgid ""
 "Select target field from the related document model.\n"
-"If it is a relationship field you will be able to select a target field at the destination of the relationship."
+"If it is a relationship field you will be able to select a target field at "
+"the destination of the relationship."
 msgstr ""
 "Selecteer doelveld van het gerelateerde documenten model.\n"
-"Als het een relatieveld is dan kun je een doelveld selecteren op de bestemming van de relatie."
+"Als het een relatieveld is dan kun je een doelveld selecteren op de "
+"bestemming van de relatie."
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
@@ -1070,7 +1073,6 @@ msgstr "Verzend SMS (%s)"
 
 #. module: sms
 #. openerp-web
-#: code:addons/sms/static/src/js/fields_phone_widget.js:0
 #: code:addons/sms/static/src/js/fields_phone_widget.js:0
 #: model:ir.actions.act_window,name:sms.res_partner_act_window_sms_composer_multi
 #: model:ir.actions.act_window,name:sms.res_partner_act_window_sms_composer_single
@@ -1249,7 +1251,8 @@ msgid ""
 "- 'Execute Python Code': a block of python code that will be executed\n"
 "- 'Create': create a new record with new values\n"
 "- 'Update a Record': update the values of a record\n"
-"- 'Execute several actions': define an action that triggers several other server actions\n"
+"- 'Execute several actions': define an action that triggers several other "
+"server actions\n"
 "- 'Send Email': automatically send an email (Discuss)\n"
 "- 'Add Followers': add followers to a record (Discuss)\n"
 "- 'Create Next Activity': create an activity (Discuss)"
@@ -1258,7 +1261,8 @@ msgstr ""
 "- 'Python-code uitvoeren': een blok python-code dat wordt uitgevoerd\n"
 "- 'Maken': maak een nieuw record met nieuwe waarden\n"
 "- 'Update een record': update de waarden van een record\n"
-"- 'Meerdere acties uitvoeren': definieer een actie die verschillende andere serveracties activeert\n"
+"- 'Meerdere acties uitvoeren': definieer een actie die verschillende andere "
+"serveracties activeert\n"
 "- 'E-mail verzenden': automatisch een e-mail verzenden (Discuss)\n"
 "- 'Volgers toevoegen': volgers toevoegen aan een record (Discuss)\n"
 "- 'Maak volgende activiteit': maak een activiteit aan (Discuss)"
@@ -1266,8 +1270,8 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_composer__recipient_single_number_itf
 msgid ""
-"UX field allowing to edit the recipient number. If changed it will be stored"
-" onto the recipient."
+"UX field allowing to edit the recipient number. If changed it will be stored "
+"onto the recipient."
 msgstr ""
 "UX-veld waarmee het nummer van de ontvanger kan worden bewerkt. Indien "
 "gewijzigd, wordt het opgeslagen op de ontvanger."

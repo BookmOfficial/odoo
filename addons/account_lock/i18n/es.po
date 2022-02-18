@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_lock
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
@@ -13,18 +13,17 @@ msgstr ""
 "PO-Revision-Date: 2021-09-14 12:19+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_lock
 #: code:addons/account_lock/models/res_company.py:0
 #, python-format
 msgid ""
-"Any new All Users Lock Date must be posterior (or equal) to the previous "
-"one."
+"Any new All Users Lock Date must be posterior (or equal) to the previous one."
 msgstr ""
 "Cualquier nueva Fecha de Bloqueo para Todos los Usuarios debe ser posterior "
 "(o igual) a la anterior."
@@ -64,8 +63,8 @@ msgid ""
 "Lock Date must be anterior (or equal) to the last day of the previous month."
 msgstr ""
 "No puede bloquear un período que aún no ha finalizado. Por lo tanto, la "
-"fecha de bloqueo de todos los usuarios debe ser anterior (o igual) al último"
-" día del mes anterior."
+"fecha de bloqueo de todos los usuarios debe ser anterior (o igual) al último "
+"día del mes anterior."
 
 #. module: account_lock
 #: code:addons/account_lock/models/res_company.py:0
