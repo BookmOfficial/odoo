@@ -82,15 +82,4 @@
         </t>
     </template>
 
-    <template id="brand_promotion" inherit_id="website.brand_promotion">
-        <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
-            <t t-call="web.brand_promotion_message">
-                <t t-set="_message">
-                    An awesome <a target="_blank" href="https://www.odoo.com/app/crm?utm_source=db&amp;utm_medium=portal">Open Source CRM</a>
-                </t>
-                <t t-set="_utm_medium" t-valuef="portal"/>
-            </t>
-        </xpath>
-    </template>
-
 </odoo>

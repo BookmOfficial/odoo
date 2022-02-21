@@ -12,7 +12,7 @@
                 <meta charset="utf-8"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-                <title t-esc="title or 'Odoo'"/>
+                <title t-esc="title or 'Bookm'"/>
                 <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/img/favicon.ico'"/>
 
                 <script id="web.layout.odooscript" type="text/javascript">
@@ -72,37 +72,12 @@
                                     <t t-call="web.debug_icon"/>
                                     <span class="o_footer_copyright_name mr-2">Copyright &amp;copy; <span t-field="res_company.name" itemprop="name">Company name</span></span>
                                 </div>
-                                <div class="col-sm text-center text-sm-right">
-                                    <t t-call="web.brand_promotion"/>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </footer>
             </div>
         </xpath>
-    </template>
-
-    <template id="brand_promotion_message" name="Brand Promotion Message">
-        <t t-set="odoo_logo">
-            <a target="_blank"
-                t-attf-href="http://www.odoo.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
-                class="badge badge-light">
-                <img alt="Odoo"
-                        src="/web/static/img/odoo_logo_tiny.png"
-                        style="height: 1em; vertical-align: baseline;"/>
-            </a>
-        </t>
-        <t t-set="final_message">Powered by %s%s</t>
-        <t t-out="final_message % (odoo_logo, _message and ('- ' + _message) or '')"/>
-    </template>
-    <template id="brand_promotion" name="Brand Promotion">
-        <div class="o_brand_promotion">
-            <t t-call="web.brand_promotion_message">
-                <t t-set="_message"></t>
-                <t t-set="_utm_medium" t-valuef="portal"/>
-            </t>
-        </div>
     </template>
 
     <template id="web.login_layout" name="Login Layout">
@@ -123,7 +98,6 @@
                             <t t-if="not disable_database_manager">
                                 <a class="border-right pr-2 mr-1" href="/web/database/manager">Manage Databases</a>
                             </t>
-                            <a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Odoo</span></a>
                         </div>
                     </div>
                 </div>
