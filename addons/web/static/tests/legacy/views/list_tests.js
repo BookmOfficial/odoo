@@ -3696,7 +3696,7 @@ QUnit.module('Views', {
             arch: '<tree><field name="foo"/></tree>',
             mockRPC: function (route, args) {
                 if (args.method === 'unlink') {
-                    return Promise.reject({ message: "Odoo Server Error" });
+                    return Promise.reject({ message: "Server Error" });
                 }
                 return this._super(...arguments);
             },
