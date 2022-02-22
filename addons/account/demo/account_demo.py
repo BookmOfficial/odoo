@@ -216,15 +216,6 @@ class AccountChartTemplate(models.Model):
                     'account/static/demo/in_invoice_yourcompany_demo_1.pdf', 'rb'
                 ).read()
             },
-            f'{cid}_ir_attachment_in_invoice_2': {
-                'type': 'binary',
-                'name': 'in_invoice_yourcompany_demo.pdf',
-                'res_model': 'account.move',
-                'res_id': ref(f'account.{cid}_demo_invoice_equipment_purchase').id,
-                'raw': file_open(
-                    'account/static/demo/in_invoice_yourcompany_demo_2.pdf', 'rb'
-                ).read()
-            },
         })
 
     @api.model
@@ -250,16 +241,6 @@ class AccountChartTemplate(models.Model):
                 'author_id': ref('base.partner_demo').id,
                 'attachment_ids': [Command.set([
                     ref(f'account.{cid}_ir_attachment_in_invoice_1').id
-                ])]
-            },
-            f'{cid}_mail_message_in_invoice_2': {
-                'model': 'account.move',
-                'res_id': ref(f'account.{cid}_demo_invoice_equipment_purchase').id,
-                'body': 'Vendor Bill attachment',
-                'message_type': 'comment',
-                'author_id': ref('base.partner_demo').id,
-                'attachment_ids': [Command.set([
-                    ref(f'account.{cid}_ir_attachment_in_invoice_2').id
                 ])]
             },
         })
