@@ -51,8 +51,8 @@
                             </page>
                             <page string="Email Configuration" name="email_configuration">
                                 <group>
-                                    <field name="email_from"
-                                            placeholder="Override author's email"/>
+                                    <field name="email_from_local"
+                                            placeholder="Default is noreply"/>
                                     <field name="use_default_to"/>
                                     <field name="email_to" attrs="{'invisible': [('use_default_to', '=', True)]}"
                                             placeholder="Comma-separated recipient addresses"/>
@@ -101,7 +101,7 @@
                     <field name="name"/>
                     <field name="model_id"/>
                     <field name="subject"/>
-                    <field name="email_from"/>
+                    <field name="email_from_local"/>
                     <field name="email_to"/>
                     <field name="partner_to"/>
                     <field name="report_name"/>

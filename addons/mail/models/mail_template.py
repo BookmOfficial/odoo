@@ -32,9 +32,10 @@ class MailTemplate(models.Model):
     model_id = fields.Many2one('ir.model', 'Applies to', help="The type of document this template can be used with")
     model = fields.Char('Related Document Model', related='model_id.model', index=True, store=True, readonly=True)
     subject = fields.Char('Subject', translate=True, help="Subject (placeholders may be used here)")
-    email_from = fields.Char('From',
+    email_from = fields.Char('From', compute="_compute_email_from", store=True,
                              help="Sender address (placeholders may be used here). If not set, the default "
                                   "value will be the author's email alias if configured, or email address.")
+    email_from_local = fields.Char('From')
     # recipients
     use_default_to = fields.Boolean(
         'Default recipients',
@@ -241,6 +242,20 @@ class MailTemplate(models.Model):
                     results[res_id]['attachments'] = attachments
 
         return multi_mode and results or results[res_ids[0]]
+
+    @api.depends('email_from_local')
+    def _compute_email_from(self):
+        for rec in self:
+            ConfigParameter = self.env['ir.config_parameter'].sudo()
+            domain = ConfigParameter.get_param('mail.catchall.domain')
+
+            local = "noreply" if not rec.email_from_local else rec.email_from_local
+
+            # Double escape curly braces
+            rec.email_from = "{{{{ object.company_id.name }}}} <{local}@{domain}>".format(
+                local=local.split('@', 1)[0],
+                domain=domain
+            )
 
     # ------------------------------------------------------------
     # EMAIL
