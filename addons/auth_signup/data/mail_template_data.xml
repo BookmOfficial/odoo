@@ -100,12 +100,12 @@
                                                         <t t-if="object.company_id.email">
                                                             | <a t-att-href="'mailto:%s' % object.company_id.email"
                                                                 style="text-decoration:none; color: #454748;"
-                                                                t-out="object.company_id.email or ''">info@yourcompany.com</a>
+                                                                t-out="object.company_id.email or ''">info@example.mybookm.com</a>
                                                         </t>
                                                         <t t-if="object.company_id.website">
                                                             | <a t-att-href="'%s' % object.company_id.website"
                                                                 style="text-decoration:none; color: #454748;"
-                                                                t-out="object.company_id.website or ''">http://www.example.com</a>
+                                                                t-out="object.company_id.website or ''">http://www.example.mybookm.com</a>
                                                         </t>
                                                     </td>
                                                 </tr>
@@ -415,14 +415,14 @@
                                                             | <a t-attf-href="'mailto:%s' % {{ object.company_id.email }}"
                                                                 style="text-decoration:none; color: #454748;">
                                                                 <t t-out="object.company_id.email or ''">
-                                                                    info@yourcompany.com</t>
+                                                                    info@example.mybookm.com</t>
                                                             </a>
                                                         </t>
                                                         <t t-if="object.company_id.website">
                                                             | <a t-attf-href="'%s' % {{ object.company_id.website }}"
                                                                 style="text-decoration:none; color: #454748;">
                                                                 <t t-out="object.company_id.website or ''">
-                                                                    http://www.example.com</t>
+                                                                    http://www.example.mybookm.com</t>
                                                             </a>
                                                         </t>
                                                     </td>
