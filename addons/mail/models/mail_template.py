@@ -245,14 +245,16 @@ class MailTemplate(models.Model):
 
     @api.depends('email_from_local')
     def _compute_email_from(self):
-        for rec in self:
-            ConfigParameter = self.env['ir.config_parameter'].sudo()
-            domain = ConfigParameter.get_param('mail.catchall.domain')
+        ConfigParameter = self.env['ir.config_parameter'].sudo()
+        domain = ConfigParameter.get_param('mail.catchall.domain')
+        company_name = self.env.company.name
 
+        for rec in self:
             local = "noreply" if not rec.email_from_local else rec.email_from_local
 
             # Double escape curly braces
-            rec.email_from = "{{{{ object.company_id.name }}}} <{local}@{domain}>".format(
+            rec.email_from = "{company} <{local}@{domain}>".format(
+                company=company_name,
                 local=local.split('@', 1)[0],
                 domain=domain
             )
