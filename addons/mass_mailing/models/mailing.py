@@ -71,8 +71,8 @@ class MassMailing(models.Model):
         help='Catchy preview sentence that encourages recipients to open this email.\n'
              'In most inboxes, this is displayed next to the subject.\n'
              'Keep it empty if you prefer the first characters of your email content to appear instead.')
-    email_from = fields.Char(string='Send From', required=True, store=True, readonly=False, compute='_compute_email_from',
-                             default=lambda self: self.env.user.email_formatted)
+    email_from = fields.Char(string='Send From', store=True, compute='_compute_email_from')
+    email_from_local = fields.Char(string='Send From')
     sent_date = fields.Datetime(string='Sent Date', copy=False)
 
     schedule_type = fields.Selection([('now', 'Send now'), ('scheduled', 'Send on')], string='Schedule',
@@ -111,7 +111,7 @@ class MassMailing(models.Model):
         readonly=False, store=True,
         help='Thread: replies go to target document. Email: replies are routed to a given email.')
     reply_to = fields.Char(
-        string='Reply To', compute='_compute_reply_to', readonly=False, store=True,
+        string='Reply To', compute='_compute_reply_to', readonly=False, store=True, required=False,
         help='Preferred Reply-To Address')
     # recipients
     mailing_model_real = fields.Char(string='Recipients Real Model', compute='_compute_mailing_model_real')
@@ -178,23 +178,22 @@ class MassMailing(models.Model):
         'The A/B Testing Percentage needs to be between 0 and 100%'
     )]
 
-    @api.depends('mail_server_id')
+    @api.depends('email_from_local')
     def _compute_email_from(self):
-        user_email = self.env.user.email_formatted
-        notification_email = self.env['ir.mail_server']._get_default_from_address()
+        ConfigParameter = self.env['ir.config_parameter'].sudo()
+        domain = ConfigParameter.get_param('mail.catchall.domain')
+        company_name = self.env.company.name
 
         for mailing in self:
-            server = mailing.mail_server_id
-            if not server:
-                mailing.email_from = mailing.email_from or user_email
-            elif mailing.email_from and server._match_from_filter(mailing.email_from, server.from_filter):
-                mailing.email_from = mailing.email_from
-            elif server._match_from_filter(user_email, server.from_filter):
-                mailing.email_from = user_email
-            elif server._match_from_filter(notification_email, server.from_filter):
-                mailing.email_from = notification_email
-            else:
-                mailing.email_from = mailing.email_from or user_email
+            local = "info" if not mailing.email_from_local else mailing.email_from_local
+
+            # mailing.email_from = "Bookm <newsletter@bookm.be>"
+
+            mailing.email_from = "{company} <{local}@{domain}>".format(
+                company=company_name,
+                local=local.split('@', 1)[0],
+                domain=domain
+            )
 
     def _compute_total(self):
         for mass_mailing in self:
@@ -308,9 +307,18 @@ class MassMailing(models.Model):
 
     @api.depends('reply_to_mode')
     def _compute_reply_to(self):
+        ConfigParameter = self.env['ir.config_parameter'].sudo()
+        domain = ConfigParameter.get_param('mail.catchall.domain')
+        catchall_alias = ConfigParameter.get_param('mail.catchall.alias')
+        company_name = self.env.company.name
+
         for mailing in self:
             if mailing.reply_to_mode == 'new' and not mailing.reply_to:
-                mailing.reply_to = self.env.user.email_formatted
+                mailing.reply_to = "{company} <{local}@{domain}>".format(
+                    company=company_name,
+                    local=catchall_alias,
+                    domain=domain
+                )
             elif mailing.reply_to_mode == 'update':
                 mailing.reply_to = False
 

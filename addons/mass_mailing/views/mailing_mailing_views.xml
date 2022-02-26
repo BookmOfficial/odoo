@@ -286,28 +286,7 @@
                                     <group string="Email Content">
                                         <field class="o_text_overflow" name="preview" string="Preview Text" attrs="{'readonly': [('state', 'in', ('sending', 'done'))]}" widget="char_emojis" placeholder="e.g. Check it out before it's too late!"/>
                                         <field name="user_id" widget="many2one_avatar_user" domain="[('share', '=', False)]"/>
-                                        <field name="email_from" attrs="{'readonly': [('state', 'in', ('sending', 'done'))]}"/>
-                                        <label for="reply_to"/>
-                                        <div name="reply_to_details">
-                                            <field name="reply_to_mode" widget="radio"
-                                                attrs="{
-                                                    'invisible': [('mailing_model_name', 'in', ['mailing.contact', 'res.partner', 'mailing.list'])],
-                                                    'readonly': [('state', 'in', ('sending', 'done'))]
-                                            }"/>
-                                            <field name="reply_to"
-                                                attrs="{
-                                                    'required': [('reply_to_mode', '=', 'new')],
-                                                    'invisible': [('reply_to_mode', '=', 'update')],
-                                                    'readonly': [('state', 'in', ('sending', 'done'))]
-                                            }"/>
-                                            <div style="margin-top:-5px">
-                                                <small class="oe_edit_only text-muted mb-2"
-                                                    style="font-size:74%"
-                                                    attrs="{'invisible': ['|', ('reply_to_mode', '=', 'update'), ('mailing_model_name', 'in', ['mailing.contact', 'res.partner', 'mailing.list'])],}">
-                                                    To track replies, this address must belong to this database.
-                                                </small>
-                                            </div>
-                                        </div>
+                                        <field name="email_from_local" attrs="{'readonly': [('state', 'in', ('sending', 'done'))]}"/>
                                         <label for="attachment_ids"/>
                                         <div name="attachment_ids_details">
                                             <field name="attachment_ids"  widget="many2many_binary" string="Attach a file" class="oe_inline"
