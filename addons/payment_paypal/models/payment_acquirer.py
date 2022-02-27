@@ -59,7 +59,7 @@ class PaymentAcquirer(models.Model):
             mail_body = self.env['mail.render.mixin']._replace_local_links(render_template)
             mail_values = {
                 'body_html': mail_body,
-                'subject': _("Add your PayPal account to Odoo"),
+                'subject': _("Add your PayPal account to Bookm"),
                 'email_to': self.paypal_email_account,
                 'email_from': self.create_uid.email_formatted,
                 'author_id': self.create_uid.partner_id.id,
