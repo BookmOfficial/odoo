@@ -52,7 +52,7 @@
                                 <label for="name" string="Content Title"/>
                             </div>
                             <h1>
-                                <field name="name" default_focus="1" placeholder="e.g. How to grow your business with Odoo?"/>
+                                <field name="name" default_focus="1" placeholder="e.g. How to grow your business with Bookm?"/>
                                 <field name="is_category" invisible="1"/>
                             </h1>
                             <field name="tag_ids" attrs="{'invisible': [('is_category', '=', True)]}" widget="many2many_tags" placeholder="Tags..."/>
@@ -86,14 +86,14 @@
                                 </group>
                             </page>
                             <page name="description" string="Description">
-                                <field name="description" placeholder="e.g. In this video, we'll give you the keys on how Odoo can help you to grow your business. At the end, we'll propose you a quiz to test your knowledge."/>
+                                <field name="description" placeholder="e.g. In this video, we'll give you the keys on how Bookm can help you to grow your business. At the end, we'll propose you a quiz to test your knowledge."/>
                             </page>
                             <page string="Additional Resources" name="external_links" >
                                 <group string="External Links">
                                     <field name="link_ids" widget="one2many" nolabel="1">
                                         <tree editable="top">
                                             <field name="name"/>
-                                            <field name="link" widget="url" placeholder="e.g. https://www.odoo.com"/>
+                                            <field name="link" widget="url" placeholder="e.g. https://www.bookm.be"/>
                                         </tree>
                                     </field>
                                 </group>
