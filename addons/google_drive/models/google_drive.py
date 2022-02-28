@@ -96,7 +96,7 @@ class GoogleDrive(models.Model):
         except requests.HTTPError:
             raise UserError(_("The Google Template cannot be found. Maybe it has been deleted."))
 
-        record_url = "Click on link to open Record in Odoo\n %s/?db=%s#id=%s&model=%s" % (google_web_base_url, self._cr.dbname, res_id, res_model)
+        record_url = "Click on link to open Record in Bookm\n %s/?db=%s#id=%s&model=%s" % (google_web_base_url, self._cr.dbname, res_id, res_model)
         data = {
             "title": name_gdocs,
             "description": record_url,
