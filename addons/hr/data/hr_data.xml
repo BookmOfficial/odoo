@@ -13,7 +13,7 @@
         <record id="res_partner_admin_private_address" model="res.partner">
             <field name="name">Administrator</field>
             <field name="company_id" ref="base.main_company"/>
-            <field name="email">admin@example.com</field>
+            <field name="email">admin@example.mybookm.com</field>
             <field name="type">private</field>
         </record>
 
