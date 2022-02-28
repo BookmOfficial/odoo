@@ -4,7 +4,6 @@
     <record id="event_booth_category_standard" model="event.booth.category">
         <field name="name">Standard Booth</field>
         <field name="sequence">1</field>
-        <field name="image_1920" type="base64"/>
         <field name="description" type="html">
             <div class="card text-center shadow-sm mt32">
                 <div class="card-header p-4 bg-600">
@@ -34,7 +33,6 @@
     <record id="event_booth_category_premium" model="event.booth.category">
         <field name="name">Premium Booth</field>
         <field name="sequence">2</field>
-        <field name="image_1920" type="base64"/>
         <field name="description" type="html">
             <div class="card text-center shadow-sm mt32">
                 <div class="card-header p-4 bg-secondary">
@@ -70,7 +68,6 @@
     <record id="event_booth_category_vip" model="event.booth.category">
         <field name="name">VIP Booth</field>
         <field name="sequence">3</field>
-        <field name="image_1920" type="base64"/>
         <field name="description" type="html">
             <div class="card text-center shadow-sm mt32">
                 <div class="card-header p-4 bg-primary">
