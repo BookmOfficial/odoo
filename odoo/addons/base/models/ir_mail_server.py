@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from email.message import EmailMessage
-from email.utils import make_msgid
+from email.utils import make_msgid, parseaddr
 import base64
 import datetime
 import email
@@ -531,6 +531,21 @@ class IrMailServer(models.Model):
             f"Malformed 'Return-Path' or 'From' address: {smtp_from} - "
             "It should contain one valid plain ASCII email")
         smtp_from = smtp_from_rfc2822[-1]
+
+        get_param = self.env['ir.config_parameter'].sudo().get_param
+        reply_to_domain = get_param('mail.reply_to.domain')
+        catchall_alias = get_param('mail.catchall.alias')
+
+        if reply_to_domain:
+            realname, email_address = parseaddr(message["Reply-To"])
+
+            local, _, domain = email_address.rpartition('@')
+
+            if local == catchall_alias and domain != reply_to_domain:
+                new_reply_to_address = f"{local}@{reply_to_domain}"
+
+                del message["Reply-To"]
+                message["Reply-To"] = formataddr((realname, new_reply_to_address))
 
         return smtp_from, smtp_to_list, message
 
