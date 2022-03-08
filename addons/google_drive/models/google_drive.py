@@ -124,7 +124,7 @@ class GoogleDrive(models.Model):
             self._cr.commit()
             res['url'] = content['alternateLink']
             key = self._get_key_from_url(res['url'])
-            request_url = "https://www.googleapis.com/drive/v2/files/%s/permissions?emailMessage=This+is+a+drive+file+created+by+Odoo&sendNotificationEmails=false&access_token=%s" % (key, access_token)
+            request_url = "https://www.googleapis.com/drive/v2/files/%s/permissions?emailMessage=This+is+a+drive+file+created+by+Bookm&sendNotificationEmails=false&access_token=%s" % (key, access_token)
             data = {'role': 'writer', 'type': 'anyone', 'value': '', 'withLink': True}
             try:
                 req = requests.post(request_url, data=json.dumps(data), headers=headers, timeout=TIMEOUT)
