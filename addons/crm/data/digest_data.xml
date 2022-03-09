@@ -57,7 +57,7 @@
                         opportunity. To manage ongoing activities, click on any status of the progress bar to filter
                         opportunities based on their next activities' status. Click on the grey area of the progress bar
                         to see all opportunities that have no next activity.</p>
-                    <img src="/crm/static/src/img/pipeline-progress.gif" class="illustration_border" />
+                    <!--GIF: <img src="/crm/static/src/img/pipeline-progress.gif" class="illustration_border" /> -->
                 </div>
             </field>
         </record>
@@ -71,7 +71,7 @@
                     <p class="tip_content">Did you know you can search a company by name or VAT number to instantly fill
                         in all its data? Bookm autocompletes everything for you: logo, address, company size, business
                         information, social media accounts, etc.</p>
-                    <img src="/crm/static/src/img/autofill.gif" class="illustration_border" />
+                    <!--GIF: <img src="/crm/static/src/img/autofill.gif" class="illustration_border" /> -->
                 </div>
             </field>
         </record>
@@ -85,7 +85,7 @@
                     <p class="tip_content">Did you know you can turn a list of opportunities into a map view, using the
                         top-right map icon? A lot of screens in Bookm can be turned into a map: tasks, contacts, delivery
                         orders, etc.</p>
-                    <img src="/crm/static/src/img/mapview-toggle.gif" class="illustration_border" />
+                    <!--GIF: <img src="/crm/static/src/img/mapview-toggle.gif" class="illustration_border" /> -->
                 </div>
             </field>
         </record>
