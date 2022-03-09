@@ -10,7 +10,7 @@
     <t t-name="website.Configurator.WelcomeScreen" owl="1">
         <div class="o_configurator_screen h-100 d-flex flex-column o_welcome_screen">
             <div class="container-fluid pt-3 pb-2">
-                <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/odoo_logo.svg" title="Odoo Logo"/>
+                <img class="ml-lg-5" style="height: 51px;" src="/website/static/src/img/bookm_logo.svg" title="Bookm Logo"/>
             </div>
             <div class="o_configurator_screen_content d-flex h-100">
                 <div class="container align-self-center o_configurator_show">
@@ -29,7 +29,7 @@
 <t t-name="website.Configurator.DescriptionScreen" owl="1">
     <div class="o_configurator_screen h-100 d-flex flex-column o_description_screen">
         <div class="container-fluid pt-3 pb-2">
-            <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/odoo_logo.svg" title="Odoo Logo"/>
+            <img class="ml-lg-5" style="height: 51px;" src="/website/static/src/img/bookm_logo.svg" title="Bookm Logo"/>
         </div>
         <div class="o_configurator_screen_content d-flex h-100 flex-grow-1">
             <div class="container align-self-center">
@@ -90,7 +90,7 @@
 <t t-name="website.Configurator.PaletteSelectionScreen" owl="1">
     <div class="o_configurator_screen h-100 d-flex flex-column o_palette_selection_screen">
         <div class="container-fluid pt-3 pb-2">
-            <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/odoo_logo.svg" title="Odoo Logo"/>
+            <img class="ml-lg-5" style="height: 51px;" src="/website/static/src/img/bookm_logo.svg" title="Bookm Logo"/>
         </div>
         <div class="o_configurator_screen_content container palette_selection d-flex flex-grow-1 h-100">
             <div class="d-flex flex-column flex-lg-row w-100 h-100 h-lg-auto align-self-md-center o_configurator_show">
@@ -152,7 +152,7 @@
 <t t-name="website.Configurator.FeatureSelection" owl="1">
     <div class="o_configurator_screen h-100 d-flex flex-column o_feature_selection_screen">
         <div class="container-fluid pt-3 pb-2">
-            <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/odoo_logo.svg" title="Odoo Logo"/>
+            <img class="ml-lg-5" style="height: 51px;" src="/website/static/src/img/bookm_logo.svg" title="Bookm Logo"/>
         </div>
         <div class="o_configurator_screen_content overflow-hidden container d-flex flex-grow-1 align-items-center">
             <div class="m-auto d-flex mh-100 flex-column">
@@ -194,7 +194,7 @@
 <t t-name="website.Configurator.ThemeSelectionScreen" owl="1">
     <div class="o_configurator_screen h-100 d-flex flex-column o_theme_selection_screen">
         <div class="container-fluid pt-3 pb-2">
-            <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/odoo_logo.svg" title="Odoo Logo"/>
+            <img class="ml-lg-5" style="height: 51px;" src="/website/static/src/img/bookm_logo.svg" title="Bookm Logo"/>
         </div>
         <div class="o_configurator_screen_content d-flex flex-column flex-grow-1 align-items-center">
             <div class="m-auto w-100 w-md-75 w-xl-100">

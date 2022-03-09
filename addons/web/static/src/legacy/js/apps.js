@@ -147,7 +147,7 @@ var Apps = AbstractAction.extend({
 
                 resolve();
             }, function() {
-                self.displayNotification({ title: _t('Odoo Apps will be available soon'), message: _t('Showing locally available modules'), sticky: true, type: 'danger' });
+                self.displayNotification({ title: _t('Apps will be available soon'), message: _t('Showing locally available modules'), sticky: true, type: 'danger' });
                 return self._rpc({
                     route: '/web/action/load',
                     params: {action_id: self.failback_action_id},

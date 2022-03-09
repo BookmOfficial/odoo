@@ -632,8 +632,11 @@ class AssetsBundle(object):
             if '.' not in ref and line not in imports and not ref.startswith(('.', '/', '~')):
                 imports.append(line)
                 return line
+                
             msg = "Local import '%s' is forbidden for security reasons. Please remove all @import {your_file} imports in your custom files. In Odoo you have to import all files in the assets, and not through the @import statement." % ref
-            _logger.warning(msg)
+            _logger.warning(msg)     
+
+            css_msg = "Local import '%s' is forbidden for security reasons. Please remove all @import {your_file} imports in your custom files." % ref
             self.css_errors.append(msg)
             return ''
         source = re.sub(self.rx_preprocess_imports, sanitize, source)

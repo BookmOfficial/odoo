@@ -155,10 +155,10 @@ export const qwebSample = /* xml */ `
             <t t-set="object.event_id.description_to_html_lines()" t-value="splitted_description" data-oe-t-inline="true"></t>
             <li>Description:
                 <ul t-foreach="splitted_description" t-as="description_line">
-                    <li t-out="description_line or ''">Email: my.email@test.example.com</li>
+                    <li t-out="description_line or ''">Email: my.email@example.mybookm.com</li>
                 </ul>
             </li>
         </t>
     </ul>
 </div>
-`;
+`

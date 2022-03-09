@@ -124,7 +124,7 @@
                                     <field name="zip" placeholder="ZIP" class="o_address_zip"/>
                                     <field name="country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}'/>
                                 </div>
-                                <field name="website" widget="url" placeholder="e.g. https://www.odoo.com"/>
+                                <field name="website" widget="url" placeholder="e.g. https://www.example.mybookm.com"/>
                                 <field name="lang_id"/>
                             </group>
 
@@ -289,7 +289,7 @@
                                             <field name="zip" placeholder="ZIP" class="o_address_zip"/>
                                             <field name="country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}'/>
                                         </div>
-                                        <field name="website" widget="url" placeholder="e.g. https://www.odoo.com"/>
+                                        <field name="website" widget="url" placeholder="e.g. https://www.example.mybookm.com"/>
                                         <field name="lang_id" options="{'no_create': True}"/>
                                     </group>
                                     <group class="mt48">

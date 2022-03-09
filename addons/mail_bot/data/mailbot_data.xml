@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <record id="base.user_root" model="res.users">
-            <field name="odoobot_state">disabled</field>
+            <field name="bot_state">disabled</field>
         </record>
     </data>
 </odoo>

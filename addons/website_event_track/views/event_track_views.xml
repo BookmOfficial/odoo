@@ -210,7 +210,7 @@
                                     <field name="website_cta_title" placeholder="e.g. Get Yours Now !"
                                         attrs="{'invisible': [('website_cta', '=', False)],
                                                 'required': [('website_cta', '=', True)]}"/>
-                                    <field name="website_cta_url" placeholder="e.g. http://www.example.com"
+                                    <field name="website_cta_url" placeholder="e.g. http://www.example.mybookm.com"
                                         attrs="{'invisible': [('website_cta', '=', False)],
                                                 'required': [('website_cta', '=', True)]}"/>
                                     <label for="website_cta_delay"

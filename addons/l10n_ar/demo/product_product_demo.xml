@@ -36,7 +36,7 @@
     </record>
 
     <record id="product_product_exento" model="product.product">
-        <field name="name">Book "Development in Odoo" (VAT Exempt)</field>
+        <field name="name">Book "Development in Bookm" (VAT Exempt)</field>
         <field name="categ_id" ref="product.product_category_5"/>
         <field name="standard_price">100.0</field>
         <field name="list_price">80.0</field>

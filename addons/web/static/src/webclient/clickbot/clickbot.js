@@ -407,7 +407,6 @@
     async function _clickEverywhere(xmlId) {
         ensureSetup();
         console.log("Starting ClickEverywhere test");
-        console.log(`Odoo flavor: ${isEnterprise ? "Enterprise" : "Community"}`);
         const startTime = performance.now();
         testedApps = [];
         testedMenus = [];

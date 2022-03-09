@@ -101,7 +101,7 @@ def serialize_exception(f):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Server Error",
                 'data': se
             }
             return werkzeug.exceptions.InternalServerError(json.dumps(error))
@@ -1278,17 +1278,6 @@ class Session(http.Controller):
         request.session.check_security()
         return None
 
-    @http.route('/web/session/account', type='json', auth="user")
-    def account(self):
-        ICP = request.env['ir.config_parameter'].sudo()
-        params = {
-            'response_type': 'token',
-            'client_id': ICP.get_param('database.uuid') or '',
-            'state': json.dumps({'d': request.db, 'u': ICP.get_param('web.base.url')}),
-            'scope': 'userinfo',
-        }
-        return 'https://accounts.odoo.com/oauth2/auth?' + url_encode(params)
-
     @http.route('/web/session/destroy', type='json', auth="user")
     def destroy(self):
         request.session.logout()
@@ -2042,7 +2031,7 @@ class ReportController(http.Controller):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Server Error",
                 'data': se
             }
             return request.make_response(html_escape(json.dumps(error)))

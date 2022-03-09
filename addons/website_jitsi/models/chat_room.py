@@ -20,7 +20,7 @@ class ChatRoom(models.Model):
     _description = "Chat Room"
 
     def _default_name(self, objname='room'):
-        return "odoo-%s-%s" % (objname, str(uuid4())[:8])
+        return "bookm-%s-%s" % (objname, str(uuid4())[:8])
 
     name = fields.Char(
         "Room Name", required=True, copy=False,

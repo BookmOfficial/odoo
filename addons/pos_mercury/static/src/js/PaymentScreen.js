@@ -287,7 +287,7 @@ odoo.define('pos_mercury.PaymentScreen', function (require) {
 
                         if (data === 'internal error') {
                             def.resolve({
-                                message: self.env._t('Odoo error while processing transaction.'),
+                                message: self.env._t('Bookm error while processing transaction.'),
                             });
                             return;
                         }
@@ -489,7 +489,7 @@ odoo.define('pos_mercury.PaymentScreen', function (require) {
 
                         if (data === 'internal error') {
                             def.resolve({
-                                message: self.env._t('Odoo error while processing transaction.'),
+                                message: self.env._t('Bookm error while processing transaction.'),
                             });
                             return;
                         }
