@@ -12,9 +12,9 @@
                     <div class="row mt16 o_settings_container" id='account_edi'>
                         <div class="col-12 col-lg-6 o_setting_box">
                             <div class="o_setting_right_pane">
-                                <span class="o_form_label">Allow Odoo to process invoices</span>
+                                <span class="o_form_label">Allow Bookm to process invoices</span>
                                 <div class="text-muted">
-                                    By clicking this button, I accept that Odoo may process my invoices.
+                                    By clicking this button, I accept that Bookm may process my invoices.
                                 </div>
                                 <div class="content-group">
                                     <field name="is_edi_proxy_active" invisible="True" />
