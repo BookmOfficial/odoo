@@ -6,7 +6,7 @@
         <field name="model">res.config.settings</field>
         <field name="inherit_id" ref="account.res_config_settings_view_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//div[@id='account_vendor_bills']" position="after">
+            <xpath expr="//div[@id='pay_invoice_online_setting_container']" position="after">
                 <div attrs="{'invisible':[('country_code', '!=', 'IT')]}">
                     <h2>Electronic Document Invoicing</h2>
                     <div class="row mt16 o_settings_container" id='account_edi'>
