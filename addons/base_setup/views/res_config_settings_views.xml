@@ -420,7 +420,7 @@
                             </div>
                         </div>
                     </div>
-                    <widget name='res_config_dev_tool'/>
+                    <widget groups="base.group_system" name='res_config_dev_tool'/>
                 </div>
             </xpath>
         </field>
