@@ -436,6 +436,6 @@
     </record>
 
     <menuitem id="menu_config" name="General Settings" parent="base.menu_administration" sequence="0"
-        action="action_general_configuration" groups="base.group_system" />
+        action="action_general_configuration" groups="base.group_erp_manager" />
 
 </odoo>
