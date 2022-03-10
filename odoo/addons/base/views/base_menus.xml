@@ -20,7 +20,7 @@
               <menuitem id="menu_translation_export" name="Import / Export" parent="menu_translation" sequence="3" groups="base.group_no_one"/>
           <menuitem id="menu_config" name="General Settings" parent="menu_administration" sequence='3'/>
 
-          <menuitem id="menu_custom" name="Technical" parent="menu_administration" sequence="110" groups="base.group_no_one"/>
+          <menuitem id="menu_custom" name="Technical" parent="menu_administration" sequence="110" groups="base.group_erp_manager"/>
               <menuitem id="next_id_2" name="User Interface" parent="menu_custom"/>
               <menuitem id="menu_email" name="Email" parent="menu_custom" sequence="1"/>
               <menuitem id="next_id_9" name="Database Structure" parent="base.menu_custom"/>
