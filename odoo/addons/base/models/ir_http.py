@@ -135,16 +135,24 @@ class IrHttp(models.AbstractModel):
     def _handle_debug(cls):
         # Store URL debug mode (might be empty) into session
         if 'debug' in request.httprequest.args:
-            debug_mode = []
-            for debug in request.httprequest.args['debug'].split(','):
-                if debug not in ALLOWED_DEBUG_MODES:
-                    debug = '1' if str2bool(debug, debug) else ''
-                debug_mode.append(debug)
-            debug_mode = ','.join(debug_mode)
+            # Check if user has group "group_no_one"
+            uid = http.request.env.context.get('uid')
+            env = api.Environment(request.cr, uid, request.context)
+            if env.user.has_group ('base.group_no_one'):
+                debug_mode = []
+                for debug in request.httprequest.args['debug'].split(','):
+                    if debug not in ALLOWED_DEBUG_MODES:
+                        debug = '1' if str2bool(debug, debug) else ''
+                    debug_mode.append(debug)
+                debug_mode = ','.join(debug_mode)
 
-            # Write on session only when needed
-            if debug_mode != request.session.debug:
-                request.session.debug = debug_mode
+                # Write on session only when needed
+                if debug_mode != request.session.debug:
+                    request.session.debug = debug_mode
+        else:
+            # Clear debug mode otherwise once in debug it can't be disabled
+            request.session.debug = ""
+
 
     @classmethod
     def _serve_attachment(cls):
