@@ -138,7 +138,7 @@ class IrHttp(models.AbstractModel):
             # Check if user has group "group_no_one"
             uid = http.request.env.context.get('uid')
             env = api.Environment(request.cr, uid, request.context)
-            if env.user.has_group ('base.group_no_one'):
+            if env.user.has_group('base.group_no_one'):
                 debug_mode = []
                 for debug in request.httprequest.args['debug'].split(','):
                     if debug not in ALLOWED_DEBUG_MODES:
