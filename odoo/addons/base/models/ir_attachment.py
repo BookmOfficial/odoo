@@ -441,7 +441,7 @@ class IrAttachment(models.Model):
             for res_model, res_id, create_uid, public, res_field in self._cr.fetchall():
                 if public and mode == 'read':
                     continue
-                if not self.env.is_system() and (res_field or (not res_id and create_uid != self.env.uid)):
+                if not self.env.is_admin() and (res_field or (not res_id and create_uid != self.env.uid)):
                     raise AccessError(_("Sorry, you are not allowed to access this document."))
                 if not (res_model and res_id):
                     continue
