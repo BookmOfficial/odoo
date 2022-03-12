@@ -40,7 +40,7 @@
                         </div>
                     </div>
 
-                    <div id="languages">
+                    <div id="languages" groups="base.group_system">
                         <h2>Languages</h2>
                         <div class='row mt16 o_settings_container' name="languages_setting_container">
                             <div class='col-xs-12 col-md-6 o_setting_box' id="languages_setting">
@@ -71,7 +71,7 @@
                     </div>
 
                     <div id="companies">
-                        <h2>Companies</h2>
+                        <h2>Company</h2>
                         <div class="row mt16 o_settings_container" name="companies_setting_container">
                             <div class="col-12 col-lg-6 o_setting_box" id="company_details_settings">
                                 <field name="company_id" invisible="1" />
@@ -83,7 +83,9 @@
                                     <button name="open_company" icon="fa-arrow-right" type="object" string="Update Info"
                                         class="btn-link" />
                                 </div>
-                                <br />
+                            </div>
+                            <div class="col-12 col-lg-6 o_setting_box" id="company_document_settings">
+                                <field name="company_id" invisible="1" />
                                 <div class="o_setting_right_pane">
                                     <span class="o_form_label">Document Layout</span>
                                     <span class="fa fa-lg fa-building-o" title="Values set here are company-specific."
@@ -112,7 +114,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 o_setting_box" id="companies_setting">
+                            <div class="col-12 col-lg-6 o_setting_box" id="companies_setting" groups="base.group_system">
                                 <div class="o_setting_right_pane">
                                     <field name='company_count' class="w-auto pl-1 font-weight-bold" />
                                     <span class='o_form_label' attrs="{'invisible':[('company_count', '&gt;', '1')]}">
@@ -127,13 +129,12 @@
                                             type="action" string="Manage Companies" class="btn-link" />
                                     </div>
                                 </div>
-                                <br />
                             </div>
                         </div>
                     </div>
                     <div id="emails" />
 
-                    <div id="contacts_settings">
+                    <div id="contacts_settings" groups="base.group_system">
                         <h2>Contacts</h2>
                         <div class="row mt16 o_settings_container" name="contacts_setting_container">
                             <div class="col-xs-12 col-md-6 o_setting_box" id="sms">
@@ -168,7 +169,8 @@
                     <div class="row mt16 o_settings_container" id="user_default_rights">
                         <div class="col-12 col-lg-6 o_setting_box"
                             title="By default, new users get highest access rights for all installed apps."
-                            id="access_rights">
+                            id="access_rights"
+                            groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="user_default_rights" />
                             </div>
@@ -221,7 +223,7 @@
 
                     <h2>Integrations</h2>
                     <div class="row mt16 o_settings_container" name="integration">
-                        <div class="col-12 col-lg-6 o_setting_box" id="mail_pluggin_setting">
+                        <div class="col-12 col-lg-6 o_setting_box" id="mail_pluggin_setting" groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_mail_plugin" />
                             </div>
@@ -253,7 +255,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box" id="external_pads_setting">
+                        <div class="col-12 col-lg-6 o_setting_box" id="external_pads_setting" groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_pad" />
                             </div>
@@ -287,7 +289,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box" id="google_drive_documents_setting">
+                        <div class="col-12 col-lg-6 o_setting_box" id="google_drive_documents_setting" groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_google_drive" />
                             </div>
@@ -305,7 +307,7 @@
                             </div>
                         </div>
                         <div id="product_get_pic_setting" />
-                        <div class="col-12 col-lg-6 o_setting_box" id="google_spreadsheet_setting">
+                        <div class="col-12 col-lg-6 o_setting_box" id="google_spreadsheet_setting" groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_google_spreadsheet" />
                             </div>
@@ -322,7 +324,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box" id="module_auth_oauth">
+                        <div class="col-12 col-lg-6 o_setting_box" id="module_auth_oauth"  groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_auth_oauth" />
                             </div>
@@ -338,7 +340,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box" id="oauth">
+                        <div class="col-12 col-lg-6 o_setting_box" id="oauth" groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_auth_ldap" />
                             </div>
@@ -356,7 +358,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box" id="unsplash">
+                        <div class="col-12 col-lg-6 o_setting_box" id="unsplash" groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_web_unsplash" />
                             </div>
@@ -391,7 +393,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 o_setting_box" id="recaptcha">
+                        <div class="col-12 col-lg-6 o_setting_box" id="recaptcha" groups="base.group_system">
                             <div class="o_setting_left_pane">
                                 <field name="module_google_recaptcha" />
                             </div>

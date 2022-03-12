@@ -99,7 +99,10 @@ class ResConfigSettings(models.TransientModel):
 
     @api.depends('company_id')
     def _compute_active_user_count(self):
-        active_user_count = self.env['res.users'].sudo().search_count([('share', '=', False)])
+        active_user_count = self.env['res.users'].sudo().search_count([
+            ('share', '=', False), 
+            ('groups_id', '!=', self.env.ref("base.group_system").id)
+        ])
         for record in self:
             record.active_user_count = active_user_count
 
