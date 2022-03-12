@@ -185,6 +185,20 @@
             <field eval="True" name="global"/>
             <field name="domain_force">['|', ('share', '=', False), ('company_ids', 'in', company_ids)]</field>
         </record>
+        <record id="ir_attachment_erp_manager_rule" model="ir.rule">
+            <field name="name">Attachment erp_manager rule</field>
+            <field name="model_id" ref="model_ir_attachment"/>
+            <field eval="False" name="global"/>
+            <field name="groups" eval="[Command.set([ref('base.group_erp_manager')])]"/>
+            <field name="domain_force">[('create_uid', '!=', 1)]</field>
+        </record>
+        <record id="ir_attachment_system_rule" model="ir.rule">
+            <field name="name">Attachment system rule</field>
+            <field name="model_id" ref="model_ir_attachment"/>
+            <field eval="False" name="global"/>
+            <field name="groups" eval="[Command.set([ref('base.group_system')])]"/>
+            <field name="domain_force"></field>
+        </record>
 
         <!-- rules for API token -->
         <record id="api_key_public" model="ir.rule">
