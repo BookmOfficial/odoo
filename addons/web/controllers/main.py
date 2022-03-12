@@ -1285,6 +1285,10 @@ class Session(http.Controller):
     @http.route('/web/session/logout', type='http', auth="none")
     def logout(self, redirect='/web'):
         request.session.logout(keep_db=True)
+
+        # Clear debug mode
+        request.session.debug = ""
+        
         return request.redirect(redirect, 303)
 
 

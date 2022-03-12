@@ -149,9 +149,9 @@ class IrHttp(models.AbstractModel):
                 # Write on session only when needed
                 if debug_mode != request.session.debug:
                     request.session.debug = debug_mode
-        else:
-            # Clear debug mode otherwise once in debug it can't be disabled
-            request.session.debug = ""
+            else:
+                # Clear debug mode otherwise once in debug it can't be disabled
+                request.session.debug = ""
 
 
     @classmethod
