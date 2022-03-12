@@ -58,6 +58,6 @@
         <field name="view_mode">tree,form</field>
         <field name="search_view_id" ref="ir_default_search_view"/>
     </record>
-    <menuitem action="ir_default_menu_action" id="ir_default_menu" parent="next_id_6"/>
+    <menuitem action="ir_default_menu_action" id="ir_default_menu" parent="next_id_6" groups="base.group_system"/>
 
 </odoo>
