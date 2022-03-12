@@ -63,6 +63,6 @@
             <field name="res_model">ir.filters</field>
         </record>
         <menuitem parent="base.next_id_2" name="User-defined Filters"
-            id="menu_ir_filters" action="actions_ir_filters_view" sequence="5"/>
+            id="menu_ir_filters" action="actions_ir_filters_view" sequence="5" groups="base.group_system"/>
     </data>
 </odoo>
