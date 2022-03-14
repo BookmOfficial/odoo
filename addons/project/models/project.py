@@ -7,7 +7,7 @@ from collections import defaultdict
 from datetime import timedelta, datetime
 from random import randint
 
-from odoo import api, Command, fields, models, tools, SUPERUSER_ID, _
+from odoo import api, Command, fields, models, tools, SUPERUSER_ID, _, _lt
 from odoo.exceptions import UserError, ValidationError, AccessError
 from odoo.tools import format_amount
 from odoo.osv.expression import OR
@@ -153,13 +153,24 @@ class Project(models.Model):
     def _compute_attached_docs_count(self):
         self.env.cr.execute(
             """
-            SELECT coalesce(task.project_id, project.id), count(*)
-              FROM ir_attachment attachment
-              LEFT JOIN project_task task ON attachment.res_model = 'project.task' AND task.id = attachment.res_id
-              LEFT JOIN project_project project ON attachment.res_model = 'project.project' AND project.id = attachment.res_id
-             WHERE project.id IN %(project_ids)s
-                OR task.project_id IN %(project_ids)s
-             GROUP BY coalesce(task.project_id, project.id)
+            WITH docs AS (
+                 SELECT res_id as id, count(*) as count
+                   FROM ir_attachment
+                  WHERE res_model = 'project.project'
+                    AND res_id IN %(project_ids)s
+               GROUP BY res_id
+
+              UNION ALL
+
+                 SELECT t.project_id as id, count(*) as count
+                   FROM ir_attachment a
+                   JOIN project_task t ON a.res_model = 'project.task' AND a.res_id = t.id
+                  WHERE t.project_id IN %(project_ids)s
+               GROUP BY t.project_id
+            )
+            SELECT id, sum(count)
+              FROM docs
+          GROUP BY id
             """,
             {"project_ids": tuple(self.ids)}
         )
@@ -698,7 +709,7 @@ class Project(models.Model):
         self.ensure_one()
         buttons = [{
             'icon': 'tasks',
-            'text': _('Tasks'),
+            'text': _lt('Tasks'),
             'number': self.task_count,
             'action_type': 'action',
             'action': 'project.act_project_project_2_project_task_all',
@@ -711,7 +722,7 @@ class Project(models.Model):
         if self.user_has_groups('project.group_project_rating'):
             buttons.append({
                 'icon': 'smile-o',
-                'text': _('Customer Satisfaction'),
+                'text': _lt('Customer Satisfaction'),
                 'number': '%s %%' % (self.rating_percentage_satisfaction),
                 'action_type': 'object',
                 'action': 'action_view_all_rating',
@@ -721,7 +732,7 @@ class Project(models.Model):
         if self.user_has_groups('project.group_project_manager'):
             buttons.append({
                 'icon': 'area-chart',
-                'text': _('Burndown Chart'),
+                'text': _lt('Burndown Chart'),
                 'action_type': 'action',
                 'action': 'project.action_project_task_burndown_chart_report',
                 'additional_context': json.dumps({
@@ -732,7 +743,7 @@ class Project(models.Model):
             })
             buttons.append({
                 'icon': 'users',
-                'text': _('Collaborators'),
+                'text': _lt('Collaborators'),
                 'number': self.collaborator_count,
                 'action_type': 'action',
                 'action': 'project.project_collaborator_action',
@@ -745,7 +756,7 @@ class Project(models.Model):
         if self.user_has_groups('analytic.group_analytic_accounting'):
             buttons.append({
                 'icon': 'usd',
-                'text': _('Gross Margin'),
+                'text': _lt('Gross Margin'),
                 'number': format_amount(self.env, self.analytic_account_balance, self.company_id.currency_id),
                 'action_type': 'object',
                 'action': 'action_view_analytic_account_entries',
@@ -1601,6 +1612,18 @@ class Task(models.Model):
             if field not in self.SELF_WRITABLE_FIELDS:
                 raise AccessError(_('You have not write access of %s field.') % field)
 
+    def _load_records_create(self, vals_list):
+        projects_with_recurrence = self.env['project.project'].search([('allow_recurring_tasks', '=', True)])
+        for vals in vals_list:
+            if vals.get('recurring_task'):
+                if vals.get('project_id') in projects_with_recurrence.ids and not vals.get('recurrence_id'):
+                    default_val = self.default_get(self._get_recurrence_fields())
+                    vals.update(**default_val)
+                else:
+                    for field_name in self._get_recurrence_fields() + ['recurring_task']:
+                        vals.pop(field_name, None)
+        return super()._load_records_create(vals_list)
+
     @api.model_create_multi
     def create(self, vals_list):
         is_portal_user = self.env.user.has_group('base.group_portal')
@@ -1683,6 +1706,8 @@ class Task(models.Model):
         if 'active' in vals and not vals.get('active') and any(self.mapped('recurrence_id')):
             # TODO: show a dialog to stop the recurrence
             raise UserError(_('You cannot archive recurring tasks. Please disable the recurrence first.'))
+        if 'recurrence_id' in vals and vals.get('recurrence_id') and any(not task.active for task in self):
+            raise UserError(_('Archived tasks cannot be recurring. Please unarchive the task first.'))
         # stage change: update date_last_stage_update
         if 'stage_id' in vals:
             vals.update(self.update_date_end(vals['stage_id']))

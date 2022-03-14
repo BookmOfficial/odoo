@@ -203,8 +203,8 @@ class HolidaysRequest(models.Model):
     # To display in form view
     supported_attachment_ids = fields.Many2many(
         'ir.attachment', string="Attach File", compute='_compute_supported_attachment_ids',
-        inverse='_inverse_supported_attachment_ids', compute_sudo=True)
-    supported_attachment_ids_count = fields.Integer(compute='_compute_supported_attachment_ids', compute_sudo=True)
+        inverse='_inverse_supported_attachment_ids')
+    supported_attachment_ids_count = fields.Integer(compute='_compute_supported_attachment_ids')
     # UX fields
     leave_type_request_unit = fields.Selection(related='holiday_status_id.request_unit', readonly=True)
     leave_type_support_document = fields.Boolean(related="holiday_status_id.support_document")
@@ -630,7 +630,9 @@ class HolidaysRequest(models.Model):
 
     def _inverse_supported_attachment_ids(self):
         for holiday in self:
-            holiday.sudo().attachment_ids = holiday.supported_attachment_ids
+            holiday.supported_attachment_ids.write({
+                'res_id': holiday.id,
+            })
 
     @api.constrains('date_from', 'date_to', 'employee_id')
     def _check_date(self):
@@ -672,7 +674,9 @@ class HolidaysRequest(models.Model):
         """ Returns a float equals to the timedelta between two dates given as string."""
         if employee_id:
             employee = self.env['hr.employee'].browse(employee_id)
-            result = employee._get_work_days_data_batch(date_from, date_to)[employee.id]
+            # We force the company in the domain as we are more than likely in a compute_sudo
+            domain = [('company_id', 'in', self.env.company.ids + self.env.context.get('allowed_company_ids', []))]
+            result = employee._get_work_days_data_batch(date_from, date_to, domain=domain)[employee.id]
             if self.request_unit_half and result['hours'] > 0:
                 result['days'] = 0.5
             return result
@@ -886,8 +890,7 @@ class HolidaysRequest(models.Model):
 
     def write(self, values):
         is_officer = self.env.user.has_group('hr_holidays.group_hr_holidays_user') or self.env.is_superuser()
-
-        if not is_officer:
+        if not is_officer and values.keys() - {'supported_attachment_ids', 'message_main_attachment_id'}:
             if any(hol.date_from.date() < fields.Date.today() and hol.employee_id.leave_manager_id != self.env.user for hol in self):
                 raise UserError(_('You must have manager rights to modify/validate a time off that already begun'))
 
@@ -1283,6 +1286,9 @@ class HolidaysRequest(models.Model):
                         if not is_officer and self.env.user != holiday.employee_id.leave_manager_id:
                             raise UserError(_('You must be either %s\'s manager or Time off Manager to approve this leave') % (holiday.employee_id.name))
 
+                    if not is_officer and (state == 'validate' and val_type == 'hr') and holiday.holiday_type == 'employee':
+                        raise UserError(_('You must either be a Time off Officer or Time off Manager to approve this leave'))
+
     # ------------------------------------------------------------
     # Activity methods
     # ------------------------------------------------------------
@@ -1379,4 +1385,4 @@ class HolidaysRequest(models.Model):
 
     @api.model
     def get_unusual_days(self, date_from, date_to=None):
-        return self.env.user.employee_id._get_unusual_days(date_from, date_to)
+        return self.env.user.employee_id.sudo(False)._get_unusual_days(date_from, date_to)

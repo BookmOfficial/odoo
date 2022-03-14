@@ -109,7 +109,7 @@ class StockQuant(models.Model):
     inventory_date = fields.Date(
         'Scheduled Date', compute='_compute_inventory_date', store=True, readonly=False,
         help="Next date the On Hand Quantity should be counted.")
-    inventory_quantity_set = fields.Boolean(store=True, compute='_compute_inventory_quantity_set', readonly=False)
+    inventory_quantity_set = fields.Boolean(store=True, compute='_compute_inventory_quantity_set', readonly=False, default=False)
     is_outdated = fields.Boolean('Quantity has been moved since last count', compute='_compute_is_outdated')
     user_id = fields.Many2one(
         'res.users', 'Assigned To', help="User assigned to do product count.")
@@ -241,10 +241,6 @@ class StockQuant(models.Model):
             if any(field for field in vals.keys() if field not in allowed_fields):
                 raise UserError(_("Quant's editing is restricted, you can't do this operation."))
             self = self.sudo()
-            res = super(StockQuant, self).write(vals)
-            if res and self.env.context.get('inventory_report_mode'):
-                self.action_apply_inventory()
-            return res
         return super(StockQuant, self).write(vals)
 
     def action_view_stock_moves(self):
@@ -296,8 +292,6 @@ class StockQuant(models.Model):
         return action
 
     def action_apply_inventory(self):
-        # Update the context to prevent recursive call from write method
-        self = self.with_context({'inventory_report_mode': False})
         products_tracked_without_lot = []
         for quant in self:
             rounding = quant.product_uom_id.rounding

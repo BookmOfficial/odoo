@@ -468,14 +468,14 @@ class AccountEdiFormat(models.Model):
                                             invoice_line_form.product_id = product
                                             break
                                     if partner:
-                                        product_supplier = self.env['product.supplierinfo'].search([('name', '=', partner.id), ('product_code', '=', code.text)])
+                                        product_supplier = self.env['product.supplierinfo'].search([('name', '=', partner.id), ('product_code', '=', code.text)], limit=1)
                                         if product_supplier and product_supplier.product_id:
                                             invoice_line_form.product_id = product_supplier.product_id
                                             break
                                 if not invoice_line_form.product_id:
                                     for element_code in elements_code:
                                         code = element_code.xpath('.//CodiceValore')[0]
-                                        product = self.env['product.product'].search([('default_code', '=', code.text)])
+                                        product = self.env['product.product'].search([('default_code', '=', code.text)], limit=1)
                                         if product:
                                             invoice_line_form.product_id = product
                                             break

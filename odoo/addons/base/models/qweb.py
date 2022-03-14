@@ -939,7 +939,10 @@ class QWeb(object):
         body = []
         if el.getchildren():
             for item in el:
-                if not isinstance(item, etree._Comment):
+                if isinstance(item, etree._Comment):
+                    if self.env.context.get('preserve_comments'):
+                        self._appendText("<!--%s-->" % item.text, options)
+                else:
                     body.extend(self._compile_node(item, options, indent))
                 # comments can also contains tail text
                 if item.tail is not None:
@@ -962,7 +965,7 @@ class QWeb(object):
         return compiled
 
     def _compile_directive_elif(self, el, options, indent):
-        """Compile `t-eif` expressions into a python code as a list of strings.
+        """Compile `t-elif` expressions into a python code as a list of strings.
 
         This method is linked with the `t-if` directive.
         The code will contain the compiled code of the element (without `else`

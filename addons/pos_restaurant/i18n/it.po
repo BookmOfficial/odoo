@@ -4,6 +4,7 @@
 #
 # Translators:
 # Martin Trigaux, 2021
+# Sergio Zanchetta <primes2h@gmail.com>, 2022
 # Friederike Fasterling-Nesselbosch, 2022
 #
 msgid ""
@@ -89,7 +90,7 @@ msgstr "Aggiungi"
 #: code:addons/pos_restaurant/static/src/js/Screens/ProductScreen/ControlButtons/OrderlineNoteButton.js:0
 #, python-format
 msgid "Add Internal Note"
-msgstr ""
+msgstr "Aggiungi nota interna"
 
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
@@ -118,7 +119,7 @@ msgstr "Aggiungi pulsante"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Add internal notes on order lines"
-msgstr ""
+msgstr "Aggiungi note interne alle linee d'ordine"
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
@@ -144,7 +145,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__iface_orderline_notes
 msgid "Allow custom internal notes on Orderlines."
-msgstr ""
+msgstr "Permetti note interne personalizzate sulle linee d'ordine."
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
@@ -289,7 +290,7 @@ msgstr "Chiudi"
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "Close Tab"
-msgstr ""
+msgstr "Chiudi conto"
 
 #. module: pos_restaurant
 #: model:product.product,name:pos_restaurant.pos_food_club
@@ -956,7 +957,7 @@ msgstr "Imposta mancia dopo pagamento"
 #: code:addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:0
 #, python-format
 msgid "Settle"
-msgstr ""
+msgstr "Regola"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__shape
@@ -973,7 +974,7 @@ msgstr "Firma"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_line__mp_skip
 msgid "Skip line when sending ticket to kitchen printers."
-msgstr ""
+msgstr "Salta la riga quando si invia il biglietto alle stampanti di cucina."
 
 #. module: pos_restaurant
 #: model:product.product,name:pos_restaurant.pos_food_tuna
@@ -1203,7 +1204,7 @@ msgstr "Impossibile cambiare il colore di sfondo"
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to create table because you are offline."
-msgstr ""
+msgstr "Impossibile creare la tabella perché sei offline."
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1217,7 +1218,7 @@ msgstr "Impossibile eliminare il tavolo"
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to get orders count"
-msgstr ""
+msgstr "Impossibile ottenere conteggio degli ordini"
 
 #. module: pos_restaurant
 #: model:product.product,uom_name:pos_restaurant.coke
@@ -1264,7 +1265,7 @@ msgstr "Unità"
 #: code:addons/pos_restaurant/static/src/js/Screens/TipScreen.js:0
 #, python-format
 msgid "Unsynced order"
-msgstr ""
+msgstr "Ordine non sincronizzato"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor__sequence

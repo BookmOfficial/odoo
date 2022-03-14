@@ -14,6 +14,15 @@ odoo.define('hr_holidays.dashboard.view_custo', function(require) {
     var _t = core._t;
     var QWeb = core.qweb;
 
+    var TimeOffCalendarModel = CalendarModel.extend({
+
+        _getFilterDomain: function() {
+            const company_domain = [['user_id.company_id', 'in', this.data.context.allowed_company_ids]];
+            return this._super().concat(company_domain);
+        },
+
+    });
+
     var TimeOffCalendarPopover = CalendarPopover.extend({
         template: 'hr_holidays.calendar.popover',
 
@@ -94,8 +103,8 @@ odoo.define('hr_holidays.dashboard.view_custo', function(require) {
                     res_model: "hr.leave",
                     view_id: ids,
                     context: {
-                        'default_date_from': moment().format('YYYY-MM-DD'),
-                        'default_date_to': moment().add(1, 'days').format('YYYY-MM-DD'),
+                        'default_date_from': moment().locale('en').format('YYYY-MM-DD'),
+                        'default_date_to': moment().add(1, 'days').locale('en').format('YYYY-MM-DD'),
                         'lang': self.context.lang,
                     },
                     title: _t("New time off"),
@@ -243,7 +252,7 @@ odoo.define('hr_holidays.dashboard.view_custo', function(require) {
         config: _.extend({}, CalendarView.prototype.config, {
             Controller: TimeOffCalendarController,
             Renderer: TimeOffCalendarRenderer,
-            Model: CalendarModel,
+            Model: TimeOffCalendarModel,
         }),
     });
 
