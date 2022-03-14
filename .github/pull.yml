@@ -1,0 +1,19 @@
+version: "1"
+rules:                      # Array of rules
+  - base: "15.0"            # Required. Target branch
+    upstream: odoo:15.0     # Required. Must be in the same fork network.
+    mergeMethod: hardreset  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
+    mergeUnstable: false    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
+  - base: bm.develop.15.0
+    upstream: "15.0"        # Required. Can be a branch in the same forked repo.
+    assignees:              # Optional
+      - zimivanende
+      - vincentbaeten
+    reviewers:              # Optional
+      - zimivanende
+      - vincentbaeten
+    conflictReviewers:      # Optional, on merge conflict assign a reviewer
+      - zimivanende
+      - vincentbaeten
+label: "sync_upstream"  # Optional
+conflictLabel: "merge-conflict"     # Optional, on merge conflict assign a custom label, Default: merge-conflict
