@@ -124,10 +124,8 @@
 "access_base_enable_profiling_wizard","access.base.enable.profiling.wizard","model_base_enable_profiling_wizard","group_system",1,1,1,0
 "access_res_company_group_system","res_company group_system","model_res_company","group_system",1,1,1,1
 "access_res_currency_group_erp_manager","res_currency group_erp_manager","model_res_currency","group_erp_manager",1,1,0,0
-"access_ir_module_module_group_erp_manager","ir_module_module group_erp_manager","model_ir_module_module","group_erp_manager",1,1,0,0
-"access_res_config_settings_group_erp_manager","access.res.config.settings group_erp_manager","model_res_config_settings","base.group_erp_manager",1,0,1,0
+"access_ir_module_module_group_erp_manager","ir_module_module group_erp_manager","model_ir_module_module","group_erp_manager",1,0,0,0
+"access_res_config_settings_group_erp_manager","access.res.config.settings group_erp_manager","model_res_config_settings","base.group_erp_manager",1,1,1,0
 "access_ir_actions_act_window_erp_manager","ir_actions_act_window_erp_manager","model_ir_actions_act_window","group_erp_manager",1,0,0,0
 "access_ir_ui_view_group_erp_manager","ir_ui_view group_erp_manager","model_ir_ui_view","group_erp_manager",1,0,0,0
-"access_ir_module_module_dependency_group_erp_manager","ir_module_module_dependency group_erp_manager","model_ir_module_module_dependency","group_erp_manager",1,0,0,0
-"access_ir_module_module_exclusion_group_erp_manager","ir_module_module_exclusion group_erp_manager","model_ir_module_module_exclusion","group_erp_manager",1,0,0,0
 "access_ir_actions_todo_group_erp_manager","ir_actions_todo group erp_manager","model_ir_actions_todo","group_erp_manager",1,0,0,0
