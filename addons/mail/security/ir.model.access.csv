@@ -64,3 +64,4 @@ access_mail_activity_type_erp_manager,mail.activity.type.erp_manager,model_mail_
 access_mail_followers_erp_manager,mail.followers.erp_manager,model_mail_followers,base.group_erp_manager,1,1,1,1
 access_mail_template_erp_manager,mail.template_erp_manager,model_mail_template,base.group_erp_manager,1,1,1,1
 access_mail_guest_erp_manager,mail.guest,model_mail_guest,base.group_erp_manager,1,1,1,1
+access_mail_notification_erp_manager, mail.notification.erp_manager,model_mail_notification,base.group_erp_manager,1,1,1,1
