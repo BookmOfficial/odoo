@@ -66,3 +66,4 @@ access_mail_template_erp_manager,mail.template_erp_manager,model_mail_template,b
 access_mail_guest_erp_manager,mail.guest,model_mail_guest,base.group_erp_manager,1,1,1,1
 access_mail_notification_erp_manager, mail.notification.erp_manager,model_mail_notification,base.group_erp_manager,1,1,1,1
 access_mail_message_reaction_erp_manager,mail.message.reaction.erp_manager,model_mail_message_reaction,base.group_erp_manager,1,1,1,1
+access_mail_blacklist_remove_erp_manager,acesss.mail.blacklist.remove.erp_manager,model_mail_blacklist_remove,base.group_erp_manager,1,1,1,1
