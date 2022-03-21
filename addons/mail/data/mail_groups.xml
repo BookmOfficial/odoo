@@ -6,12 +6,7 @@
         <field name="category_id" ref="base.module_category_hidden"/>
     </record>
 
-    <record id="base.group_system" model="res.groups">
-        <field name="implied_ids" eval="[(4, ref('mail.group_mail_template_editor'))]"/>
-    </record>
-
-    <!-- By default, allow all users to edit mail templates -->
-    <record id="base.group_user" model="res.groups">
+    <record id="base.group_erp_manager" model="res.groups">
         <field name="implied_ids" eval="[(4, ref('mail.group_mail_template_editor'))]"/>
     </record>
 </data>
