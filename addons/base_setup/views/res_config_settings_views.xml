@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="base.res_config_settings_view_form" />
         <field name="arch" type="xml">
             <xpath expr="//div[hasclass('settings')]" position="inside">
-                <div class="app_settings_block" data-string="General Settings" string="General Settings"
+                <div class="app_settings_block" data-string="General Settings" string="General"
                     data-key="general_settings">
 
                     <div id="invite_users">
@@ -437,7 +437,7 @@
         <field name="context">{'module' : 'general_settings', 'bin_size': False}</field>
     </record>
 
-    <menuitem id="menu_config" name="General Settings" parent="base.menu_administration" sequence="0"
+    <menuitem id="menu_config" name="General" parent="base.menu_administration" sequence="0"
         action="action_general_configuration" groups="base.group_erp_manager" />
 
 </odoo>

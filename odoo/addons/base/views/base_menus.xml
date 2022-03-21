@@ -18,7 +18,7 @@
           <menuitem id="menu_translation" name="Translations" parent="menu_administration" sequence="2" groups="base.group_no_one"/>
               <menuitem id="menu_translation_app" name="Application Terms" parent="menu_translation" sequence="4" groups="base.group_no_one"/>
               <menuitem id="menu_translation_export" name="Import / Export" parent="menu_translation" sequence="3" groups="base.group_no_one"/>
-          <menuitem id="menu_config" name="General Settings" parent="menu_administration" sequence='3'/>
+          <menuitem id="menu_config" name="General" parent="menu_administration" sequence='3'/>
 
           <menuitem id="menu_custom" name="Technical" parent="menu_administration" sequence="110" groups="base.group_erp_manager"/>
               <menuitem id="next_id_2" name="User Interface" parent="menu_custom"/>
