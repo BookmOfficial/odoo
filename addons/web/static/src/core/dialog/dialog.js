@@ -45,6 +45,6 @@ Dialog.renderFooter = true;
 Dialog.renderHeader = true;
 Dialog.size = "modal-lg";
 Dialog.technical = true;
-Dialog.title = "Odoo";
+Dialog.title = "Bookm";
 Dialog.bodyTemplate = owl.tags.xml`<div/>`;
 Dialog.footerTemplate = "web.DialogFooterDefault";

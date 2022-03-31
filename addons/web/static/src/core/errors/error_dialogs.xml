@@ -29,7 +29,7 @@
     <t t-name="web.SessionExpiredDialogBody" owl="1">
       <div role="alert">
         <p style="white-space: pre-wrap;">
-          Your Odoo session expired. The current page is about to be refreshed.
+          Your session expired. The current page is about to be refreshed.
         </p>
       </div>
     </t>
