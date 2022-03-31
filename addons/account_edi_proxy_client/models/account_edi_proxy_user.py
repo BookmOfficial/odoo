@@ -166,7 +166,7 @@ class AccountEdiProxyClientUser(models.Model):
             # we don't want two database to be able to query the proxy with the same user
             # because it could lead to not inconsistent data.
             _logger.error(response['error'])
-            raise UserError('Proxy error, please contact Odoo (code: 3)')
+            raise UserError('Proxy error, please contact Support (code: 3)')
         self.refresh_token = response['refresh_token']
 
     def _decrypt_data(self, data, symmetric_key):
