@@ -544,7 +544,7 @@ class Partner(models.Model):
         if not url.scheme:
             if not url.netloc:
                 url = url.replace(netloc=url.path, path='')
-            website = url.replace(scheme='http').to_url()
+            website = url.replace(scheme='https').to_url()
         return website
 
     def write(self, vals):
