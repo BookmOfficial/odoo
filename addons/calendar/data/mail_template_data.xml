@@ -108,7 +108,7 @@
                     </li>
                 </ul></li>
                 <t t-if="object.event_id.videocall_location">
-                    <li>Meeting URL: <a t-att-href="object.event_id.videocall_location" target="_blank" t-out="object.event_id.videocall_location or ''">https://meet.jit.si/odoo-xyz</a></li>
+                    <li>Meeting URL: <a t-att-href="object.event_id.videocall_location" target="_blank" t-out="object.event_id.videocall_location or ''">https://meet.jit.si/bookm-xyz</a></li>
                 </t>
                 <t t-if="not is_html_empty(object.event_id.description)">
                     <li>Description of the event:
@@ -233,7 +233,7 @@
                     </li>
                 </ul></li>
                 <t t-if="object.event_id.videocall_location">
-                    <li>Meeting URL: <a t-att-href="object.event_id.videocall_location" target="_blank" t-out="object.event_id.videocall_location or ''">https://meet.jit.si/odoo-xyz</a></li>
+                    <li>Meeting URL: <a t-att-href="object.event_id.videocall_location" target="_blank" t-out="object.event_id.videocall_location or ''">https://meet.jit.si/bookm-xyz</a></li>
                 </t>
                 <t t-if="not is_html_empty(object.event_id.description)">
                     <li>Description of the event:
@@ -334,7 +334,7 @@
                     </li>
                 </ul></li>
                 <t t-if="object.event_id.videocall_location">
-                    <li>Meeting URL: <a t-attf-href="{{ object.event_id.videocall_location }}" target="_blank" t-out="object.event_id.videocall_location or ''">https://meet.jit.si/odoo-xyz</a></li>
+                    <li>Meeting URL: <a t-attf-href="{{ object.event_id.videocall_location }}" target="_blank" t-out="object.event_id.videocall_location or ''">https://meet.jit.si/bookm-xyz</a></li>
                 </t>
                 <t t-if="not is_html_empty(object.event_id.description)">
                     <li>Description of the event:
