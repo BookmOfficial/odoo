@@ -132,7 +132,7 @@ var BusService =  CrossTab.extend(ServicesMixin, {
             _.unescape(title),
             {
                 body: _.unescape(content),
-                icon: "/mail/static/src/img/odoobot_transparent.png"
+                icon: "/mail/static/src/img/bookm_b.png"
             });
         notification.onclick = function () {
             window.focus();
