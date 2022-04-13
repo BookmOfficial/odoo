@@ -51,7 +51,7 @@ setup(
         'requests',
         'zeep',
         'vobject',
-        'werkzeug',
+        'werkzeug == 0.16.1',
         'xlsxwriter',
         'xlwt',
     ],
