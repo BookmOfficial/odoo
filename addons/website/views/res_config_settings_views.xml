@@ -237,6 +237,11 @@
                                         </div>
                                     </div>
                                     <div class="mt8" attrs="{'invisible': [('has_google_maps', '=', False)]}">
+                                        <!-- Add required google places api + update to new apis/enableflow url
+                                        Required API's:
+                                        - Maps
+                                        - Static maps
+                                        - Places -->
                                         <a role="button" class="btn-link" target="_blank"
                                            href="https://console.cloud.google.com/apis/enableflow?apiid=maps_backend,static_maps_backend,places_backend&amp;keyType=CLIENT_SIDE&amp;reusekey=true">
                                             <i class="fa fa-arrow-right"/>
