@@ -13,7 +13,7 @@ Allows users to send invoices by post
         'wizard/account_invoice_send_views.xml',
         'security/ir.model.access.csv',
     ],
-    'auto_install': True,
+    #Disable auto_install: 'auto_install': True,
     'assets': {
         'web.assets_backend': [
             'snailmail_account/static/**/*',
