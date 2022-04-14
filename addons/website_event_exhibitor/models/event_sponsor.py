@@ -132,7 +132,7 @@ class Sponsor(models.Model):
         for sponsor in self:
             if sponsor.exhibitor_type == 'online' and not sponsor.room_name:
                 if sponsor.name:
-                    room_name = "odoo-exhibitor-%s" % sponsor.name
+                    room_name = "bookm-exhibitor-%s" % sponsor.name
                 else:
                     room_name = self.env['chat.room']._default_name(objname='exhibitor')
                 sponsor.room_name = self._jitsi_sanitize_name(room_name)
@@ -200,7 +200,7 @@ class Sponsor(models.Model):
         for values in values_list:
             if values.get('is_exhibitor') and not values.get('room_name'):
                 exhibitor_name = values['name'] if values.get('name') else self.env['res.partner'].browse(values['partner_id']).name
-                name = 'odoo-exhibitor-%s' % exhibitor_name or 'sponsor'
+                name = 'bookm-exhibitor-%s' % exhibitor_name or 'sponsor'
                 values['room_name'] = name
         return super(Sponsor, self).create(values_list)
 
@@ -210,7 +210,7 @@ class Sponsor(models.Model):
             toupdate = self.filtered(lambda exhibitor: not exhibitor.chat_room_id)
             # go into sequential update in order to create a custom room name for each sponsor
             for exhibitor in toupdate:
-                values['room_name'] = 'odoo-exhibitor-%s' % exhibitor.name
+                values['room_name'] = 'bookm-exhibitor-%s' % exhibitor.name
                 super(Sponsor, exhibitor).write(values)
         return super(Sponsor, self - toupdate).write(values)
 

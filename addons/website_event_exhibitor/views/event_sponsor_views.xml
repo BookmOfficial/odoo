@@ -96,7 +96,7 @@
                             <field name="phone" widget="phone" string="Phone" options="{'enable_sms': True}"/>
                             <field name="mobile" widget="phone" string="Mobile" options="{'enable_sms': True}"/>
                             <field name="url" widget="url" string="Website"
-                                placeholder="e.g. : https://www.odoo.com"/>
+                                placeholder="e.g. : https://www.example.com"/>
                         </group>
                         <group>
                             <field name="event_id"/>
