@@ -17,7 +17,9 @@
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="group_product_variant"/>
+                                <!--DOCLINK:
                                 <a href="https://www.odoo.com/documentation/15.0/applications/sales/sales/products_prices/products/variants.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                -->
                                 <div class="text-muted">
                                     Sell variants of a product using attributes (size, color, etc.)
                                 </div>
@@ -127,7 +129,9 @@
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="group_product_pricelist"/>
+                                <!--DOCLINK:
                                 <a href="https://www.odoo.com/documentation/15.0/applications/sales/sales/products_prices/prices/pricing.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                -->
                                 <div class="text-muted">
                                     Set multiple prices per product, automated discounts, etc.
                                 </div>
@@ -179,7 +183,9 @@
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="portal_confirmation_sign"/>
+                                <!--DOCLINK:
                                 <a href="https://www.odoo.com/documentation/15.0/applications/sales/sales/send_quotations/get_signature_to_validate.html" title="Documentation" class="mr-2 o_doc_link" target="_blank"></a>
+                                -->
                                 <span class="fa fa-lg fa-building-o" title="Values set here are company-specific." groups="base.group_multi_company"/>
                                 <div class="text-muted">
                                     Request an online signature to confirm orders
@@ -192,7 +198,9 @@
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="portal_confirmation_pay"/>
+                                <!--DOCLINK:
                                 <a href="https://www.odoo.com/documentation/15.0/applications/sales/sales/send_quotations/get_paid_to_validate.html" title="Documentation" class="mr-2 o_doc_link" target="_blank"></a>
+                                -->
                                 <span class="fa fa-lg fa-building-o" title="Values set here are company-specific." groups="base.group_multi_company"/>
                                 <div class="text-muted">
                                     Request an online payment to confirm orders
@@ -220,7 +228,9 @@
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="group_sale_delivery_address"/>
+                                <!--DOCLINK:
                                 <a href="https://www.odoo.com/documentation/15.0/applications/sales/sales/send_quotations/different_addresses.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                -->
                                 <div class="text-muted">
                                     Select specific invoice and delivery addresses
                                 </div>
@@ -290,6 +300,7 @@
                                 </div>
                             </div>
                         </div>
+                    	<!-- Removed upgrade_boolean
                         <div class="col-12 col-lg-6 o_setting_box" id="ups">
                             <div class="o_setting_left_pane">
                                 <field name="module_delivery_ups" widget="upgrade_boolean"/>
@@ -304,6 +315,8 @@
                                 </div>
                             </div>
                         </div>
+                        -->
+                    	<!-- Removed upgrade_boolean
                         <div class="col-12 col-lg-6 o_setting_box" id="shipping_costs_dhl">
                             <div class="o_setting_left_pane">
                                 <field name="module_delivery_dhl" widget="upgrade_boolean"/>
@@ -318,6 +331,8 @@
                                 </div>
                             </div>
                         </div>
+                        -->
+                    	<!-- Removed upgrade_boolean
                         <div class="col-12 col-lg-6 o_setting_box" id="shipping_costs_fedex">
                             <div class="o_setting_left_pane">
                                 <field name="module_delivery_fedex" widget="upgrade_boolean"/>
@@ -332,6 +347,8 @@
                                 </div>
                             </div>
                         </div>
+                        -->
+                    	<!-- Removed upgrade_boolean
                         <div class="col-12 col-lg-6 o_setting_box" id="shipping_costs_usps">
                             <div class="o_setting_left_pane">
                                 <field name="module_delivery_usps" widget="upgrade_boolean"/>
@@ -346,6 +363,8 @@
                                 </div>
                             </div>
                         </div>
+                        -->
+                    	<!-- Removed upgrade_boolean
                         <div class="col-12 col-lg-6 o_setting_box" id="shipping_costs_bpost">
                             <div class="o_setting_left_pane">
                                 <field name="module_delivery_bpost" widget="upgrade_boolean"/>
@@ -360,6 +379,8 @@
                                 </div>
                             </div>
                         </div>
+                        -->
+                    	<!-- Removed upgrade_boolean
                         <div class="col-12 col-lg-6 o_setting_box" id="shipping_costs_easypost">
                             <div class="o_setting_left_pane">
                                 <field name="module_delivery_easypost" widget="upgrade_boolean"/>
@@ -374,6 +395,7 @@
                                 </div>
                             </div>
                         </div>
+                        -->
                     </div>
                     <h2>Invoicing</h2>
                     <div class="row mt16 o_settings_container" name="invoicing_setting_container">
@@ -382,7 +404,9 @@
                              title="This default value is applied to any new product created. This can be changed in the product detail form.">
                             <div class="o_setting_right_pane">
                                 <label for="default_invoice_policy"/>
+                                <!--DOCLINK:
                                 <a href="https://www.odoo.com/documentation/15.0/applications/sales/sales/invoicing/invoicing_policy.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                -->
                                 <div class="text-muted">
                                     Quantities to invoice from sales orders
                                 </div>
@@ -414,7 +438,9 @@
                             <div class="o_setting_left_pane"/>
                             <div class="o_setting_right_pane">
                                 <span class="o_form_label">Down Payments</span>
+                                <!--DOCLINK:
                                 <a href="https://www.odoo.com/documentation/15.0/applications/sales/sales/invoicing/down_payment.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                -->
                                 <div class="text-muted">
                                     Product used for down payments
                                 </div>
@@ -424,6 +450,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Removed upgrade_boolean
                     <h2 class="mt32">Connectors</h2>
                     <div class="row mt16 o_settings_container" id="connectors_setting_container">
                         <div class="col-12 col-lg-6 o_setting_box" id="amazon_connector">
@@ -443,6 +470,7 @@
                         </div>
                     </div>
                     <div id="sale_ebay"/>
+                    -->
                 </div>
             </xpath>
         </field>
@@ -452,7 +480,9 @@
         <field name="name">Settings</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">res.config.settings</field>
+        <!-- Removed as other apps work perfect without
         <field name="view_id" ref="res_config_settings_view_form"/>
+        -->
         <field name="view_mode">form</field>
         <field name="target">inline</field>
         <field name="context">{'module' : 'sale_management', 'bin_size': False}</field>
