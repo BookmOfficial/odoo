@@ -2,7 +2,7 @@
 <odoo>
 <data noupdate="1">
 
-    <!-- Meeting Types (for interview meetings) -->
+    <!-- Meeting Tags (for interview meetings) -->
     <record model="calendar.event.type" id="categ_meet_interview">
         <field name="name">Interview</field>
     </record>
