@@ -12,6 +12,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Remove to fix due to removal op upgrade_booleans
             <div id="website_delivery_dhl" position="after">
                 <div class="content-group">
                     <div class="mt8" attrs="{'invisible': [('module_delivery_dhl', '=', False)]}">
@@ -47,6 +48,7 @@
                     </div>
                 </div>
             </div>
+            -->
         </field>
     </record>
 </odoo>
