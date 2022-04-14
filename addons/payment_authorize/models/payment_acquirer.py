@@ -26,7 +26,7 @@ class PaymentAcquirer(models.Model):
         string="API Signature Key", required_if_provider='authorize', groups='base.group_system')
     authorize_client_key = fields.Char(
         string="API Client Key",
-        help="The public client key. To generate directly from Odoo or from Authorize.Net backend.")
+        help="The public client key. To generate directly from Bookm or from Authorize.Net backend.")
     # Authorize.Net supports only one currency: "One gateway account is required for each currency"
     # See https://community.developer.authorize.net/t5/The-Authorize-Net-Developer-Blog/Authorize-Net-UK-Europe-Update/ba-p/35957
     authorize_currency_id = fields.Many2one(
