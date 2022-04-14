@@ -42,7 +42,7 @@ class EventBooth(models.Model):
             }
             if self.booth_category_id.exhibitor_type == 'online':
                 values.update({
-                    'room_name': 'odoo-exhibitor-%s' % self.partner_id.name,
+                    'room_name': 'bookm-exhibitor-%s' % self.partner_id.name,
                 })
             sponsor_id = self.env['event.sponsor'].sudo().create(values)
         return sponsor_id.id
