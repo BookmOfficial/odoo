@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 o_setting_box col-12" name="dedicated_server_setting_container">
-                                <div class="o_setting_left_pane" title="Use a specific mail server in priority. Otherwise Odoo relies on the first outgoing mail server available (based on their sequencing) as it does for normal mails.">
+                                <div class="o_setting_left_pane" title="Use a specific mail server in priority. Otherwise Bookm relies on the first outgoing mail server available (based on their sequencing) as it does for normal mails.">
                                     <field name="mass_mailing_outgoing_mail_server"/>
                                 </div>
                                 <div class="o_setting_right_pane">

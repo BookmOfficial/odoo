@@ -151,13 +151,6 @@
             </div>
         </div>
     </div>
-    <div align="center" class="container o_mail_table_styles o_mail_full_width_padding" style="width:100%;border-collapse:separate;">
-        <div class="row">
-            <div align="center" style="padding:16px 0 16px 0;" class="col pt16 pb16">
-                Powered by <a target="_blank" href="https://www.odoo.com" style="text-decoration:none;background-color:transparent;color:#875A7B;">Odoo</a>
-            </div>
-        </div>
-    </div>
 </div>
 </field>
             <field name="attachment_ids" eval="[(4, ref('mass_mail_attach_1'))]"/>
@@ -167,7 +160,7 @@
 
         <record id="mass_mail_1_stat_0" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111000@odoo.com</field>
+            <field name="message_id">1111000@bookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_7"/>
             <field name="email">billy.fox45@example.com</field>
@@ -179,7 +172,7 @@
         </record>
         <record id="mass_mail_1_stat_1" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111001@odoo.com</field>
+            <field name="message_id">1111001@bookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_13"/>
             <field name="email">kim.snyder96@example.com</field>
@@ -191,7 +184,7 @@
         </record>
         <record id="mass_mail_1_stat_2" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111002@odoo.com</field>
+            <field name="message_id">1111002@bookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_14"/>
             <field name="email">edith.sanchez68@example.com</field>
@@ -202,7 +195,7 @@
         </record>
         <record id="mass_mail_1_stat_3" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111003@odoo.com</field>
+            <field name="message_id">1111003@bookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_24"/>
             <field name="email">theodore.gardner36@example.com</field>
@@ -213,7 +206,7 @@
         </record>
         <record id="mass_mail_1_stat_4" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111004@odoo.com</field>
+            <field name="message_id">1111004@ebookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_32"/>
             <field name="email">sandra.neal80@example.com</field>
@@ -223,7 +216,7 @@
         </record>
         <record id="mass_mail_1_stat_5" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111005@odoo.com</field>
+            <field name="message_id">1111005@bookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_33"/>
             <field name="email">julie.richards84@example.com</field>
@@ -232,7 +225,7 @@
         </record>
         <record id="mass_mail_1_stat_6" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111006@odoo.com</field>
+            <field name="message_id">1111006@ebookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_34"/>
             <field name="email">travis.mendoza24@example.com</field>
@@ -242,7 +235,7 @@
         </record>
         <record id="mass_mail_1_stat_7" model="mailing.trace">
             <field name="mass_mailing_id" ref="mass_mail_1"/>
-            <field name="message_id">1111007@odoo.com</field>
+            <field name="message_id">1111007@ebookm.be</field>
             <field name="model">res.partner</field>
             <field name="res_id" ref="base.res_partner_address_34"/>
             <field name="email">travis.mendoza24@example.com</field>
