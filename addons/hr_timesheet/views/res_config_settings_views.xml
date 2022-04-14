@@ -43,6 +43,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Remove upgrade_boolean
                         <div class="col-12 col-lg-6 o_setting_box" id="synchronize_web_mobile_setting">
                             <div class="o_setting_left_pane">
                                 <field name="module_project_timesheet_synchro" widget="upgrade_boolean"/>
@@ -69,7 +70,9 @@
                                 </div>
                             </div>
                         </div>
+                        -->
                     </div>
+                    <!-- Remove upgrade_boolean
                     <h2>Timesheets Control</h2>
                     <div class="row mt16 o_settings_container">
                         <div class="col-12 col-lg-6 o_setting_box">
@@ -97,6 +100,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                     <div name="section_leaves" groups="base.group_no_one">
                         <h2>Time Off</h2>
                         <div class="row mt16 o_settings_container" name="timesheet_control">
