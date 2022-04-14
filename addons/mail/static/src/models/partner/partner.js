@@ -184,7 +184,7 @@ function factory(dependencies) {
                     partner.id <= 0 ||
                     this.messaging.publicPartners.includes(partner)
                 ) {
-                    // ignore archived partners (except OdooBot), temporary
+                    // ignore archived partners (except Bot), temporary
                     // partners (livechat guests), public partners (technical)
                     continue;
                 }
@@ -372,7 +372,7 @@ function factory(dependencies) {
          */
         _computeAvatarUrl() {
             if (this === this.messaging.partnerRoot) {
-                return '/mail/static/src/img/odoobot.png';
+                return '/mail/static/src/img/bookm_b.png';
             }
             return `/web/image/res.partner/${this.id}/avatar_128`;
         }

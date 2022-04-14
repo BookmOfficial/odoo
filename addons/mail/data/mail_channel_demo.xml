@@ -38,7 +38,7 @@
         <record id="mail_message_channel_1_2_1" model="mail.message">
             <field name="model">mail.channel</field>
             <field name="res_id" ref="mail.channel_1"/>
-            <field name="body"><![CDATA[<p>When I have too much opportunities in the pipe, I start communicating with prospects more by email than phonecalls.</p><p>I send an email to create a sense of emergency, like <i>"can I call you this week about our quote?"</i> and I call only those that answer this email.</p><p>You can use the email template feature of Odoo to automate email composition.</p>]]></field>
+            <field name="body"><![CDATA[<p>When I have too much opportunities in the pipe, I start communicating with prospects more by email than phonecalls.</p><p>I send an email to create a sense of emergency, like <i>"can I call you this week about our quote?"</i> and I call only those that answer this email.</p><p>You can use the email template feature of Bookm to automate email composition.</p>]]></field>
             <field name="message_type">comment</field>
             <field name="parent_id" ref="mail_message_channel_1_2"/>
             <field name="subtype_id" ref="mt_comment"/>
@@ -55,7 +55,7 @@
     Great news!<br/>
     Our company has received the Deloitte Fast 50 award.  We are the fastest
     growing company of the country, with a growth of 1549% over the past 5
-    years. You can get more information <a href="http://www.openerp.com/node/1244/2012/10">on our blog</a>.
+    years.
 </p>
 ]]></field>
             <field name="message_type">comment</field>

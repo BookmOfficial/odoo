@@ -35,7 +35,7 @@ export class NotificationRequest extends Component {
         this.messaging.refreshIsNotificationPermissionDefault();
         if (value !== 'granted') {
             this.env.services['bus_service'].sendNotification({
-                message: this.env._t("Odoo will not have the permission to send native notifications on this device."),
+                message: this.env._t("Bookm will not have the permission to send native notifications on this device."),
                 title: this.env._t("Permission denied"),
             });
         }
