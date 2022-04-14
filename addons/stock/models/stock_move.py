@@ -8,7 +8,7 @@ from itertools import groupby
 from odoo.tools import groupby as groupbyelem
 from operator import itemgetter
 
-from odoo import _, api, fields, models
+from odoo import _, api, Command, fields, models
 from odoo.exceptions import UserError
 from odoo.osv import expression
 from odoo.tools.float_utils import float_compare, float_is_zero, float_round
@@ -497,6 +497,8 @@ class StockMove(models.Model):
 
     def _set_lot_ids(self):
         for move in self:
+            if move.product_id.tracking != 'serial':
+                continue
             move_lines_commands = []
             if move.picking_type_id.show_reserved is False:
                 mls = move.move_line_nosuggest_ids
@@ -846,6 +848,8 @@ class StockMove(models.Model):
         moves_by_neg_key = defaultdict(lambda: self.env['stock.move'])
         # Need to check less fields for negative moves as some might not be set.
         neg_qty_moves = self.filtered(lambda m: float_compare(m.product_qty, 0.0, precision_rounding=m.product_uom.rounding) < 0)
+        # Detach their picking as they will either get absorbed or create a backorder, so no extra logs will be put in the chatter
+        neg_qty_moves.picking_id = False
         excluded_fields = self._prepare_merge_negative_moves_excluded_distinct_fields()
         neg_key = itemgetter(*[field for field in distinct_fields if field not in excluded_fields])
 
@@ -872,6 +876,10 @@ class StockMove(models.Model):
                 # If quantity can be fully absorbed by a single move, update its quantity and remove the negative move
                 if float_compare(pos_move.product_uom_qty, abs(neg_move.product_uom_qty), precision_rounding=pos_move.product_uom.rounding) >= 0:
                     pos_move.product_uom_qty += neg_move.product_uom_qty
+                    pos_move.write({
+                        'move_dest_ids': [Command.link(m.id) for m in neg_move.mapped('move_dest_ids')],
+                        'move_orig_ids': [Command.link(m.id) for m in neg_move.mapped('move_orig_ids')],
+                    })
                     merged_moves |= pos_move
                     moves_to_unlink |= neg_move
                     break
@@ -1228,8 +1236,6 @@ class StockMove(models.Model):
             move.product_uom_qty *= -1
             if move.picking_type_id.return_picking_type_id:
                 move.picking_type_id = move.picking_type_id.return_picking_type_id
-        # detach their picking as we inverted the location and potentially picking type
-        neg_r_moves.picking_id = False
         neg_r_moves._assign_picking()
 
         # call `_action_assign` on every confirmed move which location_id bypasses the reservation + those expected to be auto-assigned

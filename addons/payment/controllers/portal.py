@@ -100,7 +100,8 @@ class PaymentPortal(portal.CustomerPortal):
         reference = reference or payment_utils.singularize_reference_prefix(prefix='tx')
         amount = amount or 0.0  # If the amount is invalid, set it to 0 to stop the payment flow
         company_id = company_id or partner_sudo.company_id.id or user_sudo.company_id.id
-        currency_id = currency_id or request.env['res.company'].browse(company_id).currency_id.id
+        company = request.env['res.company'].sudo().browse(company_id)
+        currency_id = currency_id or company.currency_id.id
 
         # Make sure that the currency exists and is active
         currency = request.env['res.currency'].browse(currency_id).exists()
@@ -109,7 +110,7 @@ class PaymentPortal(portal.CustomerPortal):
 
         # Select all acquirers and tokens that match the constraints
         acquirers_sudo = request.env['payment.acquirer'].sudo()._get_compatible_acquirers(
-            company_id, partner_sudo.id, currency_id=currency.id
+            company_id, partner_sudo.id, currency_id=currency.id, **kwargs
         )  # In sudo mode to read the fields of acquirers and partner (if not logged in)
         if acquirer_id in acquirers_sudo.ids:  # Only keep the desired acquirer if it's suitable
             acquirers_sudo = acquirers_sudo.browse(acquirer_id)
@@ -138,6 +139,7 @@ class PaymentPortal(portal.CustomerPortal):
             'access_token': access_token,
             'transaction_route': '/payment/transaction',
             'landing_route': '/payment/confirmation',
+            'res_company': company,  # Display the correct logo in a multi-company environment
             'partner_is_different': partner_is_different,
             'invoice_id': invoice_id,
             **self._get_custom_rendering_context_values(**kwargs),

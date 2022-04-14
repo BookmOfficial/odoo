@@ -188,7 +188,7 @@ class MailComposer(models.TransientModel):
         result, subject = {}, False
         if values.get('parent_id'):
             parent = self.env['mail.message'].browse(values.get('parent_id'))
-            result['record_name'] = parent.record_name,
+            result['record_name'] = parent.record_name
             subject = tools.ustr(parent.subject or parent.record_name or '')
             if not values.get('model'):
                 result['model'] = parent.model
@@ -258,7 +258,7 @@ class MailComposer(models.TransientModel):
                 new_attachment_ids = []
                 for attachment in wizard.attachment_ids:
                     if attachment in wizard.template_id.attachment_ids:
-                        new_attachment_ids.append(attachment.sudo().copy({'res_model': 'mail.compose.message', 'res_id': wizard.id}).id)
+                        new_attachment_ids.append(attachment.copy({'res_model': 'mail.compose.message', 'res_id': wizard.id}).id)
                     else:
                         new_attachment_ids.append(attachment.id)
                 new_attachment_ids.reverse()
@@ -472,6 +472,8 @@ class MailComposer(models.TransientModel):
         blacklist_ids = self._get_blacklist_record_ids(mail_values_dict)
         optout_emails = self._get_optout_emails(mail_values_dict)
         done_emails = self._get_done_emails(mail_values_dict)
+        # in case of an invoice e.g.
+        mailing_document_based = self.env.context.get('mailing_document_based')
 
         for record_id, mail_values in mail_values_dict.items():
             recipients = recipients_info[record_id]
@@ -494,7 +496,7 @@ class MailComposer(models.TransientModel):
             elif optout_emails and mail_to in optout_emails:
                 mail_values['state'] = 'cancel'
                 mail_values['failure_type'] = 'mail_optout'
-            elif done_emails and mail_to in done_emails:
+            elif done_emails and mail_to in done_emails and not mailing_document_based:
                 mail_values['state'] = 'cancel'
                 mail_values['failure_type'] = 'mail_dup'
             # void of falsy values -> error
@@ -504,7 +506,7 @@ class MailComposer(models.TransientModel):
             elif not mail_to_normalized or not email_re.findall(mail_to):
                 mail_values['state'] = 'cancel'
                 mail_values['failure_type'] = 'mail_email_invalid'
-            elif done_emails is not None:
+            elif done_emails is not None and not mailing_document_based:
                 done_emails.append(mail_to)
 
         return mail_values_dict
@@ -599,7 +601,8 @@ class MailComposer(models.TransientModel):
             res_ids = [res_ids]
 
         subjects = self._render_field('subject', res_ids, options={"render_safe": True})
-        bodies = self._render_field('body', res_ids, post_process=True)
+        # We want to preserve comments in emails so as to keep mso conditionals
+        bodies = self.with_context(preserve_comments=self.composition_mode == 'mass_mail')._render_field('body', res_ids, post_process=True)
         emails_from = self._render_field('email_from', res_ids)
         replies_to = self._render_field('reply_to', res_ids)
         default_recipients = {}
