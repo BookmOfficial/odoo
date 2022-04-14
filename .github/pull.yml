@@ -15,7 +15,5 @@ rules:                      # Array of rules
     conflictReviewers:      # Optional, on merge conflict assign a reviewer
       - zimivanende
       - vincentbaeten
-  - base: test   
-    upstream: odoo:15.0
 label: "sync_upstream"  # Optional
 conflictLabel: "merge-conflict"     # Optional, on merge conflict assign a custom label, Default: merge-conflict
