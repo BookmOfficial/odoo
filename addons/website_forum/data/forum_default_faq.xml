@@ -16,11 +16,9 @@
                                     <div class="card-body">
                                         <p>This community is for professional and enthusiast users, partners and programmers. You can ask questions about:</p>
                                         <ul>
-                                            <li>how to install Odoo on a specific infrastructure,</li>
-                                            <li>how to configure or customize Odoo to specific business needs,</li>
-                                            <li>what's the best way to use Odoo for a specific business need,</li>
-                                            <li>how to develop modules for your own need,</li>
-                                            <li>specific questions about Odoo service offers, etc.</li>
+                                            <li>how to configure or customize Bookm to specific business needs,</li>
+                                            <li>what's the best way to use Bookm for a specific business need,</li>
+                                            <li>specific questions about Bookm service offers, etc.</li>
                                         </ul>
                                         <p><b>Before you ask - please make sure to search for a similar question.</b> You can search questions by their title or tags. It’s also OK to answer your own question.</p>
                                         <p><b>Please avoid asking questions that are too subjective and argumentative</b> or not relevant to this community.</p>
@@ -76,7 +74,7 @@
                                 </a>
                                 <div id="collapse4" class="collapse" data-parent="#myCollapse" role="tabpanel">
                                     <div class="card-body">
-                                        <p>The goal of this site is create a relevant knowledge base that would answer questions related to Odoo.</p>
+                                        <p>The goal of this site is create a relevant knowledge base that would answer questions related to Bookm.</p>
                                         <p>Therefore questions and answers can be edited like wiki pages by experienced users of this site in order to improve the overall quality of the knowledge base content. Such privileges are granted based on user karma level: you will be able to do the same once your karma gets high enough.</p>
                                         <p>If this approach is not for you, please respect the community.</p>
                                         <a t-attf-href="/forum/#{slug(forum)}/faq/karma">Here a table with the privileges and the karma level</a>
