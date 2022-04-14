@@ -82,6 +82,7 @@
         </t>
     </template>
 
+    <!-- Remove brand promotion
     <template id="brand_promotion" inherit_id="website.brand_promotion">
         <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
             <t t-call="web.brand_promotion_message">
@@ -92,5 +93,6 @@
             </t>
         </xpath>
     </template>
+    -->
 
 </odoo>
