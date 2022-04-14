@@ -2,7 +2,7 @@
 <odoo>
     <data noupdate="1">
         <template id="livechat_email_template">
-<table border="0" cellpadding="0" cellspacing="0" style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;"><tr><td align="center">
+<table border="0" cellpadding="0" cellspacing="0" style="padding-top: 16px; padding-bottom: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;"><tr><td align="center">
 <table border="0" cellpadding="0" cellspacing="0" width="590" style="padding: 24px; background-color: white; color: #454748; border-collapse:separate;">
 <tbody>
     <!-- HEADER -->
@@ -87,9 +87,11 @@
 </table>
 </td></tr>
 <!-- POWERED BY -->
+<!-- Removed Powered By
 <tr><td align="center" style="min-width: 590px;">
         Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
 </td></tr>
+-->
 </table>
         </template>
     </data>
