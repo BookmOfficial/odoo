@@ -59,10 +59,6 @@
     </a>
     <span t-if="not website_url" t-esc="company.name"/>
     </span>
-    <!-- Removed using
-    using
-    <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="text-decoration:none; color: #875A7B;">Odoo</a>.
-	-->
 </p>
 </div>
         </template>
@@ -115,13 +111,6 @@
             </table>
         </td>
     </tr>
-    <!-- Removed Powered By
-    <tr>
-        <td align="center" style="padding: 8px; font-size:11px;">
-            Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email">Odoo</a>.
-        </td>
-    </tr>
-    -->
 </tbody>
 </table>
 </div>
@@ -176,12 +165,6 @@
 </tbody>
 </table>
 </td></tr>
-<!-- POWERED BY -->
-<!-- Removed Powered By
-<tr><td align="center" style="min-width: 590px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
-</td></tr>
--->
 </table>
         </template>
 
@@ -263,12 +246,6 @@
 </tbody>
 </table>
 </td></tr>
-<!-- POWERED BY -->
-<!-- Removed POwered By
-<tr><td align="center" style="min-width: 590px; padding: 8px; font-size:11px;">
-    Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
-</td></tr>
--->
 </table>
         </template>
 
