@@ -261,6 +261,7 @@
                ])]"/>
     </record>
 
+    <!-- Remove SEPA as this will not be supported
     <record id="payment_acquirer_sepa_direct_debit" model="payment.acquirer">
         <field name="name">SEPA Direct Debit</field>
         <field name="sequence">20</field>
@@ -276,6 +277,7 @@
             </p>
         </field>
     </record>
+    -->
 
     <record id="payment_acquirer_sips" model="payment.acquirer">
         <field name="name">Sips</field>
