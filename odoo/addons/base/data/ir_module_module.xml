@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+        <!-- File disabled in manifest to remove to_buy Modules -->
 
         <record model="ir.module.module" id="base.module_web_studio">
             <field name="name">web_studio</field>
