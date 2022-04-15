@@ -78,7 +78,7 @@ class GoogleService(models.AbstractModel):
         }
 
         get_param = self.env['ir.config_parameter'].sudo().get_param
-        base_url = get_param('web.base.url', default='http://www.bookm.be?NoBaseUrl'')
+        base_url = get_param('web.base.url', default='http://www.bookm.be?NoBaseUrl')
         client_id = get_param('google_%s_client_id' % (service,), default=False)
 
         encoded_params = urls.url_encode({
