@@ -1,0 +1,705 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_nz
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:34+0000\n"
+"PO-Revision-Date: 2022-04-15 22:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21210
+msgid "A/P Accrual - Inventory"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61000
+msgid "Advertising"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,tag_name:l10n_nz.tax_report_box11
+msgid "BOX 11"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,tag_name:l10n_nz.tax_report_box5
+msgid "BOX 5"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,tag_name:l10n_nz.tax_report_box6
+msgid "BOX 6"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,tag_name:l10n_nz.tax_report_box9
+msgid "BOX 9"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11110
+msgid "Bank Account"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_31200
+msgid "Capital Drawings"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_31100
+msgid "Capital Investment"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61200
+msgid "Car & Truck Expenses"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11140
+msgid "Cash Drawer"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61300
+msgid "Commissions Paid"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_53000
+msgid "Consignment Cost of Sales"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_43000
+msgid "Consignment Sales"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_51120
+msgid "Cost of Goods Sold # 2"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_51130
+msgid "Cost of Goods Sold # 3"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_51110
+msgid "Cost of Goods Sold #1"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21110
+msgid "Credit Card"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_39000
+msgid "Current Year Earnings"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21600
+msgid "Customer Deposits"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_12100
+msgid "Deposits Paid"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61500
+msgid "Depreciation Expense"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61610
+msgid "Discounts Given"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61620
+msgid "Discounts Taken"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62920
+msgid "Electricity"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11190
+msgid "Electronic Clearing Account"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61630
+msgid "Exchange Rate Losses (Gains)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11320
+msgid "Finished Goods"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_56000
+msgid "Freight"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_44000
+msgid "Freight Income"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61700
+msgid "Freight Paid"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_47000
+msgid "Fuel Tax Credits"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21350
+msgid "Fuel Tax Credits Accrued"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13220
+msgid "Furniture & Fixtures Accum Dep"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13210
+msgid "Furniture & Fixtures at Cost"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.group,name:l10n_nz.tax_group_100000000
+msgid "GST 100000000%"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.group,name:l10n_nz.tax_group_gst_15
+msgid "GST 15%"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21310
+msgid "GST Collected"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_purchase_inc_15
+msgid "GST Inc Purch (15%)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_sale_inc_15
+msgid "GST Inc Sale (15%)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_purchase_inc_15
+msgid "GST Inclusive Purchases"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_sale_inc_15
+msgid "GST Inclusive Sales"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_purchase_gst_only
+msgid "GST Only on Imports"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_purchase_gst_only
+msgid "GST Only – Imports"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21330
+msgid "GST Paid"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_purchase_15
+msgid "GST Purchases"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_sale_15
+msgid "GST Sales"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62910
+msgid "Gas"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_39999
+msgid "Historical Balancing"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21360
+msgid "Import Duty Payable"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_92000
+msgid "Income Tax Expense"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61800
+msgid "Insurance"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_91000
+msgid "Interest Expense"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_81000
+msgid "Interest Income"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_45000
+msgid "Late Fees Collected"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62000
+msgid "Late Fees Paid"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62200
+msgid "Legal & Professional Services"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11210
+msgid "Less Prov'n for Doubtful Debts"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.l10n_nz_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62110
+msgid "Machinery & Equipment"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13140
+msgid "Manufac. Equip Accum Dep"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13120
+msgid "Manufac. Plant Accum Dep"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13130
+msgid "Manufacturing Equipment Cost"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13110
+msgid "Manufacturing Plant at Cost"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_55000
+msgid "Materials & Supplies"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_63120
+msgid "Meals & Entertainment"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_46000
+msgid "Miscellaneous Income"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61920
+msgid "Mortgage Interest"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_22100
+msgid "Mortgages Payable"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13420
+msgid "Motor Vehicles Accum Dep"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13410
+msgid "Motor Vehicles at Cost"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.chart.template,name:l10n_nz.l10n_nz_chart_template
+msgid "New Zealand Tax and Account Chart Template (by Willow IT)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_22200
+msgid "Notes Payable"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.fiscal.position.template,name:l10n_nz.fiscal_position_os_partner
+msgid "OS Partner"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13320
+msgid "Office Equip Accum Dep"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_13310
+msgid "Office Equip at Cost"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62300
+msgid "Office Expenses"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62120
+msgid "Other Business Property"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_57000
+msgid "Other Costs"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21700
+msgid "Other Current Liabilities"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62450
+msgid "Other Employer Expenses"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61930
+msgid "Other Interest"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_22300
+msgid "Other Long Term Liabilities"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_61910
+msgid "Overdraft Interest"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21420
+msgid "PAYG Withholding Payable"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21410
+msgid "Payroll Accruals Payable"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11130
+msgid "Petty Cash"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_12200
+msgid "Prepaid Insurance"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_purchase_15
+msgid "Purch (15%)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_purchase_taxable_import
+msgid "Purch (Imports Taxable)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_purchase_taxable_import
+msgid "Purchase (Taxable Imports) - Tax Paid Separately"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_purchases_and_expenses
+msgid "Purchases and Expenses"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11310
+msgid "Raw Materials"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62500
+msgid "Repairs"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_38000
+msgid "Retained Earnings"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_sale_15
+msgid "Sale (15%)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_41110
+msgid "Sales Product #1"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_41120
+msgid "Sales Product #2"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_41130
+msgid "Sales Product #3"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_sale_and_income
+msgid "Sales and Income"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62550
+msgid "Shrinkage/Spoilage"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62410
+msgid "Staff Amenities"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62420
+msgid "Superannuation"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62600
+msgid "Supplies"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.group,name:l10n_nz.tax_group_0
+msgid "TAX 0%"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.group,name:l10n_nz.tax_group_15
+msgid "TAX 15%"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21380
+msgid "Tax Withholdings Payable"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62700
+msgid "Taxes"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62800
+msgid "Telephone"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21200
+msgid "Trade Creditors"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11200
+msgid "Trade Debtors"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11220
+msgid "Trade Debtors (PoS)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11330
+msgid "Trading Stock on Hand"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_63110
+msgid "Travel"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_11180
+msgid "Undeposited Funds"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_21370
+msgid "Voluntary Withholdings Payable"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62430
+msgid "Wages & Salaries"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_54000
+msgid "Wages for Production Labour"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62930
+msgid "Water"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_52000
+msgid "Wholesale Cost of Sales"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_42000
+msgid "Wholesale Sales"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.account.template,name:l10n_nz.nz_62440
+msgid "Workers' Compensation"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_sale_0
+msgid "Zero Rated (Export) Sales"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,description:l10n_nz.nz_tax_purchase_0
+msgid "Zero Rated Purchases"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_sale_0
+msgid "Zero/Export (0%) Sale"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.template,name:l10n_nz.nz_tax_purchase_0
+msgid "Zero/Import (0%) Purch"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box10
+msgid "[BOX 10] Total GST collected on sales and income"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box11
+msgid ""
+"[BOX 11] Total purchases and expenses(including GST) for which tax invoicing"
+" requirements have been met"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box12
+msgid "[BOX 12] Multiply BOX11 by 3 and then divide by 23"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box13
+msgid "[BOX 13] Credit adjustments from your calculation sheet"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box14
+msgid "[BOX 14] Total GST credit for purchases and expenses"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box15
+msgid "[BOX 15]  Difference between BOX10 and BOX14"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box5
+msgid ""
+"[BOX 5] Total sales and income for the period(including GST and zero-rated "
+"Supplies)"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box6
+msgid "[BOX 6] Zero-rated supplies in Box 5"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box7
+msgid "[BOX 7] The amount in Box 6 is subracted from Box 5"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box8
+msgid "[BOX 8] Multiply the amount in Box 7 by 3 and then divide by 23"
+msgstr ""
+
+#. module: l10n_nz
+#: model:account.tax.report.line,name:l10n_nz.tax_report_box9
+msgid "[BOX 9] Enter any adjustments from your calculation sheet"
+msgstr ""

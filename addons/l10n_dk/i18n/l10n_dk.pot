@@ -1,0 +1,1489 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_dk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:21+0000\n"
+"PO-Revision-Date: 2022-04-15 22:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_dk
+#: model:account.tax.template,description:l10n_dk.tax110
+#: model:account.tax.template,description:l10n_dk.tax120
+#: model:account.tax.template,description:l10n_dk.tax400
+#: model:account.tax.template,description:l10n_dk.tax420
+#: model:account.tax.template,description:l10n_dk.tax425
+msgid "25%"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,description:l10n_dk.tax410
+msgid "25% indeholdt"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax310
+msgid "3. Land Salg Vare / Ydelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax610
+msgid "3. Land Varekøb"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax620
+msgid "3. Land Ydelseskøb"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.fiscal.position.template,name:l10n_dk.fiscal_position_template_3lande
+msgid "3. lande (Virksomhed / Privat)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,description:l10n_dk.tax450
+#: model:account.tax.template,description:l10n_dk.tax460
+msgid "6,25%"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3655
+msgid "ATP-bidrag"
+msgstr ""
+
+#. module: l10n_dk
+#: model:ir.model,name:l10n_dk.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_administration_costs
+msgid "Administrationsomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4340
+msgid "Advokathonorar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_depreciation
+msgid "Af- og nedskrivninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5703
+msgid "Afgang i årets løb, andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5203
+msgid "Afgang i årets løb,goodwill, licenser mm."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5513
+msgid "Afgang i årets løb,grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8798
+msgid "Afregning af moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8820
+msgid "Afsat skyldige feriepenge"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5704
+msgid "Afskrivninger primo, andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5204
+msgid "Afskrivninger primo, goodwill, licenser mm."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5514
+msgid "Afskrivninger primo, grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5705
+msgid "Afskrivninger på afgang, andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5205
+msgid "Afskrivninger på afgang, goodwill, licenser mm."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5515
+msgid "Afskrivninger på afgang, grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8410
+msgid "Anden bankgæld"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_other_current_liabilities
+msgid "Anden kortfristet gæld"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4020
+msgid "Anden repræsentation"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_other_equipment_tools_inventory
+msgid "Andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4847
+msgid "Andre ekstraordinære indtægter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4895
+msgid "Andre ekstraordinære udgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7440
+msgid "Andre reserver"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8860
+msgid "Andre skyldige omk."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_other_receivables
+#: model:account.account.template,name:l10n_dk.a6640
+msgid "Andre tilgodehavender"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4060
+msgid "Annoncer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3620
+msgid "Ansvarsforsikring"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3610
+msgid "Arbejdskadeforsikring"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3740
+msgid "Arbejdstøj"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7240
+msgid "B-skatter og AM-bidrag"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_bank_loans
+msgid "Bankgæld"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3700
+msgid "Befordringsgodtgørelse"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_cars_equipment_costs
+msgid "Biler og driftmidler"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4152
+msgid "Brændstof personbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4102
+msgid "Brændstof vare/lastbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6860
+msgid "Bundne likvider"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8790
+msgid "CO-2 afgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_co2_tax
+#: model:account.tax.template,name:l10n_dk.tax750
+msgid "CO2-afgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_co2_tax
+msgid "CO2A"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3630
+msgid "Dagpengeforsikring"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.fiscal.position.template,name:l10n_dk.fiscal_position_template_dk_vat
+msgid "Danmark (Virkomshed)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4338
+msgid "Databehandling"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6610
+msgid "Debitorer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6611
+msgid "Debitorer (PoS)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4070
+msgid "Dekoration/skilte"
+msgstr ""
+
+#. module: l10n_dk
+#: model:ir.ui.menu,name:l10n_dk.account_reports_dk_statements_menu
+msgid "Denmark"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.chart.template,name:l10n_dk.dk_chart_template
+msgid "Denmark - Chart of Accounts"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6655
+msgid "Depositum"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_direct_costs
+msgid "Direkte omkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2030
+msgid "Direkte omkostninger vare, 3. lande"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2020
+msgid "Direkte omkostninger vare, EU"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2010
+msgid "Direkte omkostninger vare, m/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2012
+msgid "Direkte omkostninger vare, u/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2031
+msgid "Direkte omkostninger ydelser, 3. lande"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2021
+msgid "Direkte omkostninger ydelser, EU"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2011
+msgid "Direkte omkostninger ydelser, m/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2013
+msgid "Direkte omkostninger ydelser, u/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4454
+msgid "Driftsafskrivninger, andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4451
+msgid "Driftsafskrivninger, grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_electrical_tax
+msgid "EA"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4310
+msgid "EDB-udgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax510
+msgid "EU Varekøb"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax210
+msgid "EU Varesalg (Virksomheder) - momsfritaget"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax520
+msgid "EU Ydelseskøb"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax220
+msgid "EU Ydelsessalg (Virksomheder) - momsfritaget"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8750
+msgid "EU købsværdi, Rubrik A - vare"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8751
+msgid "EU købsværdi, Rubrik A - ydelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.fiscal.position.template,name:l10n_dk.fiscal_position_template_eu
+msgid "EU lande (Privat)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.fiscal.position.template,name:l10n_dk.fiscal_position_template_eu_taxid
+msgid "EU lande (Virksomhed)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8754
+msgid "EU salgsværdi, Rubrik B - vare"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8755
+msgid "EU salgsværdi, Rubrik B - ydelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_equity_individual_enterprises
+msgid "Egenkapital enkeltmandsvirksomheder"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_equity_corporations
+msgid "Egenkapital selskaber"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7210
+msgid "Egenkapital, primo"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_extraordinary_income
+msgid "Ekstraordinære indtægter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_extraordinary_expenses
+msgid "Ekstraordinære udgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4275
+msgid "El og vand"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8775
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_electrical_tax
+#: model:account.tax.template,name:l10n_dk.tax720
+msgid "Elafgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4076
+msgid "Emballage,salgsomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8725
+msgid "Erhvervelsesmoms med omvendt betlingspligt"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4065
+msgid "Erhvervsnetværk"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4360
+msgid "Faglitteratur/tidsskrifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_financial_income
+msgid "Finansielle indtægter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_financial_expenses
+msgid "Finansielle udgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7250
+msgid "Forbrug af egne varer, egenkapital"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4154
+msgid "Forsikring personbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4104
+msgid "Forsikring vare/lastbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4350
+msgid "Forsikringer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7460
+msgid "Forslag til udbytte"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4805
+msgid "Fortjeneste, salg anlæg"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3695
+msgid "Fortæring"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6580
+msgid "Forudbetaling for varer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_prepayments
+msgid "Forudbetaling til leverandører"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_prepayments_from_customers
+msgid "Forudbetalinger fra kunder"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_group
+msgid "Fradrag"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4080
+msgid "Fragt, porto"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4081
+msgid "Fragt, porto u/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6525
+msgid "Fremstillede færdigvarer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3020
+msgid "Gager"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4265
+msgid "Garageleje"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4750
+msgid "Garantiprovision"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4680
+msgid "Gebyrer, indtægter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4755
+msgid "Gebyrer, udgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3840
+msgid "Godtgørelse ATP"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_Goodwill_licenses_etc
+msgid "Goodwill, licenser mm."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_land_buildings
+msgid "Grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3640
+msgid "Gruppelivsforsikring"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4040
+msgid "Hotelophold"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4255
+msgid "Husleje m/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4256
+msgid "Husleje u/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7230
+msgid "Hævet privat"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_work_in_progress
+#: model:account.account.template,name:l10n_dk.a6540
+msgid "Igangværende arbejder"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8739
+msgid "Importmoms, modkonto"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7220
+msgid "Indskud"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4819
+msgid "Indtægter vedr. tidl. år"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4307
+msgid "Inkassoomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4325
+msgid "Internet"
+msgstr ""
+
+#. module: l10n_dk
+#: model:ir.model,name:l10n_dk.model_account_journal
+msgid "Journal"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_coal_tax
+msgid "KA"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_purchase_tax
+msgid "KM"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8400
+msgid "Kassekredit"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4760
+msgid "Kasserabat"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4343
+msgid "Konsulentbistand"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4370
+msgid "Kontingenter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4302
+msgid "Kontorartikler/tryksager"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5701
+msgid "Kostpris, primo, andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5511
+msgid "Kostpris, primo, grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5201
+msgid "Kostpris, primo,goodwill, licenser mm."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_credit_institutions
+msgid "Kreditinstitutter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8440
+msgid "Kreditorer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8785
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_coal_tax
+#: model:account.tax.template,name:l10n_dk.tax740
+msgid "Kulafgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6650
+msgid "Kundekort/Kreditkort"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4670
+msgid "Kursgevinster"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4770
+msgid "Kurstab"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3680
+msgid "Kursusudgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax430
+msgid "Køb omvendt betalingspligt"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8740
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_purchase_tax
+msgid "Købsmoms (indgående moms)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax410
+msgid "Købsmoms 25% indeholdt, varer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax425
+msgid "Købsmoms 25% indeholdt, ydelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax400
+msgid "Købsmoms 25%, varer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax420
+msgid "Købsmoms 25%, ydelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4190
+msgid "Kørsel i privat bil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2600
+msgid "Lager, primo"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2605
+msgid "Lager, ultimo"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4260
+msgid "Lagerleje"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2610
+msgid "Lagerændring"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7720
+msgid "Langfristede banklån"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4170
+msgid "Leje af personbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4120
+msgid "Leje vare/lastbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4205
+msgid "Leje/leasing af driftsmidler"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_payable
+msgid "Leverandørgæld"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_liquidity
+msgid "Likvide beholdninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.dk_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_rooms_costs
+msgid "Lokaleomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4766
+msgid "Låneomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4312
+msgid "Løbende backup"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_Payroll_related_liabilities
+msgid "Løn relateret gæld"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3820
+msgid "Løntilskud"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_international_purchase_products
+msgid "MVU"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_international_purchase_services
+msgid "MYUOB"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4311
+msgid "Mail/Webhotel"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8430
+msgid "Modtagne forudbetalinger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8730
+msgid "Moms af varekøb i udlandet (Både EU og 3. lande)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_international_purchase_products
+msgid "Moms af varekøb i udlandet (både EU og lande uden for EU)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8731
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_international_purchase_services
+msgid "Moms af ydelseskøb i udlandet med omvendt betalingspligt"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_vat_taxes
+msgid "Moms og afgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_vat_statement
+msgid ""
+"Momsangivelse (positivt beløb = betale, negativt beløb = penge tilgode)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_gas_tax
+msgid "NOBA"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8780
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_gas_tax
+#: model:account.tax.template,name:l10n_dk.tax730
+msgid "Naturgas- og bygasafgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_oil_bottle_tax
+msgid "OFA"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8770
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_oil_bottle_tax
+#: model:account.tax.template,name:l10n_dk.tax710
+msgid "Olie- og flaskegasafgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_revenue
+msgid "Omsætning"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7299
+#: model:account.account.template,name:l10n_dk.a7450
+msgid "Overført resultat"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7420
+msgid "Overkurs ved emission"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8855
+msgid "Periodeafgrænsningsposter, gæld"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6680
+msgid "Periodeafgrænsningsposter, tilgodehavender"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_staff_costs
+msgid "Personaleomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3690
+msgid "Personaleudgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4327
+msgid "Porto"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2110
+msgid "Prisdifferencer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4189
+msgid "Privat andel af bil, drift af biler"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7260
+msgid "Privat andel af bil, egenkapital"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4285
+msgid "Privat andel el, vand"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7290
+msgid "Privat andel i øvrigt, egenkapital"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4322
+msgid "Privat andel telefon"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7280
+msgid "Privat andel, telefon, egenkapital"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7710
+msgid "Private pantebreve"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3010
+msgid "Produktionsløn"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_section_a_products
+msgid "R-A-V"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_section_a_services
+msgid "R-A-Y"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_section_b_product_eu
+msgid "R-B-MR"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_section_b_products_non_eu
+msgid "R-B-UR"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_section_b_services
+msgid "R-C-MR"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_section_c
+msgid "R-C-UR"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7705
+msgid "Realkreditinstitutter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4158
+msgid "Redningskorps personbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4108
+msgid "Redningskorps vare/lastbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4276
+msgid "Refunderet energiafgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3810
+msgid "Refunderet sygedagpenge"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4335
+msgid "Regnskabsassistance"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4036
+msgid "Rejseudgifter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4074
+msgid "Reklame-emballage"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4295
+msgid "Rengøring"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4296
+msgid "Renovation"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4651
+msgid "Renteindtægter, bank"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4664
+msgid "Renteindtægter, debitorer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4730
+msgid "Renteudgifter, bank"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4746
+msgid "Renteudgifter, ej fradrag"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4744
+msgid "Renteudgifter, kontrakter"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4743
+msgid "Renteudgifter, kreditorer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4745
+msgid "Renteudgifter, pantebreve"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4740
+msgid "Renteudgifter, realkredit"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7430
+msgid "Reserve for opskrivning"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4010
+msgid "Restaurationsbesøg"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax450
+msgid "Restaurationsmoms 6,25%, købsmoms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax460
+msgid "Restaurationsmoms indeholdt 6,25%, købsmoms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7245
+msgid "Restskat og overskydende skat"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8475
+msgid "Revisorhonorar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_section_a_services
+msgid "Rubrik A = ydelser (EU)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_section_a_products
+msgid "Rubrik A: varer (EU)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_section_b_products_non_eu
+msgid "Rubrik B = varer (Indberettes ikke til EU-salg uden moms)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_section_b_product_eu
+msgid "Rubrik B = varer (Indberettes til EU-salg uden moms)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_section_b_services
+msgid "Rubrik B = ydelser - (EU-salg uden moms)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_section_c
+msgid "Rubrik C - Værdien af andre varer og ydelser (uanset landet)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6510
+msgid "Råvarer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1030
+msgid "Salg af vare, 3. lande"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1020
+msgid "Salg af vare, EU"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1010
+msgid "Salg af vare, m/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1012
+msgid "Salg af vare, u/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1031
+msgid "Salg af ydelser, 3. lande"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1021
+msgid "Salg af ydelser, EU"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1011
+msgid "Salg af ydelser, m/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a1013
+msgid "Salg af ydelser, u/moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_sales_promotions_costs
+msgid "Salgsfremmende omkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8720
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_sales_tax
+msgid "Salgsmoms (udgående moms)"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax110
+msgid "Salgsmoms 25%, varer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.template,name:l10n_dk.tax120
+msgid "Salgsmoms 25%, ydelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8758
+msgid "Salgsværdier 3.lande - Rubrik C"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8759
+msgid "Salgsværdier med omvendt betalingspligt - Rubrik C"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a3710
+msgid "Skattefrie godtgørelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8801
+msgid "Skyldig A-skat"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8805
+msgid "Skyldig AM-bidrag"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8810
+msgid "Skyldig ATP"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8840
+msgid "Skyldig lån"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_sales_group
+msgid "Skyldig moms"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8815
+msgid "Skyldige feriepenge"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4240
+msgid "Småanskaffelser"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4241
+msgid "Småanskaffelser o/11.000"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_additional_info
+msgid "Supplerende oplysninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4381
+msgid "Tab på debitorer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4854
+msgid "Tab, salg anlæg"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4316
+msgid "Telefon"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5702
+msgid "Tilgang i årets løb, andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5202
+msgid "Tilgang i årets løb, goodwill, licenser mm."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5512
+msgid "Tilgang i årets løb,grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_receivable
+msgid "Tilgodehavender"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4073
+msgid "Tryksager/brochurer"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_sales_tax
+msgid "UM"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4890
+msgid "Udgifter vedr. tidl. år"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4071
+msgid "Udstillinger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_water_tax
+msgid "VA"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4351
+msgid "Vagtværn/alarmsystem"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8795
+#: model:account.tax.report.line,name:l10n_dk.account_tax_report_line_deduction_water_tax
+#: model:account.tax.template,name:l10n_dk.tax760
+msgid "Vandafgift"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8450
+msgid "Vare modtaget, faktura ikke modtaget"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.tag,name:l10n_dk.account_tag_inventories
+msgid "Varebeholdninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a2100
+msgid "Vareforbrug, lagermodul"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6530
+msgid "Varelager"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6670
+msgid "Varer leveret, faktura ikke sendt"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a6520
+msgid "Varer under fremstilling"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4271
+msgid "Varme"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4308
+msgid "Vedligeholdelse inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4155
+msgid "Vedligeholdelse personbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4105
+msgid "Vedligeholdelse vare/lastbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4235
+msgid "Vedligeholdelse, driftsmiddelomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4291
+msgid "Vedligeholdelse, lokaleomkostninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a7410
+msgid "Virksomhedskapital"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4153
+msgid "Vægtafgift personbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4103
+msgid "Vægtafgift vare/lastbil"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a8769
+msgid "Værdier, modkonto"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5706
+msgid "Årsafskrivning, andre anlæg, driftsmateriel og inventar"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5206
+msgid "Årsafskrivning, goodwill, licenser mm."
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a5516
+msgid "Årsafskrivning, grunde og bygninger"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.account.template,name:l10n_dk.a4392
+msgid "Øvrige kapacitetsudgifter"
+msgstr ""

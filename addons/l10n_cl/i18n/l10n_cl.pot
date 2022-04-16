@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0+e\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-14 12:18+0000\n"
-"PO-Revision-Date: 2021-01-14 12:18+0000\n"
+"POT-Creation-Date: 2022-04-15 22:18+0000\n"
+"PO-Revision-Date: 2022-04-15 22:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,9 @@ msgstr ""
 
 #. module: l10n_cl
 #: model_terms:ir.ui.view,arch_db:l10n_cl.report_invoice_document
-msgid "<span>Taxes</span>"
+msgid ""
+"<span "
+"groups=\"account.group_show_line_subtotals_tax_included\">Amount</span>"
 msgstr ""
 
 #. module: l10n_cl
@@ -82,6 +84,26 @@ msgid "<strong>Payment Terms:</strong>"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210410
+msgid "AFP x Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110220
+msgid "Acciones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_190410
+msgid "Acciones Suscritas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230120
+msgid "Acciones en Circulación"
+msgstr ""
+
+#. module: l10n_cl
 #: model:ir.model,name:l10n_cl.model_account_chart_template
 msgid "Account Chart Template"
 msgstr ""
@@ -92,9 +114,39 @@ msgid "Accounting Date"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130116
+msgid "Activo Intangible - (-) Amortización Acumulada"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130112
+msgid "Activo Intangible - Concesiones y Franquicias"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130110
+msgid "Activo Intangible - Derecho de Llaves"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130114
+msgid "Activo Intangible - Marcas y Patentes de Invención"
+msgstr ""
+
+#. module: l10n_cl
 #: model:product.product,name:l10n_cl.product_product_ad_valorem
 #: model:product.template,name:l10n_cl.product_product_ad_valorem_product_template
 msgid "Ad-Valorem"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410220
+msgid "Ajuste Ejercicio Anterior"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110585
+msgid "Alquileres Pagados por Adelantado"
 msgstr ""
 
 #. module: l10n_cl
@@ -113,9 +165,84 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_cl.field_account_payment__l10n_latam_internal_type
 #: model:ir.model.fields,help:l10n_cl.field_l10n_latam_document_type__internal_type
 msgid ""
-"Analog to odoo account.move.move_type but with more options allowing to "
-"identify the kind of document we are working with. (not only related to "
-"account.move, could be for documents of other models like stock.picking)"
+"Analog to account.move.move_type but with more options allowing to identify "
+"the kind of document we are working with. (not only related to account.move,"
+" could be for documents of other models like stock.picking)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_11320
+msgid "Anticipo Proveedores"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110560
+msgid "Anticipo de Aguinaldo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210220
+msgid "Anticipo de Clientes"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110550
+msgid "Anticipo de Honorarios"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110580
+msgid "Anticipo de Impuestos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110510
+msgid "Anticipo de Sueldo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110810
+msgid "Anticipos Comercio Exterior"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110530
+msgid "Anticipos de Viáticos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410175
+msgid "Aporte Patronal Administración"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410115
+msgid "Aporte Patronal Operación"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410145
+msgid "Arriendos Bodega"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410140
+msgid "Arriendos Oficina"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320225
+msgid "Arriendos ganados, obtenidos, percibidos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410135
+msgid "Asesorías"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110570
+msgid "Asignación Familiar"
 msgstr ""
 
 #. module: l10n_cl
@@ -129,14 +256,108 @@ msgid "Bank"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_base_imponible_ventas
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_base_imponible_ventas
+msgid "Base Imponible Ventas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_base_ila_compras
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_base_ila_compras
+msgid "Base Retenciones ILA (compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_base_ila_ventas
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_base_ila_ventas
+msgid "Base Retenciones ILA (ventas)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_base_retencion_segunda_categ
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_base_retencion_segunda_categ
+msgid "Base Retención Segunda Categoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_a_180_p
+msgid "Beb. Analc 18% (Compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_a_180_s
+msgid "Beb. Analc 18% (Ventas)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_a_100_p
+msgid "Beb. Analc. 10% (Compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_a_100_s
+msgid "Beb. Analc. 10% (Ventas)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_121210
+msgid "Bienes Raíces"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210330
+msgid "Boleta en Garantia"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_190110
+msgid "Boletas de Garantía"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110430
+msgid "Boletas en Garantía"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210420
+msgid "C.C.A.F. x Pagar"
+msgstr ""
+
+#. module: l10n_cl
 #: model:uom.uom,name:l10n_cl.product_uom_carton
 msgid "CARTON"
 msgstr ""
 
 #. module: l10n_cl
-#: model:product.product,description:l10n_cl.product_product_ad_valorem
-#: model:product.template,description:l10n_cl.product_product_ad_valorem_product_template
+#: model:account.account.template,name:l10n_cl.account_410245
+msgid "CIF"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410125
+msgid "Capacitación"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230110
+msgid "Capital Social"
+msgstr ""
+
+#. module: l10n_cl
+#: model_terms:product.product,description:l10n_cl.product_product_ad_valorem
+#: model_terms:product.template,description:l10n_cl.product_product_ad_valorem_product_template
 msgid "Cargo para calculo de Ad-Valorem en DIN"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210310
+msgid "Cheques Girados y No Cobrados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_11410
+msgid "Cheques a Fecha Por Cobrar"
 msgstr ""
 
 #. module: l10n_cl
@@ -145,8 +366,18 @@ msgid "Chile"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.chart.template,name:l10n_cl.cl_chart_template
+msgid "Chile - Plan de Cuentas"
+msgstr ""
+
+#. module: l10n_cl
 #: model_terms:ir.ui.view,arch_db:l10n_cl.res_config_settings_view_form
 msgid "Chilean Localization"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110310
+msgid "Clientes"
 msgstr ""
 
 #. module: l10n_cl
@@ -155,10 +386,13 @@ msgid "Cod. SBIF"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model.fields,help:l10n_cl.field_account_bank_statement_line__l10n_latam_document_type_id_code
-#: model:ir.model.fields,help:l10n_cl.field_account_move__l10n_latam_document_type_id_code
-#: model:ir.model.fields,help:l10n_cl.field_account_payment__l10n_latam_document_type_id_code
-msgid "Code used by different localizations"
+#: model:account.account.template,name:l10n_cl.account_310130
+msgid "Comisiones Percibidas por Ventas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_440210
+msgid "Comitente por Mercaderias Recibidas en Consignación"
 msgstr ""
 
 #. module: l10n_cl
@@ -167,8 +401,275 @@ msgid "Companies"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_netas_gr_iva_uso_comun
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_netas_gr_iva_uso_comun
+msgid "Compra Netas Gravadas Con IVA Uso Comun"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_fixed_asset
+msgid "Compras - Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_imp_42
+msgid "Compras - Credito Imp Art 42"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_non_recoverable_vat_4
+msgid "Compras - Entregas gratuitas (premios, bonificaciones, etc.) recibidos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_purchase_exempt
+msgid "Compras - Exentas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_non_recoverable_vat_2
+msgid "Compras - Facturas de proveedores registrados fuera de plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_non_recoverable_vat_3
+msgid "Compras - Gastos rechazados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_iva_no_reten
+msgid "Compras - IVA No Retenido"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_iva_no_ret
+msgid "Compras - IVA No Retenido Fac de compra"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_imp_sin_cred
+msgid "Compras - Impuesto Sin Credito"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_imp_vehic
+msgid "Compras - Impuesto a Vehículos Automotores"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_imp_sin_credito
+msgid "Compras - Impuestos Sin Crédito"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iva_actf
+msgid "Compras - Monto IVA Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iva_actf_no_recup
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iva_actf_uso_comun
+msgid "Compras - Monto IVA Activo Fijo (Uso Común)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iva_supermercado
+msgid "Compras - Monto IVA Compras Supermercado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iva_no_rec
+msgid "Compras - Monto IVA No Recuperable"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iva
+msgid "Compras - Monto IVA Recuperable"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_iva_uso_comun
+msgid "Compras - Monto IVA Uso Comun"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_otros_imp
+msgid "Compras - Monto Otros Impuestos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_non_recoverable_vat_9
+msgid "Compras - Otros"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_purchase_supermarket
+msgid "Compras - Supermercado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_exe
+msgid "Compras - Total Monto Exento o No Gravado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_neto
+msgid "Compras - Total Monto Neto"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_neto_actf
+msgid "Compras - Total Monto Neto Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_neto_supermercado
+msgid "Compras - Total Monto Neto Compras de Supermercado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_neto_no_recup
+msgid "Compras - Total Monto Neto No Recuperable"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_mnt_neto_uso_comun
+msgid "Compras - Total Monto Neto Uso Común"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_tab_cigar
+msgid "Compras - Total Tabacos Manufacturados Cigarrillos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_tab_elab
+msgid "Compras - Total Tabacos Manufacturados Elaborados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_purchase_tab_puros
+msgid "Compras - Total Tabacos Manufacturados Puros"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_non_recoverable_vat_1
+msgid "Compras - destinadas a generar operaciones no gravadas o exentas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_iva_activo_fijo
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_iva_activo_fijo
+msgid "Compras Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_iva_activo_fijo_no_recup
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_iva_activo_fijo_no_recup
+msgid "Compras Activo Fijo No Recuperables"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_iva_activo_fijo_uso_comun
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_iva_activo_fijo_uso_comun
+msgid "Compras Activo Fijo Uso Común"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_supermercado
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_supermercado
+msgid "Compras De Supermercado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_netas_gr_iva_no_recuperable
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_netas_gr_iva_no_recuperable
+msgid "Compras IVA No Recuperable"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410232
+msgid "Compras Netas (IVA No Recuperable)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410231
+msgid "Compras Netas (IVA Uso Común)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_netas_gr_iva_recup
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_netas_gr_iva_recup
+msgid "Compras Netas Gravadas Con IVA (recuperable)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_no_gravadas_iva
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_no_gravadas_iva
+msgid "Compras No Gravadas Con IVA"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410230
+msgid "Compras Productos 1ra Categoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_activo_fijo
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_activo_fijo
+msgid "Compras de Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_activo_fijo_no_recup
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_activo_fijo_no_recup
+msgid "Compras de Activo Fijo No Recuperable"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_activo_fijo_uso_comun
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_activo_fijo_uso_comun
+msgid "Compras de Activo Fijo Uso Común"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410250
+msgid "Compras de Materia Prima"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410233
+msgid "Compras de Supermercado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410150
+msgid "Comunicaciones"
+msgstr ""
+
+#. module: l10n_cl
 #: model:ir.model,name:l10n_cl.model_res_partner
 msgid "Contact"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410200
+msgid "Corrección Monetaria"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320280
+msgid "Corrección Monetaria Activos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320285
+msgid "Corrección Monetaria Bienes Leasing"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410235
+msgid "Costo de Mercaderías Vendidas - Prod. 1ra Categoría"
 msgstr ""
 
 #. module: l10n_cl
@@ -179,6 +680,66 @@ msgstr ""
 #. module: l10n_cl
 #: model:ir.model.fields.selection,name:l10n_cl.selection__l10n_latam_document_type__internal_type__credit_note
 msgid "Credit Notes"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210140
+msgid "Crédito Comercial C/Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_220130
+msgid "Crédito Comercial L/Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210170
+msgid "Crédito Comercial LP Venc. C/Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210160
+msgid "Crédito Hipotecario C/Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110750
+msgid "Crédito Sence"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110730
+msgid "Crédito por Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_220310
+msgid "Cta Corriente Empresa Relacionada"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_111310
+msgid "Cuenta Importaciones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_290110
+msgid "Cuenta Puente"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_11700
+msgid "Cuenta de Transferencia"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_111110
+msgid "Cuentas Obligadas Socios"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130130
+msgid "Cuentas por Cobrar a Personas y Empresas Relacionadas Largo Plazo"
 msgstr ""
 
 #. module: l10n_cl
@@ -207,6 +768,11 @@ msgid "Customs Name"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320270
+msgid "Cŕeditos a Largo Plazo"
+msgstr ""
+
+#. module: l10n_cl
 #: model:l10n_latam.identification.type,name:l10n_cl.it_DNI
 msgid "DNI"
 msgstr ""
@@ -227,27 +793,78 @@ msgid "Debit Notes"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model.fields,field_description:l10n_cl.field_account_chart_template__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_account_journal__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_account_move__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_account_tax__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_account_tax_template__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_ir_sequence__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_l10n_latam_document_type__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_res_bank__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_res_company__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_res_country__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_res_currency__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_res_partner__display_name
-#: model:ir.model.fields,field_description:l10n_cl.field_uom_uom__display_name
-msgid "Display Name"
+#: model:account.account.template,name:l10n_cl.account_121320
+msgid "Depreciación Acum Equipos Computacionales"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model.fields,field_description:l10n_cl.field_account_bank_statement_line__l10n_latam_document_type_id_code
-#: model:ir.model.fields,field_description:l10n_cl.field_account_move__l10n_latam_document_type_id_code
-#: model:ir.model.fields,field_description:l10n_cl.field_account_payment__l10n_latam_document_type_id_code
-msgid "Doc Type"
+#: model:account.account.template,name:l10n_cl.account_121310
+msgid "Depreciación Acum Equipos y Mob de Oficina"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_121330
+msgid "Depreciación Acum Otros Activos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110210
+msgid "Depósitos en Divisas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130120
+msgid "Derechos Otras Empresas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230140
+msgid "Descuento de Emisión de Acciones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320230
+msgid "Descuentos ganados, obtenidos, percibidos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_120110
+msgid "Deudores Morosos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110420
+msgid "Deudores Varios"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_120120
+msgid "Deudores en Gestión Judicial"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110421
+msgid "Deudores por Ventas (Pos)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410195
+msgid "Diferencia Tipo de Cambio"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320265
+msgid "Diferencia tipo de cambio"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230130
+msgid "Dividendos a Distribuir en Acciones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210180
+msgid "Dividendos por Pagar"
 msgstr ""
 
 #. module: l10n_cl
@@ -257,6 +874,37 @@ msgid ""
 "Document types for foreign customers must be export type (codes 110, 111 or "
 "112) or you                             should define the customer as an end"
 " consumer and use receipts (codes 39 or 41)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110450
+msgid "Documentos Protestados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_190310
+#: model:account.account.template,name:l10n_cl.account_210320
+msgid "Documentos en Garantía"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130140
+msgid "Documentos y Cuentas por Cobrar a Largo Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320255
+msgid "Donaciones obtenidas, ganandas, percibidas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410225
+msgid "Donación"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410180
+msgid "Electricidad"
 msgstr ""
 
 #. module: l10n_cl
@@ -272,10 +920,65 @@ msgid "Energía"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110670
+msgid "Envases"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110625
+msgid "Equipos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_121120
+msgid "Equipos Computacionales"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_121110
+msgid "Equipos y Mobiliario de Oficina"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.especifico_compra
+msgid "Espec. Comp"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.especifico_compra
+msgid "Específico Compra"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110640
+msgid "Existencias en Tránsito"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210230
+msgid "Facturas por Recibir"
+msgstr ""
+
+#. module: l10n_cl
 #: code:addons/l10n_cl/models/res_partner.py:0
 #: model:ir.model.fields.selection,name:l10n_cl.selection__res_partner__l10n_cl_sii_taxpayer_type__2
 #, python-format
 msgid "Fees Receipt Issuer (2nd category)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230240
+msgid "Fluctuación de Valores"
+msgstr ""
+
+#. module: l10n_cl
+#: model_terms:ir.ui.view,arch_db:l10n_cl.view_complete_invoice_refund_tree
+msgid "Folio"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110540
+msgid "Fondos x Rendir"
 msgstr ""
 
 #. module: l10n_cl
@@ -286,25 +989,93 @@ msgid "Foreigner"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320260
+msgid "Ganancia Venta Inversiones Permanentes"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320240
+msgid "Ganancia Venta de Acciones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_420170
+msgid "Garantias Otorgadas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130150
+msgid "Garantías de Obligaciones a Largo Plazo y de Obligaciones de Terceros"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110820
+msgid "Gastos Anticipados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410190
+msgid "Gastos Bancarios"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410185
+msgid "Gastos Comunes"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_420220
+msgid "Gastos Otros Impuestos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_111410
+msgid "Gastos Rechazados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_111010
+msgid "Gastos Reorganización"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_111210
+msgid "Gastos Tributarios"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_420140
+msgid "Gastos en Amortización"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_420120
+msgid "Gastos en Depreciación de Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_420150
+msgid "Gastos en Siniestros"
+msgstr ""
+
+#. module: l10n_cl
 #: model:uom.uom,name:l10n_cl.product_uom_hl
 msgid "HL"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model.fields,field_description:l10n_cl.field_account_chart_template__id
-#: model:ir.model.fields,field_description:l10n_cl.field_account_journal__id
-#: model:ir.model.fields,field_description:l10n_cl.field_account_move__id
-#: model:ir.model.fields,field_description:l10n_cl.field_account_tax__id
-#: model:ir.model.fields,field_description:l10n_cl.field_account_tax_template__id
-#: model:ir.model.fields,field_description:l10n_cl.field_ir_sequence__id
-#: model:ir.model.fields,field_description:l10n_cl.field_l10n_latam_document_type__id
-#: model:ir.model.fields,field_description:l10n_cl.field_res_bank__id
-#: model:ir.model.fields,field_description:l10n_cl.field_res_company__id
-#: model:ir.model.fields,field_description:l10n_cl.field_res_country__id
-#: model:ir.model.fields,field_description:l10n_cl.field_res_currency__id
-#: model:ir.model.fields,field_description:l10n_cl.field_res_partner__id
-#: model:ir.model.fields,field_description:l10n_cl.field_uom_uom__id
-msgid "ID"
+#: model:account.account.tag,name:l10n_cl.tag_cl_fees_amount
+msgid "Honorarios -  Montos Sujetos a Retención Renta 2 Categoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410130
+msgid "Honorarios Pagados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210520
+msgid "Honorarios por Pagar"
 msgstr ""
 
 #. module: l10n_cl
@@ -313,8 +1084,183 @@ msgid "ILA"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_a_100_p
+msgid "ILA C 10%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_a_180_p
+msgid "ILA C 18%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_v_205_p
+msgid "ILA C 20.5%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_l_315_p
+msgid "ILA C 31.5%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_a_100_s
+msgid "ILA V 10%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_a_180_s
+msgid "ILA V 18%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_v_205_s
+msgid "ILA V 20.5%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ila_l_315_s
+msgid "ILA V 31.5%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210430
+msgid "INP x Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210440
+msgid "ISAPRES x Pagar"
+msgstr ""
+
+#. module: l10n_cl
 #: model:account.tax.group,name:l10n_cl.tax_group_iva_19
 msgid "IVA 19%"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.iva_activo_fijo
+msgid "IVA 19% ActF"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.iva_activo_fijo_uso_no_recup
+msgid "IVA 19% ActFNR"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.iva_activo_fijo_uso_comun
+msgid "IVA 19% ActFUC"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.iva_compra_uso_comun
+msgid "IVA 19% CUC"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.OTAX_19
+msgid "IVA 19% Comp"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.OTAX_19
+msgid "IVA 19% Compra"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.iva_compra_no_recup
+msgid "IVA 19% NoR"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.iva_supermercado_recup
+msgid "IVA 19% SupMRec"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ITAX_19
+msgid "IVA 19% Venta"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.ITAX_19
+msgid "IVA 19% Vta"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.iva_activo_fijo_uso_comun
+msgid "IVA Compra 19% Act. Fijo Uso Común"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.iva_activo_fijo
+msgid "IVA Compra 19% Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.iva_activo_fijo_uso_no_recup
+msgid "IVA Compra 19% Activo Fijo No Recup"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.iva_compra_no_recup
+msgid "IVA Compra 19% No Recup."
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.iva_supermercado_recup
+msgid "IVA Compra 19% Superm."
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.iva_compra_uso_comun
+msgid "IVA Compra 19% Uso Común"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110710
+msgid "IVA Crédito Fiscal"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_iva_debito_fiscal
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_iva_debito_fiscal
+msgid "IVA Debito Fiscal"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210710
+msgid "IVA Débito Fiscal"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_iva_recup
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_iva_recup
+msgid "IVA Pagado Compras Recuperables"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_iva_supermercado
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_iva_supermercado
+msgid "IVA Pagado Compras Supermercado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_iva_uso_comun
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_iva_uso_comun
+msgid "IVA Pagado Compras Uso Común"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_compras_iva_no_recup
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_compras_iva_no_recup
+msgid "IVA Pagado No Recuperable"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210715
+msgid "IVA Retenido a terceros"
 msgstr ""
 
 #. module: l10n_cl
@@ -325,8 +1271,111 @@ msgid "Identification Number for selected type"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410240
+msgid "Importaciones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_220320
+msgid "Impuesto Diferido Largo Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210760
+msgid "Impuesto Mensuales por Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_impuestos_originados_venta
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_impuestos_originados_venta
+msgid "Impuesto Originado por la Venta"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210750
+msgid "Impuesto Renta 1a Categoría por Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_tax_ila_ventas
+msgid "Impuesto Ret Practicadas ILA (ventas)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_tax_ila_compras
+msgid "Impuesto Ret Sufrida ILA (compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210740
+msgid "Impuesto Retención Segunda Categoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_impuesto_unico_trabajadores
+msgid "Impuesto Unico Trabajadores"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410210
+msgid "Impuesto a la Renta 1ra Categoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_impuestos_renta
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_impuestos_renta
+msgid "Impuesto a la Renta Primera Categoría a Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210730
+msgid "Impuesto Único Trabajadores"
+msgstr ""
+
+#. module: l10n_cl
 #: model:account.tax.group,name:l10n_cl.tax_group_impuestos_especificos
 msgid "Impuestos Específicos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_impuestos_pagados_compra
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_impuestos_pagados_compra
+msgid "Impuestos Pagados en la Compra"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_310110
+msgid "Ingresos por Consultoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110620
+msgid "Insumos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110590
+msgid "Intereses Pagados por Adelantado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320220
+msgid "Intereses Percibidos Sobre Préstamos Otorgados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210190
+msgid "Intereses a Devengar por Compras al Crédito"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210195
+msgid "Intereses a pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320235
+msgid "Intereses sobre Inversiones"
 msgstr ""
 
 #. module: l10n_cl
@@ -345,18 +1394,13 @@ msgid "Invoices and Refunds"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model,name:l10n_cl.model_account_journal
-msgid "Journal"
-msgstr ""
-
-#. module: l10n_cl
 #: model:ir.model,name:l10n_cl.model_account_move
 msgid "Journal Entry"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model.fields,field_description:l10n_cl.field_ir_sequence__l10n_cl_journal_ids
-msgid "Journals"
+#: model:ir.model,name:l10n_cl.model_account_move_line
+msgid "Journal Item"
 msgstr ""
 
 #. module: l10n_cl
@@ -377,25 +1421,38 @@ msgid "L10n Latam Internal Type"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model.fields,field_description:l10n_cl.field_account_chart_template____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_account_journal____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_account_move____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_account_tax____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_account_tax_template____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_ir_sequence____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_l10n_latam_document_type____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_res_bank____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_res_company____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_res_country____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_res_currency____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_res_partner____last_update
-#: model:ir.model.fields,field_description:l10n_cl.field_uom_uom____last_update
-msgid "Last Modified on"
+#: model:ir.model,name:l10n_cl.model_l10n_latam_document_type
+msgid "Latam Document Type"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model,name:l10n_cl.model_l10n_latam_document_type
-msgid "Latam Document Type"
+#: model:account.account.template,name:l10n_cl.account_190210
+msgid "Letras Descontadas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110440
+msgid "Letras en Cartera"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_l_315_p
+msgid "Licores 31.5% (Compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_l_315_s
+msgid "Licores 31.5% (Ventas)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210120
+msgid "Linea de Crédito Bancaria"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.cl_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
 msgstr ""
 
 #. module: l10n_cl
@@ -424,8 +1481,93 @@ msgid "MT2"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410255
+msgid "Mano de Obra Directa"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410160
+msgid "Manutención y Reparación de Activos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_121140
+msgid "Maquinaria"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110612
+msgid "Materia Prima"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110615
+msgid "Materiales"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_420110
+msgid "Mercaderias Recibidas en Consignación"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110610
+msgid "Mercaderías"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410205
+msgid "Multas Fiscales"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210450
+msgid "Mutual Seg. x Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210150
+msgid "Obligaciones Leasing Corto Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_220120
+msgid "Obligaciones Leasing L/Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110830
+msgid "Organización y Puesta en Marcha"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210620
+msgid "Otras Provisiones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230220
+msgid "Otras Revalorizaciones"
+msgstr ""
+
+#. module: l10n_cl
 #: model:uom.category,name:l10n_cl.uom_categ_others
 msgid "Otros"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320275
+msgid "Otros Ingresos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_220330
+msgid "Otros Pasivos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110740
+msgid "P.P.M. / Art 33 BIS"
 msgstr ""
 
 #. module: l10n_cl
@@ -434,13 +1576,74 @@ msgid "PAR"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_ppm
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_ppm
+msgid "PPM"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210720
+msgid "PPM por Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410165
+msgid "Papelería-Aseo-Gastos Diversos"
+msgstr ""
+
+#. module: l10n_cl
 #: model:ir.model,name:l10n_cl.model_uom_uom
 msgid "Product Unit of Measure"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110660
+msgid "Productos En Proceso"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110650
+msgid "Productos Fabricados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210210
+msgid "Proveedores"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_220210
+msgid "Provisión Indemnización por Años de Servicio"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210610
+msgid "Provisión de Impuesto PPM"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210560
+msgid "Provisión de Vacaciones"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210565
+msgid "Provisión por Finiquitos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110520
+msgid "Préstamos otorgados"
+msgstr ""
+
+#. module: l10n_cl
 #: model:ir.model.fields.selection,name:l10n_cl.selection__l10n_latam_document_type__internal_type__invoice_in
 msgid "Purchase Invoices"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410215
+msgid "Pérdida por Venta Activo"
 msgstr ""
 
 #. module: l10n_cl
@@ -469,8 +1672,108 @@ msgid "Receipt Invoice"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320250
+msgid "Recupero de Deudores Incobrables"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320245
+msgid "Recupero de Rezagos"
+msgstr ""
+
+#. module: l10n_cl
 #: model_terms:ir.ui.view,arch_db:l10n_cl.view_move_form
 msgid "Región"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110720
+msgid "Remanente Crédito Fiscal"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_remanente_cf
+msgid "Remantente de Crédito Fiscal"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410170
+msgid "Remuneraciones Administración"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410110
+msgid "Remuneraciones Operación"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210550
+msgid "Rendiciones por Pagar"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110630
+msgid "Repuestos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230260
+msgid "Reserva Estatutaria"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230270
+msgid "Reserva Facultativa"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230250
+msgid "Reserva Legal"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230280
+msgid "Reserva para Renovación de Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_290210
+msgid "Responsable Boletas Garantía"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_290220
+msgid "Responsable Documentos Garantía"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_290230
+msgid "Responsable Letras Descontadas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230510
+msgid "Resultado del Ejercicio"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230290
+msgid "Resultados Acumulados"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230310
+msgid "Resultados Acumulados del Ejercicio Anterior"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.I_IU2C
+msgid "Ret. 2da Cat"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.I_IU2C
+msgid "Ret. 2da Categoría"
 msgstr ""
 
 #. module: l10n_cl
@@ -479,8 +1782,60 @@ msgid "Retenciones"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_tax_ila_compras
+msgid "Retenciones ILA (compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_tax_ila_ventas
+msgid "Retenciones ILA (ventas)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_retencion_segunda_categ
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_retencion_segunda_categ
+msgid "Retención Segunda Categoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_retencion_total_compras
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_retencion_total_compras
+msgid "Retención Total (compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.I_RTI
+msgid "Retención Total IVA"
+msgstr ""
+
+#. module: l10n_cl
 #: model:account.tax.group,name:l10n_cl.tax_group_2da_categ
 msgid "Retención de 2da Categoría"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,description:l10n_cl.I_RTI
+msgid "Retención total IVA"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110920
+msgid "Retiros Reinversión"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_110910
+msgid "Retiros Socios"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230230
+msgid "Revalorización Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230210
+msgid "Revalorización Capital Propio"
 msgstr ""
 
 #. module: l10n_cl
@@ -512,8 +1867,8 @@ msgid "Sales Person"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model,name:l10n_cl.model_ir_sequence
-msgid "Sequence"
+#: model:account.account.template,name:l10n_cl.account_410155
+msgid "Servicios Legales"
 msgstr ""
 
 #. module: l10n_cl
@@ -527,6 +1882,11 @@ msgid "Source Document"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_210510
+msgid "Sueldos por Pagar"
+msgstr ""
+
+#. module: l10n_cl
 #: model:uom.uom,name:l10n_cl.product_uom_tmb
 msgid "TMB"
 msgstr ""
@@ -537,14 +1897,14 @@ msgid "TMN"
 msgstr ""
 
 #. module: l10n_cl
-#: model:ir.model,name:l10n_cl.model_account_tax
-#: model_terms:ir.ui.view,arch_db:l10n_cl.view_complete_invoice_refund_tree
-msgid "Tax"
+#: model:account.account.template,name:l10n_cl.account_210110
+msgid "Tarjeta de Crédito Corporativa"
 msgstr ""
 
 #. module: l10n_cl
-#: model_terms:ir.ui.view,arch_db:l10n_cl.view_move_form
-msgid "Tax Payer Type"
+#: model:ir.model,name:l10n_cl.model_account_tax
+#: model_terms:ir.ui.view,arch_db:l10n_cl.view_complete_invoice_refund_tree
+msgid "Tax"
 msgstr ""
 
 #. module: l10n_cl
@@ -612,8 +1972,29 @@ msgid "Total"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_130160
+msgid "Títulos Patrimoniales Bolsas de Productos"
+msgstr ""
+
+#. module: l10n_cl
 #: model:uom.uom,name:l10n_cl.product_uom_u
 msgid "U(JGO)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:product.product,uom_name:l10n_cl.product_product_ad_valorem
+#: model:product.template,uom_name:l10n_cl.product_product_ad_valorem_product_template
+msgid "Units"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_320210
+msgid "Utilidad Venta Activo Fijo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_230300
+msgid "Utilidades y Pérdidas del Ejercicio"
 msgstr ""
 
 #. module: l10n_cl
@@ -631,6 +2012,11 @@ msgid "VAT No"
 msgstr ""
 
 #. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_121130
+msgid "Vehículos"
+msgstr ""
+
+#. module: l10n_cl
 #: model:ir.actions.act_window,name:l10n_cl.vendor_bills_and_refunds
 msgid "Vendor Bills and Refunds"
 msgstr ""
@@ -638,6 +2024,148 @@ msgstr ""
 #. module: l10n_cl
 #: model:ir.ui.menu,name:l10n_cl.menu_vendor_bills_and_refunds
 msgid "Vendor Bills and Refunds (CL)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_cred_ec
+msgid "Ventas - Credito Especial 65% Empresas Constructoras"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_dep_env
+msgid "Ventas - Depósito de Envases"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.fiscal.position.template,name:l10n_cl.afpt_sale_exempt
+msgid "Ventas - Exentas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_exento_vta_pasajes_internacional
+msgid "Ventas - Exento Ventas de Pasajes Internacional"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_exento_vta_pasajes_nacional
+msgid "Ventas - Exento Ventas de Pasajes Nacional"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_iva_comisiones
+msgid "Ventas - IVA Comisiones y Otros Cargos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_mnt_fuera_plazo
+msgid "Ventas - IVA Fuera de Plazo"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_iva_18211
+msgid "Ventas - IVA Ley 18211"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_iva_no_retenido
+msgid "Ventas - IVA No Retenido"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_iva_propio
+msgid "Ventas - IVA Propio"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_iva_ret_parcial
+msgid "Ventas - IVA Retenido Parcial"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_iva_ret_total
+msgid "Ventas - IVA Retenido Total"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_iva_terceros
+msgid "Ventas - IVA Terceros"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_mnt_iva
+msgid "Ventas - Monto IVA"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_otros_imp
+msgid "Ventas - Otros Impuestos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_mnt_exe
+msgid "Ventas - Total Monto Exento o No Gravado"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_mnt_neto
+msgid "Ventas - Total Monto Neto"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_monto_no_facturable
+msgid "Ventas - Total Monto No Facturable"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_valor_neto_comis
+msgid "Ventas - Total Valor Neto Comisiones y Otros Cargos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.tag,name:l10n_cl.tag_cl_sale_valor_comisiones_no_afecto
+msgid "Ventas - Total Valor Neto Comisiones y Otros Cargos No Afectos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_ventas_exentas
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_ventas_exentas
+msgid "Ventas Exentas"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.report.line,name:l10n_cl.tax_report_ventas_netas_gravadas_c_iva
+#: model:account.tax.report.line,tag_name:l10n_cl.tax_report_ventas_netas_gravadas_c_iva
+msgid "Ventas Netas Gravadas con IVA"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_310125
+msgid "Ventas de Exportación"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_310115
+msgid "Ventas de Productos"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_310120
+msgid "Ventas de Servicios"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_v_205_p
+msgid "Vinos (Compras)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.tax.template,name:l10n_cl.ila_v_205_s
+msgid "Vinos (Ventas)"
+msgstr ""
+
+#. module: l10n_cl
+#: model:account.account.template,name:l10n_cl.account_410120
+msgid "Viáticos"
 msgstr ""
 
 #. module: l10n_cl

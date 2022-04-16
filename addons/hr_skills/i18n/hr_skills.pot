@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.4\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:49+0000\n"
-"PO-Revision-Date: 2021-07-12 07:49+0000\n"
+"POT-Creation-Date: 2022-04-15 22:03+0000\n"
+"PO-Revision-Date: 2022-04-15 22:03+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -325,11 +325,11 @@ msgid "Users"
 msgstr ""
 
 #. module: hr_skills
-#: model_terms:ir.ui.view,arch_db:hr_skills.hr_employee_skill_type_view_form
-msgid "e.g. Languages"
+#: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
+msgid "e.g. Bookm"
 msgstr ""
 
 #. module: hr_skills
-#: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
-msgid "e.g. Odoo Inc."
+#: model_terms:ir.ui.view,arch_db:hr_skills.hr_employee_skill_type_view_form
+msgid "e.g. Languages"
 msgstr ""

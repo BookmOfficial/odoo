@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:20+0000\n"
-"PO-Revision-Date: 2022-01-24 08:20+0000\n"
+"POT-Creation-Date: 2022-04-15 22:56+0000\n"
+"PO-Revision-Date: 2022-04-15 22:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -68,13 +68,6 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
 msgid "<span><i class=\"fa fa-arrow-right\"/> Get my Stripe keys</span>"
-msgstr ""
-
-#. module: payment
-#: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
-msgid ""
-"<span><i class=\"fa fa-arrow-right\"/> How to configure your PayPal "
-"account</span>"
 msgstr ""
 
 #. module: payment
@@ -420,7 +413,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Bookm, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
@@ -716,6 +709,11 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__state__enabled
 msgid "Enabled"
+msgstr ""
+
+#. module: payment
+#: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
+msgid "Enterprise Module"
 msgstr ""
 
 #. module: payment
@@ -1112,11 +1110,6 @@ msgstr ""
 msgid ""
 "Note that tokens from acquirers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
-msgstr ""
-
-#. module: payment
-#: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Odoo Enterprise Module"
 msgstr ""
 
 #. module: payment
@@ -1553,11 +1546,6 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__res_model
 msgid "Related Document Model"
-msgstr ""
-
-#. module: payment
-#: model:payment.acquirer,name:payment.payment_acquirer_sepa_direct_debit
-msgid "SEPA Direct Debit"
 msgstr ""
 
 #. module: payment
@@ -2022,7 +2010,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 #, python-format
-msgid "Unable to contact the Odoo server."
+msgid "Unable to contact the Bookm server."
 msgstr ""
 
 #. module: payment
@@ -2215,7 +2203,6 @@ msgstr ""
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_test
@@ -2235,7 +2222,6 @@ msgstr ""
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_test
@@ -2262,7 +2248,6 @@ msgstr ""
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_test
@@ -2282,7 +2267,6 @@ msgstr ""
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_test

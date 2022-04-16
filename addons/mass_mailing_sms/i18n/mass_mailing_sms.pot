@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
-"PO-Revision-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:51+0000\n"
+"PO-Revision-Date: 2022-04-15 22:51+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -120,11 +120,6 @@ msgstr ""
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 #, python-format
 msgid "BOUNCED (%i)"
-msgstr ""
-
-#. module: mass_mailing_sms
-#: model:utm.tag,name:mass_mailing_sms.mailing_tag_0
-msgid "Bioutifoul SMS"
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -242,13 +237,6 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_contact_view_search
 msgid "Exclude Blacklisted Phone"
-msgstr ""
-
-#. module: mass_mailing_sms
-#: model:mailing.mailing,name:mass_mailing_sms.mailing_sms_1
-#: model:mailing.mailing,sms_subject:mass_mailing_sms.mailing_sms_1
-#: model:utm.source,name:mass_mailing_sms.mailing_sms_1_utm_source
-msgid "Extra Promo"
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -505,7 +493,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
 "No need to import mailing lists, you can send SMS Text Messages to contacts "
-"saved in other Odoo apps."
+"saved in other Bookm apps."
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -563,6 +551,11 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_optout
 msgid "Opted Out"
+msgstr ""
+
+#. module: mass_mailing_sms
+#: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
+msgid "Options"
 msgstr ""
 
 #. module: mass_mailing_sms
@@ -917,14 +910,6 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_format
 msgid "Wrong Number Format"
-msgstr ""
-
-#. module: mass_mailing_sms
-#: model:mailing.mailing,name:mass_mailing_sms.mailing_sms_0
-#: model:mailing.mailing,sms_subject:mass_mailing_sms.mailing_sms_0
-#: model:utm.campaign,name:mass_mailing_sms.utm_campaign_0
-#: model:utm.source,name:mass_mailing_sms.mailing_sms_0_utm_source
-msgid "XMas Promo"
 msgstr ""
 
 #. module: mass_mailing_sms

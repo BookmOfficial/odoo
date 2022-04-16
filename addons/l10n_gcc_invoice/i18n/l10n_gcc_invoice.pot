@@ -1,0 +1,366 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_gcc_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:24+0000\n"
+"PO-Revision-Date: 2022-04-15 22:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.external_layout_standard
+msgid ""
+"<span class=\"page\"/>\n"
+"                            /\n"
+"                            <span class=\"topage\"/>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Amount\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    مبلغ\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Description\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    الوصف\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Disc.%\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    خصم %\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Quantity\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    الكمية\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Source Document\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    المستند المصدر\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Taxes\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    الضرائب\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Total Price\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    السعر الاجمالي\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    Unit price\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    سعر الوحدة\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<span>\n"
+"                                    VAT Amount\n"
+"                                </span>\n"
+"                                <br/>\n"
+"                                <span>\n"
+"                                    قيمة الضريبة\n"
+"                                </span>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong class=\"mr16\" style=\"display: inline-block\">Subtotal/الإجمالي "
+"الفرعي</strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">:\n"
+"                                Customer Code\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">:\n"
+"                                المصدر\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">:\n"
+"                                تاريخ الاستحقاق\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">:\n"
+"                                تاريخ الفاتورة\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">:\n"
+"                                رقم الإشارة\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">:\n"
+"                                كود العميل\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">Due Date:\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">Invoice Date:\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">Reference:\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong style=\"white-space:nowrap\">Source:\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong>\n"
+"                                                        Amount Due\n"
+"                                                        /\n"
+"                                                        المبلغ المستحق\n"
+"                                                    </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong>\n"
+"                                            Subtotal\n"
+"                                            /\n"
+"                                            الإجمالي الفرعي\n"
+"                                        </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong>\n"
+"                                            Total\n"
+"                                            /\n"
+"                                            المجموع\n"
+"                                        </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong>Incoterm:\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid ""
+"<strong>شرط تجاري:\n"
+"                            </strong>"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Cancelled Invoice"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Credit Note"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Draft Invoice"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model:ir.model,name:l10n_gcc_invoice.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model:ir.model,name:l10n_gcc_invoice.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.external_layout_standard
+msgid "Logo"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.external_layout_standard
+msgid "Page/صفحة:"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Paid on/دفعت في:"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Payment Reference :"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model:ir.model.fields,field_description:l10n_gcc_invoice.field_account_move_line__l10n_gcc_invoice_tax_amount
+msgid "Tax Amount"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Tax Invoice"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model:ir.model.fields,field_description:l10n_gcc_invoice.field_account_bank_statement_line__narration
+#: model:ir.model.fields,field_description:l10n_gcc_invoice.field_account_move__narration
+#: model:ir.model.fields,field_description:l10n_gcc_invoice.field_account_payment__narration
+msgid "Terms and Conditions"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Vendor Bill"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "Vendor Credit Note"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "إشعار خصم"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "إشعار خصم المورد"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "رقم إشارة الدفعة"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "فاتورة المورد"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "فاتورة ضريبية"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "فاتورة ملغاة"
+msgstr ""
+
+#. module: l10n_gcc_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_gcc_invoice.arabic_english_invoice
+msgid "مسودة فاتورة"
+msgstr ""

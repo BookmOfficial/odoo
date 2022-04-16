@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ae
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:09+0000\n"
+"PO-Revision-Date: 2022-04-15 22:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "<span>VAT Amount</span>"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "<strong>Exchange Rate</strong>"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "<strong>Subtotal (AED)</strong>"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "<strong>Total (AED)</strong>"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "<strong>VAT Amount (AED)</strong>"
+msgstr ""
+
+#. module: l10n_ae
+#: model:ir.model,name:l10n_ae.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_ae
+#: model:res.country.group,name:l10n_ae.gcc_countries_group
+msgid "GCC VAT implementing States"
+msgstr ""
+
+#. module: l10n_ae
+#: model:ir.model,name:l10n_ae.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "Supply between <b>United Arab Emirates</b> and"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "TAX"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "Taxes"
+msgstr ""
+
+#. module: l10n_ae
+#: model:ir.ui.menu,name:l10n_ae.account_reports_ae_statements_menu
+msgid "UAE"
+msgstr ""
+
+#. module: l10n_ae
+#: model_terms:ir.ui.view,arch_db:l10n_ae.report_invoice_document
+msgid "VAT"
+msgstr ""
+
+#. module: l10n_ae
+#: model:account.tax.group,name:l10n_ae.ae_tax_group_0
+msgid "VAT 0%"
+msgstr ""
+
+#. module: l10n_ae
+#: model:account.tax.group,name:l10n_ae.ae_tax_group_5
+msgid "VAT 5%"
+msgstr ""
+
+#. module: l10n_ae
+#: model:ir.model.fields,field_description:l10n_ae.field_account_move_line__l10n_ae_vat_amount
+msgid "VAT Amount"
+msgstr ""
+
+#. module: l10n_ae
+#: model:account.tax.group,name:l10n_ae.ae_tax_group_exempted
+msgid "VAT Exempted"
+msgstr ""

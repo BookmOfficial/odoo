@@ -1,0 +1,1394 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_it
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:30+0000\n"
+"PO-Revision-Date: 2022-04-15 22:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.00a
+msgid "00a"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.00art15a
+msgid "00art15a"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.00art15v
+msgid "00art15v"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.00v
+msgid "00v"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp2
+msgid "02"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp3
+msgid "03"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.10a
+msgid "10a"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.10v
+msgid "10v"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.22a
+msgid "22a"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.22v
+msgid "22v"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.4a
+msgid "4a"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp4
+#: model:account.tax.template,description:l10n_it.4v
+msgid "4v"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,description:l10n_it.5a
+msgid "5a"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp5
+#: model:account.tax.template,description:l10n_it.5v
+msgid "5v"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4823
+msgid "Accantonamento per manutenzioni programmate"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4814
+msgid "Accantonamento per responsabilità civile"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4821
+msgid "Accantonamento per spese future"
+msgstr ""
+
+#. module: l10n_it
+#: model:ir.model,name:l10n_it.model_account_tax_report_line
+msgid "Account Tax Report Line"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4404
+msgid "Altri costi per il personale"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4606
+msgid "Ammortamento arredamento"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4604
+msgid "Ammortamento attrezzature commerciali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4607
+msgid "Ammortamento automezzi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4508
+msgid "Ammortamento avviamento"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4501
+msgid "Ammortamento costi di impianto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4601
+msgid "Ammortamento fabbricati"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4608
+msgid "Ammortamento imballaggi durevoli"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4602
+msgid "Ammortamento impianti e macchinari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4605
+msgid "Ammortamento macchine d'ufficio"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4506
+msgid "Ammortamento software"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1206
+msgid "Arredamento"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3210
+msgid "Arrotondamenti attivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4910
+msgid "Arrotondamenti passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_C_ATT
+msgid "Attivo circolante"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1204
+msgid "Attrezzature commerciali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1207
+msgid "Automezzi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1108
+msgid "Avviamento"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2421
+msgid "Banche c/RIBA all'incasso"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2423
+msgid "Banche c/anticipi su fatture"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2420
+msgid "Banche c/c passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2422
+msgid "Banche c/cambiali all'incasso"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2922
+msgid "Banche c/effetti scontati"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2411
+msgid "Banche c/sovvenzioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_BENI
+#: model:account.account.template,name:l10n_it.2901
+msgid "Beni di terzi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2801
+msgid "Bilancio di apertura"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2802
+msgid "Bilancio di chiusura"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1507
+msgid "Cambiali all'incasso"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1506
+msgid "Cambiali allo sconto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1505
+msgid "Cambiali attive"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1511
+msgid "Cambiali insolute"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2503
+msgid "Cambiali passive"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4302
+msgid "Canoni di leasing"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2530
+msgid "Clienti c/acconti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2622
+msgid "Clienti c/cessione"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2916
+msgid "Clienti c/impegni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1503
+msgid "Clienti c/spese anticipate"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_conto_corrente_iva
+msgid "Conto corrente IVA"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.9101
+msgid "Conto di risultato economico"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_B_PL
+msgid "Costi della produzione"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4207
+msgid "Costi di assicurazione"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4204
+msgid "Costi di consulenze"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4210
+msgid "Costi di esercizio automezzi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1101
+msgid "Costi di impianto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4211
+msgid "Costi di manutenzione e riparazione"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4203
+msgid "Costi di pubblicità"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4201
+msgid "Costi di trasporto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4208
+msgid "Costi di vigilanza"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4202
+msgid "Costi per energia"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4209
+msgid "Costi per i locali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4205
+msgid "Costi postali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4206
+msgid "Costi telefonici"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1502
+msgid "Crediti commerciali diversi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1531
+msgid "Crediti da liquidare"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1510
+msgid "Crediti insoluti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1605
+msgid "Crediti per IVA"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1610
+msgid "Crediti per cauzioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1608
+msgid "Crediti per imposte"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1609
+msgid "Crediti per ritenute subite"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1501
+msgid "Crediti v/clienti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1508
+msgid "Crediti v/clienti (PoS)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1630
+msgid "Crediti v/istituti previdenziali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_A_ATT
+msgid "Crediti verso soci"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2914
+msgid "Creditori c/leasing"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2640
+msgid "Creditori diversi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2932
+msgid "Creditori per avalli"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2927
+msgid "Creditori per fideiussioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_D_PASS
+msgid "Debiti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2521
+msgid "Debiti da liquidare"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2301
+msgid "Debiti per TFRL"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2619
+msgid "Debiti per cauzioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2606
+msgid "Debiti per imposte"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2602
+msgid "Debiti per ritenute da versare"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2440
+msgid "Debiti v/altri finanziatori"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2501
+msgid "Debiti v/fornitori"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2630
+msgid "Debiti v/istituti previdenziali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1640
+msgid "Debitori diversi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2902
+msgid "Depositanti beni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2605
+msgid "Erario c/IVA"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1201
+msgid "Fabbricati"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1509
+msgid "Fatture da emettere"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2520
+msgid "Fatture da ricevere"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3201
+msgid "Fitti attivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4301
+msgid "Fitti passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_B_PASS
+msgid "Fondi per rischi e oneri"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1216
+msgid "Fondo ammortamento arredamento"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1214
+msgid "Fondo ammortamento attrezzature commerciali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1217
+msgid "Fondo ammortamento automezzi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1118
+msgid "Fondo ammortamento avviamento"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1111
+msgid "Fondo ammortamento costi di impianto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1211
+msgid "Fondo ammortamento fabbricati"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1218
+msgid "Fondo ammortamento imballaggi durevoli"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1212
+msgid "Fondo ammortamento impianti e macchinari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1215
+msgid "Fondo ammortamento macchine d'ufficio"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1116
+msgid "Fondo ammortamento software"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2211
+msgid "Fondo manutenzioni programmate"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2201
+msgid "Fondo per imposte"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2204
+msgid "Fondo responsabilità civile"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1541
+msgid "Fondo rischi su crediti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2205
+msgid "Fondo spese future"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1540
+msgid "Fondo svalutazione crediti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1410
+msgid "Fornitori c/acconti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2912
+msgid "Fornitori c/impegni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1220
+msgid "Fornitori immobilizzazioni c/acconti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_fuori
+msgid "Fuori Campo IVA"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.00a
+msgid "Fuori Campo IVA (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.00v
+msgid "Fuori Campo IVA (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_iva
+msgid "IVA"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_10
+msgid "IVA 10%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_12
+msgid "IVA 12%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_2
+msgid "IVA 2%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_20
+msgid "IVA 20%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_21
+msgid "IVA 21%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_22
+msgid "IVA 22%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_4
+msgid "IVA 4%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_iva_5
+msgid "IVA 5%"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1602
+msgid "IVA c/acconto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2810
+msgid "IVA c/liquidazioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1601
+msgid "IVA n/credito"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2601
+msgid "IVA n/debito"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1208
+msgid "Imballaggi durevoli"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_B_ATT
+msgid "Immobilizzazioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_IMPEGNI
+msgid "Impegni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2913
+msgid "Impegni per beni in leasing"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1202
+msgid "Impianti e macchinari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.group,name:l10n_it.tax_group_imp_esc_art_15
+msgid "Imponibile Escluso Art.15"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.00art15a
+msgid "Imponibile Escluso Art.15 (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.00art15v
+msgid "Imponibile Escluso Art.15 (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1607
+msgid "Imposte c/acconto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.8101
+msgid "Imposte dell'esercizio"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.7204
+msgid "Imposte esercizi precedenti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3240
+msgid "Insussistenze attive ordinarie diverse"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.7103
+msgid "Insussistenze attive straordinarie"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4940
+msgid "Insussistenze passive ordinarie diverse"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.7203
+msgid "Insussistenze passive straordinarie"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5115
+msgid "Interessi attivi bancari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5116
+msgid "Interessi attivi postali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5110
+msgid "Interessi attivi v/clienti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5202
+msgid "Interessi passivi bancari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5210
+msgid "Interessi passivi su mutui"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5201
+msgid "Interessi passivi v/fornitori"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2811
+msgid "Istituti previdenziali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.fiscal.position.template,name:l10n_it.it
+msgid "Italia"
+msgstr ""
+
+#. module: l10n_it
+#: model:ir.model.fields.selection,name:l10n_it.selection__account_tax_report_line__carry_over_condition_method__vp14_credit_carryover_condition
+msgid "Italian line vp14 credit carryover"
+msgstr ""
+
+#. module: l10n_it
+#: model:ir.model.fields.selection,name:l10n_it.selection__account_tax_report_line__carry_over_condition_method__vp14_debt_carryover_condition
+msgid "Italian line vp14 debt carryover"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.chart.template,name:l10n_it.l10n_it_chart_template_generic
+msgid "Italy - Generic Chart of Accounts"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.10a
+msgid "Iva al 10% (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.10v
+msgid "Iva al 10% (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.22a
+msgid "Iva al 22% (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.22v
+msgid "Iva al 22% (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.4a
+msgid "Iva al 4% (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.4v
+msgid "Iva al 4% (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.5a
+msgid "Iva al 5% (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.template,name:l10n_it.5v
+msgid "Iva al 5% (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.l10n_it_chart_template_generic_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1205
+msgid "Macchine d'ufficio"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1401
+msgid "Materie di consumo"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4102
+msgid "Materie di consumo c/acquisti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4122
+msgid "Materie di consumo c/esistenze iniziali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4132
+msgid "Materie di consumo c/rimanenze finali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1404
+msgid "Merci"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4101
+msgid "Merci c/acquisti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4105
+msgid "Merci c/apporti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4121
+msgid "Merci c/esistenze iniziali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4131
+msgid "Merci c/rimanenze finali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3101
+msgid "Merci c/vendite"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2917
+msgid "Merci da consegnare"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2911
+msgid "Merci da ricevere"
+msgstr ""
+
+#. module: l10n_it
+#: model:ir.model.fields,field_description:l10n_it.field_account_tax_report_line__carry_over_condition_method
+msgid "Method"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4920
+msgid "Minusvalenze ordinarie diverse"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.7201
+msgid "Minusvalenze straordinarie"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1301
+msgid "Mutui attivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2410
+msgid "Mutui passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5240
+msgid "Oneri finanziari diversi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4901
+msgid "Oneri fiscali diversi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4402
+msgid "Oneri sociali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4903
+msgid "Oneri vari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_operazione_imponibile
+msgid "Operazione Imponibile"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_A_PASS
+msgid "Patrimonio Netto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2101
+msgid "Patrimonio netto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2103
+msgid "Perdita d'esercizio"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4905
+msgid "Perdite su crediti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1620
+msgid "Personale c/acconti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2621
+msgid "Personale c/liquidazioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2620
+msgid "Personale c/retribuzioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3220
+msgid "Plusvalenze ordinarie diverse"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.7101
+msgid "Plusvalenze straordinarie"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2104
+msgid "Prelevamenti extra gestione"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4112
+msgid "Premi su acquisti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3112
+msgid "Premi su vendite"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_C_PL
+msgid "Proventi e oneri finanziari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_E_PL
+msgid "Proventi e oneri straordinari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5140
+msgid "Proventi finanziari diversi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3202
+msgid "Proventi vari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4212
+msgid "Provvigioni passive"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1901
+msgid "Ratei attivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_D_ATT
+msgid "Ratei e risconti - Attivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_E_PASS
+msgid "Ratei e risconti - Passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2701
+msgid "Ratei passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.fiscal.position.template,name:l10n_it.extra
+msgid "Regime Extra comunitario"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.fiscal.position.template,name:l10n_it.intra
+msgid "Regime Intra comunitario"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.fiscal.position.template,name:l10n_it.intra_private
+msgid "Regime Intra comunitario privato"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4110
+msgid "Resi su acquisti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3110
+msgid "Resi su vendite"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_D_PL
+msgid "Rettifiche di valore di attività e passività finanziarie"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4111
+msgid "Ribassi e abbuoni attivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3111
+msgid "Ribassi e abbuoni passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3103
+msgid "Rimborsi spese di vendita"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_RISCHI
+msgid "Rischi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2931
+msgid "Rischi per avalli"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2921
+msgid "Rischi per effetti scontati"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2926
+msgid "Rischi per fideiussioni"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1902
+msgid "Risconti attivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2702
+msgid "Risconti passivi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4401
+msgid "Salari e stipendi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_saldi_riporti_e_interessi
+msgid "Saldi, riporti e interessi"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.5203
+msgid "Sconti passivi bancari"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.1106
+msgid "Software"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.3230
+msgid "Sopravvenienze attive ordinarie diverse"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.7102
+msgid "Sopravvenienze attive straordinarie"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4930
+msgid "Sopravvenienze passive ordinarie diverse"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.7202
+msgid "Sopravvenienze passive straordinarie"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4213
+msgid "Spese di incasso"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.9102
+msgid "Stato patrimoniale"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4706
+msgid "Svalutazione crediti"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4701
+msgid "Svalutazioni immobilizzazioni immateriali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4702
+msgid "Svalutazioni immobilizzazioni materiali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.4403
+msgid "TFRL"
+msgstr ""
+
+#. module: l10n_it
+#: model:ir.model.fields,help:l10n_it.field_account_tax_report_line__carry_over_condition_method
+msgid "The method used to determine if this line should be carried over."
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2105
+msgid "Titolare c/ritenute subite"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_C_PASS
+msgid "Trattamento di fine rapporto di lavoro subordinato"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.template,name:l10n_it.2102
+msgid "Utile d'esercizio"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp10
+msgid "VP10 - Versamenti auto UE"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp11
+msgid "VP11 - Credito d'imposta"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp12
+msgid "VP12 - Interessi dovuti per liquidazioni trimestrali"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp13
+msgid "VP13 - Acconto dovuto"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp14
+msgid "VP14 - IVA da versare"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp14a
+msgid "VP14a - IVA da versare (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp14b
+msgid "VP14b - IVA da versare (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp2
+msgid "VP2 - Totale operazioni attive"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp3
+msgid "VP3 - Totale operazioni passive"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp4
+msgid "VP4 - IVA esigibile"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp5
+msgid "VP5 - IVA detraibile"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp6
+msgid "VP6 - IVA dovuta"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp6a
+msgid "VP6a - IVA dovuta (debito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp6b
+msgid "VP6b - IVA dovuta (credito)"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp7
+msgid "VP7 - Debito periodo precedente non superiore 25,82"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp8
+msgid "VP8 - Credito periodo precedente"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,name:l10n_it.tax_report_line_vp9
+msgid "VP9 - Credito anno precedente"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.account.tag,name:l10n_it.account_tag_A_PL
+msgid "Valore della produzione"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp10
+msgid "vp10"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp11
+msgid "vp11"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp12
+msgid "vp12"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp13
+msgid "vp13"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp7
+msgid "vp7"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp8
+msgid "vp8"
+msgstr ""
+
+#. module: l10n_it
+#: model:account.tax.report.line,tag_name:l10n_it.tax_report_line_vp9
+msgid "vp9"
+msgstr ""

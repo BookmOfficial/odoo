@@ -1,0 +1,1821 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_sk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:37+0000\n"
+"PO-Revision-Date: 2022-04-15 22:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_sk
+#: model:account.tax.template,description:l10n_sk.vs_tuz_10
+#: model:account.tax.template,description:l10n_sk.vy_tuz_10
+msgid "10%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,description:l10n_sk.vs_nad_eu
+#: model:account.tax.template,description:l10n_sk.vs_tuz_20
+#: model:account.tax.template,description:l10n_sk.vy_tuz_20
+msgid "20%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_012000
+#: model:account.group.template,name:l10n_sk.chart_sk_012
+msgid "Aktivované náklady na vývoj"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_62
+msgid "Aktivácia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_624000
+#: model:account.group.template,name:l10n_sk.chart_sk_624
+msgid "Aktivácia dlhodobého hmotného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_623000
+#: model:account.group.template,name:l10n_sk.chart_sk_623
+msgid "Aktivácia dlhodobého nehmotného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_621000
+#: model:account.group.template,name:l10n_sk.chart_sk_621
+msgid "Aktivácia materiálu a tovaru"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_622000
+#: model:account.group.template,name:l10n_sk.chart_sk_622
+msgid "Aktivácia vnútroorganizačných služieb"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_461000
+#: model:account.group.template,name:l10n_sk.chart_sk_46
+#: model:account.group.template,name:l10n_sk.chart_sk_461
+msgid "Bankové úvery"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_221000
+#: model:account.group.template,name:l10n_sk.chart_sk_221
+msgid "Bankové účty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_23
+msgid "Bežné bankové úvery"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_213000
+#: model:account.group.template,name:l10n_sk.chart_sk_213
+msgid "Ceniny"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_512000
+#: model:account.group.template,name:l10n_sk.chart_sk_512
+msgid "Cestovné"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.group,name:l10n_sk.tax_group_vat_0
+msgid "DPH 0%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.group,name:l10n_sk.tax_group_vat_10
+msgid "DPH 10%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.group,name:l10n_sk.tax_group_vat_20
+msgid "DPH 20%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,name:l10n_sk.vs_tuz_10
+msgid "DPH na vstupe 10%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,name:l10n_sk.vs_tuz_20
+msgid "DPH na vstupe 20%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,name:l10n_sk.vy_tuz_0
+msgid "DPH na výstupe 0%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,name:l10n_sk.vy_tuz_10
+msgid "DPH na výstupe 10%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,name:l10n_sk.vy_tuz_20
+msgid "DPH na výstupe 20%"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_343110
+msgid "DPH nižšia sadzba vstup"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_343210
+msgid "DPH nižšia sadzba výstup"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_343120
+msgid "DPH základná sadzba vstup"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_343220
+msgid "DPH základná sadzba výstup"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_53
+msgid "Dane a poplatky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_59
+msgid "Dane z príjmov a prevodové účty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_543000
+#: model:account.group.template,name:l10n_sk.chart_sk_543
+msgid "Dary"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_531000
+#: model:account.group.template,name:l10n_sk.chart_sk_531
+msgid "Daň z motorových vozidiel"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_532000
+#: model:account.group.template,name:l10n_sk.chart_sk_532
+msgid "Daň z nehnuteľností"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_343000
+#: model:account.group.template,name:l10n_sk.chart_sk_343
+msgid "Daň z pridanej hodnoty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_341000
+#: model:account.group.template,name:l10n_sk.chart_sk_341
+msgid "Daň z príjmov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_476000
+#: model:account.group.template,name:l10n_sk.chart_sk_476
+msgid "Dlhodobé nevyfakturované dodávky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_475000
+#: model:account.group.template,name:l10n_sk.chart_sk_475
+msgid "Dlhodobé prijaté preddavky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_478000
+#: model:account.group.template,name:l10n_sk.chart_sk_478
+msgid "Dlhodobé zmenky na úhradu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_47
+msgid "Dlhodobé záväzky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_471000
+#: model:account.group.template,name:l10n_sk.chart_sk_471
+msgid ""
+"Dlhodobé záväzky voči prepojeným účtovným jednotkám a účtovným jednotkám v "
+"rámci podielovej účasti "
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_06
+msgid "Dlhodobý finančný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_03
+msgid "Dlhodobý hmotný majetok - neodpisovaný"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_02
+msgid "Dlhodobý hmotný majetok - odpisovaný"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_0
+msgid "Dlhodobý majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_01
+msgid "Dlhodobý nehmotný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_065000
+#: model:account.group.template,name:l10n_sk.chart_sk_065
+msgid "Dlhové cenné papiere držané do splatnosti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_253000
+#: model:account.group.template,name:l10n_sk.chart_sk_253
+msgid "Dlhové cenné papiere na obchodovanie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_256000
+#: model:account.group.template,name:l10n_sk.chart_sk_256
+msgid ""
+"Dlhové cenné papiere so splatnosťou do jedného roka držané do splatnosti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,name:l10n_sk.vy_dod_eu
+msgid "Dodanie do EU"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_595000
+#: model:account.group.template,name:l10n_sk.chart_sk_595
+msgid "Dodatočné odvody dane z príjmov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_321000
+#: model:account.group.template,name:l10n_sk.chart_sk_321
+msgid "Dodávatelia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_346000
+#: model:account.group.template,name:l10n_sk.chart_sk_346
+msgid "Dotácie zo štatneho rozpočtu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_412000
+#: model:account.group.template,name:l10n_sk.chart_sk_412
+msgid "Emisné ážio"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_232000
+#: model:account.group.template,name:l10n_sk.chart_sk_232
+msgid "Eskontné úvery"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_56
+msgid "Finančné náklady"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_66
+msgid "Finančné výnosy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_2
+msgid "Finančné účty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_42
+msgid "Fondy tvorené zo zisku a prevedené výsledky hospodárenia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_49
+msgid "Fyzická osoba - podnikateľ"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_015000
+#: model:account.group.template,name:l10n_sk.chart_sk_015
+msgid "Goodwill"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_24
+msgid "Iné krátkodobé finančné výpomoci"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_54
+msgid "Iné náklady na hospodársku činnosť"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_378000
+#: model:account.group.template,name:l10n_sk.chart_sk_378
+msgid "Iné pohľadávky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_37
+msgid "Iné pohľadávky a iné záväzky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_64
+msgid "Iné výnosy z hospodárskej činnosti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_379000
+#: model:account.group.template,name:l10n_sk.chart_sk_379
+msgid "Iné záväzky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_4
+msgid "Kapitálové účty a dlhodobé záväzky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_382000
+#: model:account.group.template,name:l10n_sk.chart_sk_382
+msgid "Komplexné náklady budúcich období"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_702000
+#: model:account.group.template,name:l10n_sk.chart_sk_702
+msgid "Konečný účet súvahový"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_231000
+#: model:account.group.template,name:l10n_sk.chart_sk_231
+msgid "Krátkodobé bankové úvery"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_323000
+#: model:account.group.template,name:l10n_sk.chart_sk_323
+msgid "Krátkodobé rezervy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_25
+msgid "Krátkodobý finančný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_563000
+#: model:account.group.template,name:l10n_sk.chart_sk_563
+msgid "Kurzové straty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_663000
+#: model:account.group.template,name:l10n_sk.chart_sk_663
+msgid "Kurzové zisky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.sk_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_251000
+#: model:account.group.template,name:l10n_sk.chart_sk_251
+msgid "Majetkové cenné papiere na obchodovanie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_549000
+#: model:account.group.template,name:l10n_sk.chart_sk_549
+msgid "Manká a škody"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_569000
+#: model:account.group.template,name:l10n_sk.chart_sk_569
+msgid "Manká a škody na finančnom majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_11
+msgid "Materiál"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_119000
+#: model:account.group.template,name:l10n_sk.chart_sk_119
+msgid "Materiál na ceste"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_112000
+#: model:account.group.template,name:l10n_sk.chart_sk_112
+msgid "Materiál na sklade"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_521000
+#: model:account.group.template,name:l10n_sk.chart_sk_521
+msgid "Mzdové náklady"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.tax.template,name:l10n_sk.vs_nad_eu
+msgid "Nadobudnutie z EU"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_376000
+#: model:account.group.template,name:l10n_sk.chart_sk_376
+msgid "Nakúpené opcie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_422000
+#: model:account.group.template,name:l10n_sk.chart_sk_422
+msgid "Nedeliteľný fond"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_418000
+#: model:account.group.template,name:l10n_sk.chart_sk_418
+msgid "Nedeliteľný fond z kapitálových vkladov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_121000
+#: model:account.group.template,name:l10n_sk.chart_sk_121
+msgid "Nedokončená výroba"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_133000
+#: model:account.group.template,name:l10n_sk.chart_sk_133
+msgid "Nehnuteľnosť na predaj"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_428000
+#: model:account.group.template,name:l10n_sk.chart_sk_428
+msgid "Nerozdelený zisk minulých rokov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_429000
+#: model:account.group.template,name:l10n_sk.chart_sk_429
+msgid "Neuhradená strata minulých rokov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_326000
+#: model:account.group.template,name:l10n_sk.chart_sk_326
+msgid "Nevyfakturované dodávky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_5
+msgid "Náklady"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_381000
+#: model:account.group.template,name:l10n_sk.chart_sk_381
+msgid "Náklady budúcich období"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_567000
+#: model:account.group.template,name:l10n_sk.chart_sk_567
+msgid "Náklady na derivátové operácie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_566000
+#: model:account.group.template,name:l10n_sk.chart_sk_566
+msgid "Náklady na krátkodobý finančný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_564000
+#: model:account.group.template,name:l10n_sk.chart_sk_564
+msgid "Náklady na precenenie cenných papierov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_513000
+#: model:account.group.template,name:l10n_sk.chart_sk_513
+msgid "Náklady na reprezentáciu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.fiscal.position.template,name:l10n_sk.fiscal_position_template_2
+msgid "Obchody s EU"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.fiscal.position.template,name:l10n_sk.fp_intra_private
+msgid "Obchody s EU konzument"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.fiscal.position.template,name:l10n_sk.fiscal_position_template_1
+msgid "Obchody v SK"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_043000
+#: model:account.group.template,name:l10n_sk.chart_sk_043
+msgid "Obstaranie dlhodobého finančného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_042000
+#: model:account.group.template,name:l10n_sk.chart_sk_042
+msgid "Obstaranie dlhodobého hmotného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_04
+msgid "Obstaranie dlhodobého majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_041000
+#: model:account.group.template,name:l10n_sk.chart_sk_041
+msgid "Obstaranie dlhodobého nehmotného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_259000
+#: model:account.group.template,name:l10n_sk.chart_sk_259
+msgid "Obstaranie krátkodobého finančného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_111000
+#: model:account.group.template,name:l10n_sk.chart_sk_111
+msgid "Obstaranie materiálu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_131000
+#: model:account.group.template,name:l10n_sk.chart_sk_131
+msgid "Obstaranie tovaru"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_014000
+#: model:account.group.template,name:l10n_sk.chart_sk_014
+msgid "Oceniteľné práva"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_415000
+#: model:account.group.template,name:l10n_sk.chart_sk_415
+msgid "Oceňovacie rozdiely z kapitálových účastín"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_414000
+#: model:account.group.template,name:l10n_sk.chart_sk_414
+msgid "Oceňovacie rozdiely z precenenia majetku a záväzkov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_416000
+#: model:account.group.template,name:l10n_sk.chart_sk_416
+msgid "Oceňovacie rozdiely z precenenia pri zlúčení, splynutí a rozdelení"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_311000
+#: model:account.group.template,name:l10n_sk.chart_sk_311
+msgid "Odberatelia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_592000
+#: model:account.group.template,name:l10n_sk.chart_sk_592
+msgid "Odložená daň z príjmov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_481000
+#: model:account.group.template,name:l10n_sk.chart_sk_48
+#: model:account.group.template,name:l10n_sk.chart_sk_481
+msgid "Odložený daňový záväzok a odložená daňová pohľadávka"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_523000
+#: model:account.group.template,name:l10n_sk.chart_sk_523
+msgid "Odmeny členom orgánov spoločnosti a družstva"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_546000
+#: model:account.group.template,name:l10n_sk.chart_sk_546
+msgid "Odpis pohľadávky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_55
+msgid "Odpisy a opravné položky k dlhodobému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_551000
+#: model:account.group.template,name:l10n_sk.chart_sk_551
+msgid "Odpisy dlhodobého mehmotného majetku a dlhodobého hmotného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_079000
+#: model:account.group.template,name:l10n_sk.chart_sk_079
+msgid "Opravky k ostatnému dlhodobému nehmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_391000
+#: model:account.group.template,name:l10n_sk.chart_sk_391
+msgid "Opravná položka k pohľadávkam"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_39
+msgid "Opravná položka k zúčtovacím vzťahom a vnútorné zúčtovanie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_096000
+#: model:account.group.template,name:l10n_sk.chart_sk_096
+msgid "Opravné položky k dlhodobému finančnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_092000
+#: model:account.group.template,name:l10n_sk.chart_sk_092
+msgid "Opravné položky k dlhodobému hmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_09
+msgid "Opravné položky k dlhodobému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_091000
+#: model:account.group.template,name:l10n_sk.chart_sk_091
+msgid "Opravné položky k dlhodobému nehmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_191000
+#: model:account.group.template,name:l10n_sk.chart_sk_191
+msgid "Opravné položky k materiálu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_097000
+#: model:account.group.template,name:l10n_sk.chart_sk_097
+msgid "Opravné položky k nadobudnutému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_192000
+#: model:account.group.template,name:l10n_sk.chart_sk_192
+msgid "Opravné položky k nedokončenej výrobe"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_094000
+#: model:account.group.template,name:l10n_sk.chart_sk_094
+msgid "Opravné položky k nedokončenému dlhodobému hmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_093000
+#: model:account.group.template,name:l10n_sk.chart_sk_093
+msgid "Opravné položky k nedokončenému dlhodobému nehmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_193000
+#: model:account.group.template,name:l10n_sk.chart_sk_193
+msgid "Opravné položky k polotovarom vlastnej výroby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_095000
+#: model:account.group.template,name:l10n_sk.chart_sk_095
+msgid "Opravné položky k poskytnutým preddavkom na dlhodobý majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_196000
+#: model:account.group.template,name:l10n_sk.chart_sk_196
+msgid "Opravné položky k tovaru"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_194000
+#: model:account.group.template,name:l10n_sk.chart_sk_194
+msgid "Opravné položky k výrobkom"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_195000
+#: model:account.group.template,name:l10n_sk.chart_sk_195
+msgid "Opravné položky k zvieratám"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_19
+msgid "Opravné položky k zásobám"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_291000
+#: model:account.group.template,name:l10n_sk.chart_sk_29
+#: model:account.group.template,name:l10n_sk.chart_sk_291
+msgid "Opravné položky ku krátkodobému finančnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_511000
+#: model:account.group.template,name:l10n_sk.chart_sk_511
+msgid "Opravy a udržiavanie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_072000
+#: model:account.group.template,name:l10n_sk.chart_sk_072
+msgid "Oprávky k aktivovaným nákladom na vývoj"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_08
+msgid "Oprávky k dlhodobému hmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_07
+msgid "Oprávky k dlhodobému nehmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_074000
+#: model:account.group.template,name:l10n_sk.chart_sk_074
+msgid "Oprávky k oceniteľným právam"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_098000
+#: model:account.group.template,name:l10n_sk.chart_sk_098
+msgid "Oprávky k opravnej položke k nadobudnutému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_089000
+#: model:account.group.template,name:l10n_sk.chart_sk_089
+msgid "Oprávky k ostatnému dlhodobému hmotnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_085000
+#: model:account.group.template,name:l10n_sk.chart_sk_085
+msgid "Oprávky k pestovateľským celkom trvalých porastov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_082000
+#: model:account.group.template,name:l10n_sk.chart_sk_082
+msgid "Oprávky k samostatným hnuteľným veciam a k súboru hnuteľných vecí"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_073000
+#: model:account.group.template,name:l10n_sk.chart_sk_073
+msgid "Oprávky k softvéru"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_081000
+#: model:account.group.template,name:l10n_sk.chart_sk_081
+msgid "Oprávky k stavbám"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_086000
+#: model:account.group.template,name:l10n_sk.chart_sk_086
+msgid "Oprávky k základnému stádu a ťažným zvieratám"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_075000
+#: model:account.group.template,name:l10n_sk.chart_sk_075
+msgid "Oprávky ku goodwilu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_52
+msgid "Osobné náklady"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_345000
+#: model:account.account.template,name:l10n_sk.chart_sk_538000
+#: model:account.group.template,name:l10n_sk.chart_sk_345
+#: model:account.group.template,name:l10n_sk.chart_sk_538
+msgid "Ostatné dane a poplatky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_479000
+#: model:account.group.template,name:l10n_sk.chart_sk_479
+msgid "Ostatné dlhodobé záväzky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_347000
+#: model:account.group.template,name:l10n_sk.chart_sk_347
+msgid "Ostatné dodácie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_568000
+#: model:account.group.template,name:l10n_sk.chart_sk_568
+msgid "Ostatné finančné náklady"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_668000
+#: model:account.group.template,name:l10n_sk.chart_sk_668
+msgid "Ostatné finančné výnosy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_427000
+#: model:account.group.template,name:l10n_sk.chart_sk_427
+msgid "Ostatné fondy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_413000
+#: model:account.group.template,name:l10n_sk.chart_sk_413
+msgid "Ostatné kapitalové fondy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_249000
+#: model:account.group.template,name:l10n_sk.chart_sk_249
+msgid "Ostatné krátkodobé finančné výpomoci"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_548000
+#: model:account.group.template,name:l10n_sk.chart_sk_548
+msgid "Ostatné náklady na hospodársku činnosť"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_315000
+#: model:account.group.template,name:l10n_sk.chart_sk_315
+msgid "Ostatné pohľadávky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_355000
+#: model:account.group.template,name:l10n_sk.chart_sk_355
+msgid "Ostatné pohľadávky voči spoločníkom a členom"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_545000
+#: model:account.account.template,name:l10n_sk.chart_sk_645000
+#: model:account.group.template,name:l10n_sk.chart_sk_545
+#: model:account.group.template,name:l10n_sk.chart_sk_645
+msgid "Ostatné pokuty, penále a úroky z omeškania"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_342000
+#: model:account.group.template,name:l10n_sk.chart_sk_342
+msgid "Ostatné priame dane"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_067000
+#: model:account.group.template,name:l10n_sk.chart_sk_067
+msgid "Ostatné pôžičky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_257000
+#: model:account.group.template,name:l10n_sk.chart_sk_257
+msgid "Ostatné realizovateľné cenné papiere"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_459000
+#: model:account.group.template,name:l10n_sk.chart_sk_459
+msgid "Ostatné rezervy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_518000
+#: model:account.group.template,name:l10n_sk.chart_sk_518
+msgid "Ostatné služby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_528000
+#: model:account.group.template,name:l10n_sk.chart_sk_528
+msgid "Ostatné sociálne náklady"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_525000
+#: model:account.group.template,name:l10n_sk.chart_sk_525
+msgid "Ostatné sociálne zabezpečenie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_648000
+#: model:account.group.template,name:l10n_sk.chart_sk_648
+msgid "Ostatné výnosy z hospodárskej činnosti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_325000
+#: model:account.group.template,name:l10n_sk.chart_sk_325
+msgid "Ostatné záväzky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_365000
+#: model:account.group.template,name:l10n_sk.chart_sk_365
+msgid "Ostatné záväzky voči spoločníkom a členom"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_333000
+#: model:account.group.template,name:l10n_sk.chart_sk_333
+msgid "Ostatné záväzky voči zamestnancom"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_069000
+#: model:account.group.template,name:l10n_sk.chart_sk_069
+msgid "Ostatný dlhodobý finančný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_029000
+#: model:account.group.template,name:l10n_sk.chart_sk_029
+msgid "Ostatný dlhodobý hmotný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_019000
+#: model:account.group.template,name:l10n_sk.chart_sk_019
+msgid "Ostatný dlhodobý nehmotný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_21
+msgid "Peniaze"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_261000
+#: model:account.group.template,name:l10n_sk.chart_sk_261
+msgid "Peniaze na ceste"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_025000
+#: model:account.group.template,name:l10n_sk.chart_sk_025
+msgid "Pestovateľské celky trvalých porastov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_061000
+#: model:account.group.template,name:l10n_sk.chart_sk_061
+msgid "Podielové cenné papiere a podiely v dcérskej účtovnej jednotke"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_062000
+#: model:account.group.template,name:l10n_sk.chart_sk_062
+msgid ""
+"Podielové cenné papiere a podiely v spoločnosti alebo družstve s podielovou "
+"účasťou"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_31
+msgid "Pohľadávky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_373000
+#: model:account.group.template,name:l10n_sk.chart_sk_373
+msgid "Pohľadávky a záväzky z pevných termínových operácií"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_351000
+#: model:account.group.template,name:l10n_sk.chart_sk_351
+msgid ""
+"Pohľadávky voči prepojeným účtovným jednotkám a účtovným jednotkám v rámci "
+"podielovej účasti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_35
+msgid "Pohľadávky voči spoločníkom a združeniu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_354000
+#: model:account.group.template,name:l10n_sk.chart_sk_354
+msgid "Pohľadávky voči spoločníkom a členom pri úhrade straty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_335000
+#: model:account.group.template,name:l10n_sk.chart_sk_335
+msgid "Pohľadávky voči zamestnancom"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_358000
+#: model:account.group.template,name:l10n_sk.chart_sk_358
+msgid "Pohľadávky voči účastníkom združenia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_374000
+#: model:account.group.template,name:l10n_sk.chart_sk_374
+msgid "Pohľadávky z nájmu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_371000
+#: model:account.group.template,name:l10n_sk.chart_sk_371
+msgid "Pohľadávky z predaja podniku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_375000
+#: model:account.group.template,name:l10n_sk.chart_sk_375
+msgid "Pohľadávky z vydaných dlhopisov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_313000
+#: model:account.group.template,name:l10n_sk.chart_sk_313
+msgid "Pohľadávky za eskontované cenné papiere"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_353000
+#: model:account.group.template,name:l10n_sk.chart_sk_353
+msgid "Pohľadávky za upísané vlastné imanie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_211000
+#: model:account.group.template,name:l10n_sk.chart_sk_211
+msgid "Pokladnica"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_122000
+#: model:account.group.template,name:l10n_sk.chart_sk_122
+msgid "Polotovary vlastnej výroby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_314000
+#: model:account.group.template,name:l10n_sk.chart_sk_314
+msgid "Poskytnuté preddavky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_055000
+#: model:account.group.template,name:l10n_sk.chart_sk_055
+msgid "Poskytnuté preddavky na dlhodobý finančný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_052000
+#: model:account.group.template,name:l10n_sk.chart_sk_052
+msgid "Poskytnuté preddavky na dlhodobý hmotný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_05
+msgid "Poskytnuté preddavky na dlhodobý majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_051000
+#: model:account.group.template,name:l10n_sk.chart_sk_051
+msgid "Poskytnuté preddavky na dlhodobý nehmotný majetok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_031000
+#: model:account.group.template,name:l10n_sk.chart_sk_031
+msgid "Pozemky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_507000
+#: model:account.group.template,name:l10n_sk.chart_sk_507
+msgid "Predaná nehnuteľnosť"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_561000
+#: model:account.group.template,name:l10n_sk.chart_sk_561
+msgid "Predané cenné papiere a podiely"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_377000
+#: model:account.group.template,name:l10n_sk.chart_sk_377
+msgid "Predané opcie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_542000
+#: model:account.group.template,name:l10n_sk.chart_sk_542
+msgid "Predaný materiál"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_504000
+#: model:account.group.template,name:l10n_sk.chart_sk_504
+msgid "Predaný tovar"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_596000
+#: model:account.group.template,name:l10n_sk.chart_sk_596
+msgid "Prevod podielov na výsledku hospodárenia spoločníkom"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_26
+msgid "Prevody medzi finančnými účtami"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_324000
+#: model:account.group.template,name:l10n_sk.chart_sk_324
+msgid "Prijaté preddavky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_385000
+#: model:account.group.template,name:l10n_sk.chart_sk_385
+msgid "Príjmy budúcich období"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_522000
+#: model:account.group.template,name:l10n_sk.chart_sk_522
+msgid "Príjmy spoločníkov a členov zo závislej činnosti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_066000
+#: model:account.group.template,name:l10n_sk.chart_sk_066
+msgid ""
+"Pôžičky prepojeným účtovným jednotkám a účtovným jednotkám v rámci "
+"podielovej účasti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_063000
+#: model:account.group.template,name:l10n_sk.chart_sk_063
+msgid "Realizovateľné cenné papiere a podiely"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_45
+msgid "Rezervy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_451000
+#: model:account.group.template,name:l10n_sk.chart_sk_451
+msgid "Rezervy zákonné"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_022000
+#: model:account.group.template,name:l10n_sk.chart_sk_022
+msgid "Samostatné hnuteľné veci a súbory hnuteľných vecí"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.chart.template,name:l10n_sk.sk_chart_template
+msgid "Slovenská účtová osnova"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_51
+msgid "Služby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_526000
+#: model:account.group.template,name:l10n_sk.chart_sk_526
+msgid "Sociálne náklady fyzickej osoby - podnikateľa"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_013000
+#: model:account.group.template,name:l10n_sk.chart_sk_013
+msgid "Softvér"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_591000
+#: model:account.group.template,name:l10n_sk.chart_sk_591
+msgid "Splatná daň z príjmov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_398000
+#: model:account.group.template,name:l10n_sk.chart_sk_398
+msgid "Spojovací účet pri združení"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_502000
+#: model:account.group.template,name:l10n_sk.chart_sk_502
+msgid "Spotreba energie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_501000
+#: model:account.group.template,name:l10n_sk.chart_sk_501
+msgid "Spotreba materiálu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_503000
+#: model:account.group.template,name:l10n_sk.chart_sk_503
+msgid "Spotreba ostatných neskladovateľných dodávok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_50
+msgid "Spotrebované nákupy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_021000
+#: model:account.group.template,name:l10n_sk.chart_sk_021
+msgid "Stavby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_70
+msgid "Súvahové závierkové účty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_13
+msgid "Tovar"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_139000
+#: model:account.group.template,name:l10n_sk.chart_sk_139
+msgid "Tovar na ceste"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_132000
+#: model:account.group.template,name:l10n_sk.chart_sk_132
+msgid "Tovar na sklade a v predajniach"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_661000
+#: model:account.group.template,name:l10n_sk.chart_sk_661
+msgid "Tržby z predaja cenných papierov a podielov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_641000
+#: model:account.group.template,name:l10n_sk.chart_sk_641
+msgid ""
+"Tržby z predaja dlhodobého nehmotného majetku a dlhodobého hmotného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_642000
+#: model:account.group.template,name:l10n_sk.chart_sk_642
+msgid "Tržby z predaja materiálu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_602000
+#: model:account.group.template,name:l10n_sk.chart_sk_602
+msgid "Tržby z predaja služieb"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_604000
+#: model:account.group.template,name:l10n_sk.chart_sk_604
+msgid "Tržby za tovar"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_60
+msgid "Tržby za vlastné výkony a tovar"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_601000
+#: model:account.group.template,name:l10n_sk.chart_sk_601
+msgid "Tržby za vlastné výrobky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_553000
+#: model:account.group.template,name:l10n_sk.chart_sk_553
+msgid "Tvorba a zúčtovanie opravných položiek k dlhodobému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_565000
+#: model:account.group.template,name:l10n_sk.chart_sk_565
+msgid "Tvorba a zúčtovanie opravných položiek k finančnému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_547000
+#: model:account.group.template,name:l10n_sk.chart_sk_547
+msgid "Tvorba a zúčtovanie opravných položiek k pohľadávkam"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_505000
+#: model:account.group.template,name:l10n_sk.chart_sk_505
+msgid "Tvorba a zúčtovanie opravných položiek k zásobám"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_032000
+#: model:account.group.template,name:l10n_sk.chart_sk_032
+msgid "Umelecké diela a zbierky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_7
+msgid "Uzávierkové účty a podsúvahové účty"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_252000
+#: model:account.group.template,name:l10n_sk.chart_sk_252
+msgid "Vlastné akcie a vlastné obchodné podiely"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_255000
+#: model:account.group.template,name:l10n_sk.chart_sk_255
+msgid "Vlastné dlhopisy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_491000
+#: model:account.group.template,name:l10n_sk.chart_sk_491
+msgid "Vlastné imanie fyzickej osoby - podnikateľa"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_395000
+#: model:account.group.template,name:l10n_sk.chart_sk_395
+msgid "Vnútorné zúčtovanie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_473000
+#: model:account.group.template,name:l10n_sk.chart_sk_473
+msgid "Vydané dlhopisy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_241000
+#: model:account.group.template,name:l10n_sk.chart_sk_241
+msgid "Vydané krátkodobé dlhopisy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_383000
+#: model:account.group.template,name:l10n_sk.chart_sk_383
+msgid "Výdaje budúcich období"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_6
+msgid "Výnosy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_384000
+#: model:account.group.template,name:l10n_sk.chart_sk_384
+msgid "Výnosy budúcich období"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_667000
+#: model:account.group.template,name:l10n_sk.chart_sk_667
+msgid "Výnosy z derivátových operácií"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_665000
+#: model:account.group.template,name:l10n_sk.chart_sk_665
+msgid "Výnosy z dlhodobého finančného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_666000
+#: model:account.group.template,name:l10n_sk.chart_sk_666
+msgid "Výnosy z krátkodobého finančného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_607000
+#: model:account.group.template,name:l10n_sk.chart_sk_607
+msgid "Výnosy z nehnuťelnosti na predaj"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_646000
+#: model:account.group.template,name:l10n_sk.chart_sk_646
+msgid "Výnosy z odpísaných pohľadávok"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_664000
+#: model:account.group.template,name:l10n_sk.chart_sk_664
+msgid "Výnosy z precenenia cenných papierov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_606000
+#: model:account.group.template,name:l10n_sk.chart_sk_606
+msgid "Výnosy za zákazky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_123000
+#: model:account.group.template,name:l10n_sk.chart_sk_123
+msgid "Výrobky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_43
+msgid "Výsledok hospodárania"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_431000
+#: model:account.group.template,name:l10n_sk.chart_sk_431
+msgid "Výsledok hospodárenia v schvaľovaní"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_71
+msgid "Výsledovkový uzávierkový účet"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_421000
+#: model:account.group.template,name:l10n_sk.chart_sk_421
+msgid "Zakonný rezervný fond"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_331000
+#: model:account.group.template,name:l10n_sk.chart_sk_331
+msgid "Zamestnanci"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_711000
+#: model:account.group.template,name:l10n_sk.chart_sk_711
+msgid "Začiatočný účet nákladov a výnosov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_701000
+#: model:account.group.template,name:l10n_sk.chart_sk_701
+msgid "Začiatočný účet súvahový"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_611000
+#: model:account.group.template,name:l10n_sk.chart_sk_611
+msgid "Zmena stavu nedokončenej výroby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_612000
+#: model:account.group.template,name:l10n_sk.chart_sk_612
+msgid "Zmena stavu polotovarov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_613000
+#: model:account.group.template,name:l10n_sk.chart_sk_613
+msgid "Zmena stavu výrobkov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_614000
+#: model:account.group.template,name:l10n_sk.chart_sk_614
+msgid "Zmena stavu zvierat"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_312000
+#: model:account.group.template,name:l10n_sk.chart_sk_312
+msgid "Zmenky na inkaso"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_322000
+#: model:account.group.template,name:l10n_sk.chart_sk_322
+msgid "Zmenky na úhradu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_61
+msgid "Zmeny stavu vnútroorganizačných zásob"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_419000
+#: model:account.group.template,name:l10n_sk.chart_sk_419
+msgid "Zmeny základného imania"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_544000
+#: model:account.account.template,name:l10n_sk.chart_sk_644000
+#: model:account.group.template,name:l10n_sk.chart_sk_544
+#: model:account.group.template,name:l10n_sk.chart_sk_644
+msgid "Zmluvné pokuty, penále a úroky z omeškania"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_541000
+#: model:account.group.template,name:l10n_sk.chart_sk_541
+msgid ""
+"Zostatková cena predaného dlhodobého nehmotného majetku a dlhodobého "
+"hmotného majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_124000
+#: model:account.group.template,name:l10n_sk.chart_sk_124
+msgid "Zvieratá"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_411000
+#: model:account.group.template,name:l10n_sk.chart_sk_411
+msgid "Základné imanie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_41
+msgid "Základné imanie a kapitálové fondy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_026000
+#: model:account.group.template,name:l10n_sk.chart_sk_026
+msgid "Základné stádo a ťažné zvieratá"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_527000
+#: model:account.group.template,name:l10n_sk.chart_sk_527
+msgid "Zákonné sociálne náklady"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_524000
+#: model:account.group.template,name:l10n_sk.chart_sk_524
+msgid "Zákonné sociálne poistenie"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_417000
+#: model:account.group.template,name:l10n_sk.chart_sk_417
+msgid "Zákonný rezervný fond z kapitálových vkladov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_1
+msgid "Zásoby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_12
+msgid "Zásoby vlastnej výroby"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_32
+msgid "Záväzky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_361000
+#: model:account.group.template,name:l10n_sk.chart_sk_361
+msgid "Záväzky v rámci konsolidovaného celku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_36
+msgid "Záväzky voči spoločníkom a združeniu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_364000
+#: model:account.group.template,name:l10n_sk.chart_sk_364
+msgid "Záväzky voči spoločníkom a členom pri rozdeľovaní zisku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_366000
+#: model:account.group.template,name:l10n_sk.chart_sk_366
+msgid "Záväzky voči spoločníkom a členom zo závislej činnosti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_368000
+#: model:account.group.template,name:l10n_sk.chart_sk_368
+msgid "Záväzky voči účastníkom združenia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_372000
+#: model:account.group.template,name:l10n_sk.chart_sk_372
+msgid "Záväzky z kúpy podniku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_474000
+#: model:account.group.template,name:l10n_sk.chart_sk_474
+msgid "Záväzky z nájmu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_367000
+#: model:account.group.template,name:l10n_sk.chart_sk_367
+msgid "Záväzky z upísaných nesplatených cenných papierov a vkladov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_472000
+#: model:account.group.template,name:l10n_sk.chart_sk_472
+msgid "Záväzky zo sociálneho fondu"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_3
+msgid "Zúčtovacie vzťahy"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_34
+msgid "Zúčtovanie daní a dotácií"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_555000
+#: model:account.account.template,name:l10n_sk.chart_sk_655000
+#: model:account.group.template,name:l10n_sk.chart_sk_555
+#: model:account.group.template,name:l10n_sk.chart_sk_655
+msgid "Zúčtovanie komplexných nákladov budúcich období"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_65
+msgid "Zúčtovanie niektorých položiek z hospodárskej činnosti"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_557000
+#: model:account.group.template,name:l10n_sk.chart_sk_557
+msgid "Zúčtovanie oprávky k opravnej položke k nadobudnutému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_657000
+#: model:account.group.template,name:l10n_sk.chart_sk_657
+msgid "Zúčtovanie oprávky opravnej položke k nadobudnutému majetku"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_336000
+#: model:account.group.template,name:l10n_sk.chart_sk_336
+msgid "Zúčtovanie s orgánmi sociálneho zabezpečenia a zdravotného poistenia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_33
+msgid ""
+"Zúčtovanie so zamestnancami a orgánmi sociálneho poistenia a zdravotného "
+"poistenia"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_562000
+#: model:account.account.template,name:l10n_sk.chart_sk_662000
+#: model:account.group.template,name:l10n_sk.chart_sk_562
+#: model:account.group.template,name:l10n_sk.chart_sk_662
+msgid "Úroky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_710000
+#: model:account.group.template,name:l10n_sk.chart_sk_710
+msgid "Účet ziskov a strát"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_22
+msgid "Účty v bankách"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.group.template,name:l10n_sk.chart_sk_38
+msgid "Časové rozlíšenie nákladov a výnosov"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_316000
+#: model:account.group.template,name:l10n_sk.chart_sk_316
+msgid "Čistá hodnota zákazky"
+msgstr ""
+
+#. module: l10n_sk
+#: model:account.account.template,name:l10n_sk.chart_sk_423000
+#: model:account.group.template,name:l10n_sk.chart_sk_423
+msgid "Štatutárne fondy"
+msgstr ""

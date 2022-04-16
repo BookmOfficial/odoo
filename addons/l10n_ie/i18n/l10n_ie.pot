@@ -1,0 +1,696 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ie
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:27+0000\n"
+"PO-Revision-Date: 2022-04-15 22:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7601
+msgid "Accounting"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2109
+msgid "Accruals"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7010
+msgid "Admin gross salaries"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7602
+msgid "Auditing"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2150
+msgid "Bad debt provision"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7850
+msgid "Bad debts"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a4900
+msgid "Bank Interest received"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7910
+msgid "Bank, credit card and other financial charges"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7508
+msgid "Books"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9997
+msgid "Called up share capital"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7301
+msgid "Car fuel"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7300
+msgid "Car hire"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7302
+msgid "Car maintenance"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a1240
+msgid "Company Credit Card"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7610
+msgid "Consultancy"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2320
+msgid "Corporation Tax"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a8800
+msgid "Corporation tax expense"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9995
+msgid "Cost of sales 1"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a5001
+msgid "Cost of sales 2"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a5002
+msgid "Cost of sales 3"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a5003
+msgid "Cost of sales 4"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9998
+msgid "Creditors Control Account"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9999
+msgid "Debtors Control Account"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9990
+msgid "Debtors Control Account (PoS)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9993
+msgid "Directors pension"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7001
+msgid "Directors remuneration"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a6020
+msgid "Distribution salaries and wages"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a6010
+msgid "Distribution vehicles"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a8200
+msgid "Donations"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7012
+msgid "Employers NIC"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a8300
+msgid "Entertaining"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7700
+msgid "Exchange gains/losses"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt2
+msgid "Exempt purchases (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_st2
+msgid "Exempt sales (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a6001
+msgid "Exhibitions and events"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a1003
+msgid "Finished Goods"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a30
+msgid "Fixtures and fittings"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a31
+msgid "Fixtures and fittings Depreciation"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2310
+msgid "Hire Purchase"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a8400
+msgid "Insurance"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a8000
+msgid "Intangible assets depn"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7900
+msgid "Interest paid"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7503
+msgid "Internet & hosting"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a4910
+msgid "Investment Interest received"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.chart.template,name:l10n_ie.l10n_ie
+msgid "Ireland - Chart of Accounts"
+msgstr ""
+
+#. module: l10n_ie
+#: model:ir.ui.menu,name:l10n_ie.account_reports_ie_statements_menu
+msgid "Irish Statements"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a40
+msgid "Land and buildings"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a41
+msgid "Land and buildings Depreciation"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7620
+msgid "Legal and professional charges"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7110
+msgid "Light, heat and power"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2300
+msgid "Loans"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt6
+msgid "Lower rate purchases (4.8%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt9
+msgid "Lower rate purchases (9%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_st6
+msgid "Lower rate sale (4.8%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_st9
+msgid "Lower rate sale (9%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7011
+msgid "Management gross salaries"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2204
+msgid "Manual Adjustments ﾖ VAT"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9994
+msgid "Marketing, POS"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7504
+msgid "Mobiles"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2330
+msgid "Mortgages"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a50
+msgid "Motor vehicles"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a51
+msgid "Motor vehicles Depreciation"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2220
+msgid "Net Wages"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7509
+msgid "Network costs"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7506
+msgid "Office consumables"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a60
+msgid "Office equipment (inc computer equipment)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a61
+msgid "Office equipment (inc computer equipment) Depreciation"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2102
+msgid "Other Creditors"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a1102
+msgid "Other Debtors"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7513
+msgid "Other admin expenses"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7511
+msgid "Other computer costs"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a3030
+msgid "Other reserves"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7710
+msgid "Other sundry expenses"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2210
+msgid "PAYE"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a6002
+msgid "PR"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2250
+msgid "PRSI Employee"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2260
+msgid "PRSI Employer"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt0
+msgid "PT0"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt1
+msgid "PT1"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt11
+msgid "PT11"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt2
+msgid "PT2"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt6
+msgid "PT6"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt7
+msgid "PT7"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt8
+msgid "PT8"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_pt9
+msgid "PT9"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a20
+msgid "Patents & Trademarks"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a21
+msgid "Patents & Trademarks Depreciation"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2230
+msgid "Pension Fund"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a70
+msgid "Plant and machinery"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a71
+msgid "Plant and machinery Depreciation"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7507
+msgid "Postage and Carriage"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a1103
+msgid "Prepayments"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9000
+msgid "Profits/Losses on disposals of assets"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2201
+msgid "Purchase Tax Control Account"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7512
+msgid "Recruitment fees"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9992
+msgid "Rent and rates"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7120
+msgid "Repairs, renewals and maintenance"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a3020
+msgid "Revaluation reserve"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2202
+msgid "Revenue VAT Account"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_st0
+msgid "ST0"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_st1
+msgid "ST1"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_st11
+msgid "ST11"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_st2
+msgid "ST2"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_st4
+msgid "ST4"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_st6
+msgid "ST6"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,description:l10n_ie.l10n_ie_tax_st9
+msgid "ST9"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2200
+msgid "Sales Tax Control Account"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a9996
+msgid "Sales category 1"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a4001
+msgid "Sales category 2"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a4002
+msgid "Sales category 3"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a4003
+msgid "Sales category 4"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_st4
+msgid "Sales to customers in EU (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a3010
+msgid "Share premium account"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a6030
+msgid "Shipping"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a10
+msgid "Software"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a11
+msgid "Software Depreciation"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7510
+msgid "Software expenses"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt1
+msgid "Standard rate purchases (13.5%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt11
+msgid "Standard rate purchases (23%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_st1
+msgid "Standard rate sales (13.5%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_st11
+msgid "Standard rate sales (23%) (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt8
+msgid "Standard rated purchases from EU (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7505
+msgid "Stationery"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a1001
+msgid "Stock"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7020
+msgid "Subcontractors payments"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2101
+msgid "Sundry Creditors"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a1101
+msgid "Sundry Debtors"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a8001
+msgid "Tangible assets depn"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a7502
+msgid "Telephone"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a8500
+msgid "Travel and subsistence"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a2240
+msgid "Universal Social Charge USC"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.account.template,name:l10n_ie.l10n_ie_a1002
+msgid "Work in Progress"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt0
+msgid "Zero rated purchases (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_pt7
+msgid "Zero rated purchases from EU (IE)"
+msgstr ""
+
+#. module: l10n_ie
+#: model:account.tax.template,name:l10n_ie.l10n_ie_tax_st0
+msgid "Zero rated sales (IE)"
+msgstr ""

@@ -1,0 +1,927 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_za
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:39+0000\n"
+"PO-Revision-Date: 2022-04-15 22:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_za
+#: model:account.tax.template,description:l10n_za.PT14
+#: model:account.tax.template,description:l10n_za.PT14A
+#: model:account.tax.template,description:l10n_za.PT15
+#: model:account.tax.template,description:l10n_za.PT15A
+#: model:account.tax.template,description:l10n_za.PT16
+#: model:account.tax.template,description:l10n_za.PT17
+#: model:account.tax.template,description:l10n_za.PT18
+#: model:account.tax.template,description:l10n_za.ST1
+#: model:account.tax.template,description:l10n_za.ST10
+#: model:account.tax.template,description:l10n_za.ST12
+#: model:account.tax.template,description:l10n_za.ST1A
+#: model:account.tax.template,description:l10n_za.ST5
+#: model:account.tax.template,description:l10n_za.ST7
+msgid "15%"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.ST5
+msgid "Accommodation (28+ days)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.ST7
+msgid "Accommodation (Under 28 days)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610300
+msgid "Accounting"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200040
+msgid "Accruals"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610310
+msgid "Auditing"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.PT17
+msgid "Bad Debts"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200050
+msgid "Bad debt provision"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610360
+msgid "Bad debts"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610380
+msgid "Bank Charges"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500050
+msgid "Bank Interest received"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610240
+msgid "Books"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.300010
+msgid "Called up share capital"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.300050
+msgid "Capital"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.PT14A
+msgid "Capital Goods Imported"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610160
+msgid "Car fuel"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610150
+msgid "Car hire"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610170
+msgid "Car maintenance"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.126010
+msgid "Cash In Hand"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610460
+msgid "Cash Register Gains/Losses"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.PT16
+msgid "Change in Use"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.210010
+msgid "Company Credit Card"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610320
+msgid "Consultancy"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.220060
+msgid "Corporation Tax"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610430
+msgid "Corporation tax expense"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.600010
+msgid "Cost of sales 1"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.600020
+msgid "Cost of sales 2"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.600030
+msgid "Cost of sales 3"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.600040
+msgid "Cost of sales 4"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.124010
+msgid "Credit Card Merchant Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.220010
+msgid "Creditors Control Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.110010
+msgid "Debtors Control Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.110030
+msgid "Debtors Control Account (PoS)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610070
+msgid "Directors pension"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610080
+msgid "Directors remuneration"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610050
+msgid "Distribution salaries and wages"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610040
+msgid "Distribution vehicles"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.300060
+msgid "Dividends"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610390
+msgid "Donations"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.300070
+msgid "Drawings"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610100
+msgid "Employers SDL & UIF"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610400
+msgid "Entertaining"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610340
+msgid "Exchange gains/losses"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.ST3
+msgid "Exempt and Non-Supplies"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610020
+msgid "Exhibitions and events"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.ST10
+msgid "Export of Second-hand Goods/ Change in Use"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.140030
+msgid "Fixtures & Fittings"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.620030
+msgid "Fixtures and fittings Depreciation"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610440
+msgid "Foreign Exchange Gains/Losses"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.PT15A
+msgid "Goods and Services Imported"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610090
+msgid "Gross Salaries"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200090
+msgid "Hire Purchase"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610410
+msgid "Insurance"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610370
+msgid "Interest paid"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610190
+msgid "Internet & hosting"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500060
+msgid "Investment Interest received"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.140040
+msgid "Land & Buildings"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.620040
+msgid "Land and buildings Depreciation"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610330
+msgid "Legal and professional charges"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610130
+msgid "Light / heat and power"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.default_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200080
+msgid "Loans"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200070
+msgid "Manual Adjustments & VAT"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610010
+msgid "Marketing"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610200
+msgid "Mobiles"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200100
+msgid "Mortgages"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.140050
+msgid "Motor Vehicles"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.620050
+msgid "Motor vehicles Depreciation"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.220040
+msgid "Net Wages"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610250
+msgid "Network costs"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.150010
+msgid "Non-current assets"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.140060
+msgid "Office Equipment (incl computer equipment)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610220
+msgid "Office consumables"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.620060
+msgid "Office equipment (inc computer equipment) Depreciation"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.PT18
+msgid "Other Adjustments"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200030
+msgid "Other Creditors"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.100070
+msgid "Other Current Assets"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.510010
+msgid "Other Income"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610290
+msgid "Other admin expenses"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610270
+msgid "Other computer costs"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.300040
+msgid "Other reserves"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610350
+msgid "Other sundry expenses"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.220030
+msgid "P.A.Y.E. & UIF"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610030
+msgid "PR"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_PT14
+msgid "PT14"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_PT14A
+msgid "PT14A"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_PT15
+msgid "PT15"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_PT15A
+msgid "PT15A"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_PT16
+msgid "PT16"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_PT17
+msgid "PT17"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_PT18
+msgid "PT18"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.140020
+msgid "Patents & Trademarks"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.620020
+msgid "Patents & Trademarks Depreciation"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.220050
+msgid "Pension Fund"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.140070
+msgid "Plant & Machinery"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.620070
+msgid "Plant and machinery Depreciation"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610230
+msgid "Postage and Carriage"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.130010
+msgid "Prepayments"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610450
+msgid "Price Differences Control Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500070
+msgid "Profits/Losses on disposals of assets"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.100060
+msgid "Purchase Tax Control Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610280
+msgid "Recruitment fees"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610120
+msgid "Rent and rates"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500080
+msgid "Rental Income"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610140
+msgid "Repairs and maintenance"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.300030
+msgid "Revaluation reserve"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.220020
+msgid "SARS - VAT Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST1
+msgid "ST1"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST10
+msgid "ST10"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST12
+msgid "ST12"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST1A
+msgid "ST1A"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST2
+msgid "ST2"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST2A
+msgid "ST2A"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST3
+msgid "ST3"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST5
+msgid "ST5"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.tag,name:l10n_za.tag_ST7
+msgid "ST7"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200060
+msgid "Sales Tax Control Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500010
+msgid "Sales category 1"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500020
+msgid "Sales category 2"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500030
+msgid "Sales category 3"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.500040
+msgid "Sales category 4"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.300020
+msgid "Share premium account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610060
+msgid "Shipping"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.140010
+msgid "Software"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.620010
+msgid "Software Depreciation"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610260
+msgid "Software expenses"
+msgstr ""
+
+#. module: l10n_za
+#: model:ir.ui.menu,name:l10n_za.account_reports_za_statements_menu
+msgid "South Africa"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.chart.template,name:l10n_za.default_chart_template
+msgid "South African Tax and Account Chart Template (by Paradigm Digital)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.PT15
+#: model:account.tax.template,name:l10n_za.ST1
+msgid "Standard Rate"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.PT14
+#: model:account.tax.template,name:l10n_za.ST1A
+msgid "Standard Rate (Capital Goods)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610210
+msgid "Stationery"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.100050
+msgid "Stock Delivered Control Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.100040
+msgid "Stock Finished Goods"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200010
+msgid "Stock Received Control Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.100020
+msgid "Stock Valuation Account"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.100030
+msgid "Stock Work In Progress"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610110
+msgid "Subcontractors payments"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.200020
+msgid "Sundry Creditors"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.110020
+msgid "Sundry Debtors"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610180
+msgid "Telephone"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.610420
+msgid "Travel and subsistence"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.account.template,name:l10n_za.400010
+msgid "Undistributed Profits/Losses"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.group,name:l10n_za.tax_group_0
+msgid "VAT 0%"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.group,name:l10n_za.tax_group_1
+msgid "VAT 15%"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.ST12
+msgid "VAT Adjustments and Manual VAT"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.vat_on_accomodation_exceeding_28_days
+#: model:account.tax.report.line,tag_name:l10n_za.vat_on_accomodation_exceeding_28_days
+msgid "VAT on Accomodation exceeding 28 days"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.vat_on_accomodation_under_28_days
+#: model:account.tax.report.line,tag_name:l10n_za.vat_on_accomodation_under_28_days
+msgid "VAT on Accomodation under 28 days"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.ST2
+msgid "Zero Rate"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.template,name:l10n_za.ST2A
+msgid "Zero Rate Exports"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.second_hand_goods_export
+msgid "[10] Base Amount: Change in use and export of second-hand goods"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.vat_plus_base_of_second_hand_goods_export
+#: model:account.tax.report.line,tag_name:l10n_za.second_hand_goods_export
+msgid "[10] Change in use and export of second-hand goods"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.vat_on_second_hand_goods_export
+#: model:account.tax.report.line,tag_name:l10n_za.vat_on_second_hand_goods_export
+msgid "[11] x 15 / (100 + 15)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.other_imported_services
+#: model:account.tax.report.line,tag_name:l10n_za.other_imported_services
+msgid "[12] Other and imported services"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.total_output_tax
+msgid "[13] Total A: TOTAL OUTPUT TAX (4 + 4A + 9 + 11 + 12)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.capital_goods_imported
+#: model:account.tax.report.line,tag_name:l10n_za.capital_goods_imported
+msgid "[14A] Capital Goods imported by you"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.capital_goods_services_supplied
+#: model:account.tax.report.line,tag_name:l10n_za.capital_goods_services_supplied
+msgid "[14] Capital Goods and/or services supplied to you"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.other_goods_imported
+#: model:account.tax.report.line,tag_name:l10n_za.other_goods_imported
+msgid "[15A] Other goods imported by you (not Capital Goods)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.other_goods_services_supplied
+#: model:account.tax.report.line,tag_name:l10n_za.other_goods_services_supplied
+msgid "[15] Other goods and/or services supplied to you (not Capital Goods)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.change_in_use
+#: model:account.tax.report.line,tag_name:l10n_za.change_in_use
+msgid "[16] Change in Use"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.bad_debts
+#: model:account.tax.report.line,tag_name:l10n_za.bad_debts
+msgid "[17] Bad Debts"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.others
+#: model:account.tax.report.line,tag_name:l10n_za.others
+msgid "[18] Other"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.total_input_tax
+msgid "[19] Total B: TOTAL INPUT TAX (14 + 14A + 15 + 16 + 17 + 18)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.standard_rate_only_capital_goods_service
+#: model:account.tax.report.line,tag_name:l10n_za.standard_rate_only_capital_goods_service
+msgid "[1A] Standard Rate (Only Capital goods and/or services)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.standard_rate_exclude_capital_goods_service
+#: model:account.tax.report.line,tag_name:l10n_za.standard_rate_exclude_capital_goods_service
+msgid ""
+"[1] Standard Rate (Excluding Capital goods and/or services and accomodation)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.total_vat_payable
+msgid "[20] VAT PAYABLE/REFUNDABLE (Total A - Total B)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.zero_rate_only_goods_exported
+#: model:account.tax.report.line,tag_name:l10n_za.zero_rate_only_goods_exported
+msgid "[2A] Zero Rate (Only goods exported)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.zero_rate_exclude_goods_exported
+#: model:account.tax.report.line,tag_name:l10n_za.zero_rate_exclude_goods_exported
+msgid "[2] Zero Rate (excluding goods exported)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.exempt_and_non_supplies
+#: model:account.tax.report.line,tag_name:l10n_za.exempt_and_non_supplies
+msgid "[3] Exempt and Non supplies"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.vat_on_standard_rate_only_capital_goods_service
+#: model:account.tax.report.line,tag_name:l10n_za.vat_on_standard_rate_only_capital_goods_service
+msgid "[4A] x 15/ (100 + 15)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.vat_on_standard_rate_exclude_capital_goods_service
+#: model:account.tax.report.line,tag_name:l10n_za.vat_on_standard_rate_exclude_capital_goods_service
+msgid "[4] x 15/ (100 + 15)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.accomodation_exceeding_28_days
+#: model:account.tax.report.line,tag_name:l10n_za.accomodation_exceeding_28_days
+msgid "[5] Accomodation exceeding 28 days"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.accomodation_exceeding_28_days_60_percent
+msgid "[6] x 60%"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.accomodation_under_28_days
+#: model:account.tax.report.line,tag_name:l10n_za.accomodation_under_28_days
+msgid "[7] Accomodation under 28 days"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.accomodation_28_days
+msgid "[8] Total (6 + 7)"
+msgstr ""
+
+#. module: l10n_za
+#: model:account.tax.report.line,name:l10n_za.vat_on_accomodation_28_days
+msgid "[9] x 15 / (100 ??) "
+msgstr ""

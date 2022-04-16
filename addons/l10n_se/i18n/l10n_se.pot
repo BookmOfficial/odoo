@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0+e\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-24 08:49+0000\n"
-"PO-Revision-Date: 2021-12-24 08:49+0000\n"
+"POT-Creation-Date: 2022-04-15 22:37+0000\n"
+"PO-Revision-Date: 2022-04-15 22:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,13 +16,1179 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8252
+msgid "0.00Ränteintäkter från Övriga värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_23
+msgid "Account payables"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_30
+msgid "Accrued expenses and prepaid incomes"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2912
+msgid "Ackordsöverskott"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1019
+msgid "Ackumulerade avskrivningar på balanserade utgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1249
+msgid "Ackumulerade avskrivningar på bilar och andra transportmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1119
+msgid "Ackumulerade avskrivningar på byggnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1259
+msgid "Ackumulerade avskrivningar på datorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1129
+msgid "Ackumulerade avskrivningar på förbättringsutgifter på annans fastighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1079
+msgid "Ackumulerade avskrivningar på goodwill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1069
+msgid "Ackumulerade avskrivningar på hyresrätter, tomträtter och liknande"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1239
+msgid "Ackumulerade avskrivningar på installationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1229
+msgid "Ackumulerade avskrivningar på inventarier och verktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1029
+msgid "Ackumulerade avskrivningar på koncessioner m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1269
+msgid "Ackumulerade avskrivningar på leasade tillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1049
+msgid "Ackumulerade avskrivningar på licenser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1159
+msgid "Ackumulerade avskrivningar på markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1219
+msgid "Ackumulerade avskrivningar på maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1039
+msgid "Ackumulerade avskrivningar på patent"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1059
+msgid "Ackumulerade avskrivningar på varumärken"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1299
+msgid "Ackumulerade avskrivningar på övriga materiella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1334
+msgid "Ackumulerade nedskrivningar av andelar i gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1332
+msgid "Ackumulerade nedskrivningar av andelar i intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1338
+msgid ""
+"Ackumulerade nedskrivningar av andelar i intresseföretag, gemensamt styrda "
+"företag och övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1318
+msgid "Ackumulerade nedskrivningar av andelar i koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1337
+msgid ""
+"Ackumulerade nedskrivningar av andelar i övriga företag som det finns ett "
+"ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1358
+msgid "Ackumulerade nedskrivningar av andra andelar och värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1389
+msgid "Ackumulerade nedskrivningar av andra långfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1360
+msgid ""
+"Ackumulerade nedskrivningar av lån till delägare eller närstående enligt "
+"ABL, långfristig del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1344
+msgid ""
+"Ackumulerade nedskrivningar av långfristiga fordringar hos gemensamt styrda "
+"företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1342
+msgid ""
+"Ackumulerade nedskrivningar av långfristiga fordringar hos intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1348
+msgid ""
+"Ackumulerade nedskrivningar av långfristiga fordringar hos intresseföretag, "
+"gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1328
+msgid ""
+"Ackumulerade nedskrivningar av långfristiga fordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1347
+msgid ""
+"Ackumulerade nedskrivningar av långfristiga fordringar hos övriga företag "
+"som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1018
+msgid "Ackumulerade nedskrivningar på balanserade utgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1248
+msgid "Ackumulerade nedskrivningar på bilar och andra transportmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1118
+msgid "Ackumulerade nedskrivningar på byggnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1258
+msgid "Ackumulerade nedskrivningar på datorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1078
+msgid "Ackumulerade nedskrivningar på goodwill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1068
+msgid "Ackumulerade nedskrivningar på hyresrätter, tomträtter och liknande"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1238
+msgid "Ackumulerade nedskrivningar på installationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1228
+msgid "Ackumulerade nedskrivningar på inventarier och verktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1028
+msgid "Ackumulerade nedskrivningar på koncessioner m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1048
+msgid "Ackumulerade nedskrivningar på licenser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1158
+msgid "Ackumulerade nedskrivningar på markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1218
+msgid ""
+"Ackumulerade nedskrivningar på maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1038
+msgid "Ackumulerade nedskrivningar på patent"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1058
+msgid "Ackumulerade nedskrivningar på varumärken"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1298
+msgid "Ackumulerade nedskrivningar på övriga materiella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2150
+msgid "Ackumulerade överavskrivningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2152
+msgid "Ackumulerade överavskrivningar på byggnader lch markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2151
+msgid "Ackumulerade överavskrivningar på immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2153
+msgid "Ackumulerade överavskrivningar på maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_22
+msgid "Advances from customers"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6580
+msgid "Advokat- och rättegångskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2081
+msgid "Aktiekapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1311
+msgid "Aktier i noterade svenska koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1313
+msgid "Aktier i noterade ütlandska koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1312
+msgid "Aktier i onoterade svenska koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1314
+msgid "Aktier i onoterade ütlandska koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8480
+msgid "Aktiverade ränteutgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3840
+msgid "Aktiverat arbete (material)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3850
+msgid "Aktiverat arbete (omkostnader)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3870
+msgid "Aktiverat arbete (personal)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3800
+msgid "Aktiverat arbete för egen räkning (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1810
+msgid "Andel i börsnoterade företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1353
+msgid "Andelar i bostadsrättsföreningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1356
+msgid "Andelar i ekonomiska föreningar, övriga företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1333
+msgid "Andelar i gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1357
+msgid "Andelar i handelsbolag, andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1331
+msgid "Andelar i intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1330
+msgid ""
+"Andelar i intresseföretag, gemensamt styrda företag och övriga företag som "
+"det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1310
+msgid "Andelar i koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1860
+msgid "Andelar i koncernföretag, kortfristigt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1351
+msgid "Andelar i noterade företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1889
+msgid "Andelar i övriga företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1336
+msgid "Andelar i övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1350
+msgid "Andelar och värdepapper i andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1352
+msgid "Andra andelar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1316
+msgid "Andra andelar i svenska koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1317
+msgid "Andra andelar i ütlandska koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1680
+msgid "Andra kortfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2410
+msgid "Andra kortfristiga låneskulder till kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1880
+msgid "Andra kortfristiga placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1380
+msgid "Andra långfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2395
+msgid "Andra långfristiga lån i utländsk valuta"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2350
+msgid "Andra långfristiga skulder till kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1213
+msgid "Andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2499
+msgid "Andra övriga kortfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5910
+msgid "Annonsering"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7388
+msgid "Anställdas ersättning för erhållna förmåner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2852
+msgid "Anståndsbelopp för moms, arbetsgivaravgifter och personalskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7511
+msgid "Arbetsgivaravgift för löner och ersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7510
+msgid "Arbetsgivaravgifter 31.42%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7512
+msgid "Arbetsgivaravgifter för förmånsvärden"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7519
+msgid "Arbetsgivaravgifter för semester- och löneskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7516
+msgid "Arbetsgivaravgifter på arvoden"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7518
+msgid "Arbetsgivaravgifter på bruttolöneavdrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7515
+msgid "Arbetsgivaravgifter på skattepliktiga kostnadsersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5480
+msgid "Arbetskläder och skyddsmaterial"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7571
+msgid "Arbetsmarknadsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7572
+msgid ""
+"Arbetsmarknadsförsäkringar pensionsförsäkringspremier, deklarationspost"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1244
+msgid "Arbetsmaskiner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5730
+msgid "Arbetstransporter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3912
+msgid "Arrendeintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2391
+msgid "Avbetalningskontrakt, långfristiga del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7430
+msgid "Avdrag för räntedel i pensionskostnad"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7227
+msgid "Avgångsvederlag till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7017
+msgid "Avgångsvederlag till kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7037
+msgid "Avgångsvederlag till kollektivanställda (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7217
+msgid "Avgångsvederlag till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7237
+msgid "Avgångsvederlag till tjänstemän (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7551
+msgid ""
+"Avkastningsskatt 15% försäkringsföretag m. lf. samt avsatt till pensioner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7552
+msgid "Avkastningsskatt 15% utländska pensionsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7553
+msgid "Avkastningsskatt 30% utländska försäkringsföretag m. fl."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7554
+msgid "Avkastningsskatt 30% utländska kapitalförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8255
+msgid "Avkastningsskatt kapitalplacering"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7550
+msgid "Avkastningsskatt på pensionsmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2830
+msgid "Avräkning för annans räkning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2812
+msgid "Avräkning för belånade kontraktsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2811
+msgid "Avräkning för factoring"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2810
+msgid "Avräkning för factoring och belånade kontraktsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1630
+#: model:account.account.template,name:l10n_se.a2850
+msgid "Avräkning för skatter och avgifter (skattekonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2731
+msgid "Avräkning lagstadgade sociala avgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2761
+msgid "Avräkning semesterlöner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2491
+msgid "Avräkning spelarrangörer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2732
+msgid "Avräkning särskild löneskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7810
+msgid "Avskrivningar av immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7830
+msgid "Avskrivningar maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7811
+msgid "Avskrivningar på balanserade utgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7834
+msgid "Avskrivningar på bilar och nadra transportmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7821
+msgid "Avskrivningar på byggnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7820
+msgid "Avskrivningar på byggnader och markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7835
+msgid "Avskrivningar på datorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7840
+msgid "Avskrivningar på förbättringsutgifter på annans fastighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7817
+msgid "Avskrivningar på goodwill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7816
+msgid "Avskrivningar på hyresrätter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7833
+msgid "Avskrivningar på installationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7832
+msgid "Avskrivningar på inventarier och verktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7812
+msgid "Avskrivningar på koncessioner m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7836
+msgid "Avskrivningar på leasade tillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7814
+msgid "Avskrivningar på licenser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7824
+msgid "Avskrivningar på markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7831
+msgid "Avskrivningar på maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7813
+msgid "Avskrivningar på patent"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7815
+msgid "Avskrivningar på varumärken"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7829
+msgid "Avskrivningar på övriga byggnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7819
+msgid "Avskrivningar på övriga immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7839
+msgid "Avskrivningar på övriga maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8862
+msgid "Avsättning till ersättningsfond för byggnader och markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8864
+msgid ""
+"Avsättning till ersättningsfond för djurlager i jordbruk och renskötsel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8861
+msgid "Avsättning till ersättningsfond för inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2050
+msgid "Avsättning till expansionsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7441
+msgid "Avsättning till pensionsstiftelse"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8811
+msgid "Avsättning till periodiseringsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7671
+msgid "Avsättning till personalstiftelse"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2220
+msgid "Avsättningar för garantier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2210
+msgid "Avsättningar för pensioner enligt tryggandelagen"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2252
+msgid "Avsättningar för tvistiga skatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2240
+msgid "Avsättningar för uppskjutna skatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2253
+msgid "Avsättningar särskild löneskatt deklarationspost"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2740
+msgid "Avtalade sociala avgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_12
+msgid "Balanced gain/loss"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2091
+msgid "Balanserad vinst eller förlust"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2067
+msgid "Balanserad vinst eller förlust / Balanserad kapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1012
+msgid "Balanserade utgifter för programvaror"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1011
+msgid "Balanserade utgifter för utveckling"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1950
+msgid "Bankcertifikat"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6080
+msgid "Bankgarantier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6570
+msgid "Bankkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6352
+msgid "Befarade förluster på kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7692
+msgid "Begravningshjälp"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1532
+msgid "Belånade kontraktsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1512
+msgid "Belånade kundfordringar (factoring)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5360
+msgid "Bensin, fotogen och motorbrännolja"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2515
+msgid "Beräknad avkastningsskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2513
+msgid "Beräknad fastighetsskatt/fastighetsavgift"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2439
+msgid "Beräknad förändring av pågående arbeten"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2645
+msgid "Beräknad ingående moms på förvärv från utlandet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2512
+msgid "Beräknad inkomstskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2514
+msgid "Beräknad särskild löneskatt på pensionskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2944
+msgid "Beräknad upplupen avkastningsskatt på pensionskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2942
+msgid "Beräknad upplupen särskild löneskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2943
+msgid ""
+"Beräknad upplupen särskild löneskatt på pensionskostnader, deklarationspost"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2517
+msgid "Beräknad utländsk skatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2991
+msgid "Beräknat arvode för bokslut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2992
+msgid "Beräknat arvode för revision"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_goods_tax_12_NEC
+msgid "Beskattningsunderlag vid import 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_goods_tax_25_NEC
+msgid "Beskattningsunderlag vid import 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_goods_tax_6_NEC
+msgid "Beskattningsunderlag vid import 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2518
+msgid "Betald F-skatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6996
+msgid "Betald utländsk inkomstskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2335
+msgid "Beviljad checkräkningskredit 1"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2336
+msgid "Beviljad checkräkningskredit 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1240
+msgid "Bilar och andra transportmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7330
+msgid "Bilersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5810
+msgid "Biljetter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_sales
+msgid "Block A – Momspliktig försäljning eller uttag exklusive moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_output_vat_sales
+msgid "Block B – Utgående moms på försäljning eller uttag i fält 05–08"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_purchases
+msgid "Block C – Momspliktiga inköp vid omvänd skattskyldighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_output_vat_purchases
+msgid "Block D – Utgående moms på inköp i fält 20–24"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_exempt_sales
+msgid "Block E – Försäljning m.m. som är undantagen från moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_input_vat
+msgid "Block F – Ingående moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_vat_debt_credit
+msgid "Block G – Moms att betala eller få tillbaka"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_imports
+msgid "Block H - moms vid import"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_title_output_vat_imports
+msgid "Block I - Utgående moms på import i fält 50"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6450
+msgid "Bolagsstämma/års- eller föreningsstämma"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_20
+msgid "Bond loans"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7218
+msgid "Bruttolöneavdrag tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7228
+msgid "Bruttolöneavdrag, företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7018
+msgid "Bruttolöneavdrag, kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7038
+msgid "Bruttolöneavdrag, kollektivanställda (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7238
+msgid "Bruttolöneavdrag, tjänstemän och ftgsledare (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2087
+msgid "Bunden överkursfond / Insatsemission"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2080
+msgid "Bundet eget kapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5950
+msgid "Butiksreklam och återförsäljarreklam"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1110
+msgid "Byggnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1111
+msgid "Byggnader på annans mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1112
+msgid "Byggnader på egen mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1222
+msgid "Byggnadsinventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2340
+msgid "Byggnadskreditiv"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2412
+msgid "Byggnadskreditiv, kortfristig del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5670
+msgid "Båt-, flygplans- och helikopterkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1247
+msgid "Båtar, flygplan och helikoptrar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_7
+msgid "Cash and bank accounts"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_15
+msgid "Changes in the equity funds"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_16
+msgid "Changes in the fair value reserves"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,field_description:l10n_se.field_res_partner__l10n_se_check_vendor_ocr
 #: model:ir.model.fields,field_description:l10n_se.field_res_users__l10n_se_check_vendor_ocr
 msgid "Check Vendor OCR"
 msgstr ""
 
 #. module: l10n_se
-#: model:ir.model.fields,field_description:l10n_se.field_account_bank_statement_import_journal_creation__invoice_reference_model
+#: model:account.account.template,name:l10n_se.a2330
+msgid "Checkräkningskredit"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2480
+msgid "Checkräkningskredit, kortfristig"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,field_description:l10n_se.field_account_journal__invoice_reference_model
 msgid "Communication Standard"
 msgstr ""
@@ -38,6 +1204,41 @@ msgid "Contact"
 msgstr ""
 
 #. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6230
+msgid "Datakommunikation"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1250
+msgid "Datorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1251
+msgid "Datorer, företaget"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1257
+msgid "Datorer, personal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2641
+msgid "Debiterad ingående moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2642
+msgid "Debiterad ingående moms i anslutning till frivillig skattskyldighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_37
+msgid "Dedicated funds"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,field_description:l10n_se.field_res_partner__l10n_se_default_vendor_payment_ref
 #: model:ir.model.fields,field_description:l10n_se.field_res_users__l10n_se_default_vendor_payment_ref
 msgid "Default Vendor Payment Ref"
@@ -50,11 +1251,1654 @@ msgid "Default vendor OCR number isn't a valid OCR number."
 msgstr ""
 
 #. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_14
+msgid "Deposits or withdrawals during the year"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1384
+#: model:account.account.template,name:l10n_se.a1683
+#: model:account.account.template,name:l10n_se.a1886
+#: model:account.account.template,name:l10n_se.a2396
+msgid "Derivat"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2895
+msgid "Derivat (kortfristiga skulder)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1292
+msgid "Djur som klassificeras som anläggningstillgång"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1493
+msgid "Djur som klassificeras som omsättningstillgång"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5611
+msgid "Drivmedel för personbilar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8422
+msgid "Dröjsmålsräntor för leverantörsskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2061
+msgid "Eget kapital / stiftelsekapital / grundkapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2060
+msgid ""
+"Eget kapital i ideella föreningar, stiftelser och registrerade trossamfund"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2010
+msgid "Eget kapital, delägare 1"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2020
+msgid "Eget kapital, delägare 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2030
+msgid "Eget kapital, delägare 3"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2040
+msgid "Eget kapital, delägare 4"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2094
+msgid "Egna aktier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6020
+msgid "Egna facktidskrifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3402
+msgid "Egna uttag momspliktiga, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3401
+msgid "Egna uttag momspliktiga, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3403
+msgid "Egna uttag momspliktiga, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3404
+msgid "Egna uttag, momsfria"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2011
+msgid "Egna varuuttag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2421
+msgid "Ej inlösta presentkort"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2082
+msgid "Ej registrerat aktiekapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1518
+msgid "Ej reskontrafördra kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1568
+msgid "Ej reskontrafördra kundfordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2448
+msgid "Ej reskontrafördra leverantörsskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5020
+#: model:account.account.template,name:l10n_se.a5120
+msgid "El för belysning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5310
+msgid "El för drift"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5330
+msgid "Eldningsolja"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8117
+msgid "Emissionsinsats, gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8116
+msgid "Emissionsinsats, intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8016
+msgid "Emissionsinsats, koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8118
+msgid "Emissionsinsats, övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5300
+msgid "Energikostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_13
+msgid "Equity at the start of the financial year"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2093
+msgid "Erhålla aktieägartillskott"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3995
+msgid "Erhållet ackord på skulder av rörelsekaraktär"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8491
+msgid "Erhållet ackord på skulder till kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3981
+msgid "Erhållna EU-bidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4733
+msgid "Erhållna aktivitetsstöd"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3988
+msgid "Erhållna bidrag och ersättningar för"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3993
+msgid "Erhållna donationer och gåvor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4731
+msgid "Erhållna kassarabatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3987
+msgid "Erhållna kommunala bidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4732
+msgid "Erhållna mängdrabatter (inkl. bonus)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3980
+msgid "Erhållna offentliga stöd m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4730
+msgid "Erhållna rabatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3996
+msgid "Erhållna reklambidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8440
+msgid "Erhållna räntebidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3992
+msgid "Erhållna skadestånd"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3985
+msgid "Erhållna statliga bidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7333
+msgid "Ersättning för trängselskatt, skattefri"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7350
+msgid "Ersättningar för föreskrivna arbetskläder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7312
+msgid "Ersättningar för förslagsverksamhet och uppfinningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7311
+msgid "Ersättningar för sammanträden m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7316
+msgid "Ersättningar för/bidrag till arbetskläder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7317
+msgid "Ersättningar för/bidrag till arbetsmaterial och arbetsverktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7313
+msgid "Ersättningar för/bidrag till bostadskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7314
+msgid "Ersättningar för/bidrag till måltidskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7315
+msgid "Ersättningar för/bidrag till resor till och från arbetsplatsen"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6420
+msgid "Ersättningar till revisor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2160
+msgid "Ersättningsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2162
+msgid "Ersättningsfond byggnader och markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2164
+msgid "Ersättningsfond for djurlager i jordbruk och renskötsel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2161
+msgid "Ersättningsfond maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.fiscal.position.template,name:l10n_se.fp_euro_b2b
+msgid "Europaunionen (B2B)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.fiscal.position.template,name:l10n_se.fp_euro_b2c
+msgid "Europaunionen (B2C)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_25
+msgid "Exchange liabilities"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2794
+msgid "Fackföreningsavgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6064
+msgid "Factoringsavgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6362
+msgid "Faktiska garantikostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3563
+msgid "Fakturerad kostnader till andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3562
+msgid "Fakturerad kostnader till dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3570
+msgid ""
+"Fakturerad kostnader till intresseföretag, gemensamt styrda företag och "
+"övriga företag som det finns ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3560
+msgid "Fakturerad kostnader till koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3561
+msgid "Fakturerad kostnader till moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2450
+msgid "Fakturerad men ej upparbetad intäkt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3530
+msgid "Fakturerad tull- och speditionskostnader m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3520
+msgid "Fakturerade frakter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3521
+msgid "Fakturerade frakter, EU-land"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3522
+msgid "Fakturerade frakter, export"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3500
+msgid "Fakturerade kostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3510
+#: model:account.account.template,name:l10n_se.a3511
+msgid "Fakturerat emballage"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3540
+msgid "Faktureringsavgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3541
+msgid "Faktureringsavgifter, EU-land"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3542
+msgid "Faktureringsavgifter, export"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6211
+msgid "Fast telefoni"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5192
+msgid "Fastighetsförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2351
+msgid "Fastighetslån, långfristig del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5191
+msgid "Fastighetsskatt/fastighetsavgift"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5193
+msgid "Fastighetsskötsel och förvaltning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6214
+msgid "Fax"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7318
+msgid "Felräkningspengar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5970
+msgid "Film-, radio-, TV- och Internetreklam"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_3
+msgid "Financial assets"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_33
+msgid "Financial items"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5370
+msgid "Fjärrvärme, kyla och ånga"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2096
+msgid "Fond för verkligt värde"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2088
+msgid "Fond för yttre underhåll"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1688
+msgid "Fordran arbetsmarknadsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1580
+msgid "Fordringar för kontokort och kuponger"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1690
+msgid "Fordringar för tecknat men ej inbetalt aktiekapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5700
+msgid "Frakter och transporter (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5710
+msgid "Frakter, transporter och försäkringar vid varudistribution"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3925
+msgid "Franchiseintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6055
+msgid "Franchisekostnader o.dyl."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2097
+msgid "Fri överkursfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7693
+msgid "Fritidsverksamhet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2090
+msgid "Fritt eget kapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3913
+msgid "Frivilligt momspliktiga hyresintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2089
+msgid "Fund för utvecklingsutgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2095
+msgid "Fusionsresultat"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_05
+msgid ""
+"Fält 05 – Momspliktig försäljning som inte ingår i fält 06, 07 eller 08"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_06
+msgid "Fält 06 – Momspliktiga uttag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_07
+msgid "Fält 07 – Beskattningsunderlag vid vinstmarginalbeskattning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_08
+msgid "Fält 08 – Hyresinkomster vid frivillig skattskyldighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_10
+msgid "Fält 10 – Utgående moms 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_11
+msgid "Fält 11 – Utgående moms 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_12
+msgid "Fält 12 – Utgående moms 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_20
+msgid "Fält 20 – Inköp av varor från annat EU-land"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_21
+msgid "Fält 21 – Inköp av tjänster från ett annat EU-land, enligt huvudregeln"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_22
+msgid "Fält 22 – Inköp av tjänster från länder utanför EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_23
+msgid "Fält 23 – Inköp av varor i Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_24
+msgid "Fält 24 – Övriga inköp av tjänster"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_30
+msgid "Fält 30 – Utgående moms 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_31
+msgid "Fält 31 – Utgående moms 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_32
+msgid "Fält 32 – Utgående moms 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_35
+msgid "Fält 35 – Försäljning av varor till ett annat EU-land"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_36
+msgid "Fält 36 – Försäljning av varor utanför EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_37
+msgid "Fält 37 – Mellanmans inköp av varor vid trepartshandel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_38
+msgid "Fält 38 – Mellanmans försäljning av varor vid trepartshandel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_39
+msgid ""
+"Fält 39 – Försäljning av tjänster till en beskattningsbar person (näringsidkare) i ett\n"
+"                annat EU-land, enligt huvudregeln\n"
+"            "
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_40
+msgid "Fält 40 – Övrig försäljning av tjänster omsatta utanför Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_41
+msgid "Fält 41 – Försäljning när köparen är skattskyldig i Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_42
+msgid "Fält 42 – Övrig försäljning m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_48
+msgid "Fält 48 – Ingående moms att dra av"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_49
+msgid "Fält 49 – Moms att betala eller få tillbaka"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_50
+msgid "Fält 50 - Beskattningsunderlag vid import"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_60
+msgid "Fält 60 – Utgående moms 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_61
+msgid "Fält 61 – Utgående moms 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,name:l10n_se.tax_report_line_62
+msgid "Fält 62 – Utgående moms 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5440
+msgid "Förbrukningsemballage"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5410
+msgid "Förbrukningsinventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5412
+msgid "Förbrukningsinventarier led en livslängd på ett år eller mindre"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5411
+msgid "Förbrukningsinventarier med en livslängd på mer än ett år"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5460
+msgid "Förbrukningsmaterial"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1120
+msgid "Förbättringsutgifter på annans fastighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6980
+msgid "Föreningsavgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6981
+msgid "Föreningsavgifter, avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6982
+msgid "Föreningsavgifter, ej avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6310
+msgid "Företagsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6300
+msgid "Företagsförsäkringar och övriga riskkostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1930
+msgid "Företagskonto/checkkonto/affärskonto"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2084
+msgid "Förlagsinsatser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7972
+msgid "Förlust vid avyttring av byggnader och mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7971
+msgid "Förlust vid avyttring av immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7970
+msgid ""
+"Förlust vid avyttring av immateriella och materiella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7973
+msgid "Förlust vid avyttring av maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6330
+msgid "Förluster i pågående arbeten"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6350
+msgid "Förluster på kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6380
+msgid "Förluster på övriga kortfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2420
+msgid "Förskott från kunder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1188
+msgid "Förskott för byggnader och mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1080
+#: model:account.account.template,name:l10n_se.a1088
+msgid "Förskott för immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1288
+msgid "Förskott för maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1480
+msgid "Förskott för varor och tjänster"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5612
+msgid "Försäkring och skatt för personbilar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3994
+msgid "Försäkringsersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3200
+msgid "Försäljning VMB och omvänd moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3613
+msgid "Försäljning av förbrukningsmaterial"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3610
+msgid "Försäljning av material"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3611
+msgid "Försäljning av råmaterial"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3612
+msgid "Försäljning av skrot"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3308
+msgid "Försäljning av tjänster till annat EU-land"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3305
+msgid "Försäljning av tjänster till land utanför EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3300
+msgid "Försäljning av tjänster utanför Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3100
+msgid "Försäljning av varor utanför EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3671
+msgid "Försäljning av värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3619
+msgid "Försäljning av övrigt material"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3000
+msgid "Försäljning inom Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3002
+msgid "Försäljning inom Sverige, 12 % moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3001
+msgid "Försäljning inom Sverige, 25 % moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3003
+msgid "Försäljning inom Sverige, 6 % moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3004
+msgid "Försäljning inom Sverige, momsfri"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3231
+msgid "Försäljning inom byggsektorn, omvänd skatteskyldighet moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3212
+msgid "Försäljning negativ VMB 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3211
+msgid "Försäljning positiv VMB 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3108
+msgid "Försäljning varor till annat EU-land, momsfri"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3106
+msgid "Försäljning varor till annat EU-land, momspliktig"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3105
+msgid "Försäljning varor till land utanför EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3400
+msgid "Försäljning, egna uttag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6050
+msgid "Försäljningsprovisioner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1730
+msgid "Förutbetalda försäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2971
+msgid "Förutbetalda hyresintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1710
+msgid "Förutbetalda hyreskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2970
+msgid "Förutbetalda intäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1720
+msgid "Förutbetalda leasingavgifter, kortfristig del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2972
+msgid "Förutbetalda medlemsavgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1740
+msgid "Förutbetalda räntekostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7470
+msgid "Förvaltnings-- och kreditförsäkringsavgift"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6400
+msgid "Förvaltningskostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7284
+msgid "Föräldraersättning till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7083
+msgid "Föräldraersättning till kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7283
+msgid "Föräldraersättning till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1479
+msgid "Förändring av Pågående arbete"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8860
+msgid "Förändring av ersättningsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6361
+msgid "Förändring av garantiavsättning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4900
+msgid "Förändring av lager (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1459
+#: model:account.account.template,name:l10n_se.a4950
+msgid "Förändring av lager av färdiga varor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1469
+#: model:account.account.template,name:l10n_se.a4960
+msgid "Förändring av lager av handelsvaror"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1419
+#: model:account.account.template,name:l10n_se.a4910
+msgid "Förändring av lager av råvaror"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1429
+#: model:account.account.template,name:l10n_se.a4920
+msgid "Förändring av lager av tillsatsmaterial och förnödenheter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4980
+msgid "Förändring av lager av värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8896
+msgid "Förändring av lagerreserv"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7420
+msgid "Förändring av pensionsskuld"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7440
+msgid "Förändring av pensionsstiftelse"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8810
+msgid "Förändring av periodiseringsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7670
+msgid "Förändring av personalstiftelsekapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1449
+msgid "Förändring av produkter i arbete"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7090
+#: model:account.account.template,name:l10n_se.a7290
+msgid "Förändring av semesterlöneskuld"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7292
+msgid "Förändring av semesterlöneskuld till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7291
+msgid "Förändring av semesterlöneskuld till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8850
+msgid "Förändring av överavskrivningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8851
+msgid "Förändring av överavskrivningar, immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8852
+msgid "Förändring av överskrivningar, byggnader och markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8853
+msgid "Förändring av överskrivningar, maskiner oh inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2065
+msgid "Förändring i fond för verkligt värde"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4940
+msgid "Förändring produkter i arbete"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4944
+msgid "Förändring produkter i arbete, material och utlägg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4945
+msgid "Förändring produkter i arbete, omkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4947
+msgid "Förändring produkter i arbete, personalkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4974
+msgid "Förändring pågående arbete, material och utlägg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4970
+msgid "Förändring pågående arbete, nedlagda kostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4975
+msgid "Förändring pågående arbete, omkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4977
+msgid "Förändring pågående arbete, personalkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6360
+msgid "Garantikostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5320
+msgid "Gas"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1070
+msgid "Goodwill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7448
+msgid "Gottgörelse från pensionsstiftelse"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7678
+msgid "Gottgörelse från personalstiftelse av personalstiftelsekapital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2793
+#: model:account.account.template,name:l10n_se.a7580
+msgid "Gruppförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7582
+msgid "Gruppjukförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7581
+msgid "Grupplivförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7583
+msgid "Gruppolycksfallsförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5830
+msgid "Host och logi"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1911
+msgid "Huvudkassa"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5200
+msgid "Hyra av anläggningstillgångar (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5220
+#: model:account.account.template,name:l10n_se.a5250
+msgid "Hyra av datorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5210
+msgid "Hyra av maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5012
+msgid "Hyra för garage"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5011
+msgid "Hyra för kontorslokaler"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5013
+msgid "Hyra för lagerlokaler"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5063
+#: model:account.account.template,name:l10n_se.a5163
+msgid "Hyra för sopcontainer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5820
+msgid "Hyrbilskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3910
+msgid "Hyres- och arrendeintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3911
+msgid "Hyresintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1060
+msgid "Hyresrätter, tomträtter och liknande"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6540
+msgid "IT-tjänster"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8866
+msgid "Ianspråktagande av ersättningsfond fr annat än avskrivningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8865
+msgid "Ianspråktagande av ersättningsfond för avskrivningar"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,help:l10n_se.field_res_partner__l10n_se_default_vendor_payment_ref
 #: model:ir.model.fields,help:l10n_se.field_res_users__l10n_se_default_vendor_payment_ref
 msgid ""
 "If set, the vendor uses the same Default Payment Reference or OCR Number on "
 "all their Vendor Bills."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4546
+msgid "Import av varor, 12 % moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4545
+msgid "Import av varor, 25 % moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4547
+msgid "Import av varor, 6 % moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2640
+msgid "Ingående moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_tax_12_goods
+msgid "Ingående moms 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_tax_25_goods
+msgid "Ingående moms 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_tax_6_goods
+msgid "Ingående moms 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_tax_12_services
+msgid "Ingående moms Tjänst 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_tax_25_services
+msgid "Ingående moms Tjänst 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_tax_6_services
+msgid "Ingående moms Tjänst 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2647
+msgid "Ingående moms omvänd skattskyldighet varor och tjänster i Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2646
+msgid "Ingående moms på uthyrning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2649
+#: model:account.account.template,name:l10n_se.a6999
+msgid "Ingående moms, blandad verksamhet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6850
+msgid "Inhyrd IT-personal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6840
+msgid "Inhyrd kontors- och ekonomipersonal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6820
+msgid "Inhyrd lagerpersonal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6860
+msgid "Inhyrd marknads- och försäljningspersonal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6800
+msgid "Inhyrd personal (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6810
+msgid "Inhyrd produktionspersonal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6870
+msgid "Inhyrd restaurang- och butikspersonal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6830
+msgid "Inhyrd transportpersonal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6880
+msgid "Inhyrda företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6062
+msgid "Inkasso och KFM-avgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_services_tax_12_EC
+msgid "Inköp av tjänst EU moms 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_services_tax_25_EC
+msgid "Inköp av tjänst EU moms 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_services_tax_6_EC
+msgid "Inköp av tjänst EU moms 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4536
+msgid "Inköp av tjänster från annat EU-land, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4535
+msgid "Inköp av tjänster från annat EU-land, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4537
+msgid "Inköp av tjänster från annat EU-land, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4538
+msgid "Inköp av tjänster från annat EU-land, momsfri"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4532
+msgid "Inköp av tjänster från ett land utanför EU, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4531
+msgid "Inköp av tjänster från ett land utanför EU, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4533
+msgid "Inköp av tjänster från ett land utanför EU, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_services_tax_12_NEC
+msgid "Inköp av tjänster utanför EU 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_services_tax_25_NEC
+msgid "Inköp av tjänster utanför EU 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_services_tax_6_NEC
+msgid "Inköp av tjänster utanför EU 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_goods_tax_12_EC
+msgid "Inköp av varor EU moms 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_goods_tax_25_EC
+msgid "Inköp av varor EU moms 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_goods_tax_6_EC
+msgid "Inköp av varor EU moms 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4000
+msgid "Inköp av varor från Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4516
+msgid "Inköp av varor från annat EU-land, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4515
+msgid "Inköp av varor från annat EU-land, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4517
+msgid "Inköp av varor från annat EU-land, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4518
+msgid "Inköp av varor från annat EU-land, momsfri"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4426
+msgid "Inköp tjänster i Sverige, omvänd skattskyldighet, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4425
+msgid "Inköp tjänster i Sverige, omvänd skattskyldighet, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4427
+msgid "Inköp tjänster i Sverige, omvänd skattskyldighet, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_construction_services_tax_12_EC
+msgid "Inköpta tjänster i Sverige, omvändskattskyldighet, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_construction_services_tax_25_EC
+msgid "Inköpta tjänster i Sverige, omvändskattskyldighet, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.purchase_construction_services_tax_6_EC
+msgid "Inköpta tjänster i Sverige, omvändskattskyldighet, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4416
+msgid "Inköpta varor i Sverige, omvänd skattskyldighet, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4415
+msgid "Inköpta varor i Sverige, omvänd skattskyldighet, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4417
+msgid "Inköpta varor i Sverige, omvänd skattskyldighet, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2892
+msgid "Inre reparationsfond/underhållsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8216
+msgid "Insatsemissioner, övriga företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1230
+msgid "Installationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1232
+msgid "Installationer på annans fastighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1231
+msgid "Installationer på egen fastighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_1
+msgid "Intangible non-current assets"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3670
+msgid "Intäkter från värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3751
+msgid "Intäktsförda punktskatter (kreditkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3700
+msgid "Intäktskorrigeringar (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1221
+msgid "Inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1220
+msgid "Inventarier och verktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_4
+msgid "Inventory"
 msgstr ""
 
 #. module: l10n_se
@@ -68,7 +2912,1148 @@ msgid "Journal Entry"
 msgstr ""
 
 #. module: l10n_se
-#: model:ir.model.fields,field_description:l10n_se.field_account_bank_statement_import_journal_creation__l10n_se_invoice_ocr_length
+#: model:account.account.template,name:l10n_se.a2324
+msgid "Kapitalandelslån"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1910
+msgid "Kassa"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1912
+msgid "Kassa 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1913
+msgid "Kassa 3"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1612
+msgid "Kassaförskott"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6010
+msgid "Kataloger, prislistor m. m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1960
+msgid "Koncernkonto moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1020
+msgid "Koncessioner m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3991
+msgid "Konfliktersättning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1550
+msgid "Konsignationsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2443
+msgid "Konsignationsskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1291
+msgid "Konst och liknande tillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6351
+msgid "Konstaterade förluster på kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6550
+msgid "Konsultarvoden"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7310
+msgid "Kontanta extraersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6040
+msgid "Kontokortsavgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6110
+msgid "Kontorsmateriel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6100
+msgid "Kontorsmateriel och trycksaker (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1530
+#: model:account.account.template,name:l10n_se.a1531
+msgid "Kontraktsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6940
+msgid "Kontroll-, provnings- och stämpelavgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2321
+msgid "Konvertibla lån"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2320
+msgid "Konvertibla lån och liknade"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1830
+msgid "Konvertibla skuldebrev"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2841
+msgid "Kortfristig del av långfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1687
+msgid "Kortfristiga del av långfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2417
+msgid "Kortfristiga del av långfristiga skulder till kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1663
+msgid "Kortfristiga fordringar hos andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1610
+msgid "Kortfristiga fordringar hos anställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1685
+msgid "Kortfristiga fordringar hos delägare eller närstående"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1662
+msgid "Kortfristiga fordringar hos dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1672
+msgid "Kortfristiga fordringar hos gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1671
+msgid "Kortfristiga fordringar hos intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1670
+msgid ""
+"Kortfristiga fordringar hos intresseföretag, gemensamt styrda företag och "
+"övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1660
+msgid "Kortfristiga fordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1684
+msgid "Kortfristiga fordringar hos leverantörer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1661
+msgid "Kortfristiga fordringar hos moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1673
+msgid ""
+"Kortfristiga fordringar hos övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2411
+msgid "Kortfristiga lån från kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1682
+msgid "Kortfristiga lånefordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2840
+msgid "Kortfristiga låneskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2863
+msgid "Kortfristiga skulder till andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2820
+msgid "Kortfristiga skulder till anställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2862
+msgid "Kortfristiga skulder till dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2872
+msgid "Kortfristiga skulder till gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2871
+msgid "Kortfristiga skulder till intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2870
+msgid ""
+"Kortfristiga skulder till intresseföretag, gemensamt styrda företag och "
+"övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2860
+msgid "Kortfristiga skulder till koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2861
+msgid "Kortfristiga skulder till moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2873
+msgid ""
+"Kortfristiga skulder till övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5251
+msgid "Korttidshyra av datorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5221
+msgid "Korttidshyra av inventarier och verktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5211
+msgid "Korttidshyra av maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5831
+msgid "Kost och logi i Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5832
+msgid "Kost och logi i utlandet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7392
+msgid "Kostnad för förmån av hushållsnära tjänster"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7391
+msgid "Kostnad för trängelskatterförmån"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5640
+msgid "Kostnader för arbetsmaskiner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6370
+msgid "Kostnader för bevakning och lam"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6920
+msgid "Kostnader för egna patent"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7385
+msgid "Kostnader för fri bil"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7381
+msgid "Kostnader för fri bostad"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7384
+msgid "Kostnader för fria eller subventionerade arbetskläder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7382
+msgid "Kostnader för fria eller subventionerade måltider"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7383
+msgid "Kostnader för fria resor till och från arbetsplatsen"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7387
+msgid "Kostnader för lånedatorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5600
+msgid "Kostnader för transportmedel (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6930
+msgid "Kostnader för varumärken m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7380
+msgid "Kostnader förmåner till anställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6063
+msgid "Kreditförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6060
+msgid "Kreditförsäljningskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6061
+msgid "Kreditupplysning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1510
+#: model:account.account.template,name:l10n_se.a1511
+msgid "Kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1513
+msgid "Kundfordringar - delad faktura"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1563
+msgid "Kundfordringar hos andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1562
+msgid "Kundfordringar hos dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1572
+msgid "Kundfordringar hos gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1571
+msgid "Kundfordringar hos intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1570
+msgid ""
+"Kundfordringar hos intresseföretag, gemensamt styrda företag och övriga "
+"företag som det finns et ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1560
+msgid "Kundfordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1561
+msgid "Kundfordringar hos moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1573
+msgid "Kundfordringar hos övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1492
+msgid "Lager av fastigheter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1450
+msgid "Lager av färdiga varor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1460
+msgid "Lager av handelsvaror"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1410
+msgid "Lager av råvaror"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1420
+msgid "Lager av tillsatsmaterial och förnödenheter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1465
+msgid "Lager av varor VMB"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1467
+msgid "Lager av varor VMB förenklad"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1491
+msgid "Lager av värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2196
+msgid "Lagerreserv"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2730
+msgid "Lagstadgade sociala avgifter och särskild löneskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1242
+msgid "Lastbilar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5620
+msgid "Lastbilskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1260
+msgid "Leasade tillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5252
+msgid "Leasing av datorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5222
+msgid "Leasing av inventarier och verktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5212
+msgid "Leasing av maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5615
+msgid "Leasing av personbilar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4600
+msgid "Legoarbeten och underentreprenader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2440
+#: model:account.account.template,name:l10n_se.a2441
+msgid "Leverantörsskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2463
+msgid "Leverantörsskulder till andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2462
+msgid "Leverantörsskulder till dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2472
+msgid "Leverantörsskulder till gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2471
+msgid "Leverantörsskulder till intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2470
+msgid ""
+"Leverantörsskulder till intresseföretag, gemensamt styrda företag och övriga"
+" företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2460
+msgid "Leverantörsskulder till koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2461
+msgid "Leverantörsskulder till moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2473
+msgid ""
+"Leverantörsskulder till övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_26
+msgid "Liabilities to associated companies and jointly controlled companies"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_21
+msgid "Liabilities to credit institutions"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_24
+msgid "Liabilities to group companies"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_27
+msgid "Liabilities to other companies in which there is an ownership interest"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6910
+msgid "Licensavgifter och royalties)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1040
+msgid "Licenser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3922
+msgid "Licensintäkter och royalties"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.l10nse_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5010
+msgid "Lokalhyra"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5000
+msgid "Lokalkostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5050
+msgid "Lokaltillbehör"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6993
+msgid "Lämnade bidrag och gåvor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1383
+msgid "Lämnade depositioner, långfristiga"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8840
+msgid "Lämnade gottgörelser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3731
+msgid "Lämnade kassarabatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8830
+msgid "Lämnade koncernbidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3732
+msgid "Lämnade mängdrabatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3730
+msgid "Lämnade rabatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6340
+msgid "Lämnade skadestånd"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6341
+msgid "Lämnade skadestånd, avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6342
+msgid "Lämnade skadestånd, ej avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2393
+msgid "Lån från närstående personer, långfristiga del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2322
+msgid "Lån förenade med optionsrätt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1369
+msgid "Lån till delägare eller närstående enligt ABL, långfristig del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1323
+msgid "Långfristiga fordringar hos andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1382
+msgid "Långfristiga fordringar hos anställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1322
+msgid "Långfristiga fordringar hos dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1343
+msgid "Långfristiga fordringar hos gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1341
+msgid "Långfristiga fordringar hos intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1340
+msgid ""
+"Långfristiga fordringar hos intresseföretag, gemensamt styrda företag och "
+"övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1320
+msgid "Långfristiga fordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1321
+msgid "Långfristiga fordringar hos moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1346
+msgid ""
+"Långfristiga fordringar hos övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1387
+msgid "Långfristiga kontraktsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1388
+msgid "Långfristiga kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2394
+msgid "Långfristiga leverantörskrediter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2355
+msgid "Långfristiga lån i utländsk valuta från kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1381
+msgid "Långfristiga reversfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2363
+msgid "Långfristiga skulder till andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2362
+msgid "Långfristiga skulder till dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2372
+msgid "Långfristiga skulder till gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2371
+msgid "Långfristiga skulder till intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2373
+msgid ""
+"Långfristiga skulder till intresseföretag övriga företag som det finns ett "
+"ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2370
+msgid ""
+"Långfristiga skulder till intresseföretag, gemensamt styrda företag och "
+"övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2360
+msgid "Långfristiga skulder till koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2361
+msgid "Långfristiga skulder till moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7013
+msgid "Lön växa-stöd kollektivanställda 10.21%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7213
+msgid "Lön växa-stöd tjänstemän 10.21%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7220
+#: model:account.account.template,name:l10n_se.a7221
+msgid "Löner till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7010
+#: model:account.account.template,name:l10n_se.a7011
+msgid "Löner till kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7000
+msgid "Löner till kollektivanställda (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7030
+#: model:account.account.template,name:l10n_se.a7031
+msgid "Löner till kollektivanställda (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7080
+msgid "Löner till kollektivanställda for ej arbetad tid"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7210
+#: model:account.account.template,name:l10n_se.a7211
+msgid "Löner till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7230
+#: model:account.account.template,name:l10n_se.a7231
+msgid "Löner till tjänstemän och ftgsledare (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7200
+msgid "Löner till tjänstemän och företagsledare (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7280
+msgid "Löner till tjänstemän och företagsledare för ej arbetad tid"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2821
+#: model:account.account.template,name:l10n_se.a2911
+msgid "Löneskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2792
+msgid "Lönsparande"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7300
+msgid "MANUALLY ADDED Kostnadsersättningar och förmåner (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3680
+#: model:account.account.template,name:l10n_se.a6430
+msgid "Management fees"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1130
+msgid "Mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1150
+msgid "Markanläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1223
+msgid "Markinventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1211
+msgid "Maskiner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1210
+msgid "Maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2083
+msgid "Medlemsinsatser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_11
+msgid "Misc. equity funds"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6213
+msgid "Mobilsökning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6212
+msgid "Mobiltelefon"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1650
+msgid "Momsfordran"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_goods_EC
+msgid "Momsfri Försäljning av varor EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_services_EC
+msgid "Momsfri försäljning av tjänst EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_services_NEC
+msgid "Momsfri försäljning av tjänst utanför EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_goods_NEC
+msgid "Momsfri försäljning av varor utanför EU"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4400
+msgid "Momspliktiga inköp i Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5660
+msgid "Motorcykel-, moped-, och skoterkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1246
+msgid "Motorcyklar, mopeder och skotrar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2897
+msgid "Mottagna depositioner, kortfristiga"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2397
+msgid "Mottagna depositioner, långfristiga"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8820
+msgid "Mottagna koncernbidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2092
+msgid "Mottagna/Lämnade koncernbidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2795
+msgid "Mätnings- och granskningsarvoden"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6510
+msgid "Mätningskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1539
+msgid "Nedskrivning av kontraktsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1890
+msgid "Nedskrivning av kortfristiga placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1519
+msgid "Nedskrivning av kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1569
+msgid "Nedskrivning av kundfordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1466
+msgid "Nedskrivning av varor VMB"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4987
+msgid "Nedskrivning av värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1529
+msgid "Nedskrivning av växelfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8271
+msgid "Nedskrivningar av andelar i andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8072
+msgid "Nedskrivningar av andelar i dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8173
+msgid "Nedskrivningar av andelar i gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8171
+msgid "Nedskrivningar av andelar i intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8170
+msgid ""
+"Nedskrivningar av andelar i och långfristiga fordringar hos intresseföretag,"
+" gemensamt styrda företag och övriga företag som det finns ett ägarintresse "
+"i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8070
+msgid ""
+"Nedskrivningar av andelar i och långfristiga fordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8176
+msgid ""
+"Nedskrivningar av andelar i övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7720
+msgid "Nedskrivningar av byggnader och mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7710
+msgid "Nedskrivningar av immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8270
+msgid ""
+"Nedskrivningar av innehav av andelar i och långfristiga fordringar hos andra"
+" företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8892
+msgid "Nedskrivningar av konsolideringskaraktär av anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8370
+msgid "Nedskrivningar av kortfristiga placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8272
+msgid "Nedskrivningar av långfristiga fordringar hos andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8077
+msgid "Nedskrivningar av långfristiga fordringar hos dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8174
+msgid "Nedskrivningar av långfristiga fordringar hos gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8172
+msgid "Nedskrivningar av långfristiga fordringar hos intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8076
+msgid "Nedskrivningar av långfristiga fordringar hos moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8177
+msgid ""
+"Nedskrivningar av långfristiga fordringar hos övriga företag som det finns "
+"et ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7730
+msgid "Nedskrivningar av maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7740
+msgid "Nedskrivningar av vissa omsättningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8273
+msgid "Nedskrivningar av övriga värdepapper hos andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2999
+msgid "OBS-konto"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,field_description:l10n_se.field_account_journal__l10n_se_invoice_ocr_length
 msgid "OCR Number Length"
 msgstr ""
@@ -90,13 +4075,1139 @@ msgid ""
 msgstr ""
 
 #. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6997
+msgid "Obetald utländsk inkomstskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1354
+#: model:account.account.template,name:l10n_se.a1820
+msgid "Obligationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2310
+msgid "Obligations och förlagslån"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3710
+msgid "Oförelade intäktsreduktioner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_32
+msgid "Operating costs"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_31
+msgid "Operating income, stock changes, etc."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3940
+msgid "Orealiserade negativa/positiva värdeförändringar på säkringsinstrument"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7940
+msgid "Orealiserade positiva/negativa värdeförändringar på säkringsinstrument"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8291
+msgid "Orealiserade värdeförändringar på anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8295
+msgid "Orealiserade värdeförändringar på derivatinstrument"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8321
+msgid "Orealiserade värdeförändringar på omsättningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8450
+#: model:account.account.template,name:l10n_se.a8451
+msgid "Orealiserade värdeförändringar på skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8455
+msgid "Orealiserade värdeförändringar på säkringsinstrument"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,field_description:l10n_se.field_res_company__org_number
 msgid "Org Number"
 msgstr ""
 
 #. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2993
+msgid "Ospecificerad skuld till leverantörer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1525
+msgid "Osäkra växelfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_39
+msgid "Other equity"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_29
+msgid "Other liabilities"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2898
+msgid "Outtagen vinstutdelning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_construction_services_tax_12_EC
+msgid "PCS12"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_construction_services_tax_25_EC
+msgid "PCS25"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_construction_services_tax_6_EC
+msgid "PCS6"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_goods_tax_12_EC
+#: model:account.tax.template,description:l10n_se.purchase_services_tax_12_EC
+msgid "PE12"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_goods_tax_25_EC
+#: model:account.tax.template,description:l10n_se.purchase_services_tax_25_EC
+msgid "PE25"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_goods_tax_6_EC
+#: model:account.tax.template,description:l10n_se.purchase_services_tax_6_EC
+msgid "PE6"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_goods_tax_12_NEC
+#: model:account.tax.template,description:l10n_se.purchase_services_tax_12_NEC
+msgid "PN12"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_goods_tax_25_NEC
+#: model:account.tax.template,description:l10n_se.purchase_services_tax_25_NEC
+msgid "PN25"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_goods_tax_6_NEC
+#: model:account.tax.template,description:l10n_se.purchase_services_tax_6_NEC
+msgid "PN6"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5980
+msgid "PR, institutionell reklam och sponsring"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_tax_12_goods
+#: model:account.tax.template,description:l10n_se.purchase_tax_12_services
+msgid "PT12"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_tax_25_goods
+#: model:account.tax.template,description:l10n_se.purchase_tax_25_services
+msgid "PT25"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.purchase_tax_6_goods
+#: model:account.tax.template,description:l10n_se.purchase_tax_6_services
+msgid "PT6"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_40
+msgid "Paid-in and issued contributions"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1030
+msgid "Patent"
+msgstr ""
+
+#. module: l10n_se
 #: model_terms:ir.ui.view,arch_db:l10n_se.res_partner_ocr_form
 msgid "Payment Options Sweden"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7410
+msgid "Pensionsförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7400
+msgid "Pensionskostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7460
+msgid "Pensionsutbetalningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7463
+msgid "Pensionsutbetalningar till f.d. företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7461
+msgid "Pensionsutbetalningar till f.d. kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7462
+msgid "Pensionsutbetalningar till f.d. tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2110
+msgid "Periodiseringsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2125
+msgid "Periodiseringsfond 2015"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2135
+msgid "Periodiseringsfond 2015 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2126
+msgid "Periodiseringsfond 2016"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2136
+msgid "Periodiseringsfond 2016 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2127
+msgid "Periodiseringsfond 2017"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2137
+msgid "Periodiseringsfond 2017 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2128
+msgid "Periodiseringsfond 2018"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2138
+msgid "Periodiseringsfond 2018 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2129
+msgid "Periodiseringsfond 2019"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2139
+msgid "Periodiseringsfond 2019 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2120
+msgid "Periodiseringsfond 2020"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2130
+msgid "Periodiseringsfond 2020 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2121
+msgid "Periodiseringsfond 2021"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2131
+msgid "Periodiseringsfond 2021 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2122
+msgid "Periodiseringsfond 2022"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2132
+msgid "Periodiseringsfond 2022 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2123
+msgid "Periodiseringsfond 2023"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2133
+msgid "Periodiseringsfond 2023 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2124
+msgid "Periodiseringsfond 2024"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2134
+msgid "Periodiseringsfond 2024 - nr 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2791
+msgid "Personalens intressekonto"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7691
+msgid "Personalrekrytering"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7630
+msgid "Personalrepresentation"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7631
+msgid "Personalrepresentation, avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7632
+msgid "Personalrepresentation, ej avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2710
+msgid "Personalskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1241
+#: model:account.account.template,name:l10n_se.a5610
+msgid "Personbilar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1920
+msgid "PlusGiro"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6250
+msgid "Postbefordran"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7570
+msgid "Premier för arbetsmarknadsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7412
+msgid "Premier för individuella pensionsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7411
+msgid "Premier för kollektiva pensionsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1440
+msgid "Produkter i arbete"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5420
+msgid "Programvaror"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_19
+msgid "Provisions"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3921
+msgid "Provisionsintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3920
+msgid "Provisionsintäkter, licensintäkter och royalties"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3750
+msgid "Punktskatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1470
+#: model:account.account.template,name:l10n_se.a2430
+msgid "Pågående arbeten"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1478
+#: model:account.account.template,name:l10n_se.a2431
+msgid "Pågående arbeten, fakturering"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1471
+#: model:account.account.template,name:l10n_se.a2438
+msgid "Pågående arbeten, nedlagda kostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1180
+msgid "Pågående ny-,till- och ombyggnad"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1280
+msgid "Pågående nyanläggningar och förskott för maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1281
+msgid "Pågående nyanläggningar, maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1081
+msgid "Pågående projekt för immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_5
+msgid "Receivables"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2650
+msgid "Redovisningskonto för moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1990
+msgid "Redovisningsmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6530
+msgid "Redovisningstjänster"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4700
+msgid "Reduktion av inköpspriser (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_10
+msgid "Reevaluation funds"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5900
+msgid "Reklam och PR"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2661
+msgid "Reklamskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5930
+msgid "Reklamtrycksaker och direktreklam"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1481
+msgid "Remburser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5500
+msgid "Reparation och underhåll (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5170
+msgid "Reparation och underhåll av fastighet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5550
+msgid "Reparation och underhåll av förbrukningsinventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5530
+msgid "Reparation och underhåll av installationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5520
+msgid "Reparation och underhåll av inventarier, verktyg och datorer m.m"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5070
+msgid "Reparation och underhåll av lokaler"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5510
+msgid "Reparation och underhåll av maskiner och andra tekniska anläggningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5613
+msgid "Reparation och underhåll av personbilar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6070
+msgid "Representation"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6071
+msgid "Representation, avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6072
+msgid "Representation, ej avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7370
+msgid "Representationsersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1611
+msgid "Reseförskott"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5800
+msgid "Resekostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_38
+msgid "Reserve funds"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2086
+msgid "Reservfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2822
+msgid "Reseräkningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8930
+msgid "Restituerad skatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8990
+msgid "Resultat"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8030
+msgid "Resultat från handelsbolag (dotterföretag)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8221
+msgid "Resultat vid försäljning av andelar i andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8022
+msgid "Resultat vid försäljning av andelar i dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8122
+msgid "Resultat vid försäljning av andelar i gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8120
+msgid ""
+"Resultat vid försäljning av andelar i intresseFöretag, gemensamt styrda "
+"företag och övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8121
+msgid "Resultat vid försäljning av andelar i intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8020
+msgid "Resultat vid försäljning av andelar i koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8123
+msgid ""
+"Resultat vid försäljning av andelar i övriga företag som det finns et "
+"ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8223
+msgid "Resultat vid försäljning av derivat (långfristiga värdepappersinnehav)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8350
+msgid "Resultat vid försäljning av kortfristiga placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8222
+msgid "Resultat vid försäljning av långfristiga fordringar hos andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8220
+msgid ""
+"Resultat vid försäljning av värdepapper i och långfristiga fordringar hos "
+"andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8240
+msgid "Resultatandelar från handelsbolag (andra företag)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8132
+msgid "Resultatandelar från handelsbolag (gemensamt styrda företag)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8131
+msgid "Resultatandelar från handelsbolag (intresseföretag)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8130
+msgid ""
+"Resultatandelar från handelsbolag (intresseföretag, gemensamt styrda företag"
+" pcj övriga företag som det finns ett ägarintresse i)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8133
+msgid ""
+"Resultatandelar från handelsbolag (övriga företag som det finns ett "
+"ägarintresse i)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_36
+msgid "Results"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3518
+msgid "Returnerat emballage"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6421
+msgid "Revision"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6422
+msgid "Revisionsverksamhet utöver revision"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6520
+msgid "Ritnings-och kopieringskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8412
+msgid "Räntedel i årets pensionskostnad"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8311
+msgid "Ränteintäkter från bank"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8313
+msgid "Ränteintäkter från kortfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8312
+msgid "Ränteintäkter från kortfristiga placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8263
+msgid "Ränteintäkter från långfristiga fordringar hos andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8262
+msgid "Ränteintäkter från långfristiga fordringar hos dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8251
+#: model:account.account.template,name:l10n_se.a8260
+msgid "Ränteintäkter från långfristiga fordringar hos koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8261
+msgid "Ränteintäkter från långfristiga fordringar hos moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8250
+msgid ""
+"Ränteintäkter från långfristiga fordringar hos och värdepapper i andra "
+"företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8310
+#: model:account.account.template,name:l10n_se.a8319
+#: model:account.account.template,name:l10n_se.a8325
+msgid "Ränteintäkter från omsättningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8317
+msgid "Ränteintäkter för dold räntekompensation"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8400
+msgid "Räntekostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8424
+msgid "Räntekostnader byggnadskreditiv"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8415
+msgid "Räntekostnader för andra skulder till kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8413
+msgid "Räntekostnader för checkräkningskredit"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8417
+msgid "Räntekostnader för dold räntekompensation m. m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8420
+msgid "Räntekostnader för kortfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8410
+#: model:account.account.template,name:l10n_se.a8419
+msgid "Räntekostnader för långfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8411
+msgid "Räntekostnader för obligations-, förlags- och konvertibla lån"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8418
+msgid "Räntekostnader för räntesubventioner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8423
+msgid "Räntekostnader för skatter och avgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8463
+msgid "Räntekostnader till andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8462
+msgid "Räntekostnader till dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8460
+msgid "Räntekostnader till koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8421
+msgid "Räntekostnader till kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8461
+msgid "Räntekostnader till moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3600
+msgid "Rörelsens sidointäkter (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.sale_tax_goods_EC
+#: model:account.tax.template,description:l10n_se.sale_tax_goods_NEC
+#: model:account.tax.template,description:l10n_se.sale_tax_services_EC
+#: model:account.tax.template,description:l10n_se.sale_tax_services_NEC
+msgid "SE0"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.sale_tax_12_goods
+#: model:account.tax.template,description:l10n_se.sale_tax_12_services
+msgid "ST12"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.sale_tax_25_goods
+#: model:account.tax.template,description:l10n_se.sale_tax_25_services
+msgid "ST25"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.sale_tax_6_goods
+#: model:account.tax.template,description:l10n_se.sale_tax_6_services
+msgid "ST6"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2762
+msgid "Semesterlönekassa"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7286
+msgid "Semesterlöner till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7082
+msgid "Semesterlöner till kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7285
+msgid "Semesterlöner till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6560
+msgid "Serviceavgifter till branschorganisationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_8
+msgid "Share capital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_9
+msgid "Share premium funds"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_6
+msgid "Short-term investment"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7620
+msgid "Sjuk- och hälsovård"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7621
+msgid "Sjuk- och hälsovård, avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7622
+msgid "Sjuk- och hälsovård, ej avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3997
+msgid "Sjuklöneersättning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7650
+msgid "Sjuklöneförsäkring"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7282
+msgid "Sjuklöner till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7081
+msgid "Sjuklöner till kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7281
+msgid "Sjuklöner till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7623
+msgid "Sjukvårdsförsäkring, ej avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6320
+msgid "Självrisker vid skada"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8920
+msgid "Skatt på grund av ändrad beskattning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8910
+msgid "Skatt som belastar årets resultat"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1640
+msgid "Skattefordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7331
+msgid "Skattefria bilersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8314
+msgid "Skattefria ränteintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8254
+msgid "Skattefria ränteintäkter, långfristiga tillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7321
+msgid "Skattefria traktamenten, Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7323
+msgid "Skattefria traktamenten, utlandet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7332
+msgid "Skattepliktiga bilersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7322
+msgid "Skattepliktiga traktamenten, Sverige"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7324
+msgid "Skattepliktiga traktamenten, utlandet"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6423
+msgid "Skatterådgivning - revisor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2510
+msgid "Skatteskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1973
+msgid "Skogskonto"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2880
+msgid "Skuld erhållna bidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2893
+msgid "Skulder till närstående personer, kortfristig del"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2891
+msgid "Skulder under indrivning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3752
+msgid "Skuldförda punktskatter (debetkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5064
+#: model:account.account.template,name:l10n_se.a5164
+msgid "Snöröjning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7500
+msgid "Sociala och andra avgifter enlight lag och avtal (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5062
+#: model:account.account.template,name:l10n_se.a5162
+msgid "Sophämtning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5132
+msgid "Sotning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6030
+msgid "Speciella orderkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1974
+msgid "Spärrade bankmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5340
+msgid "Stenkol och koks"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7240
+msgid "Styrelsearvoden"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6410
+msgid "Styrelsearvoden som inte är lön"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5061
+#: model:account.account.template,name:l10n_se.a5161
+msgid "Städning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5060
+#: model:account.account.template,name:l10n_se.a5160
+msgid "Städning och renhållning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_0
+msgid "Subscribed but unpaid capital"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7386
+msgid "Subventionerad ränta"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.fiscal.position.template,name:l10n_se.fp_sweden
+msgid "Sverige"
 msgstr ""
 
 #. module: l10n_se
@@ -120,15 +5231,648 @@ msgid "Sweden OCR Level 4"
 msgstr ""
 
 #. module: l10n_se
+#: model:account.chart.template,name:l10n_se.l10nse_chart_template
+msgid "Swedish BAS Chart of Account Minimalist"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.chart.template,name:l10n_se.l10nse_chart_template_K2
+msgid "Swedish BAS Chart of Account complete K2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.chart.template,name:l10n_se.l10nse_chart_template_K3
+msgid "Swedish BAS Chart of Account complete K3"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7530
+msgid "Särskild Löneskatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7533
+msgid "Särskild löneskatt för pensionskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7531
+msgid "Särskild löneskatt för vissa försäkringsersättningar m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7532
+msgid "Särskild löneskatt pensionskostnader, deklarationspost"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1970
+#: model:account.account.template,name:l10n_se.a1979
+msgid "Särskilda bankkonton"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2660
+msgid "Särskilda punktskatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4200
+msgid "Sålda varor VMB"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4212
+msgid "Sålda varor negativ VMB 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4211
+msgid "Sålda varor positiv VMB 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4981
+msgid "Sålda värdepappers anskaffningsvärde"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.triangular_tax_0_goods
+msgid "T0"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.triangular_tax_12_goods
+msgid "T12"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.triangular_tax_25_goods
+msgid "T25"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,description:l10n_se.triangular_tax_6_goods
+msgid "T6"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_2
+msgid "Tangible non-current assets"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7222
+msgid "Tantiem till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2823
+msgid "Tantiem, gratifikationer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_28
+msgid "Tax liabilities"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_35
+msgid "Taxes on results"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6200
+msgid "Tele och post (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6210
+msgid "Telekommunikation"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6215
+msgid "Telex"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,help:l10n_se.field_res_partner__l10n_se_check_vendor_ocr
 #: model:ir.model.fields,help:l10n_se.field_res_users__l10n_se_check_vendor_ocr
 msgid "This Vendor uses OCR Number on their Vendor Bills."
 msgstr ""
 
 #. module: l10n_se
-#: model:ir.model.fields,help:l10n_se.field_account_bank_statement_import_journal_creation__l10n_se_invoice_ocr_length
+#: model:account.account.template,name:l10n_se.a6970
+msgid "Tidningar, tidskrifter och facklitteratur"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3630
+msgid "Tillfällig av transportmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3620
+msgid "Tillfällig uthyrning av personal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1614
+msgid "Tillfälliga lån till anställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1770
+msgid "Tillgångar av kostnadsnatur"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6950
+msgid "Tillsynsavgifter myndigheter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1140
+msgid "Tomter och obebyggda markområden"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5110
+msgid "Tomträttsavgäld/arrende"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5350
+msgid "Torv, träkol, ved och annat träbränsle"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,help:l10n_se.field_account_journal__l10n_se_invoice_ocr_length
 msgid "Total length of OCR Reference Number including checksum."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7320
+msgid "Traktamenten vid tjänsteresa"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1245
+msgid "Traktorer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5650
+msgid "Traktorkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5430
+msgid "Transportinventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.triangular_tax_12_goods
+msgid "Trepartshandel - moms 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.triangular_tax_25_goods
+msgid "Trepartshandel - moms 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.triangular_tax_6_goods
+msgid "Trepartshandel - moms 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.triangular_tax_0_goods
+msgid "Trepartshandel - momsfrei"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1243
+msgid "Truckar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5630
+msgid "Truckkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6150
+msgid "Trycksaker"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5065
+#: model:account.account.template,name:l10n_se.a5165
+msgid "Trädgårdsskötsel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5616
+msgid "Trängselskatt, avdragsgill"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5720
+msgid "Tull- och speditionskostnader m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1536
+msgid "Tvistiga kontraktsfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1516
+msgid "Tvistiga kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2445
+msgid "Tvistiga leverantörsskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5580
+msgid "Underhåll och tvätt av arbetskläder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_18
+msgid "Untaxed reserves"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1620
+msgid "Upparbetad men ej fakturerad intäkt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1972
+msgid "Upphovsmannakonto"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2951
+msgid "Upplupna avtalade arbetsmarknadsförsäkringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2959
+msgid "Upplupna avtalade pensionsförsäkringsavgifter, deklarationspost"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2950
+msgid "Upplupna avtalade sociala avgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1780
+msgid "Upplupna avtalsintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2980
+msgid "Upplupna avtalskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1750
+msgid "Upplupna hyresintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2940
+msgid "Upplupna lagstadgade sociala och andra avgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2910
+msgid "Upplupna löner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7229
+msgid "Upplupna löner och tantiem till företagsledare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7019
+msgid "Upplupna löner och vinstandelar till kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7039
+msgid ""
+"Upplupna löner och vinstandelar till kollektivanställda (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7219
+msgid "Upplupna löner och vinstandelar till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7239
+msgid ""
+"Upplupna löner och vinstandelar till tjänstemän och ftgsledare "
+"(utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2930
+msgid "Upplupna pensionskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2931
+msgid "Upplupna pensionsutbetalningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1760
+msgid "Upplupna ränteintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2960
+msgid "Upplupna räntekostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2920
+msgid "Upplupna semesterlöner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2941
+msgid "Upplupna upplupna lagstadgade sociala avgifter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8940
+msgid "Uppskjuten skatt"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1370
+msgid "Uppskjuten skattefordran"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2085
+msgid "Uppskrivningsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5131
+msgid "Uppvärmning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.fiscal.position.template,name:l10n_se.fp_outside_euro
+msgid "Utanför Europaunionen"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7610
+msgid "Utbildning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3672
+msgid "Utdelning från värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8012
+msgid "Utdelning på andelar i dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8010
+msgid "Utdelning på andelar i koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8210
+msgid "Utdelningar på andelar i andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8112
+msgid "Utdelningar på andelar i gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8111
+msgid "Utdelningar på andelar i intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8110
+msgid ""
+"Utdelningar på andelar i intresseföretag, gemensamt styrda företag och "
+"Övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8113
+msgid ""
+"Utdelningar på andelar i övriga företag som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8340
+msgid "Utdelningar på kortfristiga placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8212
+msgid "Utdelningar, övriga företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_12_goods
+msgid "Utgående moms 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_25_goods
+msgid "Utgående moms 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_6_goods
+msgid "Utgående moms 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_12_services
+msgid "Utgående moms Tjänst 12%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_25_services
+msgid "Utgående moms Tjänst 25%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.template,name:l10n_se.sale_tax_6_services
+msgid "Utgående moms Tjänst 6%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2616
+msgid "Utgående moms VMB 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2636
+msgid "Utgående moms VMB 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2626
+msgid "Utgående moms VMB, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2623
+msgid "Utgående moms för uthyrning, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2613
+msgid "Utgående moms för uthyrning, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2633
+msgid "Utgående moms för uthyrning, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2625
+msgid "Utgående moms import av varor, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2615
+msgid "Utgående moms import av varor, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2635
+msgid "Utgående moms import av varor, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2624
+msgid "Utgående moms omvänd skattskyldighet, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2614
+msgid "Utgående moms omvänd skattskyldighet, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2634
+msgid "Utgående moms omvänd skattskyldighet, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2622
+msgid "Utgående moms på egna uttag, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2612
+msgid "Utgående moms på egna uttag, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2632
+msgid "Utgående moms på egna uttag, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2621
+msgid "Utgående moms på försäljning inom Sverige, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2611
+msgid "Utgående moms på försäljning inom Sverige, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2631
+msgid "Utgående moms på försäljning inom Sverige, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2620
+msgid "Utgående moms, 12 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2610
+msgid "Utgående moms, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2630
+msgid "Utgående moms, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1681
+msgid "Utlägg för kunder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6998
+msgid "Utländsk moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2750
+#: model:account.account.template,name:l10n_se.a2760
+msgid "Utmätning i lön m.m."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2331
+msgid "Utnyttjad checkräkningskredit 1"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2332
+msgid "Utnyttjad checkräkningskredit 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5920
+msgid "Utomhus- och trafikreklam"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5940
+msgid "Utställningar mässor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1010
+msgid "Utvecklingsutgifter"
 msgstr ""
 
 #. module: l10n_se
@@ -152,11 +5896,214 @@ msgid "VAT 6%"
 msgstr ""
 
 #. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1980
+msgid "Valutakonton"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8330
+msgid "Valutakursdifferenser på kortfristiga fordringar och placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8230
+msgid "Valutakursdifferenser på långfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8430
+msgid "Valutakursdifferenser på skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7960
+msgid "Valutakursförluster på fordringar och skulder av rörelsekaraktär"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8336
+msgid "Valutakursförluster på kortfristiga fordringar och placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8236
+msgid "Valutakursförluster på långfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8436
+msgid "Valutakursförluster på skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3960
+msgid "Valutakursvinster på fordringar och skulder av rörelsekaraktär"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8331
+msgid "Valutakursvinster på kortfristiga fordringar och placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8231
+msgid "Valutakursvinster på långfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8431
+msgid "Valutakursvinster på skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1050
+msgid "Varumärken"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5960
+msgid "Varuprover, reklamgåvor, presentreklam och tävlingar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5380
+msgid "Vatten"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5040
+#: model:account.account.template,name:l10n_se.a5140
+msgid "Vatten och avlopp"
+msgstr ""
+
+#. module: l10n_se
 #: code:addons/l10n_se/models/account_move.py:0
 #, python-format
 msgid ""
 "Vendor require OCR Number as payment reference. Payment reference isn't a "
 "valid OCR Number."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1225
+msgid "Verktyg"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2648
+msgid "Vilande ingående moms"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2628
+msgid "Vilande utgående moms, 12 %%"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2618
+msgid "Vilande utgående moms, 25 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2638
+msgid "Vilande utgående moms, 6 %"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2392
+msgid "Villkorliga långfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2068
+msgid "Vinst eller förlust fran föregående år"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2098
+msgid "Vinst eller förlust från föregående år"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3972
+msgid "Vinst vid avyttring av byggnader och mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3971
+msgid "Vinst vid avyttring av immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3970
+msgid ""
+"Vinst vid avyttring av immateriella och materiella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3973
+msgid "Vinst vid avyttring av maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7012
+msgid "Vinstandelar till kollektivanställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7032
+msgid "Vinstandelar till kollektivanställda (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7212
+msgid "Vinstandelar till tjänstemän"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7232
+msgid "Vinstandelar till tjänstemän och ftgsledare (utlandsanställda)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2323
+msgid "Vinstandelslån"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1385
+msgid "Värde av kapitalförsäkring"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8290
+msgid "Värdering till verkligt värde, anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8320
+msgid "Värdering till verkligt värde, omsättningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2066
+msgid "Värdesäkringsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5030
+#: model:account.account.template,name:l10n_se.a5130
+msgid "Värme"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1520
+msgid "Växelfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2492
+msgid "Växelskulder"
 msgstr ""
 
 #. module: l10n_se
@@ -167,9 +6114,795 @@ msgid "Warning"
 msgstr ""
 
 #. module: l10n_se
-#: model:ir.model.fields,help:l10n_se.field_account_bank_statement_import_journal_creation__invoice_reference_model
+#: model:account.account.tag,name:l10n_se.account_tag_34
+msgid "Year-end appropriations"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_17
+msgid "Year-end results"
+msgstr ""
+
+#. module: l10n_se
 #: model:ir.model.fields,help:l10n_se.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Standard reference."
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_05
+msgid "se_05"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_06
+msgid "se_06"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_07
+msgid "se_07"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_08
+msgid "se_08"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_10
+msgid "se_10"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_11
+msgid "se_11"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_12
+msgid "se_12"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_20
+msgid "se_20"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_21
+msgid "se_21"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_22
+msgid "se_22"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_23
+msgid "se_23"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_24
+msgid "se_24"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_30
+msgid "se_30"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_31
+msgid "se_31"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_32
+msgid "se_32"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_35
+msgid "se_35"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_36
+msgid "se_36"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_37
+msgid "se_37"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_38
+msgid "se_38"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_39
+msgid "se_39"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_40
+msgid "se_40"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_41
+msgid "se_41"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_42
+msgid "se_42"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_48
+msgid "se_48"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_50
+msgid "se_50"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_60
+msgid "se_60"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_61
+msgid "se_61"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.tax.report.line,tag_name:l10n_se.tax_report_line_62
+msgid "se_62"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2071
+msgid "Ändamål 1"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2072
+msgid "Ändamål 2"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2070
+msgid "Ändamålsbestämda medel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2017
+msgid "Årets kapitaltillskott"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2069
+#: model:account.account.template,name:l10n_se.a2099
+#: model:account.account.template,name:l10n_se.a8999
+msgid "Årets resultat"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2019
+msgid "Årets resultat, delägare"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6440
+msgid "Årsredovisning och delårsrapporter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7418
+msgid "Återbäring från försäkringsföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4988
+msgid "Återföring av nedskrivning av värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7770
+msgid "Återföring av nedskrivningar av byggnader och mark"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7760
+msgid "Återföring av nedskrivningar av immateriella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7780
+msgid "Återföring av nedskrivningar av maskiner och inventarier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7790
+msgid "Återföring av nedskrivningar av vissa omsättningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8869
+msgid "Återföring fran ersättningsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8819
+msgid "Återföring från periodiseringsfond"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8280
+msgid ""
+"Återföringar av andelar i och långfristiga fordringar hos andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8082
+msgid "Återföringar av nedskrivningar av andelar i dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8183
+msgid "Återföringar av nedskrivningar av andelar i gemensamt styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8181
+msgid "Återföringar av nedskrivningar av andelar i intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8180
+msgid ""
+"Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos "
+"intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8080
+msgid ""
+"Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos "
+"koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8186
+msgid ""
+"Återföringar av nedskrivningar av andelar i övriga företag som det finns et "
+"ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8281
+msgid "Återföringar av nedskrivningar av av andelar i andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8380
+msgid "Återföringar av nedskrivningar av kortfristiga placeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8282
+msgid ""
+"Återföringar av nedskrivningar av långfristiga fordringar hos andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8087
+msgid ""
+"Återföringar av nedskrivningar av långfristiga fordringar hos dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8184
+msgid ""
+"Återföringar av nedskrivningar av långfristiga fordringar hos gemensamt "
+"styrda företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8182
+msgid ""
+"Återföringar av nedskrivningar av långfristiga fordringar hos "
+"intresseföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8086
+msgid ""
+"Återföringar av nedskrivningar av långfristiga fordringar hos moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8187
+msgid ""
+"Återföringar av nedskrivningar av långfristiga fordringar hos övriga företag"
+" som det finns ett ägarintresse i"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8283
+msgid "Återföringar av nedskrivningar av övriga värdepapper i andra företag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3950
+msgid "Återvunna, tidigare, avskrivna kundfordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3740
+msgid "Öres- och kronutjämning"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2919
+msgid "Övriga Upplupna löner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2290
+msgid "Övriga avsättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2230
+msgid "Övriga avsättningar för pensioner och liknande förpliktelser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2250
+msgid "Övriga avsättningar för skatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1940
+msgid "Övriga bankkonton"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8890
+#: model:account.account.template,name:l10n_se.a8899
+msgid "Övriga bokslutsdispositioner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2018
+msgid "Övriga egna insättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2013
+msgid "Övriga egna uttag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5390
+msgid "Övriga energikostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3989
+msgid "Övriga erhållna bidrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3990
+msgid "Övriga ersättningar och intäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6990
+msgid "Övriga externa kostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6900
+msgid "Övriga externa kostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6991
+msgid "Övriga externa kostnader, avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6992
+msgid "Övriga externa kostnader, ej avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6590
+msgid "Övriga externa tjänster"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6500
+msgid "Övriga externa tjänster (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3590
+msgid "Övriga fakturerade kostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5190
+msgid "Övriga fastighetskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5198
+msgid "Övriga fastighetskostnader, avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5199
+msgid "Övriga fastighetskostnader, ej avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8390
+msgid "Övriga finansiella intäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1619
+msgid "Övriga fordringar hos anställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5492
+msgid "Övriga förbrukningsinventarier med en livslängd på ett år eller mindre"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5491
+msgid "Övriga förbrukningsinventarier med en livslängd på mer än ett år"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5490
+msgid "Övriga förbrukningsinventarier och förbrukningsmaterial"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1613
+msgid "Övriga förskott"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2429
+msgid "Övriga förskott från kunder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1489
+msgid "Övriga förskott till leverantörer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6000
+#: model:account.account.template,name:l10n_se.a6090
+msgid "Övriga försäljningskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2979
+msgid "Övriga förutbetalda intäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1790
+msgid "Övriga förutbetalda kostnader och upplupna intäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6490
+msgid "Övriga förvaltningskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7589
+msgid "Övriga gruppförsäkringspremier"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5290
+msgid "Övriga hyreskostnader för anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6890
+msgid "Övriga inhyrd personal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7319
+msgid "Övriga kontanta extraersättningar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1689
+msgid "Övriga kortfristiga fordringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2849
+msgid "Övriga kortfristiga låneskulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2890
+#: model:account.account.template,name:l10n_se.a2899
+msgid "Övriga kortfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2829
+msgid "Övriga kortfristiga skulder till anställda"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2419
+msgid "Övriga kortfristiga skulder till kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2490
+msgid ""
+"Övriga kortfristiga skulder till kreditinstitut, kunder och leverantörer"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5990
+msgid "Övriga kostnader for reklam och PR"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5790
+msgid "Övriga kostnader för frakter och transporter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7389
+msgid "Övriga kostnader för förmåner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5590
+msgid "Övriga kostnader för reparation och underhålla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5690
+msgid "Övriga kostnader för transportmedel"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7390
+msgid "Övriga kostnadsersättningar och förmåner"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6069
+msgid "Övriga kreditförsäljningskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1490
+msgid "Övriga lagertillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5090
+msgid "Övriga lokalkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5098
+msgid "Övriga lokalkostnader, avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5099
+msgid "Övriga lokalkostnader, ej avdragsgilla"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2359
+msgid "Övriga långfristiga lån från kreditinstitut"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2390
+#: model:account.account.template,name:l10n_se.a2399
+msgid "Övriga långfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2790
+#: model:account.account.template,name:l10n_se.a2799
+msgid "Övriga löneavdrag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7289
+msgid "Övriga löner till företagsledare för ej arbetad tid"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7089
+msgid "Övriga löner till kollektivanställda for ej arbetad tid"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7288
+msgid "Övriga löner till tjänsterumän för ej arbetad tid"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a1290
+msgid "Övriga materiella anläggningstillgångar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3914
+msgid "Övriga momspliktiga hyresintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4500
+msgid "Övriga momspliktiga inköp"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2190
+#: model:account.account.template,name:l10n_se.a2199
+msgid "Övriga obeskattade reserver"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7490
+msgid "Övriga pensionskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7690
+#: model:account.account.template,name:l10n_se.a7699
+msgid "Övriga personalkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7600
+msgid "Övriga personalkostnader (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5619
+msgid "Övriga personbilskostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2669
+msgid "Övriga punktskatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a4790
+msgid "Övriga reduktion av inköpspriser"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6390
+msgid "Övriga riskkostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8363
+msgid "Övriga ränteintäkter från andra koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8362
+msgid "Övriga ränteintäkter från dotterföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8360
+msgid "Övriga ränteintäkter från koncernföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8361
+msgid "Övriga ränteintäkter från moderföretag"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8429
+msgid "Övriga räntekostnader för kortfristiga skulder"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3999
+msgid "Övriga rörelseintäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3900
+msgid "Övriga rörelseintäkter (gruppkonto)"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7990
+msgid "Övriga rörelsekostnader"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3690
+msgid "Övriga sidointäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8980
+msgid "Övriga skatter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a8490
+msgid "Övriga skuldrelaterade poster"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a7590
+msgid "Övriga sociala och andra avgifter enligt lag och avtal"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a6424
+msgid "Övriga tjänster - revisor"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a2990
+#: model:account.account.template,name:l10n_se.a2998
+msgid "Övriga upplupna kostnader och förutbetalda intäkter"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5493
+msgid "Övrigt förbrukningsmaterial"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3679
+msgid "övriga intäkter från värdepapper"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a3790
+msgid "övriga intäktskorrigeringar"
+msgstr ""
+
+#. module: l10n_se
+#: model:account.account.template,name:l10n_se.a5890
+msgid "övriga resekostnader"
 msgstr ""

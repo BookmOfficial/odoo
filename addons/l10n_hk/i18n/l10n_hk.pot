@@ -1,0 +1,361 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_hk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:26+0000\n"
+"PO-Revision-Date: 2022-04-15 22:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_2211
+msgid "Account Payable"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1240
+msgid "Account Receivable"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1243
+msgid "Account Receivable (PoS)"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_2210
+msgid "Accruals"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_32
+msgid "Accumulated Profit & Loss"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5235
+msgid "Advertising"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5225
+msgid "Audit Fees"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5226
+msgid "Bad Debts"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5201
+msgid "Bank Charges"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_4230
+msgid "Bank Interest Income"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5219
+msgid "Bonus Payment"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_51
+msgid "Costs"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5106
+msgid "Costs of Transportation"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_12
+msgid "Current Assets"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_22
+msgid "Current Liabilities"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5111
+msgid "Declaration Fees"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1140
+msgid "Decoration"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5224
+msgid "Depreciation"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5231
+msgid "Disposal"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5229
+msgid "Dividend"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5203
+msgid "Electricity & Water Fees"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5202
+msgid "Entertainment"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1130
+msgid "Equipment"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_4220
+msgid "Exchange Adjustment"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_52
+msgid "Expenses"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_11
+msgid "Fixed Assets"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_4240
+msgid "Foreign Exchange Gain"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5240
+msgid "Foreign Exchange Loss"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1110
+msgid "Furniture and Fixtures"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.chart.template,name:l10n_hk.l10n_hk_chart_template
+msgid "Hong Kong - Chart of Accounts"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5211
+msgid "IT Expenses"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5214
+msgid "Insurance"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1160
+msgid "Investments"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5228
+msgid "Legal & Professional Fees"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5222
+msgid "Local Delivery"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5217
+msgid "MPF Contribution"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5223
+msgid "Management Fees"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5105
+msgid "Misc. Costs"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_21
+msgid "Non-current Liabilities"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_42
+msgid "Other Income and Gains"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_2216
+msgid "Other Payable"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1246
+msgid "Other Receivable"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5216
+msgid "Overseas Traveling"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5112
+msgid "Packing Fees"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_31
+msgid "Paid Capital"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5205
+msgid "Postage & Stamps"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5206
+msgid "Printing & Stationery"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_33
+msgid "Profit & Loss Account"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_2215
+msgid "Proposed Dividend"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_2214
+msgid "Provision for Taxation"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_2212
+msgid "Receipt in Advance (Customer Prepayments)"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5207
+msgid "Rent & Rates"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5234
+msgid "Repair and Maintenance"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5215
+msgid "Sales Commission"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1260
+msgid "Stock Interim Account (Delivered)"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1250
+msgid "Stock Interim Account (Received)"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1270
+msgid "Stock Valuation Account"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1245
+msgid "Sundry Deposits"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5208
+msgid "Sundry Expenses"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_4210
+msgid "Sundry Income"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1242
+msgid "Supplier Prepayments"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5221
+msgid "Taxation"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5209
+msgid "Telecommunication Expenses"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5101
+msgid "Trade Costs"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_41
+msgid "Trade Income"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5210
+msgid "Traffic Fees"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_1241
+msgid "Utility & Rental Deposit"
+msgstr ""
+
+#. module: l10n_hk
+#: model:account.account.template,name:l10n_hk.l10n_hk_5218
+msgid "Wages & Salaries"
+msgstr ""

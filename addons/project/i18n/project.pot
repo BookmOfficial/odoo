@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:19+0000\n"
-"PO-Revision-Date: 2022-01-24 08:19+0000\n"
+"POT-Creation-Date: 2022-04-15 23:12+0000\n"
+"PO-Revision-Date: 2022-04-15 23:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -823,6 +823,12 @@ msgid "Archived"
 msgstr ""
 
 #. module: project
+#: code:addons/project/models/project.py:0
+#, python-format
+msgid "Archived tasks cannot be recurring. Please unarchive the task first."
+msgstr ""
+
+#. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_confirmation_wizard
 msgid "Are you sure you want to continue?"
 msgstr ""
@@ -853,16 +859,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Assign to Me"
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,help:project.project_sharing_project_task_view_kanban
-msgid " assignee"
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,help:project.project_sharing_project_task_view_kanban
-msgid " assignees"
 msgstr ""
 
 #. module: project
@@ -988,37 +984,6 @@ msgstr ""
 #: code:addons/project/models/project.py:0
 #: model:ir.model.fields.selection,name:project.selection__project_task__kanban_state__blocked
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__state__blocked
-#: model:project.task,legend_blocked:project.project_task_1
-#: model:project.task,legend_blocked:project.project_task_12
-#: model:project.task,legend_blocked:project.project_task_2
-#: model:project.task,legend_blocked:project.project_task_20
-#: model:project.task,legend_blocked:project.project_task_24
-#: model:project.task,legend_blocked:project.project_task_25
-#: model:project.task,legend_blocked:project.project_task_26
-#: model:project.task,legend_blocked:project.project_task_3
-#: model:project.task,legend_blocked:project.project_task_30
-#: model:project.task,legend_blocked:project.project_task_31
-#: model:project.task,legend_blocked:project.project_task_32
-#: model:project.task,legend_blocked:project.project_task_33
-#: model:project.task,legend_blocked:project.project_task_8
-#: model:project.task,legend_blocked:project.project_task_9
-#: model:project.task.type,legend_blocked:project.project_personal_stage_admin_0
-#: model:project.task.type,legend_blocked:project.project_personal_stage_admin_1
-#: model:project.task.type,legend_blocked:project.project_personal_stage_admin_2
-#: model:project.task.type,legend_blocked:project.project_personal_stage_admin_3
-#: model:project.task.type,legend_blocked:project.project_personal_stage_admin_4
-#: model:project.task.type,legend_blocked:project.project_personal_stage_admin_5
-#: model:project.task.type,legend_blocked:project.project_personal_stage_admin_6
-#: model:project.task.type,legend_blocked:project.project_personal_stage_demo_0
-#: model:project.task.type,legend_blocked:project.project_personal_stage_demo_1
-#: model:project.task.type,legend_blocked:project.project_personal_stage_demo_2
-#: model:project.task.type,legend_blocked:project.project_personal_stage_demo_3
-#: model:project.task.type,legend_blocked:project.project_personal_stage_demo_4
-#: model:project.task.type,legend_blocked:project.project_personal_stage_demo_5
-#: model:project.task.type,legend_blocked:project.project_personal_stage_demo_6
-#: model:project.task.type,legend_blocked:project.project_stage_0
-#: model:project.task.type,legend_blocked:project.project_stage_2
-#: model:project.task.type,legend_blocked:project.project_stage_3
 #, python-format
 msgid "Blocked"
 msgstr ""
@@ -1049,26 +1014,6 @@ msgid "Burndown Chart"
 msgstr ""
 
 #. module: project
-#: model:project.task,legend_done:project.project_task_10
-#: model:project.task,legend_done:project.project_task_11
-#: model:project.task,legend_done:project.project_task_19
-#: model:project.task,legend_done:project.project_task_21
-#: model:project.task,legend_done:project.project_task_22
-#: model:project.task,legend_done:project.project_task_27
-#: model:project.task,legend_done:project.project_task_28
-#: model:project.task,legend_done:project.project_task_29
-#: model:project.task,legend_done:project.project_task_34
-#: model:project.task,legend_done:project.project_task_35
-#: model:project.task,legend_done:project.project_task_36
-#: model:project.task,legend_done:project.project_task_4
-#: model:project.task,legend_done:project.project_task_5
-#: model:project.task,legend_done:project.project_task_6
-#: model:project.task,legend_done:project.project_task_7
-#: model:project.task.type,legend_done:project.project_stage_1
-msgid "Buzz or set as done"
-msgstr ""
-
-#. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
 msgid "Cancel"
@@ -1077,15 +1022,8 @@ msgstr ""
 #. module: project
 #: code:addons/project/models/project.py:0
 #: model:project.project.stage,name:project.project_project_stage_3
-#: model:project.task.type,name:project.project_personal_stage_admin_6
-#: model:project.task.type,name:project.project_personal_stage_demo_6
 #, python-format
 msgid "Canceled"
-msgstr ""
-
-#. module: project
-#: model:project.task.type,name:project.project_stage_3
-msgid "Cancelled"
 msgstr ""
 
 #. module: project
@@ -1410,8 +1348,8 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
-"you can communicate on the task directly. Your managers decide which "
+"Customers propose feedbacks by email; Bookm creates tasks automatically, and"
+" you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
 
@@ -1693,9 +1631,6 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #: model:project.project.stage,name:project.project_project_stage_2
-#: model:project.task.type,name:project.project_personal_stage_admin_5
-#: model:project.task.type,name:project.project_personal_stage_demo_5
-#: model:project.task.type,name:project.project_stage_2
 #, python-format
 msgid "Done"
 msgstr ""
@@ -2164,54 +2099,6 @@ msgstr ""
 #: model:ir.model.fields.selection,name:project.selection__project_task__kanban_state__normal
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__state__normal
 #: model:project.project.stage,name:project.project_project_stage_1
-#: model:project.task,legend_normal:project.project_task_1
-#: model:project.task,legend_normal:project.project_task_10
-#: model:project.task,legend_normal:project.project_task_11
-#: model:project.task,legend_normal:project.project_task_12
-#: model:project.task,legend_normal:project.project_task_19
-#: model:project.task,legend_normal:project.project_task_2
-#: model:project.task,legend_normal:project.project_task_20
-#: model:project.task,legend_normal:project.project_task_21
-#: model:project.task,legend_normal:project.project_task_22
-#: model:project.task,legend_normal:project.project_task_24
-#: model:project.task,legend_normal:project.project_task_25
-#: model:project.task,legend_normal:project.project_task_26
-#: model:project.task,legend_normal:project.project_task_27
-#: model:project.task,legend_normal:project.project_task_28
-#: model:project.task,legend_normal:project.project_task_29
-#: model:project.task,legend_normal:project.project_task_3
-#: model:project.task,legend_normal:project.project_task_30
-#: model:project.task,legend_normal:project.project_task_31
-#: model:project.task,legend_normal:project.project_task_32
-#: model:project.task,legend_normal:project.project_task_33
-#: model:project.task,legend_normal:project.project_task_34
-#: model:project.task,legend_normal:project.project_task_35
-#: model:project.task,legend_normal:project.project_task_36
-#: model:project.task,legend_normal:project.project_task_4
-#: model:project.task,legend_normal:project.project_task_5
-#: model:project.task,legend_normal:project.project_task_6
-#: model:project.task,legend_normal:project.project_task_7
-#: model:project.task,legend_normal:project.project_task_8
-#: model:project.task,legend_normal:project.project_task_9
-#: model:project.task.type,legend_normal:project.project_personal_stage_admin_0
-#: model:project.task.type,legend_normal:project.project_personal_stage_admin_1
-#: model:project.task.type,legend_normal:project.project_personal_stage_admin_2
-#: model:project.task.type,legend_normal:project.project_personal_stage_admin_3
-#: model:project.task.type,legend_normal:project.project_personal_stage_admin_4
-#: model:project.task.type,legend_normal:project.project_personal_stage_admin_5
-#: model:project.task.type,legend_normal:project.project_personal_stage_admin_6
-#: model:project.task.type,legend_normal:project.project_personal_stage_demo_0
-#: model:project.task.type,legend_normal:project.project_personal_stage_demo_1
-#: model:project.task.type,legend_normal:project.project_personal_stage_demo_2
-#: model:project.task.type,legend_normal:project.project_personal_stage_demo_3
-#: model:project.task.type,legend_normal:project.project_personal_stage_demo_4
-#: model:project.task.type,legend_normal:project.project_personal_stage_demo_5
-#: model:project.task.type,legend_normal:project.project_personal_stage_demo_6
-#: model:project.task.type,legend_normal:project.project_stage_0
-#: model:project.task.type,legend_normal:project.project_stage_1
-#: model:project.task.type,legend_normal:project.project_stage_2
-#: model:project.task.type,legend_normal:project.project_stage_3
-#: model:project.task.type,name:project.project_stage_1
 #, python-format
 msgid "In Progress"
 msgstr ""
@@ -2227,8 +2114,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/project/models/project.py:0
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
-#: model:project.task.type,name:project.project_personal_stage_admin_0
-#: model:project.task.type,name:project.project_personal_stage_demo_0
 #, python-format
 msgid "Inbox"
 msgstr ""
@@ -2303,10 +2188,29 @@ msgstr ""
 
 #. module: project
 #. openerp-web
+#: code:addons/project/static/src/js/project_list.js:0
+#, python-format
+msgid ""
+"It seems that some tasks are part of a recurrence. At least one of them must"
+" be kept as a model to create the next occurences."
+msgstr ""
+
+#. module: project
+#. openerp-web
 #: code:addons/project/static/src/js/project_form.js:0
 #: code:addons/project/static/src/js/project_list.js:0
 #, python-format
 msgid "It seems that this task is part of a recurrence."
+msgstr ""
+
+#. module: project
+#. openerp-web
+#: code:addons/project/static/src/js/project_form.js:0
+#: code:addons/project/static/src/js/project_list.js:0
+#, python-format
+msgid ""
+"It seems that this task is part of a recurrence. You must keep it as a model"
+" to create the next occurences."
 msgstr ""
 
 #. module: project
@@ -2473,8 +2377,6 @@ msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:0
-#: model:project.task.type,name:project.project_personal_stage_admin_4
-#: model:project.task.type,name:project.project_personal_stage_demo_4
 #, python-format
 msgid "Later"
 msgstr ""
@@ -2747,26 +2649,6 @@ msgid "Name of the tasks"
 msgstr ""
 
 #. module: project
-#: model:project.task,legend_blocked:project.project_task_10
-#: model:project.task,legend_blocked:project.project_task_11
-#: model:project.task,legend_blocked:project.project_task_19
-#: model:project.task,legend_blocked:project.project_task_21
-#: model:project.task,legend_blocked:project.project_task_22
-#: model:project.task,legend_blocked:project.project_task_27
-#: model:project.task,legend_blocked:project.project_task_28
-#: model:project.task,legend_blocked:project.project_task_29
-#: model:project.task,legend_blocked:project.project_task_34
-#: model:project.task,legend_blocked:project.project_task_35
-#: model:project.task,legend_blocked:project.project_task_36
-#: model:project.task,legend_blocked:project.project_task_4
-#: model:project.task,legend_blocked:project.project_task_5
-#: model:project.task,legend_blocked:project.project_task_6
-#: model:project.task,legend_blocked:project.project_task_7
-#: model:project.task.type,legend_blocked:project.project_stage_1
-msgid "Need functional or technical help"
-msgstr ""
-
-#. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Neutral face"
 msgstr ""
@@ -2775,7 +2657,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
-#: model:project.task.type,name:project.project_stage_0
 #: model_terms:ir.ui.view,arch_db:project.project_project_stage_view_form
 #, python-format
 msgid "New"
@@ -3036,11 +2917,6 @@ msgid "Off Track"
 msgstr ""
 
 #. module: project
-#: model:project.project,name:project.project_project_1
-msgid "Office Design"
-msgstr ""
-
-#. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
 msgid "Ok"
 msgstr ""
@@ -3207,13 +3083,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project__partner_phone
 #: model:ir.model.fields,field_description:project.field_project_task__partner_phone
 msgid "Phone"
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
-msgid ""
-"Plan resource allocation across projets and tasks, and estimate deadlines "
-"more accurately"
 msgstr ""
 
 #. module: project
@@ -3630,36 +3499,6 @@ msgstr ""
 #. module: project
 #: code:addons/project/models/project.py:0
 #: model:ir.model.fields.selection,name:project.selection__project_task__kanban_state__done
-#: model:project.task,legend_done:project.project_task_1
-#: model:project.task,legend_done:project.project_task_12
-#: model:project.task,legend_done:project.project_task_2
-#: model:project.task,legend_done:project.project_task_20
-#: model:project.task,legend_done:project.project_task_24
-#: model:project.task,legend_done:project.project_task_25
-#: model:project.task,legend_done:project.project_task_26
-#: model:project.task,legend_done:project.project_task_3
-#: model:project.task,legend_done:project.project_task_30
-#: model:project.task,legend_done:project.project_task_31
-#: model:project.task,legend_done:project.project_task_32
-#: model:project.task,legend_done:project.project_task_33
-#: model:project.task,legend_done:project.project_task_8
-#: model:project.task,legend_done:project.project_task_9
-#: model:project.task.type,legend_done:project.project_personal_stage_admin_0
-#: model:project.task.type,legend_done:project.project_personal_stage_admin_1
-#: model:project.task.type,legend_done:project.project_personal_stage_admin_2
-#: model:project.task.type,legend_done:project.project_personal_stage_admin_3
-#: model:project.task.type,legend_done:project.project_personal_stage_admin_4
-#: model:project.task.type,legend_done:project.project_personal_stage_admin_5
-#: model:project.task.type,legend_done:project.project_personal_stage_admin_6
-#: model:project.task.type,legend_done:project.project_personal_stage_demo_0
-#: model:project.task.type,legend_done:project.project_personal_stage_demo_1
-#: model:project.task.type,legend_done:project.project_personal_stage_demo_2
-#: model:project.task.type,legend_done:project.project_personal_stage_demo_3
-#: model:project.task.type,legend_done:project.project_personal_stage_demo_4
-#: model:project.task.type,legend_done:project.project_personal_stage_demo_5
-#: model:project.task.type,legend_done:project.project_personal_stage_demo_6
-#: model:project.task.type,legend_done:project.project_stage_0
-#: model:project.task.type,legend_done:project.project_stage_2
 #, python-format
 msgid "Ready"
 msgstr ""
@@ -3667,11 +3506,6 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__state__done
 msgid "Ready for Next Stage"
-msgstr ""
-
-#. module: project
-#: model:project.task.type,legend_done:project.project_stage_3
-msgid "Ready to reopen"
 msgstr ""
 
 #. module: project
@@ -3754,11 +3588,6 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__res_model
 msgid "Related Document Model"
-msgstr ""
-
-#. module: project
-#: model:project.project,name:project.project_project_3
-msgid "Renovations"
 msgstr ""
 
 #. module: project
@@ -3845,11 +3674,6 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "Research"
-msgstr ""
-
-#. module: project
-#: model:project.project,name:project.project_project_2
-msgid "Research & Development"
 msgstr ""
 
 #. module: project
@@ -4428,9 +4252,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__task_id
 #: model:ir.model.fields,field_description:project.field_res_partner__task_ids
 #: model:ir.model.fields,field_description:project.field_res_users__task_ids
-#: model:project.project,label_tasks:project.project_project_1
-#: model:project.project,label_tasks:project.project_project_2
-#: model:project.project,label_tasks:project.project_project_3
 #: model_terms:ir.ui.view,arch_db:project.portal_layout
 #: model_terms:ir.ui.view,arch_db:project.portal_my_home
 #: model_terms:ir.ui.view,arch_db:project.portal_my_project
@@ -4523,16 +4344,16 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
-" email that does not reply to an existing record will cause the creation of "
-"a new record of this model (e.g. a Project Task)"
+"The model (Bookm Document Kind) to which this alias corresponds. Any "
+"incoming email that does not reply to an existing record will cause the "
+"creation of a new record of this model (e.g. a Project Task)"
 msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.com>"
 msgstr ""
 
 #. module: project
@@ -4599,8 +4420,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/project/models/project.py:0
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
-#: model:project.task.type,name:project.project_personal_stage_admin_3
-#: model:project.task.type,name:project.project_personal_stage_demo_3
 #, python-format
 msgid "This Month"
 msgstr ""
@@ -4609,8 +4428,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/project/models/project.py:0
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
-#: model:project.task.type,name:project.project_personal_stage_admin_2
-#: model:project.task.type,name:project.project_personal_stage_demo_2
 #, python-format
 msgid "This Week"
 msgstr ""
@@ -4722,8 +4539,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/project/models/project.py:0
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
-#: model:project.task.type,name:project.project_personal_stage_admin_1
-#: model:project.task.type,name:project.project_personal_stage_demo_1
 #, python-format
 msgid "Today"
 msgstr ""
@@ -5143,6 +4958,16 @@ msgstr ""
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "You have not write access of %s field."
+msgstr ""
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
+msgid "assignee"
+msgstr ""
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
+msgid "assignees"
 msgstr ""
 
 #. module: project

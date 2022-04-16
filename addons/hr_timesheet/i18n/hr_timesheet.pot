@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:19+0000\n"
-"PO-Revision-Date: 2022-01-24 08:19+0000\n"
+"POT-Creation-Date: 2022-04-15 22:07+0000\n"
+"PO-Revision-Date: 2022-04-15 22:07+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -61,13 +61,6 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_kanban_account_analytic_line
 msgid "<i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
-msgstr ""
-
-#. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid ""
-"<span class=\"fa fa-lg fa-building-o \" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
 
 #. module: hr_timesheet
@@ -224,11 +217,6 @@ msgstr ""
 msgid ""
 "Analytic account to which this project is linked for financial management. "
 "Use an analytic account to record cost and revenue on your project."
-msgstr ""
-
-#. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid "Apple App Store"
 msgstr ""
 
 #. module: hr_timesheet
@@ -449,16 +437,6 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
 msgid "Generate timesheets upon time off validation"
-msgstr ""
-
-#. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid "Google Chrome Store"
-msgstr ""
-
-#. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid "Google Play Store"
 msgstr ""
 
 #. module: hr_timesheet
@@ -817,16 +795,6 @@ msgid "See timesheet entries"
 msgstr ""
 
 #. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid "Send a periodical email reminder to timesheets managers"
-msgstr ""
-
-#. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid "Send a periodical email reminder to timesheets users"
-msgstr ""
-
-#. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.hr_timesheet_config_settings_action
 msgid "Settings"
 msgstr ""
@@ -1113,11 +1081,6 @@ msgid "Timesheets"
 msgstr ""
 
 #. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid "Timesheets Control"
-msgstr ""
-
-#. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.act_hr_timesheet_report
 msgid "Timesheets by Employee"
 msgstr ""
@@ -1188,11 +1151,6 @@ msgstr ""
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_timesheets
 msgid "Total:"
-msgstr ""
-
-#. module: hr_timesheet
-#: model_terms:ir.ui.view,arch_db:hr_timesheet.res_config_settings_view_form
-msgid "Track your time from anywhere, even offline, with our web/mobile apps"
 msgstr ""
 
 #. module: hr_timesheet
