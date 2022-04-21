@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:20+0000\n"
+"POT-Creation-Date: 2022-04-15 23:47+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Jérôme JEK <jek@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -432,10 +432,10 @@ msgstr "Erreur d'accès"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
+#: code:addons/web/static/src/legacy/js/components/action_menus.js:0
 #, python-format
-msgid "Access to all Enterprise Apps"
-msgstr "Accès à toutes les applis d'entreprise"
+msgid "Action"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -585,6 +585,13 @@ msgstr "Ajouter: "
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/legacy/js/components/action_menus.js:0
+#, python-format
+msgid "Additionnal actions"
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/legacy/js/views/signature_dialog.js:0
 #, python-format
 msgid "Adopt Your Signature"
@@ -655,13 +662,6 @@ msgstr "Une erreur s'est produite"
 #. openerp-web
 #: code:addons/web/static/src/legacy/xml/base.xml:0
 #, python-format
-msgid "And more"
-msgstr "Et plus"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
-#, python-format
 msgid "Any"
 msgstr "Au moins un"
 
@@ -682,6 +682,13 @@ msgstr ""
 #, python-format
 msgid "Apply"
 msgstr "Appliquer"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/legacy/js/apps.js:0
+#, python-format
+msgid "Apps will be available soon"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -874,10 +881,10 @@ msgstr "Fichier binaire"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
+#: code:addons/web/static/src/legacy/js/core/dialog.js:0
 #, python-format
-msgid "Bugfixes guarantee"
-msgstr "Garanties de correction de bogues"
+msgid "Bookm"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1046,6 +1053,13 @@ msgstr "Effacer"
 #, python-format
 msgid "Clear Signature"
 msgstr "Effacer la signature"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#, python-format
+msgid "Client Error"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1742,6 +1756,20 @@ msgid "Enable profiling"
 msgstr ""
 
 #. module: web
+#. openerp-web
+#: code:addons/web/static/src/legacy/js/fields/upgrade_fields.js:0
+#, python-format
+msgid "Enterprise"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#, python-format
+msgid "Error"
+msgstr ""
+
+#. module: web
 #: code:addons/web/controllers/main.py:0
 #, python-format
 msgid "Error, password not changed !"
@@ -1978,13 +2006,6 @@ msgstr "Nom Complet"
 #, python-format
 msgid "Fushia"
 msgstr "Fuchsia"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
-#, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Activez cette application et bien d'autres via Odoo Entreprise !"
 
 #. module: web
 #. openerp-web
@@ -2351,11 +2372,6 @@ msgid "Log in"
 msgstr "Connexion"
 
 #. module: web
-#: model_terms:ir.ui.view,arch_db:web.login
-msgid "Log in as superuser"
-msgstr "Connexion en tant que superutilisateur"
-
-#. module: web
 #. openerp-web
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 #, python-format
@@ -2411,11 +2427,6 @@ msgstr "Actions principales"
 #, python-format
 msgid "Manage Attachments"
 msgstr "Gestion des pièces jointes"
-
-#. module: web
-#: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Manage Databases"
-msgstr "Gestion des bases de données"
 
 #. module: web
 #. openerp-web
@@ -2520,13 +2531,6 @@ msgstr "Enregistrement manquant"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
-#, python-format
-msgid "Mobile support"
-msgstr "Support mobile"
-
-#. module: web
-#. openerp-web
 #: code:addons/web/static/src/webclient/actions/debug_items.js:0
 #, python-format
 msgid "Model Record Rules"
@@ -2582,17 +2586,17 @@ msgstr "Texte multiligne"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
-#, python-format
-msgid "My Odoo.com.account"
-msgstr ""
-
-#. module: web
-#. openerp-web
 #: code:addons/web/static/src/legacy/xml/base.xml:0
 #, python-format
 msgid "NONE"
 msgstr "AUCUN"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#, python-format
+msgid "Network Error"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2628,13 +2632,6 @@ msgstr "Nouveau mot de passe"
 #, python-format
 msgid "New Password (Confirmation)"
 msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
-#, python-format
-msgid "New design"
-msgstr "Nouveau design"
 
 #. module: web
 #. openerp-web
@@ -2798,71 +2795,6 @@ msgstr "Etat non actif, cliquez pour changer"
 #, python-format
 msgid "Object:"
 msgstr "Objet :"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/legacy/js/core/dialog.js:0
-#: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
-#, python-format
-msgid "Odoo"
-msgstr "Odoo"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/legacy/js/apps.js:0
-#, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Les applications Odoo seront bientôt disponibles"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
-#, python-format
-msgid "Odoo Client Error"
-msgstr "Erreur client Odoo"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/legacy/js/fields/upgrade_fields.js:0
-#, python-format
-msgid "Odoo Enterprise"
-msgstr "Entreprise Odoo"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
-#, python-format
-msgid "Odoo Error"
-msgstr "Erreur Odoo"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
-#, python-format
-msgid "Odoo Network Error"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
-#, python-format
-msgid "Odoo Server Error"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
-#: code:addons/web/static/src/public/error_notifications.js:0
-#, python-format
-msgid "Odoo Session Expired"
-msgstr "Session Odoo Expirée"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
-#, python-format
-msgid "Odoo Warning"
-msgstr "Avertissement Odoo"
 
 #. module: web
 #. openerp-web
@@ -3246,16 +3178,6 @@ msgstr ""
 "                           INV/2020/07/0003</span></b>"
 
 #. module: web
-#: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
-msgid "Powered by %s%s"
-msgstr "Créé avec %s%s"
-
-#. module: web
-#: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Propulsé par <span>Odoo</span>"
-
-#. module: web
 #. openerp-web
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 #, python-format
@@ -3327,10 +3249,18 @@ msgstr "Couleur primaire"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/legacy/js/components/action_menus.js:0
 #: code:addons/web/static/src/legacy/xml/report.xml:0
 #, python-format
 msgid "Print"
 msgstr "Imprimer"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/legacy/js/components/action_menus.js:0
+#, python-format
+msgid "Printing options"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3832,6 +3762,21 @@ msgstr "Sélection"
 #, python-format
 msgid "Selection:"
 msgstr "Sélection :"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#, python-format
+msgid "Server Error"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#: code:addons/web/static/src/public/error_notifications.js:0
+#, python-format
+msgid "Session Expired"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -4477,20 +4422,6 @@ msgstr "Mettre à niveau maintenant"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
-#, python-format
-msgid "Upgrade to enterprise"
-msgstr "Passer sur la version Enterprise"
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/legacy/xml/base.xml:0
-#, python-format
-msgid "Upgrade to future versions"
-msgstr "Obtenez toutes les mises à jour futures"
-
-#. module: web
-#. openerp-web
 #: code:addons/web/static/src/legacy/js/views/kanban/kanban_record.js:0
 #, python-format
 msgid "Upload and Set"
@@ -4752,6 +4683,12 @@ msgid "Yesterday"
 msgstr "Hier"
 
 #. module: web
+#: code:addons/web/controllers/main.py:0
+#, python-format
+msgid "You are not allowed to upload an attachment here."
+msgstr ""
+
+#. module: web
 #. openerp-web
 #: code:addons/web/static/src/legacy/js/widgets/model_field_selector.js:0
 #, python-format
@@ -4796,11 +4733,9 @@ msgstr ""
 #: code:addons/web/static/src/webclient/actions/action_service.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
-"the reports."
+"You need to start the server with at least two workers to print a pdf "
+"version of the reports."
 msgstr ""
-"Vous devez démarrer Odoo avec au moins deux workers pour imprimer une "
-"version pdf des reports."
 
 #. module: web
 #. openerp-web
@@ -4814,14 +4749,6 @@ msgstr ""
 "Vous devriez mettre à jour votre version de Wkhtmltopdf à, au minimum, "
 "0.12.0 pour obtenir un affichage correct des headers et footers ainsi que le "
 "support de la table des sauts de page."
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/core/errors/error_dialogs.xml:0
-#: code:addons/web/static/src/public/error_notifications.js:0
-#, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "Votre session Odoo a expiré. La page va s'actualiser."
 
 #. module: web
 #. openerp-web
@@ -4841,6 +4768,14 @@ msgstr ""
 #, python-format
 msgid "Your name"
 msgstr "Votre nom"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/core/errors/error_dialogs.xml:0
+#: code:addons/web/static/src/public/error_notifications.js:0
+#, python-format
+msgid "Your session expired. The current page is about to be refreshed."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -5330,6 +5265,91 @@ msgstr ""
 #, python-format
 msgid "{\"o_act_window\": actionType === \"ir.actions.act_window\"}"
 msgstr ""
+
+#, python-format
+#~ msgid "Access to all Enterprise Apps"
+#~ msgstr "Accès à toutes les applis d'entreprise"
+
+#, python-format
+#~ msgid "And more"
+#~ msgstr "Et plus"
+
+#, python-format
+#~ msgid "Bugfixes guarantee"
+#~ msgstr "Garanties de correction de bogues"
+
+#, python-format
+#~ msgid "Get this feature and much more with Odoo Enterprise!"
+#~ msgstr "Activez cette application et bien d'autres via Odoo Entreprise !"
+
+#~ msgid "Log in as superuser"
+#~ msgstr "Connexion en tant que superutilisateur"
+
+#~ msgid "Manage Databases"
+#~ msgstr "Gestion des bases de données"
+
+#, python-format
+#~ msgid "Mobile support"
+#~ msgstr "Support mobile"
+
+#, python-format
+#~ msgid "New design"
+#~ msgstr "Nouveau design"
+
+#, python-format
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#, python-format
+#~ msgid "Odoo Apps will be available soon"
+#~ msgstr "Les applications Odoo seront bientôt disponibles"
+
+#, python-format
+#~ msgid "Odoo Client Error"
+#~ msgstr "Erreur client Odoo"
+
+#, python-format
+#~ msgid "Odoo Enterprise"
+#~ msgstr "Entreprise Odoo"
+
+#, python-format
+#~ msgid "Odoo Error"
+#~ msgstr "Erreur Odoo"
+
+#, python-format
+#~ msgid "Odoo Session Expired"
+#~ msgstr "Session Odoo Expirée"
+
+#, python-format
+#~ msgid "Odoo Warning"
+#~ msgstr "Avertissement Odoo"
+
+#~ msgid "Powered by %s%s"
+#~ msgstr "Créé avec %s%s"
+
+#~ msgid "Powered by <span>Odoo</span>"
+#~ msgstr "Propulsé par <span>Odoo</span>"
+
+#, python-format
+#~ msgid "Upgrade to enterprise"
+#~ msgstr "Passer sur la version Enterprise"
+
+#, python-format
+#~ msgid "Upgrade to future versions"
+#~ msgstr "Obtenez toutes les mises à jour futures"
+
+#, python-format
+#~ msgid ""
+#~ "You need to start Odoo with at least two workers to print a pdf version "
+#~ "of the reports."
+#~ msgstr ""
+#~ "Vous devez démarrer Odoo avec au moins deux workers pour imprimer une "
+#~ "version pdf des reports."
+
+#, python-format
+#~ msgid ""
+#~ "Your Odoo session expired. The current page is about to be refreshed."
+#~ msgstr "Votre session Odoo a expiré. La page va s'actualiser."
 
 #, python-format
 #~ msgid "No results to show..."
