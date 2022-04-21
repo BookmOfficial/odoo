@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -100,6 +100,14 @@ msgid "Associated Partner"
 msgstr "Gekoppelde relatie"
 
 #. module: membership
+#: model_terms:ir.actions.act_window,help:membership.action_membership_members
+msgid ""
+"Bookm helps you easily track all activities related to a member: \n"
+"                  Current Membership Status, Discussions and History of "
+"Membership, etc."
+msgstr ""
+
+#. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_partner_form
 msgid "Buy Membership"
 msgstr "Koop lidmaatschap"
@@ -154,11 +162,6 @@ msgstr "Configuratie"
 #: model:ir.model,name:membership.model_res_partner
 msgid "Contact"
 msgstr "Contact"
-
-#. module: membership
-#: model_terms:ir.ui.view,arch_db:membership.view_partner_tree
-msgid "Contacts"
-msgstr "Contacten"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_invoice__create_uid
@@ -555,17 +558,6 @@ msgid "Non Member"
 msgstr "Niet-lid"
 
 #. module: membership
-#: model_terms:ir.actions.act_window,help:membership.action_membership_members
-msgid ""
-"Odoo helps you easily track all activities related to a member: \n"
-"                  Current Membership Status, Discussions and History of "
-"Membership, etc."
-msgstr ""
-"Odoo laat je toe om gemakkelijk alle activiteiten van leden op te volgen:\n"
-"Huidige status van het lidmaatschap, discussies en historie van het "
-"lidmaatschap, enz."
-
-#. module: membership
 #: model:ir.model.fields.selection,name:membership.selection__membership_membership_line__state__old
 #: model:ir.model.fields.selection,name:membership.selection__report_membership__membership_state__old
 #: model:ir.model.fields.selection,name:membership.selection__res_partner__membership_state__old
@@ -725,3 +717,16 @@ msgstr "Wachtend lid"
 #, python-format
 msgid "You cannot create recursive associated members."
 msgstr "Het is niet mogelijk om recursieve geassocieerde leden te maken."
+
+#~ msgid "Contacts"
+#~ msgstr "Contacten"
+
+#~ msgid ""
+#~ "Odoo helps you easily track all activities related to a member: \n"
+#~ "                  Current Membership Status, Discussions and History of "
+#~ "Membership, etc."
+#~ msgstr ""
+#~ "Odoo laat je toe om gemakkelijk alle activiteiten van leden op te "
+#~ "volgen:\n"
+#~ "Huidige status van het lidmaatschap, discussies en historie van het "
+#~ "lidmaatschap, enz."
