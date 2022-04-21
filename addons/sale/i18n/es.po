@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:20+0000\n"
+"POT-Creation-Date: 2022-04-15 23:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Jose Carmona <jrcarmona@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -68,12 +68,6 @@ msgid ""
 msgstr ""
 "(object.state in ('draft', 'sent') and 'Presupuesto - %s' % (object.name)) "
 "or 'Pedido - %s' % (object.name)"
-
-#. module: sale
-#: model:product.product,description_sale:sale.product_product_4e
-#: model:product.product,description_sale:sale.product_product_4f
-msgid "160x80cm, with large legs."
-msgstr "160x80cm, con patas grandes."
 
 #. module: sale
 #. openerp-web
@@ -934,13 +928,10 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
-"As an example, if you sell pre-paid hours of services, Odoo recommends you\n"
+"As an example, if you sell pre-paid hours of services, Bookm recommends you\n"
 "                to sell extra hours when all ordered hours have been "
 "consumed."
 msgstr ""
-"Por ejemplo, si vende horas de servicios pre-pagadas, Odoo le recomienda\n"
-"                vender horas extras cuando se hayan consumido todas las "
-"horas pedidas."
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__product_template__expense_policy__cost
@@ -1117,36 +1108,6 @@ msgstr "Compañía"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with DHL"
-msgstr "Calcular los costes de envío y enviar con DHL"
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with Easypost"
-msgstr "Calcular costes de envío y enviar con Easypost"
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with FedEx"
-msgstr "Calcular los costes de envío y enviar con FedEx"
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with UPS"
-msgstr "Calcular los costes de envío y enviar con UPS"
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with USPS"
-msgstr "Calcular los costes de envío y enviar con USPS"
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with bpost"
-msgstr "Calcular los costes de envío y enviar con bpost"
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs on orders"
 msgstr "Calcular los costes de envío en pedidos"
 
@@ -1172,21 +1133,10 @@ msgid "Confirmation Email Template"
 msgstr ""
 
 #. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Connectors"
-msgstr "Conectores"
-
-#. module: sale
 #: model:ir.model,name:sale.model_res_partner
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Contact"
 msgstr "Contacto"
-
-#. module: sale
-#: model_terms:product.product,website_description:sale.product_product_4e
-#: model_terms:product.product,website_description:sale.product_product_4f
-msgid "Contact Us"
-msgstr "Contáctenos"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_line__product_uom_category_id
@@ -1289,8 +1239,8 @@ msgstr ""
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_payment_acquirer_onboarding_wizard__payment_method__stripe
-msgid "Credit card (via Stripe)"
-msgstr "Tarjeta de crédito (a través de Stripe)"
+msgid "Credit & Debit card (via Stripe)"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__currency_id
@@ -1304,12 +1254,6 @@ msgstr "Moneda"
 #: model:ir.model.fields,field_description:sale.field_sale_order__currency_rate
 msgid "Currency Rate"
 msgstr "Tasa monetaria"
-
-#. module: sale
-#: model:product.attribute.value,name:sale.product_attribute_value_7
-#: model:product.template.attribute.value,name:sale.product_4_attribute_1_value_3
-msgid "Custom"
-msgstr "Personalizado"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_custom_attribute_value_ids
@@ -1381,12 +1325,6 @@ msgstr "Impuestos cliente"
 #: model:ir.ui.menu,name:sale.res_partner_menu
 msgid "Customers"
 msgstr "Clientes"
-
-#. module: sale
-#: model:product.product,name:sale.product_product_4e
-#: model:product.product,name:sale.product_product_4f
-msgid "Customizable Desk"
-msgstr "Escritorio personalizable"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.onboarding_quotation_layout_step
@@ -1533,12 +1471,6 @@ msgstr ""
 "pedido."
 
 #. module: sale
-#: model:product.product,name:sale.advance_product_0
-#: model:product.template,name:sale.advance_product_0_product_template
-msgid "Deposit"
-msgstr "Anticipo"
-
-#. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__deposit_default_product_id
 msgid "Deposit Product"
 msgstr "Producto para adelanto"
@@ -1592,11 +1524,6 @@ msgstr "Tipo de pantalla"
 #, python-format
 msgid "Do you want to apply this discount to all order lines?"
 msgstr "¿Quiere aplicar este descuento a todas las líneas de pedido?"
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Documentación"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__res_company__sale_onboarding_order_confirmation_state__done
@@ -1709,12 +1636,6 @@ msgstr "Asistente de redacción de correo electrónico"
 #: model:ir.model.fields,help:sale.field_res_config_settings__confirmation_mail_template_id
 msgid "Email sent to the customer once the order is paid."
 msgstr "Correo electrónico enviado al cliente una vez que se paga el pedido."
-
-#. module: sale
-#: model_terms:product.product,website_description:sale.product_product_4e
-#: model_terms:product.product,website_description:sale.product_product_4f
-msgid "Ergonomic"
-msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__expected_date
@@ -1951,11 +1872,6 @@ msgid "If you change the pricelist, only newly added lines will be affected."
 msgstr ""
 "Si cambia la tarifa, solo se verán afectadas las líneas que añada o cambie a "
 "partir de ese momento."
-
-#. module: sale
-#: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
-msgid "Import Amazon orders and sync deliveries"
-msgstr "Importa pedidos de Amazon y sincroniza entregas"
 
 #. module: sale
 #: code:addons/sale/models/product_template.py:0
@@ -2261,12 +2177,6 @@ msgid "Lets keep electronic signature for now."
 msgstr "Conservemos la firma electrónica por ahora."
 
 #. module: sale
-#: model_terms:product.product,website_description:sale.product_product_4e
-#: model_terms:product.product,website_description:sale.product_product_4f
-msgid "Locally handmade"
-msgstr ""
-
-#. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_auto_done_setting
 msgid "Lock"
 msgstr "Bloquear"
@@ -2281,14 +2191,6 @@ msgstr "Bloquear pedidos confirmados"
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__state__done
 msgid "Locked"
 msgstr "Bloqueado"
-
-#. module: sale
-#: model_terms:product.product,website_description:sale.product_product_4e
-#: model_terms:product.product,website_description:sale.product_product_4f
-msgid ""
-"Looking for a custom bamboo stain to match existing furniture? Contact us "
-"for a quote."
-msgstr ""
 
 #. module: sale
 #. openerp-web
@@ -2878,14 +2780,6 @@ msgid "Portal Access URL"
 msgstr "URL de acceso al portal"
 
 #. module: sale
-#: model_terms:product.product,website_description:sale.product_product_4e
-#: model_terms:product.product,website_description:sale.product_product_4f
-msgid ""
-"Press a button and watch your desk glide effortlessly from sitting to "
-"standing height in seconds."
-msgstr ""
-
-#. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__price_reduce
 msgid "Price Reduce"
 msgstr "Reducción de precio"
@@ -3328,11 +3222,6 @@ msgstr "Avisos para pedido de venta"
 #: model:ir.model,name:sale.model_sale_payment_acquirer_onboarding_wizard
 msgid "Sale Payment acquire onboarding wizard"
 msgstr "Asistente de incorporación de pago de venta"
-
-#. module: sale
-#: model:utm.source,name:sale.utm_source_sale_order_0
-msgid "Sale Promotion 1"
-msgstr "Promoción de venta 1"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -4059,14 +3948,6 @@ msgstr ""
 "el costo establecido en su forma detallada."
 
 #. module: sale
-#: model_terms:product.product,website_description:sale.product_product_4e
-#: model_terms:product.product,website_description:sale.product_product_4f
-msgid ""
-"The minimum height is 65 cm, and for standing work the maximum height "
-"position is 125 cm."
-msgstr ""
-
-#. module: sale
 #: code:addons/sale/controllers/portal.py:0
 #, python-format
 msgid "The order is not in a state requiring customer signature."
@@ -4413,14 +4294,6 @@ msgid "Unit of Measure"
 msgstr "Unidad de medida"
 
 #. module: sale
-#: model:product.product,uom_name:sale.advance_product_0
-#: model:product.product,uom_name:sale.product_product_4e
-#: model:product.product,uom_name:sale.product_product_4f
-#: model:product.template,uom_name:sale.advance_product_0_product_template
-msgid "Units"
-msgstr "Unidades"
-
-#. module: sale
 #: model:ir.ui.menu,name:sale.menu_product_uom_form_action
 #: model:ir.ui.menu,name:sale.next_id_16
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -4550,14 +4423,6 @@ msgstr "Advertencia en el pedido de venta"
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
 msgid "Warning when Selling this Product"
 msgstr "Aviso cuando vende este producto"
-
-#. module: sale
-#: model_terms:product.product,website_description:sale.product_product_4e
-#: model_terms:product.product,website_description:sale.product_product_4f
-msgid ""
-"We pay special attention to detail, which is why our desks are of a superior "
-"quality."
-msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__website_message_ids
@@ -4731,3 +4596,64 @@ msgid ""
 "get('proforma') and 'Proforma' or 'Quotation') or 'Order' }} (Ref {{ object."
 "name or 'n/a' }})"
 msgstr ""
+
+#~ msgid "160x80cm, with large legs."
+#~ msgstr "160x80cm, con patas grandes."
+
+#~ msgid ""
+#~ "As an example, if you sell pre-paid hours of services, Odoo recommends "
+#~ "you\n"
+#~ "                to sell extra hours when all ordered hours have been "
+#~ "consumed."
+#~ msgstr ""
+#~ "Por ejemplo, si vende horas de servicios pre-pagadas, Odoo le recomienda\n"
+#~ "                vender horas extras cuando se hayan consumido todas las "
+#~ "horas pedidas."
+
+#~ msgid "Compute shipping costs and ship with DHL"
+#~ msgstr "Calcular los costes de envío y enviar con DHL"
+
+#~ msgid "Compute shipping costs and ship with Easypost"
+#~ msgstr "Calcular costes de envío y enviar con Easypost"
+
+#~ msgid "Compute shipping costs and ship with FedEx"
+#~ msgstr "Calcular los costes de envío y enviar con FedEx"
+
+#~ msgid "Compute shipping costs and ship with UPS"
+#~ msgstr "Calcular los costes de envío y enviar con UPS"
+
+#~ msgid "Compute shipping costs and ship with USPS"
+#~ msgstr "Calcular los costes de envío y enviar con USPS"
+
+#~ msgid "Compute shipping costs and ship with bpost"
+#~ msgstr "Calcular los costes de envío y enviar con bpost"
+
+#~ msgid "Connectors"
+#~ msgstr "Conectores"
+
+#~ msgid "Contact Us"
+#~ msgstr "Contáctenos"
+
+#~ msgid "Credit card (via Stripe)"
+#~ msgstr "Tarjeta de crédito (a través de Stripe)"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizado"
+
+#~ msgid "Customizable Desk"
+#~ msgstr "Escritorio personalizable"
+
+#~ msgid "Deposit"
+#~ msgstr "Anticipo"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentación"
+
+#~ msgid "Import Amazon orders and sync deliveries"
+#~ msgstr "Importa pedidos de Amazon y sincroniza entregas"
+
+#~ msgid "Sale Promotion 1"
+#~ msgstr "Promoción de venta 1"
+
+#~ msgid "Units"
+#~ msgstr "Unidades"
