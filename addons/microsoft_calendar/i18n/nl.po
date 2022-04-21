@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -165,8 +165,8 @@ msgstr "Verwijderen"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_odoo
-msgid "Delete from Odoo"
-msgstr "Verwijderen van Odoo"
+msgid "Delete from Bookm"
+msgstr ""
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_both
@@ -192,19 +192,13 @@ msgstr "Afspraak terugkeerpatroon"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 #, python-format
 msgid ""
-"For a correct synchronization between Odoo and Outlook Calendar, all "
+"For a correct synchronization between Bookm and Outlook Calendar, all "
 "attendees must have an email address. However, some events do not respect "
 "this condition. As long as the events are incorrect, the calendars will not "
 "be synchronized.\n"
 "Either update the events/attendees or archive these events %s:\n"
 "%s"
 msgstr ""
-"Voor een correcte synchronisatie tussen Odoo en Outlook-agenda moeten alle "
-"aanwezigen een e-mailadres hebben. Bij sommige afspraken wordt deze "
-"voorwaarde echter niet gerespecteerd. Zolang deze afspraken niet kloppen, "
-"worden de agenda's niet gesynchroniseerd.\n"
-"Werk de afspraken / deelnemers bij of archiveer deze afspraken %s:\n"
-"%s"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_account_reset__id
@@ -453,3 +447,22 @@ msgid ""
 msgstr ""
 "Je wordt doorgestuurd naar Outlook om de toegang tot je agenda te "
 "autoriseren."
+
+#~ msgid "Delete from Odoo"
+#~ msgstr "Verwijderen van Odoo"
+
+#, python-format
+#~ msgid ""
+#~ "For a correct synchronization between Odoo and Outlook Calendar, all "
+#~ "attendees must have an email address. However, some events do not respect "
+#~ "this condition. As long as the events are incorrect, the calendars will "
+#~ "not be synchronized.\n"
+#~ "Either update the events/attendees or archive these events %s:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Voor een correcte synchronisatie tussen Odoo en Outlook-agenda moeten "
+#~ "alle aanwezigen een e-mailadres hebben. Bij sommige afspraken wordt deze "
+#~ "voorwaarde echter niet gerespecteerd. Zolang deze afspraken niet kloppen, "
+#~ "worden de agenda's niet gesynchroniseerd.\n"
+#~ "Werk de afspraken / deelnemers bij of archiveer deze afspraken %s:\n"
+#~ "%s"
