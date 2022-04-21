@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 21:31+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -19,25 +19,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#. module: base_setup
-#. openerp-web
-#: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
-#, python-format
-msgid "(Community Edition)"
-msgstr "(Community Edition)"
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" aria-label=\"Values set here are company-specific.\" groups="
-"\"base.group_multi_company\" role=\"img\"/>"
-msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Les valeurs définies ici sont "
-"spécifiques à l'entreprise.\" aria-label=\"Les valeurs définies ici sont "
-"spécifiques à l'entreprise.\" groups=\"base.group_multi_company\" role=\"img"
-"\"/>"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -151,11 +132,6 @@ msgstr ""
 "fonctionnalité."
 
 #. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "About"
-msgstr "À propos"
-
-#. module: base_setup
 #: code:addons/base_setup/controllers/main.py:0
 #, python-format
 msgid "Access Denied"
@@ -241,15 +217,6 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid ""
-"Automatically generate counterpart documents for orders/invoices between "
-"companies"
-msgstr ""
-"Générez automatiquement des documents de contrepartie pour les commandes / "
-"factures entre les entreprises"
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "By default, new users get highest access rights for all installed apps."
 msgstr ""
 "Par défaut, les nouveaux utilisateurs ont les droits d'accès les plus hauts "
@@ -297,25 +264,8 @@ msgstr "Configurer la mise en page du document"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid ""
-"Configure company rules to automatically create SO/PO when one of your "
-"company sells/buys to another of your company."
-msgstr ""
-"Configurez les règles de l'entreprise pour créer automatiquement des "
-"commandes client/fournisseur lorsque l'une de vos entreprises vend/achète "
-"auprès d'une autre de vos entreprises."
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Contacts"
 msgstr "Contacts"
-
-#. module: base_setup
-#. openerp-web
-#: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
-#, python-format
-msgid "Copyright © 2004"
-msgstr "Copyright © 2004"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -365,11 +315,6 @@ msgstr "Modèle de document"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Documentation"
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Edit Layout"
 msgstr "Modifier l'agencement"
 
@@ -398,8 +343,8 @@ msgstr "Entrer une adresse de courriel"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Extrayez et analysez les données Odoo de Google Spreadsheet"
+msgid "Extract and analyze Bookm data from Google Spreadsheet"
+msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -410,13 +355,6 @@ msgstr "Trouvez des images gratuites haute résolution sur Unsplash"
 #: model:ir.model.fields,help:base_setup.field_res_config_settings__report_footer
 msgid "Footer text displayed at the bottom of all reports."
 msgstr "Pied de page de tous les rapports."
-
-#. module: base_setup
-#. openerp-web
-#: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
-#, python-format
-msgid "GNU LGPL Licensed"
-msgstr "Licence publique générale limitée GNU"
 
 #. module: base_setup
 #: model:ir.ui.menu,name:base_setup.menu_config
@@ -478,11 +416,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrations"
 msgstr "Intégrations"
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Inter-Company Transactions"
-msgstr "Opérations inter-entreprises"
 
 #. module: base_setup
 #. openerp-web
@@ -582,30 +515,6 @@ msgstr "Nombre de langues"
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "OAuth Authentication"
 msgstr "Authentification OAuth"
-
-#. module: base_setup
-#. openerp-web
-#: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
-#, python-format
-msgid "Odoo"
-msgstr "Odoo"
-
-#. module: base_setup
-#. openerp-web
-#: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
-#, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "On Apple Store"
-msgstr "Sur l'App Store "
-
-#. module: base_setup
-#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "On Google Play"
-msgstr "Sur Google Play"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -720,8 +629,8 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Utilisez les pads externes dans Odoo Notes "
+msgid "Use external pads in Notes"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model,name:base_setup.model_res_users
@@ -732,13 +641,10 @@ msgstr "Utilisateurs"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Bookm provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Lors du remplissage de votre carnet d'adresses, Odoo fournit une liste des "
-"entreprises correspondantes. Lorsque vous sélectionnez un élément, les "
-"données de la société et le logo sont automatiquement renseignés."
 
 #. module: base_setup
 #. openerp-web
@@ -751,3 +657,78 @@ msgstr "plus"
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"
+
+#, python-format
+#~ msgid "(Community Edition)"
+#~ msgstr "(Community Edition)"
+
+#~ msgid ""
+#~ "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are "
+#~ "company-specific.\" aria-label=\"Values set here are company-specific.\" "
+#~ "groups=\"base.group_multi_company\" role=\"img\"/>"
+#~ msgstr ""
+#~ "<span class=\"fa fa-lg fa-building-o\" title=\"Les valeurs définies ici "
+#~ "sont spécifiques à l'entreprise.\" aria-label=\"Les valeurs définies ici "
+#~ "sont spécifiques à l'entreprise.\" groups=\"base.group_multi_company\" "
+#~ "role=\"img\"/>"
+
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#~ msgid ""
+#~ "Automatically generate counterpart documents for orders/invoices between "
+#~ "companies"
+#~ msgstr ""
+#~ "Générez automatiquement des documents de contrepartie pour les "
+#~ "commandes / factures entre les entreprises"
+
+#~ msgid ""
+#~ "Configure company rules to automatically create SO/PO when one of your "
+#~ "company sells/buys to another of your company."
+#~ msgstr ""
+#~ "Configurez les règles de l'entreprise pour créer automatiquement des "
+#~ "commandes client/fournisseur lorsque l'une de vos entreprises vend/achète "
+#~ "auprès d'une autre de vos entreprises."
+
+#, python-format
+#~ msgid "Copyright © 2004"
+#~ msgstr "Copyright © 2004"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#~ msgid "Extract and analyze Odoo data from Google Spreadsheet"
+#~ msgstr "Extrayez et analysez les données Odoo de Google Spreadsheet"
+
+#, python-format
+#~ msgid "GNU LGPL Licensed"
+#~ msgstr "Licence publique générale limitée GNU"
+
+#~ msgid "Inter-Company Transactions"
+#~ msgstr "Opérations inter-entreprises"
+
+#, python-format
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#, python-format
+#~ msgid "Odoo S.A."
+#~ msgstr "Odoo S.A."
+
+#~ msgid "On Apple Store"
+#~ msgstr "Sur l'App Store "
+
+#~ msgid "On Google Play"
+#~ msgstr "Sur Google Play"
+
+#~ msgid "Use external pads in Odoo Notes"
+#~ msgstr "Utilisez les pads externes dans Odoo Notes "
+
+#~ msgid ""
+#~ "When populating your address book, Odoo provides a list of matching "
+#~ "companies. When selecting one item, the company data and logo are auto-"
+#~ "filled."
+#~ msgstr ""
+#~ "Lors du remplissage de votre carnet d'adresses, Odoo fournit une liste "
+#~ "des entreprises correspondantes. Lorsque vous sélectionnez un élément, "
+#~ "les données de la société et le logo sont automatiquement renseignés."
