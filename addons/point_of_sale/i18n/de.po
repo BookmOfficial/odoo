@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-10 07:16+0000\n"
+"POT-Creation-Date: 2022-04-15 22:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -104,11 +104,6 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title="
 "\"Manage\"/>"
-
-#. module: point_of_sale
-#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
-msgid "<i class=\"fa fa-fw fa-arrow-right\"/>How to manage tax-included prices"
-msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_partner_pos_kanban
@@ -1074,11 +1069,6 @@ msgid "Category used in the Point of Sale."
 msgstr "Kategorie, die in der Verkaufsstelle verwendet wird."
 
 #. module: point_of_sale
-#: model:pos.category,name:point_of_sale.pos_category_chairs
-msgid "Chairs"
-msgstr "Stühle"
-
-#. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/CustomerFacingDisplay/CustomerFacingDisplayOrder.xml:0
 #: code:addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreenStatus.xml:0
@@ -1593,11 +1583,6 @@ msgid "Current Session State"
 msgstr "Aktueller Sitzungsstatus"
 
 #. module: point_of_sale
-#: model:product.attribute.value,name:point_of_sale.fabric_attribute_custom
-msgid "Custom"
-msgstr "Benutzerdefiniert"
-
-#. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Screens/TicketScreen/TicketScreen.js:0
 #: code:addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
@@ -1830,23 +1815,6 @@ msgid "Deselect Customer"
 msgstr "Abwahl von ausgewählten Kunden"
 
 #. module: point_of_sale
-#: model:product.product,name:point_of_sale.desk_organizer
-#: model:product.template,name:point_of_sale.desk_organizer_product_template
-msgid "Desk Organizer"
-msgstr "Schreibtisch-Organizer"
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.desk_pad
-#: model:product.template,name:point_of_sale.desk_pad_product_template
-msgid "Desk Pad"
-msgstr "Schreibtischunterlage"
-
-#. module: point_of_sale
-#: model:pos.category,name:point_of_sale.pos_category_desks
-msgid "Desks"
-msgstr "Schreibtische"
-
-#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_close_session_wizard__account_id
 msgid "Destination account"
 msgstr "Zielkonto"
@@ -2003,11 +1971,6 @@ msgstr ""
 #, python-format
 msgid "Do you want to open the customer list to select customer?"
 msgstr "Möchten Sie die Kundenliste öffnen um einen Kunden auszuwählen?"
-
-#. module: point_of_sale
-#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Dokumentation"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2226,11 +2189,6 @@ msgid "Extra Info"
 msgstr "Weitere Informationen"
 
 #. module: point_of_sale
-#: model:product.attribute,name:point_of_sale.fabric_attribute
-msgid "Fabric"
-msgstr "Stoff"
-
-#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__failed_pickings
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__failed_pickings
 msgid "Failed Pickings"
@@ -2362,11 +2320,6 @@ msgid "Gift card"
 msgstr "Geschenkkarte"
 
 #. module: point_of_sale
-#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
-msgid "Give customer rewards, free samples, etc."
-msgstr "Bieten Sie Kunden Premien, Gratisproben etc."
-
-#. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_category__sequence
 msgid "Gives the sequence order when displaying a list of product categories."
 msgstr "Reihenfolge in Liste der Produktkategorien"
@@ -2494,8 +2447,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "WICHTIG: Fehlerbericht vom Odoo-Point-of-Sale"
+msgid "IMPORTANT: Bug Report From Bookm Point Of Sale"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2842,12 +2795,6 @@ msgid "Kpi Pos Total Value"
 msgstr "Kpi Pos Gesamtwert"
 
 #. module: point_of_sale
-#: model:product.product,name:point_of_sale.led_lamp
-#: model:product.template,name:point_of_sale.led_lamp_product_template
-msgid "LED Lamp"
-msgstr "LED Lampe"
-
-#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__name
 msgid "Label"
 msgstr "Buchungstext"
@@ -2924,11 +2871,6 @@ msgid "Last Updated on"
 msgstr "Zuletzt aktualisiert am"
 
 #. module: point_of_sale
-#: model:product.attribute.value,name:point_of_sale.fabric_attribute_leather
-msgid "Leather"
-msgstr "Leder"
-
-#. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
 msgid "Leave empty to use the default account from the company setting"
 msgstr ""
@@ -2979,12 +2921,6 @@ msgstr ""
 "Bei Bankjournalen wird auf das in dieser Zahlungsmethode angegebene "
 "ausstehende Konto geschrieben.\n"
 "Es sind nur Bar- und Bankjournale zulässig."
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.letter_tray
-#: model:product.template,name:point_of_sale.letter_tray_product_template
-msgid "Letter Tray"
-msgstr "Briefablage"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__limited_partners_amount
@@ -3098,17 +3034,6 @@ msgid "Loyalty Program"
 msgstr "Treueprogramm"
 
 #. module: point_of_sale
-#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
-msgid "Loyalty program to use for this point of sale."
-msgstr "Treueprogramm für diesen Point-of-Sale."
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.magnetic_board
-#: model:product.template,name:point_of_sale.magnetic_board_product_template
-msgid "Magnetic Board"
-msgstr "Magnettafel"
-
-#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Hauptanhänge"
@@ -3211,20 +3136,9 @@ msgid "Method"
 msgstr "Methode"
 
 #. module: point_of_sale
-#: model:pos.category,name:point_of_sale.pos_category_miscellaneous
-msgid "Miscellaneous"
-msgstr "Sonstiges"
-
-#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_hr
 msgid "Module Pos Hr"
 msgstr "Modul Pos Hr"
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.monitor_stand
-#: model:product.template,name:point_of_sale.monitor_stand_product_template
-msgid "Monitor Stand"
-msgstr "Monitorständer"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3307,12 +3221,6 @@ msgstr "Neuer Auftrag"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "New Session"
 msgstr "Neue Sitzung"
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.newspaper_rack
-#: model:product.template,name:point_of_sale.newspaper_rack_product_template
-msgid "Newspaper Rack"
-msgstr "Zeitungsständer"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_calendar_event_id
@@ -4130,11 +4038,6 @@ msgstr "Pickaufträge"
 #, python-format
 msgid "Picture"
 msgstr "Bild"
-
-#. module: point_of_sale
-#: model:product.attribute.value,name:point_of_sale.fabric_attribute_plastic
-msgid "Plastic"
-msgstr "Plastik"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5480,11 +5383,6 @@ msgid "Six Payment Terminal"
 msgstr "Six Zahlterminal"
 
 #. module: point_of_sale
-#: model:product.attribute,name:point_of_sale.size_attribute
-msgid "Size"
-msgstr "Größe"
-
-#. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/Chrome.xml:0
 #, python-format
@@ -5502,12 +5400,6 @@ msgstr "Vorschaufenster überspringen"
 #, python-format
 msgid "Slash"
 msgstr "Slash"
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.small_shelf
-#: model:product.template,name:point_of_sale.small_shelf_product_template
-msgid "Small Shelf"
-msgstr "Kleines Regal"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0
@@ -5618,6 +5510,11 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_stock_move
 msgid "Stock Move"
 msgstr "Lagerbuchung"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_stock_rule
+msgid "Stock Rule"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__update_stock_at_closing
@@ -6335,20 +6232,16 @@ msgstr "Dieses Produkt wird als Referenz auf Kundenquittungen verwendet."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Bookm but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Odoo erstellt diese Reihenfolge automatisch, aber Sie können sie ändern, um "
-"die Referenznummern Ihrer Auftragspositionen anzupassen."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Bookm but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Die Nummernfolge wird zwar durch Odoo automatisch vergeben, kann aber "
-"angepasst werden."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0
@@ -6642,32 +6535,10 @@ msgid "Unit Price"
 msgstr "Stückpreis"
 
 #. module: point_of_sale
-#: model:product.product,uom_name:point_of_sale.desk_organizer
-#: model:product.product,uom_name:point_of_sale.desk_pad
-#: model:product.product,uom_name:point_of_sale.led_lamp
-#: model:product.product,uom_name:point_of_sale.letter_tray
-#: model:product.product,uom_name:point_of_sale.magnetic_board
-#: model:product.product,uom_name:point_of_sale.monitor_stand
-#: model:product.product,uom_name:point_of_sale.newspaper_rack
 #: model:product.product,uom_name:point_of_sale.product_product_consumable
 #: model:product.product,uom_name:point_of_sale.product_product_tip
-#: model:product.product,uom_name:point_of_sale.small_shelf
-#: model:product.product,uom_name:point_of_sale.wall_shelf
-#: model:product.product,uom_name:point_of_sale.whiteboard
-#: model:product.product,uom_name:point_of_sale.whiteboard_pen
-#: model:product.template,uom_name:point_of_sale.desk_organizer_product_template
-#: model:product.template,uom_name:point_of_sale.desk_pad_product_template
-#: model:product.template,uom_name:point_of_sale.led_lamp_product_template
-#: model:product.template,uom_name:point_of_sale.letter_tray_product_template
-#: model:product.template,uom_name:point_of_sale.magnetic_board_product_template
-#: model:product.template,uom_name:point_of_sale.monitor_stand_product_template
-#: model:product.template,uom_name:point_of_sale.newspaper_rack_product_template
 #: model:product.template,uom_name:point_of_sale.product_product_consumable_product_template
 #: model:product.template,uom_name:point_of_sale.product_product_tip_product_template
-#: model:product.template,uom_name:point_of_sale.small_shelf_product_template
-#: model:product.template,uom_name:point_of_sale.wall_shelf_product_template
-#: model:product.template,uom_name:point_of_sale.whiteboard_pen_product_template
-#: model:product.template,uom_name:point_of_sale.whiteboard_product_template
 msgid "Units"
 msgstr "Einheiten"
 
@@ -6801,12 +6672,6 @@ msgid "Waiting for card"
 msgstr ""
 
 #. module: point_of_sale
-#: model:product.product,name:point_of_sale.wall_shelf
-#: model:product.template,name:point_of_sale.wall_shelf_product_template
-msgid "Wall Shelf Unit"
-msgstr "Wandregaleinheit"
-
-#. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_stock_warehouse
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__warehouse_id
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -6850,18 +6715,6 @@ msgstr ""
 "Immer, wenn Sie eine Sitzung schließen, wird ein Eintrag für alle nicht in "
 "Rechnung gestellten Aufträge im folgenden Buchungsjournal generiert. "
 "Rechnungen werden in der Buchhaltung gesondert erfasst."
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.whiteboard
-#: model:product.template,name:point_of_sale.whiteboard_product_template
-msgid "Whiteboard"
-msgstr "Whiteboard"
-
-#. module: point_of_sale
-#: model:product.product,name:point_of_sale.whiteboard_pen
-#: model:product.template,name:point_of_sale.whiteboard_pen_product_template
-msgid "Whiteboard Pen"
-msgstr "Whiteboard Stift"
 
 #. module: point_of_sale
 #. openerp-web
@@ -7233,3 +7086,91 @@ msgstr ""
 #, python-format
 msgid "were duplicates of existing orders"
 msgstr "Waren Duplikate bestehender Aufträge"
+
+#~ msgid ""
+#~ "<i class=\"fa fa-fw fa-arrow-right\"/>How to manage tax-included prices"
+#~ msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>"
+
+#~ msgid "Chairs"
+#~ msgstr "Stühle"
+
+#~ msgid "Custom"
+#~ msgstr "Benutzerdefiniert"
+
+#~ msgid "Desk Organizer"
+#~ msgstr "Schreibtisch-Organizer"
+
+#~ msgid "Desk Pad"
+#~ msgstr "Schreibtischunterlage"
+
+#~ msgid "Desks"
+#~ msgstr "Schreibtische"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+
+#~ msgid "Fabric"
+#~ msgstr "Stoff"
+
+#~ msgid "Give customer rewards, free samples, etc."
+#~ msgstr "Bieten Sie Kunden Premien, Gratisproben etc."
+
+#, python-format
+#~ msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
+#~ msgstr "WICHTIG: Fehlerbericht vom Odoo-Point-of-Sale"
+
+#~ msgid "LED Lamp"
+#~ msgstr "LED Lampe"
+
+#~ msgid "Leather"
+#~ msgstr "Leder"
+
+#~ msgid "Letter Tray"
+#~ msgstr "Briefablage"
+
+#~ msgid "Loyalty program to use for this point of sale."
+#~ msgstr "Treueprogramm für diesen Point-of-Sale."
+
+#~ msgid "Magnetic Board"
+#~ msgstr "Magnettafel"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Sonstiges"
+
+#~ msgid "Monitor Stand"
+#~ msgstr "Monitorständer"
+
+#~ msgid "Newspaper Rack"
+#~ msgstr "Zeitungsständer"
+
+#~ msgid "Plastic"
+#~ msgstr "Plastik"
+
+#~ msgid "Size"
+#~ msgstr "Größe"
+
+#~ msgid "Small Shelf"
+#~ msgstr "Kleines Regal"
+
+#~ msgid ""
+#~ "This sequence is automatically created by Odoo but you can change it to "
+#~ "customize the reference numbers of your orders lines."
+#~ msgstr ""
+#~ "Odoo erstellt diese Reihenfolge automatisch, aber Sie können sie ändern, "
+#~ "um die Referenznummern Ihrer Auftragspositionen anzupassen."
+
+#~ msgid ""
+#~ "This sequence is automatically created by Odoo but you can change it to "
+#~ "customize the reference numbers of your orders."
+#~ msgstr ""
+#~ "Die Nummernfolge wird zwar durch Odoo automatisch vergeben, kann aber "
+#~ "angepasst werden."
+
+#~ msgid "Wall Shelf Unit"
+#~ msgstr "Wandregaleinheit"
+
+#~ msgid "Whiteboard"
+#~ msgstr "Whiteboard"
+
+#~ msgid "Whiteboard Pen"
+#~ msgstr "Whiteboard Stift"
