@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:49+0000\n"
+"POT-Creation-Date: 2022-04-15 22:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -97,12 +97,6 @@ msgstr ""
 "%(data)s"
 
 #. module: payment_ogone
-#: code:addons/payment_ogone/models/payment_transaction.py:0
-#, python-format
-msgid "Received feedback data with unknown type: %s"
-msgstr "Ontvangen feedbackgegevens met onbekend type: %s"
-
-#. module: payment_ogone
 #: model:ir.model.fields,field_description:payment_ogone.field_payment_acquirer__ogone_shakey_in
 msgid "SHA Key IN"
 msgstr "SHA Key IN"
@@ -162,3 +156,7 @@ msgstr "De betaling is geweigerd: %s"
 #, python-format
 msgid "The transaction is not linked to a token."
 msgstr "De transactie is niet gekoppeld aan een token."
+
+#, python-format
+#~ msgid "Received feedback data with unknown type: %s"
+#~ msgstr "Ontvangen feedbackgegevens met onbekend type: %s"
