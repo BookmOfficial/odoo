@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 16:40+0000\n"
+"POT-Creation-Date: 2022-04-15 21:34+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -65,84 +65,6 @@ msgstr ""
 msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
 msgstr ""
 "'Volledige pagina ticket - %s' % (object.name or 'Event').replace('/','')"
-
-#. module: event
-#: model:event.tag,name:event.event_tag_category_1_tag_2
-msgid "10-14"
-msgstr "10-14"
-
-#. module: event
-#: model:event.tag,name:event.event_tag_category_1_tag_3
-msgid "15-18"
-msgstr "15-18"
-
-#. module: event
-#: model:event.tag,name:event.event_tag_category_1_tag_4
-msgid "18+"
-msgstr "18+"
-
-#. module: event
-#: model:event.tag,name:event.event_tag_category_1_tag_1
-msgid "5-10"
-msgstr "5-10"
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"<b>Business Room</b> - To discuss implementation methodologies, best sales "
-"practices, etc."
-msgstr ""
-"<b>Business ruimte</b> - Om implementatiemethoden, beste verkooppraktijken, "
-"enz. te bespreken."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
-"new developers."
-msgstr ""
-"<b>Technische ruimtes</b> - Eén speciaal voor geavanceerde Odoo-"
-"ontwikkelaars, één voor nieuwe ontwikkelaars."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</"
-"b><br> We propose 3 different training sessions, 2 days each."
-msgstr ""
-"<b>De Design Fair wordt voorafgegaan door 2 dagen trainingssessies voor "
-"experts!</b><br>We stellen 3 verschillende trainingen voor, elk 2 dagen."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"<b>The plenary sessions in the morning will be shorter</b> and we will give "
-"more time for thematical meetings, conferences, workshops and tutorial "
-"sessions in the afternoon."
-msgstr ""
-"<b>De plenaire sessies in de ochtend zullen korter zijn</b> en er is meer "
-"tijd voor themabijeenkomsten, conferenties, workshops en tutorialsessies in "
-"de middag."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"<b>The whole event is open to all public!</b> <br>We ask a participation fee "
-"of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and "
-"a surprising concert and beer party).<br> For those who don't want to "
-"contribute, there is a free ticket, therefore, catering and access to "
-"evening events aren't included."
-msgstr ""
-"<b>Het hele evenement is open voor iedereen!</b> <br>Voor de kosten voor de "
-"3 dagen (koffiepauzes, catering, borrel, verrassend concert en bierfeest) "
-"vragen we een deelnameprijs van 49,50 €.<br> Voor degenen die niet willen "
-"bijdragen, is er een gratis ticket, daar zijn catering en toegang tot "
-"avondevenementen niet bij inbegrepen."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid "<b>Workshop Room</b> - Mainly for developers."
-msgstr "<b>Workshop ruimte</b> - voornamelijk voor ontwikkelaars."
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -200,21 +122,6 @@ msgstr ""
 "</div>"
 
 #. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"<em>If you wish to make a presentation, please send your topic proposal as "
-"soon as possible for approval to Mr. Famke Jenssens at ngh (a) yourcompany "
-"(dot) com. The presentations should be, for example, a presentation of a "
-"community module, a case study, methodology feedback, technical, etc. Each "
-"presentation must be in English.</em>"
-msgstr ""
-"<em>Als je een presentatie wilt geven zend je je voorstel zo snel mogelijk "
-"door naar Mr. Famke Jenssens via ngh (a) uwbedrijf (punt) com. De "
-"presentatie moet, bijvoorbeeld, een module zijn over een community module, "
-"een case studie, methodologie feedback, technisch enz. Elke presentatie moet "
-"in het Engels zijn.</em>"
-
-#. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"fa fa-arrow-right o_event_fontsize_09\" title=\"End date\"/>"
 msgstr ""
@@ -237,15 +144,6 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-check\" role=\"img\" aria-label=\"Bevestigknop\" title="
 "\"Bevestig registratie\"/>"
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"<i class=\"fa fa-info-circle mr-2\"></i>This event and all the conferences "
-"are in <b>English</b>!"
-msgstr ""
-"<i class=\"fa fa-info-circle mr-2\"></i>Dit evenement en alle conferenties "
-"zijn in het <b>Engels</b>!"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
@@ -284,24 +182,6 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"Aanwezigheidsknop\" "
 "title=\"Bevestig aanwezigheid\"/>"
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid ""
-"<span class=\"badge badge-secondary o_wevent_badge float-right\">SPEAKER</"
-"span>"
-msgstr ""
-"<span class=\"badge badge-secondary o_wevent_badge float-right\">SPREKER</"
-"span>"
-
-#. module: event
-#: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
-msgid ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
-msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"De waarden die hier worden "
-"ingesteld, zijn bedrijfsspecifiek.\" groups=\"base.group_multi_company\"/>"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -1619,11 +1499,6 @@ msgid "Activities"
 msgstr "Activiteiten"
 
 #. module: event
-#: model:event.tag.category,name:event.event_tag_category_2
-msgid "Activity"
-msgstr "Activiteit"
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_exception_decoration
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_exception_decoration
 msgid "Activity Exception Decoration"
@@ -1683,29 +1558,6 @@ msgid "After the event"
 msgstr "Na het evenement"
 
 #. module: event
-#: model:event.tag.category,name:event.event_tag_category_1
-msgid "Age"
-msgstr "Leeftijd"
-
-#. module: event
-#: model:event.event,name:event.event_6
-msgid "An unpublished event"
-msgstr "Een niet gepubliceerd evenement"
-
-#. module: event
-#: model_terms:event.event,description:event.event_7
-msgid ""
-"And this time, we go fully ONLINE! Meet us in our live streams from the "
-"comfort of your house.<br>\n"
-"        Special discount codes will be handed out during the various "
-"streams, make sure to be there on time."
-msgstr ""
-"En deze keer gaan we volledig ONLINE! Ontmoet ons in onze livestreams vanuit "
-"het comfort van je huis.<br>\n"
-"         Tijdens de verschillende streams worden speciale kortingscodes "
-"uitgedeeld. Zorg dat je op tijd aanwezig bent."
-
-#. module: event
 #: model:event.stage,name:event.event_stage_announced
 msgid "Announced"
 msgstr "Aangekondigd"
@@ -1716,46 +1568,10 @@ msgid "Archived"
 msgstr "Gearchiveerd"
 
 #. module: event
-#: model_terms:event.event,description:event.event_1
-msgid ""
-"Around one hundred ballons will simultaneously take flight and turn the sky "
-"into a beautiful canvas of colours."
-msgstr ""
-"Ongeveer honderd ballonnen zullen tegelijkertijd vliegen en de lucht "
-"veranderen in een prachtig canvas van kleuren."
-
-#. module: event
-#: model_terms:res.partner,website_description:event.res_partner_event_1
-#: model_terms:res.partner,website_description:event.res_partner_event_2
-#: model_terms:res.partner,website_description:event.res_partner_event_3
-#: model_terms:res.partner,website_description:event.res_partner_event_4
-msgid "As a team, we are happy to contribute to this event."
-msgstr "Als team dragen wij graag bij aan dit evenement."
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid ""
-"At just 13 years old, John DOE was already starting to develop his first "
-"business applications for customers. After mastering civil engineering, he "
-"founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
-msgstr ""
-"Op slechts 13-jarige leeftijd begon John DOE al zijn eerste zakelijke "
-"applicaties voor klanten te ontwikkelen. Na het beheersen van civiele "
-"techniek richtte hij TinyERP op. Dit was de eerste fase van OpenERP die "
-"later Odoo zou worden, de meest geïnstalleerde open-source bedrijfssoftware "
-"ter wereld."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_attachment_count
 #: model:ir.model.fields,field_description:event.field_event_registration__message_attachment_count
 msgid "Attachment Count"
 msgstr "Aantal bijlagen"
-
-#. module: event
-#: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
-msgid "Attendance"
-msgstr "Aanwezigheid"
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_registration__state__done
@@ -1819,15 +1635,6 @@ msgid "Available Seats"
 msgstr "Beschikbare plaatsen"
 
 #. module: event
-#: model_terms:event.event,description:event.event_3
-msgid ""
-"Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show "
-"of the century during our three day event."
-msgstr ""
-"Bands als Bar Fighters, Led Slippers en Link Floyd bieden je de show van de "
-"eeuw tijdens ons driedaagse evenement."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_barcode
 msgid "Barcode"
 msgstr "Barcode"
@@ -1840,14 +1647,6 @@ msgstr "Voor het evenement"
 
 #. module: event
 #: code:addons/event/models/event_stage.py:0
-#: model:event.event,legend_blocked:event.event_0
-#: model:event.event,legend_blocked:event.event_1
-#: model:event.event,legend_blocked:event.event_2
-#: model:event.event,legend_blocked:event.event_3
-#: model:event.event,legend_blocked:event.event_4
-#: model:event.event,legend_blocked:event.event_5
-#: model:event.event,legend_blocked:event.event_6
-#: model:event.event,legend_blocked:event.event_7
 #: model:event.stage,legend_blocked:event.event_stage_announced
 #: model:event.stage,legend_blocked:event.event_stage_booked
 #: model:event.stage,legend_blocked:event.event_stage_cancelled
@@ -1857,15 +1656,6 @@ msgstr "Voor het evenement"
 #, python-format
 msgid "Blocked"
 msgstr "Geblokkeerd"
-
-#. module: event
-#: model:res.partner,website_short_description:event.res_partner_event_1
-msgid ""
-"Bloem brings honesty and seriousness to wood industry while helping "
-"customers deal with trees, flowers and fungi."
-msgstr ""
-"Bloem brengt eerlijkheid en ernst in de houtindustrie en helpt klanten om "
-"met bomen, bloemen en schimmels om te gaan."
 
 #. module: event
 #: model:event.stage,name:event.event_stage_booked
@@ -1888,20 +1678,6 @@ msgstr "Gereserveerd door"
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Booth Management"
 msgstr "Standbeheer"
-
-#. module: event
-#: model:event.event,subtitle:event.event_5
-msgid ""
-"Bring your outdoor field hockey season to the next level by taking the field "
-"at this 9th annual Field Hockey tournament."
-msgstr ""
-"Breng je outdoor hockeyseizoen naar een hoger niveau door het veld te "
-"betreden bij dit 9e jaarlijkse hockeytoernooi."
-
-#. module: event
-#: model:event.event,name:event.event_4
-msgid "Business workshops"
-msgstr "Zakelijke workshops"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_campaign_id
@@ -1930,27 +1706,9 @@ msgid "Category"
 msgstr "Categorie"
 
 #. module: event
-#: model_terms:event.event,description:event.event_2
-msgid ""
-"Chamber Works reserves the right to cancel, re-name or re-locate the event "
-"or change the dates on which it is held."
-msgstr ""
-"Chamber Works behoudt zich het recht voor om het evenement te annuleren, een "
-"andere naam te geven of te verplaatsen of de data waarop het wordt gehouden "
-"te wijzigen."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_tag__color
 msgid "Color Index"
 msgstr "Kleurindex"
-
-#. module: event
-#: model_terms:res.partner,website_description:event.res_partner_event_1
-#: model_terms:res.partner,website_description:event.res_partner_event_2
-#: model_terms:res.partner,website_description:event.res_partner_event_3
-#: model_terms:res.partner,website_description:event.res_partner_event_4
-msgid "Come see us live, we hope to meet you !"
-msgstr "Kom ons live bekijken, we hopen je te ontmoeten!"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -1972,7 +1730,6 @@ msgstr "Chatruimtes"
 #: model:ir.model.fields,field_description:event.field_event_event__company_id
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__company_id
 #: model:ir.model.fields,field_description:event.field_event_registration__company_id
-#: model_terms:event.event,description:event.event_2
 msgid "Company"
 msgstr "Bedrijf"
 
@@ -1983,22 +1740,9 @@ msgid "Compose Email"
 msgstr "E-mail opstellen"
 
 #. module: event
-#: model:event.tag,name:event.event_tag_category_3_tag_2
 #: model:event.type,name:event.event_type_data_conference
 msgid "Conference"
 msgstr "Conferentie"
-
-#. module: event
-#: model:event.event,name:event.event_2
-#: model_terms:event.event,description:event.event_2
-msgid "Conference for Architects"
-msgstr "Conferentie van architecten"
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid "Conferences, workshops and trainings will be organized in 6 rooms:"
-msgstr ""
-"Conferenties, workshops en trainingen worden georganiseerd in 6 ruimtes:"
 
 #. module: event
 #: model:ir.model,name:event.model_res_config_settings
@@ -2100,11 +1844,6 @@ msgid "Created on"
 msgstr "Aangemaakt op"
 
 #. module: event
-#: model:event.tag,name:event.event_tag_category_2_tag_1
-msgid "Culture"
-msgstr "Cultuur"
-
-#. module: event
 #: code:addons/event/models/event_registration.py:0
 #, python-format
 msgid "Customer"
@@ -2148,25 +1887,6 @@ msgid "Description"
 msgstr "Omschrijving"
 
 #. module: event
-#: model:event.event,name:event.event_0
-msgid "Design Fair Los Angeles"
-msgstr "Ontwerpevenement Los Angeles"
-
-#. module: event
-#: model:event.event,subtitle:event.event_4
-msgid "Discover how to grow a sustainable business with our experts."
-msgstr ""
-"Ontdek samen met onze experts hoe je een duurzaam bedrijf kunt laten groeien."
-
-#. module: event
-#: model_terms:res.partner,website_description:event.res_partner_event_1
-#: model_terms:res.partner,website_description:event.res_partner_event_2
-#: model_terms:res.partner,website_description:event.res_partner_event_3
-#: model_terms:res.partner,website_description:event.res_partner_event_4
-msgid "Discover more"
-msgstr "Ontdek meer"
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_meet
 msgid "Discussion Rooms"
 msgstr "Discussieruimtes"
@@ -2202,16 +1922,6 @@ msgid "Done"
 msgstr "Gereed"
 
 #. module: event
-#: model_terms:event.event,description:event.event_2
-msgid ""
-"During this conference, our team will give a detailed overview of our "
-"business applications. You’ll know all the benefits of using it."
-msgstr ""
-"Tijdens deze conferentie zal ons team je een gedetailleerd overzicht van "
-"onze bedrijfsapplicaties geven. Je zal alle voordelen weten om ze te "
-"gebruiken."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__email
 msgid "Email"
 msgstr "E-mail"
@@ -2240,12 +1950,6 @@ msgstr "Eindfase"
 #: model:event.stage,name:event.event_stage_done
 msgid "Ended"
 msgstr "Beëindigd"
-
-#. module: event
-#: model:event.event,subtitle:event.event_2
-msgid "Enhance your architectural business and improve professional skills."
-msgstr ""
-"Verbeter je architectuurbedrijf en verbeter professionele vaardigheden."
 
 #. module: event
 #: model:ir.model,name:event.model_event_event
@@ -2532,21 +2236,6 @@ msgstr ""
 "automatisch als groen ingesteld."
 
 #. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"Every year we invite our community, partners and end-users to come and meet "
-"us! It's the ideal event to get together and present new features, roadmap "
-"of future versions, achievements of the software, workshops, training "
-"sessions, etc...."
-msgstr ""
-"Elk jaar nodigen we onze community, relaties en eindgebruikers uit om ons te "
-"ontmoeten! Het is het ideale evenement om samen te komen en nieuwe functies, "
-"routekaart van toekomstige versies, prestaties van de software, workshops, "
-"trainingssessies, enz. te presenteren..."
-
-#. module: event
-#: model_terms:event.event,description:event.event_4
-#: model_terms:event.event,description:event.event_6
 #: model_terms:ir.ui.view,arch_db:event.event_default_descripton
 msgid ""
 "Every year we invite our community, partners and end-users to come and meet "
@@ -2567,11 +2256,6 @@ msgstr ""
 "versie!"
 
 #. module: event
-#: model:event.type,name:event.event_type_0
-msgid "Exhibition"
-msgstr "Tentoonstelling"
-
-#. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Expected"
 msgstr "Verwacht"
@@ -2585,11 +2269,6 @@ msgstr "Verwachte deelnemers"
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "Expected attendees"
 msgstr "Verwachte deelnemers"
-
-#. module: event
-#: model:event.event,subtitle:event.event_3
-msgid "Experience live music, local food and beverages."
-msgstr "Ervaar livemuziek, lokale gerechten en drankjes."
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_foldable_badge
@@ -2633,16 +2312,6 @@ msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Font awesome icoon bijv. fa-tasks"
 
 #. module: event
-#: model_terms:event.event,description:event.event_0
-#: model_terms:event.event,description:event.event_1
-#: model_terms:event.event,description:event.event_2
-#: model_terms:event.event,description:event.event_3
-#: model_terms:event.event,description:event.event_5
-#: model_terms:event.event,description:event.event_7
-msgid "For any additional information, please contact us at"
-msgstr "Voor meer informatie kun je ons contacteren op"
-
-#. module: event
 #: model:ir.model.fields,help:event.field_event_event__seats_max
 msgid ""
 "For each event you can define a maximum registration of seats(number of "
@@ -2653,27 +2322,12 @@ msgstr ""
 "meer geaccepteerd."
 
 #. module: event
-#: model:event.event.ticket,description:event.event_0_ticket_1
-msgid "For only 10, you gain access to catering. Yum yum."
-msgstr "Voor slechts 10 krijg je toegang tot de catering. Yum yum."
-
-#. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "Foster interactions between attendees by creating virtual conference rooms"
 msgstr ""
 "Bevorder interacties tussen deelnemers door virtuele vergaderruimten te "
 "maken."
-
-#. module: event
-#: model:event.event.ticket,name:event.event_0_ticket_0
-msgid "Free"
-msgstr "Gratis"
-
-#. module: event
-#: model:event.event.ticket,description:event.event_0_ticket_0
-msgid "Free entrance, no food !"
-msgstr "Gratis toegang, geen eten!"
 
 #. module: event
 #: model:event.stage,description:event.event_stage_new
@@ -2713,35 +2367,15 @@ msgid "Fully ended"
 msgstr "Volledig geëindigd"
 
 #. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Functional flow of the main applications;"
-msgstr "Functionele flow van de hoofdapplicaties;"
-
-#. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Future Activities"
 msgstr "Toekomstige activiteiten"
 
 #. module: event
-#: model:event.event.ticket,name:event.event_4_ticket_0
-msgid "General Admission"
-msgstr "Algemene toelating"
-
-#. module: event
-#: model:event.event,subtitle:event.event_0
-msgid "Get Inspired • Stay Connected • Have Fun"
-msgstr "Wordt geïnspireerd • Blijf verbonden • Heb plezier"
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_state
 msgid "Global communication Status"
 msgstr "Globale communicatie status"
-
-#. module: event
-#: model:event.event,name:event.event_1
-msgid "Great Reno Ballon Race"
-msgstr "Geweldige Reno ballon race"
 
 #. module: event
 #. openerp-web
@@ -2768,35 +2402,10 @@ msgid "Group By"
 msgstr "Groepeer op"
 
 #. module: event
-#: model_terms:res.partner,website_description:event.res_partner_event_1
-#: model_terms:res.partner,website_description:event.res_partner_event_2
-#: model_terms:res.partner,website_description:event.res_partner_event_3
-#: model_terms:res.partner,website_description:event.res_partner_event_4
-msgid "Happy to be Sponsor"
-msgstr "Blij om sponsor te zijn"
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__has_message
 #: model:ir.model.fields,field_description:event.field_event_registration__has_message
 msgid "Has Message"
 msgstr "Heeft bericht"
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Having attended this conference, participants should be able to:"
-msgstr ""
-"Na het deelnemen aan deze conferentie zouden deelnemers in staat moeten zijn "
-"om het volgende te kunnen:"
-
-#. module: event
-#: model_terms:event.event,description:event.event_3
-msgid "Here it is, the 12th edition of our Live Musical Festival !"
-msgstr "Hier is het, de 12e editie van ons live muziek festival!"
-
-#. module: event
-#: model:event.event,name:event.event_5
-msgid "Hockey Tournament"
-msgstr "Hockey tournooi"
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__hours
@@ -2876,46 +2485,13 @@ msgstr ""
 "startdatum van de verkoop van tickets."
 
 #. module: event
-#: model_terms:event.event,ticket_instructions:event.event_0
-msgid "If you don't have this ticket, you will <b>not</b> be allowed entry!"
-msgstr "Als je dit ticket niet hebt, krijg je <b>geen</b> toegang!"
-
-#. module: event
-#: model_terms:event.event,description:event.event_5
-msgid ""
-"If you don't know anything about Hockey, this is a great introduction to "
-"this wonderful sport as you will will be able to see some training process "
-"and also have some time\n"
-"                to chat with experienced players and trainers once the "
-"tournament is over !"
-msgstr ""
-"Als je niets over hockey weet, is dit een geweldige kennismaking met deze "
-"prachtige sport, want je zult wat trainingsprocessen kunnen zien en ook wat "
-"tijd hebben\n"
-"                om te chatten met ervaren spelers en trainers als het "
-"toernooi voorbij is!"
-
-#. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__now
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__now
 msgid "Immediately"
 msgstr "Direct"
 
 #. module: event
-#: model_terms:event.event,ticket_instructions:event.event_0
-msgid "Important ticket information"
-msgstr "Belangrijke ticketinformatie"
-
-#. module: event
 #: code:addons/event/models/event_stage.py:0
-#: model:event.event,legend_normal:event.event_0
-#: model:event.event,legend_normal:event.event_1
-#: model:event.event,legend_normal:event.event_2
-#: model:event.event,legend_normal:event.event_3
-#: model:event.event,legend_normal:event.event_4
-#: model:event.event,legend_normal:event.event_5
-#: model:event.event,legend_normal:event.event_6
-#: model:event.event,legend_normal:event.event_7
 #: model:event.stage,legend_normal:event.event_stage_announced
 #: model:event.stage,legend_normal:event.event_stage_booked
 #: model:event.stage,legend_normal:event.event_stage_cancelled
@@ -2931,11 +2507,6 @@ msgstr "In behandeling"
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_nbr
 msgid "Interval"
 msgstr "Interval"
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Introduction, CRM, Sales Management"
-msgstr "Introductie, CRM, Verkoopbeheer"
 
 #. module: event
 #: code:addons/event/models/event_registration.py:0
@@ -2982,26 +2553,9 @@ msgstr ""
 "kiest"
 
 #. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "John DOE"
-msgstr "John DOE"
-
-#. module: event
-#: model_terms:event.event,description:event.event_1
-msgid "Join us for the greatest ballon race of all times !"
-msgstr "Doe mee met de geweldige ballonrace aller tijden!"
-
-#. module: event
-#: model_terms:event.event,description:event.event_4
-#: model_terms:event.event,description:event.event_6
 #: model_terms:ir.ui.view,arch_db:event.event_default_descripton
 msgid "Join us for this 24 hours Event"
 msgstr "Doe mee met dit 24-uurs-evenement."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid "Join us for this 3-day Event"
-msgstr "Doe mee met dit driedaagse evenement."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__legend_blocked
@@ -3106,11 +2660,6 @@ msgstr "Live uitzending"
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_live
 msgid "Live Mode"
 msgstr "Live-modus"
-
-#. module: event
-#: model:event.event,name:event.event_3
-msgid "Live Music Festival"
-msgstr "Live muziek festival"
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__notification_type__mail
@@ -3224,11 +2773,6 @@ msgstr "Mobiel"
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__months
 msgid "Months"
 msgstr "Maanden"
-
-#. module: event
-#: model:event.tag,name:event.event_tag_category_2_tag_2
-msgid "Music"
-msgstr "Muziek"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__my_activity_date_deadline
@@ -3398,26 +2942,9 @@ msgid "Number of unread messages"
 msgstr "Aantal ongelezen berichten"
 
 #. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Objectives"
-msgstr "Doelstellingen"
-
-#. module: event
-#: model_terms:event.event,description:event.event_3
-msgid "Once again we assembled the most legendary bands in Rock history."
-msgstr ""
-"Opnieuw hebben we de meest legendarische bands uit de rockgeschiedenis "
-"samengesteld."
-
-#. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Ongoing Events"
 msgstr "Lopende evenementen"
-
-#. module: event
-#: model:event.tag,name:event.event_tag_category_3_tag_1
-msgid "Online"
-msgstr "Online"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -3430,42 +2957,9 @@ msgid "Online Ticketing"
 msgstr "Online ticketing"
 
 #. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"OpenElec Applications reserves the right to cancel, re-name or re-locate the "
-"event or change the dates on which it is held."
-msgstr ""
-"OpenElec Applications behoudt zich het recht voor om het evenement te "
-"annuleren, een andere naam te geven of te verplaatsen of de data waarop het "
-"wordt gehouden te wijzigen."
-
-#. module: event
-#: model:event.event,name:event.event_7
-msgid "OpenWood Collection Online Reveal"
-msgstr "OpenWood collectie online onthulling"
-
-#. module: event
-#: model:res.partner,website_short_description:event.res_partner_event_2
-msgid ""
-"OpenWood brings honesty and seriousness to wood industry while helping "
-"customers deal with trees, flowers and fungi."
-msgstr ""
-"OpenWood brengt eerlijkheid en ernst in de houtindustrie en helpt klanten om "
-"met bomen, bloemen en schimmels om te gaan."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__organizer_id
 msgid "Organizer"
 msgstr "Organisator"
-
-#. module: event
-#: model:event.event,subtitle:event.event_7
-msgid ""
-"Our newest collection will be revealed online! Interact with us on our live "
-"streams!"
-msgstr ""
-"Onze nieuwste collectie wordt online onthuld! Communiceer met ons op onze "
-"livestreams!"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_blocked
@@ -3512,48 +3006,12 @@ msgid "Phone"
 msgstr "Telefoon"
 
 #. module: event
-#: model_terms:event.event,ticket_instructions:event.event_0
-msgid ""
-"Please come <b>at least</b> 30 minutes before the beginning of the event."
-msgstr "Kom <b>minimaal</b> 30 minuten voor aanvang van het evenement."
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Point of Sale (POS), Introduction to report customization."
-msgstr ""
-"Point of Sale (Kassa of kassa), introductie in het aanpassen van rapporten."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-#: model_terms:event.event,description:event.event_2
-msgid "Program"
-msgstr "Programma"
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Project management, Human resources, Contract management."
-msgstr "Projectbeheer, Human Resources en Contractbeheer."
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Purchase, Sales &amp; Purchase management, Financial accounting."
-msgstr "Inkoop, Verkoop &amp; Inkoopbeheer en Boekhouding."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_quiz
 msgid "Quiz on Tracks"
 msgstr "Quiz op nummers"
 
 #. module: event
 #: code:addons/event/models/event_stage.py:0
-#: model:event.event,legend_done:event.event_0
-#: model:event.event,legend_done:event.event_1
-#: model:event.event,legend_done:event.event_2
-#: model:event.event,legend_done:event.event_3
-#: model:event.event,legend_done:event.event_4
-#: model:event.event,legend_done:event.event_5
-#: model:event.event,legend_done:event.event_6
-#: model:event.event,legend_done:event.event_7
 #: model:event.stage,legend_done:event.event_stage_announced
 #: model:event.stage,legend_done:event.event_stage_booked
 #: model:event.stage,legend_done:event.event_stage_cancelled
@@ -3705,11 +3163,6 @@ msgstr "SMS fout bij versturen"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
-msgid "Scan badges to confirm attendances"
-msgstr "Scan badges om aanwezigheid te bevestigen"
-
-#. module: event
-#: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Schedule & Tracks"
 msgstr "Plan & Traceer"
 
@@ -3738,21 +3191,10 @@ msgid "Scheduled Time"
 msgstr "Gepland"
 
 #. module: event
-#: model_terms:event.event,description:event.event_5
-msgid "Seasoned Hockey Fans and curious people, this tournament is for you !"
-msgstr ""
-"Doorgewinterde hockeyfans en nieuwsgierige mensen, dit toernooi is voor jou!"
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_limited
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__seats_limited
 msgid "Seats Limit"
 msgstr "Limiet aantal plaatsen"
-
-#. module: event
-#: model:event.type,name:event.event_type_data_ticket
-msgid "Sell Online"
-msgstr "Verkoop online"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -3802,15 +3244,6 @@ msgid "Settings"
 msgstr "Instellingen"
 
 #. module: event
-#: model:res.partner,website_short_description:event.res_partner_event_4
-msgid ""
-"Shangai Pterocarpus Furniture brings honesty and seriousness to wood "
-"industry while helping customers deal with trees, flowers and fungi."
-msgstr ""
-"Shanghai Pterocarpus Furniture brengt eerlijkheid en ernst in de "
-"houtindustrie en helpt klanten om met bomen, bloemen en schimmels om te gaan."
-
-#. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Show all records which has next action date is before today"
@@ -3825,12 +3258,6 @@ msgstr "Uitverkocht"
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_source_id
 msgid "Source"
 msgstr "Bron"
-
-#. module: event
-#: model:event.tag,name:event.event_tag_category_2_tag_3
-#: model:event.type,name:event.event_type_2
-msgid "Sport"
-msgstr "Sport"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__stage_id
@@ -3852,14 +3279,6 @@ msgstr "Naam fase"
 #: model:ir.model.fields,field_description:event.field_event_stage__description
 msgid "Stage description"
 msgstr "Omschrijving fase"
-
-#. module: event
-#: model:event.event.ticket,name:event.event_0_ticket_1
-#: model:event.event.ticket,name:event.event_2_ticket_1
-#: model:event.event.ticket,name:event.event_3_ticket_0
-#: model:event.event.ticket,name:event.event_7_ticket_1
-msgid "Standard"
-msgstr "Standaard"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_begin
@@ -3941,32 +3360,6 @@ msgid "Template Model"
 msgstr "Sjabloonmodel"
 
 #. module: event
-#: model:event.event,subtitle:event.event_1
-msgid ""
-"The Great Reno Balloon Race is the world's largest free hot-air ballooning "
-"event."
-msgstr ""
-"De Grote Reno Ballon Race is het grootste gratis warme-lucht ballon "
-"evenement ter wereld."
-
-#. module: event
-#: model_terms:event.event,description:event.event_5
-msgid ""
-"The best Hockey teams of the country will compete for the national Hockey "
-"trophy."
-msgstr ""
-"De beste hockeyteams van het land strijden om de nationale hockeytrofee."
-
-#. module: event
-#: model_terms:event.event,description:event.event_1
-msgid ""
-"The best aeronauts of the world will gather on this event to offer you the "
-"most spectacular show."
-msgstr ""
-"De beste aeronauten van de wereld komen samen op dit evenement om je de "
-"meest spectaculaire show te bieden."
-
-#. module: event
 #: code:addons/event/models/event_event.py:0
 #, python-format
 msgid "The closing date cannot be earlier than the beginning date."
@@ -3993,14 +3386,6 @@ msgstr ""
 "zijn uitverkocht, is het evenement uitverkocht."
 
 #. module: event
-#: model_terms:event.event,description:event.event_7
-msgid ""
-"The finest OpenWood furnitures are coming to your house in a brand new "
-"collection"
-msgstr ""
-"De beste OpenWood-meubels komen naar je huis in een gloednieuwe collectie"
-
-#. module: event
 #: code:addons/event/models/event_ticket.py:0
 #, python-format
 msgid ""
@@ -4018,39 +3403,10 @@ msgid "The place has been reserved"
 msgstr "De plaats is gereserveerd"
 
 #. module: event
-#: model_terms:event.event,description:event.event_1
-msgid "The safety of our attendees and our aeronauts comes first !"
-msgstr "De veiligheid van onze bezoekers en onze aeronauten staat voorop!"
-
-#. module: event
 #: code:addons/event/models/event_ticket.py:0
 #, python-format
 msgid "The stop date cannot be earlier than the start date."
 msgstr "De stopdatum kan niet vroeger zijn dan de startdatum."
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid ""
-"This event is also an opportunity to showcase our partners' case studies, "
-"methodology or developments. Be there and see directly from the source the "
-"features of the version 12!"
-msgstr ""
-"Dit evenement is ook een gelegenheid om de case studies, methodologie of "
-"ontwikkelingen van onze relaties onder de aandacht te brengen. Wees erbij en "
-"bekijk direct vanaf de bron de kenmerken van versie 12!"
-
-#. module: event
-#: model_terms:event.event,description:event.event_7
-msgid ""
-"This event is fully online and FREE, if you have paid for tickets, you "
-"should get a refund.<br>\n"
-"        It will require a good Internet connection to get the best video "
-"quality."
-msgstr ""
-"Dit evenement is volledig online en GRATIS, als je voor tickets hebt "
-"betaald, moet je je geld terugkrijgen.<br>\n"
-"Je hebt een goede internetverbinding nodig om de beste videokwaliteit te "
-"krijgen."
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__ticket_instructions
@@ -4064,25 +3420,6 @@ msgstr "Deze informatie wordt op de tickets afgedrukt."
 #, python-format
 msgid "This is the <b>name</b> your guests will see when registering."
 msgstr "Dit is de <b>naam</b> die je gasten zien bij het registreren."
-
-#. module: event
-#: model_terms:event.event,description:event.event_1
-msgid ""
-"This is the perfect place for spending a nice day with your family, we "
-"guarantee you will be leaving with beautiful everlasting memories !"
-msgstr ""
-"Dit is de perfecte plek om een leuke dag met je gezin door te brengen, we "
-"garanderen dat je weggaat met mooie, eeuwige herinneringen!"
-
-#. module: event
-#: model_terms:event.event,description:event.event_3
-msgid ""
-"This is the perfect place for spending a nice time with your friends while "
-"listening to some of the most iconic rock songs of all times!"
-msgstr ""
-"Dit is de perfecte plek om een leuke tijd met je vrienden door te brengen "
-"terwijl je luistert naar enkele van de meest iconische rocknummers aller "
-"tijden!"
 
 #. module: event
 #: code:addons/event/models/event_event.py:0
@@ -4130,6 +3467,11 @@ msgstr ""
 "<b>maken</b>."
 
 #. module: event
+#: model:event.type,name:event.event_type_data_ticket
+msgid "Ticketing"
+msgstr ""
+
+#. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_ticket_ids
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_sale
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
@@ -4137,12 +3479,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Tickets"
 msgstr "Tickets"
-
-#. module: event
-#: model_terms:event.event,ticket_instructions:event.event_0
-msgid "Tickets can be printed or scanned directly from your phone."
-msgstr ""
-"Tickets kunnen rechtstreeks vanaf je telefoon worden afgedrukt of gescand."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_tz
@@ -4173,20 +3509,6 @@ msgid "Tracks and Agenda"
 msgstr "Lezingen en agenda"
 
 #. module: event
-#: model:event.type,name:event.event_type_1
-msgid "Training"
-msgstr "Training"
-
-#. module: event
-#: model:res.partner,website_short_description:event.res_partner_event_3
-msgid ""
-"Tree Dealers brings honesty and seriousness to wood industry while helping "
-"customers deal with trees, flowers and fungi."
-msgstr ""
-"Tree Dealers brengt eerlijkheid en ernst in de houtindustrie en helpt "
-"klanten om met bomen, bloemen en schimmels om te gaan."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_type
 msgid "Trigger"
 msgstr "Activeer"
@@ -4195,11 +3517,6 @@ msgstr "Activeer"
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_type
 msgid "Trigger "
 msgstr "Activeer"
-
-#. module: event
-#: model:event.tag.category,name:event.event_tag_category_3
-msgid "Type"
-msgstr "Soort"
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__activity_exception_decoration
@@ -4233,11 +3550,6 @@ msgid ""
 msgstr ""
 "Onder dit technische menu vindt je alle geplande communicatie met betrekking "
 "tot je evenementen."
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Understand the various modules;"
-msgstr "De verschillende modules begrijpen;"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_unit
@@ -4301,14 +3613,6 @@ msgid "User"
 msgstr "Gebruiker"
 
 #. module: event
-#: model:event.event.ticket,name:event.event_0_ticket_2
-#: model:event.event.ticket,name:event.event_2_ticket_2
-#: model:event.event.ticket,name:event.event_3_ticket_1
-#: model:event.event.ticket,name:event.event_7_ticket_2
-msgid "VIP"
-msgstr "VIP"
-
-#. module: event
 #: code:addons/event/models/event_event.py:0
 #, python-format
 msgid "Value should be True or False (not %s)"
@@ -4336,23 +3640,6 @@ msgstr ""
 "registraties handmatig aan."
 
 #. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "Warehouse management, Manufacturing (MRP) &amp; Sales, Import/Export."
-msgstr "Vorraadbeheer, Productie (MRP) &amp; Verkoop, Import/Export."
-
-#. module: event
-#: model_terms:event.event,description:event.event_1
-#: model_terms:event.event,description:event.event_3
-#: model_terms:event.event,description:event.event_5
-msgid ""
-"We reserve the right to cancel, re-name or re-locate the event or change the "
-"dates on which it is held in case the weather fails us."
-msgstr ""
-"We behouden ons het recht voor om het evenement te annuleren, een nieuwe "
-"naam te geven of te verplaatsen, of de data waarop het wordt gehouden te "
-"wijzigen voor het geval het weer ons in de steek laat."
-
-#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__website_message_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__website_message_ids
 msgid "Website Messages"
@@ -4371,11 +3658,6 @@ msgid "Weeks"
 msgstr "Weken"
 
 #. module: event
-#: model_terms:event.event,description:event.event_0
-msgid "What's new?"
-msgstr "Wat is er nieuw?"
-
-#. module: event
 #. openerp-web
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 #, python-format
@@ -4385,16 +3667,6 @@ msgid ""
 msgstr ""
 "Wanneer vindt je evenement plaats? <b>Selecteer</b> de start- en einddatum "
 "<b>en klik op Toepassen</b>."
-
-#. module: event
-#: model:ir.model.fields,help:event.field_event_event__is_ongoing
-msgid "Whether event has begun"
-msgstr "Of het evenement is begonnen."
-
-#. module: event
-#: model:event.event.ticket,description:event.event_0_ticket_2
-msgid "You are truly among the best."
-msgstr "Je behoort echt tot de besten."
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
@@ -4440,24 +3712,6 @@ msgstr "bijv. Online conferenties"
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
 msgid "e.g. VIP Ticket"
 msgstr "bijv. VIP-ticket"
-
-#. module: event
-#: model_terms:event.event,description:event.event_2
-msgid "events@odoo.com"
-msgstr "events@odoo.com"
-
-#. module: event
-#: model_terms:event.event,description:event.event_7
-msgid "events@penwood.example.com"
-msgstr "events@penwood.example.com"
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-#: model_terms:event.event,description:event.event_1
-#: model_terms:event.event,description:event.event_3
-#: model_terms:event.event,description:event.event_5
-msgid "events@yourcompany.com"
-msgstr "events@yourcompany.com"
 
 #. module: event
 #: code:addons/event/models/event_registration.py:0
@@ -4524,6 +3778,500 @@ msgstr "onbevestigd"
 #: model:mail.template,subject:event.event_reminder
 msgid "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
 msgstr "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
+
+#~ msgid "10-14"
+#~ msgstr "10-14"
+
+#~ msgid "15-18"
+#~ msgstr "15-18"
+
+#~ msgid "18+"
+#~ msgstr "18+"
+
+#~ msgid "5-10"
+#~ msgstr "5-10"
+
+#~ msgid ""
+#~ "<b>Business Room</b> - To discuss implementation methodologies, best "
+#~ "sales practices, etc."
+#~ msgstr ""
+#~ "<b>Business ruimte</b> - Om implementatiemethoden, beste "
+#~ "verkooppraktijken, enz. te bespreken."
+
+#~ msgid ""
+#~ "<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one "
+#~ "for new developers."
+#~ msgstr ""
+#~ "<b>Technische ruimtes</b> - Eén speciaal voor geavanceerde Odoo-"
+#~ "ontwikkelaars, één voor nieuwe ontwikkelaars."
+
+#~ msgid ""
+#~ "<b>The Design Fair is preceded by 2 days of Training Sessions for experts!"
+#~ "</b><br> We propose 3 different training sessions, 2 days each."
+#~ msgstr ""
+#~ "<b>De Design Fair wordt voorafgegaan door 2 dagen trainingssessies voor "
+#~ "experts!</b><br>We stellen 3 verschillende trainingen voor, elk 2 dagen."
+
+#~ msgid ""
+#~ "<b>The plenary sessions in the morning will be shorter</b> and we will "
+#~ "give more time for thematical meetings, conferences, workshops and "
+#~ "tutorial sessions in the afternoon."
+#~ msgstr ""
+#~ "<b>De plenaire sessies in de ochtend zullen korter zijn</b> en er is meer "
+#~ "tijd voor themabijeenkomsten, conferenties, workshops en tutorialsessies "
+#~ "in de middag."
+
+#~ msgid ""
+#~ "<b>The whole event is open to all public!</b> <br>We ask a participation "
+#~ "fee of 49.50€ for the costs for the 3 days (coffee breaks, catering, "
+#~ "drinks and a surprising concert and beer party).<br> For those who don't "
+#~ "want to contribute, there is a free ticket, therefore, catering and "
+#~ "access to evening events aren't included."
+#~ msgstr ""
+#~ "<b>Het hele evenement is open voor iedereen!</b> <br>Voor de kosten voor "
+#~ "de 3 dagen (koffiepauzes, catering, borrel, verrassend concert en "
+#~ "bierfeest) vragen we een deelnameprijs van 49,50 €.<br> Voor degenen die "
+#~ "niet willen bijdragen, is er een gratis ticket, daar zijn catering en "
+#~ "toegang tot avondevenementen niet bij inbegrepen."
+
+#~ msgid "<b>Workshop Room</b> - Mainly for developers."
+#~ msgstr "<b>Workshop ruimte</b> - voornamelijk voor ontwikkelaars."
+
+#~ msgid ""
+#~ "<em>If you wish to make a presentation, please send your topic proposal "
+#~ "as soon as possible for approval to Mr. Famke Jenssens at ngh (a) "
+#~ "yourcompany (dot) com. The presentations should be, for example, a "
+#~ "presentation of a community module, a case study, methodology feedback, "
+#~ "technical, etc. Each presentation must be in English.</em>"
+#~ msgstr ""
+#~ "<em>Als je een presentatie wilt geven zend je je voorstel zo snel "
+#~ "mogelijk door naar Mr. Famke Jenssens via ngh (a) uwbedrijf (punt) com. "
+#~ "De presentatie moet, bijvoorbeeld, een module zijn over een community "
+#~ "module, een case studie, methodologie feedback, technisch enz. Elke "
+#~ "presentatie moet in het Engels zijn.</em>"
+
+#~ msgid ""
+#~ "<i class=\"fa fa-info-circle mr-2\"></i>This event and all the "
+#~ "conferences are in <b>English</b>!"
+#~ msgstr ""
+#~ "<i class=\"fa fa-info-circle mr-2\"></i>Dit evenement en alle "
+#~ "conferenties zijn in het <b>Engels</b>!"
+
+#~ msgid ""
+#~ "<span class=\"badge badge-secondary o_wevent_badge float-right\">SPEAKER</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span class=\"badge badge-secondary o_wevent_badge float-right\">SPREKER</"
+#~ "span>"
+
+#~ msgid ""
+#~ "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are "
+#~ "company-specific.\" groups=\"base.group_multi_company\"/>"
+#~ msgstr ""
+#~ "<span class=\"fa fa-lg fa-building-o\" title=\"De waarden die hier worden "
+#~ "ingesteld, zijn bedrijfsspecifiek.\" groups=\"base.group_multi_company\"/>"
+
+#~ msgid "Activity"
+#~ msgstr "Activiteit"
+
+#~ msgid "Age"
+#~ msgstr "Leeftijd"
+
+#~ msgid "An unpublished event"
+#~ msgstr "Een niet gepubliceerd evenement"
+
+#~ msgid ""
+#~ "And this time, we go fully ONLINE! Meet us in our live streams from the "
+#~ "comfort of your house.<br>\n"
+#~ "        Special discount codes will be handed out during the various "
+#~ "streams, make sure to be there on time."
+#~ msgstr ""
+#~ "En deze keer gaan we volledig ONLINE! Ontmoet ons in onze livestreams "
+#~ "vanuit het comfort van je huis.<br>\n"
+#~ "         Tijdens de verschillende streams worden speciale kortingscodes "
+#~ "uitgedeeld. Zorg dat je op tijd aanwezig bent."
+
+#~ msgid ""
+#~ "Around one hundred ballons will simultaneously take flight and turn the "
+#~ "sky into a beautiful canvas of colours."
+#~ msgstr ""
+#~ "Ongeveer honderd ballonnen zullen tegelijkertijd vliegen en de lucht "
+#~ "veranderen in een prachtig canvas van kleuren."
+
+#~ msgid "As a team, we are happy to contribute to this event."
+#~ msgstr "Als team dragen wij graag bij aan dit evenement."
+
+#~ msgid ""
+#~ "At just 13 years old, John DOE was already starting to develop his first "
+#~ "business applications for customers. After mastering civil engineering, "
+#~ "he founded TinyERP. This was the first phase of OpenERP which would later "
+#~ "became Odoo, the most installed open-source business software worldwide."
+#~ msgstr ""
+#~ "Op slechts 13-jarige leeftijd begon John DOE al zijn eerste zakelijke "
+#~ "applicaties voor klanten te ontwikkelen. Na het beheersen van civiele "
+#~ "techniek richtte hij TinyERP op. Dit was de eerste fase van OpenERP die "
+#~ "later Odoo zou worden, de meest geïnstalleerde open-source "
+#~ "bedrijfssoftware ter wereld."
+
+#~ msgid "Attendance"
+#~ msgstr "Aanwezigheid"
+
+#~ msgid ""
+#~ "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the "
+#~ "show of the century during our three day event."
+#~ msgstr ""
+#~ "Bands als Bar Fighters, Led Slippers en Link Floyd bieden je de show van "
+#~ "de eeuw tijdens ons driedaagse evenement."
+
+#~ msgid ""
+#~ "Bloem brings honesty and seriousness to wood industry while helping "
+#~ "customers deal with trees, flowers and fungi."
+#~ msgstr ""
+#~ "Bloem brengt eerlijkheid en ernst in de houtindustrie en helpt klanten om "
+#~ "met bomen, bloemen en schimmels om te gaan."
+
+#~ msgid ""
+#~ "Bring your outdoor field hockey season to the next level by taking the "
+#~ "field at this 9th annual Field Hockey tournament."
+#~ msgstr ""
+#~ "Breng je outdoor hockeyseizoen naar een hoger niveau door het veld te "
+#~ "betreden bij dit 9e jaarlijkse hockeytoernooi."
+
+#~ msgid "Business workshops"
+#~ msgstr "Zakelijke workshops"
+
+#~ msgid ""
+#~ "Chamber Works reserves the right to cancel, re-name or re-locate the "
+#~ "event or change the dates on which it is held."
+#~ msgstr ""
+#~ "Chamber Works behoudt zich het recht voor om het evenement te annuleren, "
+#~ "een andere naam te geven of te verplaatsen of de data waarop het wordt "
+#~ "gehouden te wijzigen."
+
+#~ msgid "Come see us live, we hope to meet you !"
+#~ msgstr "Kom ons live bekijken, we hopen je te ontmoeten!"
+
+#~ msgid "Conference for Architects"
+#~ msgstr "Conferentie van architecten"
+
+#~ msgid "Conferences, workshops and trainings will be organized in 6 rooms:"
+#~ msgstr ""
+#~ "Conferenties, workshops en trainingen worden georganiseerd in 6 ruimtes:"
+
+#~ msgid "Culture"
+#~ msgstr "Cultuur"
+
+#~ msgid "Design Fair Los Angeles"
+#~ msgstr "Ontwerpevenement Los Angeles"
+
+#~ msgid "Discover how to grow a sustainable business with our experts."
+#~ msgstr ""
+#~ "Ontdek samen met onze experts hoe je een duurzaam bedrijf kunt laten "
+#~ "groeien."
+
+#~ msgid "Discover more"
+#~ msgstr "Ontdek meer"
+
+#~ msgid ""
+#~ "During this conference, our team will give a detailed overview of our "
+#~ "business applications. You’ll know all the benefits of using it."
+#~ msgstr ""
+#~ "Tijdens deze conferentie zal ons team je een gedetailleerd overzicht van "
+#~ "onze bedrijfsapplicaties geven. Je zal alle voordelen weten om ze te "
+#~ "gebruiken."
+
+#~ msgid "Enhance your architectural business and improve professional skills."
+#~ msgstr ""
+#~ "Verbeter je architectuurbedrijf en verbeter professionele vaardigheden."
+
+#~ msgid ""
+#~ "Every year we invite our community, partners and end-users to come and "
+#~ "meet us! It's the ideal event to get together and present new features, "
+#~ "roadmap of future versions, achievements of the software, workshops, "
+#~ "training sessions, etc...."
+#~ msgstr ""
+#~ "Elk jaar nodigen we onze community, relaties en eindgebruikers uit om ons "
+#~ "te ontmoeten! Het is het ideale evenement om samen te komen en nieuwe "
+#~ "functies, routekaart van toekomstige versies, prestaties van de software, "
+#~ "workshops, trainingssessies, enz. te presenteren..."
+
+#~ msgid "Exhibition"
+#~ msgstr "Tentoonstelling"
+
+#~ msgid "Experience live music, local food and beverages."
+#~ msgstr "Ervaar livemuziek, lokale gerechten en drankjes."
+
+#~ msgid "For any additional information, please contact us at"
+#~ msgstr "Voor meer informatie kun je ons contacteren op"
+
+#~ msgid "For only 10, you gain access to catering. Yum yum."
+#~ msgstr "Voor slechts 10 krijg je toegang tot de catering. Yum yum."
+
+#~ msgid "Free"
+#~ msgstr "Gratis"
+
+#~ msgid "Free entrance, no food !"
+#~ msgstr "Gratis toegang, geen eten!"
+
+#~ msgid "Functional flow of the main applications;"
+#~ msgstr "Functionele flow van de hoofdapplicaties;"
+
+#~ msgid "General Admission"
+#~ msgstr "Algemene toelating"
+
+#~ msgid "Get Inspired • Stay Connected • Have Fun"
+#~ msgstr "Wordt geïnspireerd • Blijf verbonden • Heb plezier"
+
+#~ msgid "Great Reno Ballon Race"
+#~ msgstr "Geweldige Reno ballon race"
+
+#~ msgid "Happy to be Sponsor"
+#~ msgstr "Blij om sponsor te zijn"
+
+#~ msgid "Having attended this conference, participants should be able to:"
+#~ msgstr ""
+#~ "Na het deelnemen aan deze conferentie zouden deelnemers in staat moeten "
+#~ "zijn om het volgende te kunnen:"
+
+#~ msgid "Here it is, the 12th edition of our Live Musical Festival !"
+#~ msgstr "Hier is het, de 12e editie van ons live muziek festival!"
+
+#~ msgid "Hockey Tournament"
+#~ msgstr "Hockey tournooi"
+
+#~ msgid "If you don't have this ticket, you will <b>not</b> be allowed entry!"
+#~ msgstr "Als je dit ticket niet hebt, krijg je <b>geen</b> toegang!"
+
+#~ msgid ""
+#~ "If you don't know anything about Hockey, this is a great introduction to "
+#~ "this wonderful sport as you will will be able to see some training "
+#~ "process and also have some time\n"
+#~ "                to chat with experienced players and trainers once the "
+#~ "tournament is over !"
+#~ msgstr ""
+#~ "Als je niets over hockey weet, is dit een geweldige kennismaking met deze "
+#~ "prachtige sport, want je zult wat trainingsprocessen kunnen zien en ook "
+#~ "wat tijd hebben\n"
+#~ "                om te chatten met ervaren spelers en trainers als het "
+#~ "toernooi voorbij is!"
+
+#~ msgid "Important ticket information"
+#~ msgstr "Belangrijke ticketinformatie"
+
+#~ msgid "Introduction, CRM, Sales Management"
+#~ msgstr "Introductie, CRM, Verkoopbeheer"
+
+#~ msgid "John DOE"
+#~ msgstr "John DOE"
+
+#~ msgid "Join us for the greatest ballon race of all times !"
+#~ msgstr "Doe mee met de geweldige ballonrace aller tijden!"
+
+#~ msgid "Join us for this 3-day Event"
+#~ msgstr "Doe mee met dit driedaagse evenement."
+
+#~ msgid "Live Music Festival"
+#~ msgstr "Live muziek festival"
+
+#~ msgid "Music"
+#~ msgstr "Muziek"
+
+#~ msgid "Objectives"
+#~ msgstr "Doelstellingen"
+
+#~ msgid "Once again we assembled the most legendary bands in Rock history."
+#~ msgstr ""
+#~ "Opnieuw hebben we de meest legendarische bands uit de rockgeschiedenis "
+#~ "samengesteld."
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid ""
+#~ "OpenElec Applications reserves the right to cancel, re-name or re-locate "
+#~ "the event or change the dates on which it is held."
+#~ msgstr ""
+#~ "OpenElec Applications behoudt zich het recht voor om het evenement te "
+#~ "annuleren, een andere naam te geven of te verplaatsen of de data waarop "
+#~ "het wordt gehouden te wijzigen."
+
+#~ msgid "OpenWood Collection Online Reveal"
+#~ msgstr "OpenWood collectie online onthulling"
+
+#~ msgid ""
+#~ "OpenWood brings honesty and seriousness to wood industry while helping "
+#~ "customers deal with trees, flowers and fungi."
+#~ msgstr ""
+#~ "OpenWood brengt eerlijkheid en ernst in de houtindustrie en helpt klanten "
+#~ "om met bomen, bloemen en schimmels om te gaan."
+
+#~ msgid ""
+#~ "Our newest collection will be revealed online! Interact with us on our "
+#~ "live streams!"
+#~ msgstr ""
+#~ "Onze nieuwste collectie wordt online onthuld! Communiceer met ons op onze "
+#~ "livestreams!"
+
+#~ msgid ""
+#~ "Please come <b>at least</b> 30 minutes before the beginning of the event."
+#~ msgstr "Kom <b>minimaal</b> 30 minuten voor aanvang van het evenement."
+
+#~ msgid "Point of Sale (POS), Introduction to report customization."
+#~ msgstr ""
+#~ "Point of Sale (Kassa of kassa), introductie in het aanpassen van "
+#~ "rapporten."
+
+#~ msgid "Program"
+#~ msgstr "Programma"
+
+#~ msgid "Project management, Human resources, Contract management."
+#~ msgstr "Projectbeheer, Human Resources en Contractbeheer."
+
+#~ msgid "Purchase, Sales &amp; Purchase management, Financial accounting."
+#~ msgstr "Inkoop, Verkoop &amp; Inkoopbeheer en Boekhouding."
+
+#~ msgid "Scan badges to confirm attendances"
+#~ msgstr "Scan badges om aanwezigheid te bevestigen"
+
+#~ msgid ""
+#~ "Seasoned Hockey Fans and curious people, this tournament is for you !"
+#~ msgstr ""
+#~ "Doorgewinterde hockeyfans en nieuwsgierige mensen, dit toernooi is voor "
+#~ "jou!"
+
+#~ msgid "Sell Online"
+#~ msgstr "Verkoop online"
+
+#~ msgid ""
+#~ "Shangai Pterocarpus Furniture brings honesty and seriousness to wood "
+#~ "industry while helping customers deal with trees, flowers and fungi."
+#~ msgstr ""
+#~ "Shanghai Pterocarpus Furniture brengt eerlijkheid en ernst in de "
+#~ "houtindustrie en helpt klanten om met bomen, bloemen en schimmels om te "
+#~ "gaan."
+
+#~ msgid "Sport"
+#~ msgstr "Sport"
+
+#~ msgid "Standard"
+#~ msgstr "Standaard"
+
+#~ msgid ""
+#~ "The Great Reno Balloon Race is the world's largest free hot-air "
+#~ "ballooning event."
+#~ msgstr ""
+#~ "De Grote Reno Ballon Race is het grootste gratis warme-lucht ballon "
+#~ "evenement ter wereld."
+
+#~ msgid ""
+#~ "The best Hockey teams of the country will compete for the national Hockey "
+#~ "trophy."
+#~ msgstr ""
+#~ "De beste hockeyteams van het land strijden om de nationale hockeytrofee."
+
+#~ msgid ""
+#~ "The best aeronauts of the world will gather on this event to offer you "
+#~ "the most spectacular show."
+#~ msgstr ""
+#~ "De beste aeronauten van de wereld komen samen op dit evenement om je de "
+#~ "meest spectaculaire show te bieden."
+
+#~ msgid ""
+#~ "The finest OpenWood furnitures are coming to your house in a brand new "
+#~ "collection"
+#~ msgstr ""
+#~ "De beste OpenWood-meubels komen naar je huis in een gloednieuwe collectie"
+
+#~ msgid "The safety of our attendees and our aeronauts comes first !"
+#~ msgstr "De veiligheid van onze bezoekers en onze aeronauten staat voorop!"
+
+#~ msgid ""
+#~ "This event is also an opportunity to showcase our partners' case studies, "
+#~ "methodology or developments. Be there and see directly from the source "
+#~ "the features of the version 12!"
+#~ msgstr ""
+#~ "Dit evenement is ook een gelegenheid om de case studies, methodologie of "
+#~ "ontwikkelingen van onze relaties onder de aandacht te brengen. Wees erbij "
+#~ "en bekijk direct vanaf de bron de kenmerken van versie 12!"
+
+#~ msgid ""
+#~ "This event is fully online and FREE, if you have paid for tickets, you "
+#~ "should get a refund.<br>\n"
+#~ "        It will require a good Internet connection to get the best video "
+#~ "quality."
+#~ msgstr ""
+#~ "Dit evenement is volledig online en GRATIS, als je voor tickets hebt "
+#~ "betaald, moet je je geld terugkrijgen.<br>\n"
+#~ "Je hebt een goede internetverbinding nodig om de beste videokwaliteit te "
+#~ "krijgen."
+
+#~ msgid ""
+#~ "This is the perfect place for spending a nice day with your family, we "
+#~ "guarantee you will be leaving with beautiful everlasting memories !"
+#~ msgstr ""
+#~ "Dit is de perfecte plek om een leuke dag met je gezin door te brengen, we "
+#~ "garanderen dat je weggaat met mooie, eeuwige herinneringen!"
+
+#~ msgid ""
+#~ "This is the perfect place for spending a nice time with your friends "
+#~ "while listening to some of the most iconic rock songs of all times!"
+#~ msgstr ""
+#~ "Dit is de perfecte plek om een leuke tijd met je vrienden door te brengen "
+#~ "terwijl je luistert naar enkele van de meest iconische rocknummers aller "
+#~ "tijden!"
+
+#~ msgid "Tickets can be printed or scanned directly from your phone."
+#~ msgstr ""
+#~ "Tickets kunnen rechtstreeks vanaf je telefoon worden afgedrukt of gescand."
+
+#~ msgid "Training"
+#~ msgstr "Training"
+
+#~ msgid ""
+#~ "Tree Dealers brings honesty and seriousness to wood industry while "
+#~ "helping customers deal with trees, flowers and fungi."
+#~ msgstr ""
+#~ "Tree Dealers brengt eerlijkheid en ernst in de houtindustrie en helpt "
+#~ "klanten om met bomen, bloemen en schimmels om te gaan."
+
+#~ msgid "Type"
+#~ msgstr "Soort"
+
+#~ msgid "Understand the various modules;"
+#~ msgstr "De verschillende modules begrijpen;"
+
+#~ msgid "VIP"
+#~ msgstr "VIP"
+
+#~ msgid ""
+#~ "Warehouse management, Manufacturing (MRP) &amp; Sales, Import/Export."
+#~ msgstr "Vorraadbeheer, Productie (MRP) &amp; Verkoop, Import/Export."
+
+#~ msgid ""
+#~ "We reserve the right to cancel, re-name or re-locate the event or change "
+#~ "the dates on which it is held in case the weather fails us."
+#~ msgstr ""
+#~ "We behouden ons het recht voor om het evenement te annuleren, een nieuwe "
+#~ "naam te geven of te verplaatsen, of de data waarop het wordt gehouden te "
+#~ "wijzigen voor het geval het weer ons in de steek laat."
+
+#~ msgid "What's new?"
+#~ msgstr "Wat is er nieuw?"
+
+#~ msgid "Whether event has begun"
+#~ msgstr "Of het evenement is begonnen."
+
+#~ msgid "You are truly among the best."
+#~ msgstr "Je behoort echt tot de besten."
+
+#~ msgid "events@odoo.com"
+#~ msgstr "events@odoo.com"
+
+#~ msgid "events@penwood.example.com"
+#~ msgstr "events@penwood.example.com"
+
+#~ msgid "events@yourcompany.com"
+#~ msgstr "events@yourcompany.com"
 
 #~ msgid "Ticket Intructions"
 #~ msgstr "Ticketinstructie"
