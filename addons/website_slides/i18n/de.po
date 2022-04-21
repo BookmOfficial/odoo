@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:53+0000\n"
+"POT-Creation-Date: 2022-04-16 00:02+0000\n"
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -71,11 +71,6 @@ msgstr "(leer)"
 #, python-format
 msgid ". This way, they will be secured."
 msgstr ". So werden Sie gesichert."
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_1_5
-msgid "3 Main Methodologies"
-msgstr "3 Wesentliche Methoden"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_channel.py:0
@@ -1031,16 +1026,6 @@ msgid "<strong>Thank you!</strong> Mail has been sent."
 msgstr "<strong>Danke schön!</strong> E-Mail wurde versendet."
 
 #. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_2_1
-msgid "A Mighty Forest from Ages"
-msgstr "Ein mächtiger Wald aus der Zeit"
-
-#. module: website_slides
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_0_4_question_0_0
-msgid "A fruit"
-msgstr "eine Frucht"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
@@ -1052,26 +1037,6 @@ msgstr ""
 "Abschnitt und klicken Sie auf <b>Speichern</b> um ihn zu erstellen."
 
 #. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_1_4
-msgid "A little chat with Harry Potted"
-msgstr "Ein kleines Gespräch mit Harry Potted"
-
-#. module: website_slides
-#: model_terms:slide.channel,description:website_slides.slide_channel_demo_2_gard2
-#: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_2_gard2
-msgid ""
-"A lot of nice documentation: trees, wood, gardens. A gold mine for "
-"references."
-msgstr ""
-"Viele schöne Dokumentation: Bäume, Holz, Gärten. Eine Goldmine für "
-"Referenzen."
-
-#. module: website_slides
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_0_4_question_1_0
-msgid "A shovel"
-msgstr "Eine Schaufel"
-
-#. module: website_slides
 #: model:ir.model.constraint,message:website_slides.constraint_slide_slide_exclusion_html_content_and_url
 msgid "A slide is either filled with a document url or HTML content. Not both."
 msgstr ""
@@ -1079,47 +1044,9 @@ msgstr ""
 "gefüllt. Nicht beide."
 
 #. module: website_slides
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_0_4_question_1_1
-msgid "A spoon"
-msgstr "Ein Löffel"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_1_5
-msgid "A summary of know-how: how and what."
-msgstr "Eine Zusammenfassung des Know-hows: wie und was."
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_0_0
-msgid ""
-"A summary of know-how: how and what. All the basics for this course about "
-"gardening."
-msgstr ""
-"Eine Zusammenfassung des Know-hows: wie und was. Alle Grundlagen für diesen "
-"Kurs über Gartenarbeit."
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_0
-msgid ""
-"A summary of know-how: what are the main trees categories and how to "
-"differentiate them."
-msgstr ""
-"Eine Zusammenfassung des Know-hows: Was sind die wichtigsten Baumkategorien "
-"und wie man sie unterscheiden kann."
-
-#. module: website_slides
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_0_4_question_0_2
-msgid "A table"
-msgstr "Ein Tisch"
-
-#. module: website_slides
 #: model:ir.model.constraint,message:website_slides.constraint_slide_tag_slide_tag_unique
 msgid "A tag must be unique!"
 msgstr "Ein Tag darf nur einmal definiert sein!"
-
-#. module: website_slides
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_0_4_question_0_1
-msgid "A vegetable"
-msgstr "Ein Gemüse"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
@@ -1324,12 +1251,6 @@ msgid "All questions must be answered !"
 msgstr "Alle Fragen müssen beantwortet werden!"
 
 #. module: website_slides
-#: model_terms:slide.channel,description:website_slides.slide_channel_demo_5_furn2
-#: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_5_furn2
-msgid "All you need to know about furniture creation."
-msgstr "Alles, was Sie über die Möbelbeschaffung wissen müssen."
-
-#. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__slide_resource_downloadable
 msgid "Allow Download"
 msgstr "Download zulassen"
@@ -1391,11 +1312,6 @@ msgstr "Bereits Mitglied"
 #, python-format
 msgid "Amazing!"
 msgstr "Erstaunlich!"
-
-#. module: website_slides
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_2_0_question_1_2
-msgid "And also bananas"
-msgstr "Und auch Bananen"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__text_value
@@ -1526,16 +1442,6 @@ msgid "Basic"
 msgstr "Basisstufe"
 
 #. module: website_slides
-#: model:slide.channel,name:website_slides.slide_channel_demo_5_furn2
-msgid "Basics of Furniture Creation"
-msgstr "Grundlagen der Möbelbeschaffung"
-
-#. module: website_slides
-#: model:slide.channel,name:website_slides.slide_channel_demo_0_gard_0
-msgid "Basics of Gardening"
-msgstr "Grundlagen der Gartenarbeit"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #, python-format
@@ -1587,17 +1493,6 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #. module: website_slides
-#: model:slide.channel.tag,name:website_slides.slide_channel_tag_role_carpenter
-msgid "Carpenter"
-msgstr "Zimmermann"
-
-#. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-msgid "Catchy Headline"
-msgstr "Eingängige Überschrift"
-
-#. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__slide_category_ids
 msgid "Categories"
 msgstr "Kategorien"
@@ -1606,11 +1501,6 @@ msgstr "Kategorien"
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Category"
 msgstr "Kategorie"
-
-#. module: website_slides
-#: model:slide.channel.tag,name:website_slides.slide_channel_tag_other_1
-msgid "Certification"
-msgstr "Zertifizierung"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_website_slides_survey
@@ -1688,11 +1578,6 @@ msgid "Channels"
 msgstr "Kanäle"
 
 #. module: website_slides
-#: model:slide.tag,name:website_slides.slide_tag_demo_cheatsheet
-msgid "CheatSheet"
-msgstr "Spickzettel"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
@@ -1733,11 +1618,6 @@ msgstr "Wählen Sie ein PDF oder ein Bild"
 #, python-format
 msgid "Choose a layout"
 msgstr "Wählen Sie ein Layout"
-
-#. module: website_slides
-#: model:slide.channel,name:website_slides.slide_channel_demo_3_furn0
-msgid "Choose your wood !"
-msgstr "Wählen Sie Ihr Holz!"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_all
@@ -1800,11 +1680,6 @@ msgid "Color Index"
 msgstr "Farbkennzeichnung"
 
 #. module: website_slides
-#: model:slide.tag,name:website_slides.slide_tag_demo_colorful
-msgid "Colorful"
-msgstr "Farbig"
-
-#. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__comment
 msgid "Comment"
 msgstr "Kommentar"
@@ -1856,12 +1731,6 @@ msgstr "Held der Community"
 #: model:ir.model.fields,field_description:website_slides.field_res_users__slide_channel_company_count
 msgid "Company Course Count"
 msgstr "Anzahl der Unternehmenskurse"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_3_0
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_3_0
-msgid "Comparing Hardness of Wood Species"
-msgstr "Härte von Holzarten im Vergleich"
 
 #. module: website_slides
 #: model:gamification.challenge,name:website_slides.badge_data_course_challenge
@@ -1993,13 +1862,6 @@ msgstr "Kontakt"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_channel.py:0
-#: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_0_gard_0
-#: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_1_gard1
-#: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_2_gard2
-#: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_3_furn0
-#: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_4_furn1
-#: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_5_furn2
-#: model_terms:slide.channel,enroll_msg:website_slides.slide_channel_demo_6_furn3
 #, python-format
 msgid "Contact Responsible"
 msgstr "Verantwortlichen kontaktieren"
@@ -2015,13 +1877,6 @@ msgstr "Kontaktieren Sie alle Mitglieder eines Kurses per Massenmailing"
 #, python-format
 msgid "Contact the responsible to enroll."
 msgstr "Kontaktieren Sie den Verantwortlichen um sich einzuschreiben."
-
-#. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid "Contact us"
-msgstr "Kontakt"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__total_slides
@@ -2078,35 +1933,6 @@ msgstr "Weitermachen"
 #, python-format
 msgid "Copy Link"
 msgstr "Link kopieren"
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_1_4_question_0_0
-#: model:slide.answer,comment:website_slides.slide_slide_demo_2_0_question_0_1
-#: model:slide.answer,comment:website_slides.slide_slide_demo_2_0_question_1_1
-msgid "Correct !"
-msgstr "Richtig!"
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_0_4_question_1_0
-msgid "Correct ! A shovel is the perfect tool to dig a hole."
-msgstr ""
-"Richtig! Eine Schaufel ist das perfekte Werkzeug, um ein Loch zu graben."
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_0_4_question_0_0
-msgid "Correct ! A strawberry is a fruit because it's the product of a tree."
-msgstr ""
-"Richtig! Eine Erdbeere ist eine Frucht, da sie das Produkt eines Baumes ist."
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_1_4_question_1_0
-msgid "Correct ! Congratulations you have time to loose"
-msgstr ""
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_5_3_question_0_0
-msgid "Correct ! You did it !"
-msgstr "Richtig! Gut gemacht!"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_slide.py:0
@@ -2309,11 +2135,6 @@ msgid "Custom HTML content for slides of type 'Web Page'."
 msgstr ""
 
 #. module: website_slides
-#: model:slide.channel,name:website_slides.slide_channel_demo_6_furn3
-msgid "DIY Furniture"
-msgstr "DIY-Möbel"
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_searchbar_input_snippet_options
 msgid "Date (new to old)"
 msgstr "Datum (neu zu alt)"
@@ -2392,11 +2213,6 @@ msgid "Detailed Description"
 msgstr "Detaillierte Beschreibung"
 
 #. module: website_slides
-#: model:slide.question,question:website_slides.slide_slide_demo_1_4_question_1
-msgid "Did you read the whole article ?"
-msgstr "Haben Sie den ganzen Artikel gelesen?"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_category_add.js:0
 #: code:addons/website_slides/static/src/js/slides_course_tag_add.js:0
@@ -2406,13 +2222,6 @@ msgstr "Haben Sie den ganzen Artikel gelesen?"
 #, python-format
 msgid "Discard"
 msgstr "Verwerfen"
-
-#. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid "Discover more"
-msgstr "Entdecken Sie mehr"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes
@@ -2448,16 +2257,6 @@ msgid "Display order"
 msgstr "Anzeigereihenfolge"
 
 #. module: website_slides
-#: model:slide.question,question:website_slides.slide_slide_demo_2_0_question_0
-msgid "Do you make beams out of lemon trees ?"
-msgstr "Machen Sie aus Zitronenbäumen Balken?"
-
-#. module: website_slides
-#: model:slide.question,question:website_slides.slide_slide_demo_2_0_question_1
-msgid "Do you make lemons out of beams ?"
-msgstr "Machen Sie Zitronen aus Balken?"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #, python-format
@@ -2465,21 +2264,11 @@ msgid "Do you really want to leave the course?"
 msgstr "Wollen Sie den Kurs wirklich verlassen?"
 
 #. module: website_slides
-#: model:slide.question,question:website_slides.slide_slide_demo_1_4_question_0
-msgid "Do you think Harry Potted has a good name ?"
-msgstr "Glauben Sie, dass Harry Potted einen schönen Namen hat?"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Do you want to install the \"%s\" app?"
 msgstr "Möchten Sie die \"%s\" App installieren?"
-
-#. module: website_slides
-#: model:slide.question,question:website_slides.slide_slide_demo_5_3_question_0
-msgid "Do you want to reply correctly ?"
-msgstr "Möchten Sie korrekt antworten ?"
 
 #. module: website_slides
 #. openerp-web
@@ -2518,14 +2307,8 @@ msgstr "Dokumentation Layout"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__nbr_document
-#: model:slide.slide,name:website_slides.slide_category_demo_4_0
 msgid "Documents"
 msgstr "Dokumente"
-
-#. module: website_slides
-#: model:slide.channel.tag,name:website_slides.slide_channel_tag_other_2
-msgid "Dog Friendly"
-msgstr "Hundefreundlich"
 
 #. module: website_slides
 #. openerp-web
@@ -2561,16 +2344,6 @@ msgstr "Herunterladen"
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid "Download Content"
 msgstr "Inhalt herunterladen"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_4_10
-msgid "Drawing 1"
-msgstr ""
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_4_11
-msgid "Drawing 2"
-msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
@@ -2648,11 +2421,6 @@ msgid "End course"
 msgstr "Kurs beenden"
 
 #. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_1_2
-msgid "Energy Efficiency Facts"
-msgstr "Fakten zur Energieeffizienz"
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
 msgid "Enjoy this exclusive content !"
 msgstr "Viel Spaß mit diesem exklusiven Inhalt!"
@@ -2718,11 +2486,6 @@ msgstr "Beurteilen und zertifizieren Sie Ihre Kursteilnehmer."
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 msgid "Evaluate your students and certify them"
 msgstr "Bewerten und zertifizieren Sie Ihre Studenten."
-
-#. module: website_slides
-#: model:slide.tag,name:website_slides.slide_tag_demo_exercises
-msgid "Exercises"
-msgstr "Übungen"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
@@ -2842,17 +2605,6 @@ msgid "Font awesome icon e.g. fa-tasks"
 msgstr "FontAwesome Icon, z.B. fa-tasks"
 
 #. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_4_0
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid "Foreword"
-msgstr "Vorwort"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_0
-msgid "Foreword for this documentation: how to use it, main attention points"
-msgstr "Vorwort zu dieser Dokumentation: Anwenderleitfaden, Hauptfokuspunkte"
-
-#. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_website_slides_forum
 msgid "Forum"
 msgstr "Forum"
@@ -2863,41 +2615,9 @@ msgid "Fourth and more attempt"
 msgstr "Vierter und mehr Versuche"
 
 #. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_5_2
-msgid "From a piece of wood to a fully functional furniture, step by step."
-msgstr ""
-"Von einem Stück Holz bis zu einem voll funktionsfähigen Möbelstück, Schritt "
-"für Schritt."
-
-#. module: website_slides
-#: model:slide.channel.tag,name:website_slides.slide_channel_tag_role_furniture
-msgid "Furniture Designer"
-msgstr "Möbeldesigner"
-
-#. module: website_slides
-#: model:slide.channel,name:website_slides.slide_channel_demo_4_furn1
-msgid "Furniture Technical Specifications"
-msgstr "Technische Spezifikationen der Möbel"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_12
-msgid "GLork"
-msgstr "GLork"
-
-#. module: website_slides
 #: model:ir.model,name:website_slides.model_gamification_challenge
 msgid "Gamification Challenge"
 msgstr "Gamification Herausforderung"
-
-#. module: website_slides
-#: model:slide.channel.tag,name:website_slides.slide_channel_tag_role_gardener
-msgid "Gardener"
-msgstr "Gärtner"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_0_0
-msgid "Gardening: The Know-How"
-msgstr "Gartenarbeit: Das Know-How"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
@@ -2993,23 +2713,10 @@ msgid "HTTP Routing"
 msgstr "HTTP Routing"
 
 #. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_5_1
-msgid "Hand on !"
-msgstr ""
-
-#. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__has_message
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__has_message
 msgid "Has Message"
 msgstr "Hat eine Nachricht"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_0_3
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_1_6
-msgid "Here is How to get the Sweetest Strawberries you ever tasted!"
-msgstr ""
-"Hier erfahren Sie, wie Sie die süßesten Erdbeeren bekommen, die Sie je "
-"probiert haben!"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_nav
@@ -3017,44 +2724,11 @@ msgid "Home"
 msgstr "Home"
 
 #. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_0_1
-msgid "Home Gardening"
-msgstr "Gartenarbeit zu Hause"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_5_2
-msgid "How To Build a HIGH QUALITY Dining Table with LIMITED TOOLS"
-msgstr "Wie Sie einen HOCHWERTIGEN Esstisch mit BEGRENZTEN WERKZEUGEN"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_0_3
-msgid "How to Grow and Harvest The Best Strawberries | Basics"
-msgstr "Wie man die besten Erdbeeren anbaut und erntet | Grundlagen"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_1_6
-msgid ""
-"How to Grow and Harvest The Best Strawberries | Gardening Tips and Tricks"
-msgstr ""
-"Wie man die besten Erdbeeren anpflanzt und erntet | Tipps und Tricks für den "
-"Garten"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "How to create a Lesson as a Web Page?"
 msgstr "Wie erstellt man eine Lektion als Webseite?"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_5_1
-msgid "How to find quality wood"
-msgstr "Wie man Qualitätsholz findet"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_1_3
-msgid "How to plant a potted tree"
-msgstr "Wie man einen Topfbaum pflanzt"
 
 #. module: website_slides
 #. openerp-web
@@ -3070,17 +2744,6 @@ msgstr ""
 #, python-format
 msgid "How to upload your videos ?"
 msgstr "Wie kann ich meine Videos hochladen?"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_2
-msgid "How to wall decorating by tree planting in hanging plastic bottles."
-msgstr ""
-"Wie man durch Baumpflanzung in hängende Plastikflaschen die Wände dekoriert."
-
-#. module: website_slides
-#: model:slide.tag,name:website_slides.slide_tag_demo_howto
-msgid "HowTo"
-msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__id
@@ -3138,16 +2801,6 @@ msgid "If checked, some messages have a delivery error."
 msgstr "Wenn gewählt, ist das Senden einiger Nachrichten fehlgeschlagen."
 
 #. module: website_slides
-#: model_terms:slide.channel,description:website_slides.slide_channel_demo_4_furn1
-#: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_4_furn1
-msgid ""
-"If you are looking for technical specifications, have a look at this "
-"documentation."
-msgstr ""
-"Wenn Sie nach technischen Spezifikationen suchen, werfen Sie einen Blick in "
-"diese Dokumentation."
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
@@ -3190,48 +2843,6 @@ msgid "Image 512"
 msgstr "Bild 512"
 
 #. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_1_4_question_0_1
-#: model:slide.answer,comment:website_slides.slide_slide_demo_2_0_question_0_0
-#: model:slide.answer,comment:website_slides.slide_slide_demo_2_0_question_1_0
-msgid "Incorrect !"
-msgstr "Falsch!"
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_0_4_question_0_1
-msgid "Incorrect ! A strawberry is not a vegetable."
-msgstr "Falsch! Eine Erdbeere ist kein Gemüse."
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_0_4_question_0_2
-msgid "Incorrect ! A table is a piece of furniture."
-msgstr "Falsch! Ein Tisch ist ein Möbelstück."
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_0_4_question_1_1
-msgid "Incorrect ! Good luck digging a hole with a spoon..."
-msgstr "Falsch! Viel Erfolg beim Graben mit einem Löffel..."
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_1_4_question_1_2
-msgid "Incorrect ! Seriously ?"
-msgstr "Falsch! Ernsthaft?"
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_5_3_question_0_1
-msgid "Incorrect ! You better think twice..."
-msgstr "Falsch! Denken Sie noch einmal nach..."
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_1_4_question_1_1
-msgid "Incorrect ! You really should read it."
-msgstr "Falsch! Sie sollten es wirklich lesen."
-
-#. module: website_slides
-#: model:slide.answer,comment:website_slides.slide_slide_demo_2_0_question_1_2
-msgid "Incorrect ! of course not ..."
-msgstr "Falsch! Natürlich nicht..."
-
-#. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__infographic
 msgid "Infographic"
 msgstr "Infografik"
@@ -3254,22 +2865,6 @@ msgstr "Installieren"
 #, python-format
 msgid "Installing \"%s\"."
 msgstr "Installiert \"%s\"."
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_1_0
-msgid "Interesting Facts"
-msgstr "Interessante Fakten"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_1_1
-msgid "Interesting Tree Facts"
-msgstr "Interessante Fakten zu Bäumen"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_0_1
-msgid "Interesting information about home gardening. Keep it close !"
-msgstr ""
-"Interessante Informationen über das Gärtnern. Speichern Sie sie gut ab!"
 
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_level_intermediate
@@ -3344,15 +2939,6 @@ msgid "Is correct answer"
 msgstr "Richtige Antwort"
 
 #. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_1_3
-msgid ""
-"Jim and Todd plant a potted tree for a customer of Knecht's Nurseries and "
-"Landscaping. Narrated by Leif Knecht, owner."
-msgstr ""
-"Jim und Todd pflanzen einen Topfbaum für einen Kunden von Knecht's Gärtnerei "
-"und Landschaftsbau. Erzählt von Leif Knecht, dem Besitzer."
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
@@ -3384,21 +2970,6 @@ msgstr ""
 "Treten Sie dem Kurs bei, um das Quiz zu machen und Ihre Antworten zu prüfen!"
 
 #. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_1_2
-msgid "Just some basics Energy Efficiency Facts."
-msgstr "Nur einige grundlegende Fakten zur Energieeffizienz."
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_1_1
-msgid "Just some basics Interesting Tree Facts."
-msgstr "Nur einige grundlegende interessante Baum-Fakten."
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_1_0
-msgid "Just some basics Tree Infographic."
-msgstr "Nur einige grundlegende Baum-Infographie."
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Karma"
 msgstr "Karma"
@@ -3426,27 +2997,6 @@ msgstr "Karma ist notwendig, um eine Folie dieses Kurses zu mögen/abneigen."
 #: model:gamification.goal.definition,name:website_slides.badge_data_profile_goal
 msgid "Know yourself"
 msgstr "Kennen Sie sich selbst "
-
-#. module: website_slides
-#: model_terms:slide.channel,description:website_slides.slide_channel_demo_3_furn0
-#: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_3_furn0
-msgid ""
-"Knowing which kind of wood to use depending on your application is "
-"important. In this course you\n"
-"will learn the basics of wood characteristics."
-msgstr ""
-"Es ist wichtig zu wissen, welche Art von Holz je nach Anwendung zu verwenden "
-"ist. In diesem Kurs werden Sie\n"
-"lernen die Grundlagen der Holzmerkmale kennen."
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_3
-msgid ""
-"Knowing wood characteristics is a requirement in order to know which kind of "
-"wood to use in a given situation."
-msgstr ""
-"Die Kenntnis der Holzmerkmale ist eine Voraussetzung, um zu wissen, welche "
-"Art von Holz in einer bestimmten Situation zu verwenden ist."
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__lang
@@ -3531,29 +3081,6 @@ msgid "Leaderboard"
 msgstr "Leaderboard"
 
 #. module: website_slides
-#: model_terms:slide.channel,description:website_slides.slide_channel_demo_1_gard1
-#: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_1_gard1
-msgid ""
-"Learn how to take care of your favorite trees. Learn when to plant, how to "
-"manage potted trees, ..."
-msgstr ""
-"Lernen Sie, wie Sie Ihre Lieblingsbäume pflegen können. Lernen Sie, wann man "
-"pflanzt, wie man Topfbäume umgeht, ..."
-
-#. module: website_slides
-#: model_terms:slide.channel,description:website_slides.slide_channel_demo_0_gard_0
-#: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_0_gard_0
-msgid "Learn the basics of gardening !"
-msgstr "Lernen Sie die Grundlagen der Gartenarbeit!"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_5_1
-msgid "Learn to identify quality wood in order to create solid furnitures."
-msgstr ""
-"Lernen Sie, qualitativ hochwertiges Holz zu erkennen, um tolle Möbel "
-"anzufertigen."
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #, python-format
@@ -3614,11 +3141,6 @@ msgstr "E-Mail-Versand"
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Hauptanhänge"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_2_0
-msgid "Main Trees Categories"
-msgstr "Haupt-Baumkategorien"
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_manager
@@ -3688,25 +3210,6 @@ msgstr "Nachricht zur Erklärung des Anmeldevorgangs"
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_ids
 msgid "Messages"
 msgstr "Nachrichten"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_1_1
-msgid "Methods"
-msgstr "Methoden"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_0_2
-msgid "Mighty Carrots"
-msgstr "Mächtige Möhren"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_1
-msgid ""
-"Mighty forest just don't appear in a few weeks. Learn how time made our "
-"forests mighty and mysterious."
-msgstr ""
-"Mächtiger Wald erscheint einfach nicht in ein paar Wochen. Erfahren Sie, wie "
-"die Zeit unsere Wälder mächtig und geheimnisvoll gemacht hat."
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__mime_type
@@ -3858,11 +3361,6 @@ msgstr "Nächster Rang:"
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_0_1
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_1_1
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_2_0_question_0_1
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_2_0_question_1_1
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_5_3_question_0_1
 #, python-format
 msgid "No"
 msgstr "Nein"
@@ -4012,18 +3510,6 @@ msgstr "Anzahl ungelesener Nachrichten"
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__questions_count
 msgid "Numbers of Questions"
 msgstr "Anzahl Fragen"
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
-msgid "Odoo"
-msgstr "Odoo"
-
-#. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid "Odoo • Image and Text"
-msgstr "Odoo • Bild und Text"
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer
@@ -4190,16 +3676,10 @@ msgid "Power User"
 msgstr "Power User"
 
 #. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
-msgid "Powered by"
-msgstr "Ein System von"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed__slide_id
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__presentation
-#: model:slide.slide,name:website_slides.slide_slide_demo_4_12
 #, python-format
 msgid "Presentation"
 msgstr "Präsentation"
@@ -4319,7 +3799,6 @@ msgstr "Fragen"
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__quiz
-#: model:slide.channel.tag,name:website_slides.slide_channel_tag_other_0
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_question_view_form
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 #, python-format
@@ -4657,13 +4136,6 @@ msgid "Section"
 msgstr "Sektion"
 
 #. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid "Section Subtitle"
-msgstr "Abschnitt Untertitel"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/slide_management.xml:0
 #, python-format
@@ -4674,6 +4146,12 @@ msgstr "Abschnitt Name"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__access_token
 msgid "Security Token"
 msgstr "Security Token"
+
+#. module: website_slides
+#: code:addons/website_slides/models/res_users.py:0
+#, python-format
+msgid "See our eLearning"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -4821,11 +4299,6 @@ msgid "Short Description"
 msgstr "Kurze Beschreibung"
 
 #. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_0_4
-msgid "Show your newly mastered knowledge !"
-msgstr "Zeigen Sie Ihr neu erlerntes Wissen !"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
@@ -4934,12 +4407,6 @@ msgid "Slides and categories"
 msgstr "Folien und Kategorien"
 
 #. module: website_slides
-#: model_terms:slide.channel,description:website_slides.slide_channel_demo_6_furn3
-#: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_6_furn3
-msgid "So much amazing certification."
-msgstr "So viel erstaunliche Zertifizierung."
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
 msgid "Sort by"
 msgstr "Sortieren nach"
@@ -4958,15 +4425,6 @@ msgstr "Kurs anfangen"
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 msgid "Start Course Channel"
 msgstr ""
-
-#. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid "Start with the customer – find out what they want and give it to them."
-msgstr ""
-"Beginnen Sie beim Kunden – finden Sie heraus, was er möchte und bieten Sie "
-"dies an."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_home
@@ -5102,38 +4560,6 @@ msgid "Tags..."
 msgstr "Tags..."
 
 #. module: website_slides
-#: model:slide.channel,name:website_slides.slide_channel_demo_1_gard1
-msgid "Taking care of Trees"
-msgstr "Pflege von Bäumen"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_4_1
-msgid "Technical Drawings"
-msgstr "Technische Zeichnungen"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_10
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_11
-msgid "Technical drawing"
-msgstr "Technische Zeichnung"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_5_2
-msgid "Test Yourself"
-msgstr "Testen Sie sich selbst"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_0_4
-msgid "Test your knowledge"
-msgstr "Testen Sie Ihr Wissen"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_5_3
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_5_3
-msgid "Test your knowledge !"
-msgstr "Testen Sie Ihr Wissen!"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -5224,11 +4650,6 @@ msgstr ""
 "Die vollständige URL mit der das Dokument überall aufgerufen werden kann."
 
 #. module: website_slides
-#: model:slide.tag,name:website_slides.slide_tag_demo_theory
-msgid "Theory"
-msgstr "Theorie"
-
-#. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.slide_question_action_report
 msgid "There are no quizzes"
 msgstr "Es gibt keine Quizze"
@@ -5315,21 +4736,6 @@ msgid "Toggle navigation"
 msgstr "Navigation an/aus"
 
 #. module: website_slides
-#: model:slide.tag,name:website_slides.slide_tag_demo_tools
-msgid "Tools"
-msgstr "Werkzeuge"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_5_0
-msgid "Tools and Methods"
-msgstr "Hilfsmittel und Methoden"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_5_0
-msgid "Tools you will need to complete this course."
-msgstr "Werkzeuge, die Sie benötigen, um diesen Kurs zu absolvieren."
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Total"
 msgstr "Total"
@@ -5357,26 +4763,6 @@ msgid "Training Layout"
 msgstr ""
 
 #. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_1_0
-msgid "Tree Infographic"
-msgstr "Baum-Infografik"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_2_2
-msgid "Tree planting in hanging bottles on wall"
-msgstr "Baumpflanzung in hängenden Flaschen an der Wand"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_2_0
-msgid "Trees"
-msgstr "Bäume"
-
-#. module: website_slides
-#: model:slide.channel,name:website_slides.slide_channel_demo_2_gard2
-msgid "Trees, Wood and Gardens"
-msgstr "Bäume, Holz und Gärten"
-
-#. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__slide_type
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Type"
@@ -5401,11 +4787,6 @@ msgstr ""
 #, python-format
 msgid "Uncategorized"
 msgstr "Nicht kategorisiert"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_5_0
-msgid "Unforgettable Tools"
-msgstr "Unvergessliche Werkzeuge"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_slide.py:0
@@ -5591,20 +4972,6 @@ msgid "Waiting for validation"
 msgstr "Warten auf Bestätigung"
 
 #. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_3_1
-msgid "Watching the master(s) at work"
-msgstr "Dem/den Meister(n) bei der Arbeit zuschauen"
-
-#. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_1_4
-msgid ""
-"We had a little chat with Harry Potted, sure he had interesting things to "
-"say !"
-msgstr ""
-"Wir hatten eine kleine Unterhaltung mit Harry Potted, der sicher "
-"interessante Dinge zu sagen hatte!"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__webpage
@@ -5692,22 +5059,6 @@ msgid "What does"
 msgstr ""
 
 #. module: website_slides
-#: model:slide.question,question:website_slides.slide_slide_demo_0_4_question_0
-msgid "What is a strawberry ?"
-msgstr "Was ist eine Erdbeere?"
-
-#. module: website_slides
-#: model:slide.question,question:website_slides.slide_slide_demo_0_4_question_1
-msgid "What is the best tool to dig a hole for your plants ?"
-msgstr ""
-"Welches ist das beste Werkzeug, um ein Loch für Ihre Pflanzen zu graben?"
-
-#. module: website_slides
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_1_2
-msgid "What was the question again ?"
-msgstr "Was war die Frage noch? "
-
-#. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_invite__sub_model_object_field
 msgid ""
 "When a relationship field is selected as first field, this field lets you "
@@ -5726,15 +5077,6 @@ msgstr ""
 "Relation angezeigt."
 
 #. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_1
-msgid ""
-"Which wood type is best for my solid wood furniture? That's the question we "
-"help you answer in this video !"
-msgstr ""
-"Welche Holzsorte eignet sich am besten für meine soliden Holzmöbel? Bei der "
-"Beantwortung dieser Frage helfen wir Ihnen im Video!"
-
-#. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -5744,56 +5086,6 @@ msgid ""
 msgstr ""
 "Fokussierte und motivierte Stundenten, dank Quiz, bei denen sie Fragen "
 "beantworten und Karma-Punkte gewinnen können"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_2_1
-msgid "Wood"
-msgstr "Holz"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_3_1
-msgid "Wood Bending With Steam Box"
-msgstr "Holz biegen mit Dampfkiste"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_2_3
-msgid "Wood Characteristics"
-msgstr "Holzmerkmale"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_slide_demo_4_1
-msgid "Wood Types"
-msgstr "Holzarten"
-
-#. module: website_slides
-#: model:slide.slide,name:website_slides.slide_category_demo_3_0
-msgid "Working with Wood"
-msgstr "Arbeit mit Holz"
-
-#. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid ""
-"Write one or two paragraphs describing your product or services. <br>To be "
-"successful your content needs to be useful to your readers."
-msgstr ""
-"Schreiben Sie ein oder zwei Absätze, die Ihre Produkte bzw. Dienste "
-"beschreiben. <br>Um erfolgreich zu sein, muss Ihr Inhalt für Ihre Leser "
-"nützlich sein."
-
-#. module: website_slides
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-#: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
-msgid ""
-"Write one or two paragraphs describing your product, services or a specific "
-"feature.<br> To be successful your content needs to be useful to your "
-"readers."
-msgstr ""
-"Schreiben Sie einen oder zwei Absätze, die Ihr Produkt, Ihre "
-"Dienstleistungen oder ein bestimmtes Merkmal beschreiben. <br>Um erfolgreich "
-"zu sein, muss Ihr Inhalt für Ihre Leser nützlich sein."
 
 #. module: website_slides
 #. openerp-web
@@ -5806,11 +5098,6 @@ msgstr "XP"
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_course_enroll_email.js:0
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_0_0
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_1_0
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_2_0_question_0_0
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_2_0_question_1_0
-#: model:slide.answer,text_value:website_slides.slide_slide_demo_5_3_question_0_0
 #, python-format
 msgid "Yes"
 msgstr "Ja"
@@ -5937,11 +5224,6 @@ msgid "You must be member of this course to vote"
 msgstr "Sie müssen Mitglied dieses Kurses sein, um abstimmen zu können"
 
 #. module: website_slides
-#: model_terms:slide.slide,description:website_slides.slide_slide_demo_0_2
-msgid "You won't believe those facts about carrots."
-msgstr "Diese Fakten über Möhren werden Sie nicht glauben."
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 msgid "You're enrolled"
 msgstr "Eingeschrieben"
@@ -5966,11 +5248,6 @@ msgstr ""
 #: model:slide.channel.tag.group,name:website_slides.slide_channel_tag_group_level
 msgid "Your Level"
 msgstr "Ihre Ebene"
-
-#. module: website_slides
-#: model:slide.channel.tag.group,name:website_slides.slide_channel_tag_group_role
-msgid "Your Role"
-msgstr "Ihre Rolle"
 
 #. module: website_slides
 #. openerp-web
@@ -6034,18 +5311,16 @@ msgstr "z.B. Informatik für Kinder"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Odoo?"
-msgstr "z.B. Wie können Sie Ihr Geschäft mit Odoo entwickeln?"
+msgid "e.g. How to grow your business with Bookm?"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
-"e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
-"your business. At the end, we'll propose you a quiz to test your knowledge."
+"e.g. In this video, we'll give you the keys on how Bookm can help you to "
+"grow your business. At the end, we'll propose you a quiz to test your "
+"knowledge."
 msgstr ""
-"z.B. In diesem Video geben wir Ihnen die Schlüssel dazu, wie Odoo Ihnen "
-"helfen kann, Ihr Geschäft zu entwickeln. Am Ende werden wir Ihnen ein Quiz "
-"vorschlagen, um Ihr Wissen zu testen."
 
 #. module: website_slides
 #. openerp-web
@@ -6061,8 +5336,8 @@ msgstr "z.B. Ihr Level"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.odoo.com"
-msgstr "z.B. https://www.odoo.com"
+msgid "e.g. https://www.bookm.be"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_root
@@ -6181,3 +5456,445 @@ msgstr "{{ user.name }} hat {{ object.slide_type }} mit Ihnen geteilt!"
 #: model_terms:ir.ui.view,arch_db:website_slides.course_nav
 msgid "└<span class=\"ml-1\">Uncategorized</span>"
 msgstr "└<span class=\"ml-1\">Unkategorisiert</span>"
+
+#~ msgid "3 Main Methodologies"
+#~ msgstr "3 Wesentliche Methoden"
+
+#~ msgid "A Mighty Forest from Ages"
+#~ msgstr "Ein mächtiger Wald aus der Zeit"
+
+#~ msgid "A fruit"
+#~ msgstr "eine Frucht"
+
+#~ msgid "A little chat with Harry Potted"
+#~ msgstr "Ein kleines Gespräch mit Harry Potted"
+
+#~ msgid ""
+#~ "A lot of nice documentation: trees, wood, gardens. A gold mine for "
+#~ "references."
+#~ msgstr ""
+#~ "Viele schöne Dokumentation: Bäume, Holz, Gärten. Eine Goldmine für "
+#~ "Referenzen."
+
+#~ msgid "A shovel"
+#~ msgstr "Eine Schaufel"
+
+#~ msgid "A spoon"
+#~ msgstr "Ein Löffel"
+
+#~ msgid "A summary of know-how: how and what."
+#~ msgstr "Eine Zusammenfassung des Know-hows: wie und was."
+
+#~ msgid ""
+#~ "A summary of know-how: how and what. All the basics for this course about "
+#~ "gardening."
+#~ msgstr ""
+#~ "Eine Zusammenfassung des Know-hows: wie und was. Alle Grundlagen für "
+#~ "diesen Kurs über Gartenarbeit."
+
+#~ msgid ""
+#~ "A summary of know-how: what are the main trees categories and how to "
+#~ "differentiate them."
+#~ msgstr ""
+#~ "Eine Zusammenfassung des Know-hows: Was sind die wichtigsten "
+#~ "Baumkategorien und wie man sie unterscheiden kann."
+
+#~ msgid "A table"
+#~ msgstr "Ein Tisch"
+
+#~ msgid "A vegetable"
+#~ msgstr "Ein Gemüse"
+
+#~ msgid "All you need to know about furniture creation."
+#~ msgstr "Alles, was Sie über die Möbelbeschaffung wissen müssen."
+
+#~ msgid "And also bananas"
+#~ msgstr "Und auch Bananen"
+
+#~ msgid "Basics of Furniture Creation"
+#~ msgstr "Grundlagen der Möbelbeschaffung"
+
+#~ msgid "Basics of Gardening"
+#~ msgstr "Grundlagen der Gartenarbeit"
+
+#~ msgid "Carpenter"
+#~ msgstr "Zimmermann"
+
+#~ msgid "Catchy Headline"
+#~ msgstr "Eingängige Überschrift"
+
+#~ msgid "Certification"
+#~ msgstr "Zertifizierung"
+
+#~ msgid "CheatSheet"
+#~ msgstr "Spickzettel"
+
+#~ msgid "Choose your wood !"
+#~ msgstr "Wählen Sie Ihr Holz!"
+
+#~ msgid "Colorful"
+#~ msgstr "Farbig"
+
+#~ msgid "Comparing Hardness of Wood Species"
+#~ msgstr "Härte von Holzarten im Vergleich"
+
+#~ msgid "Contact us"
+#~ msgstr "Kontakt"
+
+#~ msgid "Correct !"
+#~ msgstr "Richtig!"
+
+#~ msgid "Correct ! A shovel is the perfect tool to dig a hole."
+#~ msgstr ""
+#~ "Richtig! Eine Schaufel ist das perfekte Werkzeug, um ein Loch zu graben."
+
+#~ msgid ""
+#~ "Correct ! A strawberry is a fruit because it's the product of a tree."
+#~ msgstr ""
+#~ "Richtig! Eine Erdbeere ist eine Frucht, da sie das Produkt eines Baumes "
+#~ "ist."
+
+#~ msgid "Correct ! You did it !"
+#~ msgstr "Richtig! Gut gemacht!"
+
+#~ msgid "DIY Furniture"
+#~ msgstr "DIY-Möbel"
+
+#~ msgid "Did you read the whole article ?"
+#~ msgstr "Haben Sie den ganzen Artikel gelesen?"
+
+#~ msgid "Discover more"
+#~ msgstr "Entdecken Sie mehr"
+
+#~ msgid "Do you make beams out of lemon trees ?"
+#~ msgstr "Machen Sie aus Zitronenbäumen Balken?"
+
+#~ msgid "Do you make lemons out of beams ?"
+#~ msgstr "Machen Sie Zitronen aus Balken?"
+
+#~ msgid "Do you think Harry Potted has a good name ?"
+#~ msgstr "Glauben Sie, dass Harry Potted einen schönen Namen hat?"
+
+#~ msgid "Do you want to reply correctly ?"
+#~ msgstr "Möchten Sie korrekt antworten ?"
+
+#~ msgid "Dog Friendly"
+#~ msgstr "Hundefreundlich"
+
+#~ msgid "Energy Efficiency Facts"
+#~ msgstr "Fakten zur Energieeffizienz"
+
+#~ msgid "Exercises"
+#~ msgstr "Übungen"
+
+#~ msgid "Foreword"
+#~ msgstr "Vorwort"
+
+#~ msgid ""
+#~ "Foreword for this documentation: how to use it, main attention points"
+#~ msgstr ""
+#~ "Vorwort zu dieser Dokumentation: Anwenderleitfaden, Hauptfokuspunkte"
+
+#~ msgid "From a piece of wood to a fully functional furniture, step by step."
+#~ msgstr ""
+#~ "Von einem Stück Holz bis zu einem voll funktionsfähigen Möbelstück, "
+#~ "Schritt für Schritt."
+
+#~ msgid "Furniture Designer"
+#~ msgstr "Möbeldesigner"
+
+#~ msgid "Furniture Technical Specifications"
+#~ msgstr "Technische Spezifikationen der Möbel"
+
+#~ msgid "GLork"
+#~ msgstr "GLork"
+
+#~ msgid "Gardener"
+#~ msgstr "Gärtner"
+
+#~ msgid "Gardening: The Know-How"
+#~ msgstr "Gartenarbeit: Das Know-How"
+
+#~ msgid "Here is How to get the Sweetest Strawberries you ever tasted!"
+#~ msgstr ""
+#~ "Hier erfahren Sie, wie Sie die süßesten Erdbeeren bekommen, die Sie je "
+#~ "probiert haben!"
+
+#~ msgid "Home Gardening"
+#~ msgstr "Gartenarbeit zu Hause"
+
+#~ msgid "How To Build a HIGH QUALITY Dining Table with LIMITED TOOLS"
+#~ msgstr "Wie Sie einen HOCHWERTIGEN Esstisch mit BEGRENZTEN WERKZEUGEN"
+
+#~ msgid "How to Grow and Harvest The Best Strawberries | Basics"
+#~ msgstr "Wie man die besten Erdbeeren anbaut und erntet | Grundlagen"
+
+#~ msgid ""
+#~ "How to Grow and Harvest The Best Strawberries | Gardening Tips and Tricks"
+#~ msgstr ""
+#~ "Wie man die besten Erdbeeren anpflanzt und erntet | Tipps und Tricks für "
+#~ "den Garten"
+
+#~ msgid "How to find quality wood"
+#~ msgstr "Wie man Qualitätsholz findet"
+
+#~ msgid "How to plant a potted tree"
+#~ msgstr "Wie man einen Topfbaum pflanzt"
+
+#~ msgid "How to wall decorating by tree planting in hanging plastic bottles."
+#~ msgstr ""
+#~ "Wie man durch Baumpflanzung in hängende Plastikflaschen die Wände "
+#~ "dekoriert."
+
+#~ msgid ""
+#~ "If you are looking for technical specifications, have a look at this "
+#~ "documentation."
+#~ msgstr ""
+#~ "Wenn Sie nach technischen Spezifikationen suchen, werfen Sie einen Blick "
+#~ "in diese Dokumentation."
+
+#~ msgid "Incorrect !"
+#~ msgstr "Falsch!"
+
+#~ msgid "Incorrect ! A strawberry is not a vegetable."
+#~ msgstr "Falsch! Eine Erdbeere ist kein Gemüse."
+
+#~ msgid "Incorrect ! A table is a piece of furniture."
+#~ msgstr "Falsch! Ein Tisch ist ein Möbelstück."
+
+#~ msgid "Incorrect ! Good luck digging a hole with a spoon..."
+#~ msgstr "Falsch! Viel Erfolg beim Graben mit einem Löffel..."
+
+#~ msgid "Incorrect ! Seriously ?"
+#~ msgstr "Falsch! Ernsthaft?"
+
+#~ msgid "Incorrect ! You better think twice..."
+#~ msgstr "Falsch! Denken Sie noch einmal nach..."
+
+#~ msgid "Incorrect ! You really should read it."
+#~ msgstr "Falsch! Sie sollten es wirklich lesen."
+
+#~ msgid "Incorrect ! of course not ..."
+#~ msgstr "Falsch! Natürlich nicht..."
+
+#~ msgid "Interesting Facts"
+#~ msgstr "Interessante Fakten"
+
+#~ msgid "Interesting Tree Facts"
+#~ msgstr "Interessante Fakten zu Bäumen"
+
+#~ msgid "Interesting information about home gardening. Keep it close !"
+#~ msgstr ""
+#~ "Interessante Informationen über das Gärtnern. Speichern Sie sie gut ab!"
+
+#~ msgid ""
+#~ "Jim and Todd plant a potted tree for a customer of Knecht's Nurseries and "
+#~ "Landscaping. Narrated by Leif Knecht, owner."
+#~ msgstr ""
+#~ "Jim und Todd pflanzen einen Topfbaum für einen Kunden von Knecht's "
+#~ "Gärtnerei und Landschaftsbau. Erzählt von Leif Knecht, dem Besitzer."
+
+#~ msgid "Just some basics Energy Efficiency Facts."
+#~ msgstr "Nur einige grundlegende Fakten zur Energieeffizienz."
+
+#~ msgid "Just some basics Interesting Tree Facts."
+#~ msgstr "Nur einige grundlegende interessante Baum-Fakten."
+
+#~ msgid "Just some basics Tree Infographic."
+#~ msgstr "Nur einige grundlegende Baum-Infographie."
+
+#~ msgid ""
+#~ "Knowing which kind of wood to use depending on your application is "
+#~ "important. In this course you\n"
+#~ "will learn the basics of wood characteristics."
+#~ msgstr ""
+#~ "Es ist wichtig zu wissen, welche Art von Holz je nach Anwendung zu "
+#~ "verwenden ist. In diesem Kurs werden Sie\n"
+#~ "lernen die Grundlagen der Holzmerkmale kennen."
+
+#~ msgid ""
+#~ "Knowing wood characteristics is a requirement in order to know which kind "
+#~ "of wood to use in a given situation."
+#~ msgstr ""
+#~ "Die Kenntnis der Holzmerkmale ist eine Voraussetzung, um zu wissen, "
+#~ "welche Art von Holz in einer bestimmten Situation zu verwenden ist."
+
+#~ msgid ""
+#~ "Learn how to take care of your favorite trees. Learn when to plant, how "
+#~ "to manage potted trees, ..."
+#~ msgstr ""
+#~ "Lernen Sie, wie Sie Ihre Lieblingsbäume pflegen können. Lernen Sie, wann "
+#~ "man pflanzt, wie man Topfbäume umgeht, ..."
+
+#~ msgid "Learn the basics of gardening !"
+#~ msgstr "Lernen Sie die Grundlagen der Gartenarbeit!"
+
+#~ msgid "Learn to identify quality wood in order to create solid furnitures."
+#~ msgstr ""
+#~ "Lernen Sie, qualitativ hochwertiges Holz zu erkennen, um tolle Möbel "
+#~ "anzufertigen."
+
+#~ msgid "Main Trees Categories"
+#~ msgstr "Haupt-Baumkategorien"
+
+#~ msgid "Methods"
+#~ msgstr "Methoden"
+
+#~ msgid "Mighty Carrots"
+#~ msgstr "Mächtige Möhren"
+
+#~ msgid ""
+#~ "Mighty forest just don't appear in a few weeks. Learn how time made our "
+#~ "forests mighty and mysterious."
+#~ msgstr ""
+#~ "Mächtiger Wald erscheint einfach nicht in ein paar Wochen. Erfahren Sie, "
+#~ "wie die Zeit unsere Wälder mächtig und geheimnisvoll gemacht hat."
+
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#~ msgid "Odoo • Image and Text"
+#~ msgstr "Odoo • Bild und Text"
+
+#~ msgid "Powered by"
+#~ msgstr "Ein System von"
+
+#~ msgid "Section Subtitle"
+#~ msgstr "Abschnitt Untertitel"
+
+#~ msgid "Show your newly mastered knowledge !"
+#~ msgstr "Zeigen Sie Ihr neu erlerntes Wissen !"
+
+#~ msgid "So much amazing certification."
+#~ msgstr "So viel erstaunliche Zertifizierung."
+
+#~ msgid ""
+#~ "Start with the customer – find out what they want and give it to them."
+#~ msgstr ""
+#~ "Beginnen Sie beim Kunden – finden Sie heraus, was er möchte und bieten "
+#~ "Sie dies an."
+
+#~ msgid "Taking care of Trees"
+#~ msgstr "Pflege von Bäumen"
+
+#~ msgid "Technical Drawings"
+#~ msgstr "Technische Zeichnungen"
+
+#~ msgid "Technical drawing"
+#~ msgstr "Technische Zeichnung"
+
+#~ msgid "Test Yourself"
+#~ msgstr "Testen Sie sich selbst"
+
+#~ msgid "Test your knowledge"
+#~ msgstr "Testen Sie Ihr Wissen"
+
+#~ msgid "Test your knowledge !"
+#~ msgstr "Testen Sie Ihr Wissen!"
+
+#~ msgid "Theory"
+#~ msgstr "Theorie"
+
+#~ msgid "Tools"
+#~ msgstr "Werkzeuge"
+
+#~ msgid "Tools and Methods"
+#~ msgstr "Hilfsmittel und Methoden"
+
+#~ msgid "Tools you will need to complete this course."
+#~ msgstr "Werkzeuge, die Sie benötigen, um diesen Kurs zu absolvieren."
+
+#~ msgid "Tree Infographic"
+#~ msgstr "Baum-Infografik"
+
+#~ msgid "Tree planting in hanging bottles on wall"
+#~ msgstr "Baumpflanzung in hängenden Flaschen an der Wand"
+
+#~ msgid "Trees"
+#~ msgstr "Bäume"
+
+#~ msgid "Trees, Wood and Gardens"
+#~ msgstr "Bäume, Holz und Gärten"
+
+#~ msgid "Unforgettable Tools"
+#~ msgstr "Unvergessliche Werkzeuge"
+
+#~ msgid "Watching the master(s) at work"
+#~ msgstr "Dem/den Meister(n) bei der Arbeit zuschauen"
+
+#~ msgid ""
+#~ "We had a little chat with Harry Potted, sure he had interesting things to "
+#~ "say !"
+#~ msgstr ""
+#~ "Wir hatten eine kleine Unterhaltung mit Harry Potted, der sicher "
+#~ "interessante Dinge zu sagen hatte!"
+
+#~ msgid "What is a strawberry ?"
+#~ msgstr "Was ist eine Erdbeere?"
+
+#~ msgid "What is the best tool to dig a hole for your plants ?"
+#~ msgstr ""
+#~ "Welches ist das beste Werkzeug, um ein Loch für Ihre Pflanzen zu graben?"
+
+#~ msgid "What was the question again ?"
+#~ msgstr "Was war die Frage noch? "
+
+#~ msgid ""
+#~ "Which wood type is best for my solid wood furniture? That's the question "
+#~ "we help you answer in this video !"
+#~ msgstr ""
+#~ "Welche Holzsorte eignet sich am besten für meine soliden Holzmöbel? Bei "
+#~ "der Beantwortung dieser Frage helfen wir Ihnen im Video!"
+
+#~ msgid "Wood"
+#~ msgstr "Holz"
+
+#~ msgid "Wood Bending With Steam Box"
+#~ msgstr "Holz biegen mit Dampfkiste"
+
+#~ msgid "Wood Characteristics"
+#~ msgstr "Holzmerkmale"
+
+#~ msgid "Wood Types"
+#~ msgstr "Holzarten"
+
+#~ msgid "Working with Wood"
+#~ msgstr "Arbeit mit Holz"
+
+#~ msgid ""
+#~ "Write one or two paragraphs describing your product or services. <br>To "
+#~ "be successful your content needs to be useful to your readers."
+#~ msgstr ""
+#~ "Schreiben Sie ein oder zwei Absätze, die Ihre Produkte bzw. Dienste "
+#~ "beschreiben. <br>Um erfolgreich zu sein, muss Ihr Inhalt für Ihre Leser "
+#~ "nützlich sein."
+
+#~ msgid ""
+#~ "Write one or two paragraphs describing your product, services or a "
+#~ "specific feature.<br> To be successful your content needs to be useful to "
+#~ "your readers."
+#~ msgstr ""
+#~ "Schreiben Sie einen oder zwei Absätze, die Ihr Produkt, Ihre "
+#~ "Dienstleistungen oder ein bestimmtes Merkmal beschreiben. <br>Um "
+#~ "erfolgreich zu sein, muss Ihr Inhalt für Ihre Leser nützlich sein."
+
+#~ msgid "You won't believe those facts about carrots."
+#~ msgstr "Diese Fakten über Möhren werden Sie nicht glauben."
+
+#~ msgid "Your Role"
+#~ msgstr "Ihre Rolle"
+
+#~ msgid "e.g. How to grow your business with Odoo?"
+#~ msgstr "z.B. Wie können Sie Ihr Geschäft mit Odoo entwickeln?"
+
+#~ msgid ""
+#~ "e.g. In this video, we'll give you the keys on how Odoo can help you to "
+#~ "grow your business. At the end, we'll propose you a quiz to test your "
+#~ "knowledge."
+#~ msgstr ""
+#~ "z.B. In diesem Video geben wir Ihnen die Schlüssel dazu, wie Odoo Ihnen "
+#~ "helfen kann, Ihr Geschäft zu entwickeln. Am Ende werden wir Ihnen ein "
+#~ "Quiz vorschlagen, um Ihr Wissen zu testen."
+
+#~ msgid "e.g. https://www.odoo.com"
+#~ msgstr "z.B. https://www.odoo.com"
