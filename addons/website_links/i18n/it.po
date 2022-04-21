@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 23:55+0000\n"
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -250,10 +250,8 @@ msgstr "Questo codice è già occupato"
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
 "Those trackers can be used in Google Analytics to track clicks and visitors, "
-"or in Odoo reports to track opportunities and related revenues."
+"or in Bookm reports to track opportunities and related revenues."
 msgstr ""
-"Questi link possono esser usati in Google Analytics per tracciare clic e "
-"visitatori, o nei resoconti Odoo per tracciare opportunità e relativi ricavi."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -335,8 +333,8 @@ msgstr "es. Motore di ricerca, pagina sito web..."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/contactus"
-msgstr "es. https://www.odoo.com/contactus"
+msgid "e.g. https://www.example.com/contactus"
+msgstr ""
 
 #. module: website_links
 #. openerp-web
@@ -353,3 +351,14 @@ msgstr "ok"
 #, python-format
 msgid "or"
 msgstr "oppure"
+
+#~ msgid ""
+#~ "Those trackers can be used in Google Analytics to track clicks and "
+#~ "visitors, or in Odoo reports to track opportunities and related revenues."
+#~ msgstr ""
+#~ "Questi link possono esser usati in Google Analytics per tracciare clic e "
+#~ "visitatori, o nei resoconti Odoo per tracciare opportunità e relativi "
+#~ "ricavi."
+
+#~ msgid "e.g. https://www.odoo.com/contactus"
+#~ msgstr "es. https://www.odoo.com/contactus"
