@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 23:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Thomas Deleval <thd@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -248,11 +248,6 @@ msgstr ""
 "N'oubliez pas de changer de partenaire sur les bons de livraison suivants: %s"
 
 #. module: sale_stock
-#: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
-msgid "Documentation"
-msgstr "Documentation"
-
-#. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__effective_date
 msgid "Effective Date"
 msgstr "Date effective"
@@ -453,12 +448,6 @@ msgstr "Pas de disponibilité future"
 #, python-format
 msgid "On"
 msgstr "Activé"
-
-#. module: sale_stock
-#: code:addons/sale_stock/models/sale_order.py:0
-#, python-format
-msgid "Ordered quantity decreased!"
-msgstr "Quantité commandée diminuée!"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_config_settings__default_picking_policy
@@ -740,16 +729,6 @@ msgstr "Quand commencer la livraison"
 #: code:addons/sale_stock/models/sale_order.py:0
 #, python-format
 msgid ""
-"You are decreasing the ordered quantity! Do not forget to manually update "
-"the delivery order if needed."
-msgstr ""
-"Vous avez diminué la quantité commandée! N'oubliez pas de metter à jour le "
-"bon de livraison si nécessaire."
-
-#. module: sale_stock
-#: code:addons/sale_stock/models/sale_order.py:0
-#, python-format
-msgid ""
 "You cannot decrease the ordered quantity below the delivered quantity.\n"
 "Create a return first."
 msgstr ""
@@ -788,3 +767,18 @@ msgstr "Traité à la place de"
 #, python-format
 msgid "will be late."
 msgstr "sera en retard."
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#, python-format
+#~ msgid "Ordered quantity decreased!"
+#~ msgstr "Quantité commandée diminuée!"
+
+#, python-format
+#~ msgid ""
+#~ "You are decreasing the ordered quantity! Do not forget to manually update "
+#~ "the delivery order if needed."
+#~ msgstr ""
+#~ "Vous avez diminué la quantité commandée! N'oubliez pas de metter à jour "
+#~ "le bon de livraison si nécessaire."
