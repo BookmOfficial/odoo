@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-22 14:45+0000\n"
+"POT-Creation-Date: 2022-04-15 22:58+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -45,7 +45,7 @@ msgstr "Ottieni il tuo Secret e Publishable keys"
 #: model:ir.model.fields,help:payment_stripe.field_payment_acquirer__stripe_webhook_secret
 msgid ""
 "If a webhook is enabled on your Stripe account, this signing secret must be "
-"set to authenticate the messages sent from Stripe to Odoo."
+"set to authenticate the messages sent from Stripe to Bookm."
 msgstr ""
 
 #. module: payment_stripe
@@ -209,8 +209,8 @@ msgstr ""
 #: code:addons/payment_stripe/models/payment_acquirer.py:0
 #, python-format
 msgid ""
-"You cannot set the acquirer to Test Mode while it is linked with your Stripe"
-" account."
+"You cannot set the acquirer to Test Mode while it is linked with your Stripe "
+"account."
 msgstr ""
 "Non puoi impostare l'acquirente in modalità test mentre è collegato al tuo "
 "account Stripe."
