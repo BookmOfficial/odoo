@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 22:54+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -41,7 +41,7 @@ msgstr "Sociétés"
 #. module: partner_autocomplete
 #: code:addons/partner_autocomplete/models/res_company.py:0
 #, python-format
-msgid "Company auto-completed by Odoo Partner Autocomplete Service"
+msgid "Company auto-completed by Partner Autocomplete Service"
 msgstr ""
 
 #. module: partner_autocomplete
@@ -161,8 +161,8 @@ msgstr "Synchronisation de l'Autocomplétion de Partenaires"
 #. module: partner_autocomplete
 #: code:addons/partner_autocomplete/models/res_partner.py:0
 #, python-format
-msgid "Partner created by Odoo Partner Autocomplete Service"
-msgstr "Partenaire créé par le Service d'Autocomplétion de Partenaires d'Odoo"
+msgid "Partner created by Partner Autocomplete Service"
+msgstr ""
 
 #. module: partner_autocomplete
 #. openerp-web
@@ -190,3 +190,8 @@ msgstr "Définissez le Token de votre Compte"
 #, python-format
 msgid "Test mode"
 msgstr "Mode test"
+
+#, python-format
+#~ msgid "Partner created by Odoo Partner Autocomplete Service"
+#~ msgstr ""
+#~ "Partenaire créé par le Service d'Autocomplétion de Partenaires d'Odoo"
