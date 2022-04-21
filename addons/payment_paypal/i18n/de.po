@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:49+0000\n"
+"POT-Creation-Date: 2022-04-15 22:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -25,16 +25,13 @@ msgstr ""
 msgid ""
 "<br/><br/>\n"
 "                Thanks,<br/>\n"
-"                <b>The Odoo Team</b>"
+"                <b>The Bookm Team</b>"
 msgstr ""
-"<br/><br/>\n"
-"                Danke,<br/>\n"
-"                <b>Das Odoo-Team</b>"
 
 #. module: payment_paypal
 #: code:addons/payment_paypal/models/payment_acquirer.py:0
 #, python-format
-msgid "Add your PayPal account to Odoo"
+msgid "Add your PayPal account to Bookm"
 msgstr ""
 
 #. module: payment_paypal
@@ -50,21 +47,9 @@ msgid ""
 "                You have received a payment through PayPal.<br/>\n"
 "                Kindly follow the instructions given by PayPal to create "
 "your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Odoo.<br/"
+"                Then, help us complete your Paypal credentials in Bookm.<br/"
 "><br/>"
 msgstr ""
-"Guten Tag\n"
-"                <br/><br/>\n"
-"                Sie haben eine Zahlung von Paypal erhalten.<br/>\n"
-"                Bitte folgen Sie den Anweisungen von Paypal, um Ihr Konto zu "
-"konfigurieren.<br/>\n"
-"                Helfen Sie uns anschließend, Ihre Anmeldeinformation für "
-"Paypal in Odoo zu vervollständigen.<br/><br/>"
-
-#. module: payment_paypal
-#: model_terms:ir.ui.view,arch_db:payment_paypal.payment_acquirer_form
-msgid "How to configure your paypal account?"
-msgstr "Wie kann ich mein Paypal Konto konfigurieren?"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__paypal_seller_account
@@ -164,10 +149,42 @@ msgstr ""
 
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_transaction__paypal_type
-msgid "This has no use in Odoo except for debugging."
-msgstr "Dies wird in Odoo nur zur Fehlersuche verwendet."
+msgid "This has no use in Bookm except for debugging."
+msgstr ""
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__paypal_use_ipn
 msgid "Use IPN"
 msgstr "Benutze IPN"
+
+#~ msgid ""
+#~ "<br/><br/>\n"
+#~ "                Thanks,<br/>\n"
+#~ "                <b>The Odoo Team</b>"
+#~ msgstr ""
+#~ "<br/><br/>\n"
+#~ "                Danke,<br/>\n"
+#~ "                <b>Das Odoo-Team</b>"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "                <br/><br/>\n"
+#~ "                You have received a payment through PayPal.<br/>\n"
+#~ "                Kindly follow the instructions given by PayPal to create "
+#~ "your account.<br/>\n"
+#~ "                Then, help us complete your Paypal credentials in Odoo."
+#~ "<br/><br/>"
+#~ msgstr ""
+#~ "Guten Tag\n"
+#~ "                <br/><br/>\n"
+#~ "                Sie haben eine Zahlung von Paypal erhalten.<br/>\n"
+#~ "                Bitte folgen Sie den Anweisungen von Paypal, um Ihr Konto "
+#~ "zu konfigurieren.<br/>\n"
+#~ "                Helfen Sie uns anschließend, Ihre Anmeldeinformation für "
+#~ "Paypal in Odoo zu vervollständigen.<br/><br/>"
+
+#~ msgid "How to configure your paypal account?"
+#~ msgstr "Wie kann ich mein Paypal Konto konfigurieren?"
+
+#~ msgid "This has no use in Odoo except for debugging."
+#~ msgstr "Dies wird in Odoo nur zur Fehlersuche verwendet."
