@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-30 18:43+0000\n"
+"POT-Creation-Date: 2022-04-15 22:31+0000\n"
 "PO-Revision-Date: 2020-03-30 18:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -33,16 +33,17 @@ msgid "Active"
 msgstr "Activo"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model,name:l10n_latam_invoice_document.model_account_debit_note
+msgid "Add Debit Note wizard"
+msgstr ""
+
+#. module: l10n_latam_invoice_document
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_l10n_latam_document_type__internal_type
 msgid ""
-"Analog to odoo account.move.move_type but with more options allowing to "
-"identify the kind of document we are working with. (not only related to "
-"account.move, could be for documents of other models like stock.picking)"
+"Analog to account.move.move_type but with more options allowing to identify "
+"the kind of document we are working with. (not only related to account.move, "
+"could be for documents of other models like stock.picking)"
 msgstr ""
-"Análogo a account.move.type de Odoo pero con más opciones, permitiendo "
-"identificar el tipo de documento sobre el que estamos trabajando. (no "
-"solamente relativo a account.move, podría ser relativo a otros modelos, como "
-"por ejemplo stock.picking)"
 
 #. module: l10n_latam_invoice_document
 #: model_terms:ir.ui.view,arch_db:l10n_latam_invoice_document.view_document_type_filter
@@ -55,6 +56,9 @@ msgid "Code"
 msgstr "Código"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_document_type_id_code
+#: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_move__l10n_latam_document_type_id_code
+#: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_payment__l10n_latam_document_type_id_code
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_l10n_latam_document_type__code
 msgid "Code used by different localizations"
 msgstr "Código usando por diferentes localizaciones"
@@ -68,16 +72,6 @@ msgstr "Compañías"
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_l10n_latam_document_type__country_id
 msgid "Country"
 msgstr "País"
-
-#. module: l10n_latam_invoice_document
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_journal__l10n_latam_country_code
-msgid "Country Code"
-msgstr "Código País"
-
-#. module: l10n_latam_invoice_document
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_country_code
-msgid "Country Code (LATAM)"
-msgstr "Código País (LATAM)"
 
 #. module: l10n_latam_invoice_document
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_l10n_latam_document_type__country_id
@@ -110,21 +104,32 @@ msgid "Display Name"
 msgstr "Nombre a mostrar"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_document_type_id_code
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_document_type_id_code
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_payment__l10n_latam_document_type_id_code
+msgid "Doc Type"
+msgstr ""
+
+#. module: l10n_latam_invoice_document
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_l10n_latam_document_type__doc_code_prefix
 msgid "Document Code Prefix"
 msgstr "Prefijo del código de documento"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_document_number
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_document_number
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_reversal__l10n_latam_document_number
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_payment__l10n_latam_document_number
 msgid "Document Number"
 msgstr "Número de Documento"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_document_type_id
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_invoice_report__l10n_latam_document_type_id
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_document_type_id
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_line__l10n_latam_document_type_id
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_reversal__l10n_latam_document_type_id
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_payment__l10n_latam_document_type_id
 #: model_terms:ir.ui.view,arch_db:l10n_latam_invoice_document.view_account_invoice_filter
 #: model_terms:ir.ui.view,arch_db:l10n_latam_invoice_document.view_account_invoice_report_search
 #: model_terms:ir.ui.view,arch_db:l10n_latam_invoice_document.view_account_move_filter
@@ -152,8 +157,10 @@ msgid "ID"
 msgstr "ID (identificación)"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_use_documents
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_journal__l10n_latam_use_documents
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_move__l10n_latam_use_documents
+#: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_payment__l10n_latam_use_documents
 msgid ""
 "If active: will be using for legal invoicing (invoices, debit/credit notes). "
 "If not set means that will be used to register accounting entries not "
@@ -188,8 +195,8 @@ msgstr "Diario"
 
 #. module: l10n_latam_invoice_document
 #: model:ir.model,name:l10n_latam_invoice_document.model_account_move
-msgid "Journal Entries"
-msgstr "Asientos contables"
+msgid "Journal Entry"
+msgstr ""
 
 #. module: l10n_latam_invoice_document
 #: model:ir.model,name:l10n_latam_invoice_document.model_account_move_line
@@ -197,40 +204,16 @@ msgid "Journal Item"
 msgstr "Apunte contable"
 
 #. module: l10n_latam_invoice_document
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_amount_untaxed
-msgid "L10N Latam Amount Untaxed"
-msgstr ""
-
-#. module: l10n_latam_invoice_document
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_available_document_type_ids
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_available_document_type_ids
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_reversal__l10n_latam_available_document_type_ids
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_payment__l10n_latam_available_document_type_ids
 msgid "L10N Latam Available Document Type"
 msgstr ""
 
 #. module: l10n_latam_invoice_document
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_journal__l10n_latam_company_use_documents
 msgid "L10N Latam Company Use Documents"
-msgstr ""
-
-#. module: l10n_latam_invoice_document
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_line__l10n_latam_price_net
-msgid "L10N Latam Price Net"
-msgstr ""
-
-#. module: l10n_latam_invoice_document
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_line__l10n_latam_price_subtotal
-msgid "L10N Latam Price Subtotal"
-msgstr ""
-
-#. module: l10n_latam_invoice_document
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_line__l10n_latam_price_unit
-msgid "L10N Latam Price Unit"
-msgstr ""
-
-#. module: l10n_latam_invoice_document
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_tax_ids
-#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_line__l10n_latam_tax_ids
-msgid "L10N Latam Tax"
 msgstr ""
 
 #. module: l10n_latam_invoice_document
@@ -264,8 +247,10 @@ msgid "Localization"
 msgstr "Localización"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_manual_document_number
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_manual_document_number
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move_reversal__l10n_latam_manual_document_number
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_payment__l10n_latam_manual_document_number
 msgid "Manual Number"
 msgstr "Número Manual"
 
@@ -316,13 +301,6 @@ msgid "Show archived document types"
 msgstr "Mostrar tipos de documento archivados"
 
 #. module: l10n_latam_invoice_document
-#: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_journal__l10n_latam_country_code
-#: model:ir.model.fields,help:l10n_latam_invoice_document.field_account_move__l10n_latam_country_code
-msgid "Technical field used to hide/show fields regarding the localization"
-msgstr ""
-"Campo técnico usado para esconder/mostrar dependiendo de la liocalización"
-
-#. module: l10n_latam_invoice_document
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_l10n_latam_document_type__name
 msgid "The document name"
 msgstr "El nombre del documento"
@@ -347,8 +325,10 @@ msgstr ""
 "en cuenta los más usados comunmente"
 
 #. module: l10n_latam_invoice_document
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_bank_statement_line__l10n_latam_use_documents
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_journal__l10n_latam_use_documents
 #: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_move__l10n_latam_use_documents
+#: model:ir.model.fields,field_description:l10n_latam_invoice_document.field_account_payment__l10n_latam_use_documents
 msgid "Use Documents?"
 msgstr "Usa Documentos?"
 
@@ -399,3 +379,26 @@ msgstr ""
 "Solo puede revertir documentos con documentos de facturación legales de "
 "Latino américa de uno en uno.\n"
 "Documentos problemáticos:%s"
+
+#~ msgid ""
+#~ "Analog to odoo account.move.move_type but with more options allowing to "
+#~ "identify the kind of document we are working with. (not only related to "
+#~ "account.move, could be for documents of other models like stock.picking)"
+#~ msgstr ""
+#~ "Análogo a account.move.type de Odoo pero con más opciones, permitiendo "
+#~ "identificar el tipo de documento sobre el que estamos trabajando. (no "
+#~ "solamente relativo a account.move, podría ser relativo a otros modelos, "
+#~ "como por ejemplo stock.picking)"
+
+#~ msgid "Country Code"
+#~ msgstr "Código País"
+
+#~ msgid "Country Code (LATAM)"
+#~ msgstr "Código País (LATAM)"
+
+#~ msgid "Journal Entries"
+#~ msgstr "Asientos contables"
+
+#~ msgid "Technical field used to hide/show fields regarding the localization"
+#~ msgstr ""
+#~ "Campo técnico usado para esconder/mostrar dependiendo de la liocalización"
