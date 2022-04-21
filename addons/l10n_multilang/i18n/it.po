@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-08 14:33+0000\n"
+"POT-Creation-Date: 2022-04-15 22:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -34,9 +34,24 @@ msgid "Account Chart Template"
 msgstr "Modello piano dei conti"
 
 #. module: l10n_multilang
+#: model:ir.model,name:l10n_multilang.model_account_group
+msgid "Account Group"
+msgstr ""
+
+#. module: l10n_multilang
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_account__name
+msgid "Account Name"
+msgstr ""
+
+#. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_account_tag
 msgid "Account Tag"
 msgstr "Etichetta conto"
+
+#. module: l10n_multilang
+#: model:ir.model,name:l10n_multilang.model_account_tax_report_line
+msgid "Account Tax Report Line"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model.fields,help:l10n_multilang.field_res_country_state__name
@@ -51,6 +66,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_analytic_account__name
 msgid "Analytic Account"
 msgstr "Conto analitico"
+
+#. module: l10n_multilang
+#: model:ir.model.fields,help:l10n_multilang.field_account_tax_report_line__name
+msgid "Complete name for this report line, to be used in report."
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_res_country_state
@@ -99,10 +119,11 @@ msgid "Legal mentions that have to be printed on the invoices."
 msgstr "Riferimenti legali che devono essere stampati sulla fattura."
 
 #. module: l10n_multilang
-#: model:ir.model.fields,field_description:l10n_multilang.field_account_account__name
-#: model:ir.model.fields,field_description:l10n_multilang.field_account_account_tag__name
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_account_template__name
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_chart_template__name
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_group__name
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_group_template__name
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_tax_report_line__name
 msgid "Name"
 msgstr "Nome"
 
@@ -111,6 +132,13 @@ msgstr "Nome"
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_fiscal_position_template__note
 msgid "Notes"
 msgstr "Note"
+
+#. module: l10n_multilang
+#: model:ir.model.fields,help:l10n_multilang.field_account_tax_report_line__tag_name
+msgid ""
+"Short name for the tax grid corresponding to this report line. Leave empty "
+"if this report line should not correspond to any such grid."
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_chart_template__spoken_languages
@@ -136,6 +164,12 @@ msgstr ""
 "stessi. Indicare i codici della lingua separati da \";\""
 
 #. module: l10n_multilang
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_account_tag__name
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_tax_report_line__tag_name
+msgid "Tag Name"
+msgstr ""
+
+#. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_tax
 msgid "Tax"
 msgstr "Imposta"
@@ -145,6 +179,11 @@ msgstr "Imposta"
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_tax_template__name
 msgid "Tax Name"
 msgstr "Nome imposta"
+
+#. module: l10n_multilang
+#: model:ir.model,name:l10n_multilang.model_account_group_template
+msgid "Template for Account Groups"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_fiscal_position_template
