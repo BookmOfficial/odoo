@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 14:43+0000\n"
+"POT-Creation-Date: 2022-04-15 22:24+0000\n"
 "PO-Revision-Date: 2021-10-27 14:45+0000\n"
 "Last-Translator: Rémi CAZENAVE <remi@le-filament.com>, 2021\n"
 "Language-Team: \n"
@@ -15,6 +15,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 10"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 11"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 12"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 13"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 14"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 15"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 16"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "# 17"
+msgstr ""
 
 #. module: l10n_fr_fec
 #: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
@@ -32,6 +72,26 @@ msgid "Comment"
 msgstr "Note"
 
 #. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "CompAuxLib"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "CompAuxNum"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "CompteLib"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "CompteNum"
+msgstr ""
+
+#. module: l10n_fr_fec
 #: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec__create_uid
 msgid "Created by"
 msgstr "Créé par"
@@ -42,9 +102,44 @@ msgid "Created on"
 msgstr "Créé le"
 
 #. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "Credit"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "DateLet"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "Debit"
+msgstr ""
+
+#. module: l10n_fr_fec
 #: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec__display_name
 msgid "Display Name"
 msgstr "Nom Affiché"
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "EcritureDate"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "EcritureLet"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "EcritureLib"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "EcritureNum"
+msgstr ""
 
 #. module: l10n_fr_fec
 #: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec__date_to
@@ -57,6 +152,12 @@ msgid "Export Type"
 msgstr "Type d'Export"
 
 #. module: l10n_fr_fec
+#: model:ir.actions.act_window,name:l10n_fr_fec.account_fr_fec_action
+#: model:ir.ui.menu,name:l10n_fr_fec.account_fr_fec_menu
+msgid "FEC"
+msgstr ""
+
+#. module: l10n_fr_fec
 #: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec__fec_data
 msgid "FEC File"
 msgstr "Fichier FEC"
@@ -65,6 +166,11 @@ msgstr "Fichier FEC"
 #: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
 msgid "FEC File Generation"
 msgstr "Génération du fichier FEC"
+
+#. module: l10n_fr_fec
+#: model:ir.model,name:l10n_fr_fec.model_account_fr_fec
+msgid "Ficher Echange Informatise"
+msgstr ""
 
 #. module: l10n_fr_fec
 #: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec__filename
@@ -77,10 +183,24 @@ msgid "Generate"
 msgstr "Générer"
 
 #. module: l10n_fr_fec
-#: code:addons/l10n_fr_fec/wizard/account_fr_fec.py:0
-#, python-format
-msgid "Invalid VAT number for company %s"
-msgstr "Numéro de TVA invalide sur la société %s"
+#: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "Idevise"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "JournalCode"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "JournalLib"
+msgstr ""
 
 #. module: l10n_fr_fec
 #: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec____last_update
@@ -98,10 +218,9 @@ msgid "Last Updated on"
 msgstr "Dernière mise à jour le"
 
 #. module: l10n_fr_fec
-#: code:addons/l10n_fr_fec/wizard/account_fr_fec.py:0
-#, python-format
-msgid "Missing VAT number for company %s"
-msgstr "Numéro de TVA manquant pour la société %s"
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "Montantdevise"
+msgstr ""
 
 #. module: l10n_fr_fec
 #: model:ir.model.fields.selection,name:l10n_fr_fec.selection__account_fr_fec__export_type__nonofficial
@@ -114,6 +233,21 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_fr_fec.selection__account_fr_fec__export_type__official
 msgid "Official FEC report (posted entries only)"
 msgstr "Rapport FEC officiel (uniquement les entrées comptabilisées)"
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "Options"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "PieceDate"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "PieceRef"
+msgstr ""
 
 #. module: l10n_fr_fec
 #: model:ir.model.fields,field_description:l10n_fr_fec.field_account_fr_fec__date_from
@@ -152,6 +286,11 @@ msgstr "La date de début doit être avant la date de fin."
 
 #. module: l10n_fr_fec
 #: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
+msgid "ValidDate"
+msgstr ""
+
+#. module: l10n_fr_fec
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec.account_fr_fec_view
 msgid "We use partner.id"
 msgstr "Nous utilisons partner.id"
 
@@ -180,3 +319,11 @@ msgstr ""
 #, python-format
 msgid "You could not set the start date or the end date in the future."
 msgstr "Vous ne pouvez pas utiliser une date de début ou de fin dans le futur."
+
+#, python-format
+#~ msgid "Invalid VAT number for company %s"
+#~ msgstr "Numéro de TVA invalide sur la société %s"
+
+#, python-format
+#~ msgid "Missing VAT number for company %s"
+#~ msgstr "Numéro de TVA manquant pour la société %s"
