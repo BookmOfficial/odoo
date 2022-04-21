@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"POT-Creation-Date: 2022-04-15 23:13+0000\n"
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: sakodoo <sak@odoo.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -86,11 +86,6 @@ msgstr "\"Richiesta di preventivo - %s\" % (object.name)"
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "-&gt;"
 msgstr ""
-
-#. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid "3-way matching"
-msgstr "Corrispondenza a tre vie"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_account_3way_match
@@ -1132,11 +1127,6 @@ msgid "Display Type"
 msgstr "Tipo di visualizzazione"
 
 #. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid "Documentation"
-msgstr "Documentazione"
-
-#. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__done
 msgid "Done"
 msgstr "Completata"
@@ -1286,15 +1276,6 @@ msgstr "Se selezionata, nuovi messaggi richiedono attenzione."
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Se selezionata, alcuni messaggi presentano un errore di consegna."
-
-#. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid ""
-"If enabled, activates 3-way matching on vendor bills : the items must be "
-"received in order to pay the invoice."
-msgstr ""
-"Se abilitata, attiva la corrispondenza a tre vie sulle fatture fornitore: "
-"per pagare la fattura devono essere ricevuti gli articoli."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -1467,13 +1448,6 @@ msgstr "Bloccato"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Allegato principale"
-
-#. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid ""
-"Make sure you only pay bills for which you received the goods you ordered"
-msgstr ""
-"Garantisce che vengano pagate solo le fatture di merci ordinate e ricevute"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -3068,14 +3042,8 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Bookm."
 msgstr ""
-"Le fatture fornitore possono essere pregenerate in base agli\n"
-"                    ordini di acquisto o alle ricezioni. Ciò consente di "
-"tenere\n"
-"                    sotto controllo le fatture ricevute dal fornitore in "
-"conformità\n"
-"                    con il documento in bozza di Odoo."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3147,31 +3115,19 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
-"dates and keep you informed in case of any delays. To get the vendor's "
-"performance statistics, click on the OTD rate."
+"shipment, Bookm will send the vendor an email to ask confirmation of "
+"shipment dates and keep you informed in case of any delays. To get the "
+"vendor's performance statistics, click on the OTD rate."
 msgstr ""
-"Quando crei un ordine di acquisto, dai un'occhiata al tasso di <i>On Time "
-"Delivery</i> del venditore: la percentuale di prodotti spediti in tempo. Se "
-"è troppo bassa, attiva i <i>promemoria automatici</i>. Qualche giorno prima "
-"della spedizione prevista, Odoo invierà al venditore una mail per chiedere "
-"conferma delle date di spedizione e tenerti informato in caso di ritardi. "
-"Per ottenere le statistiche di performance del venditore, clicca sul tasso "
-"di OTD."
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Bookm asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Quando si invia un ordine di acquisto via e-mail, Odoo chiede al venditore "
-"di confermare la ricezione dell'ordine. Quando il venditore conferma "
-"l'ordine cliccando su un pulsante nell'email, l'informazione viene aggiunta "
-"all'ordine di acquisto. Usa i filtri per rintracciare gli ordini che non "
-"sono stati confermati."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.mail_notification_confirm
@@ -3246,3 +3202,63 @@ msgstr "giorno/i prima"
 #: model:mail.template,subject:purchase.email_template_edi_purchase_reminder
 msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
 msgstr ""
+
+#~ msgid "3-way matching"
+#~ msgstr "Corrispondenza a tre vie"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentazione"
+
+#~ msgid ""
+#~ "If enabled, activates 3-way matching on vendor bills : the items must be "
+#~ "received in order to pay the invoice."
+#~ msgstr ""
+#~ "Se abilitata, attiva la corrispondenza a tre vie sulle fatture fornitore: "
+#~ "per pagare la fattura devono essere ricevuti gli articoli."
+
+#~ msgid ""
+#~ "Make sure you only pay bills for which you received the goods you ordered"
+#~ msgstr ""
+#~ "Garantisce che vengano pagate solo le fatture di merci ordinate e ricevute"
+
+#~ msgid ""
+#~ "Vendors bills can be pre-generated based on purchase\n"
+#~ "                    orders or receipts. This allows you to control bills\n"
+#~ "                    you receive from your vendor according to the draft\n"
+#~ "                    document in Odoo."
+#~ msgstr ""
+#~ "Le fatture fornitore possono essere pregenerate in base agli\n"
+#~ "                    ordini di acquisto o alle ricezioni. Ciò consente di "
+#~ "tenere\n"
+#~ "                    sotto controllo le fatture ricevute dal fornitore in "
+#~ "conformità\n"
+#~ "                    con il documento in bozza di Odoo."
+
+#~ msgid ""
+#~ "When creating a purchase order, have a look at the vendor's <i>On Time "
+#~ "Delivery</i> rate: the percentage of products shipped on time. If it is "
+#~ "too low, activate the <i>automated reminders</i>. A few days before the "
+#~ "due shipment, Odoo will send the vendor an email to ask confirmation of "
+#~ "shipment dates and keep you informed in case of any delays. To get the "
+#~ "vendor's performance statistics, click on the OTD rate."
+#~ msgstr ""
+#~ "Quando crei un ordine di acquisto, dai un'occhiata al tasso di <i>On Time "
+#~ "Delivery</i> del venditore: la percentuale di prodotti spediti in tempo. "
+#~ "Se è troppo bassa, attiva i <i>promemoria automatici</i>. Qualche giorno "
+#~ "prima della spedizione prevista, Odoo invierà al venditore una mail per "
+#~ "chiedere conferma delle date di spedizione e tenerti informato in caso di "
+#~ "ritardi. Per ottenere le statistiche di performance del venditore, clicca "
+#~ "sul tasso di OTD."
+
+#~ msgid ""
+#~ "When sending a purchase order by email, Odoo asks the vendor to "
+#~ "acknowledge the reception of the order. When the vendor acknowledges the "
+#~ "order by clicking on a button in the email, the information is added on "
+#~ "the purchase order. Use filters to track orders that have not been "
+#~ "acknowledged."
+#~ msgstr ""
+#~ "Quando si invia un ordine di acquisto via e-mail, Odoo chiede al "
+#~ "venditore di confermare la ricezione dell'ordine. Quando il venditore "
+#~ "conferma l'ordine cliccando su un pulsante nell'email, l'informazione "
+#~ "viene aggiunta all'ordine di acquisto. Usa i filtri per rintracciare gli "
+#~ "ordini che non sono stati confermati."
