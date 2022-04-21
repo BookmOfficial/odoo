@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:54+0000\n"
+"POT-Creation-Date: 2022-04-15 23:22+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -188,11 +188,6 @@ msgstr ""
 "- Voorraadverplaatsingen: de hoeveelheid komt van bevestigde pickings\n"
 
 #. module: sale_timesheet
-#: model:project.project,name:sale_timesheet.project_support
-msgid "After-Sales Services"
-msgstr "Dienst na verkoop"
-
-#. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_profitability_report__other_revenues
 msgid ""
 "All revenues that are not from timesheets and that are linked to the "
@@ -310,19 +305,6 @@ msgstr "Gefactureerd op urenstaten"
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
 msgid "Billing"
 msgstr "Facturatie"
-
-#. module: sale_timesheet
-#: model:project.task,legend_blocked:sale_timesheet.project_task_1
-#: model:project.task,legend_blocked:sale_timesheet.project_task_2
-#: model:project.task,legend_blocked:sale_timesheet.project_task_3
-#: model:project.task,legend_blocked:sale_timesheet.project_task_internal
-msgid "Blocked"
-msgstr "Geblokkeerd"
-
-#. module: sale_timesheet
-#: model:project.task,legend_done:sale_timesheet.project_task_4
-msgid "Buzz or set as done"
-msgstr "Buzz of stel in als gereed"
 
 #. module: sale_timesheet
 #: model:ir.ui.menu,name:sale_timesheet.menu_timesheet_billing_analysis
@@ -463,12 +445,6 @@ msgid "Customer"
 msgstr "Klant"
 
 #. module: sale_timesheet
-#: model:product.product,name:sale_timesheet.product_service_order_timesheet
-#: model:product.template,name:sale_timesheet.product_service_order_timesheet_product_template
-msgid "Customer Care (Prepaid Hours)"
-msgstr "Klantenservice (pre paid)"
-
-#. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_kanban_inherit_sale_timesheet
 msgid "Customer Ratings"
 msgstr "Klantenbeoordelingen"
@@ -581,13 +557,7 @@ msgid "Has Multi Sol"
 msgstr "Heeft Multi Sol"
 
 #. module: sale_timesheet
-#: model:product.product,uom_name:sale_timesheet.product_service_deliver_timesheet_1
-#: model:product.product,uom_name:sale_timesheet.product_service_deliver_timesheet_2
-#: model:product.product,uom_name:sale_timesheet.product_service_order_timesheet
 #: model:product.product,uom_name:sale_timesheet.time_product
-#: model:product.template,uom_name:sale_timesheet.product_service_deliver_timesheet_1_product_template
-#: model:product.template,uom_name:sale_timesheet.product_service_deliver_timesheet_2_product_template
-#: model:product.template,uom_name:sale_timesheet.product_service_order_timesheet_product_template
 #: model:product.template,uom_name:sale_timesheet.time_product_product_template
 msgid "Hours"
 msgstr "Uren"
@@ -600,15 +570,6 @@ msgstr "Uren"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__id
 msgid "ID"
 msgstr "ID"
-
-#. module: sale_timesheet
-#: model:project.task,legend_normal:sale_timesheet.project_task_1
-#: model:project.task,legend_normal:sale_timesheet.project_task_2
-#: model:project.task,legend_normal:sale_timesheet.project_task_3
-#: model:project.task,legend_normal:sale_timesheet.project_task_4
-#: model:project.task,legend_normal:sale_timesheet.project_task_internal
-msgid "In Progress"
-msgstr "In behandeling"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order__info_invoice
@@ -732,18 +693,6 @@ msgid "Journal Item"
 msgstr "Boekingsregel"
 
 #. module: sale_timesheet
-#: model:product.product,name:sale_timesheet.product_service_deliver_timesheet_2
-#: model:product.template,name:sale_timesheet.product_service_deliver_timesheet_2_product_template
-msgid "Junior Architect (Invoice on Timesheets)"
-msgstr "Junior architect (factureer op urenstaten)"
-
-#. module: sale_timesheet
-#: model:product.product,name:sale_timesheet.product_service_deliver_manual
-#: model:product.template,name:sale_timesheet.product_service_deliver_manual_product_template
-msgid "Kitchen Assembly (Milestones)"
-msgstr "Keukenassemblage (Milestones)"
-
-#. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice____last_update
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order____last_update
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line____last_update
@@ -812,11 +761,6 @@ msgstr "Mijlpaal diensten"
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_profitability_report_view_search
 msgid "My Projects"
 msgstr "Mijn projecten"
-
-#. module: sale_timesheet
-#: model:project.task,legend_blocked:sale_timesheet.project_task_4
-msgid "Need functional or technical help"
-msgstr "Functionele of technische hulp nodig"
 
 #. module: sale_timesheet
 #: model_terms:ir.actions.act_window,help:sale_timesheet.action_timesheet_from_invoice
@@ -1022,14 +966,6 @@ msgstr "Project om factureerbaar te maken"
 #, python-format
 msgid "Rating"
 msgstr "Beoordeling"
-
-#. module: sale_timesheet
-#: model:project.task,legend_done:sale_timesheet.project_task_1
-#: model:project.task,legend_done:sale_timesheet.project_task_2
-#: model:project.task,legend_done:sale_timesheet.project_task_3
-#: model:project.task,legend_done:sale_timesheet.project_task_internal
-msgid "Ready"
-msgstr "Beschikbaar"
 
 #. module: sale_timesheet
 #. openerp-web
@@ -1260,12 +1196,6 @@ msgid "Sell services and invoice time spent"
 msgstr "Verkoop diensten en factureer gespendeerde tijd"
 
 #. module: sale_timesheet
-#: model:product.product,name:sale_timesheet.product_service_deliver_timesheet_1
-#: model:product.template,name:sale_timesheet.product_service_deliver_timesheet_1_product_template
-msgid "Senior Architect (Invoice on Timesheets)"
-msgstr "Senior architect (Factureer op urenstaten)"
-
-#. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line__product_id
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
 msgid "Service"
@@ -1348,11 +1278,6 @@ msgstr "Taak herhaling"
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__pricing_type__task_rate
 msgid "Task rate"
 msgstr "Taaksnelheid"
-
-#. module: sale_timesheet
-#: model:project.project,label_tasks:sale_timesheet.project_support
-msgid "Tasks"
-msgstr "Taken"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/product.py:0
@@ -1567,12 +1492,6 @@ msgid "Timesheets on project (one fare per SO/Project)"
 msgstr "Urenstaten op project (één prijs per Verkooporder/Project)"
 
 #. module: sale_timesheet
-#: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
-msgid "Timesheets taken into account when invoicing your time"
-msgstr ""
-"Urenstaten waarmee rekening wordt gehouden bij het factureren van je tijd"
-
-#. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_res_config_settings__invoice_policy
 msgid "Timesheets taken when invoicing time spent"
 msgstr "Urenstaten genomen bij het factureren van bestede tijd"
@@ -1640,12 +1559,6 @@ msgstr "Prijs"
 #: model:ir.model.fields,help:sale_timesheet.field_project_create_sale_order_line__price_unit
 msgid "Unit price of the sales order item."
 msgstr "De prijs van het verkooporderregel."
-
-#. module: sale_timesheet
-#: model:product.product,uom_name:sale_timesheet.product_service_deliver_manual
-#: model:product.template,uom_name:sale_timesheet.product_service_deliver_manual_product_template
-msgid "Units"
-msgstr "Stuks"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/project.py:0
@@ -1743,3 +1656,43 @@ msgstr "marge ("
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_product_timesheet_form
 msgid "of hours sold. ("
 msgstr "aantal uren verkocht. ("
+
+#~ msgid "After-Sales Services"
+#~ msgstr "Dienst na verkoop"
+
+#~ msgid "Blocked"
+#~ msgstr "Geblokkeerd"
+
+#~ msgid "Buzz or set as done"
+#~ msgstr "Buzz of stel in als gereed"
+
+#~ msgid "Customer Care (Prepaid Hours)"
+#~ msgstr "Klantenservice (pre paid)"
+
+#~ msgid "In Progress"
+#~ msgstr "In behandeling"
+
+#~ msgid "Junior Architect (Invoice on Timesheets)"
+#~ msgstr "Junior architect (factureer op urenstaten)"
+
+#~ msgid "Kitchen Assembly (Milestones)"
+#~ msgstr "Keukenassemblage (Milestones)"
+
+#~ msgid "Need functional or technical help"
+#~ msgstr "Functionele of technische hulp nodig"
+
+#~ msgid "Ready"
+#~ msgstr "Beschikbaar"
+
+#~ msgid "Senior Architect (Invoice on Timesheets)"
+#~ msgstr "Senior architect (Factureer op urenstaten)"
+
+#~ msgid "Tasks"
+#~ msgstr "Taken"
+
+#~ msgid "Timesheets taken into account when invoicing your time"
+#~ msgstr ""
+#~ "Urenstaten waarmee rekening wordt gehouden bij het factureren van je tijd"
+
+#~ msgid "Units"
+#~ msgstr "Stuks"
