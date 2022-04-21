@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -101,6 +101,14 @@ msgid "Associated Partner"
 msgstr "Partner collegato"
 
 #. module: membership
+#: model_terms:ir.actions.act_window,help:membership.action_membership_members
+msgid ""
+"Bookm helps you easily track all activities related to a member: \n"
+"                  Current Membership Status, Discussions and History of "
+"Membership, etc."
+msgstr ""
+
+#. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_partner_form
 msgid "Buy Membership"
 msgstr "Aggiungi iscrizione"
@@ -155,11 +163,6 @@ msgstr "Configurazione"
 #: model:ir.model,name:membership.model_res_partner
 msgid "Contact"
 msgstr "Contatto"
-
-#. module: membership
-#: model_terms:ir.ui.view,arch_db:membership.view_partner_tree
-msgid "Contacts"
-msgstr "Contatti"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_invoice__create_uid
@@ -556,17 +559,6 @@ msgid "Non Member"
 msgstr "Non iscritto"
 
 #. module: membership
-#: model_terms:ir.actions.act_window,help:membership.action_membership_members
-msgid ""
-"Odoo helps you easily track all activities related to a member: \n"
-"                  Current Membership Status, Discussions and History of "
-"Membership, etc."
-msgstr ""
-"Odoo consente di tenere traccia facilmente delle attività di un socio: \n"
-"                 stato corrente dell'iscrizione, discussioni, cronologia "
-"delle iscrizioni ecc."
-
-#. module: membership
 #: model:ir.model.fields.selection,name:membership.selection__membership_membership_line__state__old
 #: model:ir.model.fields.selection,name:membership.selection__report_membership__membership_state__old
 #: model:ir.model.fields.selection,name:membership.selection__res_partner__membership_state__old
@@ -725,3 +717,15 @@ msgstr "Iscritto in attesa"
 #, python-format
 msgid "You cannot create recursive associated members."
 msgstr "Impossibile creare soci collegati ricorsivi."
+
+#~ msgid "Contacts"
+#~ msgstr "Contatti"
+
+#~ msgid ""
+#~ "Odoo helps you easily track all activities related to a member: \n"
+#~ "                  Current Membership Status, Discussions and History of "
+#~ "Membership, etc."
+#~ msgstr ""
+#~ "Odoo consente di tenere traccia facilmente delle attività di un socio: \n"
+#~ "                 stato corrente dell'iscrizione, discussioni, cronologia "
+#~ "delle iscrizioni ecc."
