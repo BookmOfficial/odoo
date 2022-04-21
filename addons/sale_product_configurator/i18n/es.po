@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:19+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -79,11 +79,6 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #. module: sale_product_configurator
-#: model:product.template,name:sale_product_configurator.product_product_1_product_template
-msgid "Chair floor protection"
-msgstr "Protección del piso de la silla"
-
-#. module: sale_product_configurator
 #. openerp-web
 #: code:addons/sale_product_configurator/static/src/js/product_configurator_controller.js:0
 #, python-format
@@ -151,11 +146,6 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__write_date
 msgid "Last Updated on"
 msgstr "Última actualización el"
-
-#. module: sale_product_configurator
-#: model:product.template,description_sale:sale_product_configurator.product_product_1_product_template
-msgid "Office chairs can harm your floor: protect it."
-msgstr "Las sillas de oficina pueden dañar su piso: protéjalo."
 
 #. module: sale_product_configurator
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.configure_optional_products
@@ -247,7 +237,11 @@ msgstr "Esta combinación no existe."
 msgid "This product has no valid combination."
 msgstr "Este producto no tiene combinaciones válidas."
 
-#. module: sale_product_configurator
-#: model:product.template,uom_name:sale_product_configurator.product_product_1_product_template
-msgid "Units"
-msgstr "Unidades"
+#~ msgid "Chair floor protection"
+#~ msgstr "Protección del piso de la silla"
+
+#~ msgid "Office chairs can harm your floor: protect it."
+#~ msgstr "Las sillas de oficina pueden dañar su piso: protéjalo."
+
+#~ msgid "Units"
+#~ msgstr "Unidades"
