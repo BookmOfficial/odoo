@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 21:35+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -394,11 +394,6 @@ msgid "Rule Name"
 msgstr "Regelbezeichnung"
 
 #. module: event_crm
-#: model:event.lead.rule,name:event_crm.event_lead_rule_0
-msgid "Rule on @example.com"
-msgstr "Regel auf @example.com"
-
-#. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_crm_lead__event_lead_rule_id
 msgid "Rule that created this lead"
 msgstr "Regel, die diesen Vorsprung erzeugt hat"
@@ -459,3 +454,6 @@ msgstr "Wann"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "e.g. B2B Fairs"
 msgstr "z.B. B2B-Messen"
+
+#~ msgid "Rule on @example.com"
+#~ msgstr "Regel auf @example.com"
