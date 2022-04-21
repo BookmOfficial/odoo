@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:58+0000\n"
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -316,6 +316,11 @@ msgstr "Un anno di scuola elementare."
 #: model_terms:ir.ui.view,arch_db:website_payment.s_donation_button
 msgid "One year in high school."
 msgstr "Un anno di scuola superiore."
+
+#. module: website_payment
+#: model:ir.model,name:website_payment.model_website_page
+msgid "Page"
+msgstr ""
 
 #. module: website_payment
 #: model:ir.model,name:website_payment.model_payment_acquirer
