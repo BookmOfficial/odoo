@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* l10n_fr
+# 	* l10n_fr
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-17 13:45+0000\n"
+"POT-Creation-Date: 2022-04-15 22:24+0000\n"
 "PO-Revision-Date: 2018-09-17 13:45+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,8 +17,1699 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_277
+msgid " (Actions propres ou parts propres)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_60
+msgid " Achats (sauf 603)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_607
+msgid " Achats de marchandises"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_606
+msgid " Achats non stockés de matière et fournitures"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_602
+msgid " Achats stockés autres approvisionnements"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_601
+msgid " Achats stockés matières premières (et fournitures)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_503
+msgid " Actions"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_28187
+msgid " Amortissement du mali de fusion sur actifs corporels"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_281
+msgid " Amortissements des immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_28
+msgid " Amortissements des immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_28081
+msgid " Amortissements du mali de fusion sur actifs incorporels"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_4562
+msgid " Apporteurs capital appelé, non versé "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_455
+msgid " Associés comptes courants"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_458
+msgid " Associés opérations faites en commun et en GIE "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_456
+msgid " Associés opérations sur le capital"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6163
+msgid " Assurance transport"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_32
+msgid " Autres approvisionnements"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_65
+msgid " Autres charges de gestion courante"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_678
+msgid " Autres charges exceptionnelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_647
+msgid " Autres charges sociales"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_276
+msgid " Autres créances immobilisées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_168
+msgid " Autres emprunts et dettes assimilées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_21158
+#: model:account.group.template,name:l10n_fr.pcg_21318
+#: model:account.group.template,name:l10n_fr.pcg_21358
+msgid " Autres ensembles immobiliers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_218
+msgid " Autres immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_27
+msgid " Autres immobilisations financières"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_635
+msgid ""
+" Autres impôts, taxes et versements assimilés (administrations des impôts)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_637
+msgid " Autres impôts, taxes et versements assimilés (autres organismes)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_75
+msgid " Autres produits de gestion courante"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_778
+msgid " Autres produits exceptionnels"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_1068
+msgid " Autres réserves"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_62
+msgid " Autres services extérieurs"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_508
+msgid " Autres valeurs mobilières de placement et autres créances assimilées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_238
+msgid " Avances et acomptes versés sur commandes d'immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_512
+msgid " Banques"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_51
+msgid " Banques, établissements financiers et assimilés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_2131
+msgid " Bâtiments"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_53
+msgid " Caisse"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_531
+msgid " Caisse siège social"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_101
+msgid " Capital"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_10
+msgid " Capital et réserves"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_1013
+msgid " Capital souscrit appelé, versé"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_661
+msgid " Charges d'intérêts"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_64
+msgid " Charges de personnel"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_645
+msgid " Charges de sécurité sociale et de prévoyance"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_67
+msgid " Charges exceptionnelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_671
+msgid " Charges exceptionnelles sur opérations de gestion"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_66
+msgid " Charges financières"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_481
+msgid " Charges à répartir sur plusieurs exercices"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_418
+msgid " Clients  produits non encore facturés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_419
+msgid " Clients créditeurs"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_472
+#: model:account.account.template,name:l10n_fr.pcg_473
+#: model:account.account.template,name:l10n_fr.pcg_474
+#: model:account.account.template,name:l10n_fr.pcg_475
+msgid " Comptes d'attente"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_18
+msgid " Comptes de liaison des établissements et sociétés en participation "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_48
+msgid " Comptes de régularisation"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_488
+msgid " Comptes de répartition périodique des charges et des produits"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_5121
+msgid " Comptes en monnaie nationale"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_47
+msgid " Comptes transitoires ou d'attente"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_519
+msgid " Concours bancaires courants"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_213
+msgid " Constructions"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_63511
+msgid " Contribution économique territoriale"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_267
+msgid " Créances rattachées à des participations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_268
+msgid " Créances rattachées à des sociétés en participation"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_17
+msgid " Dettes rattachées à des participations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_178
+msgid " Dettes rattachées à des sociétés en participation"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_476
+msgid " Différence de conversion  actif"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_477
+msgid " Différences de conversion  passif"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_618
+#: model:account.group.template,name:l10n_fr.pcg_628
+msgid " Divers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_468
+msgid " Divers charges à payer et produit à recevoir"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_6811
+msgid ""
+" Dotations aux amortissements sur immobilisations incorporelles et "
+"corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_68
+msgid " Dotations aux amortissements, aux dépréciations et aux provisions"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_681
+#: model:account.group.template,name:l10n_fr.pcg_686
+#: model:account.group.template,name:l10n_fr.pcg_687
+msgid " Dotations aux amortissements, aux dépréciations et aux provisions "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6872
+msgid " Dotations aux provisions réglementées (immobilisations)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6817
+msgid " Dotations pour dépréciations des actifs circulants"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6816
+msgid ""
+" Dotations pour dépréciations des immobilisations incorporelles et "
+"corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6866
+msgid " Dotations pour dépréciations des éléments financiers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6354
+msgid " Droits d'enregistrement et de timbre"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_46
+msgid " Débiteurs divers et créditeurs divers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_625
+msgid " Déplacements, missions et réceptions"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_29187
+msgid " Dépréciation du mali de fusion sur actifs corporels"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_29787
+msgid " Dépréciation du mali de fusion sur actifs financiers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_392
+msgid " Dépréciations des autres approvisionnements"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_297
+msgid " Dépréciations des autres immobilisations financières"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_496
+msgid " Dépréciations des comptes de débiteurs divers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_49
+msgid " Dépréciations des comptes de tiers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_495
+msgid " Dépréciations des comptes du groupe et des associés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_393
+msgid " Dépréciations des en cours de production de biens"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_394
+msgid " Dépréciations des en cours de production de services"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_291
+msgid ""
+" Dépréciations des immobilisations corporelles (même ventilation que celle"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_293
+msgid " Dépréciations des immobilisations en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_29
+msgid " Dépréciations des immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_391
+msgid " Dépréciations des matières premières (et fournitures)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_296
+msgid ""
+" Dépréciations des participations et créances rattachées à des participations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_397
+msgid " Dépréciations des stocks de marchandises"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_395
+msgid " Dépréciations des stocks de produits"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_39
+msgid " Dépréciations des stocks et en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_59
+msgid " Dépréciations des valeurs mobilières de placement"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_165
+msgid " Dépôts et cautionnements reçus"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_275
+msgid " Dépôts et cautionnements versés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_105
+msgid " Ecarts de réévaluation"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_16
+msgid " Emprunts et dettes assimilées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_167
+msgid " Emprunts et dettes assortis de conditions particulières"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_33
+msgid " En cours de production de biens"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_34
+msgid " En cours de production de services"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_21355
+msgid " Ensembles immobiliers administratifs et commerciaux (A, B)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_21351
+msgid " Ensembles immobiliers industriels (A, B)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_615
+msgid " Entretien et réparations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_448
+msgid " Etat charges à payer et produits à recevoir"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_442
+msgid " Etat impots et taxes recouvrables sur des tiers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_445
+msgid " Etat taxes sur le chiffres d'affaires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_341
+msgid " Etudes en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_102
+msgid " Fonds fiduciaires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_4091
+msgid " Fournisseurs  avance et acomptes versés sur commandes"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_4097
+msgid " Fournisseurs autres avoirs"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_409
+msgid " Fournisseurs débiteurs"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_40
+msgid " Fournisseurs et comptes rattachés "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_322
+#: model:account.group.template,name:l10n_fr.pcg_6022
+msgid " Fournitures consommables"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_201
+msgid " Frais d'établissement"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_2012
+msgid " Frais de premier établissement"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_45
+msgid " Groupe et associés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_21
+msgid " Immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_231
+msgid " Immobilisations corporelles en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_23
+msgid " Immobilisations en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_20
+msgid " Immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6351
+msgid " Impôts directs (sauf impôts sur les bénéfices)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_695
+msgid " Impôts sur les bénéfices"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_631
+msgid ""
+" Impôts, taxes et versements assimilés sur rémunérations (administrations "
+"des impôts)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_633
+msgid ""
+" Impôts, taxes et versements assimilés sur rémunérations (autres organismes)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_2151
+msgid " Installations complexes spécialisées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_215
+msgid " Installations techniques, matériels et outillage industriels"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_2153
+msgid " Installations à caractère spécifique"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_698
+msgid " Intégration fiscale"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_518
+msgid " Intérêts courus"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6618
+msgid " Intérêts des autres dettes"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_6611
+msgid " Intérêts des emprunts et dettes"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_278
+msgid " Mali de fusion sur actifs financiers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_321
+#: model:account.group.template,name:l10n_fr.pcg_6021
+msgid " Matières consommables"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_31
+msgid " Matières premières (et fournitures)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_506
+msgid " Obligations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_443
+msgid ""
+" Opérations particulières avec l'Etat les collectivités publiques, les "
+"organismes"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_438
+msgid " Organismes sociaux - charges à payer et produits à recevoir"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_2138
+msgid " Ouvrages d'infrastructure"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_69
+msgid " Participation des salariés  impots sur les bénéfices et assimilés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_166
+#: model:account.group.template,name:l10n_fr.pcg_424
+msgid " Participation des salariés aux résultats"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_26
+msgid " Participations et créances rattachées à des participations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_428
+msgid " Personnel  charges à payer et produits à recevoir"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_42
+msgid " Personnel et comptes rattachés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_621
+msgid " Personnel extérieur à l'entreprise"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_654
+msgid " Pertes sur créances irrécouvrables "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_345
+msgid " Prestations de services en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_616
+msgid " Primes d'assurances"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_104
+msgid " Primes liées au capital social"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_72
+msgid " Production immobilisée"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_71
+msgid " Production stockée (ou déstockage)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_761
+msgid " Produits de participations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_708
+msgid " Produits des activités annexes"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_762
+msgid " Produits des autres immobilisations financières"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_775
+msgid " Produits des cessions d'éléments d'actif"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_331
+msgid " Produits en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_77
+msgid " Produits exceptionnels"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_771
+msgid " Produits exceptionnels sur opérations de gestion"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_76
+msgid " Produits financiers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_355
+msgid " Produits finis"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_351
+msgid " Produits intermédiaires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_358
+msgid " Produits résiduels (ou matières de récupération)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_15
+msgid " Provisions"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_157
+msgid " Provisions pour charges à répartir sur plusieurs exercices"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_151
+msgid " Provisions pour risques"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_14
+msgid " Provisions réglementées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_142
+msgid " Provisions réglementées relatives aux immobilisations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_143
+msgid " Provisions réglementées relatives aux stocks"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_623
+msgid " Publicité, publications, relations publiques"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_655
+#: model:account.group.template,name:l10n_fr.pcg_755
+msgid " Quote part de résultat sur opérations faites en commun"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_709
+msgid " Rabais, remises et ristournes accordés par l'entreprise"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_609
+msgid " Rabais, remises et ristournes obtenus sur achats"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_612
+msgid " Redevances de crédit bail"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_751
+msgid ""
+" Redevances pour concessions, brevets, licences, marques, procédés, "
+"logiciels, droits et"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_651
+msgid ""
+" Redevances pour concessions, brevets, licences, marques, procédés, "
+"logiciels, droits et valeurs simulaires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_7811
+msgid ""
+" Reprises sur amortissements des immobilisations incorporelles et corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_78
+msgid " Reprises sur amortissements, dépréciations et provisions"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_781
+msgid ""
+" Reprises sur amortissements, dépréciations et provisions (à inscrire dans "
+"les produits d'exploitation)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_7817
+msgid " Reprises sur dépréciations des actifs circulants"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_7816
+msgid ""
+" Reprises sur dépréciations des immobilisations incorporelles et corporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_7866
+msgid " Reprises sur dépréciations des éléments financiers"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_787
+msgid ""
+" Reprises sur provisions et dépréciations (à inscrire dans les produits "
+"exceptionnels)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_786
+msgid ""
+" Reprises sur provisions pour risques et dépréciations (à inscrire dans les "
+"produits financiers)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_7872
+msgid " Reprises sur provisions réglementées (immobilisations)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_763
+msgid " Revenus des autres créances"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_622
+msgid " Rémunérations d'intermédiaires et honoraires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_641
+msgid " Rémunérations du personnel"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_1061
+msgid " Réserve légale"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_106
+msgid " Réserves"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_1064
+msgid " Réserves réglementées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_627
+msgid " Services bancaires et assimilés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_61
+msgid " Services extérieurs"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_37
+msgid " Stocks de marchandises"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_35
+msgid " Stocks de produits"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_13
+msgid " Subventions d'investissement"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_139
+msgid " Subventions d'investissement inscrites au compte de résultat"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_1391
+msgid " Subventions d'équipement"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_43
+msgid " Sécurité sociale et autres organismes sociaux"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_4452
+msgid " TVA due intracommunautaire"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_4457
+msgid " Taxes sur le chiffre d'affaires collectées par l'entreprise"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_4456
+msgid " Taxes sur le chiffre d'affaires déductibles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_4455
+msgid " Taxes sur le chiffre d'affaires à décaisser"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_211
+msgid " Terrains"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_261
+msgid " Titres de participation"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_272
+msgid " Titres immobilisés (droit de créance)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_271
+msgid ""
+" Titres immobilisés autres que les titres immobilisés de l'activité de "
+"portefeuille (droit de"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_79
+msgid " Transferts de charges"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_624
+msgid " Transports de biens et transports collectifs du personnel"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_704
+msgid " Travaux"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_335
+msgid " Travaux en cours"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_675
+msgid " Valeurs comptables des éléments d'actif cédés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_50
+msgid " Valeurs mobilières de placement"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_511
+msgid " Valeurs à l'encaissement"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_7133
+msgid " Variation des en cours de production de biens "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_7134
+msgid " Variation des en cours de production de services"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_713
+msgid " Variation des stocks (en cours de production, produits)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_7135
+msgid " Variation des stocks de produits"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_603
+msgid " Variations des stocks (approvisionnements et marchandises)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_707
+msgid " Ventes de marchandises"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_70
+msgid " Ventes de produits fabriqués, prestations de services, marchandises"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_701
+msgid " Ventes de produits finis"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_58
+msgid " Virements internes"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_213588
+msgid " affectés aux opérations non professionnelles (A, B)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_213581
+msgid " affectés aux opérations professionnelles (A, B)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_44
+msgid " État et autres collectivités publiques"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_441
+msgid " État subvention à recevoir "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_01
+msgid "01"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_01
+msgid "01 - Ventes, prestations de services"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_02
+msgid "02"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_02
+msgid "02 - Autres opérations imposables"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_03
+msgid "03"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_03
+msgid "03 - Acquisitions intracommunautaires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_04
+msgid "04"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_04
+msgid "04 - Exportations hors UE"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_05
+msgid "05"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_05
+msgid "05 - Autres opérations non imposables"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_06
+msgid "06"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_06
+msgid ""
+"06 - Livraisons intracommunautaires à destination d'une personne assujettie "
+"- Ventes BtoB\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_07
+msgid "07"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_07
+msgid "07 - Achats en franchise"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_08_base
+msgid "08 - Taux normal 20 % (base)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_08_taxe
+msgid "08 - Taux normal 20 % (taxe)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_08_base
+msgid "08_base"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_08_taxe
+msgid "08_taxe"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_09_base
+msgid "09 - Taux réduit 5,5 % (base)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_09_taxe
+msgid "09 - Taux réduit 5,5 % (taxe)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_09_base
+msgid "09_base"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_09_taxe
+msgid "09_taxe"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_10_base
+msgid "10 - Taux normal 8,5 % (base)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_10_taxe
+msgid "10 - Taux normal 8,5 % (taxe)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_10_base
+msgid "10_base"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_10_taxe
+msgid "10_taxe"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_11_base
+msgid "11 - Taux normal 2,1 % (base)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_11_taxe
+msgid "11 - Taux normal 2,1 % (taxe)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_11_base
+msgid "11_base"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_11_taxe
+msgid "11_taxe"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_13_base
+msgid "13 - Anciens taux (base)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_13_taxe
+msgid "13 - Anciens taux (taxe)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_13_base
+msgid "13_base"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_13_taxe
+msgid "13_taxe"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_14_base
+msgid "14 - Opérations imposables à un taux particulier (base)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_14_taxe
+msgid "14 - Opérations imposables à un taux particulier (taxe)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_14_base
+msgid "14_base"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_14_taxe
+msgid "14_taxe"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_15
+msgid "15"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_15
+msgid "15 - TVA antérieurement déduite à reverser"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_16
+msgid "16 - Total de la TVA brute due"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_17
+msgid "17"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_17
+msgid "17 - Dont TVA sur acquisitions intracommunautaires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_18
+msgid "18"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_18
+msgid "18 - Dont TVA sur opérations à destination de Monaco"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_19
+msgid "19"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_19
+msgid "19 - Biens constituant des immobilisations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_20
+msgid "20"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_20
+msgid "20 - Autres bien et services"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_21
+msgid "21"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_21
+msgid "21 - Autre TVA à déduire"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_22
+msgid "22"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_22
+msgid ""
+"22 - Report du crédit apparaissant ligne 27 de la précédente déclaration"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_22A
+msgid "22A"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_22A
+msgid ""
+"22A - Indiquer le coefficient de taxation unique applicable pour la période "
+"s'il est\n"
+"            différent de 100 %\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_23
+msgid "23 - Total TVA déductible"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_24
+msgid "24"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_24
+msgid "24 - Dont TVA déductible sur importations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_25
+msgid "25 - Crédit de TVA"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_26
+msgid "26"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_26
+msgid "26 - Remboursement de crédit demandé sur formulaire n°3519 joint"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_27
+msgid "27 - Crédit à reporter"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_28
+msgid "28 - TVA nette due"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_29
+msgid "29"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_29
+msgid "29 - Taxes assimilées calculées sur annexe n°3310-A-SD"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_2A
+msgid "2A"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_2A
+msgid "2A - Achats de prestations de services intracommunautaires"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_2B
+msgid "2B"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_2B
+msgid "2B - Importations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_2C
+msgid "2C"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_2C
+msgid "2C - Sommes à imputer, y compris acompte congés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_32
+msgid "32 - Total à payer"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_3A
+msgid "3A"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_3A
+msgid ""
+"3A - Livraisons d'électricité, de gaz naturel, de chaleur ou de froid "
+"imposables en France\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_3B
+msgid "3B"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_3B
+msgid ""
+"3B - Achats de bien ou de prestations de services réalisés auprès d'un "
+"assujetti non établi\n"
+"            en\n"
+"            France\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_3C
+msgid "3C"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_3C
+msgid "3C - Régularisations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_5A
+msgid "5A"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_5A
+msgid ""
+"5A - Ventes à distance taxables dans un autre État membre au profit des "
+"personnes non\n"
+"            assujetties - Ventes BtoC\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_5B
+msgid "5B"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_5B
+msgid "5B - Sommes à ajouter, y compris acompte congés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_7A
+msgid "7A"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_7A
+msgid ""
+"7A - Ventes de biens ou prestations de services réalisées par un assujetti "
+"non établi en\n"
+"            France\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_7B
+msgid "7B"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_7B
+msgid "7B - Régularisations"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_7C
+msgid "7C"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_7C
+msgid ""
+"7C - Dont TVA sur importations bénéficiant du dispositif d'autoliquidation"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_9B_base
+msgid "9B - Taux réduit 10 % (base)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_9B_taxe
+msgid "9B - Taux réduit 10 % (taxe)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_9B_base
+msgid "9B_base"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_9B_taxe
+msgid "9B_taxe"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_montant_op_realisees
+msgid "A. Montant des opérations réalisées"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,tag_name:l10n_fr.tax_report_AA
+msgid "AA"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_AA
+msgid ""
+"AA - Crédit de TVA transféré à la société tête de groupe sur la déclaration "
+"récapitulative\n"
+"            3310-CA3G\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_AB
+msgid ""
+"AB - Total à payer acquitté par la société tête de groupe sur la déclaration "
+"récapitulative\n"
+"            3310-CA3G\n"
+"        "
+msgstr ""
+
+#. module: l10n_fr
 #: model:ir.model.fields,field_description:l10n_fr.field_res_company__ape
 msgid "APE"
+msgstr ""
+
+#. module: l10n_fr
+#: model:ir.model,name:l10n_fr.model_account_chart_template
+msgid "Account Chart Template"
 msgstr ""
 
 #. module: l10n_fr
@@ -44,11 +1735,6 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_605
 msgid "Achats de matériel équipements et travaux"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_97
-msgid "Achats import"
 msgstr ""
 
 #. module: l10n_fr
@@ -152,13 +1838,29 @@ msgid "Actions propres ou parts propres en voie d'annulation"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_5021
+msgid ""
+"Actons destinées à être attribuées aux employés et affectées à des plans "
+"déterminés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_5022
+msgid ""
+"Actons disponibles pour être attribuées aux employés ou pour la "
+"régularisation des cours de la bourse"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6332
 msgid "Allocation logement"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2818
-msgid "Amortissements des autres immobilisations corporelles (même ventilation que celle du compte 218)"
+msgid ""
+"Amortissements des autres immobilisations corporelles (même ventilation que "
+"celle du compte 218)"
 msgstr ""
 
 #. module: l10n_fr
@@ -168,32 +1870,37 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2812
-msgid "Amortissements des immobilisations corporelles - Agencements aménagements de terrains (même ventilation que celle du compte 212)"
+msgid ""
+"Amortissements des immobilisations corporelles - Agencements aménagements de "
+"terrains (même ventilation que celle du compte 212)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2813
-msgid "Amortissements des immobilisations corporelles - Constructions (même ventilation que celle du compte 213)"
+msgid ""
+"Amortissements des immobilisations corporelles - Constructions (même "
+"ventilation que celle du compte 213)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2814
-msgid "Amortissements des immobilisations corporelles - Constructions sur sol d'autrui (même ventilation que celle du compte 214)"
+msgid ""
+"Amortissements des immobilisations corporelles - Constructions sur sol "
+"d'autrui (même ventilation que celle du compte 214)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2815
-msgid "Amortissements des immobilisations corporelles - Installations matériel et outillage industriels (même ventilation que celle du compte 215)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_2811
-msgid "Amortissements des immobilisations corporelles - Terrains de gisement"
+msgid ""
+"Amortissements des immobilisations corporelles - Installations matériel et "
+"outillage industriels (même ventilation que celle du compte 215)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2805
-msgid "Amortissements des immobilisations incorporelles - Concessions et droits similaires, brevets, licences, logiciels, droits et valeurs similaires"
+msgid ""
+"Amortissements des immobilisations incorporelles - Concessions et droits "
+"similaires, brevets, licences, logiciels, droits et valeurs similaires"
 msgstr ""
 
 #. module: l10n_fr
@@ -203,12 +1910,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2801
-msgid "Amortissements des immobilisations incorporelles - Frais d'établissement (même ventilation que celle du compte 201)"
+msgid ""
+"Amortissements des immobilisations incorporelles - Frais d'établissement "
+"(même ventilation que celle du compte 201)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2803
-msgid "Amortissements des immobilisations incorporelles - Frais de recherche et de développement"
+msgid ""
+"Amortissements des immobilisations incorporelles - Frais de recherche et de "
+"développement"
 msgstr ""
 
 #. module: l10n_fr
@@ -279,6 +1990,11 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4563
 msgid "Associés - Versements reçus sur augmentation de capital"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_4561
+msgid "Associés comptes d'appport en société"
 msgstr ""
 
 #. module: l10n_fr
@@ -353,7 +2069,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_27685
-msgid "Autres créances immobilisées - Intérêts courus sur dépôts et cautionnements"
+msgid ""
+"Autres créances immobilisées - Intérêts courus sur dépôts et cautionnements"
 msgstr ""
 
 #. module: l10n_fr
@@ -363,7 +2080,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_27682
-msgid "Autres créances immobilisées - Intérêts courus sur titres immobilisés (droits de créance)"
+msgid ""
+"Autres créances immobilisées - Intérêts courus sur titres immobilisés "
+"(droits de créance)"
 msgstr ""
 
 #. module: l10n_fr
@@ -373,7 +2092,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6868
-msgid "Autres dotations aux amortissements, dépréciations et provisions - Charges financières"
+msgid ""
+"Autres dotations aux amortissements, dépréciations et provisions - Charges "
+"financières"
 msgstr ""
 
 #. module: l10n_fr
@@ -438,17 +2159,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6318
-msgid "Autres impôts, taxes et versements assimilés sur rémunérations (administrations des impôts)"
+msgid ""
+"Autres impôts, taxes et versements assimilés sur rémunérations "
+"(administrations des impôts)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6338
-msgid "Autres impôts, taxes et versements assimilés sur rémunérations (autres organismes)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_95
-msgid "Autres opérations non imposables"
+msgid ""
+"Autres impôts, taxes et versements assimilés sur rémunérations (autres "
+"organismes)"
 msgstr ""
 
 #. module: l10n_fr
@@ -477,6 +2197,11 @@ msgid "Autres produits financiers"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_158
+msgid "Autres provisions pour charges"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_1518
 msgid "Autres provisions pour risques"
 msgstr ""
@@ -498,12 +2223,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_138
-msgid "Autres subventions d'investissement (même ventilation que celle du compte 131)"
+msgid ""
+"Autres subventions d'investissement (même ventilation que celle du compte "
+"131)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_1398
-msgid "Autres subventions d'investissement (même ventilation que celle du compte 1391)"
+msgid ""
+"Autres subventions d'investissement (même ventilation que celle du compte "
+"1391)"
 msgstr ""
 
 #. module: l10n_fr
@@ -533,27 +2262,41 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2388
-msgid "Avances et acomptes versés sur commandes d'immobilisations corporelles - Autres immobilisations corporelles"
+msgid ""
+"Avances et acomptes versés sur commandes d'immobilisations corporelles - "
+"Autres immobilisations corporelles"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2383
-msgid "Avances et acomptes versés sur commandes d'immobilisations corporelles - Constructions"
+msgid ""
+"Avances et acomptes versés sur commandes d'immobilisations corporelles - "
+"Constructions"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2385
-msgid "Avances et acomptes versés sur commandes d'immobilisations corporelles - Installations techniques matériel et outillage industriels"
+msgid ""
+"Avances et acomptes versés sur commandes d'immobilisations corporelles - "
+"Installations techniques matériel et outillage industriels"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2382
-msgid "Avances et acomptes versés sur commandes d'immobilisations corporelles - Terrains"
+msgid ""
+"Avances et acomptes versés sur commandes d'immobilisations corporelles - "
+"Terrains"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_237
-msgid "Avances et acomptes versés sur commandes d'immobilisations incorporelles"
+msgid ""
+"Avances et acomptes versés sur commandes d'immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_decompte_tva
+msgid "B. Décompte de la TVA à payer"
 msgstr ""
 
 #. module: l10n_fr
@@ -562,124 +2305,15 @@ msgid "Banques - Comptes en devises"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_05
-#: model:account.account.tag,name:l10n_fr.tag_fr_24
-#: model:account.account.tag,name:l10n_fr.tag_fr_42
-#: model:account.account.tag,name:l10n_fr.tag_fr_60
-#: model:account.account.tag,name:l10n_fr.tag_fr_78
-msgid "Base H.T. 10.0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_03
-#: model:account.account.tag,name:l10n_fr.tag_fr_22
-#: model:account.account.tag,name:l10n_fr.tag_fr_40
-#: model:account.account.tag,name:l10n_fr.tag_fr_58
-#: model:account.account.tag,name:l10n_fr.tag_fr_76
-msgid "Base H.T. 19.6%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_09
-#: model:account.account.tag,name:l10n_fr.tag_fr_28
-#: model:account.account.tag,name:l10n_fr.tag_fr_46
-#: model:account.account.tag,name:l10n_fr.tag_fr_64
-#: model:account.account.tag,name:l10n_fr.tag_fr_82
-msgid "Base H.T. 2.1%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_02
-#: model:account.account.tag,name:l10n_fr.tag_fr_20
-#: model:account.account.tag,name:l10n_fr.tag_fr_39
-#: model:account.account.tag,name:l10n_fr.tag_fr_57
-#: model:account.account.tag,name:l10n_fr.tag_fr_75
-msgid "Base H.T. 20.0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_07
-#: model:account.account.tag,name:l10n_fr.tag_fr_26
-#: model:account.account.tag,name:l10n_fr.tag_fr_44
-#: model:account.account.tag,name:l10n_fr.tag_fr_62
-#: model:account.account.tag,name:l10n_fr.tag_fr_80
-msgid "Base H.T. 5.0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_27
-#: model:account.account.tag,name:l10n_fr.tag_fr_45
-#: model:account.account.tag,name:l10n_fr.tag_fr_63
-#: model:account.account.tag,name:l10n_fr.tag_fr_81
-msgid "Base H.T. 5.5%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_08
-msgid "Base H.T. 5.5.0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_06
-#: model:account.account.tag,name:l10n_fr.tag_fr_25
-#: model:account.account.tag,name:l10n_fr.tag_fr_43
-#: model:account.account.tag,name:l10n_fr.tag_fr_61
-#: model:account.account.tag,name:l10n_fr.tag_fr_79
-msgid "Base H.T. 7.0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_04
-#: model:account.account.tag,name:l10n_fr.tag_fr_23
-#: model:account.account.tag,name:l10n_fr.tag_fr_41
-#: model:account.account.tag,name:l10n_fr.tag_fr_59
-#: model:account.account.tag,name:l10n_fr.tag_fr_77
-msgid "Base H.T. 8.5%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_96
-msgid "Base H.T. Non présent sur la CA3"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_92
-msgid "Base H.T. Opérations non imposables"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_19
-msgid "Base H.T. TVA acquittée"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_38
-msgid "Base H.T. TVA acquittée pour immobilisations"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_01
-msgid "Base H.T. TVA collectée"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_56
-msgid "Base H.T. TVA due intracommunautaire"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_74
-msgid "Base H.T. TVA déductible intracommunautaire"
-msgstr ""
-
-#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_186
-msgid "Biens et prestations de services échangés entre établissements (charges)"
+msgid ""
+"Biens et prestations de services échangés entre établissements (charges)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_187
-msgid "Biens et prestations de services échangés entre établissements (produits)"
+msgid ""
+"Biens et prestations de services échangés entre établissements (produits)"
 msgstr ""
 
 #. module: l10n_fr
@@ -784,13 +2418,19 @@ msgid "Charges constatées d'avance"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_6612
+msgid "Charges de la fiducie, résultat de la période"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_658
 msgid "Charges diverses de gestion courante"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6714
-msgid "Charges exceptionnelles - Créances devenues irrécouvrables dans l'exercice"
+msgid ""
+"Charges exceptionnelles - Créances devenues irrécouvrables dans l'exercice"
 msgstr ""
 
 #. module: l10n_fr
@@ -810,12 +2450,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6783
-msgid "Charges exceptionnelles - Malis provenant du rachat par l'entreprise d'actions et obligations émises par elle-même"
+msgid ""
+"Charges exceptionnelles - Malis provenant du rachat par l'entreprise "
+"d'actions et obligations émises par elle-même"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6711
-msgid "Charges exceptionnelles - Pénalités sur marchés (et dédits payés sur achats et ventes)"
+msgid ""
+"Charges exceptionnelles - Pénalités sur marchés (et dédits payés sur achats "
+"et ventes)"
 msgstr ""
 
 #. module: l10n_fr
@@ -825,7 +2469,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6717
-msgid "Charges exceptionnelles - Rappels d'impôts (autres qu'impôts sur les bénéfices)"
+msgid ""
+"Charges exceptionnelles - Rappels d'impôts (autres qu'impôts sur les "
+"bénéfices)"
 msgstr ""
 
 #. module: l10n_fr
@@ -840,7 +2486,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_672
-msgid "Charges exceptionnelles sur exercices antérieurs (en cours d'exercice seulement)"
+msgid ""
+"Charges exceptionnelles sur exercices antérieurs (en cours d'exercice "
+"seulement)"
 msgstr ""
 
 #. module: l10n_fr
@@ -865,7 +2513,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4816
-msgid "Charges à répartir sur plusieurs exercices - Frais d'émission des emprunts"
+msgid ""
+"Charges à répartir sur plusieurs exercices - Frais d'émission des emprunts"
 msgstr ""
 
 #. module: l10n_fr
@@ -876,6 +2525,11 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5112
 msgid "Chèques à encaisser"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_411
+msgid "Clients"
 msgstr ""
 
 #. module: l10n_fr
@@ -904,6 +2558,11 @@ msgid "Clients - Ventes de biens ou de prestations de services"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.fr_pcg_recv_pos
+msgid "Clients - Ventes de biens ou de prestations de services (PoS)"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4197
 msgid "Clients créditeurs - Autres avoirs"
 msgstr ""
@@ -920,7 +2579,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4198
-msgid "Clients créditeurs - Rabais, remises, ristournes à accorder et autres avoirs à établir"
+msgid ""
+"Clients créditeurs - Rabais, remises, ristournes à accorder et autres avoirs "
+"à établir"
 msgstr ""
 
 #. module: l10n_fr
@@ -1000,17 +2661,21 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5191
-msgid "Concours bancaires courants - Crédit de mobilisation de créances commerciales (CMCC)"
+msgid ""
+"Concours bancaires courants - Crédit de mobilisation de créances "
+"commerciales (CMCC)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5198
-msgid "Concours bancaires courants - Intérêts courus sur concours bancaires courants"
+msgid ""
+"Concours bancaires courants - Intérêts courus sur concours bancaires courants"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5193
-msgid "Concours bancaires courants - Mobilisation de créances nées à l'étranger"
+msgid ""
+"Concours bancaires courants - Mobilisation de créances nées à l'étranger"
 msgstr ""
 
 #. module: l10n_fr
@@ -1039,18 +2704,9 @@ msgid "Contribution sociale de solidarité à la charge des sociétés"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_635111
-msgid "Cotisation foncière des entreprises"
-msgstr ""
-
-#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6314
-msgid "Cotisation pour défaut d'investissement obligatoire dans la construction"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_635112
-msgid "Cotisation sur la valeur ajoutée des entreprises"
+msgid ""
+"Cotisation pour défaut d'investissement obligatoire dans la construction"
 msgstr ""
 
 #. module: l10n_fr
@@ -1135,17 +2791,19 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4431
-msgid "Créances sur l'État résultant de la suppression de la règle du décalage d'un mois en matière de TVA"
+msgid ""
+"Créances sur l'État résultant de la suppression de la règle du décalage d'un "
+"mois en matière de TVA"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_credit
+msgid "Crédit"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_44567
 msgid "Crédit de TVA à reporter"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_649
-msgid "Crédit d’Impôt Compétitivité Emploi (CICE)"
 msgstr ""
 
 #. module: l10n_fr
@@ -1185,7 +2843,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4768
-msgid "Différence de conversion - Actif - Différences compensées par couverture de change"
+msgid ""
+"Différence de conversion - Actif - Différences compensées par couverture de "
+"change"
 msgstr ""
 
 #. module: l10n_fr
@@ -1200,7 +2860,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4778
-msgid "Différences de conversion - Passif - Différences compensées par couverture de change"
+msgid ""
+"Différences de conversion - Passif - Différences compensées par couverture "
+"de change"
 msgstr ""
 
 #. module: l10n_fr
@@ -1230,7 +2892,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6861
-msgid "Dotations aux amortissements des primes de remboursement des obligations"
+msgid ""
+"Dotations aux amortissements des primes de remboursement des obligations"
 msgstr ""
 
 #. module: l10n_fr
@@ -1305,7 +2968,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_68725
-msgid "Dotations aux provisions réglementées exceptionnelles (immobilisations) - Amortissements dérogatoires"
+msgid ""
+"Dotations aux provisions réglementées exceptionnelles (immobilisations) - "
+"Amortissements dérogatoires"
 msgstr ""
 
 #. module: l10n_fr
@@ -1325,13 +2990,18 @@ msgid "Droits de mutation"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_2908
-msgid "Dépréciations des autres immobilisations incorporelles"
+#: model:account.account.template,name:l10n_fr.pcg_2661
+msgid "Droits représentatifs d’actifs nets remis en fiducie"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_2911
-msgid "Dépréciations des immobilisations corporelles - Terrains (autres que terrains de gisement)"
+#: model:account.account.template,name:l10n_fr.pcg_29081
+msgid "Dépréciation du mali de fusion sur actifs incorporels"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_2908
+msgid "Dépréciations des autres immobilisations incorporelles"
 msgstr ""
 
 #. module: l10n_fr
@@ -1351,7 +3021,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2905
-msgid "Dépréciations des immobilisations incorporelles - Marques, procédés, droits et valeurs similaires"
+msgid ""
+"Dépréciations des immobilisations incorporelles - Marques, procédés, droits "
+"et valeurs similaires"
 msgstr ""
 
 #. module: l10n_fr
@@ -1371,6 +3043,11 @@ msgid "Dépôts"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.fiscal.position.template,name:l10n_fr.fiscal_position_template_intraeub2c
+msgid "EU privé"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5113
 msgid "Effets à l'encaissement"
 msgstr ""
@@ -1378,6 +3055,12 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5114
 msgid "Effets à l'escompte"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_326
+#: model:account.group.template,name:l10n_fr.pcg_6026
+msgid "Emballages"
 msgstr ""
 
 #. module: l10n_fr
@@ -1402,17 +3085,23 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_1674
-msgid "Emprunts et dettes assortis de conditions particulières - Avances conditionnées de l'État"
+msgid ""
+"Emprunts et dettes assortis de conditions particulières - Avances "
+"conditionnées de l'État"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_1671
-msgid "Emprunts et dettes assortis de conditions particulières - Emissions de titres participatifs"
+msgid ""
+"Emprunts et dettes assortis de conditions particulières - Emissions de "
+"titres participatifs"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_1675
-msgid "Emprunts et dettes assortis de conditions particulières - Emprunts participatifs"
+msgid ""
+"Emprunts et dettes assortis de conditions particulières - Emprunts "
+"participatifs"
 msgstr ""
 
 #. module: l10n_fr
@@ -1441,11 +3130,6 @@ msgid "Escomptes obtenus"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_93
-msgid "Exportations hors U.E."
-msgstr ""
-
-#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4081
 msgid "Factures non parvenues - Fournisseurs"
 msgstr ""
@@ -1463,6 +3147,11 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6233
 msgid "Foires et expositions"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_401
+msgid "Fournisseurs "
 msgstr ""
 
 #. module: l10n_fr
@@ -1486,6 +3175,11 @@ msgid "Fournisseurs - Retenues de garantie"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_404
+msgid "Fournisseurs d'immobilisations"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_405
 msgid "Fournisseurs d'immobilisations - Effets à payer"
 msgstr ""
@@ -1502,7 +3196,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_40974
-msgid "Fournisseurs débiteurs - Autres avoirs des fournisseurs d'immobilisations"
+msgid ""
+"Fournisseurs débiteurs - Autres avoirs des fournisseurs d'immobilisations"
 msgstr ""
 
 #. module: l10n_fr
@@ -1512,12 +3207,19 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4098
-msgid "Fournisseurs débiteurs - Rabais, remises, ristournes à obtenir et autres avoirs non encore reçus"
+msgid ""
+"Fournisseurs débiteurs - Rabais, remises, ristournes à obtenir et autres "
+"avoirs non encore reçus"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_400
 msgid "Fournisseurs et comptes rattachés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_408
+msgid "Fournisseurs factures non parvenues"
 msgstr ""
 
 #. module: l10n_fr
@@ -1602,12 +3304,15 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.fiscal.position.template,note:l10n_fr.fiscal_position_template_intraeub2b
-msgid "French VAT exemption according to articles 262 ter I (for products) and/or 283-2 (for services) of \"CGI\""
+msgid ""
+"French VAT exemption according to articles 262 ter I (for products) and/or "
+"283-2 (for services) of \"CGI\""
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.fiscal.position.template,note:l10n_fr.fiscal_position_template_import_export
-msgid "French VAT exemption according to articles 291, 294 and 262 I of \"CGI\""
+msgid ""
+"French VAT exemption according to articles 291, 294 and 262 I of \"CGI\""
 msgstr ""
 
 #. module: l10n_fr
@@ -1627,37 +3332,43 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_212
-msgid "Immobilisations corporelles - Agencements et aménagements de terrains (même ventilation que celle du compte 211)"
+msgid ""
+"Immobilisations corporelles - Agencements et aménagements de terrains (même "
+"ventilation que celle du compte 211)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2157
-msgid "Immobilisations corporelles - Agencements et aménagements des matériels et outillage industriels"
+msgid ""
+"Immobilisations corporelles - Agencements et aménagements des matériels et "
+"outillage industriels"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21315
-msgid "Immobilisations corporelles - Bâtiments - Ensembles immobiliers administratifs et commerciaux"
+msgid ""
+"Immobilisations corporelles - Bâtiments - Ensembles immobiliers "
+"administratifs et commerciaux"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21311
-msgid "Immobilisations corporelles - Bâtiments - Ensembles immobiliers industriels"
+msgid ""
+"Immobilisations corporelles - Bâtiments - Ensembles immobiliers industriels"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_213188
-msgid "Immobilisations corporelles - Bâtiments affectés aux opérations non professionnelles"
+msgid ""
+"Immobilisations corporelles - Bâtiments affectés aux opérations non "
+"professionnelles"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_213181
-msgid "Immobilisations corporelles - Bâtiments affectés aux opérations professionnelles"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_21141
-msgid "Immobilisations corporelles - Carrières"
+msgid ""
+"Immobilisations corporelles - Bâtiments affectés aux opérations "
+"professionnelles"
 msgstr ""
 
 #. module: l10n_fr
@@ -1672,7 +3383,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_214
-msgid "Immobilisations corporelles - Constructions sur sol d'autrui (même ventilation que celle du compte 213)"
+msgid ""
+"Immobilisations corporelles - Constructions sur sol d'autrui (même "
+"ventilation que celle du compte 213)"
 msgstr ""
 
 #. module: l10n_fr
@@ -1682,37 +3395,50 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21514
-msgid "Immobilisations corporelles - Installations complexes spécialisées sur sol d'autrui"
+msgid ""
+"Immobilisations corporelles - Installations complexes spécialisées sur sol "
+"d'autrui"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21511
-msgid "Immobilisations corporelles - Installations complexes spécialisées sur sol propre"
+msgid ""
+"Immobilisations corporelles - Installations complexes spécialisées sur sol "
+"propre"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2181
-msgid "Immobilisations corporelles - Installations générales agencements aménagements divers"
+msgid ""
+"Immobilisations corporelles - Installations générales agencements "
+"aménagements divers"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2135
-msgid "Immobilisations corporelles - Installations générales, agencements, aménagements des constructions (même ventilation que celle du compte 2131)"
+msgid ""
+"Immobilisations corporelles - Installations générales, agencements, "
+"aménagements des constructions (même ventilation que celle du compte 2131)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21534
-msgid "Immobilisations corporelles - Installations à caractère spécifique sur sol d'autrui"
+msgid ""
+"Immobilisations corporelles - Installations à caractère spécifique sur sol "
+"d'autrui"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21531
-msgid "Immobilisations corporelles - Installations à caractère spécifique sur sol propre"
+msgid ""
+"Immobilisations corporelles - Installations à caractère spécifique sur sol "
+"propre"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2183
-msgid "Immobilisations corporelles - Matériel de bureau et matériel informatique"
+msgid ""
+"Immobilisations corporelles - Matériel de bureau et matériel informatique"
 msgstr ""
 
 #. module: l10n_fr
@@ -1742,7 +3468,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21385
-msgid "Immobilisations corporelles - Ouvrages d'infrastructure - Pistes d'aérodromes"
+msgid ""
+"Immobilisations corporelles - Ouvrages d'infrastructure - Pistes d'aérodromes"
 msgstr ""
 
 #. module: l10n_fr
@@ -1757,7 +3484,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21381
-msgid "Immobilisations corporelles - Ouvrages d'infrastructure - Voies de terre"
+msgid ""
+"Immobilisations corporelles - Ouvrages d'infrastructure - Voies de terre"
 msgstr ""
 
 #. module: l10n_fr
@@ -1772,22 +3500,30 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21155
-msgid "Immobilisations corporelles - Terrains bâtis - Ensembles immobiliers administratifs et commerciaux"
+msgid ""
+"Immobilisations corporelles - Terrains bâtis - Ensembles immobiliers "
+"administratifs et commerciaux"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_21151
-msgid "Immobilisations corporelles - Terrains bâtis - Ensembles immobiliers industriels"
+msgid ""
+"Immobilisations corporelles - Terrains bâtis - Ensembles immobiliers "
+"industriels"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_211588
-msgid "Immobilisations corporelles - Terrains bâtis affectés aux opérations non professionnelles"
+msgid ""
+"Immobilisations corporelles - Terrains bâtis affectés aux opérations non "
+"professionnelles"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_211581
-msgid "Immobilisations corporelles - Terrains bâtis affectés aux opérations professionnelles"
+msgid ""
+"Immobilisations corporelles - Terrains bâtis affectés aux opérations "
+"professionnelles"
 msgstr ""
 
 #. module: l10n_fr
@@ -1802,7 +3538,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2315
-msgid "Immobilisations corporelles en cours - Installations techniques matériel et outillage industriels"
+msgid ""
+"Immobilisations corporelles en cours - Installations techniques matériel et "
+"outillage industriels"
 msgstr ""
 
 #. module: l10n_fr
@@ -1812,7 +3550,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_205
-msgid "Immobilisations incorporelles - Concessions et droits similaires, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires"
+msgid ""
+"Immobilisations incorporelles - Concessions et droits similaires, brevets, "
+"licences, marques, procédés, logiciels, droits et valeurs similaires"
 msgstr ""
 
 #. module: l10n_fr
@@ -1827,22 +3567,27 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2013
-msgid "Immobilisations incorporelles - Frais d'augmentation de capital et d'opérations diverses (fusions, scissions, transformations)"
+msgid ""
+"Immobilisations incorporelles - Frais d'augmentation de capital et "
+"d'opérations diverses (fusions, scissions, transformations)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2011
-msgid "Immobilisations incorporelles - Frais d'établissement - Frais de constitution"
+msgid ""
+"Immobilisations incorporelles - Frais d'établissement - Frais de constitution"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_20121
-msgid "Immobilisations incorporelles - Frais d'établissement - Frais de prospection"
+msgid ""
+"Immobilisations incorporelles - Frais d'établissement - Frais de prospection"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_20122
-msgid "Immobilisations incorporelles - Frais d'établissement - Frais de publicité"
+msgid ""
+"Immobilisations incorporelles - Frais d'établissement - Frais de publicité"
 msgstr ""
 
 #. module: l10n_fr
@@ -1866,11 +3611,6 @@ msgid "Import/Export Hors Europe + DOM-TOM"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_697
-msgid "Imposition forfaitaire annuelle des sociétés"
-msgstr ""
-
-#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6374
 msgid "Impôts et taxes exigibles à l'étranger"
 msgstr ""
@@ -1888,6 +3628,11 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6954
 msgid "Impôts sur les bénéfices dus à l'étranger"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_63
+msgid "Impôts, taxes et versements assimilés"
 msgstr ""
 
 #. module: l10n_fr
@@ -1921,6 +3666,12 @@ msgid "Intérêts bancaires et sur opérations de financement (escompte, ...)"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_1688
+#: model:account.group.template,name:l10n_fr.pcg_2768
+msgid "Intérêts courus"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_16888
 msgid "Intérêts courus sur autres emprunts et dettes assimilées"
 msgstr ""
@@ -1942,7 +3693,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_16887
-msgid "Intérêts courus sur emprunts et dettes assortis de conditions particulières"
+msgid ""
+"Intérêts courus sur emprunts et dettes assortis de conditions particulières"
 msgstr ""
 
 #. module: l10n_fr
@@ -2016,11 +3768,6 @@ msgid "Liquidity Transfer"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_94
-msgid "Livraisons intracommunautaires"
-msgstr ""
-
-#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6276
 msgid "Location de coffres"
 msgstr ""
@@ -2048,6 +3795,11 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6156
 msgid "Maintenance"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_2187
+msgid "Mali de fusions sur actifs corporels"
 msgstr ""
 
 #. module: l10n_fr
@@ -2103,6 +3855,43 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5065
 msgid "Obligations non cotés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_162
+msgid "Obligations représentatives de passifs nets remis en fiducie"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_op_non_imposables
+msgid "Opérations Non Imposables"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_674
+#: model:account.group.template,name:l10n_fr.pcg_774
+msgid "Opérations de constitution ou liquidation des fiducies"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_op_imposables_ht
+msgid "Opérations imposables (H.T.)"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_6741
+msgid "Opérations liées à la constitution de fiducie "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_7741
+msgid "Opérations liées à la constitution de fiducie - transfert des éléments"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_6742
+#: model:account.account.template,name:l10n_fr.pcg_7742
+msgid "Opérations liées à la liquidation de la fiducie"
 msgstr ""
 
 #. module: l10n_fr
@@ -2173,7 +3962,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4284
-msgid "Personnel - Dettes provisionnées pour participation des salariés aux résultats"
+msgid ""
+"Personnel - Dettes provisionnées pour participation des salariés aux "
+"résultats"
 msgstr ""
 
 #. module: l10n_fr
@@ -2318,6 +4109,11 @@ msgid "Produits d'entretien"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_7612
+msgid "Produits de la fiducie, résultat de la période"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7081
 msgid "Produits des services exploités dans l'intérêt du personnel"
 msgstr ""
@@ -2334,17 +4130,22 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7783
-msgid "Produits exceptionnels - Bonis provenant du rachat par l'entreprise d'actions et d'obligations émises par elle-même"
+msgid ""
+"Produits exceptionnels - Bonis provenant du rachat par l'entreprise "
+"d'actions et d'obligations émises par elle-même"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7711
-msgid "Produits exceptionnels - Dédits et pénalités perçus sur achats et sur ventes"
+msgid ""
+"Produits exceptionnels - Dédits et pénalités perçus sur achats et sur ventes"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7717
-msgid "Produits exceptionnels - Dégrèvements d'impôts autres qu'impôts sur les bénéfices"
+msgid ""
+"Produits exceptionnels - Dégrèvements d'impôts autres qu'impôts sur les "
+"bénéfices"
 msgstr ""
 
 #. module: l10n_fr
@@ -2359,7 +4160,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_777
-msgid "Produits exceptionnels - Quote-part des subventions d'investissement virée au résultat de l'exercice"
+msgid ""
+"Produits exceptionnels - Quote-part des subventions d'investissement virée "
+"au résultat de l'exercice"
 msgstr ""
 
 #. module: l10n_fr
@@ -2374,22 +4177,30 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7758
-msgid "Produits exceptionnels des cessions d'éléments d'actif - Autres éléments d'actif"
+msgid ""
+"Produits exceptionnels des cessions d'éléments d'actif - Autres éléments "
+"d'actif"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7752
-msgid "Produits exceptionnels des cessions d'éléments d'actif - Immobilisations corporelles"
+msgid ""
+"Produits exceptionnels des cessions d'éléments d'actif - Immobilisations "
+"corporelles"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7756
-msgid "Produits exceptionnels des cessions d'éléments d'actif - Immobilisations financières"
+msgid ""
+"Produits exceptionnels des cessions d'éléments d'actif - Immobilisations "
+"financières"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7751
-msgid "Produits exceptionnels des cessions d'éléments d'actif - Immobilisations incorporelles"
+msgid ""
+"Produits exceptionnels des cessions d'éléments d'actif - Immobilisations "
+"incorporelles"
 msgstr ""
 
 #. module: l10n_fr
@@ -2399,7 +4210,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_772
-msgid "Produits exceptionnels sur exercices antérieurs (en cours d'exercice seulement)"
+msgid ""
+"Produits exceptionnels sur exercices antérieurs (en cours d'exercice "
+"seulement)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2429,7 +4242,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_1572
-msgid "Provisions pour charges à répartir sur plusieurs exercices - Gros entretien ou grandes révisions"
+msgid ""
+"Provisions pour charges à répartir sur plusieurs exercices - Gros entretien "
+"ou grandes révisions"
 msgstr ""
 
 #. module: l10n_fr
@@ -2444,7 +4259,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2976
-msgid "Provisions pour dépréciation des autres créances immobilisées (même ventilation que celle du compte 276)"
+msgid ""
+"Provisions pour dépréciation des autres créances immobilisées (même "
+"ventilation que celle du compte 276)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2454,12 +4271,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5904
-msgid "Provisions pour dépréciation des autres titres conférant un droit de propriété"
+msgid ""
+"Provisions pour dépréciation des autres titres conférant un droit de "
+"propriété"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_5908
-msgid "Provisions pour dépréciation des autres valeurs mobilières de placement et créances assimilées (provisions)"
+msgid ""
+"Provisions pour dépréciation des autres valeurs mobilières de placement et "
+"créances assimilées (provisions)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2479,32 +4300,43 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2967
-msgid "Provisions pour dépréciation des créances rattachées à des participations (même ventilation que celle du compte 267)"
+msgid ""
+"Provisions pour dépréciation des créances rattachées à des participations "
+"(même ventilation que celle du compte 267)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2968
-msgid "Provisions pour dépréciation des créances rattachées à des sociétés en participation (même ventilation que celle du compte 268)"
+msgid ""
+"Provisions pour dépréciation des créances rattachées à des sociétés en "
+"participation (même ventilation que celle du compte 268)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4962
-msgid "Provisions pour dépréciation des créances sur cessions d'immobilisations"
+msgid ""
+"Provisions pour dépréciation des créances sur cessions d'immobilisations"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_4965
-msgid "Provisions pour dépréciation des créances sur cessions de valeurs mobilières de placement"
+msgid ""
+"Provisions pour dépréciation des créances sur cessions de valeurs mobilières "
+"de placement"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2975
-msgid "Provisions pour dépréciation des dépôts et cautionnements versés (même ventilation que celle du compte 275)"
+msgid ""
+"Provisions pour dépréciation des dépôts et cautionnements versés (même "
+"ventilation que celle du compte 275)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3926
-msgid "Provisions pour dépréciation des emballages (même ventilation que celle du compte 326)"
+msgid ""
+"Provisions pour dépréciation des emballages (même ventilation que celle du "
+"compte 326)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2514,12 +4346,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3922
-msgid "Provisions pour dépréciation des fournitures consommables (même ventilation que celle du compte 322)"
+msgid ""
+"Provisions pour dépréciation des fournitures consommables (même ventilation "
+"que celle du compte 322)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3921
-msgid "Provisions pour dépréciation des matières consommables (même ventilation que celle du compte 321)"
+msgid ""
+"Provisions pour dépréciation des matières consommables (même ventilation que "
+"celle du compte 321)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2544,27 +4380,37 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3945
-msgid "Provisions pour dépréciation des prestations de services en cours (même ventilation que celle du compte 345)"
+msgid ""
+"Provisions pour dépréciation des prestations de services en cours (même "
+"ventilation que celle du compte 345)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3931
-msgid "Provisions pour dépréciation des produits en cours (même ventilation que celle du compte 331)"
+msgid ""
+"Provisions pour dépréciation des produits en cours (même ventilation que "
+"celle du compte 331)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3955
-msgid "Provisions pour dépréciation des produits finis (même ventilation que celle du compte 355)"
+msgid ""
+"Provisions pour dépréciation des produits finis (même ventilation que celle "
+"du compte 355)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3951
-msgid "Provisions pour dépréciation des produits intermédiaires (même ventilation que celle du compte 351)"
+msgid ""
+"Provisions pour dépréciation des produits intermédiaires (même ventilation "
+"que celle du compte 351)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2974
-msgid "Provisions pour dépréciation des prêts (même ventilation que celle du compte 274)"
+msgid ""
+"Provisions pour dépréciation des prêts (même ventilation que celle du compte "
+"274)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2584,27 +4430,38 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2972
-msgid "Provisions pour dépréciation des titres immobilisés - droit de créance (même ventilation que celle du compte 272)"
+msgid ""
+"Provisions pour dépréciation des titres immobilisés - droit de créance (même "
+"ventilation que celle du compte 272)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2971
-msgid "Provisions pour dépréciation des titres immobilisés autres que les titres immobilisés de l'activité de portefeuille - droit de propriété (ventilation : 271)"
+msgid ""
+"Provisions pour dépréciation des titres immobilisés autres que les titres "
+"immobilisés de l'activité de portefeuille - droit de propriété "
+"(ventilation : 271)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2973
-msgid "Provisions pour dépréciation des titres immobilisés de l'activité de portefeuille"
+msgid ""
+"Provisions pour dépréciation des titres immobilisés de l'activité de "
+"portefeuille"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3935
-msgid "Provisions pour dépréciation des travaux en cours (même ventilation que celle du compte 335)"
+msgid ""
+"Provisions pour dépréciation des travaux en cours (même ventilation que "
+"celle du compte 335)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_3941
-msgid "Provisions pour dépréciation des études en cours (même ventilation que celle du compte 341)"
+msgid ""
+"Provisions pour dépréciation des études en cours (même ventilation que celle "
+"du compte 341)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2654,7 +4511,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_156
-msgid "Provisions pour renouvellement des immobilisations (entreprises concessionnaires)"
+msgid ""
+"Provisions pour renouvellement des immobilisations (entreprises "
+"concessionnaires)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2683,6 +4542,11 @@ msgid "Provisions réglementées relatives aux stocks - Hausse de prix"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_274
+msgid "Prêts"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2743
 msgid "Prêts au personnel"
 msgstr ""
@@ -2704,12 +4568,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6238
-msgid "Publicité, publications, relations publiques - Divers (pourboires, dons courants...)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_489
-msgid "Quotas d'émission alloués par l'État"
+msgid ""
+"Publicité, publications, relations publiques - Divers (pourboires, dons "
+"courants...)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2719,7 +4580,8 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7555
-msgid "Quote-part de bénéfice attribuée (comptabilité des associés non-gérants)"
+msgid ""
+"Quote-part de bénéfice attribuée (comptabilité des associés non-gérants)"
 msgstr ""
 
 #. module: l10n_fr
@@ -2744,17 +4606,23 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6096
-msgid "Rabais, remises et ristournes obtenus sur achats d'approvisionnements non stockés"
+msgid ""
+"Rabais, remises et ristournes obtenus sur achats d'approvisionnements non "
+"stockés"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6092
-msgid "Rabais, remises et ristournes obtenus sur achats d'autres approvisionnements stockés"
+msgid ""
+"Rabais, remises et ristournes obtenus sur achats d'autres approvisionnements "
+"stockés"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6094
-msgid "Rabais, remises et ristournes obtenus sur achats d'études et prestations de services"
+msgid ""
+"Rabais, remises et ristournes obtenus sur achats d'études et prestations de "
+"services"
 msgstr ""
 
 #. module: l10n_fr
@@ -2764,12 +4632,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6091
-msgid "Rabais, remises et ristournes obtenus sur achats de matières premières (et fournitures)"
+msgid ""
+"Rabais, remises et ristournes obtenus sur achats de matières premières (et "
+"fournitures)"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6095
-msgid "Rabais, remises et ristournes obtenus sur achats de matériel, équipements et travaux"
+msgid ""
+"Rabais, remises et ristournes obtenus sur achats de matériel, équipements et "
+"travaux"
 msgstr ""
 
 #. module: l10n_fr
@@ -2834,12 +4706,14 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6511
-msgid "Redevances pour concessions brevets, licences, marques, procédés, logiciels"
+msgid ""
+"Redevances pour concessions brevets, licences, marques, procédés, logiciels"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7511
-msgid "Redevances pour concessions, brevets, licences, marques, procédés, logiciels"
+msgid ""
+"Redevances pour concessions, brevets, licences, marques, procédés, logiciels"
 msgstr ""
 
 #. module: l10n_fr
@@ -2924,17 +4798,23 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_78725
-msgid "Reprises sur provisions réglementées (immobilisations) - Amortissements dérogatoires"
+msgid ""
+"Reprises sur provisions réglementées (immobilisations) - Amortissements "
+"dérogatoires"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_78727
-msgid "Reprises sur provisions réglementées (immobilisations) - Plus-values réinvesties"
+msgid ""
+"Reprises sur provisions réglementées (immobilisations) - Plus-values "
+"réinvesties"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_78726
-msgid "Reprises sur provisions réglementées (immobilisations) - Provision spéciale de réévaluation"
+msgid ""
+"Reprises sur provisions réglementées (immobilisations) - Provision spéciale "
+"de réévaluation"
 msgstr ""
 
 #. module: l10n_fr
@@ -3095,6 +4975,17 @@ msgid "Salaires et appointements"
 msgstr ""
 
 #. module: l10n_fr
+#: code:addons/l10n_fr/models/res_company.py:0
+#, python-format
+msgid "Securisation of %s - %s"
+msgstr ""
+
+#. module: l10n_fr
+#: model:ir.model.fields,field_description:l10n_fr.field_res_company__l10n_fr_closing_sequence_id
+msgid "Sequence to use to build sale closings"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_516
 msgid "Sociétés de bourse"
 msgstr ""
@@ -3165,6 +5056,11 @@ msgid "Subventions d'exploitation"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.group.template,name:l10n_fr.pcg_131
+msgid "Subventions d'équipement"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_1318
 msgid "Subventions d'équipement - Autres"
 msgstr ""
@@ -3211,7 +5107,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_13915
-msgid "Subventions d'équipement inscrites au compte de résultat - Collectivités publiques"
+msgid ""
+"Subventions d'équipement inscrites au compte de résultat - Collectivités "
+"publiques"
 msgstr ""
 
 #. module: l10n_fr
@@ -3226,12 +5124,16 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_13917
-msgid "Subventions d'équipement inscrites au compte de résultat - Entreprises et organismes privés"
+msgid ""
+"Subventions d'équipement inscrites au compte de résultat - Entreprises et "
+"organismes privés"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_13916
-msgid "Subventions d'équipement inscrites au compte de résultat - Entreprises publiques"
+msgid ""
+"Subventions d'équipement inscrites au compte de résultat - Entreprises "
+"publiques"
 msgstr ""
 
 #. module: l10n_fr
@@ -3297,8 +5199,7 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.tax.template,description:l10n_fr.tva_export_0
-#: model:account.tax.template,description:l10n_fr.tva_import_0
-msgid "TVA 0% Import"
+msgid "TVA 0% Export"
 msgstr ""
 
 #. module: l10n_fr
@@ -3312,11 +5213,6 @@ msgid "TVA 0% export (vente)"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_import_0
-msgid "TVA 0% import (achat)"
-msgstr ""
-
-#. module: l10n_fr
 #: model:account.tax.template,name:l10n_fr.tva_intra_0
 msgid "TVA 0% livraisons intracommunautaires (vente)"
 msgstr ""
@@ -3324,82 +5220,76 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.tax.group,name:l10n_fr.tax_group_tva_10
 #: model:account.tax.template,description:l10n_fr.tva_acq_intermediaire
+#: model:account.tax.template,description:l10n_fr.tva_acq_intermediaire_encaissement
 #: model:account.tax.template,description:l10n_fr.tva_intermediaire
+#: model:account.tax.template,description:l10n_fr.tva_intermediaire_encaissement
 msgid "TVA 10%"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.tax.template,description:l10n_fr.tva_acq_intra_intermediaire
 #: model:account.tax.template,description:l10n_fr.tva_intra_intermediaire
 msgid "TVA 10% EU"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.tax.template,description:l10n_fr.tva_acq_intermediaire_TTC
+#: model:account.tax.template,description:l10n_fr.tva_acq_intermediaire_encaissement_TTC
+#: model:account.tax.template,description:l10n_fr.tva_intermediaire_encaissement_ttc
 #: model:account.tax.template,description:l10n_fr.tva_intermediaire_ttc
 msgid "TVA 10% TTC"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_14
-#: model:account.account.tag,name:l10n_fr.tag_fr_33
-#: model:account.account.tag,name:l10n_fr.tag_fr_51
-#: model:account.account.tag,name:l10n_fr.tag_fr_69
-#: model:account.account.tag,name:l10n_fr.tag_fr_87
-msgid "TVA 10.0%"
+#: model:account.tax.template,description:l10n_fr.tva_import_outside_eu_10
+#: model:account.tax.template,name:l10n_fr.tva_import_outside_eu_10
+msgid "TVA 10% import hors UE"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_12
-#: model:account.account.tag,name:l10n_fr.tag_fr_31
-#: model:account.account.tag,name:l10n_fr.tag_fr_49
-#: model:account.account.tag,name:l10n_fr.tag_fr_67
-#: model:account.account.tag,name:l10n_fr.tag_fr_85
-msgid "TVA 19.6%"
-msgstr ""
-
-#. module: l10n_fr
+#: model:account.tax.template,description:l10n_fr.tva_acq_encaissement_super_reduite
 #: model:account.tax.template,description:l10n_fr.tva_acq_super_reduite
 #: model:account.tax.template,description:l10n_fr.tva_super_reduite
 msgid "TVA 2,1%"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.tax.template,description:l10n_fr.tva_acq_intra_super_reduite
 #: model:account.tax.template,description:l10n_fr.tva_intra_super_reduite
 msgid "TVA 2,1% EU"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.tax.template,description:l10n_fr.tva_acq_encaissement_super_reduite_TTC
 #: model:account.tax.template,description:l10n_fr.tva_acq_super_reduite_TTC
 #: model:account.tax.template,description:l10n_fr.tva_super_reduite_ttc
 msgid "TVA 2,1% TTC"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_18
-#: model:account.account.tag,name:l10n_fr.tag_fr_37
-#: model:account.account.tag,name:l10n_fr.tag_fr_55
-#: model:account.account.tag,name:l10n_fr.tag_fr_73
-#: model:account.account.tag,name:l10n_fr.tag_fr_91
 #: model:account.tax.group,name:l10n_fr.tax_group_tva_21
 msgid "TVA 2.1%"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.tax.template,description:l10n_fr.tva_import_outside_eu_2_1
+#: model:account.tax.template,name:l10n_fr.tva_import_outside_eu_2_1
+msgid "TVA 2.1% import hors UE"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.tax.group,name:l10n_fr.tax_group_tva_20
+#: model:account.tax.template,description:l10n_fr.tva_acq_encaissement
 #: model:account.tax.template,description:l10n_fr.tva_acq_normale
 #: model:account.tax.template,description:l10n_fr.tva_normale
 msgid "TVA 20%"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.tax.template,description:l10n_fr.tva_acq_intra_normale
 #: model:account.tax.template,description:l10n_fr.tva_intra_normale
 msgid "TVA 20% EU"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.tax.template,description:l10n_fr.tva_acq_encaissement_TTC
 #: model:account.tax.template,description:l10n_fr.tva_acq_normale_TTC
 #: model:account.tax.template,description:l10n_fr.tva_normale_encaissement_ttc
 #: model:account.tax.template,description:l10n_fr.tva_normale_ttc
@@ -3407,58 +5297,39 @@ msgid "TVA 20% TTC"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_11
-#: model:account.account.tag,name:l10n_fr.tag_fr_30
-#: model:account.account.tag,name:l10n_fr.tag_fr_48
-#: model:account.account.tag,name:l10n_fr.tag_fr_66
-#: model:account.account.tag,name:l10n_fr.tag_fr_84
-msgid "TVA 20.0%"
+#: model:account.tax.template,description:l10n_fr.tva_import_outside_eu_20
+#: model:account.tax.template,name:l10n_fr.tva_import_outside_eu_20
+msgid "TVA 20% import hors UE"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.tax.template,description:l10n_fr.tva_acq_encaissement_reduite
 #: model:account.tax.template,description:l10n_fr.tva_acq_reduite
 #: model:account.tax.template,description:l10n_fr.tva_reduite
 msgid "TVA 5,5%"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.tax.template,description:l10n_fr.tva_acq_intra_reduite
 #: model:account.tax.template,description:l10n_fr.tva_intra_reduite
 msgid "TVA 5,5% EU"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.tax.template,description:l10n_fr.tva_acq_encaissement_reduite_TTC
 #: model:account.tax.template,description:l10n_fr.tva_acq_reduite_TTC
 #: model:account.tax.template,description:l10n_fr.tva_reduite_ttc
 msgid "TVA 5,5% TTC"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_16
-#: model:account.account.tag,name:l10n_fr.tag_fr_35
-#: model:account.account.tag,name:l10n_fr.tag_fr_53
-#: model:account.account.tag,name:l10n_fr.tag_fr_71
-#: model:account.account.tag,name:l10n_fr.tag_fr_89
-msgid "TVA 5.0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_17
-#: model:account.account.tag,name:l10n_fr.tag_fr_36
-#: model:account.account.tag,name:l10n_fr.tag_fr_54
-#: model:account.account.tag,name:l10n_fr.tag_fr_72
-#: model:account.account.tag,name:l10n_fr.tag_fr_90
 #: model:account.tax.group,name:l10n_fr.tax_group_tva_55
 msgid "TVA 5.5%"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_15
-#: model:account.account.tag,name:l10n_fr.tag_fr_34
-#: model:account.account.tag,name:l10n_fr.tag_fr_52
-#: model:account.account.tag,name:l10n_fr.tag_fr_70
-#: model:account.account.tag,name:l10n_fr.tag_fr_88
-msgid "TVA 7.0%"
+#: model:account.tax.template,description:l10n_fr.tva_import_outside_eu_5_5
+#: model:account.tax.template,name:l10n_fr.tva_import_outside_eu_5_5
+msgid "TVA 5.5% import hors UE"
 msgstr ""
 
 #. module: l10n_fr
@@ -3468,7 +5339,6 @@ msgid "TVA 8,5%"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.tax.template,description:l10n_fr.tva_acq_intra_specifique
 #: model:account.tax.template,description:l10n_fr.tva_intra_specifique
 msgid "TVA 8,5% EU"
 msgstr ""
@@ -3480,43 +5350,29 @@ msgid "TVA 8,5% TTC"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_13
-#: model:account.account.tag,name:l10n_fr.tag_fr_32
-#: model:account.account.tag,name:l10n_fr.tag_fr_50
-#: model:account.account.tag,name:l10n_fr.tag_fr_68
-#: model:account.account.tag,name:l10n_fr.tag_fr_86
 #: model:account.tax.group,name:l10n_fr.tax_group_tva_85
 msgid "TVA 8.5%"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_29
-msgid "TVA acquittée"
+#: model:account.tax.template,description:l10n_fr.tva_import_outside_eu_8_5
+#: model:account.tax.template,name:l10n_fr.tva_import_outside_eu_8_5
+msgid "TVA 8.5% import hors UE"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_47
-msgid "TVA acquittée pour immobilisations"
+#: model:account.tax.report.line,name:l10n_fr.tax_report_tva_brute
+msgid "TVA Brute"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_10
+#: model:account.tax.report.line,name:l10n_fr.tax_report_tva_deductible
+msgid "TVA Déductible"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_44571
 msgid "TVA collectée"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445713
-msgid "TVA collectée (Autre taux)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445712
-msgid "TVA collectée (Taux Intermédiaire)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445711
-msgid "TVA collectée (Taux Normal)"
 msgstr ""
 
 #. module: l10n_fr
@@ -3567,81 +5423,6 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.tax.template,name:l10n_fr.tva_specifique_ttc
 msgid "TVA collectée (vente) 8,5% TTC"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445204
-msgid "TVA due imports"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_65
-msgid "TVA due intracommunautaire"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445203
-msgid "TVA due intracommunautaire (Autre taux)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445202
-msgid "TVA due intracommunautaire (Taux Intermédiaire)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445201
-msgid "TVA due intracommunautaire (Taux Normal)"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_intra_intermediaire
-msgid "TVA due s/ acq. intracommunautaire (achat) 10,0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_intra_super_reduite
-msgid "TVA due s/ acq. intracommunautaire (achat) 2,1%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_intra_normale
-msgid "TVA due s/ acq. intracommunautaire (achat) 20,0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_intra_reduite
-msgid "TVA due s/ acq. intracommunautaire (achat) 5,5%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_intra_specifique
-msgid "TVA due s/ acq. intracommunautaire (achat) 8,5%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_acq_intra_intermediaire
-msgid "TVA déd. s/ acq. intracommunautaire (achat) 10,0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_acq_intra_super_reduite
-msgid "TVA déd. s/ acq. intracommunautaire (achat) 2,1%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_acq_intra_normale
-msgid "TVA déd. s/ acq. intracommunautaire (achat) 20,0%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_acq_intra_reduite
-msgid "TVA déd. s/ acq. intracommunautaire (achat) 5,5%"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.tax.template,name:l10n_fr.tva_acq_intra_specifique
-msgid "TVA déd. s/ acq. intracommunautaire (achat) 8,5%"
 msgstr ""
 
 #. module: l10n_fr
@@ -3720,17 +5501,6 @@ msgid "TVA déductible (achat) 8,5% TTC"
 msgstr ""
 
 #. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_445663
-msgid "TVA déductible imports"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.tag,name:l10n_fr.tag_fr_83
-#: model:account.account.template,name:l10n_fr.pcg_445662
-msgid "TVA déductible intracommunautaire"
-msgstr ""
-
-#. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_44566
 msgid "TVA déductible sur autres biens et services"
 msgstr ""
@@ -3768,6 +5538,31 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.tax.template,description:l10n_fr.tva_imm_specifique
 msgid "TVA immo 8,5%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_intra_intermediaire
+msgid "TVA intracommunautaire (achat) 10,0%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_intra_super_reduite
+msgid "TVA intracommunautaire (achat) 2,1%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_intra_normale
+msgid "TVA intracommunautaire (achat) 20,0%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_intra_reduite
+msgid "TVA intracommunautaire (achat) 5,5%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_intra_specifique
+msgid "TVA intracommunautaire (achat) 8,5%"
 msgstr ""
 
 #. module: l10n_fr
@@ -3821,6 +5616,56 @@ msgid "TVA à décaisser"
 msgstr ""
 
 #. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_intermediaire_encaissement
+msgid "TVA à l'encaissement (achat) 10,0%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_intermediaire_encaissement_TTC
+msgid "TVA à l'encaissement (achat) 10,0% TTC"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_encaissement_super_reduite
+msgid "TVA à l'encaissement (achat) 2,1% "
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_encaissement_super_reduite_TTC
+msgid "TVA à l'encaissement (achat) 2,1% TTC"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_encaissement
+msgid "TVA à l'encaissement (achat) 20,0%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_encaissement_TTC
+msgid "TVA à l'encaissement (achat) 20,0% TTC"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_encaissement_reduite
+msgid "TVA à l'encaissement (achat) 5,5%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_acq_encaissement_reduite_TTC
+msgid "TVA à l'encaissement (achat) 5,5% TTC"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_intermediaire_encaissement
+msgid "TVA à l'encaissement (vente) 10,0%"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.template,name:l10n_fr.tva_intermediaire_encaissement_ttc
+msgid "TVA à l'encaissement (vente) 10,0% TTC"
+msgstr ""
+
+#. module: l10n_fr
 #: model:account.tax.template,name:l10n_fr.tva_normale_encaissement
 msgid "TVA à l'encaissement (vente) 20,0%"
 msgstr ""
@@ -3848,6 +5693,11 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_63514
 msgid "Taxe sur les véhicules des sociétés"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.tax.report.line,name:l10n_fr.tax_report_taxes_a_payer
+msgid "Taxe à Payer"
 msgstr ""
 
 #. module: l10n_fr
@@ -3901,8 +5751,13 @@ msgid "Taxes sur le chiffre d'affaires à régulariser ou en attente"
 msgstr ""
 
 #. module: l10n_fr
-#: model:ir.model,name:l10n_fr.model_account_chart_template
-msgid "Templates for Account Chart"
+#: model:account.account.template,name:l10n_fr.pcg_2115
+msgid "Terrains bâtis"
+msgstr ""
+
+#. module: l10n_fr
+#: model:account.account.template,name:l10n_fr.pcg_2114
+msgid "Terrains de carrières (Tréfonds)"
 msgstr ""
 
 #. module: l10n_fr
@@ -3922,22 +5777,21 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2711
-msgid "Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille - Actions"
+msgid ""
+"Titres immobilisés autres que les titres immobilisés de l'activité de "
+"portefeuille - Actions"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_2718
-msgid "Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille - Autres titres"
+msgid ""
+"Titres immobilisés autres que les titres immobilisés de l'activité de "
+"portefeuille - Autres titres"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_273
 msgid "Titres immobilisés de l'activité de portefeuille"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_262
-msgid "Titres évalués par équivalence"
 msgstr ""
 
 #. module: l10n_fr
@@ -4002,17 +5856,20 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6752
-msgid "Valeurs comptables des éléments d'actif cédés - Immobilisations corporelles"
+msgid ""
+"Valeurs comptables des éléments d'actif cédés - Immobilisations corporelles"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6756
-msgid "Valeurs comptables des éléments d'actif cédés - Immobilisations financières"
+msgid ""
+"Valeurs comptables des éléments d'actif cédés - Immobilisations financières"
 msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6751
-msgid "Valeurs comptables des éléments d'actif cédés - Immobilisations incorporelles"
+msgid ""
+"Valeurs comptables des éléments d'actif cédés - Immobilisations incorporelles"
 msgstr ""
 
 #. module: l10n_fr
@@ -4022,7 +5879,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_504
-msgid "Valeurs mobilières de placement - Autres titres conférant un droit de propriété"
+msgid ""
+"Valeurs mobilières de placement - Autres titres conférant un droit de "
+"propriété"
 msgstr ""
 
 #. module: l10n_fr
@@ -4052,7 +5911,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_71345
-msgid "Variation des en-cours de production de services - Prestations de services en cours"
+msgid ""
+"Variation des en-cours de production de services - Prestations de services "
+"en cours"
 msgstr ""
 
 #. module: l10n_fr
@@ -4103,11 +5964,6 @@ msgstr ""
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_7072
 msgid "Ventes de marchandises (ou groupe) B"
-msgstr ""
-
-#. module: l10n_fr
-#: model:account.account.template,name:l10n_fr.pcg_7073
-msgid "Ventes de marchandises à l'exportation"
 msgstr ""
 
 #. module: l10n_fr
@@ -4167,7 +6023,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_6335
-msgid "Versements libératoires ouvrant droit à l'exonération de la taxe d'apprentissage"
+msgid ""
+"Versements libératoires ouvrant droit à l'exonération de la taxe "
+"d'apprentissage"
 msgstr ""
 
 #. module: l10n_fr
@@ -4187,7 +6045,9 @@ msgstr ""
 
 #. module: l10n_fr
 #: model:account.account.template,name:l10n_fr.pcg_509
-msgid "Versements restant à effectuer sur valeurs mobilières de placement non libérées"
+msgid ""
+"Versements restant à effectuer sur valeurs mobilières de placement non "
+"libérées"
 msgstr ""
 
 #. module: l10n_fr
