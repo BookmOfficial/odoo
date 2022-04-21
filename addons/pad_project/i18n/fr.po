@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 22:54+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -21,25 +21,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: pad_project
-#: model:ir.model.fields,field_description:pad_project.field_project_project__pad_availability
-#: model:ir.model.fields,field_description:pad_project.field_project_task__pad_availability
-msgid "Availability of collaborative pads"
-msgstr "Disponibilité des pads collaboratifs"
-
-#. module: pad_project
-#: model_terms:ir.ui.view,arch_db:pad_project.project_project_view_form
-msgid "Available to:"
-msgstr "Disponible aux:"
-
-#. module: pad_project
 #: model_terms:ir.ui.view,arch_db:pad_project.project_project_view_form
 msgid "Collaborative Pads"
 msgstr "Pads collaboratifs"
-
-#. module: pad_project
-#: model_terms:ir.ui.view,arch_db:pad_project.portal_my_task
-msgid "Edit"
-msgstr "Modifier"
 
 #. module: pad_project
 #: model_terms:ir.ui.view,arch_db:pad_project.project_project_view_form
@@ -53,16 +37,6 @@ msgstr ""
 "distincte."
 
 #. module: pad_project
-#: model:ir.model.fields.selection,name:pad_project.selection__project_project__pad_availability__internal
-msgid "Internal Users"
-msgstr "Utilisateurs internes"
-
-#. module: pad_project
-#: model:ir.model.fields.selection,name:pad_project.selection__project_project__pad_availability__portal
-msgid "Internal Users & Portal Users"
-msgstr "Utilisateurs internes et utilisateurs portail"
-
-#. module: pad_project
 #: model:ir.model.fields,field_description:pad_project.field_project_project__description_pad
 #: model:ir.model.fields,field_description:pad_project.field_project_task__description_pad
 msgid "Pad URL"
@@ -72,11 +46,6 @@ msgstr "Lien du pad"
 #: model:ir.model,name:pad_project.model_project_project
 msgid "Project"
 msgstr "Projet"
-
-#. module: pad_project
-#: model_terms:ir.ui.view,arch_db:pad_project.portal_my_task
-msgid "Save"
-msgstr "Sauvegarder"
 
 #. module: pad_project
 #: model:ir.model,name:pad_project.model_project_task
@@ -98,3 +67,21 @@ msgstr "Utiliser un pad collaboratif pour les tâches de ce projet."
 #: model:ir.model.fields,field_description:pad_project.field_project_project__use_pads
 msgid "Use collaborative pads"
 msgstr "Utiliser des pads collaboratifs"
+
+#~ msgid "Availability of collaborative pads"
+#~ msgstr "Disponibilité des pads collaboratifs"
+
+#~ msgid "Available to:"
+#~ msgstr "Disponible aux:"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Internal Users"
+#~ msgstr "Utilisateurs internes"
+
+#~ msgid "Internal Users & Portal Users"
+#~ msgstr "Utilisateurs internes et utilisateurs portail"
+
+#~ msgid "Save"
+#~ msgstr "Sauvegarder"
