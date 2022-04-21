@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"POT-Creation-Date: 2022-04-15 23:15+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -847,6 +847,7 @@ msgid "Priority"
 msgstr "Priorität"
 
 #. module: repair
+#: model:ir.model,name:repair.model_product_product
 #: model:ir.model.fields,field_description:repair.field_repair_fee__product_id
 #: model:ir.model.fields,field_description:repair.field_repair_line__product_id
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__product_id
@@ -1024,12 +1025,6 @@ msgstr "Reparaturangebot: per E-Mail senden"
 #: model:ir.model.fields,field_description:repair.field_repair_order__name
 msgid "Repair Reference"
 msgstr "Reparaturreferenz"
-
-#. module: repair
-#: model:product.product,name:repair.product_service_order_repair
-#: model:product.template,name:repair.product_service_order_repair_product_template
-msgid "Repair Services"
-msgstr "Reparaturservice"
 
 #. module: repair
 #: model:ir.model,name:repair.model_repair_tags
@@ -1323,12 +1318,6 @@ msgid "Unit of Measure"
 msgstr "Mengeneinheit"
 
 #. module: repair
-#: model:product.product,uom_name:repair.product_service_order_repair
-#: model:product.template,uom_name:repair.product_service_order_repair_product_template
-msgid "Units"
-msgstr "Einheiten"
-
-#. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_unread
 msgid "Unread Messages"
 msgstr "Ungelesene Nachrichten"
@@ -1442,5 +1431,11 @@ msgstr "{{ (object.name or '').replace('/','_') }}"
 msgid ""
 "{{ object.partner_id.name }} Repair Orders (Ref {{ object.name or 'n/a' }})"
 msgstr ""
-"{{ object.partner_id.name }} Reparatur-Aufträge (Ref {{ object.name or 'n/a'"
-" }})"
+"{{ object.partner_id.name }} Reparatur-Aufträge (Ref {{ object.name or 'n/"
+"a' }})"
+
+#~ msgid "Repair Services"
+#~ msgstr "Reparaturservice"
+
+#~ msgid "Units"
+#~ msgstr "Einheiten"
