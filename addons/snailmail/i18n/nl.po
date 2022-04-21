@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:19+0000\n"
+"POT-Creation-Date: 2022-04-15 23:22+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -60,8 +60,9 @@ msgstr "Er is een onbekende fout opgetreden. Neem contact op met de support."
 #. openerp-web
 #: code:addons/snailmail/static/src/components/snailmail_error_dialog/snailmail_error_dialog.xml:0
 #, python-format
-msgid "An unknown error occurred. Please contact our"
-msgstr "Er is een onbekende fout opgetreden. Neem contact op met onze"
+msgid ""
+"An unknown error occurred. Please contact our support for further assistance."
+msgstr ""
 
 #. module: snailmail
 #: code:addons/snailmail/wizard/snailmail_letter_cancel.py:0
@@ -772,16 +773,14 @@ msgstr "Postcode"
 msgid "by post. Are you sure you want to continue?"
 msgstr "per post. Weet je zeker dat je door wilt gaan?"
 
-#. module: snailmail
-#. openerp-web
-#: code:addons/snailmail/static/src/components/snailmail_error_dialog/snailmail_error_dialog.xml:0
 #, python-format
-msgid "for further assistance."
-msgstr "voor verdere assistentie."
+#~ msgid "An unknown error occurred. Please contact our"
+#~ msgstr "Er is een onbekende fout opgetreden. Neem contact op met onze"
 
-#. module: snailmail
-#. openerp-web
-#: code:addons/snailmail/static/src/components/snailmail_error_dialog/snailmail_error_dialog.xml:0
 #, python-format
-msgid "support"
-msgstr "support"
+#~ msgid "for further assistance."
+#~ msgstr "voor verdere assistentie."
+
+#, python-format
+#~ msgid "support"
+#~ msgstr "support"
