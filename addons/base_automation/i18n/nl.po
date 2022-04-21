@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 21:30+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -264,11 +264,6 @@ msgstr "Uren"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__id
 msgid "ID"
 msgstr "ID"
-
-#. module: base_automation
-#: model:ir.model.fields,help:base_automation.field_base_automation__xml_id
-msgid "ID of the action if defined in a XML file"
-msgstr "ID van de actie indien gedefinieerd in een XML bestand"
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
@@ -666,3 +661,6 @@ msgid ""
 msgstr ""
 "Je kunt geen e-mail verzenden, volgers toevoegen of een activiteit maken "
 "voor een verwijderd record. Het werkt gewoon niet."
+
+#~ msgid "ID of the action if defined in a XML file"
+#~ msgstr "ID van de actie indien gedefinieerd in een XML bestand"
