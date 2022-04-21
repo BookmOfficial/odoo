@@ -1,23 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* google_gmail
-# 
+#
 # Translators:
 # Martin Trigaux, 2022
 # Friederike Fasterling-Nesselbosch, 2022
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-25 14:36+0000\n"
+"POT-Creation-Date: 2022-04-15 22:00+0000\n"
 "PO-Revision-Date: 2022-03-03 13:58+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: google_gmail
@@ -60,9 +60,9 @@ msgid "Config Settings"
 msgstr "Impostazioni di configurazione"
 
 #. module: google_gmail
-#: model:ir.model.fields,field_description:google_gmail.field_google_gmail_mixin__display_name
-msgid "Display Name"
-msgstr "Nome visualizzato"
+#: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
+msgid "Get an Authorization Code"
+msgstr ""
 
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
@@ -89,16 +89,6 @@ msgstr "Gmail Client Secret"
 #: model:ir.model,name:google_gmail.model_google_gmail_mixin
 msgid "Google Gmail Mixin"
 msgstr "Google Gmail Mixin"
-
-#. module: google_gmail
-#: model:ir.model.fields,field_description:google_gmail.field_google_gmail_mixin__id
-msgid "ID"
-msgstr "ID"
-
-#. module: google_gmail
-#: model:ir.model.fields,field_description:google_gmail.field_google_gmail_mixin____last_update
-msgid "Last Modified on"
-msgstr "Ultima modifica il"
 
 #. module: google_gmail
 #: model:ir.model,name:google_gmail.model_ir_mail_server
@@ -136,3 +126,12 @@ msgstr "L'URL per generare il codice di autorizzazione di Google"
 #: model:ir.model.fields,field_description:google_gmail.field_ir_mail_server__google_gmail_uri
 msgid "URI"
 msgstr "URI"
+
+#~ msgid "Display Name"
+#~ msgstr "Nome visualizzato"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Ultima modifica il"
