@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:19+0000\n"
+"POT-Creation-Date: 2022-04-15 21:30+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -328,6 +328,13 @@ msgid "External ID"
 msgstr "Externe ID"
 
 #. module: base_import
+#. openerp-web
+#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
+#, python-format
+msgid "Field"
+msgstr ""
+
+#. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__field_name
 msgid "Field Name"
 msgstr "Veldnaam"
@@ -401,13 +408,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Go to Import FAQ"
-msgstr "Ga naar Veelgestelde vragen over importeren"
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
 msgid "Help"
 msgstr "Help"
 
@@ -445,16 +445,10 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                    the column names, Odoo can try auto-detecting the\n"
+"                    the column names, Bookm can try auto-detecting the\n"
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
-"Als het bestand bevat\n"
-"                    de kolomnamen, kan Odoo proberen de . automatisch te "
-"detecteren\n"
-"                    veld dat overeenkomt met de kolom. Dit maakt invoer\n"
-"                    eenvoudiger, vooral wanneer het bestand veel kolommen "
-"heeft."
 
 #. module: base_import
 #. openerp-web
@@ -483,13 +477,6 @@ msgstr ""
 #, python-format
 msgid "Import"
 msgstr "Importeren"
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
-msgid "Import FAQ"
-msgstr "Import FAQ"
 
 #. module: base_import
 #. openerp-web
@@ -687,13 +674,6 @@ msgstr "Geen overeenkomende records gevonden voor"
 #, python-format
 msgid "No matching records found for the following"
 msgstr "Geen overeenkomende records gevonden voor het volgende:"
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
-msgid "Odoo Field"
-msgstr "Odoo-veld"
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview__othervalue
@@ -1197,3 +1177,30 @@ msgstr "uit"
 #, python-format
 msgid "unknown error code %s"
 msgstr "Onbekende fout code %s"
+
+#, python-format
+#~ msgid "Go to Import FAQ"
+#~ msgstr "Ga naar Veelgestelde vragen over importeren"
+
+#, python-format
+#~ msgid ""
+#~ "If the file contains\n"
+#~ "                    the column names, Odoo can try auto-detecting the\n"
+#~ "                    field corresponding to the column. This makes "
+#~ "imports\n"
+#~ "                    simpler especially when the file has many columns."
+#~ msgstr ""
+#~ "Als het bestand bevat\n"
+#~ "                    de kolomnamen, kan Odoo proberen de . automatisch te "
+#~ "detecteren\n"
+#~ "                    veld dat overeenkomt met de kolom. Dit maakt invoer\n"
+#~ "                    eenvoudiger, vooral wanneer het bestand veel kolommen "
+#~ "heeft."
+
+#, python-format
+#~ msgid "Import FAQ"
+#~ msgstr "Import FAQ"
+
+#, python-format
+#~ msgid "Odoo Field"
+#~ msgstr "Odoo-veld"
