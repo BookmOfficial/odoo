@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 22:09+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -21,15 +21,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: im_livechat_mail_bot
+#: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__bot_state
+msgid "Bot Status"
+msgstr ""
+
+#. module: im_livechat_mail_bot
 #: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
 #, python-format
 msgid ""
 "Good, you can customize canned responses in the live chat application.<br/"
-"><br/><b>It's the end of this overview</b>, enjoy discovering Odoo!"
+"><br/><b>It's the end of this overview</b>, enjoy discovering Bookm!"
 msgstr ""
-"Gut, Sie können Antwortvorlagen in der Livechat app personalisieren.<br/>\n"
-"<br/><b>Das ist das Ende des Rundgangs</b>, viel spass dabei, Odoo zu "
-"entdecken!"
 
 #. module: im_livechat_mail_bot
 #: model:ir.model,name:im_livechat_mail_bot.model_mail_bot
@@ -48,12 +50,7 @@ msgstr ""
 "einen von ihnen aus und drücken Sie die Eingabetaste."
 
 #. module: im_livechat_mail_bot
-#: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "OdooBot Status"
-
-#. module: im_livechat_mail_bot
-#: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__odoobot_state__onboarding_canned
+#: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__bot_state__onboarding_canned
 msgid "Onboarding canned"
 msgstr "Onboarding Vorformuliert"
 
@@ -71,3 +68,16 @@ msgstr ""
 #: model:ir.model,name:im_livechat_mail_bot.model_res_users
 msgid "Users"
 msgstr "Benutzer"
+
+#, python-format
+#~ msgid ""
+#~ "Good, you can customize canned responses in the live chat application.<br/"
+#~ "><br/><b>It's the end of this overview</b>, enjoy discovering Odoo!"
+#~ msgstr ""
+#~ "Gut, Sie können Antwortvorlagen in der Livechat app personalisieren.<br/"
+#~ ">\n"
+#~ "<br/><b>Das ist das Ende des Rundgangs</b>, viel spass dabei, Odoo zu "
+#~ "entdecken!"
+
+#~ msgid "OdooBot Status"
+#~ msgstr "OdooBot Status"
