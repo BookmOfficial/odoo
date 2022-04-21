@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 21:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -53,31 +53,6 @@ msgstr "<span>l/km</span>"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "<span>kW</span>"
 msgstr "<span>kW</span>"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_1
-msgid "A/C Compressor Replacement"
-msgstr "Kälteklimakompressor (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_2
-msgid "A/C Condenser Replacement"
-msgstr "Kondensator (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_3
-msgid "A/C Diagnosis"
-msgstr "Diagnose Klimaanlage"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_4
-msgid "A/C Evaporator Replacement"
-msgstr "Wärmepumpe (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_5
-msgid "A/C Recharge"
-msgstr "Wiederaufladen der Batterie"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_needaction
@@ -149,19 +124,9 @@ msgid "Administrator"
 msgstr "Administrator"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_6
-msgid "Air Filter Replacement"
-msgstr "Luftfilter (Ersatz)"
-
-#. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "All vehicles"
 msgstr "Alle Fahrzeuge"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_7
-msgid "Alternator Replacement"
-msgstr "Lichtmaschine (Ersatz)"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
@@ -197,11 +162,6 @@ msgid "Assignment Logs"
 msgstr ""
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_9
-msgid "Assistance"
-msgstr "Pflege"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_attachment_count
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_attachment_count
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_attachment_count
@@ -225,21 +185,6 @@ msgid "Available"
 msgstr "Verfügbar"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_8
-msgid "Ball Joint Replacement"
-msgstr "Kugellager (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_9
-msgid "Battery Inspection"
-msgstr "Batterieinspektion"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_10
-msgid "Battery Replacement"
-msgstr "Ersatzbatterie"
-
-#. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_cost_report__vehicle_type__bike
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__vehicle_type__bike
 msgid "Bike"
@@ -251,21 +196,6 @@ msgid "Bikes"
 msgstr "Fahrräder"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_11
-msgid "Brake Caliper Replacement"
-msgstr "Bremsscheiben (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_12
-msgid "Brake Inspection"
-msgstr "Bremseninspektion"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_13
-msgid "Brake Pad(s) Replacement"
-msgstr "Bremsbeläge (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__brand_id
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Brand"
@@ -275,11 +205,6 @@ msgstr "Marke"
 #: model:ir.model,name:fleet.model_fleet_vehicle_model_brand
 msgid "Brand of the vehicle"
 msgstr "Marke des Fahrzeuges"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_break
-msgid "Break"
-msgstr "Bremse"
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__cng
@@ -304,11 +229,6 @@ msgid "CO2 emissions of the vehicle"
 msgstr "CO2 Emission des Fahrzeugs"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_1
-msgid "Calculation Benefit In Kind"
-msgstr "Kalkulation mit Gewinnspanne"
-
-#. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -325,11 +245,6 @@ msgid "Car"
 msgstr "Auto"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_14
-msgid "Car Wash"
-msgstr "Fahrzeugwäsche"
-
-#. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Cars"
 msgstr "Autos"
@@ -338,11 +253,6 @@ msgstr "Autos"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__car_value
 msgid "Catalog Value (VAT Incl.)"
 msgstr "Katalogwert (MwSt. incl.)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_15
-msgid "Catalytic Converter Replacement"
-msgstr "Katalysator (Ersatz)"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type__category
@@ -365,11 +275,6 @@ msgstr ""
 #: model:mail.message.subtype,name:fleet.mt_fleet_driver_updated
 msgid "Changed Driver"
 msgstr "Fahrer wechseln"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_16
-msgid "Charging System Diagnosis"
-msgstr "Diagnose Batterieladesystem"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__vin_sn
@@ -419,11 +324,6 @@ msgstr "Farbkennzeichnung"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__color
 msgid "Color of the vehicle"
 msgstr "Farbe des Fahrzeugs"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_compact
-msgid "Compact"
-msgstr "Kompaktklasse"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__company_id
@@ -509,11 +409,6 @@ msgstr "Vertrag(s)"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Contracts"
 msgstr "Verträge"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_convertible
-msgid "Convertible"
-msgstr "Kabrio"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__cost
@@ -686,11 +581,6 @@ msgid "Delay alert contract outdated"
 msgstr "Verspätungsalarmvertrag veraltet"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_2
-msgid "Depreciation and Interests"
-msgstr "Abschreibung und Wertverlust"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__description
 msgid "Description"
 msgstr "Beschreibung"
@@ -726,11 +616,6 @@ msgstr "Anzeigename"
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_services__state__done
 msgid "Done"
 msgstr "Erledigt"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_17
-msgid "Door Window Motor/Regulator Replacement"
-msgstr "Tür / Fenster / Fensterheber (Ersatz)"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__doors
@@ -826,16 +711,6 @@ msgid "Electric Assistance"
 msgstr ""
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_17
-msgid "Emissions"
-msgstr "Emission"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_leasing
-msgid "Employee Car"
-msgstr "Mitarbeiterfahrzeug"
-
-#. module: fleet
 #: code:addons/fleet/models/fleet_vehicle_log_services.py:0
 #, python-format
 msgid "Emptying the odometer value of a vehicle is not allowed."
@@ -852,31 +727,6 @@ msgstr "Enddatum"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Engine"
 msgstr ""
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_18
-msgid "Engine Belt Inspection"
-msgstr "Zahnriemen Inspektion"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_19
-msgid "Engine Coolant Replacement"
-msgstr "Motorkühler (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_20
-msgid "Engine/Drive Belt(s) Replacement"
-msgstr "Keilriemen (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_13
-msgid "Entry into service tax"
-msgstr "Anmeldegebühr"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_21
-msgid "Exhaust Manifold Replacement"
-msgstr "Abgaskrümmer (Ersatz)"
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__contract_state__expired
@@ -986,16 +836,6 @@ msgid "Fuel"
 msgstr "Treibstoff"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_22
-msgid "Fuel Injector Replacement"
-msgstr "Einfüllstutzen (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_23
-msgid "Fuel Pump Replacement"
-msgstr "Ölpumpe (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__fuel_type
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__default_fuel_type
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
@@ -1054,31 +894,6 @@ msgstr "Es gibt zu erneuernde Verträge"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__has_message
 msgid "Has Message"
 msgstr "Hat eine Nachricht"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_24
-msgid "Head Gasket(s) Replacement"
-msgstr "Abgasanlage (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_25
-msgid "Heater Blower Motor Replacement"
-msgstr "Kühlwasserpumpe (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_26
-msgid "Heater Control Valve Replacement"
-msgstr "Wärmetauscher (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_27
-msgid "Heater Core Replacement"
-msgstr "Heizungsanlage (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_28
-msgid "Heater Hose Replacement"
-msgstr "Heizschlauch (Ersatz)"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__horsepower
@@ -1158,11 +973,6 @@ msgid "If checked, some messages have a delivery error."
 msgstr "Wenn gewählt, ist das Senden einiger Nachrichten fehlgeschlagen."
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_29
-msgid "Ignition Coil Replacement"
-msgstr "Zündspule (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__acquisition_date
 msgid "Immatriculation Date"
 msgstr "Zulassungsdatum"
@@ -1192,11 +1002,6 @@ msgid "Information"
 msgstr "Information"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_30
-msgid "Intake Manifold Gasket Replacement"
-msgstr "Ansaugfilter (Ersatz)"
-
-#. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Invoice Date"
 msgstr "Rechnungsdatum"
@@ -1207,11 +1012,6 @@ msgstr "Rechnungsdatum"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_is_follower
 msgid "Is Follower"
 msgstr "Ist ein Abonnent"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_junior
-msgid "Junior"
-msgstr "Anfängerauto"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_kanban
@@ -1287,11 +1087,6 @@ msgid "Late Activities"
 msgstr "Verspätete Aktivitäten"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_contract_leasing
-msgid "Leasing"
-msgstr "Leasing"
-
-#. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid "Let's create your first vehicle."
 msgstr "Legen Sie Ihr ersten Fahrzeug an."
@@ -1345,22 +1140,14 @@ msgstr "Marke"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. Bookm will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
-"Verwalten Sie Ihre Verträge (Leasing, Versicherungen, etc.) mit\n"
-" den damit verbundenen Dienstleistungen, Kosten. Odoo warnt Sie automatisch, "
-"wenn einige Verträge verlängert werden müssen."
 
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
-msgid "Manage efficiently your different effective vehicles Costs with Odoo."
+msgid "Manage efficiently your different effective vehicles Costs with Bookm."
 msgstr ""
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_11
-msgid "Management Fee"
-msgstr "Verwaltungsgebühren"
 
 #. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__transmission__manual
@@ -1656,41 +1443,6 @@ msgid "Odometers"
 msgstr ""
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_31
-msgid "Oil Change"
-msgstr "Ölwechsel"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_32
-msgid "Oil Pump Replacement"
-msgstr "Ölpumpe (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_contract_omnium
-msgid "Omnium"
-msgstr "Kaskovertrag"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_16
-msgid "Options"
-msgstr "Optionen"
-
-#. module: fleet
-#: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_ordered
-msgid "Ordered"
-msgstr "Bestellt"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_33
-msgid "Other Maintenance"
-msgstr "Weitere Wartung"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_34
-msgid "Oxygen Sensor Replacement"
-msgstr "Katalysator (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__plan_to_change_bike
 #: model:ir.model.fields,field_description:fleet.field_res_partner__plan_to_change_bike
 #: model:ir.model.fields,field_description:fleet.field_res_users__plan_to_change_bike
@@ -1728,16 +1480,6 @@ msgid "Power"
 msgstr "Maximum Ausgleichspositionen"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_35
-msgid "Power Steering Hose Replacement"
-msgstr "Lenkschlauch (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_36
-msgid "Power Steering Pump Replacement"
-msgstr "Servopumpe (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__power
 msgid "Power in kW of the vehicle"
 msgstr "Motorleistung in KW"
@@ -1756,16 +1498,6 @@ msgstr ""
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__net_car_value
 msgid "Purchase value of the vehicle"
 msgstr "Kaufwert des Fahrzeugs"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_purchased
-msgid "Purchased"
-msgstr "Eingekauft"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_37
-msgid "Radiator Repair"
-msgstr "Radiator (Ersatz)"
 
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_action
@@ -1788,44 +1520,14 @@ msgid "Reference"
 msgstr "Referenz"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_refueling
-msgid "Refueling"
-msgstr "Auftanken"
-
-#. module: fleet
 #: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_registered
 msgid "Registered"
 msgstr "Registriert"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_12
-msgid "Rent (Excluding VAT)"
-msgstr "Miete (exklusive Steuer)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_8
-msgid "Repair and maintenance"
-msgstr "Reparaturen und Wartung"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_contract_repairing
-msgid "Repairing"
-msgstr "Wird repariert"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_10
-msgid "Replacement Vehicle"
-msgstr "Fahrzeugersatz"
-
-#. module: fleet
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting
 msgid "Reporting"
 msgstr "Berichtswesen"
-
-#. module: fleet
-#: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_reserve
-msgid "Reserve"
-msgstr "Reservieren"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -1836,16 +1538,6 @@ msgstr "Stornieren"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__residual_value
 msgid "Residual Value"
 msgstr "Restbuchwert"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_15
-msgid "Residual value (Excluding VAT)"
-msgstr "Restwert (exklusive Steuer)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_19
-msgid "Residual value in %"
-msgstr "Restwert in %"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__user_id
@@ -1860,21 +1552,6 @@ msgid "Responsible User"
 msgstr "Manager Veranstaltung"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_38
-msgid "Resurface Rotors"
-msgstr "Bremsscheiben (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_39
-msgid "Rotate Tires"
-msgstr "Reifenwechsel"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_40
-msgid "Rotor Replacement"
-msgstr "Motorlüfter (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_services__state__running
 msgid "Running"
 msgstr "Laufend"
@@ -1884,16 +1561,6 @@ msgstr "Laufend"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__seats
 msgid "Seats Number"
 msgstr "Sitzanzahl"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_sedan
-msgid "Sedan"
-msgstr "Reiselimousine"
-
-#. module: fleet
-#: model:fleet.vehicle.tag,name:fleet.vehicle_tag_senior
-msgid "Senior"
-msgstr "Senior"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_category__sequence
@@ -1959,16 +1626,6 @@ msgid "Show all records which has next action date is before today"
 msgstr "Alle Datensätze mit vor heute geplanten Aktionen anzeigen"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_6
-msgid "Snow tires"
-msgstr "Winterreifen"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_41
-msgid "Spark Plug Replacement"
-msgstr "Zündkerze (Ersatz)"
-
-#. module: fleet
 #: code:addons/fleet/models/fleet_vehicle.py:0
 #, python-format
 msgid "Specify the End date of %s"
@@ -1988,11 +1645,6 @@ msgstr "Beginn des Vertrags"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__date_start
 msgid "Start Date"
 msgstr "Startdatum"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_42
-msgid "Starter Replacement"
-msgstr "Anlasser (Ersatz)"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__state_id
@@ -2032,12 +1684,6 @@ msgid "Sum of Cost"
 msgstr "Summe Kosten"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_5
-#: model:fleet.service.type,name:fleet.type_service_service_7
-msgid "Summer tires"
-msgstr "Sommerreifen"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__name
 msgid "Tag Name"
 msgstr "Tag Bezeichnung"
@@ -2058,11 +1704,6 @@ msgid "Tax Info"
 msgstr ""
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_3
-msgid "Tax roll"
-msgstr "Steuerabrechnung"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__notes
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Terms and Conditions"
@@ -2078,11 +1719,6 @@ msgstr ""
 "Sie können dieses Feld auch für eine Schnellsuche einsetzen."
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_43
-msgid "Thermostat Replacement"
-msgstr "Temperaturregler (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__next_assignation_date
 msgid ""
 "This is the date at which the car will be available, if not set it means "
@@ -2090,21 +1726,6 @@ msgid ""
 msgstr ""
 "Dies ist das Datum, an dem das Auto verfügbar sein wird. Wenn nicht anders "
 "angegeben, ist es sofort verfügbar."
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_44
-msgid "Tie Rod End Replacement"
-msgstr "Spurstange (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_45
-msgid "Tire Replacement"
-msgstr "Reifenwechsel"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_46
-msgid "Tire Service"
-msgstr "Reifenwechselservice"
 
 #. module: fleet
 #: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_to_order
@@ -2123,19 +1744,9 @@ msgid "Total"
 msgstr "Total"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_14
-msgid "Total expenses (Excluding VAT)"
-msgstr "Gesamtkosten (exklusive Steuern)"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_renewal_total
 msgid "Total of contracts due or overdue minus one"
 msgstr "Zur Erneuerung fällige oder überfällige Verträge minus eins"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_service_18
-msgid "Touring Assistance"
-msgstr "Tourenassistenz"
 
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
@@ -2164,21 +1775,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__transmission
 msgid "Transmission"
 msgstr "Getriebe"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_47
-msgid "Transmission Filter Replacement"
-msgstr "Motorfilter (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_48
-msgid "Transmission Fluid Replacement"
-msgstr "Austausch des Getriebeöls"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_49
-msgid "Transmission Replacement"
-msgstr "Antrieb (Ersatz)"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__transmission
@@ -2376,11 +1972,6 @@ msgid "Vendors"
 msgstr "Lieferanten"
 
 #. module: fleet
-#: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_waiting_list
-msgid "Waiting List"
-msgstr "Warteliste"
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__days_left
 msgid "Warning Date"
 msgstr "Erinnerung Datum"
@@ -2391,11 +1982,6 @@ msgid "Warning: renewal due soon"
 msgstr "Warnung: Erneuerung bald fällig"
 
 #. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_50
-msgid "Water Pump Replacement"
-msgstr "Wasserpumpe (Ersatz)"
-
-#. module: fleet
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__frame_type__wave
 msgid "Wave"
 msgstr "Welle"
@@ -2404,21 +1990,6 @@ msgstr "Welle"
 #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__cost_frequency__weekly
 msgid "Weekly"
 msgstr "Wöchentlich"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_51
-msgid "Wheel Alignment"
-msgstr "Achsvermessung"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_52
-msgid "Wheel Bearing Replacement"
-msgstr "Radlager (Ersatz)"
-
-#. module: fleet
-#: model:fleet.service.type,name:fleet.type_service_53
-msgid "Windshield Wiper(s) Replacement"
-msgstr "Scheibenwischer (Ersatz)"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_search
@@ -2524,6 +2095,270 @@ msgstr "zeigt die Kilometerstände des Fahrzeugs"
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the services logs for this vehicle"
 msgstr "Anzeige der Wartungsprotokolle"
+
+#~ msgid "A/C Compressor Replacement"
+#~ msgstr "Kälteklimakompressor (Ersatz)"
+
+#~ msgid "A/C Condenser Replacement"
+#~ msgstr "Kondensator (Ersatz)"
+
+#~ msgid "A/C Diagnosis"
+#~ msgstr "Diagnose Klimaanlage"
+
+#~ msgid "A/C Evaporator Replacement"
+#~ msgstr "Wärmepumpe (Ersatz)"
+
+#~ msgid "A/C Recharge"
+#~ msgstr "Wiederaufladen der Batterie"
+
+#~ msgid "Air Filter Replacement"
+#~ msgstr "Luftfilter (Ersatz)"
+
+#~ msgid "Alternator Replacement"
+#~ msgstr "Lichtmaschine (Ersatz)"
+
+#~ msgid "Assistance"
+#~ msgstr "Pflege"
+
+#~ msgid "Ball Joint Replacement"
+#~ msgstr "Kugellager (Ersatz)"
+
+#~ msgid "Battery Inspection"
+#~ msgstr "Batterieinspektion"
+
+#~ msgid "Battery Replacement"
+#~ msgstr "Ersatzbatterie"
+
+#~ msgid "Brake Caliper Replacement"
+#~ msgstr "Bremsscheiben (Ersatz)"
+
+#~ msgid "Brake Inspection"
+#~ msgstr "Bremseninspektion"
+
+#~ msgid "Brake Pad(s) Replacement"
+#~ msgstr "Bremsbeläge (Ersatz)"
+
+#~ msgid "Break"
+#~ msgstr "Bremse"
+
+#~ msgid "Calculation Benefit In Kind"
+#~ msgstr "Kalkulation mit Gewinnspanne"
+
+#~ msgid "Car Wash"
+#~ msgstr "Fahrzeugwäsche"
+
+#~ msgid "Catalytic Converter Replacement"
+#~ msgstr "Katalysator (Ersatz)"
+
+#~ msgid "Charging System Diagnosis"
+#~ msgstr "Diagnose Batterieladesystem"
+
+#~ msgid "Compact"
+#~ msgstr "Kompaktklasse"
+
+#~ msgid "Convertible"
+#~ msgstr "Kabrio"
+
+#~ msgid "Depreciation and Interests"
+#~ msgstr "Abschreibung und Wertverlust"
+
+#~ msgid "Door Window Motor/Regulator Replacement"
+#~ msgstr "Tür / Fenster / Fensterheber (Ersatz)"
+
+#~ msgid "Emissions"
+#~ msgstr "Emission"
+
+#~ msgid "Employee Car"
+#~ msgstr "Mitarbeiterfahrzeug"
+
+#~ msgid "Engine Belt Inspection"
+#~ msgstr "Zahnriemen Inspektion"
+
+#~ msgid "Engine Coolant Replacement"
+#~ msgstr "Motorkühler (Ersatz)"
+
+#~ msgid "Engine/Drive Belt(s) Replacement"
+#~ msgstr "Keilriemen (Ersatz)"
+
+#~ msgid "Entry into service tax"
+#~ msgstr "Anmeldegebühr"
+
+#~ msgid "Exhaust Manifold Replacement"
+#~ msgstr "Abgaskrümmer (Ersatz)"
+
+#~ msgid "Fuel Injector Replacement"
+#~ msgstr "Einfüllstutzen (Ersatz)"
+
+#~ msgid "Fuel Pump Replacement"
+#~ msgstr "Ölpumpe (Ersatz)"
+
+#~ msgid "Head Gasket(s) Replacement"
+#~ msgstr "Abgasanlage (Ersatz)"
+
+#~ msgid "Heater Blower Motor Replacement"
+#~ msgstr "Kühlwasserpumpe (Ersatz)"
+
+#~ msgid "Heater Control Valve Replacement"
+#~ msgstr "Wärmetauscher (Ersatz)"
+
+#~ msgid "Heater Core Replacement"
+#~ msgstr "Heizungsanlage (Ersatz)"
+
+#~ msgid "Heater Hose Replacement"
+#~ msgstr "Heizschlauch (Ersatz)"
+
+#~ msgid "Ignition Coil Replacement"
+#~ msgstr "Zündspule (Ersatz)"
+
+#~ msgid "Intake Manifold Gasket Replacement"
+#~ msgstr "Ansaugfilter (Ersatz)"
+
+#~ msgid "Junior"
+#~ msgstr "Anfängerauto"
+
+#~ msgid "Leasing"
+#~ msgstr "Leasing"
+
+#~ msgid ""
+#~ "Manage all your contracts (leasing, insurances, etc.) with\n"
+#~ "            their related services, costs. Odoo will automatically warn\n"
+#~ "            you when some contracts have to be renewed."
+#~ msgstr ""
+#~ "Verwalten Sie Ihre Verträge (Leasing, Versicherungen, etc.) mit\n"
+#~ " den damit verbundenen Dienstleistungen, Kosten. Odoo warnt Sie "
+#~ "automatisch, wenn einige Verträge verlängert werden müssen."
+
+#~ msgid "Management Fee"
+#~ msgstr "Verwaltungsgebühren"
+
+#~ msgid "Oil Change"
+#~ msgstr "Ölwechsel"
+
+#~ msgid "Oil Pump Replacement"
+#~ msgstr "Ölpumpe (Ersatz)"
+
+#~ msgid "Omnium"
+#~ msgstr "Kaskovertrag"
+
+#~ msgid "Options"
+#~ msgstr "Optionen"
+
+#~ msgid "Ordered"
+#~ msgstr "Bestellt"
+
+#~ msgid "Other Maintenance"
+#~ msgstr "Weitere Wartung"
+
+#~ msgid "Oxygen Sensor Replacement"
+#~ msgstr "Katalysator (Ersatz)"
+
+#~ msgid "Power Steering Hose Replacement"
+#~ msgstr "Lenkschlauch (Ersatz)"
+
+#~ msgid "Power Steering Pump Replacement"
+#~ msgstr "Servopumpe (Ersatz)"
+
+#~ msgid "Purchased"
+#~ msgstr "Eingekauft"
+
+#~ msgid "Radiator Repair"
+#~ msgstr "Radiator (Ersatz)"
+
+#~ msgid "Refueling"
+#~ msgstr "Auftanken"
+
+#~ msgid "Rent (Excluding VAT)"
+#~ msgstr "Miete (exklusive Steuer)"
+
+#~ msgid "Repair and maintenance"
+#~ msgstr "Reparaturen und Wartung"
+
+#~ msgid "Repairing"
+#~ msgstr "Wird repariert"
+
+#~ msgid "Replacement Vehicle"
+#~ msgstr "Fahrzeugersatz"
+
+#~ msgid "Reserve"
+#~ msgstr "Reservieren"
+
+#~ msgid "Residual value (Excluding VAT)"
+#~ msgstr "Restwert (exklusive Steuer)"
+
+#~ msgid "Residual value in %"
+#~ msgstr "Restwert in %"
+
+#~ msgid "Resurface Rotors"
+#~ msgstr "Bremsscheiben (Ersatz)"
+
+#~ msgid "Rotate Tires"
+#~ msgstr "Reifenwechsel"
+
+#~ msgid "Rotor Replacement"
+#~ msgstr "Motorlüfter (Ersatz)"
+
+#~ msgid "Sedan"
+#~ msgstr "Reiselimousine"
+
+#~ msgid "Senior"
+#~ msgstr "Senior"
+
+#~ msgid "Snow tires"
+#~ msgstr "Winterreifen"
+
+#~ msgid "Spark Plug Replacement"
+#~ msgstr "Zündkerze (Ersatz)"
+
+#~ msgid "Starter Replacement"
+#~ msgstr "Anlasser (Ersatz)"
+
+#~ msgid "Summer tires"
+#~ msgstr "Sommerreifen"
+
+#~ msgid "Tax roll"
+#~ msgstr "Steuerabrechnung"
+
+#~ msgid "Thermostat Replacement"
+#~ msgstr "Temperaturregler (Ersatz)"
+
+#~ msgid "Tie Rod End Replacement"
+#~ msgstr "Spurstange (Ersatz)"
+
+#~ msgid "Tire Replacement"
+#~ msgstr "Reifenwechsel"
+
+#~ msgid "Tire Service"
+#~ msgstr "Reifenwechselservice"
+
+#~ msgid "Total expenses (Excluding VAT)"
+#~ msgstr "Gesamtkosten (exklusive Steuern)"
+
+#~ msgid "Touring Assistance"
+#~ msgstr "Tourenassistenz"
+
+#~ msgid "Transmission Filter Replacement"
+#~ msgstr "Motorfilter (Ersatz)"
+
+#~ msgid "Transmission Fluid Replacement"
+#~ msgstr "Austausch des Getriebeöls"
+
+#~ msgid "Transmission Replacement"
+#~ msgstr "Antrieb (Ersatz)"
+
+#~ msgid "Waiting List"
+#~ msgstr "Warteliste"
+
+#~ msgid "Water Pump Replacement"
+#~ msgstr "Wasserpumpe (Ersatz)"
+
+#~ msgid "Wheel Alignment"
+#~ msgstr "Achsvermessung"
+
+#~ msgid "Wheel Bearing Replacement"
+#~ msgstr "Radlager (Ersatz)"
+
+#~ msgid "Windshield Wiper(s) Replacement"
+#~ msgstr "Scheibenwischer (Ersatz)"
 
 #~ msgid "Hybrid"
 #~ msgstr "Hybrid"
