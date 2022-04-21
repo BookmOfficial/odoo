@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"POT-Creation-Date: 2022-04-15 23:14+0000\n"
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: RHTodoo, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -126,6 +126,14 @@ msgstr "Délai de réception moyen"
 
 #. module: purchase_stock
 #: code:addons/purchase_stock/models/stock.py:0
+#, python-format
+msgid ""
+"Bookm is not able to generate the anglo saxon entries. The total valuation "
+"of %s is zero."
+msgstr ""
+
+#. module: purchase_stock
+#: code:addons/purchase_stock/models/stock.py:0
 #: model:ir.model.fields.selection,name:purchase_stock.selection__stock_rule__action__buy
 #: model:stock.location.route,name:purchase_stock.route_warehouse0_buy
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_report_stock_rule
@@ -221,12 +229,6 @@ msgstr "Type d'emplacement de destination"
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__display_name
 msgid "Display Name"
 msgstr "Nom affiché"
-
-#. module: purchase_stock
-#: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
-#: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
-msgid "Documentation"
-msgstr "Documentation"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__move_dest_ids
@@ -390,16 +392,6 @@ msgstr "Prochain(s) transfert(s) impacté(s):"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "No data yet"
 msgstr "Pas de données"
-
-#. module: purchase_stock
-#: code:addons/purchase_stock/models/account_invoice.py:0
-#, python-format
-msgid ""
-"Odoo is not able to generate the anglo saxon entries. The total valuation of "
-"%s is zero."
-msgstr ""
-"Odoo n'est pas capable de générer les écritures anglo-saxonnes. La "
-"valorisation totale de %s est zéro"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.vendor_delay_report_view_graph
@@ -822,3 +814,14 @@ msgstr "de"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "ordered instead of"
 msgstr "Commandé à la place de"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#, python-format
+#~ msgid ""
+#~ "Odoo is not able to generate the anglo saxon entries. The total valuation "
+#~ "of %s is zero."
+#~ msgstr ""
+#~ "Odoo n'est pas capable de générer les écritures anglo-saxonnes. La "
+#~ "valorisation totale de %s est zéro"
