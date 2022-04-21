@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -180,11 +180,6 @@ msgid "Configuration"
 msgstr "Configurazione"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor7
-msgid "Consulting"
-msgstr "Consulenza"
-
-#. module: sales_team
 #: model:ir.model,name:sales_team.model_res_partner
 msgid "Contact"
 msgstr "Contatto"
@@ -243,11 +238,6 @@ msgstr "Dati grafico bacheca"
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_sales
 msgid "Define a new sales team"
 msgstr "Definisci un nuovo team di vendita"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor5
-msgid "Design"
-msgstr "Progettazione"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__display_name
@@ -369,11 +359,6 @@ msgid "Image (128)"
 msgstr ""
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor4
-msgid "Information"
-msgstr "Informazioni"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_is_follower
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_is_follower
 msgid "Is Follower"
@@ -402,9 +387,7 @@ msgstr "Ultimo aggiornamento il"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
-msgid ""
-"Link salespersons to sales teams. Set their monthly lead capacity\n"
-"                and configure automatic lead assignment."
+msgid "Link salespersons to sales teams."
 msgstr ""
 
 #. module: sales_team
@@ -502,11 +485,6 @@ msgid "Number of unread messages"
 msgstr "Numero di messaggi non letti"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor8
-msgid "Other"
-msgstr "Altro"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__phone
 msgid "Phone"
 msgstr "Telefono"
@@ -515,16 +493,6 @@ msgstr "Telefono"
 #: model:crm.team,name:sales_team.pos_sales_team
 msgid "Point of Sale"
 msgstr "Punto vendita"
-
-#. module: sales_team
-#: model:crm.team,name:sales_team.crm_team_1
-msgid "Pre-Sales"
-msgstr "Pre-vendita"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor1
-msgid "Product"
-msgstr "Prodotto"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.team_sales_department
@@ -604,19 +572,9 @@ msgid "Sequence"
 msgstr "Sequenza"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor3
-msgid "Services"
-msgstr "Servizi"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_favorite
 msgid "Show on dashboard"
 msgstr "Mostrare nella bacheca"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor2
-msgid "Software"
-msgstr "Software"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__name
@@ -684,11 +642,6 @@ msgid ""
 msgstr ""
 "Per aggiungere un rappresentante in più squadre, attiva l'opzione Multi-Team "
 "nelle impostazioni."
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor6
-msgid "Training"
-msgstr "Formazione"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_in_teams_ids
@@ -826,3 +779,30 @@ msgid ""
 "reports."
 msgstr ""
 "Utente con accesso alla configurazione delle vendite e alle statistiche."
+
+#~ msgid "Consulting"
+#~ msgstr "Consulenza"
+
+#~ msgid "Design"
+#~ msgstr "Progettazione"
+
+#~ msgid "Information"
+#~ msgstr "Informazioni"
+
+#~ msgid "Other"
+#~ msgstr "Altro"
+
+#~ msgid "Pre-Sales"
+#~ msgstr "Pre-vendita"
+
+#~ msgid "Product"
+#~ msgstr "Prodotto"
+
+#~ msgid "Services"
+#~ msgstr "Servizi"
+
+#~ msgid "Software"
+#~ msgstr "Software"
+
+#~ msgid "Training"
+#~ msgstr "Formazione"
