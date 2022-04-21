@@ -1,26 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* barcodes_gs1_nomenclature
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Alexandra Jubert <aju@odoo.com>, 2021
 # Steve Van Essche <svs@odoo.com>, 2021
 # Cécile Collart <cco@odoo.com>, 2021
 # Thomas Deleval <thd@odoo.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 14:47+0000\n"
+"POT-Creation-Date: 2022-04-15 21:30+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Thomas Deleval <thd@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: barcodes_gs1_nomenclature
@@ -31,13 +31,13 @@ msgstr "Nom alphanumérique"
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_nomenclature__gs1_separator_fnc1
 msgid ""
-"Alternative regex delimiter for the FNC1 (by default, if not set, it is <GS>"
-" ASCII 29 char). The separator must not match the begin/end of any related "
+"Alternative regex delimiter for the FNC1 (by default, if not set, it is <GS> "
+"ASCII 29 char). The separator must not match the begin/end of any related "
 "rules pattern."
 msgstr ""
-"Délimiteur regex alternatif pour le FNC1 (par défaut il s'agit du charactère"
-" <GS>ASCII 29). Le délimiteur ne peut correspondre au début ou fin d'ue "
-"autre règle. "
+"Délimiteur regex alternatif pour le FNC1 (par défaut il s'agit du charactère "
+"<GS>ASCII 29). Le délimiteur ne peut correspondre au début ou fin d'ue autre "
+"règle. "
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__associated_uom_id
@@ -134,8 +134,8 @@ msgstr "Lieu"
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__type__lot
-msgid "Lot"
-msgstr "Lot"
+msgid "Lot number"
+msgstr ""
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__measure
@@ -177,16 +177,11 @@ msgstr "Le séparateur alternatif FNC1 n'est pas un regex valide:"
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_rule__gs1_content_type
 msgid ""
 "The GS1 content type defines what kind of data the rule will process the "
-"barcode as:        * Date: the barcode will be converted into a Odoo "
+"barcode as:        * Date: the barcode will be converted into a Bookm "
 "datetime;        * Measure: the barcode's value is related to a specific "
 "UoM;        * Numeric Identifier: fixed length barcode following a specific "
 "encoding;        * Alpha-Numeric Name: variable length barcode."
 msgstr ""
-"Le type de contenu GS1 définit ce quelles données cette règle va gérer:   "
-"*Date: le code-barres sera converti en datetime Odoo;     *Mesure:  le code-"
-"barres est relatif à une unité de mesure spécifique;     *Numeric "
-"Identifier: code-barres de taille fixe suivi d'un encodage spécifique;     "
-"*Nom Alpha-numérique: code-barres à taille variable"
 
 #. module: barcodes_gs1_nomenclature
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_rule.py:0
@@ -211,12 +206,17 @@ msgstr ""
 #, python-format
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
-"If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
-"Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
+"If this rule uses decimal, check it can't get sometime else than a digit as "
+"last char for the Application Identifier.\n"
+"Check also the possible matched values can only be digits, otherwise the "
+"value can't be casted as a measure."
 msgstr ""
 "Il y a une erreur avec le modele de règle \"%s\".\n"
-"Si cette règle utilise des décimales, veillez à ce qu'il ne puisse jamais obtenir autre chose qu'un chiffre comme dernier caractère de l'Application Identifier.\n"
-"Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
+"Si cette règle utilise des décimales, veillez à ce qu'il ne puisse jamais "
+"obtenir autre chose qu'un chiffre comme dernier caractère de l'Application "
+"Identifier.\n"
+"Check also the possible matched values can only be digits, otherwise the "
+"value can't be casted as a measure."
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_nomenclature__is_gs1_nomenclature
@@ -255,3 +255,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__type
 msgid "Type"
 msgstr "Type"
+
+#~ msgid "Lot"
+#~ msgstr "Lot"
+
+#~ msgid ""
+#~ "The GS1 content type defines what kind of data the rule will process the "
+#~ "barcode as:        * Date: the barcode will be converted into a Odoo "
+#~ "datetime;        * Measure: the barcode's value is related to a specific "
+#~ "UoM;        * Numeric Identifier: fixed length barcode following a "
+#~ "specific encoding;        * Alpha-Numeric Name: variable length barcode."
+#~ msgstr ""
+#~ "Le type de contenu GS1 définit ce quelles données cette règle va gérer:   "
+#~ "*Date: le code-barres sera converti en datetime Odoo;     *Mesure:  le "
+#~ "code-barres est relatif à une unité de mesure spécifique;     *Numeric "
+#~ "Identifier: code-barres de taille fixe suivi d'un encodage "
+#~ "spécifique;     *Nom Alpha-numérique: code-barres à taille variable"
