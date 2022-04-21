@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -232,6 +232,7 @@ msgid "Company country"
 msgstr "Land bedrijf"
 
 #. module: hr_contract
+#: model:ir.model,name:hr_contract.model_hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_id
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_departure_wizard_view_form
@@ -475,11 +476,6 @@ msgid "Employee"
 msgstr "Werknemer"
 
 #. module: hr_contract
-#: model:ir.model,name:hr_contract.model_hr_contract
-msgid "Employee Contract"
-msgstr "Arbeidsovereenkomst"
-
-#. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__contract_ids
 msgid "Employee Contracts"
 msgstr "Werknemer contracten"
@@ -625,6 +621,7 @@ msgstr "Indien aangevinkt vragen nieuwe berichten je aandacht."
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_error
+#: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "indien aangevinkt hebben sommige leveringen een fout."
 
@@ -831,6 +828,11 @@ msgid "Running Contracts"
 msgstr "Lopende contracten"
 
 #. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Salary Information"
 msgstr "Salaris informatie"
@@ -976,6 +978,16 @@ msgid "Wage"
 msgstr "Salaris"
 
 #. module: hr_contract
+#: model:ir.model.fields,field_description:hr_contract.field_hr_contract__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: hr_contract
+#: model:ir.model.fields,help:hr_contract.field_hr_contract__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__permit_no
 msgid "Work Permit No"
 msgstr "Werkvergunning nr."
@@ -986,3 +998,6 @@ msgstr "Werkvergunning nr."
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Working Schedule"
 msgstr "Werktijden"
+
+#~ msgid "Employee Contract"
+#~ msgstr "Arbeidsovereenkomst"
