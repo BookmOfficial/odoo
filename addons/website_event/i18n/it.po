@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:19+0000\n"
+"POT-Creation-Date: 2022-04-15 23:50+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -343,16 +343,9 @@ msgstr "Quesiti per i partecipanti al momento della registrazione online"
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.s_speaker_bio
 msgid ""
-"At just 13 years old, John DOE was already starting to develop his first "
-"business applications for customers. After mastering civil engineering, he "
-"founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"At just 22 years old, John DOE had already developed many business "
+"applications for customers. After that the only way was up!"
 msgstr ""
-"A soli 13 anni Mario ROSSI aveva già iniziato a sviluppare la sua prima "
-"applicazione aziendale per i clienti. Dopo la laurea magistrale in "
-"ingegneria civile ha fondato TinyERP, la prima tappa di OpenERP che più "
-"tardi sarebbe diventato Odoo, il software aziendale open source più "
-"installato al mondo."
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
@@ -1271,6 +1264,18 @@ msgstr "disponibile/i)"
 #: model_terms:ir.ui.view,arch_db:website_event.event_description_full
 msgid "iCal/Outlook"
 msgstr "iCal/Outlook"
+
+#~ msgid ""
+#~ "At just 13 years old, John DOE was already starting to develop his first "
+#~ "business applications for customers. After mastering civil engineering, "
+#~ "he founded TinyERP. This was the first phase of OpenERP which would later "
+#~ "became Odoo, the most installed open-source business software worldwide."
+#~ msgstr ""
+#~ "A soli 13 anni Mario ROSSI aveva già iniziato a sviluppare la sua prima "
+#~ "applicazione aziendale per i clienti. Dopo la laurea magistrale in "
+#~ "ingegneria civile ha fondato TinyERP, la prima tappa di OpenERP che più "
+#~ "tardi sarebbe diventato Odoo, il software aziendale open source più "
+#~ "installato al mondo."
 
 #, python-format
 #~ msgid "Start 🠖 End"
