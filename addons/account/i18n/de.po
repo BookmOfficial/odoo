@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:19+0000\n"
+"POT-Creation-Date: 2022-04-15 21:25+0000\n"
 "PO-Revision-Date: 2021-09-14 12:18+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -53,6 +53,12 @@ msgstr ""
 "eine Division des Preises:\n"
 "   z. B. 180 / (1 - 10%) = 200 (nicht im Preis enthalten)\n"
 "   z. B. 200 * (1 - 10%) = 180 (im Preis enthalten)"
+
+#. module: account
+#: code:addons/account/models/account_move.py:0
+#, python-format
+msgid " The %(lock_type)s lock date is set on %(lock_date)s."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__reconciled_bills_count
@@ -158,6 +164,16 @@ msgid "(object._get_report_base_filename())"
 msgstr "(object._get_report_base_filename())"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_journal
+msgid "- Posted Entries Only"
+msgstr ""
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_journal
+msgid "- Posted and Draft Entries"
+msgstr ""
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
 msgid "-> View partially reconciled entries"
 msgstr "-> teilweise ausgeglichene Buchungen anzeigen"
@@ -165,7 +181,7 @@ msgstr "-> teilweise ausgeglichene Buchungen anzeigen"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
-". The journal entries need to be computed by Odoo before being posted in "
+". The journal entries need to be computed by Bookm before being posted in "
 "your company's currency."
 msgstr ""
 
@@ -209,11 +225,6 @@ msgstr "21 Tage"
 #: model:account.payment.term,name:account.account_payment_term_30days
 msgid "30 Days"
 msgstr "30 Tage"
-
-#. module: account
-#: model:account.payment.term,name:account.account_payment_term_advance
-msgid "30% Advance End of Following Month"
-msgstr "30% im Voraus zum Ende des Folgemonats"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_advance_60days
@@ -1124,11 +1135,6 @@ msgid "<strong>Amount Due</strong>"
 msgstr "<strong>Fälliger Betrag</strong>"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.report_journal
-msgid "<strong>Company:</strong>"
-msgstr "<strong>Unternehmen:</strong>"
-
-#. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Customer Code:</strong>"
 msgstr "<strong>Kunden-Nr:</strong>"
@@ -1150,11 +1156,6 @@ msgid "<strong>Ending Balance</strong>"
 msgstr "Endsaldo"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.report_journal
-msgid "<strong>Entries Sorted By:</strong>"
-msgstr "<strong>Buchungen: Sortiert nach:</strong>"
-
-#. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Incoterm: </strong>"
 msgstr "<strong>Incoterm: </strong>"
@@ -1164,11 +1165,6 @@ msgstr "<strong>Incoterm: </strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Invoice Date:</strong>"
 msgstr "<strong>Rechnungsdatum:</strong>"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.report_journal
-msgid "<strong>Journal:</strong>"
-msgstr "<strong>Journal:</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_analytic_default_kanban
@@ -1194,11 +1190,6 @@ msgstr "<strong>Eröffnungssaldo</strong>"
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid "<strong>Subtotal</strong>"
 msgstr "<strong>Zwischensumme</strong>"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.report_journal
-msgid "<strong>Target Moves:</strong>"
-msgstr "<strong>Filter Buchungen:</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_currency_form_inherit
@@ -1820,11 +1811,6 @@ msgid "Accounting Entries"
 msgstr "Buchungen"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Accounting Import"
-msgstr ""
-
-#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Accounting Information"
 msgstr "Buchungsinformation"
@@ -1927,16 +1913,6 @@ msgstr "Aktion notwendig"
 #: model:ir.ui.menu,name:account.menu_finance_entries_actions
 msgid "Actions"
 msgstr "Aktionen"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Activate to create purchase receipt"
-msgstr ""
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Activate to create sale receipt"
-msgstr "Aktivieren, um Verkaufsbeleg zu erstellen"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__active
@@ -2049,11 +2025,6 @@ msgid ""
 msgstr ""
 "Fügen Sie Ihren Rechnungen einen QR-Code hinzu, damit Ihre Kunden sofort mit "
 "ihrer mobilen Bankanwendung bezahlen können."
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.onboarding_bank_account_step
-msgid "Add a bank account"
-msgstr "Ein Bankkonto hinzufügen"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_form
@@ -2241,7 +2212,6 @@ msgstr "Alle"
 #: model:ir.model.fields.selection,name:account.selection__account_common_journal_report__target_move__all
 #: model:ir.model.fields.selection,name:account.selection__account_common_report__target_move__all
 #: model:ir.model.fields.selection,name:account.selection__account_print_journal__target_move__all
-#: model_terms:ir.ui.view,arch_db:account.report_journal
 msgid "All Entries"
 msgstr "Alle Einträge"
 
@@ -2254,7 +2224,6 @@ msgstr "alle Positionen ausgeglichen"
 #: model:ir.model.fields.selection,name:account.selection__account_common_journal_report__target_move__posted
 #: model:ir.model.fields.selection,name:account.selection__account_common_report__target_move__posted
 #: model:ir.model.fields.selection,name:account.selection__account_print_journal__target_move__posted
-#: model_terms:ir.ui.view,arch_db:account.report_journal
 msgid "All Posted Entries"
 msgstr "Alle gebuchten Positionen"
 
@@ -2944,13 +2913,7 @@ msgid "Bank"
 msgstr "Bank"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Bank &amp; Cash"
-msgstr "Bank &amp; Kasse"
-
-#. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__bank_account_id
-#: model_terms:ir.ui.view,arch_db:account.onboarding_bank_account_step
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Bank Account"
 msgstr "Bankkonto"
@@ -3187,11 +3150,6 @@ msgid "Based on Payment"
 msgstr "Auf der Grundlage einer Zahlung"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Batch Payments"
-msgstr "Stapel-Überweisungen"
-
-#. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_resequence.xml:0
 #, python-format
@@ -3201,11 +3159,8 @@ msgstr "Vor"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
-"responsibility."
+"Below text serves as a suggestion and doesn’t engage Bookm responsibility."
 msgstr ""
-"Der nachfolgende Text dient als Anregung und liegt nicht in der "
-"Verantwortung von Odoo S.A."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic
@@ -3284,6 +3239,30 @@ msgid "Blocking Message"
 msgstr "Blockierende Meldung"
 
 #. module: account
+#: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
+msgid ""
+"Bookm allows you to reconcile a statement line directly with\n"
+"                the related sale or purchase invoice(s)."
+msgstr ""
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
+msgid ""
+"Bookm allows you to reconcile a statement line directly with\n"
+"                the related sale or purchase invoices."
+msgstr ""
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
+msgid "Bookm helps you easily track all activities related to a customer."
+msgstr ""
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
+msgid "Bookm helps you easily track all activities related to a supplier."
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_type__include_initial_balance
 msgid "Bring Accounts Balance Forward"
 msgstr "Bringen Sie das Kontensaldo nach vorn"
@@ -3358,11 +3337,6 @@ msgid "CABA"
 msgstr "CABA"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "CAMT Import"
-msgstr "CAMT-Import"
-
-#. module: account
 #: model:account.incoterms,name:account.incoterm_CIP
 msgid "CARRIAGE AND INSURANCE PAID TO"
 msgstr "FRACHT UND VERSICHERUNG BEZAHLT AN"
@@ -3381,11 +3355,6 @@ msgstr "KOSTEN UND FRACHT"
 #: model:account.incoterms,name:account.incoterm_CIF
 msgid "COST, INSURANCE AND FREIGHT"
 msgstr "KOSTEN, VERSICHERUNG UND FRACHT"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "CSV Import"
-msgstr "CSV import"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -3932,20 +3901,6 @@ msgid "Coin/Bill Value"
 msgstr "Wert der Münze/Geldscheins"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Collect customer payments in one-click using Euro SEPA Service"
-msgstr "Einzug von Kundenzahlungen mit einem Klick über den Euro SEPA Service."
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid ""
-"Collect information and produce statistics on the trade in goods in Europe "
-"with intrastat"
-msgstr ""
-"Sammeln Sie Informationen und erstellen Sie Statistiken über den Güterhandel "
-"in Europa mit Intrastat."
-
-#. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__color
 #: model:ir.model.fields,field_description:account.field_account_journal__color
 msgid "Color Index"
@@ -4088,11 +4043,6 @@ msgid "Composition mode"
 msgstr "Schreibmodus"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Compute tax rates based on U.S. ZIP codes"
-msgstr "Berechnung der Steuersätze basierend auf US-Postleitzahlen"
-
-#. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__balance_end
 msgid "Computed Balance"
 msgstr "Errechneter Saldo"
@@ -4162,11 +4112,6 @@ msgstr "Glückwunsch. Alle Einstellungen vorgenommen"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Connect"
 msgstr "Verbinden"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.onboarding_bank_account_step
-msgid "Connect your financial accounts in seconds."
-msgstr "Verbinden Sie Ihre Konten in Sekundenschnelle."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__reply_to_force_new
@@ -4277,6 +4222,7 @@ msgstr "Land"
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__country_code
 #: model:ir.model.fields,field_description:account.field_account_journal__country_code
 #: model:ir.model.fields,field_description:account.field_account_move__country_code
+#: model:ir.model.fields,field_description:account.field_account_move_reversal__country_code
 #: model:ir.model.fields,field_description:account.field_account_payment__country_code
 #: model:ir.model.fields,field_description:account.field_account_payment_register__country_code
 #: model:ir.model.fields,field_description:account.field_account_tax__country_code
@@ -5021,11 +4967,9 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Bookm. It is the date of the "
 "opening entry."
 msgstr ""
-"Datum, ab dem die Buchführung in Odoo verwaltet wird. Das ist das Datum des "
-"Eröffnungseintrags."
 
 #. module: account
 #. openerp-web
@@ -5397,15 +5341,6 @@ msgid "Digest"
 msgstr "Zusammenfassung"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid ""
-"Digitalize your scanned or PDF vendor bills with OCR and Artificial "
-"Intelligence"
-msgstr ""
-"Digitalisieren Sie Ihre gescannten oder PDF-Lieferantenrechnungen mit OCR "
-"und künstlicher Intelligenz."
-
-#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Disc.%"
 msgstr "Disc.%"
@@ -5581,11 +5516,6 @@ msgid ""
 msgstr ""
 "Bewahren Sie keine Kopie der E-Mail in der Historie des Dokuments auf (nur "
 "Massenmailing)."
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Dokumentation"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__account_dashboard_onboarding_state__done
@@ -5988,11 +5918,6 @@ msgid "External Reference"
 msgstr "Externe Referenz"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "FEC Import"
-msgstr "FEC Import"
-
-#. module: account
 #: model:account.incoterms,name:account.incoterm_FAS
 msgid "FREE ALONGSIDE SHIP"
 msgstr "FREI LÄNGSSEITE SCHIFF"
@@ -6129,11 +6054,6 @@ msgstr "Steuerliche Lokalisierung"
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account_template__position_id
 msgid "Fiscal Mapping"
 msgstr "Steuer-Umschlüsselung"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Fiscal Periods"
-msgstr "Steuer-Zeiträume"
 
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position
@@ -6347,6 +6267,11 @@ msgid "From"
 msgstr "Von"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_journal
+msgid "From :"
+msgstr ""
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "From Payable accounts"
 msgstr "Von Kreditorenkonten"
@@ -6531,13 +6456,6 @@ msgstr "Gruppenzahlungen"
 #: model:ir.model.fields.selection,name:account.selection__account_tax_template__amount_type__group
 msgid "Group of Taxes"
 msgstr "Steuergruppe"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Group payments into a single batch to ease the reconciliation process"
-msgstr ""
-"Gruppieren Sie Zahlungen in einen einzigen Batch, um den Abstimmungsprozess "
-"zu erleichtern."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_cash_rounding__rounding_method__half-up
@@ -6734,21 +6652,13 @@ msgstr "Falls markiert, benötigen neue Nachrichten Ihre Kenntnisnahme."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__message_has_error
-#: model:ir.model.fields,help:account.field_account_account__message_has_sms_error
 #: model:ir.model.fields,help:account.field_account_account_template__message_has_error
-#: model:ir.model.fields,help:account.field_account_account_template__message_has_sms_error
 #: model:ir.model.fields,help:account.field_account_bank_statement__message_has_error
-#: model:ir.model.fields,help:account.field_account_bank_statement__message_has_sms_error
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__message_has_error
-#: model:ir.model.fields,help:account.field_account_bank_statement_line__message_has_sms_error
 #: model:ir.model.fields,help:account.field_account_journal__message_has_error
-#: model:ir.model.fields,help:account.field_account_journal__message_has_sms_error
 #: model:ir.model.fields,help:account.field_account_move__message_has_error
-#: model:ir.model.fields,help:account.field_account_move__message_has_sms_error
 #: model:ir.model.fields,help:account.field_account_payment__message_has_error
-#: model:ir.model.fields,help:account.field_account_payment__message_has_sms_error
 #: model:ir.model.fields,help:account.field_account_reconcile_model__message_has_error
-#: model:ir.model.fields,help:account.field_account_reconcile_model__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Wenn gewählt, ist das Senden einiger Nachrichten fehlgeschlagen."
 
@@ -6867,23 +6777,6 @@ msgstr ""
 "sobald diese gebucht wird, und kann nicht mehr geändert werden."
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid ""
-"If you check this box, you will be able to collect payments using SEPA "
-"Direct Debit mandates."
-msgstr ""
-"Wenn Sie diese Option ankreuzen, können Sie Zahlungen mit SEPA-"
-"Einzugsermächtigungen entgegennehmen."
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid ""
-"If you check this box, you will be able to register your payment using SEPA."
-msgstr ""
-"Wenn Sie diese Option ankreuzen, können Sie Ihre Zahlung mit SEPA "
-"registrieren."
-
-#. module: account
 #: model_terms:ir.actions.act_window,help:account.open_account_journal_dashboard_kanban
 msgid ""
 "If you have not installed a chart of account, please install one first.<br>"
@@ -6951,31 +6844,6 @@ msgstr "Importiere im .ofx-Format"
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_bank_statement_import_camt
 msgid "Import in CAMT.053 format"
 msgstr "In CAMT.053-Format importieren"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Import your accounting data from FEC"
-msgstr ""
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Import your bank statements in CAMT.053"
-msgstr "Importieren Sie Ihre Bankauszüge in CAMT.053"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Import your bank statements in CSV"
-msgstr "Importieren Sie Ihre Bankauszüge in CSV"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Import your bank statements in OFX"
-msgstr "Importieren Sie Ihre Bankauszüge in OFX"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Import your bank statements in QIF"
-msgstr "Importieren Sie Ihre Bankauszüge in QIF"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:0
@@ -7446,6 +7314,14 @@ msgstr ""
 "Prozentsätze, gleiche Reihenfolge)."
 
 #. module: account
+#: code:addons/account/models/account_tax.py:0
+#, python-format
+msgid ""
+"Invoice and credit note repartition should have at least one tax repartition "
+"line."
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__invoice_line_ids
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_line_ids
 #: model:ir.model.fields,field_description:account.field_account_payment__invoice_line_ids
@@ -7824,7 +7700,6 @@ msgstr ""
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_print_journal__sort_selection__move_name
-#: model_terms:ir.ui.view,arch_db:account.report_journal
 msgid "Journal Entry Number"
 msgstr "Belegnummer"
 
@@ -8553,7 +8428,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
-"Manual: Get paid by any method outside of Odoo.\n"
+"Manual: Get paid by any method outside of Bookm.\n"
 "Payment Acquirers: Each payment acquirer has its own Payment Method. Request "
 "a transaction on/to a card thanks to a payment token saved by the partner "
 "when buying or subscribing online.\n"
@@ -8567,8 +8442,8 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_line_ids
 msgid ""
-"Manual: Pay by any method outside of Odoo.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Manual: Pay by any method outside of Bookm.\n"
+"Check: Pay bills by check and print it from Bookm.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit "
 "Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
@@ -8577,11 +8452,11 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_line_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Bookm.\n"
 "Payment Acquirers: Each payment acquirer has its own Payment Method. Request "
 "a transaction on/to a card thanks to a payment token saved by the partner "
 "when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Bookm.\n"
 "Batch Deposit: Collect several customer checks at once generating and "
 "submitting a batch deposit to your bank. Module account_batch_payment is "
 "necessary.\n"
@@ -8818,6 +8693,11 @@ msgid "Modify tax amount"
 msgstr "Steuerbetrag bearbeiten"
 
 #. module: account
+#: model:ir.model,name:account.model_ir_module_module
+msgid "Module"
+msgstr ""
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Monitor your product margins from invoices"
 msgstr "Überwachen Sie Ihre Produktmargen über Rechnungen"
@@ -8901,13 +8781,6 @@ msgid "Name of this tax report"
 msgstr ""
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Navigate easily through reports and see what is behind the numbers"
-msgstr ""
-"Navigieren Sie ganz einfach durch Berichte und sehen Sie, was sich hinter "
-"den Zahlen verbirgt"
-
-#. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__tax_negate
 msgid "Negate Tax Balance"
 msgstr "Steuerbilanz negieren"
@@ -8948,14 +8821,6 @@ msgstr "Neue Werte"
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__matching_order__new_first
 msgid "Newest first"
 msgstr "Neueste zuerst"
-
-#. module: account
-#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__activity_calendar_event_id
-#: model:ir.model.fields,field_description:account.field_account_journal__activity_calendar_event_id
-#: model:ir.model.fields,field_description:account.field_account_move__activity_calendar_event_id
-#: model:ir.model.fields,field_description:account.field_account_payment__activity_calendar_event_id
-msgid "Next Activity Calendar Event"
-msgstr "Nächstes Aktivitätskalenderereignis"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__activity_date_deadline
@@ -9286,49 +9151,9 @@ msgid "Number of unread messages"
 msgstr "Anzahl ungelesener Nachrichten"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "OFX Import"
-msgstr "OFX-Import"
-
-#. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__10
 msgid "October"
 msgstr "Oktober"
-
-#. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
-
-#. module: account
-#: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
-msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
-"                the related sale or purchase invoice(s)."
-msgstr ""
-
-#. module: account
-#: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
-msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
-"                the related sale or purchase invoices."
-msgstr ""
-"Odoo ermöglicht es Ihnen, eine Kontoauszugszeile direkt mit \n"
-"den zugehörigen Kunden- oder Einkaufsrechnungen abzugleichen."
-
-#. module: account
-#: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
-msgstr ""
-"Mit Odoo können Sie auf einfache Weise alle mit einem Kunden verbundenen "
-"Aktivitäten verfolgen."
-
-#. module: account
-#: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr ""
-"Odoo hilft Ihnen, alle Aktivitäten in Bezug auf einen Lieferanten leicht zu "
-"verfolgen."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
@@ -9371,16 +9196,6 @@ msgid ""
 "Once everything is set, you are good to continue. You will be able to edit "
 "this later in the <b>Customers</b> menu."
 msgstr ""
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid ""
-"Once installed, set 'Bank Feeds' to 'File Import' in bank account settings."
-"This adds a button to import from the Accounting dashboard."
-msgstr ""
-"Sobald dies installiert ist, stellen Sie in den Bankkonto-Einstellungen "
-"„Bank-Feeds“ auf „Dateiimport“ ein. Hierüber fügen Sie eine Schaltfläche "
-"hinzu, über die Sie aus dem Buchhaltungs-Dashboard importieren können."
 
 #. module: account
 #. openerp-web
@@ -9950,11 +9765,6 @@ msgid "Partner should be set"
 msgstr ""
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Pay your bills in one-click using Euro SEPA Service"
-msgstr "Zahlen Sie Ihre Rechnungen mit einem Klick über den Euro SEPA Service"
-
-#. module: account
 #: model:account.account.type,name:account.data_account_type_payable
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__type__payable
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
@@ -10177,11 +9987,6 @@ msgid "Payment terms: 30 Days"
 msgstr "Zahlungsbedingungen: 30 Tage"
 
 #. module: account
-#: model_terms:account.payment.term,note:account.account_payment_term_advance
-msgid "Payment terms: 30% Advance End of Following Month"
-msgstr "Zahlungsbedingungen: 30 % im Voraus zum Ende des Folgemonats"
-
-#. module: account
 #: model_terms:account.payment.term,note:account.account_payment_term_advance_60days
 msgid "Payment terms: 30% Now, Balance 60 Days"
 msgstr "Zahlungsbedingungen: 30% direkt fällig, Restbetrag 60 Tage"
@@ -10366,6 +10171,12 @@ msgid "Please set at least one of the match texts to create a partner mapping."
 msgstr ""
 
 #. module: account
+#: code:addons/account/models/ir_module_module.py:0
+#, python-format
+msgid "Please update the Invoicing module before continuing."
+msgstr ""
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Please use the following communication for your payment :"
@@ -10444,6 +10255,11 @@ msgid "Posted Before"
 msgstr ""
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_journal
+msgid "Posted Entries only"
+msgstr ""
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
 msgid "Posted Journal Entries"
 msgstr "Buchungssätze"
@@ -10452,6 +10268,11 @@ msgstr "Buchungssätze"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Posted Journal Items"
 msgstr "Buchungszeilen"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_journal
+msgid "Posted and Draft Entries"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -10724,11 +10545,6 @@ msgstr ""
 "Steuerberichten können als Variablen in diesem Ausdruck verwendet werden, um "
 "auf den Saldo der entsprechenden Zeilen im Bericht zu verweisen. Eine Formel "
 "kann sich nicht über eine Formel auf eine andere Zeile beziehen."
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "QIF Import"
-msgstr "QIF-Import"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__qr_code
@@ -11396,23 +11212,6 @@ msgid "SEPA Credit Transfer (SCT)"
 msgstr "SEPA-Überweisung (SCT)"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "SEPA Direct Debit (SDD)"
-msgstr "SEPA-Lastschriftverfahren (SDD)"
-
-#. module: account
-#: model:ir.model.fields,field_description:account.field_account_account__message_has_sms_error
-#: model:ir.model.fields,field_description:account.field_account_account_template__message_has_sms_error
-#: model:ir.model.fields,field_description:account.field_account_bank_statement__message_has_sms_error
-#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__message_has_sms_error
-#: model:ir.model.fields,field_description:account.field_account_journal__message_has_sms_error
-#: model:ir.model.fields,field_description:account.field_account_move__message_has_sms_error
-#: model:ir.model.fields,field_description:account.field_account_payment__message_has_sms_error
-#: model:ir.model.fields,field_description:account.field_account_reconcile_model__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr "SMS Zustellungsfehler"
-
-#. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid "STANDARD TERMS AND CONDITIONS OF SALE"
 msgstr "ALLGEMEINE VERKAUFSBEDINGUNGEN"
@@ -11511,13 +11310,6 @@ msgstr "Als neue Vorlage speichern"
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
 msgid "Save as new template"
 msgstr "Als neue Vorlage speichern"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Save this page and come back here to set up the feature."
-msgstr ""
-"Speichern Sie diese Seite und kommen Sie hierher zurück, um die Funktion zu "
-"konfigurieren."
 
 #. module: account
 #: code:addons/account/models/account_payment.py:0
@@ -11833,7 +11625,7 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by Bookm"
 msgstr ""
 
 #. module: account
@@ -12225,6 +12017,11 @@ msgstr ""
 "Rundungsgenauigkeit abzurunden"
 
 #. module: account
+#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
+msgid "Standard"
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_cashbox__start_bank_stmt_ids
 msgid "Start Bank Stmt"
 msgstr "Erster Kontoauszug"
@@ -12398,7 +12195,6 @@ msgstr ""
 "Geplant: anstehende Aktivitäten."
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.onboarding_bank_account_step
 #: model_terms:ir.ui.view,arch_db:account.onboarding_fiscal_year_step
 #: model_terms:ir.ui.view,arch_db:account.onboarding_sale_tax_step
 msgid "Step Completed!"
@@ -12612,11 +12408,6 @@ msgstr "Steuerland"
 #: model:ir.model.fields,field_description:account.field_account_payment__tax_country_code
 msgid "Tax Country Code"
 msgstr "Steuerlicher Ländercode"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.report_journal
-msgid "Tax Declaration"
-msgstr "Steuererklärung"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_template__tax_exigibility
@@ -12884,11 +12675,6 @@ msgid "Tax-Included"
 msgstr "Steuer-inkludiert"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "TaxCloud"
-msgstr "TaxCloud"
-
-#. module: account
 #: code:addons/account/models/account_account.py:0
 #: code:addons/account/models/company.py:0
 #: model:account.tax.group,name:account.tax_group_taxes
@@ -12907,6 +12693,7 @@ msgid "Taxes"
 msgstr "Steuern"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_journal
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Taxes Applied"
 msgstr "Angewandte Steuern"
@@ -13418,6 +13205,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__country_code
 #: model:ir.model.fields,help:account.field_account_journal__country_code
 #: model:ir.model.fields,help:account.field_account_move__country_code
+#: model:ir.model.fields,help:account.field_account_move_reversal__country_code
 #: model:ir.model.fields,help:account.field_account_payment__country_code
 #: model:ir.model.fields,help:account.field_account_payment_register__country_code
 #: model:ir.model.fields,help:account.field_account_tax__country_code
@@ -13469,11 +13257,9 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid ""
-"The accounting date is set prior to the tax lock date which is set on %s. "
-"Hence, the accounting date will be changed to %s."
+"The accounting date being set prior to the %(lock_type)s lock date "
+"%(lock_date)s, it will be changed to %(accounting_date)s upon posting."
 msgstr ""
-"Das Buchungsdatum wird vor dem Datum der Steuersperre am %sfestgelegt. Daher "
-"wird das Buchungsdatum auf %s geändert."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__journal_id
@@ -13696,6 +13482,18 @@ msgstr ""
 "vorläufigen Journalbuchungen.- In Bearbeitung: Nicht mehr bearbeitbar mit "
 "gebuchten Journalbuchungen, bereit für den Abgleich.- Validiert: Alle Zeilen "
 "sind abgeglichen. Es gibt nichts mehr zu bearbeiten."
+
+#. module: account
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+#, python-format
+msgid "The date of some related entries is protected by a lock date"
+msgstr ""
+
+#. module: account
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+#, python-format
+msgid "The date selected is protected by a lock date"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_payment_term.py:0
@@ -14540,25 +14338,6 @@ msgid "This action isn't available for this document."
 msgstr "Diese Aktion ist für dieses Dokument nicht verfügbar."
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid ""
-"This adds a menu item in the Accounting Configuration menu to import FEC "
-"files."
-msgstr ""
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid ""
-"This allows accountants to manage analytic and crossovered budgets. Once the "
-"master budgets and the budgets are defined, the project managers can set the "
-"planned amount on each analytic account."
-msgstr ""
-"Hierüber können Buchhalter analytische und übergeordnete Haushalte "
-"verwalten. Sobald die Master- und allgemeinen Haushaltspläne festgelegt "
-"sind, können die Projektmanager den geplanten Betrag auf jedem analytischen "
-"Konto einstellen."
-
-#. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings__module_account_batch_payment
 msgid ""
 "This allows you grouping payments into a single batch and eases the "
@@ -14694,7 +14473,7 @@ msgstr ""
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your database."
 msgstr ""
 
 #. module: account
@@ -14776,17 +14555,14 @@ msgstr ""
 "Drucken\" auf Rechnungen klicken"
 
 #. module: account
-#: model:digest.tip,name:account.digest_tip_account_0
-#: model_terms:digest.tip,tip_description:account.digest_tip_account_0
-msgid "Tip: No need to print, put in an envelop and post your invoices"
-msgstr ""
-"Tipp: Sie müssen Ihre Rechnungen nicht ausdrucken, in einen Umschlag stecken "
-"und per Post versenden."
-
-#. module: account
 #: model:ir.model.fields,field_description:account.field_account_automatic_entry_wizard__destination_account_id
 msgid "To"
 msgstr "Bis"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_journal
+msgid "To :"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__to_check
@@ -15198,11 +14974,6 @@ msgid "Update Terms & Conditions"
 msgstr "Aktualisierung der Allgemeinen Geschäftsbedingungen"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Update exchange rates automatically"
-msgstr "Wechselkurse automatisch aktualisieren"
-
-#. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/bills_upload_views.xml:0
 #, python-format
@@ -15251,31 +15022,9 @@ msgid "Use batch payments"
 msgstr "Stapelzahlungen verwenden"
 
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Use budgets to compare actual with expected revenues and costs"
-msgstr ""
-"Verwenden Sie Budgets, um die tatsächlichen mit den erwarteten Einnahmen und "
-"Kosten zu vergleichen"
-
-#. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__template_id
 msgid "Use template"
 msgstr "Benutze Vorlage"
-
-#. module: account
-#: model_terms:digest.tip,tip_description:account.digest_tip_account_0
-msgid ""
-"Use the “<i>Send by Post</i>” option to post invoices automatically. For the "
-"cost of a local stamp, we do all the manual work: your invoice will be "
-"printed in the right country, put in an envelop and sent by snail mail. Use "
-"this feature from the list view to post hundreds of invoices in bulk."
-msgstr ""
-"Verwenden Sie die Option \"<i>Per Post versenden</i>\", um Rechnungen "
-"automatisch zu versenden. Für den Preis einer Briefmarke übernehmen wir die "
-"gesamte manuelle Arbeit: Ihre Rechnung wird im richtigen Land gedruckt, in "
-"einen Umschlag gesteckt und per Post verschickt. Verwenden Sie diese "
-"Funktion in der Listenansicht, um Hunderte von Rechnungen in großen Mengen "
-"zu versenden."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__used
@@ -15455,7 +15204,6 @@ msgstr "Lieferantenrechnung erstellt"
 #. module: account
 #: code:addons/account/models/chart_template.py:0
 #: model_terms:ir.ui.view,arch_db:account.account_analytic_account_view_form_inherit
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:account.res_partner_view_search
 #, python-format
 msgid "Vendor Bills"
@@ -15661,15 +15409,15 @@ msgstr ""
 "verwendet"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
+msgid "With Bookm, you won't have to record bills manually"
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_common_journal_report__amount_currency
 #: model:ir.model.fields,field_description:account.field_account_print_journal__amount_currency
 msgid "With Currency"
 msgstr "Mit Währung"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to record bills manually"
-msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_search
@@ -15718,10 +15466,8 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Standard reference."
 msgstr ""
-"Sie können für jede Art von Referenz verschiedene Modelle auswählen. Die "
-"Standardeinstellung ist die Odoo-Referenz."
 
 #. module: account
 #: code:addons/account/models/account_journal.py:0
@@ -16636,6 +16382,12 @@ msgid ""
 msgstr ""
 
 #. module: account
+#: code:addons/account/models/account_move.py:0
+#, python-format
+msgid "tax"
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__tax_group_id
 msgid "technical field for widget tax-group-custom-field"
 msgstr "technisches Feld für Widget Steuer-Gruppen-benutzerdefiniertes Feld"
@@ -16680,6 +16432,12 @@ msgid ""
 msgstr ""
 
 #. module: account
+#: code:addons/account/models/account_move.py:0
+#, python-format
+msgid "user"
+msgstr ""
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
 "will be authorized to suspend any provision of services without prior "
@@ -16720,6 +16478,236 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_bank_statement_form
 msgid "→ Count"
 msgstr "-> Zähle"
+
+#~ msgid "30% Advance End of Following Month"
+#~ msgstr "30% im Voraus zum Ende des Folgemonats"
+
+#~ msgid "<strong>Company:</strong>"
+#~ msgstr "<strong>Unternehmen:</strong>"
+
+#~ msgid "<strong>Entries Sorted By:</strong>"
+#~ msgstr "<strong>Buchungen: Sortiert nach:</strong>"
+
+#~ msgid "<strong>Journal:</strong>"
+#~ msgstr "<strong>Journal:</strong>"
+
+#~ msgid "<strong>Target Moves:</strong>"
+#~ msgstr "<strong>Filter Buchungen:</strong>"
+
+#~ msgid "Activate to create sale receipt"
+#~ msgstr "Aktivieren, um Verkaufsbeleg zu erstellen"
+
+#~ msgid "Add a bank account"
+#~ msgstr "Ein Bankkonto hinzufügen"
+
+#~ msgid "Bank &amp; Cash"
+#~ msgstr "Bank &amp; Kasse"
+
+#~ msgid "Batch Payments"
+#~ msgstr "Stapel-Überweisungen"
+
+#~ msgid ""
+#~ "Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+#~ "responsibility."
+#~ msgstr ""
+#~ "Der nachfolgende Text dient als Anregung und liegt nicht in der "
+#~ "Verantwortung von Odoo S.A."
+
+#~ msgid "CAMT Import"
+#~ msgstr "CAMT-Import"
+
+#~ msgid "CSV Import"
+#~ msgstr "CSV import"
+
+#~ msgid "Collect customer payments in one-click using Euro SEPA Service"
+#~ msgstr ""
+#~ "Einzug von Kundenzahlungen mit einem Klick über den Euro SEPA Service."
+
+#~ msgid ""
+#~ "Collect information and produce statistics on the trade in goods in "
+#~ "Europe with intrastat"
+#~ msgstr ""
+#~ "Sammeln Sie Informationen und erstellen Sie Statistiken über den "
+#~ "Güterhandel in Europa mit Intrastat."
+
+#~ msgid "Compute tax rates based on U.S. ZIP codes"
+#~ msgstr "Berechnung der Steuersätze basierend auf US-Postleitzahlen"
+
+#~ msgid "Connect your financial accounts in seconds."
+#~ msgstr "Verbinden Sie Ihre Konten in Sekundenschnelle."
+
+#~ msgid ""
+#~ "Date from which the accounting is managed in Odoo. It is the date of the "
+#~ "opening entry."
+#~ msgstr ""
+#~ "Datum, ab dem die Buchführung in Odoo verwaltet wird. Das ist das Datum "
+#~ "des Eröffnungseintrags."
+
+#~ msgid ""
+#~ "Digitalize your scanned or PDF vendor bills with OCR and Artificial "
+#~ "Intelligence"
+#~ msgstr ""
+#~ "Digitalisieren Sie Ihre gescannten oder PDF-Lieferantenrechnungen mit OCR "
+#~ "und künstlicher Intelligenz."
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+
+#~ msgid "FEC Import"
+#~ msgstr "FEC Import"
+
+#~ msgid "Fiscal Periods"
+#~ msgstr "Steuer-Zeiträume"
+
+#~ msgid ""
+#~ "Group payments into a single batch to ease the reconciliation process"
+#~ msgstr ""
+#~ "Gruppieren Sie Zahlungen in einen einzigen Batch, um den "
+#~ "Abstimmungsprozess zu erleichtern."
+
+#~ msgid ""
+#~ "If you check this box, you will be able to collect payments using SEPA "
+#~ "Direct Debit mandates."
+#~ msgstr ""
+#~ "Wenn Sie diese Option ankreuzen, können Sie Zahlungen mit SEPA-"
+#~ "Einzugsermächtigungen entgegennehmen."
+
+#~ msgid ""
+#~ "If you check this box, you will be able to register your payment using "
+#~ "SEPA."
+#~ msgstr ""
+#~ "Wenn Sie diese Option ankreuzen, können Sie Ihre Zahlung mit SEPA "
+#~ "registrieren."
+
+#~ msgid "Import your bank statements in CAMT.053"
+#~ msgstr "Importieren Sie Ihre Bankauszüge in CAMT.053"
+
+#~ msgid "Import your bank statements in CSV"
+#~ msgstr "Importieren Sie Ihre Bankauszüge in CSV"
+
+#~ msgid "Import your bank statements in OFX"
+#~ msgstr "Importieren Sie Ihre Bankauszüge in OFX"
+
+#~ msgid "Import your bank statements in QIF"
+#~ msgstr "Importieren Sie Ihre Bankauszüge in QIF"
+
+#~ msgid "Navigate easily through reports and see what is behind the numbers"
+#~ msgstr ""
+#~ "Navigieren Sie ganz einfach durch Berichte und sehen Sie, was sich hinter "
+#~ "den Zahlen verbirgt"
+
+#~ msgid "Next Activity Calendar Event"
+#~ msgstr "Nächstes Aktivitätskalenderereignis"
+
+#~ msgid "OFX Import"
+#~ msgstr "OFX-Import"
+
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#~ msgid ""
+#~ "Odoo allows you to reconcile a statement line directly with\n"
+#~ "                the related sale or purchase invoices."
+#~ msgstr ""
+#~ "Odoo ermöglicht es Ihnen, eine Kontoauszugszeile direkt mit \n"
+#~ "den zugehörigen Kunden- oder Einkaufsrechnungen abzugleichen."
+
+#~ msgid "Odoo helps you easily track all activities related to a customer."
+#~ msgstr ""
+#~ "Mit Odoo können Sie auf einfache Weise alle mit einem Kunden verbundenen "
+#~ "Aktivitäten verfolgen."
+
+#~ msgid "Odoo helps you easily track all activities related to a supplier."
+#~ msgstr ""
+#~ "Odoo hilft Ihnen, alle Aktivitäten in Bezug auf einen Lieferanten leicht "
+#~ "zu verfolgen."
+
+#~ msgid ""
+#~ "Once installed, set 'Bank Feeds' to 'File Import' in bank account "
+#~ "settings.This adds a button to import from the Accounting dashboard."
+#~ msgstr ""
+#~ "Sobald dies installiert ist, stellen Sie in den Bankkonto-Einstellungen "
+#~ "„Bank-Feeds“ auf „Dateiimport“ ein. Hierüber fügen Sie eine Schaltfläche "
+#~ "hinzu, über die Sie aus dem Buchhaltungs-Dashboard importieren können."
+
+#~ msgid "Pay your bills in one-click using Euro SEPA Service"
+#~ msgstr ""
+#~ "Zahlen Sie Ihre Rechnungen mit einem Klick über den Euro SEPA Service"
+
+#~ msgid "Payment terms: 30% Advance End of Following Month"
+#~ msgstr "Zahlungsbedingungen: 30 % im Voraus zum Ende des Folgemonats"
+
+#~ msgid "QIF Import"
+#~ msgstr "QIF-Import"
+
+#~ msgid "SEPA Direct Debit (SDD)"
+#~ msgstr "SEPA-Lastschriftverfahren (SDD)"
+
+#~ msgid "SMS Delivery error"
+#~ msgstr "SMS Zustellungsfehler"
+
+#~ msgid "Save this page and come back here to set up the feature."
+#~ msgstr ""
+#~ "Speichern Sie diese Seite und kommen Sie hierher zurück, um die Funktion "
+#~ "zu konfigurieren."
+
+#~ msgid "Tax Declaration"
+#~ msgstr "Steuererklärung"
+
+#~ msgid "TaxCloud"
+#~ msgstr "TaxCloud"
+
+#, python-format
+#~ msgid ""
+#~ "The accounting date is set prior to the tax lock date which is set on %s. "
+#~ "Hence, the accounting date will be changed to %s."
+#~ msgstr ""
+#~ "Das Buchungsdatum wird vor dem Datum der Steuersperre am %sfestgelegt. "
+#~ "Daher wird das Buchungsdatum auf %s geändert."
+
+#~ msgid ""
+#~ "This allows accountants to manage analytic and crossovered budgets. Once "
+#~ "the master budgets and the budgets are defined, the project managers can "
+#~ "set the planned amount on each analytic account."
+#~ msgstr ""
+#~ "Hierüber können Buchhalter analytische und übergeordnete Haushalte "
+#~ "verwalten. Sobald die Master- und allgemeinen Haushaltspläne festgelegt "
+#~ "sind, können die Projektmanager den geplanten Betrag auf jedem "
+#~ "analytischen Konto einstellen."
+
+#~ msgid "Tip: No need to print, put in an envelop and post your invoices"
+#~ msgstr ""
+#~ "Tipp: Sie müssen Ihre Rechnungen nicht ausdrucken, in einen Umschlag "
+#~ "stecken und per Post versenden."
+
+#~ msgid "Update exchange rates automatically"
+#~ msgstr "Wechselkurse automatisch aktualisieren"
+
+#~ msgid "Use budgets to compare actual with expected revenues and costs"
+#~ msgstr ""
+#~ "Verwenden Sie Budgets, um die tatsächlichen mit den erwarteten Einnahmen "
+#~ "und Kosten zu vergleichen"
+
+#~ msgid ""
+#~ "Use the “<i>Send by Post</i>” option to post invoices automatically. For "
+#~ "the cost of a local stamp, we do all the manual work: your invoice will "
+#~ "be printed in the right country, put in an envelop and sent by snail "
+#~ "mail. Use this feature from the list view to post hundreds of invoices in "
+#~ "bulk."
+#~ msgstr ""
+#~ "Verwenden Sie die Option \"<i>Per Post versenden</i>\", um Rechnungen "
+#~ "automatisch zu versenden. Für den Preis einer Briefmarke übernehmen wir "
+#~ "die gesamte manuelle Arbeit: Ihre Rechnung wird im richtigen Land "
+#~ "gedruckt, in einen Umschlag gesteckt und per Post verschickt. Verwenden "
+#~ "Sie diese Funktion in der Listenansicht, um Hunderte von Rechnungen in "
+#~ "großen Mengen zu versenden."
+
+#~ msgid ""
+#~ "You can choose different models for each type of reference. The default "
+#~ "one is the Odoo reference."
+#~ msgstr ""
+#~ "Sie können für jede Art von Referenz verschiedene Modelle auswählen. Die "
+#~ "Standardeinstellung ist die Odoo-Referenz."
 
 #~ msgid "Match Invoice/bill with"
 #~ msgstr "Zuordnung der Rechnung anhand"
