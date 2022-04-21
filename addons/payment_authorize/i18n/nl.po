@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -175,11 +175,6 @@ msgid "Generate Client Key"
 msgstr "Genereer client sleutel"
 
 #. module: payment_authorize
-#: model_terms:ir.ui.view,arch_db:payment_authorize.payment_acquirer_form
-msgid "How to get paid with Authorize.Net"
-msgstr "Hoe betaald te worden met Authorize.Net"
-
-#. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "MM"
 msgstr "MM"
@@ -279,11 +274,9 @@ msgstr "De betalingsdienstaanbieder die bij deze profider moet worden gebruikt"
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_acquirer__authorize_client_key
 msgid ""
-"The public client key. To generate directly from Odoo or from Authorize.Net "
+"The public client key. To generate directly from Bookm or from Authorize.Net "
 "backend."
 msgstr ""
-"De openbare clientsleutel. Om rechtstreeks vanuit Odoo of vanuit Authorize."
-"Net backend te genereren."
 
 #. module: payment_authorize
 #: code:addons/payment_authorize/models/payment_transaction.py:0
@@ -336,3 +329,13 @@ msgstr "We kunnen je betaling niet verwerken."
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid "YY"
 msgstr "YY"
+
+#~ msgid "How to get paid with Authorize.Net"
+#~ msgstr "Hoe betaald te worden met Authorize.Net"
+
+#~ msgid ""
+#~ "The public client key. To generate directly from Odoo or from Authorize."
+#~ "Net backend."
+#~ msgstr ""
+#~ "De openbare clientsleutel. Om rechtstreeks vanuit Odoo of vanuit "
+#~ "Authorize.Net backend te genereren."
