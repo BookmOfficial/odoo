@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:50+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -42,11 +42,6 @@ msgid "Mass Mailing"
 msgstr "Massenmailing"
 
 #. module: mass_mailing_sale
-#: model:mailing.mailing,sms_subject:mass_mailing_sale.mass_mail_sale_order_0
-msgid "Our last promotions, just for you !"
-msgstr "Unsere neuesten Angebote, nur für Sie!"
-
-#. module: mass_mailing_sale
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 #, python-format
 msgid "QUOTATIONS"
@@ -69,11 +64,6 @@ msgid "Revenues"
 msgstr "Umsätze"
 
 #. module: mass_mailing_sale
-#: model:mailing.mailing,name:mass_mailing_sale.mass_mail_sale_order_0
-msgid "Sale Promotion 1"
-msgstr "Verkaufs Promotion 1"
-
-#. module: mass_mailing_sale
 #: model:ir.model,name:mass_mailing_sale.model_sale_order
 msgid "Sales Order"
 msgstr "Verkaufsauftrag"
@@ -92,3 +82,9 @@ msgstr "UTM-Kampagne"
 #: model:ir.model.fields,field_description:mass_mailing_sale.field_utm_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
 msgstr "Gewinner Auswahl"
+
+#~ msgid "Our last promotions, just for you !"
+#~ msgstr "Unsere neuesten Angebote, nur für Sie!"
+
+#~ msgid "Sale Promotion 1"
+#~ msgstr "Verkaufs Promotion 1"
