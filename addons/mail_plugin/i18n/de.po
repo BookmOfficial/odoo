@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:48+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -68,17 +68,29 @@ msgstr "Jährliche Einkünfte"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Bookm because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"Anhänge konnten in Odoo nicht protokolliert werden, da ihre Gesamtgröße das "
-"zulässige Maximum überschritten hat."
 
 #. module: mail_plugin
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 #, python-format
 msgid "Bad Email."
 msgstr "Ungültige E-Mail."
+
+#. module: mail_plugin
+#. openerp-web
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#, python-format
+msgid "Bookm Access Token"
+msgstr ""
+
+#. module: mail_plugin
+#. openerp-web
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#, python-format
+msgid "Bookm Server URL"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -517,10 +529,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Bookm"
 msgstr ""
-"Kein mit diesem Kontakt verknüpftes Unternehmen konnte in Odoo angereichert "
-"oder gefunden werden"
 
 #. module: mail_plugin
 #. openerp-web
@@ -563,20 +573,6 @@ msgstr "Für diese Adresse wurden keine Informationen gefunden."
 #, python-format
 msgid "Not enough credits to enrich."
 msgstr "Nicht genug Guthaben für Anreicherung."
-
-#. module: mail_plugin
-#. openerp-web
-#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-#, python-format
-msgid "Odoo Access Token"
-msgstr "Odoo Zugangs-Token"
-
-#. module: mail_plugin
-#. openerp-web
-#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-#, python-format
-msgid "Odoo Server URL"
-msgstr "Odoo Server URL"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -664,8 +660,8 @@ msgstr "Umsätze"
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
-msgid "Save in Odoo"
-msgstr "In Odoo speichern"
+msgid "Save in Bookm"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -685,15 +681,15 @@ msgstr "Domain / E-Mail suchen"
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "Search In Database"
-msgstr "In Datenbank suchen"
+msgid "Search In Bookm"
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "Search In Odoo"
-msgstr "In Odoo suchen"
+msgid "Search In Database"
+msgstr "In Datenbank suchen"
 
 #. module: mail_plugin
 #. openerp-web
@@ -706,8 +702,8 @@ msgstr "Kontakt suchen"
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "Search contact in Odoo..."
-msgstr "Kontakt in Odoo suchen..."
+msgid "Search contact in Bookm..."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -736,8 +732,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
-msgid "This contact does not exist in the Odoo database."
-msgstr "Dieser Kontakt existiert nicht in der Odoo-Datenbank."
+msgid "This contact does not exist in the Bookm database."
+msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
@@ -759,11 +755,9 @@ msgstr "Dieser Partner existiert nicht"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Bookm because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Warnung: Die Anhänge konnten nicht in Odoo erfasst werden, da ihre "
-"Gesamtgröße die zulässige Höchstgrenze überschritten hat."
 
 #. module: mail_plugin
 #. openerp-web
@@ -808,7 +802,7 @@ msgstr ""
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
+msgid "access your Bookm database?"
 msgstr ""
 
 #. module: mail_plugin
@@ -817,3 +811,49 @@ msgstr ""
 #, python-format
 msgid "employees"
 msgstr "Mitarbeiter"
+
+#, python-format
+#~ msgid ""
+#~ "Attachments could not be logged in Odoo because their total size exceeded "
+#~ "the allowed maximum."
+#~ msgstr ""
+#~ "Anhänge konnten in Odoo nicht protokolliert werden, da ihre Gesamtgröße "
+#~ "das zulässige Maximum überschritten hat."
+
+#, python-format
+#~ msgid "No company linked to this contact could be enriched or found in Odoo"
+#~ msgstr ""
+#~ "Kein mit diesem Kontakt verknüpftes Unternehmen konnte in Odoo "
+#~ "angereichert oder gefunden werden"
+
+#, python-format
+#~ msgid "Odoo Access Token"
+#~ msgstr "Odoo Zugangs-Token"
+
+#, python-format
+#~ msgid "Odoo Server URL"
+#~ msgstr "Odoo Server URL"
+
+#, python-format
+#~ msgid "Save in Odoo"
+#~ msgstr "In Odoo speichern"
+
+#, python-format
+#~ msgid "Search In Odoo"
+#~ msgstr "In Odoo suchen"
+
+#, python-format
+#~ msgid "Search contact in Odoo..."
+#~ msgstr "Kontakt in Odoo suchen..."
+
+#, python-format
+#~ msgid "This contact does not exist in the Odoo database."
+#~ msgstr "Dieser Kontakt existiert nicht in der Odoo-Datenbank."
+
+#, python-format
+#~ msgid ""
+#~ "Warning: Attachments could not be logged in Odoo because their total size "
+#~ "exceeded the allowed maximum."
+#~ msgstr ""
+#~ "Warnung: Die Anhänge konnten nicht in Odoo erfasst werden, da ihre "
+#~ "Gesamtgröße die zulässige Höchstgrenze überschritten hat."
