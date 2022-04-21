@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-16 00:09+0000\n"
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -48,13 +48,13 @@ msgstr "<strong>Callback URL: </strong>Dejar en blanco"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Description: </strong> Odoo Twitter Integration"
-msgstr "<strong>Descripción: </strong> Integración de Odoo con Twitter"
+msgid "<strong>Description: </strong> Twitter Integration"
+msgstr ""
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Name: </strong> Odoo Twitter Integration"
-msgstr "<strong>Nombre: </strong> Integración de Odoo con Twitter"
+msgid "<strong>Name: </strong> Twitter Integration"
+msgstr ""
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
@@ -409,3 +409,9 @@ msgstr "https://apps.twitter.com/app/new"
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
 msgid "with the following values:"
 msgstr "con los siguientes valores:"
+
+#~ msgid "<strong>Description: </strong> Odoo Twitter Integration"
+#~ msgstr "<strong>Descripción: </strong> Integración de Odoo con Twitter"
+
+#~ msgid "<strong>Name: </strong> Odoo Twitter Integration"
+#~ msgstr "<strong>Nombre: </strong> Integración de Odoo con Twitter"
