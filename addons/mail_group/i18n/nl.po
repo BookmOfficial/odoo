@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:54+0000\n"
+"POT-Creation-Date: 2022-04-15 22:48+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -985,11 +985,6 @@ msgid "Moderators must have an email address."
 msgstr "Moderators moeten een geldig e-mailadres hebben."
 
 #. module: mail_group
-#: model:mail.group,name:mail_group.mail_group_1
-msgid "My Company News"
-msgstr "Mijn bedrijfsnieuws"
-
-#. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__name
 msgid "Name"
 msgstr "Naam"
@@ -1167,11 +1162,6 @@ msgstr "Posten naar:"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Privacy"
 msgstr "Privacy"
-
-#. module: mail_group
-#: model:mail.group,name:mail_group.mail_group_2
-msgid "Public Mailing List"
-msgstr "Openbare mailinglijst"
 
 #. module: mail_group
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
@@ -1365,22 +1355,17 @@ msgstr "De beschrijving van de richtlijnen ontbreekt."
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
-"email that does not reply to an existing record will cause the creation of a "
-"new record of this model (e.g. a Project Task)"
+"The model (Bookm Document Kind) to which this alias corresponds. Any "
+"incoming email that does not reply to an existing record will cause the "
+"creation of a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Het model (Odoo document soort) waar deze alias bijhoort. Iedere inkomende e-"
-"mail dat niet bij een bestaande regel hoort zal leiden tot het aanmaken van "
-"een nieuwe regel in dit model (Bijv. een projecttaak)."
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.com>"
 msgstr ""
-"De naam van de e-mail alias, bijvoorbeeld: 'vacature' als je alle e-mails "
-"van <vacature@uwbedrijf.nl> wilt afvangen."
 
 #. module: mail_group
 #: code:addons/mail_group/models/mail_group.py:0
@@ -1581,3 +1566,25 @@ msgstr "afgemeld van"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "your email..."
 msgstr "je e-mail..."
+
+#~ msgid "My Company News"
+#~ msgstr "Mijn bedrijfsnieuws"
+
+#~ msgid "Public Mailing List"
+#~ msgstr "Openbare mailinglijst"
+
+#~ msgid ""
+#~ "The model (Odoo Document Kind) to which this alias corresponds. Any "
+#~ "incoming email that does not reply to an existing record will cause the "
+#~ "creation of a new record of this model (e.g. a Project Task)"
+#~ msgstr ""
+#~ "Het model (Odoo document soort) waar deze alias bijhoort. Iedere "
+#~ "inkomende e-mail dat niet bij een bestaande regel hoort zal leiden tot "
+#~ "het aanmaken van een nieuwe regel in dit model (Bijv. een projecttaak)."
+
+#~ msgid ""
+#~ "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+#~ "<jobs@example.odoo.com>"
+#~ msgstr ""
+#~ "De naam van de e-mail alias, bijvoorbeeld: 'vacature' als je alle e-mails "
+#~ "van <vacature@uwbedrijf.nl> wilt afvangen."
