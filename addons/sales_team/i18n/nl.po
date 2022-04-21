@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -179,11 +179,6 @@ msgid "Configuration"
 msgstr "Configuratie"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor7
-msgid "Consulting"
-msgstr "Consultancy"
-
-#. module: sales_team
 #: model:ir.model,name:sales_team.model_res_partner
 msgid "Contact"
 msgstr "Contact"
@@ -242,11 +237,6 @@ msgstr "Dashboard grafiek data"
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_sales
 msgid "Define a new sales team"
 msgstr "Definieer een nieuw verkoopteam"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor5
-msgid "Design"
-msgstr "Ontwerp"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__display_name
@@ -370,11 +360,6 @@ msgid "Image (128)"
 msgstr "Afbeelding (128)"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor4
-msgid "Information"
-msgstr "Informatie"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_is_follower
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_is_follower
 msgid "Is Follower"
@@ -403,12 +388,8 @@ msgstr "Laatst bijgewerkt op"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
-msgid ""
-"Link salespersons to sales teams. Set their monthly lead capacity\n"
-"                and configure automatic lead assignment."
+msgid "Link salespersons to sales teams."
 msgstr ""
-"Koppel verkopers aan verkoopteams. Stel hun maandelijkse leadcapaciteit in\n"
-"                en configureer automatische leadtoewijzing."
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_main_attachment_id
@@ -504,11 +485,6 @@ msgid "Number of unread messages"
 msgstr "Aantal ongelezen berichten"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor8
-msgid "Other"
-msgstr "Overige"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__phone
 msgid "Phone"
 msgstr "Telefoon"
@@ -517,16 +493,6 @@ msgstr "Telefoon"
 #: model:crm.team,name:sales_team.pos_sales_team
 msgid "Point of Sale"
 msgstr "Kassa"
-
-#. module: sales_team
-#: model:crm.team,name:sales_team.crm_team_1
-msgid "Pre-Sales"
-msgstr "Voorverkoop"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor1
-msgid "Product"
-msgstr "Product"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.team_sales_department
@@ -606,19 +572,9 @@ msgid "Sequence"
 msgstr "Reeks"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor3
-msgid "Services"
-msgstr "Diensten"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_favorite
 msgid "Show on dashboard"
 msgstr "Weergeven op dashboard"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor2
-msgid "Software"
-msgstr "Software"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__name
@@ -686,11 +642,6 @@ msgid ""
 msgstr ""
 "Om een Verkoper aan meerdere Teams toe te voegen, activeer je de Multi-Team "
 "optie in de instellingen."
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor6
-msgid "Training"
-msgstr "Training"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_in_teams_ids
@@ -839,3 +790,38 @@ msgid ""
 msgstr ""
 "De gebruiker krijgt toegang tot de verkoop instellingen en de statistische "
 "rapportages"
+
+#~ msgid "Consulting"
+#~ msgstr "Consultancy"
+
+#~ msgid "Design"
+#~ msgstr "Ontwerp"
+
+#~ msgid "Information"
+#~ msgstr "Informatie"
+
+#~ msgid ""
+#~ "Link salespersons to sales teams. Set their monthly lead capacity\n"
+#~ "                and configure automatic lead assignment."
+#~ msgstr ""
+#~ "Koppel verkopers aan verkoopteams. Stel hun maandelijkse leadcapaciteit "
+#~ "in\n"
+#~ "                en configureer automatische leadtoewijzing."
+
+#~ msgid "Other"
+#~ msgstr "Overige"
+
+#~ msgid "Pre-Sales"
+#~ msgstr "Voorverkoop"
+
+#~ msgid "Product"
+#~ msgstr "Product"
+
+#~ msgid "Services"
+#~ msgstr "Diensten"
+
+#~ msgid "Software"
+#~ msgstr "Software"
+
+#~ msgid "Training"
+#~ msgstr "Training"
