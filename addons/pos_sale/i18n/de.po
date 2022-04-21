@@ -1,25 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_sale
-# 
+#
 # Translators:
 # e2f <projects@e2f.com>, 2021
 # Robert Förster <hello@suppliot.eu>, 2021
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"POT-Creation-Date: 2022-04-15 23:10+0000\n"
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_sale
@@ -157,11 +157,15 @@ msgstr "Abgerechnet"
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid ""
-"It seems that you didn't configure a down payment product in your point of sale.\n"
-"                        You can go to your point of sale configuration to choose one."
+"It seems that you didn't configure a down payment product in your point of "
+"sale.\n"
+"                        You can go to your point of sale configuration to "
+"choose one."
 msgstr ""
-"Es scheint, dass Sie in Ihrem Kassensystem kein Anzahlungsprodukt konfiguriert haben.\n"
-"Sie können in der Konfiguration Ihres Kassensystems ein solches Produkt auswählen."
+"Es scheint, dass Sie in Ihrem Kassensystem kein Anzahlungsprodukt "
+"konfiguriert haben.\n"
+"Sie können in der Konfiguration Ihres Kassensystems ein solches Produkt "
+"auswählen."
 
 #. module: pos_sale
 #: code:addons/pos_sale/models/sale_order.py:0
@@ -203,14 +207,12 @@ msgstr "Neu"
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
-#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
 #, python-format
 msgid "Next Order List"
 msgstr ""
 
 #. module: pos_sale
 #. openerp-web
-#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "No"
@@ -297,7 +299,6 @@ msgstr "Gebucht"
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
-#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
 #, python-format
 msgid "Previous Order List"
 msgstr "Vorherige Auftragsliste"
@@ -339,7 +340,6 @@ msgstr "Seriennummern/Chargen werden geladen"
 
 #. module: pos_sale
 #. openerp-web
-#: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
 #: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
 #, python-format
 msgid "SO"
@@ -418,10 +418,16 @@ msgstr "Laufende Sitzungen"
 #. module: pos_sale
 #. openerp-web
 #: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
-#: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
 #, python-format
 msgid "Set Sale Order"
 msgstr "Verkaufsauftrag setzen"
+
+#. module: pos_sale
+#. openerp-web
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Settle the order"
+msgstr "Auftrag abwickeln"
 
 #. module: pos_sale
 #. openerp-web
@@ -438,13 +444,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
 msgstr ""
-
-#. module: pos_sale
-#. openerp-web
-#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
-#, python-format
-msgid "Settle the order"
-msgstr "Auftrag abwickeln"
 
 #. module: pos_sale
 #. openerp-web
@@ -532,7 +531,6 @@ msgstr "Was möchten Sie tun?"
 
 #. module: pos_sale
 #. openerp-web
-#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
 #, python-format
 msgid "Yes"
