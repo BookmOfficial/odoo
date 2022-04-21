@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:54+0000\n"
+"POT-Creation-Date: 2022-04-16 00:02+0000\n"
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Alain Deloin, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -88,12 +88,6 @@ msgid "<i class=\"text-muted\"> awarded users</i>"
 msgstr "<i class=\"text-muted\"> utilisateurs récompensés</i>"
 
 #. module: website_slides_survey
-#: model:survey.question,description:website_slides_survey.furniture_certification_page_1
-#: model:survey.survey,description:website_slides_survey.furniture_certification
-msgid "<p>Test your furniture knowledge!</p>"
-msgstr "<p>Tester vos connaissances en meubles!</p>"
-
-#. module: website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.courses_home_inherit_survey
 msgid "<span class=\"ml-1\">Certifications</span>"
 msgstr "<span class=\"ml-1\">Certifications</span>"
@@ -161,21 +155,6 @@ msgstr "Ajouter la certification"
 #: model_terms:ir.actions.act_window,help:website_slides_survey.survey_survey_action_slides_report
 msgid "Add a new certification"
 msgstr "Ajouter une nouvelle certification"
-
-#. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_3
-msgid "Ash"
-msgstr "Frêne"
-
-#. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_5
-msgid "Bed"
-msgstr "Lit"
-
-#. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_4
-msgid "Beech"
-msgstr "Hêtre"
 
 #. module: website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
@@ -257,11 +236,6 @@ msgid "Certifications"
 msgstr "Certifications"
 
 #. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_1
-msgid "Chair"
-msgstr "Chaise"
-
-#. module: website_slides_survey
 #: model:ir.model,name:website_slides_survey.model_slide_channel
 msgid "Course"
 msgstr "Cours"
@@ -279,26 +253,11 @@ msgid "Courses Count"
 msgstr "Nombre de cours"
 
 #. module: website_slides_survey
-#: model:slide.slide,name:website_slides_survey.slide_slide_demo_6_0
-msgid "DIY Furniture Certification"
-msgstr "Certification Meubles DIY "
-
-#. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_3
-msgid "Desk"
-msgstr "Bureau"
-
-#. module: website_slides_survey
 #. openerp-web
 #: code:addons/website_slides_survey/static/src/xml/website_slides_fullscreen.xml:0
 #, python-format
 msgid "Download certification"
 msgstr "Télécharger la certification"
-
-#. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_1
-msgid "Fir"
-msgstr "Sapin"
 
 #. module: website_slides_survey
 #. openerp-web
@@ -310,17 +269,6 @@ msgid ""
 msgstr ""
 "Suivez ce lien pour ajouter des questions à votre certification.<a href=\"%s"
 "\">Éditer la certification</a>"
-
-#. module: website_slides_survey
-#: model:survey.question,title:website_slides_survey.furniture_certification_page_1
-msgid "Furniture"
-msgstr "Meuble"
-
-#. module: website_slides_survey
-#: model:slide.slide,name:website_slides_survey.slide_slide_demo_5_4
-#: model:survey.survey,title:website_slides_survey.furniture_certification
-msgid "Furniture Creation Certification"
-msgstr "Certification en création de mobilier"
 
 #. module: website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_fill_form_done_inherit_website_slides
@@ -335,41 +283,15 @@ msgid "How to upload a certification on your course?"
 msgstr "Comment ajouter une certification à votre cours?"
 
 #. module: website_slides_survey
-#: model:survey.question,comments_message:website_slides_survey.furniture_certification_page_1
-#: model:survey.question,comments_message:website_slides_survey.furniture_certification_page_1_question_1
-#: model:survey.question,comments_message:website_slides_survey.furniture_certification_page_1_question_2
-#: model:survey.question,comments_message:website_slides_survey.furniture_certification_page_1_question_3
-msgid "If other, please specify:"
-msgstr "Si autre, précisez:"
-
-#. module: website_slides_survey
-#: model_terms:slide.slide,description:website_slides_survey.slide_slide_demo_6_0
-msgid "It's time to test your knowledge!"
-msgstr "Il est temps de tester vos connaissances!"
-
-#. module: website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "No certifications yet!"
 msgstr "Pas encore de certifications!"
-
-#. module: website_slides_survey
-#: model_terms:slide.slide,description:website_slides_survey.slide_slide_demo_5_4
-msgid ""
-"Now that you have completed the course, it's time to test your knowledge!"
-msgstr ""
-"Maintenant que vous avez terminé le cours, il est temps de tester vos "
-"connaissances!"
 
 #. module: website_slides_survey
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_channel__nbr_certification
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__nbr_certification
 msgid "Number of Certifications"
 msgstr "Nombre de certifications"
-
-#. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_2
-msgid "Oak"
-msgstr "Chêne"
 
 #. module: website_slides_survey
 #. openerp-web
@@ -387,16 +309,6 @@ msgstr "Slide de cours connexe"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "Score :"
 msgstr "Score :"
-
-#. module: website_slides_survey
-#: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_2
-msgid "Select all the furniture shown in the video"
-msgstr "Sélectionnez tous les meubles présentés dans la vidéo"
-
-#. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_4
-msgid "Shelf"
-msgstr "Étagère"
 
 #. module: website_slides_survey
 #: model:ir.model,name:website_slides_survey.model_slide_slide_partner
@@ -429,25 +341,12 @@ msgid "Survey User Input"
 msgstr "Saisie utilisateur du sondage"
 
 #. module: website_slides_survey
-#: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_2
-msgid "Table"
-msgstr "Table"
-
-#. module: website_slides_survey
 #. openerp-web
 #: code:addons/website_slides_survey/static/src/xml/website_slides_fullscreen.xml:0
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 #, python-format
 msgid "Test Certification"
 msgstr "Certification de test"
-
-#. module: website_slides_survey
-#: model:survey.question,validation_error_msg:website_slides_survey.furniture_certification_page_1
-#: model:survey.question,validation_error_msg:website_slides_survey.furniture_certification_page_1_question_1
-#: model:survey.question,validation_error_msg:website_slides_survey.furniture_certification_page_1_question_2
-#: model:survey.question,validation_error_msg:website_slides_survey.furniture_certification_page_1_question_3
-msgid "The answer you entered is not valid."
-msgstr "La réponse saisie n'est pas valide."
 
 #. module: website_slides_survey
 #: model:ir.model.fields,help:website_slides_survey.field_survey_survey__slide_channel_ids
@@ -474,27 +373,9 @@ msgid "The slides this survey is linked to through the e-learning application"
 msgstr ""
 
 #. module: website_slides_survey
-#: model:survey.question,constr_error_msg:website_slides_survey.furniture_certification_page_1
-#: model:survey.question,constr_error_msg:website_slides_survey.furniture_certification_page_1_question_1
-#: model:survey.question,constr_error_msg:website_slides_survey.furniture_certification_page_1_question_2
-#: model:survey.question,constr_error_msg:website_slides_survey.furniture_certification_page_1_question_3
-msgid "This question requires an answer."
-msgstr "Cette question requiert une réponse."
-
-#. module: website_slides_survey
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__slide_type
 msgid "Type"
 msgstr "Type"
-
-#. module: website_slides_survey
-#: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_3
-msgid "What do you think about the content of the course? (not rated)"
-msgstr "Que pensez-vous du contenu du cours? (non noté)"
-
-#. module: website_slides_survey
-#: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_1
-msgid "What type of wood is the best for furniture?"
-msgstr "Quel type de bois est le meilleur pour les meubles?"
 
 #. module: website_slides_survey
 #: code:addons/website_slides_survey/controllers/slides.py:0
@@ -531,3 +412,69 @@ msgstr ""
 msgid ""
 "You have failed the course: {{ object.slide_partner_id.channel_id.name }}"
 msgstr ""
+
+#~ msgid "<p>Test your furniture knowledge!</p>"
+#~ msgstr "<p>Tester vos connaissances en meubles!</p>"
+
+#~ msgid "Ash"
+#~ msgstr "Frêne"
+
+#~ msgid "Bed"
+#~ msgstr "Lit"
+
+#~ msgid "Beech"
+#~ msgstr "Hêtre"
+
+#~ msgid "Chair"
+#~ msgstr "Chaise"
+
+#~ msgid "DIY Furniture Certification"
+#~ msgstr "Certification Meubles DIY "
+
+#~ msgid "Desk"
+#~ msgstr "Bureau"
+
+#~ msgid "Fir"
+#~ msgstr "Sapin"
+
+#~ msgid "Furniture"
+#~ msgstr "Meuble"
+
+#~ msgid "Furniture Creation Certification"
+#~ msgstr "Certification en création de mobilier"
+
+#~ msgid "If other, please specify:"
+#~ msgstr "Si autre, précisez:"
+
+#~ msgid "It's time to test your knowledge!"
+#~ msgstr "Il est temps de tester vos connaissances!"
+
+#~ msgid ""
+#~ "Now that you have completed the course, it's time to test your knowledge!"
+#~ msgstr ""
+#~ "Maintenant que vous avez terminé le cours, il est temps de tester vos "
+#~ "connaissances!"
+
+#~ msgid "Oak"
+#~ msgstr "Chêne"
+
+#~ msgid "Select all the furniture shown in the video"
+#~ msgstr "Sélectionnez tous les meubles présentés dans la vidéo"
+
+#~ msgid "Shelf"
+#~ msgstr "Étagère"
+
+#~ msgid "Table"
+#~ msgstr "Table"
+
+#~ msgid "The answer you entered is not valid."
+#~ msgstr "La réponse saisie n'est pas valide."
+
+#~ msgid "This question requires an answer."
+#~ msgstr "Cette question requiert une réponse."
+
+#~ msgid "What do you think about the content of the course? (not rated)"
+#~ msgstr "Que pensez-vous du contenu du cours? (non noté)"
+
+#~ msgid "What type of wood is the best for furniture?"
+#~ msgstr "Quel type de bois est le meilleur pour les meubles?"
