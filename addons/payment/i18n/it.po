@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:20+0000\n"
+"POT-Creation-Date: 2022-04-15 22:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -82,14 +82,6 @@ msgstr "<span class=\"o_stat_text\">Metodi di pagamento salvati</span>"
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
 msgid "<span><i class=\"fa fa-arrow-right\"/> Get my Stripe keys</span>"
 msgstr ""
-
-#. module: payment
-#: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
-msgid ""
-"<span><i class=\"fa fa-arrow-right\"/> How to configure your PayPal account</"
-"span>"
-msgstr ""
-"<span><i class=\"fa fa-arrow-right\"/> Configura il tuo account PayPal</span>"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -254,6 +246,11 @@ msgstr "Elenco sistemi"
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_kanban
 msgid "Activate"
 msgstr "Attiva"
+
+#. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
+msgid "Activate Stripe"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token__active
@@ -456,13 +453,10 @@ msgstr "Registra la transazione"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Bookm, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
-"Cattura l'importo da Odoo, quando la consegna è completata.\n"
-"Usa questo se vuoi addebitare le carte dei tuoi clienti solo quando\n"
-"sei sicuro di poter spedire la merce a loro."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -474,11 +468,6 @@ msgstr "Fai clic qui"
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
 msgid "Choose a payment method"
 msgstr "Scegliere un metodo di pagamento"
-
-#. module: payment
-#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
-msgid "Choose your default customer payment method."
-msgstr "Scegliere il metodo di pagamento cliente predefinito."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_city
@@ -621,6 +610,11 @@ msgid "Credentials"
 msgstr "Credenziali"
 
 #. module: payment
+#: model:payment.acquirer,display_as:payment.payment_acquirer_stripe
+msgid "Credit & Debit Card"
+msgstr ""
+
+#. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_adyen
 msgid "Credit Card (powered by Adyen)"
 msgstr "Carta di credito (supportata da Adyen)"
@@ -659,11 +653,6 @@ msgstr "Carta di credito (supportata da PayUmoney)"
 #: model:payment.acquirer,display_as:payment.payment_acquirer_sips
 msgid "Credit Card (powered by Sips)"
 msgstr "Carta di credito (supportata da Sips)"
-
-#. module: payment
-#: model:payment.acquirer,display_as:payment.payment_acquirer_stripe
-msgid "Credit Card (powered by Stripe)"
-msgstr "Carta di credito (supportata da Stripe)"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer_onboarding_wizard__payment_method__stripe
@@ -753,9 +742,19 @@ msgid "Email"
 msgstr "E-mail"
 
 #. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
+msgid "Enable credit &amp; debit card payments supported by Stripe"
+msgstr ""
+
+#. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__state__enabled
 msgid "Enabled"
 msgstr "Abilitato"
+
+#. module: payment
+#: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
+msgid "Enterprise Module"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__state__error
@@ -1160,11 +1159,6 @@ msgstr ""
 "della registrazione dell'importo) non sono disponibili."
 
 #. module: payment
-#: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Modulo Odoo Enterprise"
-
-#. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
 msgid "Offline payment by token"
 msgstr ""
@@ -1183,6 +1177,11 @@ msgid "Ok"
 msgstr "Ok"
 
 #. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
+msgid "Online Payments"
+msgstr ""
+
+#. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__online_direct
 msgid "Online direct payment"
 msgstr "Pagamento online diretto"
@@ -1196,6 +1195,11 @@ msgstr "Pagamento online via token"
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__online_redirect
 msgid "Online payment with redirection"
 msgstr "Pagamento online con reindirizzamento"
+
+#. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
+msgid "Online payments enabled"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/wizards/payment_acquirer_onboarding_wizard.py:0
@@ -1350,7 +1354,6 @@ msgstr "Link di pagamento"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__payment_method
-#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
 msgid "Payment Method"
 msgstr "Metodo di pagamento"
 
@@ -1423,11 +1426,6 @@ msgstr "Procedura di attivazione sistema di pagamento"
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__payment_acquirer_selection
 msgid "Payment acquirer selected"
 msgstr ""
-
-#. module: payment
-#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
-msgid "Payment method set!"
-msgstr "Metodo di pagamento impostato!"
 
 #. module: payment
 #: model:ir.model,name:payment.model_account_payment
@@ -1596,11 +1594,6 @@ msgid "Related Document Model"
 msgstr "Modello documento collegato"
 
 #. module: payment
-#: model:payment.acquirer,name:payment.payment_acquirer_sepa_direct_debit
-msgid "SEPA Direct Debit"
-msgstr "Addebito diretto SEPA"
-
-#. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.view_account_journal_form
 msgid "SETUP"
 msgstr "SETUP"
@@ -1655,11 +1648,6 @@ msgstr "Errore del server"
 #, python-format
 msgid "Server error:"
 msgstr "Errore del server:"
-
-#. module: payment
-#: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
-msgid "Set payments"
-msgstr "Imposta pagamenti"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__show_allow_tokenization
@@ -2100,8 +2088,8 @@ msgstr "Tipo di rimborso supportato"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 #, python-format
-msgid "Unable to contact the Odoo server."
-msgstr "Impossibile contattare il server Odoo."
+msgid "Unable to contact the Bookm server."
+msgstr ""
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_form
@@ -2299,7 +2287,6 @@ msgstr "L'ordine è in corso di elaborazione, attendere..."
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_test
@@ -2319,7 +2306,6 @@ msgstr "Il pagamento è stato autorizzato."
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_test
@@ -2346,7 +2332,6 @@ msgstr "Il pagamento è stato ricevuto ma è necessario confermarlo manualmente.
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_test
@@ -2367,7 +2352,6 @@ msgstr ""
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_payulatam
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_payumoney
-#: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_sepa_direct_debit
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_sips
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_stripe
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_test
@@ -2414,6 +2398,44 @@ msgstr "Mostra di più"
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
 msgid "to choose another payment method."
 msgstr "per scegliere un altro sistema di pagamento."
+
+#~ msgid ""
+#~ "<span><i class=\"fa fa-arrow-right\"/> How to configure your PayPal "
+#~ "account</span>"
+#~ msgstr ""
+#~ "<span><i class=\"fa fa-arrow-right\"/> Configura il tuo account PayPal</"
+#~ "span>"
+
+#~ msgid ""
+#~ "Capture the amount from Odoo, when the delivery is completed.\n"
+#~ "Use this if you want to charge your customers cards only when\n"
+#~ "you are sure you can ship the goods to them."
+#~ msgstr ""
+#~ "Cattura l'importo da Odoo, quando la consegna è completata.\n"
+#~ "Usa questo se vuoi addebitare le carte dei tuoi clienti solo quando\n"
+#~ "sei sicuro di poter spedire la merce a loro."
+
+#~ msgid "Choose your default customer payment method."
+#~ msgstr "Scegliere il metodo di pagamento cliente predefinito."
+
+#~ msgid "Credit Card (powered by Stripe)"
+#~ msgstr "Carta di credito (supportata da Stripe)"
+
+#~ msgid "Odoo Enterprise Module"
+#~ msgstr "Modulo Odoo Enterprise"
+
+#~ msgid "Payment method set!"
+#~ msgstr "Metodo di pagamento impostato!"
+
+#~ msgid "SEPA Direct Debit"
+#~ msgstr "Addebito diretto SEPA"
+
+#~ msgid "Set payments"
+#~ msgstr "Imposta pagamenti"
+
+#, python-format
+#~ msgid "Unable to contact the Odoo server."
+#~ msgstr "Impossibile contattare il server Odoo."
 
 #~ msgid "Please make a payment to:"
 #~ msgstr "Si prega di effettuare un pagamento a:"
