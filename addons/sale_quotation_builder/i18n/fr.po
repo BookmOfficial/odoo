@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:20+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: R HT, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -71,11 +71,6 @@ msgstr ""
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid "About us"
 msgstr "À propos"
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.brand_promotion
-msgid "An awesome"
-msgstr "Un génial"
 
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
@@ -142,11 +137,6 @@ msgstr ""
 "                        (depuis le menu Configuration), tous les autres "
 "devis utiliseront\n"
 "                        ce modèle modifié."
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.brand_promotion
-msgid "Open Source CRM"
-msgstr "CRM Open Source"
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
@@ -321,7 +311,7 @@ msgstr "Description du site Web"
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. Bookm will\n"
 "                        automatically create a quotation using the "
 "descriptions\n"
 "                        of all products in the proposal. The table of "
@@ -330,12 +320,31 @@ msgid ""
 "styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"Vous pouvez <strong>configurer une description par produit</strong>. Odoo "
-"créera\n"
-"                        automatiquement un devis à l'aide des descriptions\n"
-"                        de tous les produits de la proposition. La table des "
-"matières\n"
-"                        à gauche est générée automatiquement à l'aide des "
-"styles que vous\n"
-"                        avez utilisés dans votre description (titre 1, "
-"titre 2, ...)"
+
+#~ msgid "An awesome"
+#~ msgstr "Un génial"
+
+#~ msgid "Open Source CRM"
+#~ msgstr "CRM Open Source"
+
+#~ msgid ""
+#~ "You can <strong>set a description per product</strong>. Odoo will\n"
+#~ "                        automatically create a quotation using the "
+#~ "descriptions\n"
+#~ "                        of all products in the proposal. The table of "
+#~ "content\n"
+#~ "                        on the left is generated automatically using the "
+#~ "styles you\n"
+#~ "                        used in your description (heading 1, heading "
+#~ "2, ...)"
+#~ msgstr ""
+#~ "Vous pouvez <strong>configurer une description par produit</strong>. Odoo "
+#~ "créera\n"
+#~ "                        automatiquement un devis à l'aide des "
+#~ "descriptions\n"
+#~ "                        de tous les produits de la proposition. La table "
+#~ "des matières\n"
+#~ "                        à gauche est générée automatiquement à l'aide des "
+#~ "styles que vous\n"
+#~ "                        avez utilisés dans votre description (titre 1, "
+#~ "titre 2, ...)"
