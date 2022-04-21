@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:19+0000\n"
+"POT-Creation-Date: 2022-04-15 21:30+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -332,6 +332,13 @@ msgid "External ID"
 msgstr "Externe ID"
 
 #. module: base_import
+#. openerp-web
+#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
+#, python-format
+msgid "Field"
+msgstr ""
+
+#. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__field_name
 msgid "Field Name"
 msgstr "Feldname"
@@ -406,13 +413,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Go to Import FAQ"
-msgstr ""
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
 msgid "Help"
 msgstr "Hilfe"
 
@@ -450,14 +450,10 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                    the column names, Odoo can try auto-detecting the\n"
+"                    the column names, Bookm can try auto-detecting the\n"
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
-"Wenn die Datei die\n"
-"die Spaltennamen enthält, kann Odoo versuchen, automatisch das\n"
-"Feld zu finden, das der Spalte entspricht. Dies macht Importe\n"
-"einfacher, insbesondere wenn die Datei viele Spalten enthält."
 
 #. module: base_import
 #. openerp-web
@@ -486,13 +482,6 @@ msgstr ""
 #, python-format
 msgid "Import"
 msgstr "Import"
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
-msgid "Import FAQ"
-msgstr "FAQ zum Import"
 
 #. module: base_import
 #. openerp-web
@@ -691,13 +680,6 @@ msgstr "Keine passenden Datensätze gefunden für"
 #, python-format
 msgid "No matching records found for the following"
 msgstr ""
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
-msgid "Odoo Field"
-msgstr "Odoo Feld"
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview__othervalue
@@ -1200,3 +1182,24 @@ msgstr ""
 #, python-format
 msgid "unknown error code %s"
 msgstr "unbekannter Fehlercode %s"
+
+#, python-format
+#~ msgid ""
+#~ "If the file contains\n"
+#~ "                    the column names, Odoo can try auto-detecting the\n"
+#~ "                    field corresponding to the column. This makes "
+#~ "imports\n"
+#~ "                    simpler especially when the file has many columns."
+#~ msgstr ""
+#~ "Wenn die Datei die\n"
+#~ "die Spaltennamen enthält, kann Odoo versuchen, automatisch das\n"
+#~ "Feld zu finden, das der Spalte entspricht. Dies macht Importe\n"
+#~ "einfacher, insbesondere wenn die Datei viele Spalten enthält."
+
+#, python-format
+#~ msgid "Import FAQ"
+#~ msgstr "FAQ zum Import"
+
+#, python-format
+#~ msgid "Odoo Field"
+#~ msgstr "Odoo Feld"
