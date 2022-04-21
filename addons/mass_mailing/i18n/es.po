@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-01 17:39+0000\n"
+"POT-Creation-Date: 2022-04-15 22:49+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Sergio Pinilla Ávila <serjudo@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -166,12 +166,6 @@ msgstr "75%"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "800px"
 msgstr ""
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-msgstr ""
-"<b>Más de 50,000 empresas</b> utilizan Odoo para hacer crecer sus negocios"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_alert
@@ -1063,6 +1057,12 @@ msgid "Body converted to be sent by mail"
 msgstr ""
 
 #. module: mass_mailing
+#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
+#: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
+msgid "Bookm has allowed us to offer you hundreds of apps in just a few years."
+msgstr ""
+
+#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_product_list
 msgid "Books"
 msgstr ""
@@ -1311,11 +1311,6 @@ msgstr ""
 "Agregue imágenes o iconos para personalizar los bloques."
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
-msgid "Colors"
-msgstr "Colores"
-
-#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
 msgid "Column Title"
 msgstr "Título de columna"
@@ -1439,11 +1434,6 @@ msgid "Create"
 msgstr "Crear"
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Create a"
-msgstr "Crea una"
-
-#. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid "Create a Mailing"
 msgstr ""
@@ -1533,6 +1523,13 @@ msgstr "Ciberseguridad"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "DEFAULT"
 msgstr "POR DEFECTO"
+
+#. module: mass_mailing
+#. openerp-web
+#: code:addons/mass_mailing/static/src/js/mass_mailing_widget.js:0
+#, python-format
+msgid "DRAG BUILDING BLOCKS HERE"
+msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_alert_options
@@ -2691,11 +2688,6 @@ msgid "Models"
 msgstr "Modelos"
 
 #. module: mass_mailing
-#: model:mailing.mailing,sms_subject:mass_mailing.mass_mail_1
-msgid "Monthly Newsletter"
-msgstr ""
-
-#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "More"
@@ -2754,17 +2746,6 @@ msgid "New Mailing List Name"
 msgstr "Nuevo nombre de lista de correo"
 
 #. module: mass_mailing
-#: model:utm.campaign,name:mass_mailing.mass_mail_campaign_1
-msgid "Newsletter"
-msgstr "Boletín de noticias"
-
-#. module: mass_mailing
-#: model:mailing.mailing,name:mass_mailing.mass_mail_1
-#: model:utm.source,name:mass_mailing.utm_source_0
-msgid "Newsletter 1"
-msgstr "Boletín 1"
-
-#. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 msgstr ""
@@ -2813,7 +2794,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "No need to import mailing lists, you can send mailings to contacts saved in "
-"other Odoo apps."
+"other Bookm apps."
 msgstr ""
 
 #. module: mass_mailing
@@ -2933,11 +2914,6 @@ msgstr ""
 #, python-format
 msgid "OPENED (%i)"
 msgstr ""
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Odoo"
-msgstr "Odoo"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_image_text
@@ -3326,6 +3302,11 @@ msgstr "Derecha"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options_border_widgets
 msgid "Round Corners"
+msgstr ""
+
+#. module: mass_mailing
+#: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
+msgid "Run Bookm to grow your businesses."
 msgstr ""
 
 #. module: mass_mailing
@@ -3798,8 +3779,8 @@ msgstr "¡Gracias! ¡Su comentario ha sido enviado con éxito!"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
-msgid "That way, Odoo evolves much faster than any other solution."
-msgstr "Por eso, Odoo evoluciona más rápidamente que cualquier otro ERP."
+msgid "That way, Bookm evolves much faster than any other solution."
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.constraint,message:mass_mailing.constraint_mailing_mailing_percentage_valid
@@ -3827,38 +3808,12 @@ msgstr ""
 "suscripción."
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
-"developers and\n"
-"                                business experts to build hundreds of apps "
-"in just a few years."
-msgstr ""
-"El modelo de código abierto de Odoo nos ha permitido provechar a los miles "
-"de desarrolladores y\n"
-"                                expertos en negocios para construir cientos "
-"de apps en unos pocos años."
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
-msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
-"developers and\n"
-"                    business experts to build hundreds of apps in just a few "
-"years."
-msgstr ""
-
-#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of Bookm has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"El modelo de código abierto de Odoo nos ha permitido provechar a los miles "
-"de desarrolladores y expertos en negocios para construir cientos de apps en "
-"unos pocos años"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mailing.py:0
@@ -4124,16 +4079,14 @@ msgstr "Actualizar mis suscripciones"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on Bookm will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Las mejoras de usabilidad desarrolladas en Odoo se aplicarán a todas\n"
-"                                nuestras apps totalmente integradas."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on Bookm will automatically apply to all\n"
 "                    of our fully integrated apps."
 msgstr ""
 
@@ -4152,13 +4105,10 @@ msgstr "Use un servidor dedicado para correos"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise Bookm relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Use un servidor de correo específico con prioridad. De lo contrario, Odoo "
-"depende en el primer servidor de correo saliente disponible (según su "
-"secuencia) como lo hace para los correos normales."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_coupon_code
@@ -4327,18 +4277,15 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Bookm's framework is unique.\n"
 "                                It provides top notch usability that scales "
 "across all apps."
 msgstr ""
-"Con una sólida base técnica, el framework de Odoo es único.\n"
-"                                Permite una magnífica usabilidad escalable a "
-"todas las aplicaciones."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Bookm's framework is unique.\n"
 "                    It provides top notch usability that scales across all "
 "apps."
 msgstr ""
@@ -4347,11 +4294,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, Bookm's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Con una sólida base técnica, el framework de Odoo es único. Permite  "
-"<strong>una magnífica usabilidad escalable a todas las apps</strong>."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_two_cols
@@ -4403,11 +4348,8 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailings_from_campaign
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other Bookm apps."
 msgstr ""
-"No necesita importar sus listas de correo, puede fácilmente\n"
-"                 enviar correos electrónicos<br> a cualquier contacto "
-"guardado en otras aplicaciones de Odoo."
 
 #. module: mass_mailing
 #. openerp-web
@@ -4514,11 +4456,6 @@ msgid ""
 msgstr ""
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "free website"
-msgstr "web gratuita"
-
-#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "from the same campaign."
 msgstr ""
@@ -4576,11 +4513,6 @@ msgid "will receive this"
 msgstr ""
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "with"
-msgstr "con"
-
-#. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options
 msgid "⌙ Active"
 msgstr ""
@@ -4589,3 +4521,91 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options
 msgid "⌙ Inactive"
 msgstr ""
+
+#~ msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+#~ msgstr ""
+#~ "<b>Más de 50,000 empresas</b> utilizan Odoo para hacer crecer sus negocios"
+
+#~ msgid "Colors"
+#~ msgstr "Colores"
+
+#~ msgid "Create a"
+#~ msgstr "Crea una"
+
+#~ msgid "Newsletter"
+#~ msgstr "Boletín de noticias"
+
+#~ msgid "Newsletter 1"
+#~ msgstr "Boletín 1"
+
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#~ msgid "That way, Odoo evolves much faster than any other solution."
+#~ msgstr "Por eso, Odoo evoluciona más rápidamente que cualquier otro ERP."
+
+#~ msgid ""
+#~ "The open source model of Odoo has allowed us to leverage thousands of "
+#~ "developers and\n"
+#~ "                                business experts to build hundreds of "
+#~ "apps in just a few years."
+#~ msgstr ""
+#~ "El modelo de código abierto de Odoo nos ha permitido provechar a los "
+#~ "miles de desarrolladores y\n"
+#~ "                                expertos en negocios para construir "
+#~ "cientos de apps en unos pocos años."
+
+#~ msgid ""
+#~ "The open source model of Odoo has allowed us to leverage thousands of "
+#~ "developers and business experts to build hundreds of apps in just a few "
+#~ "years."
+#~ msgstr ""
+#~ "El modelo de código abierto de Odoo nos ha permitido provechar a los "
+#~ "miles de desarrolladores y expertos en negocios para construir cientos de "
+#~ "apps en unos pocos años"
+
+#~ msgid ""
+#~ "Usability improvements made on Odoo will automatically apply to all\n"
+#~ "                                of our fully integrated apps."
+#~ msgstr ""
+#~ "Las mejoras de usabilidad desarrolladas en Odoo se aplicarán a todas\n"
+#~ "                                nuestras apps totalmente integradas."
+
+#~ msgid ""
+#~ "Use a specific mail server in priority. Otherwise Odoo relies on the "
+#~ "first outgoing mail server available (based on their sequencing) as it "
+#~ "does for normal mails."
+#~ msgstr ""
+#~ "Use un servidor de correo específico con prioridad. De lo contrario, Odoo "
+#~ "depende en el primer servidor de correo saliente disponible (según su "
+#~ "secuencia) como lo hace para los correos normales."
+
+#~ msgid ""
+#~ "With strong technical foundations, Odoo's framework is unique.\n"
+#~ "                                It provides top notch usability that "
+#~ "scales across all apps."
+#~ msgstr ""
+#~ "Con una sólida base técnica, el framework de Odoo es único.\n"
+#~ "                                Permite una magnífica usabilidad "
+#~ "escalable a todas las aplicaciones."
+
+#~ msgid ""
+#~ "With strong technical foundations, Odoo's framework is unique. It "
+#~ "provides <strong>top notch usability that scales across all apps</strong>."
+#~ msgstr ""
+#~ "Con una sólida base técnica, el framework de Odoo es único. Permite  "
+#~ "<strong>una magnífica usabilidad escalable a todas las apps</strong>."
+
+#~ msgid ""
+#~ "You don't need to import your mailing lists, you can easily\n"
+#~ "                send emails<br> to any contact saved in other Odoo apps."
+#~ msgstr ""
+#~ "No necesita importar sus listas de correo, puede fácilmente\n"
+#~ "                 enviar correos electrónicos<br> a cualquier contacto "
+#~ "guardado en otras aplicaciones de Odoo."
+
+#~ msgid "free website"
+#~ msgstr "web gratuita"
+
+#~ msgid "with"
+#~ msgstr "con"
