@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:19+0000\n"
+"POT-Creation-Date: 2022-04-15 21:30+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -330,6 +330,13 @@ msgid "External ID"
 msgstr "ID Externe"
 
 #. module: base_import
+#. openerp-web
+#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
+#, python-format
+msgid "Field"
+msgstr ""
+
+#. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__field_name
 msgid "Field Name"
 msgstr "Nom de Champ"
@@ -403,13 +410,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Go to Import FAQ"
-msgstr "Aller à la Foire aux Questions sur l'import"
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
 msgid "Help"
 msgstr "Aide"
 
@@ -447,7 +447,7 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                    the column names, Odoo can try auto-detecting the\n"
+"                    the column names, Bookm can try auto-detecting the\n"
 "                    field corresponding to the column. This makes imports\n"
 "                    simpler especially when the file has many columns."
 msgstr ""
@@ -479,13 +479,6 @@ msgstr ""
 #, python-format
 msgid "Import"
 msgstr "Importer"
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
-msgid "Import FAQ"
-msgstr "Importer la FAQ"
 
 #. module: base_import
 #. openerp-web
@@ -684,13 +677,6 @@ msgstr "Aucun enregistrement correspondant trouvé pour"
 #, python-format
 msgid "No matching records found for the following"
 msgstr "Aucun enregistrement correspondant trouvé pour les éléments suivants "
-
-#. module: base_import
-#. openerp-web
-#: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
-#, python-format
-msgid "Odoo Field"
-msgstr "Champ Odoo"
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview__othervalue
@@ -1196,3 +1182,15 @@ msgstr ""
 #, python-format
 msgid "unknown error code %s"
 msgstr "code d'erreur inconnu %s"
+
+#, python-format
+#~ msgid "Go to Import FAQ"
+#~ msgstr "Aller à la Foire aux Questions sur l'import"
+
+#, python-format
+#~ msgid "Import FAQ"
+#~ msgstr "Importer la FAQ"
+
+#, python-format
+#~ msgid "Odoo Field"
+#~ msgstr "Champ Odoo"
