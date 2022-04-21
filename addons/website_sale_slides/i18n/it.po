@@ -1,22 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_sale_slides
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-16 00:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_sale_slides
@@ -74,12 +74,6 @@ msgstr "Corsi"
 #: model:ir.model.fields,field_description:website_sale_slides.field_slide_channel__currency_id
 msgid "Currency"
 msgstr "Valuta"
-
-#. module: website_sale_slides
-#: model:product.product,name:website_sale_slides.product_course_channel_6
-#: model:product.template,name:website_sale_slides.product_course_channel_6_product_template
-msgid "DIY Furniture Course"
-msgstr "Corso di arredi fai da te"
 
 #. module: website_sale_slides
 #: model:ir.model.fields,field_description:website_sale_slides.field_slide_channel__enroll
@@ -158,12 +152,6 @@ msgid "Sign in and buy the course to take the quiz"
 msgstr "Per partecipare al quiz accedi e acquista il corso"
 
 #. module: website_sale_slides
-#: model:product.product,name:website_sale_slides.product_course_channel_1
-#: model:product.template,name:website_sale_slides.product_course_channel_1_product_template
-msgid "Taking care of Trees Course"
-msgstr "Corso per la cura degli alberi"
-
-#. module: website_sale_slides
 #. openerp-web
 #: code:addons/website_sale_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #, python-format
@@ -174,14 +162,6 @@ msgstr "Questo corso risulta pagato."
 #: model:ir.model.fields,field_description:website_sale_slides.field_slide_channel__product_sale_revenues
 msgid "Total revenues"
 msgstr "Entrate totali"
-
-#. module: website_sale_slides
-#: model:product.product,uom_name:website_sale_slides.product_course_channel_1
-#: model:product.product,uom_name:website_sale_slides.product_course_channel_6
-#: model:product.template,uom_name:website_sale_slides.product_course_channel_1_product_template
-#: model:product.template,uom_name:website_sale_slides.product_course_channel_6_product_template
-msgid "Units"
-msgstr "Unità"
 
 #. module: website_sale_slides
 #: model:ir.actions.act_window,name:website_sale_slides.sale_report_action_slides
@@ -197,3 +177,12 @@ msgstr "Analisi vendite e-learning"
 #: model_terms:ir.ui.view,arch_db:website_sale_slides.course_buy_course_link
 msgid "to download resources"
 msgstr "per scaricare le risorse"
+
+#~ msgid "DIY Furniture Course"
+#~ msgstr "Corso di arredi fai da te"
+
+#~ msgid "Taking care of Trees Course"
+#~ msgstr "Corso per la cura degli alberi"
+
+#~ msgid "Units"
+#~ msgstr "Unità"
