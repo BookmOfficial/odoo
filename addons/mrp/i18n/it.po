@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:19+0000\n"
+"POT-Creation-Date: 2022-04-15 22:52+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Stefano Consolaro <stefano.consolaro@mymage.it>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -154,12 +154,6 @@ msgid ""
 msgstr ""
 ".\n"
 "            Potrebbero essere necessarie azioni manuali."
-
-#. module: mrp
-#: model_terms:product.product,description:mrp.product_product_computer_desk_leg
-#: model_terms:product.template,description:mrp.product_product_computer_desk_leg_product_template
-msgid "18″ x 2½″ Square Leg"
-msgstr "Gamba quadrata 18″ x 2½″"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_unbuild.py:0
@@ -506,11 +500,6 @@ msgstr ""
 "Aggiungi sottoprodotti alla bill of materials. Puo' anche essere usato per "
 "ottenere diversi prodotti finiti. Senza questa opzione è possibile solo "
 "fare: A + B = C. Selezionando questa opzione: A + B = C + D."
-
-#. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Add quality checks to your work orders"
-msgstr "Aggiungi controlli di qualita' ai tuoi ordini di produzione"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_workcenter_tag
@@ -943,12 +932,6 @@ msgid "BoM line product %s should not be the same as BoM product."
 msgstr "Il prodotto %s nella riga DiBa non può corrispondere al prodotto DiBa."
 
 #. module: mrp
-#: model:product.product,name:mrp.product_product_computer_desk_bolt
-#: model:product.template,name:mrp.product_product_computer_desk_bolt_product_template
-msgid "Bolt"
-msgstr "Bullone"
-
-#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_byproducts
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom_line
@@ -1350,11 +1333,6 @@ msgid "Create backorder"
 msgstr "Crea ordine residuo"
 
 #. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Create customizable worksheets for your quality checks"
-msgstr ""
-
-#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__created_production_id
 msgid "Created Production Order"
 msgstr "Crea un ordine di produzione"
@@ -1652,11 +1630,6 @@ msgid "Document"
 msgstr "Documento"
 
 #. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Documentazione"
-
-#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__is_done
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__done
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_unbuild__state__done
@@ -1679,24 +1652,6 @@ msgstr "Scarica"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Draft"
 msgstr "Bozza"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_drawer_drawer
-#: model:product.template,name:mrp.product_product_drawer_drawer_product_template
-msgid "Drawer Black"
-msgstr "Cassettiera nera"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_drawer_case
-#: model:product.template,name:mrp.product_product_drawer_case_product_template
-msgid "Drawer Case Black"
-msgstr "Mobiletto nero"
-
-#. module: mrp
-#: model_terms:product.product,description:mrp.product_product_drawer_drawer
-#: model_terms:product.template,description:mrp.product_product_drawer_drawer_product_template
-msgid "Drawer on casters for great usability."
-msgstr "Cassettiera su ruote con grande usabilità."
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_document_file_kanban_mrp
@@ -2320,6 +2275,14 @@ msgid "It has already been unblocked."
 msgstr "E' gia' stato sbloccato."
 
 #. module: mrp
+#: code:addons/mrp/models/mrp_workorder.py:0
+#, python-format
+msgid ""
+"It is not possible to unplan one single Work Order. You should unplan the "
+"Manufacturing Order instead in order to unplan all the linked operations."
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_planned
 msgid "Its Operations are Planned"
 msgstr ""
@@ -2448,12 +2411,6 @@ msgid ""
 "Latest component availability status for this MO. If green, then the MO's "
 "readiness status is ready, as per BOM configuration."
 msgstr ""
-
-#. module: mrp
-#: model_terms:product.product,description:mrp.product_product_wood_ply
-#: model_terms:product.template,description:mrp.product_product_wood_ply_product_template
-msgid "Layers that are stick together to assemble wood panels."
-msgstr "Strati incollati insieme per assemblare pannelli di legno."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__leave_id
@@ -2902,6 +2859,7 @@ msgstr "Nome"
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/mrp_unbuild.py:0
+#: code:addons/mrp/models/stock_rule.py:0
 #, python-format
 msgid "New"
 msgstr "Nuovo"
@@ -3362,11 +3320,6 @@ msgid "Plan Orders"
 msgstr "Pianifica Ordini"
 
 #. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Plan manufacturing or purchase orders based on forecasts"
-msgstr "Pianifica ordine di produzione o acquisto in base alle previsioni"
-
-#. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Planned"
@@ -3395,29 +3348,11 @@ msgid "Planning Issues"
 msgstr "Problemi di pianificazione"
 
 #. module: mrp
-#: model:product.product,name:mrp.product_product_plastic_laminate
-#: model:product.template,name:mrp.product_product_plastic_laminate_product_template
-msgid "Plastic Laminate"
-msgstr "Laminato plastico"
-
-#. module: mrp
 #. openerp-web
 #: code:addons/mrp/static/src/js/mrp_field_one2many_with_copy.js:0
 #, python-format
 msgid "Please click on the \"save\" button first"
 msgstr "Prima fare clic sul pulsante «Salva»"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_wood_ply
-#: model:product.template,name:mrp.product_product_wood_ply_product_template
-msgid "Ply Layer"
-msgstr "Pannello multistrato"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_ply_veneer
-#: model:product.template,name:mrp.product_product_ply_veneer_product_template
-msgid "Ply Veneer"
-msgstr "Legno impiallacciato"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__json_popover
@@ -4010,12 +3945,6 @@ msgid "Scraps"
 msgstr "Scarti"
 
 #. module: mrp
-#: model:product.product,name:mrp.product_product_computer_desk_screw
-#: model:product.template,name:mrp.product_product_computer_desk_screw_product_template
-msgid "Screw"
-msgstr "Vite"
-
-#. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 msgid "Search"
 msgstr "Ricerca"
@@ -4160,18 +4089,6 @@ msgid "Slot into workcenter calendar once planned"
 msgstr "Inserito nel calendario del centro di lavoro una volta pianificato"
 
 #. module: mrp
-#: model_terms:product.product,description:mrp.product_product_computer_desk_head
-#: model_terms:product.template,description:mrp.product_product_computer_desk_head_product_template
-msgid "Solid wood is a durable natural material."
-msgstr "Il legno massiccio è un materiale naturale durevole."
-
-#. module: mrp
-#: model_terms:product.product,description:mrp.product_product_computer_desk
-#: model_terms:product.template,description:mrp.product_product_computer_desk_product_template
-msgid "Solid wood table."
-msgstr "Tavola di legno massiccio."
-
-#. module: mrp
 #: code:addons/mrp/models/mrp_unbuild.py:0
 #, python-format
 msgid ""
@@ -4234,18 +4151,6 @@ msgstr "Ubicazione di origine"
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__costs_hour
 msgid "Specify cost of work center per hour."
 msgstr "Specificare il costo orario del posto di lavoro."
-
-#. module: mrp
-#: model_terms:product.product,description:mrp.product_product_computer_desk_screw
-#: model_terms:product.template,description:mrp.product_product_computer_desk_screw_product_template
-msgid "Stainless steel screw"
-msgstr "Vite in acciao inox"
-
-#. module: mrp
-#: model_terms:product.product,description:mrp.product_product_computer_desk_bolt
-#: model_terms:product.template,description:mrp.product_product_computer_desk_bolt_product_template
-msgid "Stainless steel screw full (dia - 5mm, Length - 10mm)"
-msgstr "Vite in acciao inox (diametro - 5mm, lunghezza - 10mm)"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -4384,36 +4289,6 @@ msgid "Subcontracting"
 msgstr "Esternalizzazione"
 
 #. module: mrp
-#: model:product.product,name:mrp.product_product_computer_desk
-#: model:product.template,name:mrp.product_product_computer_desk_product_template
-msgid "Table"
-msgstr "Tavolo"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_table_kit
-#: model:product.template,name:mrp.product_product_table_kit_product_template
-msgid "Table Kit"
-msgstr "Kit tavolo"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_computer_desk_leg
-#: model:product.template,name:mrp.product_product_computer_desk_leg_product_template
-msgid "Table Leg"
-msgstr "Gamba del tavolo"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_computer_desk_head
-#: model:product.template,name:mrp.product_product_computer_desk_head_product_template
-msgid "Table Top"
-msgstr "Piano del tavolo"
-
-#. module: mrp
-#: model_terms:product.product,description:mrp.product_product_table_kit
-#: model_terms:product.template,description:mrp.product_product_table_kit_product_template
-msgid "Table kit"
-msgstr "Kit tavolo"
-
-#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__tag_ids
 msgid "Tag"
 msgstr "Etichetta"
@@ -4525,6 +4400,12 @@ msgid "The capacity must be strictly positive."
 msgstr "La capacità deve essere strettamente positiva."
 
 #. module: mrp
+#: code:addons/mrp/models/mrp_production.py:0
+#, python-format
+msgid "The component %s should not be the same as the product to produce."
+msgstr ""
+
+#. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_document__res_model
 msgid "The database object this attachment will be attached to."
 msgstr "L'oggetto del database a cui verrà assegnato questo allegato."
@@ -4578,10 +4459,13 @@ msgstr ""
 "la data di inizio, correggerla per salvare l'ordine di lavoro."
 
 #. module: mrp
-#: code:addons/mrp/models/mrp_production.py:0
+#: code:addons/mrp/models/mrp_bom.py:0
 #, python-format
-msgid "The quantity produced of by-products must be positive."
-msgstr "La quantità prodotta di sottoprodotti deve essere positiva."
+msgid ""
+"The product has already been used at least once, editing its structure may "
+"lead to undesirable behaviours. You should rather archive the product and "
+"create a new one with a new bill of materials."
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:0
@@ -4841,12 +4725,6 @@ msgid "Today Activities"
 msgstr "Attività odierne"
 
 #. module: mrp
-#: model_terms:product.product,description:mrp.product_product_wood_wear
-#: model_terms:product.template,description:mrp.product_product_wood_wear_product_template
-msgid "Top layer of a wood panel."
-msgstr "Strato superiore di un pannello di legno."
-
-#. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_bom_tree_view
 msgid "Total Duration"
 msgstr "Durata totale"
@@ -5029,36 +4907,6 @@ msgid ""
 msgstr "UdM (Unità di Misura) è l'unità di misura dell'inventario"
 
 #. module: mrp
-#: model:product.product,uom_name:mrp.product_product_computer_desk
-#: model:product.product,uom_name:mrp.product_product_computer_desk_bolt
-#: model:product.product,uom_name:mrp.product_product_computer_desk_head
-#: model:product.product,uom_name:mrp.product_product_computer_desk_leg
-#: model:product.product,uom_name:mrp.product_product_computer_desk_screw
-#: model:product.product,uom_name:mrp.product_product_drawer_case
-#: model:product.product,uom_name:mrp.product_product_drawer_drawer
-#: model:product.product,uom_name:mrp.product_product_plastic_laminate
-#: model:product.product,uom_name:mrp.product_product_ply_veneer
-#: model:product.product,uom_name:mrp.product_product_table_kit
-#: model:product.product,uom_name:mrp.product_product_wood_panel
-#: model:product.product,uom_name:mrp.product_product_wood_ply
-#: model:product.product,uom_name:mrp.product_product_wood_wear
-#: model:product.template,uom_name:mrp.product_product_computer_desk_bolt_product_template
-#: model:product.template,uom_name:mrp.product_product_computer_desk_head_product_template
-#: model:product.template,uom_name:mrp.product_product_computer_desk_leg_product_template
-#: model:product.template,uom_name:mrp.product_product_computer_desk_product_template
-#: model:product.template,uom_name:mrp.product_product_computer_desk_screw_product_template
-#: model:product.template,uom_name:mrp.product_product_drawer_case_product_template
-#: model:product.template,uom_name:mrp.product_product_drawer_drawer_product_template
-#: model:product.template,uom_name:mrp.product_product_plastic_laminate_product_template
-#: model:product.template,uom_name:mrp.product_product_ply_veneer_product_template
-#: model:product.template,uom_name:mrp.product_product_table_kit_product_template
-#: model:product.template,uom_name:mrp.product_product_wood_panel_product_template
-#: model:product.template,uom_name:mrp.product_product_wood_ply_product_template
-#: model:product.template,uom_name:mrp.product_product_wood_wear_product_template
-msgid "Units"
-msgstr "Unità"
-
-#. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Unlock"
 msgstr "Sblocca"
@@ -5149,17 +4997,6 @@ msgid "User"
 msgstr "Utente"
 
 #. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid ""
-"Using a MPS report to schedule your reordering and manufacturing operations "
-"is useful if you have long lead time and if you produce based on sales "
-"forecasts."
-msgstr ""
-"L'utilizzo di un documento MPS, per programmare le operazioni di riordino e "
-"produzione, è utile in presenza di tempi di risposta lunghi e se la "
-"produzione è basata su previsioni di vendita."
-
-#. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
 msgid "Validate"
@@ -5245,12 +5082,6 @@ msgid "Warnings"
 msgstr "Avvisi"
 
 #. module: mrp
-#: model:product.product,name:mrp.product_product_wood_wear
-#: model:product.template,name:mrp.product_product_wood_wear_product_template
-msgid "Wear Layer"
-msgstr "Legno laminato"
-
-#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__website_id
 msgid "Website"
 msgstr "Sito web"
@@ -5312,7 +5143,7 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Odoo work center control panel, your worker can start work orders "
+"With the Bookm work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
@@ -5331,12 +5162,6 @@ msgstr ""
 #: model:ir.model,name:mrp.model_mrp_production_backorder
 msgid "Wizard to mark as done or create back order"
 msgstr "Procedura per segnare completato o creare ordine residuo"
-
-#. module: mrp
-#: model:product.product,name:mrp.product_product_wood_panel
-#: model:product.template,name:mrp.product_product_wood_panel_product_template
-msgid "Wood Panel"
-msgstr "Pannello in legno"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_workcenter
@@ -5733,12 +5558,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will produce all the finished products and consume all "
+"<i>apply</i> Bookm will produce all the finished products and consume all "
 "components."
 msgstr ""
-"Non sono ancore state registrate quantità <i>prodotte</i>. Con un clic su "
-"<i>Applica</i> Odoo avvierà la produzione dei prodotti completati consumando "
-"tutti i componenti."
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:0
@@ -5905,3 +5727,103 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "ordini di lavoro"
+
+#~ msgid "18″ x 2½″ Square Leg"
+#~ msgstr "Gamba quadrata 18″ x 2½″"
+
+#~ msgid "Add quality checks to your work orders"
+#~ msgstr "Aggiungi controlli di qualita' ai tuoi ordini di produzione"
+
+#~ msgid "Bolt"
+#~ msgstr "Bullone"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentazione"
+
+#~ msgid "Drawer Black"
+#~ msgstr "Cassettiera nera"
+
+#~ msgid "Drawer Case Black"
+#~ msgstr "Mobiletto nero"
+
+#~ msgid "Drawer on casters for great usability."
+#~ msgstr "Cassettiera su ruote con grande usabilità."
+
+#~ msgid "Layers that are stick together to assemble wood panels."
+#~ msgstr "Strati incollati insieme per assemblare pannelli di legno."
+
+#~ msgid "Plan manufacturing or purchase orders based on forecasts"
+#~ msgstr "Pianifica ordine di produzione o acquisto in base alle previsioni"
+
+#~ msgid "Plastic Laminate"
+#~ msgstr "Laminato plastico"
+
+#~ msgid "Ply Layer"
+#~ msgstr "Pannello multistrato"
+
+#~ msgid "Ply Veneer"
+#~ msgstr "Legno impiallacciato"
+
+#~ msgid "Screw"
+#~ msgstr "Vite"
+
+#~ msgid "Solid wood is a durable natural material."
+#~ msgstr "Il legno massiccio è un materiale naturale durevole."
+
+#~ msgid "Solid wood table."
+#~ msgstr "Tavola di legno massiccio."
+
+#~ msgid "Stainless steel screw"
+#~ msgstr "Vite in acciao inox"
+
+#~ msgid "Stainless steel screw full (dia - 5mm, Length - 10mm)"
+#~ msgstr "Vite in acciao inox (diametro - 5mm, lunghezza - 10mm)"
+
+#~ msgid "Table"
+#~ msgstr "Tavolo"
+
+#~ msgid "Table Kit"
+#~ msgstr "Kit tavolo"
+
+#~ msgid "Table Leg"
+#~ msgstr "Gamba del tavolo"
+
+#~ msgid "Table Top"
+#~ msgstr "Piano del tavolo"
+
+#~ msgid "Table kit"
+#~ msgstr "Kit tavolo"
+
+#, python-format
+#~ msgid "The quantity produced of by-products must be positive."
+#~ msgstr "La quantità prodotta di sottoprodotti deve essere positiva."
+
+#~ msgid "Top layer of a wood panel."
+#~ msgstr "Strato superiore di un pannello di legno."
+
+#~ msgid "Units"
+#~ msgstr "Unità"
+
+#~ msgid ""
+#~ "Using a MPS report to schedule your reordering and manufacturing "
+#~ "operations is useful if you have long lead time and if you produce based "
+#~ "on sales forecasts."
+#~ msgstr ""
+#~ "L'utilizzo di un documento MPS, per programmare le operazioni di riordino "
+#~ "e produzione, è utile in presenza di tempi di risposta lunghi e se la "
+#~ "produzione è basata su previsioni di vendita."
+
+#~ msgid "Wear Layer"
+#~ msgstr "Legno laminato"
+
+#~ msgid "Wood Panel"
+#~ msgstr "Pannello in legno"
+
+#~ msgid ""
+#~ "You have not recorded <i>produced</i> quantities yet, by clicking on "
+#~ "<i>apply</i> Odoo will produce all the finished products and consume all "
+#~ "components."
+#~ msgstr ""
+#~ "Non sono ancore state registrate quantità <i>prodotte</i>. Con un clic su "
+#~ "<i>Applica</i> Odoo avvierà la produzione dei prodotti completati "
+#~ "consumando tutti i componenti."
