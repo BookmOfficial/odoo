@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-16 00:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:29+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.payment_delivery
+#: model_terms:ir.ui.view,arch_db:website_sale_delivery.payment_delivery_shipping_method
 msgid "<b>Shipping Method: </b>"
 msgstr "<b>Metodo di spedizione: </b>"
 
@@ -48,11 +48,6 @@ msgstr "Scegliere un metodo di spedizione"
 #: model:ir.model,name:website_sale_delivery.model_res_country
 msgid "Country"
 msgstr "Nazione"
-
-#. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.res_config_settings_view_form
-msgid "DHL Shipping Methods"
-msgstr "Metodi di spedizione DHL"
 
 #. module: website_sale_delivery
 #: model:ir.model.fields,field_description:website_sale_delivery.field_sale_order__amount_delivery
@@ -83,16 +78,6 @@ msgstr "Descrizione visualizzata nell'e-commerce e nei preventivi online."
 #: model:ir.model.fields,field_description:website_sale_delivery.field_delivery_carrier__website_description
 msgid "Description for Online Quotations"
 msgstr "Descrizione per preventivi online"
-
-#. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.res_config_settings_view_form
-msgid "Easypost Shipping Methods"
-msgstr "Metodi di spedizione Easypost"
-
-#. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.res_config_settings_view_form
-msgid "FedEx Shipping Methods"
-msgstr "Metodi di spedizione FedEx"
 
 #. module: website_sale_delivery
 #. openerp-web
@@ -171,11 +156,6 @@ msgid "The full URL to access the document through the website."
 msgstr "URL completo per accedere al documento dal sito web."
 
 #. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.res_config_settings_view_form
-msgid "USPS Shipping Methods"
-msgstr "Metodi di spedizione USPS"
-
-#. module: website_sale_delivery
 #: model:ir.model.fields,field_description:website_sale_delivery.field_delivery_carrier__website_published
 msgid "Visible on current website"
 msgstr "Visibile nel sito web corrente"
@@ -190,7 +170,17 @@ msgstr "Sito web"
 msgid "Website URL"
 msgstr "URL sito web"
 
-#. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.res_config_settings_view_form
-msgid "bpost Shipping Methods"
-msgstr "Metodi di spedizione bpost"
+#~ msgid "DHL Shipping Methods"
+#~ msgstr "Metodi di spedizione DHL"
+
+#~ msgid "Easypost Shipping Methods"
+#~ msgstr "Metodi di spedizione Easypost"
+
+#~ msgid "FedEx Shipping Methods"
+#~ msgstr "Metodi di spedizione FedEx"
+
+#~ msgid "USPS Shipping Methods"
+#~ msgstr "Metodi di spedizione USPS"
+
+#~ msgid "bpost Shipping Methods"
+#~ msgstr "Metodi di spedizione bpost"
