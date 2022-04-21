@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -170,11 +170,6 @@ msgid "Configuration"
 msgstr "Configuración"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor7
-msgid "Consulting"
-msgstr "Consultoría"
-
-#. module: sales_team
 #: model:ir.model,name:sales_team.model_res_partner
 msgid "Contact"
 msgstr "Contacto"
@@ -233,11 +228,6 @@ msgstr "Datos gráficos del tablero"
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_sales
 msgid "Define a new sales team"
 msgstr "Definir un nuevo equipo de ventas"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor5
-msgid "Design"
-msgstr "Diseño"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__display_name
@@ -359,11 +349,6 @@ msgid "Image (128)"
 msgstr ""
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor4
-msgid "Information"
-msgstr "Información"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_is_follower
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_is_follower
 msgid "Is Follower"
@@ -392,9 +377,7 @@ msgstr "Última actualización el"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
-msgid ""
-"Link salespersons to sales teams. Set their monthly lead capacity\n"
-"                and configure automatic lead assignment."
+msgid "Link salespersons to sales teams."
 msgstr ""
 
 #. module: sales_team
@@ -489,11 +472,6 @@ msgid "Number of unread messages"
 msgstr "Número de mensajes no leidos"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor8
-msgid "Other"
-msgstr "Otro"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__phone
 msgid "Phone"
 msgstr "Teléfono"
@@ -502,16 +480,6 @@ msgstr "Teléfono"
 #: model:crm.team,name:sales_team.pos_sales_team
 msgid "Point of Sale"
 msgstr "Punto de venta"
-
-#. module: sales_team
-#: model:crm.team,name:sales_team.crm_team_1
-msgid "Pre-Sales"
-msgstr ""
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor1
-msgid "Product"
-msgstr "Producto"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.team_sales_department
@@ -591,19 +559,9 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor3
-msgid "Services"
-msgstr "Servicios"
-
-#. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_favorite
 msgid "Show on dashboard"
 msgstr "Mostrar en tablero"
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor2
-msgid "Software"
-msgstr "Software"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__name
@@ -667,11 +625,6 @@ msgid ""
 "To add a Salesperson into multiple Teams, activate the Multi-Team option in "
 "settings."
 msgstr ""
-
-#. module: sales_team
-#: model:crm.tag,name:sales_team.categ_oppor6
-msgid "Training"
-msgstr "Formación"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_in_teams_ids
@@ -807,3 +760,27 @@ msgid ""
 msgstr ""
 "el usuario tendrá acceso a la configuración de ventas así como a los "
 "informes estadísticos."
+
+#~ msgid "Consulting"
+#~ msgstr "Consultoría"
+
+#~ msgid "Design"
+#~ msgstr "Diseño"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Other"
+#~ msgstr "Otro"
+
+#~ msgid "Product"
+#~ msgstr "Producto"
+
+#~ msgid "Services"
+#~ msgstr "Servicios"
+
+#~ msgid "Software"
+#~ msgstr "Software"
+
+#~ msgid "Training"
+#~ msgstr "Formación"
