@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 21:27+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -365,14 +365,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In Bookm, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to "
 "analyse\n"
 "                your margins easily."
 msgstr ""
-"En Odoo, los pedidos de venta y los proyectos se implementan usando cuentas "
-"analíticas. Puedes realizar el seguimiento de los costos e ingresos para "
-"analizar sus márgenes fácilmente."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_is_follower
@@ -596,3 +593,13 @@ msgstr "Usuario"
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "e.g. Project XYZ"
 msgstr "Ej. Proyecto XYZ"
+
+#~ msgid ""
+#~ "In Odoo, sales orders and projects are implemented using\n"
+#~ "                analytic accounts. You can track costs and revenues to "
+#~ "analyse\n"
+#~ "                your margins easily."
+#~ msgstr ""
+#~ "En Odoo, los pedidos de venta y los proyectos se implementan usando "
+#~ "cuentas analíticas. Puedes realizar el seguimiento de los costos e "
+#~ "ingresos para analizar sus márgenes fácilmente."
