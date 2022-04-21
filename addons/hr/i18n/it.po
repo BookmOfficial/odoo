@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:22+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -45,17 +45,6 @@ msgid "'Print Badge - %s' % (object.name).replace('/', '')"
 msgstr "\"Stampa tesserino - %s\" % (object.name).replace('/', '')"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "12 days / year, including <br>6 of your choice."
-msgstr "12 giorni / anno, incluso <br>6 a scelta."
-
-#. module: hr
 #: code:addons/hr/models/hr_employee.py:0
 #, python-format
 msgid ""
@@ -73,17 +62,6 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title="
 "\"Gestisci\"/>"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "<small><b>READ</b></small>"
-msgstr "<small><b>LEGGI</b></small>"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -224,17 +202,6 @@ msgid "<strong><span>Reporting</span></strong>"
 msgstr ""
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "A full-time position <br>Attractive salary package."
-msgstr "Una posizione a tempo pieno <br/>Pacchetto salariale attraente."
-
-#. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_user_uniq
 msgid "A user cannot be linked to multiple employees in the same company."
 msgstr "Impossibile collegare un utente a più dipendenti della stessa azienda."
@@ -248,17 +215,6 @@ msgstr "Impossibile collegare un utente a più dipendenti della stessa azienda."
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__absent
 msgid "Absent"
 msgstr "Assente"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Achieve monthly sales objectives"
-msgstr "Raggiungere gli obiettivi di vendita mensili"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_needaction
@@ -350,32 +306,10 @@ msgid "Additional Note"
 msgstr "Nota aggiuntiva"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Additional languages"
-msgstr "Lingue aggiuntive"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_home_id
 #: model:ir.model.fields,field_description:hr.field_res_users__address_home_id
 msgid "Address"
 msgstr "Indirizzo"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Administrative Work"
-msgstr "Lavoro amministrativo"
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_manager
@@ -455,43 +389,6 @@ msgid "Archived"
 msgstr "Archiviato"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid ""
-"As an employee of our company, you will <b>collaborate with each department "
-"to create and deploy\n"
-"                                disruptive products.</b> Come work at a "
-"growing company that offers great benefits with opportunities to\n"
-"                                moving forward and learn alongside "
-"accomplished leaders. We're seeking an experienced and outstanding member of "
-"staff.\n"
-"                                <br><br>\n"
-"                                This position is both <b>creative and "
-"rigorous</b> by nature you need to think outside the box.\n"
-"                                We expect the candidate to be proactive and "
-"have a \"get it done\" spirit. To be successful,\n"
-"                                you will have solid solving problem skills."
-msgstr ""
-"Come dipendente della nostra azienda, potrai <b>collaborare con ogni "
-"dipartimento\n"
-"per creare e distribuire prodotti dirompenti.</b> Vieni a lavorare in "
-"un'azienda in crescita\n"
-"che offre grandi benefici con opportunità di andare avanti e imparare\n"
-"al fianco di leader affermati. Stiamo cercando un esperto ed eccezionale\n"
-"membro del personale.\n"
-"<br/><br/>\n"
-"Questa posizione è sia <b>creativa che rigorosa</b> per natura, è necessario "
-"pensare\n"
-"\"out of the box\". Ci aspettiamo che il candidato sia proattivo e abbia uno "
-"spirito \"get it done\". Per avere successo, dovrai avere solide capacità di "
-"risolvere i problemi."
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_attachment_count
 #: model:ir.model.fields,field_description:hr.field_hr_employee__message_attachment_count
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_attachment_count
@@ -522,17 +419,6 @@ msgstr "Dipartimenti ad iscrizione automatica"
 #: model:ir.model.fields,help:hr.field_mail_channel__subscription_department_ids
 msgid "Automatically subscribe members of those departments to the channel."
 msgstr "Iscrivere automaticamente al canale i membri di questi reparti."
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Autonomy"
-msgstr "Autonomia"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -582,17 +468,6 @@ msgid "Bachelor"
 msgstr "Laurea"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Bachelor Degree or Higher"
-msgstr "Laurea o superiore"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__barcode
 #: model:ir.model.fields,field_description:hr.field_res_users__barcode
 msgid "Badge ID"
@@ -634,6 +509,23 @@ msgid "Basic Employee"
 msgstr "Dipendente base"
 
 #. module: hr
+#: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
+msgid ""
+"Bookm's department structure is used to manage all documents\n"
+"                    related to employees by departments: expenses, "
+"timesheets,\n"
+"                    leaves, recruitments, etc."
+msgstr ""
+
+#. module: hr
+#: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
+msgid ""
+"Bookm's department structure is used to manage all documents\n"
+"                related to employees by departments: expenses, timesheets,\n"
+"                time off, recruitments, etc."
+msgstr ""
+
+#. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__can_edit
 msgid "Can Edit"
 msgstr "Può Modificare"
@@ -661,16 +553,6 @@ msgstr "Modifica preferenze personali"
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Chat"
 msgstr "Chat"
-
-#. module: hr
-#: model:hr.job,name:hr.job_ceo
-msgid "Chief Executive Officer"
-msgstr "Amministratore delegato"
-
-#. module: hr
-#: model:hr.job,name:hr.job_cto
-msgid "Chief Technical Officer"
-msgstr "Direttore tecnico"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__child_ids
@@ -767,11 +649,6 @@ msgid "Configuration"
 msgstr "Configurazione"
 
 #. module: hr
-#: model:hr.job,name:hr.job_consultant
-msgid "Consultant"
-msgstr "Consulente"
-
-#. module: hr
 #: model:ir.model,name:hr.model_res_partner
 msgid "Contact"
 msgstr "Contatto"
@@ -816,17 +693,6 @@ msgid "Create a new department"
 msgstr "Crea un nuovo reparto"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Create content that will help our users on a daily basis"
-msgstr "Crea contenuti che aiutino i nostri utenti quotidianamente"
-
-#. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form
 msgid "Create employee"
 msgstr "Crea dipendente"
@@ -864,17 +730,6 @@ msgstr "Creato il"
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_employee
 msgid "Current Number of Employees"
 msgstr "Numero attuale di dipendenti"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Customer Relationship"
-msgstr "Rapporto con il cliente"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__birthday
@@ -973,17 +828,6 @@ msgid "Discard"
 msgstr "Abbandona"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Discover our products."
-msgstr "Scopri i nostri pordotti."
-
-#. module: hr
 #: model:ir.model,name:hr.model_mail_channel
 msgid "Discussion Channel"
 msgstr "Canale di discussione"
@@ -1017,43 +861,6 @@ msgstr "Dottorato"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__driving_license
 msgid "Driving License"
 msgstr "Patente di guida"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid ""
-"Each employee has a chance to see the impact of his work.\n"
-"                        You can make a real contribution to the success of "
-"the company.\n"
-"                        <br>\n"
-"                        Several activities are often organized all over the "
-"year, such as weekly\n"
-"                        sports sessions, team building events, monthly "
-"drink, and much more"
-msgstr ""
-"Ogni dipendente ha la possibilità di vedere l'impatto del suo lavoro.\n"
-"Può dare un contributo reale al successo dell'azienda.\n"
-"\n"
-"<br/>\n"
-"Diverse attività sono spesso organizzate durante tutto l'anno, come le "
-"sessioni\n"
-"sportive, eventi di team building, drink mensili e molto altro."
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Eat &amp; Drink"
-msgstr "Mangiare e bere"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -1248,17 +1055,6 @@ msgstr ""
 "azienda."
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Expand your knowledge of various business industries"
-msgstr "Amplia la tua conoscenza di vari settori commerciali"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_recruitment
 msgid "Expected New Employees"
 msgstr "Nuovi dipendenti previsti"
@@ -1270,22 +1066,6 @@ msgid ""
 msgstr ""
 "Numero atteso di dipendenti per questa posizione lavorativa dopo le nuove "
 "assunzioni."
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Experience in writing online content"
-msgstr "Esperienza nella scrittura di contenuti online"
-
-#. module: hr
-#: model:hr.job,name:hr.job_developer
-msgid "Experienced Developer"
-msgstr "Sviluppatore con esperienza"
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__female
@@ -1330,17 +1110,6 @@ msgid "Freelancer"
 msgstr ""
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Fruit, coffee and <br>snacks provided."
-msgstr "Frutta, caffè e <br/>snack forniti."
-
-#. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Future Activities"
 msgstr "Attività future"
@@ -1357,32 +1126,9 @@ msgid "Generate"
 msgstr "Genera"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Google Adwords experience"
-msgstr "Esperienza con Google Adwords"
-
-#. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__graduate
 msgid "Graduate"
 msgstr "Scuola superiore"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Great team of smart people, in a friendly and open culture"
-msgstr ""
-"Grande squadra di persone intelligenti, in una cultura amichevole e aperta"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
@@ -1417,17 +1163,6 @@ msgid "Has Message"
 msgstr "Contiene messaggio"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Highly creative and autonomous"
-msgstr "Altamente creativo e autonomo"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_hired_employee
 msgid "Hired Employees"
 msgstr "Dipendenti assunti"
@@ -1457,11 +1192,6 @@ msgstr "Stato Presenza Hr"
 #: model:ir.ui.menu,name:hr.menu_hr_main
 msgid "Human Resources"
 msgstr "Risorse umane"
-
-#. module: hr
-#: model:hr.job,name:hr.job_hrm
-msgid "Human Resources Manager"
-msgstr "Responsabile risorse umane"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__id
@@ -1721,17 +1451,6 @@ msgid "Launch Plan"
 msgstr "Lancia il Piano"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Lead the entire sales cycle"
-msgstr "Condurre l'intero ciclo di vendita"
-
-#. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__cohabitant
 msgid "Legal Cohabitant"
 msgstr "Coabitante legale"
@@ -1792,11 +1511,6 @@ msgid "Marital Status"
 msgstr "Stato civile"
 
 #. module: hr
-#: model:hr.job,name:hr.job_marketing
-msgid "Marketing and Community Manager"
-msgstr "Responsabile marketing e comunità"
-
-#. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__married
 msgid "Married"
 msgstr "Sposato/a"
@@ -1805,17 +1519,6 @@ msgstr "Sposato/a"
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__master
 msgid "Master"
 msgstr "Master"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Master demos of our software"
-msgstr "Demo del nostro software"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__member_ids
@@ -1842,24 +1545,13 @@ msgid "Messages"
 msgstr "Messaggi"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Must Have"
-msgstr "Must Have"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr "Scadenza attività"
 
 #. module: hr
 #. openerp-web
-#: code:addons/hr/static/src/xml/hr_templates.xml:0
+#: code:addons/hr/static/src/js/user_menu.js:0
 #, python-format
 msgid "My Profile"
 msgstr "Il mio profilo"
@@ -1876,17 +1568,6 @@ msgstr "Nome"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_id
 msgid "Nationality (Country)"
 msgstr "Nazionalità"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Negotiate and contract"
-msgstr "Negoziazione e contratto"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_calendar_event_id
@@ -1909,48 +1590,10 @@ msgid "Next Activity Type"
 msgstr "Tipologia prossima attività"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Nice to have"
-msgstr "Bello avere"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "No dumb managers, no stupid tools to use, no rigid working hours"
-msgstr ""
-"Niente manager stupidi, niente strumenti sciocchi da usare, niente orari di "
-"lavoro rigidi"
-
-#. module: hr
 #: code:addons/hr/models/hr_plan.py:0
 #, python-format
 msgid "No specific user given on activity %s."
 msgstr "Non è stato fornito alcun utente specifico per l'attività %s."
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid ""
-"No waste of time in enterprise processes, real responsibilities and autonomy"
-msgstr ""
-"Nessuna perdita di tempo nei processi aziendali, responsabilità e autonomia "
-"reali"
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_job__state__open
@@ -2034,29 +1677,6 @@ msgid "Number of unread messages"
 msgstr "Numero di messaggi non letti"
 
 #. module: hr
-#: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
-msgid ""
-"Odoo's department structure is used to manage all documents\n"
-"                    related to employees by departments: expenses, "
-"timesheets,\n"
-"                    leaves, recruitments, etc."
-msgstr ""
-"La struttura a uffici di Odoo è utilizzata per gestire tutti i documenti\n"
-"                    relativi ai dipendenti: spese, fogli ore, permessi,\n"
-"                    assunzioni, ecc."
-
-#. module: hr
-#: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
-msgid ""
-"Odoo's department structure is used to manage all documents\n"
-"                related to employees by departments: expenses, timesheets,\n"
-"                time off, recruitments, etc."
-msgstr ""
-"La struttura a uffici di Odoo è utilizzata per gestire tutti i documenti\n"
-"                relativi ai dipendenti: spese, fogli ore, ferie,\n"
-"                assunzioni, ecc."
-
-#. module: hr
 #: model:res.groups,name:hr.group_hr_user
 msgid "Officer"
 msgstr "Responsabile"
@@ -2067,17 +1687,6 @@ msgstr "Responsabile"
 #: model:ir.model.fields.selection,name:hr.selection__hr_plan_activity_type__responsible__other
 msgid "Other"
 msgstr "Altro"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Our Product"
-msgstr "I nostri prodotti"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__pin
@@ -2111,17 +1720,6 @@ msgid "Partner-related data of the user"
 msgstr "Dati utente collegati al partner"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Passion for software products"
-msgstr "Passione per i prodotti software"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__passport_id
 #: model:ir.model.fields,field_description:hr.field_res_users__passport_id
 msgid "Passport No"
@@ -2131,39 +1729,6 @@ msgstr "N. passaporto"
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Payroll"
 msgstr "Paghe"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Perfect written English"
-msgstr "Ottimo inglese scritto"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Perks"
-msgstr "Vantaggi"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Personal Evolution"
-msgstr "Sviluppo personale"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -2215,17 +1780,6 @@ msgstr "Tipi di pianificazione"
 #: model:ir.ui.menu,name:hr.menu_config_plan_plan
 msgid "Plans"
 msgstr "Piani"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Play any sport with colleagues, <br>the bill is covered."
-msgstr "Gioca a qualsiasi sport con i colleghi, <br/>il conto è coperto."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_mail_alias__alias_contact
@@ -2340,31 +1894,9 @@ msgid "Public Employee"
 msgstr "Dipendente pubblico"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Qualify the customer needs"
-msgstr "Identificare le esigenze del cliente"
-
-#. module: hr
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
 msgid "Ready to recruit more efficiently?"
 msgstr "Pronto per assumere più efficientemente?"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Real responsibilities and challenges in a fast evolving company"
-msgstr "Responsabilità e sfide reali in un'azienda in rapida evoluzione"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_reason__name
@@ -2448,17 +1980,6 @@ msgstr "Calendario risorse"
 #: model:ir.model,name:hr.model_resource_resource
 msgid "Resources"
 msgstr "Risorse"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Responsibilities"
-msgstr "Responsabilità"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__responsible
@@ -2560,17 +2081,6 @@ msgid "Specific responsible of activity if not linked to the employee."
 msgstr "Responsabile specifico dell'attività se non legato all'impiegato."
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Sport Activity"
-msgstr "Attività sportive"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_birthdate
 #: model:ir.model.fields,field_description:hr.field_res_users__spouse_birthdate
 msgid "Spouse Birthdate"
@@ -2629,17 +2139,6 @@ msgid "Street..."
 msgstr "Indirizzo…"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Strong analytical skills"
-msgstr "Forti capacità analitiche"
-
-#. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__student
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__employee_type__student
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__employee_type__student
@@ -2667,17 +2166,6 @@ msgstr "Nome etichetta già esistente !"
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Tags"
 msgstr "Etichette"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Technical Expertise"
-msgstr "Competenze tecniche"
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_barcode_uniq
@@ -2818,23 +2306,11 @@ msgid "Total Forecasted Employees"
 msgstr "Totale Previsione Dipendenti"
 
 #. module: hr
-#: model:hr.job,name:hr.job_trainee
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__trainee
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__employee_type__trainee
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__employee_type__trainee
 msgid "Trainee"
 msgstr "Tirocinante"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Trainings"
-msgstr "Formazione"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_exception_decoration
@@ -2914,17 +2390,6 @@ msgid "Valid IP addresses"
 msgstr "Indirizzi IP validi"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "Valid work permit for Belgium"
-msgstr "Permesso di lavoro valido per il Belgio"
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_expire
 msgid "Visa Expire Date"
@@ -2943,59 +2408,36 @@ msgid "Warning"
 msgstr "Attenzione"
 
 #. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "What We Offer"
-msgstr "Cosa offriamo:"
-
-#. module: hr
-#: model_terms:hr.job,website_description:hr.job_ceo
-#: model_terms:hr.job,website_description:hr.job_consultant
-#: model_terms:hr.job,website_description:hr.job_cto
-#: model_terms:hr.job,website_description:hr.job_developer
-#: model_terms:hr.job,website_description:hr.job_hrm
-#: model_terms:hr.job,website_description:hr.job_marketing
-#: model_terms:hr.job,website_description:hr.job_trainee
-msgid "What's great in the job?"
-msgstr "Perché scegliere questa posizione?"
-
-#. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__widower
 msgid "Widower"
 msgstr "Vedovo"
 
 #. module: hr
-#: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Bookm employee screen, you\n"
 "                can easily find all the information you need for each "
 "person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Con un rapido sguardo alla schermata dei dipendenti Odoo, è \n"
-"                possibile trovare facilmente tutte le informazioni "
-"necessarie per ogni persona;\n"
-"                informazioni di contatto, posizione di lavoro, "
-"disponibilità, ecc."
+
+#. module: hr
+#: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
+msgid ""
+"With just a quick glance on the employee screen, you\n"
+"                can easily find all the information you need for each "
+"person;\n"
+"                contact data, job position, availability, etc."
+msgstr ""
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the employee screen, you\n"
 "               can easily find all the information you need for each "
 "person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Con una rapida occhiata alla schermata dei dipendenti di Odoo,\n"
-"puoi trovare facilmente tutte le informazioni di cui hai bisogno per ogni "
-"persona;\n"
-"dati di contatto, posizione lavorativa, disponibilità, ecc."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_id
@@ -3159,3 +2601,242 @@ msgstr "Piano"
 #, python-format
 msgid "restricted to employees"
 msgstr "limitato ai dipendenti"
+
+#~ msgid "12 days / year, including <br>6 of your choice."
+#~ msgstr "12 giorni / anno, incluso <br>6 a scelta."
+
+#~ msgid "<small><b>READ</b></small>"
+#~ msgstr "<small><b>LEGGI</b></small>"
+
+#~ msgid "A full-time position <br>Attractive salary package."
+#~ msgstr "Una posizione a tempo pieno <br/>Pacchetto salariale attraente."
+
+#~ msgid "Achieve monthly sales objectives"
+#~ msgstr "Raggiungere gli obiettivi di vendita mensili"
+
+#~ msgid "Additional languages"
+#~ msgstr "Lingue aggiuntive"
+
+#~ msgid "Administrative Work"
+#~ msgstr "Lavoro amministrativo"
+
+#~ msgid ""
+#~ "As an employee of our company, you will <b>collaborate with each "
+#~ "department to create and deploy\n"
+#~ "                                disruptive products.</b> Come work at a "
+#~ "growing company that offers great benefits with opportunities to\n"
+#~ "                                moving forward and learn alongside "
+#~ "accomplished leaders. We're seeking an experienced and outstanding member "
+#~ "of staff.\n"
+#~ "                                <br><br>\n"
+#~ "                                This position is both <b>creative and "
+#~ "rigorous</b> by nature you need to think outside the box.\n"
+#~ "                                We expect the candidate to be proactive "
+#~ "and have a \"get it done\" spirit. To be successful,\n"
+#~ "                                you will have solid solving problem "
+#~ "skills."
+#~ msgstr ""
+#~ "Come dipendente della nostra azienda, potrai <b>collaborare con ogni "
+#~ "dipartimento\n"
+#~ "per creare e distribuire prodotti dirompenti.</b> Vieni a lavorare in "
+#~ "un'azienda in crescita\n"
+#~ "che offre grandi benefici con opportunità di andare avanti e imparare\n"
+#~ "al fianco di leader affermati. Stiamo cercando un esperto ed eccezionale\n"
+#~ "membro del personale.\n"
+#~ "<br/><br/>\n"
+#~ "Questa posizione è sia <b>creativa che rigorosa</b> per natura, è "
+#~ "necessario pensare\n"
+#~ "\"out of the box\". Ci aspettiamo che il candidato sia proattivo e abbia "
+#~ "uno spirito \"get it done\". Per avere successo, dovrai avere solide "
+#~ "capacità di risolvere i problemi."
+
+#~ msgid "Autonomy"
+#~ msgstr "Autonomia"
+
+#~ msgid "Bachelor Degree or Higher"
+#~ msgstr "Laurea o superiore"
+
+#~ msgid "Chief Executive Officer"
+#~ msgstr "Amministratore delegato"
+
+#~ msgid "Chief Technical Officer"
+#~ msgstr "Direttore tecnico"
+
+#~ msgid "Consultant"
+#~ msgstr "Consulente"
+
+#~ msgid "Create content that will help our users on a daily basis"
+#~ msgstr "Crea contenuti che aiutino i nostri utenti quotidianamente"
+
+#~ msgid "Customer Relationship"
+#~ msgstr "Rapporto con il cliente"
+
+#~ msgid "Discover our products."
+#~ msgstr "Scopri i nostri pordotti."
+
+#~ msgid ""
+#~ "Each employee has a chance to see the impact of his work.\n"
+#~ "                        You can make a real contribution to the success "
+#~ "of the company.\n"
+#~ "                        <br>\n"
+#~ "                        Several activities are often organized all over "
+#~ "the year, such as weekly\n"
+#~ "                        sports sessions, team building events, monthly "
+#~ "drink, and much more"
+#~ msgstr ""
+#~ "Ogni dipendente ha la possibilità di vedere l'impatto del suo lavoro.\n"
+#~ "Può dare un contributo reale al successo dell'azienda.\n"
+#~ "\n"
+#~ "<br/>\n"
+#~ "Diverse attività sono spesso organizzate durante tutto l'anno, come le "
+#~ "sessioni\n"
+#~ "sportive, eventi di team building, drink mensili e molto altro."
+
+#~ msgid "Eat &amp; Drink"
+#~ msgstr "Mangiare e bere"
+
+#~ msgid "Expand your knowledge of various business industries"
+#~ msgstr "Amplia la tua conoscenza di vari settori commerciali"
+
+#~ msgid "Experience in writing online content"
+#~ msgstr "Esperienza nella scrittura di contenuti online"
+
+#~ msgid "Experienced Developer"
+#~ msgstr "Sviluppatore con esperienza"
+
+#~ msgid "Fruit, coffee and <br>snacks provided."
+#~ msgstr "Frutta, caffè e <br/>snack forniti."
+
+#~ msgid "Google Adwords experience"
+#~ msgstr "Esperienza con Google Adwords"
+
+#~ msgid "Great team of smart people, in a friendly and open culture"
+#~ msgstr ""
+#~ "Grande squadra di persone intelligenti, in una cultura amichevole e aperta"
+
+#~ msgid "Highly creative and autonomous"
+#~ msgstr "Altamente creativo e autonomo"
+
+#~ msgid "Human Resources Manager"
+#~ msgstr "Responsabile risorse umane"
+
+#~ msgid "Lead the entire sales cycle"
+#~ msgstr "Condurre l'intero ciclo di vendita"
+
+#~ msgid "Marketing and Community Manager"
+#~ msgstr "Responsabile marketing e comunità"
+
+#~ msgid "Master demos of our software"
+#~ msgstr "Demo del nostro software"
+
+#~ msgid "Must Have"
+#~ msgstr "Must Have"
+
+#~ msgid "Negotiate and contract"
+#~ msgstr "Negoziazione e contratto"
+
+#~ msgid "Nice to have"
+#~ msgstr "Bello avere"
+
+#~ msgid "No dumb managers, no stupid tools to use, no rigid working hours"
+#~ msgstr ""
+#~ "Niente manager stupidi, niente strumenti sciocchi da usare, niente orari "
+#~ "di lavoro rigidi"
+
+#~ msgid ""
+#~ "No waste of time in enterprise processes, real responsibilities and "
+#~ "autonomy"
+#~ msgstr ""
+#~ "Nessuna perdita di tempo nei processi aziendali, responsabilità e "
+#~ "autonomia reali"
+
+#~ msgid ""
+#~ "Odoo's department structure is used to manage all documents\n"
+#~ "                    related to employees by departments: expenses, "
+#~ "timesheets,\n"
+#~ "                    leaves, recruitments, etc."
+#~ msgstr ""
+#~ "La struttura a uffici di Odoo è utilizzata per gestire tutti i documenti\n"
+#~ "                    relativi ai dipendenti: spese, fogli ore, permessi,\n"
+#~ "                    assunzioni, ecc."
+
+#~ msgid ""
+#~ "Odoo's department structure is used to manage all documents\n"
+#~ "                related to employees by departments: expenses, "
+#~ "timesheets,\n"
+#~ "                time off, recruitments, etc."
+#~ msgstr ""
+#~ "La struttura a uffici di Odoo è utilizzata per gestire tutti i documenti\n"
+#~ "                relativi ai dipendenti: spese, fogli ore, ferie,\n"
+#~ "                assunzioni, ecc."
+
+#~ msgid "Our Product"
+#~ msgstr "I nostri prodotti"
+
+#~ msgid "Passion for software products"
+#~ msgstr "Passione per i prodotti software"
+
+#~ msgid "Perfect written English"
+#~ msgstr "Ottimo inglese scritto"
+
+#~ msgid "Perks"
+#~ msgstr "Vantaggi"
+
+#~ msgid "Personal Evolution"
+#~ msgstr "Sviluppo personale"
+
+#~ msgid "Play any sport with colleagues, <br>the bill is covered."
+#~ msgstr "Gioca a qualsiasi sport con i colleghi, <br/>il conto è coperto."
+
+#~ msgid "Qualify the customer needs"
+#~ msgstr "Identificare le esigenze del cliente"
+
+#~ msgid "Real responsibilities and challenges in a fast evolving company"
+#~ msgstr "Responsabilità e sfide reali in un'azienda in rapida evoluzione"
+
+#~ msgid "Responsibilities"
+#~ msgstr "Responsabilità"
+
+#~ msgid "Sport Activity"
+#~ msgstr "Attività sportive"
+
+#~ msgid "Strong analytical skills"
+#~ msgstr "Forti capacità analitiche"
+
+#~ msgid "Technical Expertise"
+#~ msgstr "Competenze tecniche"
+
+#~ msgid "Trainings"
+#~ msgstr "Formazione"
+
+#~ msgid "Valid work permit for Belgium"
+#~ msgstr "Permesso di lavoro valido per il Belgio"
+
+#~ msgid "What We Offer"
+#~ msgstr "Cosa offriamo:"
+
+#~ msgid "What's great in the job?"
+#~ msgstr "Perché scegliere questa posizione?"
+
+#~ msgid ""
+#~ "With just a quick glance on the Odoo employee screen, you\n"
+#~ "                can easily find all the information you need for each "
+#~ "person;\n"
+#~ "                contact data, job position, availability, etc."
+#~ msgstr ""
+#~ "Con un rapido sguardo alla schermata dei dipendenti Odoo, è \n"
+#~ "                possibile trovare facilmente tutte le informazioni "
+#~ "necessarie per ogni persona;\n"
+#~ "                informazioni di contatto, posizione di lavoro, "
+#~ "disponibilità, ecc."
+
+#~ msgid ""
+#~ "With just a quick glance on the Odoo employee screen, you\n"
+#~ "               can easily find all the information you need for each "
+#~ "person;\n"
+#~ "               contact data, job position, availability, etc."
+#~ msgstr ""
+#~ "Con una rapida occhiata alla schermata dei dipendenti di Odoo,\n"
+#~ "puoi trovare facilmente tutte le informazioni di cui hai bisogno per ogni "
+#~ "persona;\n"
+#~ "dati di contatto, posizione lavorativa, disponibilità, ecc."
