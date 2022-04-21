@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:54+0000\n"
+"POT-Creation-Date: 2022-04-15 23:22+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -261,16 +261,6 @@ msgstr "Erstellt am"
 #: model:ir.model.fields,field_description:sms.field_sms_sms__partner_id
 msgid "Customer"
 msgstr "Kunde"
-
-#. module: sms
-#: model:sms.template,name:sms.sms_template_demo_0
-msgid "Customer: automated SMS"
-msgstr "Kunde: automatische SMS"
-
-#. module: sms
-#: model:sms.template,body:sms.sms_template_demo_0
-msgid "Dear {{ object.display_name }} this is an automated SMS."
-msgstr "Hallo {{ object.display_name }} dies ist eine automatische SMS."
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template__null_value
@@ -1433,3 +1423,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
 msgid "to send to all"
 msgstr "um an alle zu senden"
+
+#~ msgid "Customer: automated SMS"
+#~ msgstr "Kunde: automatische SMS"
+
+#~ msgid "Dear {{ object.display_name }} this is an automated SMS."
+#~ msgstr "Hallo {{ object.display_name }} dies ist eine automatische SMS."
