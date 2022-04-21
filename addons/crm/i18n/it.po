@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:53+0000\n"
+"POT-Creation-Date: 2022-04-15 21:32+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -173,11 +173,9 @@ msgstr ""
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid ""
-"<p>As you don't belong to any Sales Team, Odoo opens the first one by "
+"<p>As you don't belong to any Sales Team, Bookm opens the first one by "
 "default.</p>"
 msgstr ""
-"<p>Dato che non fai parte di alcun team di vendita, Odoo apre il primo in "
-"modo predefinito.</p>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
@@ -298,116 +296,6 @@ msgstr ""
 "<span attrs=\"{'invisible': [('crm_use_auto_assignment', '=', False)]}\">\n"
 "Tutti i team di vendita useranno questa impostazione di default a se non è\n"
 "specificato diversamente."
-
-#. module: crm
-#: model:mail.template,body_html:crm.mail_template_demo_crm_lead
-msgid ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
-"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
-"color: #454748; width: 100%; border-collapse:separate;\"><tr><td align="
-"\"center\">\n"
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style="
-"\"padding: 24px; background-color: white; color: #454748; border-collapse:"
-"separate;\">\n"
-"<tbody>\n"
-"    <!-- HEADER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
-"\"100%\" style=\"background-color: white; padding: 0; border-collapse:"
-"separate;\">\n"
-"                <tr><td valign=\"middle\">\n"
-"                    <span style=\"font-size: 10px;\">Your Lead/Opportunity</"
-"span><br/>\n"
-"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
-"out=\"object.name or ''\">Interest in your products</span>\n"
-"                </td><td valign=\"middle\" align=\"right\">\n"
-"                    <img t-attf-src=\"/logo.png?company={{ object.company_id."
-"id }}\" style=\"padding: 0px; margin: 0px; height: 48px;\" t-att-alt="
-"\"object.company_id.name\"/>\n"
-"                </td></tr>\n"
-"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
-"                    <hr width=\"100%\" style=\"background-color:"
-"rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;"
-"min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
-"                </td></tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- CONTENT -->\n"
-"    <tr>\n"
-"        <td style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width="
-"\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px "
-"0px 8px; border-collapse:separate;\">\n"
-"                <tr>\n"
-"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
-"                        <div>\n"
-"                            Hi <t t-out=\"object.partner_id and object."
-"partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
-"                            Welcome to <t t-out=\"object.company_id.name or "
-"''\">My Company (San Francisco)</t>.\n"
-"                            It's great to meet you! Now that you're on "
-"board, you'll discover what <t t-out=\"object.company_id.name or ''\">My "
-"Company (San Francisco)</t> has to offer. My name is <t t-out=\"object."
-"user_id.name or ''\">Marc Demo</t> and I'll help you get the most out of "
-"Odoo. Could we plan a quick demo soon?<br/>\n"
-"                            Feel free to reach out at any time!<br/><br/>\n"
-"                            Best,<br/>\n"
-"                            <t t-if=\"object.user_id\">\n"
-"                                <b><t t-out=\"object.user_id.name or "
-"''\">Marc Demo</t></b>\n"
-"                                <br/>Email: <t t-out=\"object.user_id.email "
-"or ''\">mark.brown23@example.com</t>\n"
-"                                <br/>Phone: <t t-out=\"object.user_id.phone "
-"or ''\">+1 650-123-4567</t>\n"
-"                            </t>\n"
-"                            <t t-else=\"\">\n"
-"                                <t t-out=\"object.company_id.name or ''\">My "
-"Company (San Francisco)</t>\n"
-"                            </t>\n"
-"                        </div>\n"
-"                    </td>\n"
-"                </tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- FOOTER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; "
-"font-size:11px;\">\n"
-"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);"
-"border:medium none;clear:both;display:block;font-size:0px;min-height:1px;"
-"line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
-"            <b t-out=\"object.company_id.name or ''\">My Company (San "
-"Francisco)</b><br/>\n"
-"            <div style=\"color: #999999;\">\n"
-"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</"
-"t>\n"
-"                <t t-if=\"object.company_id.email\">\n"
-"                    | <a t-attf-href=\"'mailto:%s' % {{ object.company_id."
-"email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object."
-"company_id.email or ''\">info@yourcompany.com</a>\n"
-"                </t>\n"
-"                <t t-if=\"object.company_id.website\">\n"
-"                    | <a t-attf-href=\"'%s' % {{ object.company_id."
-"website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object."
-"company_id.website or ''\">http://www.example.com</a>\n"
-"                </t>\n"
-"            </div>\n"
-"        </td>\n"
-"    </tr>\n"
-"</tbody>\n"
-"</table>\n"
-"</td></tr>\n"
-"<!-- POWERED BY -->\n"
-"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?"
-"utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
-"</td></tr>\n"
-"</table>\n"
-"        "
-msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
@@ -601,11 +489,6 @@ msgid "Archived"
 msgstr "Archiviato"
 
 #. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Assign Documentation"
-msgstr "Assegna documentazione"
-
-#. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Assign Leads"
 msgstr ""
@@ -720,6 +603,23 @@ msgid "Blacklisted Phone is Phone"
 msgstr "Telefono in lista nera è un telefono"
 
 #. module: crm
+#: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
+msgid ""
+"Bookm helps you keep track of your sales pipeline to follow\n"
+"                    up potential sales and better forecast your future "
+"revenues."
+msgstr ""
+
+#. module: crm
+#: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
+msgid ""
+"Bookm's artificial intelligence engine predicts the success rate of each "
+"opportunity based on your history. You can always update the success rate "
+"manually, but if you let Bookm do the job the score is updated while the "
+"opportunity moves forward in your sales cycle."
+msgstr ""
+
+#. module: crm
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "Boom! Team record for the past 30 days."
@@ -763,11 +663,6 @@ msgstr ""
 #: model:ir.model,name:crm.model_calendar_event
 msgid "Calendar Event"
 msgstr "Evento in calendario"
-
-#. module: crm
-#: model:mail.activity.type,name:crm.mail_activity_demo_call_demo
-msgid "Call for Demo"
-msgstr "Chiamata per dimostrazione"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__campaign_id
@@ -981,15 +876,6 @@ msgstr "Converti in opportunità"
 #, python-format
 msgid "Convert to opportunity"
 msgstr "Converti in opportunità"
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid ""
-"Convert visitors of your website into leads and perform data enrichment "
-"based on their IP address"
-msgstr ""
-"Converte i visitatori del sito web in contatti, i dati vengono arricchiti in "
-"base al loro indirizzo IP."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__email_state__correct
@@ -1209,24 +1095,17 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Odoo autocompletes everything for you: logo, address, "
+"fill in all its data? Bookm autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
-"Lo sapevi che è possibile cercare un'azienda a partire dal nome o dalla "
-"partita IVA e compilare istantaneamente i suoi dati? Odoo completa tutto in "
-"modo automatico: logo, indirizzo, dimensione azienda, informazioni "
-"commerciali, account social network ecc..."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the "
-"top-right map icon? A lot of screens in Odoo can be turned into a map: "
+"top-right map icon? A lot of screens in Bookm can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
-"Lo sapevi che è possibile trasformare un elenco di opportunità in una vista "
-"mappa usando l'icona in alto a destra? In Odoo possono essere trasformate in "
-"mappa molte schermate: lavori, contatti, ordini di consegna ecc..."
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
@@ -1262,11 +1141,6 @@ msgstr ""
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__nothing
 msgid "Do not link to a customer"
 msgstr "Non collegare a un cliente"
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Documentazione"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
@@ -1331,11 +1205,6 @@ msgid "Email cc"
 msgstr "E-mail in cc"
 
 #. module: crm
-#: model:mail.activity.type,name:crm.mail_activity_type_demo_email_with_template
-msgid "Email: Welcome Demo"
-msgstr "E-mail: dimostrazione di benvenuto"
-
-#. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
 msgid "Enrich all leads automatically"
 msgstr "Arricchire automaticamente tutti i contatti"
@@ -1349,15 +1218,6 @@ msgstr "Arricchimento automatico contatto"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__manual
 msgid "Enrich leads on demand only"
 msgstr "Arricchire i contatti solo su richiesta"
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid ""
-"Enrich your leads automatically with company data based on their email "
-"address"
-msgstr ""
-"Arricchisce automaticamente i contatti con dati aziendali in base al loro "
-"indirizzo e-mail"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_enrich
@@ -1460,11 +1320,6 @@ msgid "Folded in Pipeline"
 msgstr "Minimizzata nel flusso"
 
 #. module: crm
-#: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
-msgid "Follow-up Quote"
-msgstr "Proposta successiva"
-
-#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_follower_ids
 msgid "Followers"
 msgstr "Follower"
@@ -1478,20 +1333,6 @@ msgstr "Follower (partner)"
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Icona Font Awesome es. fa-tasks"
-
-#. module: crm
-#: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid ""
-"For a sales team, there is nothing worse than being dry on leads. "
-"Fortunately, in just a few clicks, you can generate leads specifically "
-"targeted to your needs: company size, industry, etc. To help you test the "
-"feature, we offer you 200 credits for free."
-msgstr ""
-"Per un team di vendita non esiste cosa peggiore che ritrovarsi senza "
-"contatti. Fortunatamente, in pochi clic, è possibile generare contatti "
-"mirati in modo specifico ai propri bisogni: dimensione azienda, settore "
-"ecc... Per aiutarti a provare la funzionalità, ti offriamo gratuitamente 200 "
-"crediti."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__force_assignment
@@ -1535,12 +1376,6 @@ msgid "Generate new leads based on their country, industries, size, etc."
 msgstr ""
 "Generazione nuovi contatti in base alla loro nazione, settore, dimensione "
 "ecc."
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Generate new leads based on their country, industry, size, etc."
-msgstr ""
-"Genera nuovi contatti in base alla loro nazione, settore, dimensione ecc."
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_lost
@@ -1871,21 +1706,6 @@ msgid "Lead Average Capacity"
 msgstr ""
 
 #. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Lead Enrichment"
-msgstr "Arricchimento contatto"
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Lead Generation"
-msgstr "Generazione contatto"
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Lead Mining"
-msgstr "Estrazione contatto"
-
-#. module: crm
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency
 msgid "Lead Scoring Frequency"
 msgstr "Frequenza punteggio ai contatti"
@@ -2144,11 +1964,6 @@ msgstr "Bassa"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Allegato principale"
-
-#. module: crm
-#: model:mail.activity.type,name:crm.mail_activity_demo_make_quote
-msgid "Make Quote"
-msgstr "Proposta iniziale"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -2541,30 +2356,6 @@ msgstr "Numero di messaggi con errore di consegna"
 #: model:ir.model.fields,help:crm.field_crm_lead__message_unread_counter
 msgid "Number of unread messages"
 msgstr "Numero di messaggi non letti"
-
-#. module: crm
-#: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
-msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
-"                    up potential sales and better forecast your future "
-"revenues."
-msgstr ""
-"Odoo consente di tenere traccia del flusso per seguire le\n"
-"                    potenziali vendite e migliorare le previsioni dei ricavi "
-"futuri."
-
-#. module: crm
-#: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
-msgid ""
-"Odoo's artificial intelligence engine predicts the success rate of each "
-"opportunity based on your history. You can always update the success rate "
-"manually, but if you let Odoo do the job the score is updated while the "
-"opportunity moves forward in your sales cycle."
-msgstr ""
-"Il motore di intelligenza artificiale di Odoo predice il tasso di successo "
-"di ciascuna opportunità in base allo storico. È sempre possibile aggiornare "
-"il tasso in modo manuale ma, se il compito viene lasciato a Odoo, il "
-"punteggio viene aggiornato mentre l'opportunità procede nel ciclo di vendita."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
@@ -3354,22 +3145,17 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
-"email that does not reply to an existing record will cause the creation of a "
-"new record of this model (e.g. a Project Task)"
+"The model (Bookm Document Kind) to which this alias corresponds. Any "
+"incoming email that does not reply to an existing record will cause the "
+"creation of a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Il modello (tipo di documento Odoo) a cui corrisponde questo alias. Le e-"
-"mail in arrivo che non rispondono a un record esistente attivano la "
-"creazione di un nuovo record per questo modello (es. lavoro di un progetto)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.com>"
 msgstr ""
-"Nome dell’alias e-mail, es. “lavori” per intercettare le e-mail a "
-"<lavori@example.odoo.com>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name
@@ -3519,12 +3305,6 @@ msgstr "Questo assegnerà dei lead a tutti i membri. Vuoi procedere?"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Tip: Convert incoming emails into opportunities"
 msgstr "Consiglio: converti le e-mail in arrivo in opportunità"
-
-#. module: crm
-#: model:digest.tip,name:crm.digest_tip_crm_1
-#: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Odoo has built-in lead mining?"
-msgstr "Consiglio: sapevi che Odoo ha un sistema di estrazione contatti?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4
@@ -3785,11 +3565,6 @@ msgid "Very High"
 msgstr "Molto alta"
 
 #. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Visits to Leads"
-msgstr "Visite a contatti"
-
-#. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_2
 msgid "We don't have people/skills"
 msgstr "Mancano persone/competenze"
@@ -3818,11 +3593,6 @@ msgstr "Sito web del contatto"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__weeks
 msgid "Weeks"
 msgstr "Settimane"
-
-#. module: crm
-#: model:mail.template,name:crm.mail_template_demo_crm_lead
-msgid "Welcome Demo"
-msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0 model:crm.stage,name:crm.stage_lead4
@@ -3916,8 +3686,8 @@ msgstr "es. troppo costoso"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "es. https://www.odoo.com"
+msgid "e.g. https://www.example.com"
+msgstr ""
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -3944,3 +3714,135 @@ msgstr "al CRM. L'indirizzo è configurabile dagli iscritti al team di vendita."
 #, python-format
 msgid "unknown"
 msgstr "sconosciuto"
+
+#, python-format
+#~ msgid ""
+#~ "<p>As you don't belong to any Sales Team, Odoo opens the first one by "
+#~ "default.</p>"
+#~ msgstr ""
+#~ "<p>Dato che non fai parte di alcun team di vendita, Odoo apre il primo in "
+#~ "modo predefinito.</p>"
+
+#~ msgid "Assign Documentation"
+#~ msgstr "Assegna documentazione"
+
+#~ msgid "Call for Demo"
+#~ msgstr "Chiamata per dimostrazione"
+
+#~ msgid ""
+#~ "Convert visitors of your website into leads and perform data enrichment "
+#~ "based on their IP address"
+#~ msgstr ""
+#~ "Converte i visitatori del sito web in contatti, i dati vengono arricchiti "
+#~ "in base al loro indirizzo IP."
+
+#~ msgid ""
+#~ "Did you know you can search a company by name or VAT number to instantly "
+#~ "fill in all its data? Odoo autocompletes everything for you: logo, "
+#~ "address, company size, business information, social media accounts, etc."
+#~ msgstr ""
+#~ "Lo sapevi che è possibile cercare un'azienda a partire dal nome o dalla "
+#~ "partita IVA e compilare istantaneamente i suoi dati? Odoo completa tutto "
+#~ "in modo automatico: logo, indirizzo, dimensione azienda, informazioni "
+#~ "commerciali, account social network ecc..."
+
+#~ msgid ""
+#~ "Did you know you can turn a list of opportunities into a map view, using "
+#~ "the top-right map icon? A lot of screens in Odoo can be turned into a "
+#~ "map: tasks, contacts, delivery orders, etc."
+#~ msgstr ""
+#~ "Lo sapevi che è possibile trasformare un elenco di opportunità in una "
+#~ "vista mappa usando l'icona in alto a destra? In Odoo possono essere "
+#~ "trasformate in mappa molte schermate: lavori, contatti, ordini di "
+#~ "consegna ecc..."
+
+#~ msgid "Documentation"
+#~ msgstr "Documentazione"
+
+#~ msgid "Email: Welcome Demo"
+#~ msgstr "E-mail: dimostrazione di benvenuto"
+
+#~ msgid ""
+#~ "Enrich your leads automatically with company data based on their email "
+#~ "address"
+#~ msgstr ""
+#~ "Arricchisce automaticamente i contatti con dati aziendali in base al loro "
+#~ "indirizzo e-mail"
+
+#~ msgid "Follow-up Quote"
+#~ msgstr "Proposta successiva"
+
+#~ msgid ""
+#~ "For a sales team, there is nothing worse than being dry on leads. "
+#~ "Fortunately, in just a few clicks, you can generate leads specifically "
+#~ "targeted to your needs: company size, industry, etc. To help you test the "
+#~ "feature, we offer you 200 credits for free."
+#~ msgstr ""
+#~ "Per un team di vendita non esiste cosa peggiore che ritrovarsi senza "
+#~ "contatti. Fortunatamente, in pochi clic, è possibile generare contatti "
+#~ "mirati in modo specifico ai propri bisogni: dimensione azienda, settore "
+#~ "ecc... Per aiutarti a provare la funzionalità, ti offriamo gratuitamente "
+#~ "200 crediti."
+
+#~ msgid "Generate new leads based on their country, industry, size, etc."
+#~ msgstr ""
+#~ "Genera nuovi contatti in base alla loro nazione, settore, dimensione ecc."
+
+#~ msgid "Lead Enrichment"
+#~ msgstr "Arricchimento contatto"
+
+#~ msgid "Lead Generation"
+#~ msgstr "Generazione contatto"
+
+#~ msgid "Lead Mining"
+#~ msgstr "Estrazione contatto"
+
+#~ msgid "Make Quote"
+#~ msgstr "Proposta iniziale"
+
+#~ msgid ""
+#~ "Odoo helps you keep track of your sales pipeline to follow\n"
+#~ "                    up potential sales and better forecast your future "
+#~ "revenues."
+#~ msgstr ""
+#~ "Odoo consente di tenere traccia del flusso per seguire le\n"
+#~ "                    potenziali vendite e migliorare le previsioni dei "
+#~ "ricavi futuri."
+
+#~ msgid ""
+#~ "Odoo's artificial intelligence engine predicts the success rate of each "
+#~ "opportunity based on your history. You can always update the success rate "
+#~ "manually, but if you let Odoo do the job the score is updated while the "
+#~ "opportunity moves forward in your sales cycle."
+#~ msgstr ""
+#~ "Il motore di intelligenza artificiale di Odoo predice il tasso di "
+#~ "successo di ciascuna opportunità in base allo storico. È sempre possibile "
+#~ "aggiornare il tasso in modo manuale ma, se il compito viene lasciato a "
+#~ "Odoo, il punteggio viene aggiornato mentre l'opportunità procede nel "
+#~ "ciclo di vendita."
+
+#~ msgid ""
+#~ "The model (Odoo Document Kind) to which this alias corresponds. Any "
+#~ "incoming email that does not reply to an existing record will cause the "
+#~ "creation of a new record of this model (e.g. a Project Task)"
+#~ msgstr ""
+#~ "Il modello (tipo di documento Odoo) a cui corrisponde questo alias. Le e-"
+#~ "mail in arrivo che non rispondono a un record esistente attivano la "
+#~ "creazione di un nuovo record per questo modello (es. lavoro di un "
+#~ "progetto)"
+
+#~ msgid ""
+#~ "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+#~ "<jobs@example.odoo.com>"
+#~ msgstr ""
+#~ "Nome dell’alias e-mail, es. “lavori” per intercettare le e-mail a "
+#~ "<lavori@example.odoo.com>"
+
+#~ msgid "Tip: Did you know Odoo has built-in lead mining?"
+#~ msgstr "Consiglio: sapevi che Odoo ha un sistema di estrazione contatti?"
+
+#~ msgid "Visits to Leads"
+#~ msgstr "Visite a contatti"
+
+#~ msgid "e.g. https://www.odoo.com"
+#~ msgstr "es. https://www.odoo.com"
