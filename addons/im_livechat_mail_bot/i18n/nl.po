@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 22:09+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -21,15 +21,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: im_livechat_mail_bot
+#: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__bot_state
+msgid "Bot Status"
+msgstr ""
+
+#. module: im_livechat_mail_bot
 #: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
 #, python-format
 msgid ""
 "Good, you can customize canned responses in the live chat application.<br/"
-"><br/><b>It's the end of this overview</b>, enjoy discovering Odoo!"
+"><br/><b>It's the end of this overview</b>, enjoy discovering Bookm!"
 msgstr ""
-"Goed, je kunt standaardantwoorden aanpassen in de livechat-app.<br/><br/"
-"><b>Het is het einde van dit overzicht </b>, veel pleziert met het ontdekken "
-"van Odoo!"
 
 #. module: im_livechat_mail_bot
 #: model:ir.model,name:im_livechat_mail_bot.model_mail_bot
@@ -47,12 +49,7 @@ msgstr ""
 "span> en wacht op de voorstellen. Selecteer er een en druk op enter."
 
 #. module: im_livechat_mail_bot
-#: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "OdooBot status"
-
-#. module: im_livechat_mail_bot
-#: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__odoobot_state__onboarding_canned
+#: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__bot_state__onboarding_canned
 msgid "Onboarding canned"
 msgstr "Onboarding standaard antwoorden"
 
@@ -70,3 +67,15 @@ msgstr ""
 #: model:ir.model,name:im_livechat_mail_bot.model_res_users
 msgid "Users"
 msgstr "Gebruikers"
+
+#, python-format
+#~ msgid ""
+#~ "Good, you can customize canned responses in the live chat application.<br/"
+#~ "><br/><b>It's the end of this overview</b>, enjoy discovering Odoo!"
+#~ msgstr ""
+#~ "Goed, je kunt standaardantwoorden aanpassen in de livechat-app.<br/><br/"
+#~ "><b>Het is het einde van dit overzicht </b>, veel pleziert met het "
+#~ "ontdekken van Odoo!"
+
+#~ msgid "OdooBot Status"
+#~ msgstr "OdooBot status"
