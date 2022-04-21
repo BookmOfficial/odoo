@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:19+0000\n"
+"POT-Creation-Date: 2022-04-15 22:47+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2022\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -47,6 +47,14 @@ msgstr "\"%s\" vereist microfoontoegang"
 #, python-format
 msgid "%(activity_name)s: %(summary)s assigned to you"
 msgstr "%(activity_name)s: %(summary)s aan jou toegewezen"
+
+#. module: mail
+#: code:addons/mail/models/res_partner.py:0
+#, python-format
+msgid ""
+"%(email)s is not recognized as a valid email. This is required to create a "
+"new customer."
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/wizard/mail_wizard_invite.py:0
@@ -1042,6 +1050,13 @@ msgstr ""
 "deze e-mails later niet opnieuw verzenden!"
 
 #. module: mail
+#: code:addons/mail/models/mail_blacklist.py:0
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid "Are you sure you want to unblacklist this Email Address?"
+msgstr ""
+
+#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/m2x_avatar_user.js:0
 #, python-format
@@ -1231,8 +1246,8 @@ msgstr "Avatar 512"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of OdooBot"
-msgstr "Avatar van OdooBot"
+msgid "Avatar of BookmBot"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1295,6 +1310,15 @@ msgstr "Op de blacklist geplaatste e-mailadressen"
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 msgid "Body"
 msgstr "Inhoud"
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/components/notification_request/notification_request.js:0
+#, python-format
+msgid ""
+"Bookm will not have the permission to send native notifications on this "
+"device."
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1492,6 +1516,14 @@ msgstr "Gewijzigd"
 #, python-format
 msgid "Channel"
 msgstr "Kanaal"
+
+#. module: mail
+#: code:addons/mail/models/mail_channel.py:0
+#, python-format
+msgid ""
+"Channel \"%(channel_name)s\" only accepts members of group \"%(group_name)s"
+"\". Forbidden for: %(guest_names)s"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -2315,11 +2347,6 @@ msgid "Document Name"
 msgstr "Documentnaam"
 
 #. module: mail
-#: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Documentatie"
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/activity_mark_done_popover/activity_mark_done_popover.xml:0
 #: code:addons/mail/static/src/xml/activity.xml:0
@@ -2672,12 +2699,6 @@ msgstr "Fout"
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__error_msg
 msgid "Error Message"
 msgstr "Foutmelding"
-
-#. module: mail
-#: code:addons/mail/models/update.py:0
-#, python-format
-msgid "Error during communication with the publisher warranty server."
-msgstr "Fout tijdens communicatie met de uitgevers garantie server."
 
 #. module: mail
 #: code:addons/mail/models/mail_mail.py:0
@@ -3100,8 +3121,8 @@ msgstr "Afhandelen met e-mails"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Afhandelen in Odoo"
+msgid "Handle in Bookm"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -3284,6 +3305,18 @@ msgid "Id of the followed resource"
 msgstr "Id van de gevolgde resource"
 
 #. module: mail
+#: model:ir.model.fields,field_description:mail.field_res_partner__vat
+#: model:ir.model.fields,field_description:mail.field_res_users__vat
+msgid "Identification Number"
+msgstr ""
+
+#. module: mail
+#: model:ir.model.fields,help:mail.field_res_partner__vat
+#: model:ir.model.fields,help:mail.field_res_users__vat
+msgid "Identification Number for selected type"
+msgstr ""
+
+#. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_rtc_session_view_form
 msgid "Identity"
 msgstr "Identiteit"
@@ -3400,11 +3433,9 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Bookm server, "
 "enter the domain name here."
 msgstr ""
-"Als je een 'catch-all' e-mail adres heeft aangemaakt, welke verwijst naar de "
-"Odoo server, vul dan hier de domein naam in."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -4900,35 +4931,6 @@ msgid "Number of unread messages"
 msgstr "Aantal ongelezen berichten"
 
 #. module: mail
-#: model_terms:ir.ui.view,arch_db:mail.mail_notification_borders
-#: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
-#: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
-#: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
-
-#. module: mail
-#. openerp-web
-#: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
-#, python-format
-msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
-"allow them."
-msgstr ""
-"Odoo Push-notificaties zijn geblokkeerd. Ga naar je browserinstellingen om "
-"ze toe te staan."
-
-#. module: mail
-#. openerp-web
-#: code:addons/mail/static/src/components/notification_request/notification_request.js:0
-#, python-format
-msgid ""
-"Odoo will not have the permission to send native notifications on this "
-"device."
-msgstr ""
-"Odoo heeft geen toegang om native berichten te versturen op dit apparaat."
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/channel_member_list/channel_member_list.xml:0
 #: code:addons/mail/static/src/components/partner_im_status_icon/partner_im_status_icon.xml:0
@@ -5406,11 +5408,8 @@ msgstr "Even geduld..."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in Bookm: notifications appear in your Bookm Inbox"
 msgstr ""
-"Beleid voor het omgaan met Chatter-meldingen:\n"
-"- Behandel via e-mails: meldingen worden verzonden naar je e-mailadres\n"
-"- Bewerk in Odoo: meldingen verschijnen in je Odoo Inbox"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5472,18 +5471,9 @@ msgstr ""
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid ""
-"Posting a message with channels as listeners is not supported since Odoo "
-"14.3+. Please update code accordingly."
+"Posting a message with channels as listeners is not supported. Please update "
+"code accordingly."
 msgstr ""
-"Het plaatsen van een bericht met kanalen als luisteraars wordt niet "
-"ondersteund sinds Odoo 14.3+. Werk de code dienovereenkomstig bij."
-
-#. module: mail
-#: model_terms:ir.ui.view,arch_db:mail.mail_notification_borders
-#: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
-#: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
-msgid "Powered by"
-msgstr "Aangeboden door"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__previous_type_ids
@@ -5582,6 +5572,15 @@ msgstr "Uitgever garantie contract"
 #: model:ir.cron,name:mail.ir_cron_module_update_notification
 msgid "Publisher: Update Notification"
 msgstr "Publiceerder: update notificatie"
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
+#, python-format
+msgid ""
+"Push notifications have been blocked. Go to your browser settings to allow "
+"them."
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users_settings__push_to_talk_key
@@ -5978,8 +5977,8 @@ msgstr "Sjabloonweergave beperken"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "Restrict mail templates and Jinja rendering."
-msgstr "Beperk e-mailsjablonen en Jinja-weergave."
+msgid "Restrict mail templates edition and QWEB placeholders usage."
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -6194,7 +6193,10 @@ msgstr ""
 "overeenkomstige contactpersoon."
 
 #. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/components/thread_icon/thread_icon.xml:0
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel__public__groups
+#, python-format
 msgid "Selected group of users"
 msgstr "Geselecteerde groep van gebruikers"
 
@@ -6781,16 +6783,6 @@ msgid "The FullScreen mode was denied by the browser"
 msgstr "De modus Volledig scherm is geweigerd door de browser"
 
 #. module: mail
-#: model:ir.model.fields,help:mail.field_res_partner__vat
-#: model:ir.model.fields,help:mail.field_res_users__vat
-msgid ""
-"The Tax Identification Number. Complete it if the contact is subjected to "
-"government taxes. Used in some legal statements."
-msgstr ""
-"Het BTW nummer. Vul het in als het contact BTW moet betalen. Wordt gebruikt "
-"in sommige rapportages"
-
-#. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_channel_uuid_unique
 msgid "The channel UUID must be unique"
 msgstr "De kanaal-UUID moet uniek zijn"
@@ -6854,23 +6846,18 @@ msgstr "De interne gebruiker verantwoordelijk voor dit contract."
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
-"email that does not reply to an existing record will cause the creation of a "
-"new record of this model (e.g. a Project Task)"
+"The model (Bookm Document Kind) to which this alias corresponds. Any "
+"incoming email that does not reply to an existing record will cause the "
+"creation of a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Het model waar deze alias bijhoort. Iedere inkomende e-mail dat niet bij een "
-"bestaande regel hoort zal leiden tot het aanmaken van een nieuwe regel in "
-"dit model (Bijv. een projecttaak)."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_name
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.com>"
 msgstr ""
-"De naam van de e-mail alias, bijvoorbeeld: 'vacature' als je alle e-mails "
-"van vacature@uwbedrijf.nl wilt afvangen."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6994,11 +6981,8 @@ msgstr "Dit is hun eerste verbinding. Wens ze succes."
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your database."
 msgstr ""
-"Deze optie verwijdert permanent elk spoor van e-mail nadat deze is "
-"verzonden, inclusief vanuit het Technisch menu in de Instellingen, om "
-"opslagruimte van je Odoo-database te behouden."
 
 #. module: mail
 #. openerp-web
@@ -7554,19 +7538,9 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid ""
-"Using your own email server is required to send/receive emails in Community "
-"and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"Using your own email server is not required to send/receive emails. Users "
+"already benefit from a ready-to-use email server (@example.mybookm.com)."
 msgstr ""
-"Het gebruik van je eigen e-mailserver is vereist voor het verzenden / "
-"ontvangen van e-mails in Community- en Enterprise-versies. Online gebruikers "
-"profiteren van een kant-en-klare e-mailserver (@ mijnbedrijf.odoo.com)."
-
-#. module: mail
-#: model:ir.model.fields,field_description:mail.field_res_partner__vat
-#: model:ir.model.fields,field_description:mail.field_res_users__vat
-msgid "VAT/Tax ID"
-msgstr "Btw-nummer"
 
 #. module: mail
 #. openerp-web
@@ -7761,6 +7735,12 @@ msgid "You are in channel <b>#%s</b>."
 msgstr "Je bent in kanaal <b>#%s</b>."
 
 #. module: mail
+#: code:addons/mail/controllers/discuss.py:0
+#, python-format
+msgid "You are not allowed to upload an attachment here."
+msgstr ""
+
+#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/models/discuss_sidebar_category_item/discuss_sidebar_category_item.js:0
 #, python-format
@@ -7842,6 +7822,14 @@ msgid ""
 msgstr ""
 "Je kunt niets anders gebruiken dan Latijnse tekens zonder accent in het "
 "aliasadres (%s)."
+
+#. module: mail
+#: code:addons/mail/models/mail_thread_blacklist.py:0
+#, python-format
+msgid ""
+"You do not have the access right to unblacklist emails. Please contact your "
+"administrator."
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0
@@ -8005,11 +7993,6 @@ msgstr "alias %(name)s: %(error)s"
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_assigned
 msgid "assigned you an activity"
 msgstr "heb je een activiteit toegewezen"
-
-#. module: mail
-#: model:mail.channel,name:mail.channel_2
-msgid "board-meetings"
-msgstr "Bestuursvergaderingen"
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:0
@@ -8268,11 +8251,6 @@ msgid "other members."
 msgstr "andere leden."
 
 #. module: mail
-#: model:mail.channel,name:mail.channel_3
-msgid "rd"
-msgstr "rd"
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/message/message.js:0
 #, python-format
@@ -8335,11 +8313,6 @@ msgstr "Beperkt tot bekende auteurs"
 #, python-format
 msgid "results out of"
 msgstr "resultaten uit"
-
-#. module: mail
-#: model:mail.channel,name:mail.channel_1
-msgid "sales"
-msgstr "verkoop"
 
 #. module: mail
 #. openerp-web
@@ -8407,11 +8380,6 @@ msgid "unknown target model %s"
 msgstr "onbekend doel model %s"
 
 #. module: mail
-#: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "using"
-msgstr "gebruikende"
-
-#. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/many2one_avatar_user.xml:0
 #, python-format
@@ -8427,3 +8395,122 @@ msgstr "Weken"
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "{{ object.partner_id.lang }}"
 msgstr "{{ object.partner_id.lang }}"
+
+#, python-format
+#~ msgid "Avatar of OdooBot"
+#~ msgstr "Avatar van OdooBot"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentatie"
+
+#, python-format
+#~ msgid "Error during communication with the publisher warranty server."
+#~ msgstr "Fout tijdens communicatie met de uitgevers garantie server."
+
+#~ msgid "Handle in Odoo"
+#~ msgstr "Afhandelen in Odoo"
+
+#~ msgid ""
+#~ "If you have setup a catch-all email domain redirected to the Odoo server, "
+#~ "enter the domain name here."
+#~ msgstr ""
+#~ "Als je een 'catch-all' e-mail adres heeft aangemaakt, welke verwijst naar "
+#~ "de Odoo server, vul dan hier de domein naam in."
+
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#, python-format
+#~ msgid ""
+#~ "Odoo Push notifications have been blocked. Go to your browser settings to "
+#~ "allow them."
+#~ msgstr ""
+#~ "Odoo Push-notificaties zijn geblokkeerd. Ga naar je browserinstellingen "
+#~ "om ze toe te staan."
+
+#, python-format
+#~ msgid ""
+#~ "Odoo will not have the permission to send native notifications on this "
+#~ "device."
+#~ msgstr ""
+#~ "Odoo heeft geen toegang om native berichten te versturen op dit apparaat."
+
+#~ msgid ""
+#~ "Policy on how to handle Chatter notifications:\n"
+#~ "- Handle by Emails: notifications are sent to your email address\n"
+#~ "- Handle in Odoo: notifications appear in your Odoo Inbox"
+#~ msgstr ""
+#~ "Beleid voor het omgaan met Chatter-meldingen:\n"
+#~ "- Behandel via e-mails: meldingen worden verzonden naar je e-mailadres\n"
+#~ "- Bewerk in Odoo: meldingen verschijnen in je Odoo Inbox"
+
+#, python-format
+#~ msgid ""
+#~ "Posting a message with channels as listeners is not supported since Odoo "
+#~ "14.3+. Please update code accordingly."
+#~ msgstr ""
+#~ "Het plaatsen van een bericht met kanalen als luisteraars wordt niet "
+#~ "ondersteund sinds Odoo 14.3+. Werk de code dienovereenkomstig bij."
+
+#~ msgid "Powered by"
+#~ msgstr "Aangeboden door"
+
+#~ msgid "Restrict mail templates and Jinja rendering."
+#~ msgstr "Beperk e-mailsjablonen en Jinja-weergave."
+
+#~ msgid ""
+#~ "The Tax Identification Number. Complete it if the contact is subjected to "
+#~ "government taxes. Used in some legal statements."
+#~ msgstr ""
+#~ "Het BTW nummer. Vul het in als het contact BTW moet betalen. Wordt "
+#~ "gebruikt in sommige rapportages"
+
+#~ msgid ""
+#~ "The model (Odoo Document Kind) to which this alias corresponds. Any "
+#~ "incoming email that does not reply to an existing record will cause the "
+#~ "creation of a new record of this model (e.g. a Project Task)"
+#~ msgstr ""
+#~ "Het model waar deze alias bijhoort. Iedere inkomende e-mail dat niet bij "
+#~ "een bestaande regel hoort zal leiden tot het aanmaken van een nieuwe "
+#~ "regel in dit model (Bijv. een projecttaak)."
+
+#~ msgid ""
+#~ "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+#~ "<jobs@example.odoo.com>"
+#~ msgstr ""
+#~ "De naam van de e-mail alias, bijvoorbeeld: 'vacature' als je alle e-mails "
+#~ "van vacature@uwbedrijf.nl wilt afvangen."
+
+#~ msgid ""
+#~ "This option permanently removes any track of email after it's been sent, "
+#~ "including from the Technical menu in the Settings, in order to preserve "
+#~ "storage space of your Odoo database."
+#~ msgstr ""
+#~ "Deze optie verwijdert permanent elk spoor van e-mail nadat deze is "
+#~ "verzonden, inclusief vanuit het Technisch menu in de Instellingen, om "
+#~ "opslagruimte van je Odoo-database te behouden."
+
+#~ msgid ""
+#~ "Using your own email server is required to send/receive emails in "
+#~ "Community and Enterprise versions. Online users already benefit from a "
+#~ "ready-to-use email server (@mycompany.odoo.com)."
+#~ msgstr ""
+#~ "Het gebruik van je eigen e-mailserver is vereist voor het verzenden / "
+#~ "ontvangen van e-mails in Community- en Enterprise-versies. Online "
+#~ "gebruikers profiteren van een kant-en-klare e-mailserver (@ mijnbedrijf."
+#~ "odoo.com)."
+
+#~ msgid "VAT/Tax ID"
+#~ msgstr "Btw-nummer"
+
+#~ msgid "board-meetings"
+#~ msgstr "Bestuursvergaderingen"
+
+#~ msgid "rd"
+#~ msgstr "rd"
+
+#~ msgid "sales"
+#~ msgstr "verkoop"
+
+#~ msgid "using"
+#~ msgstr "gebruikende"
