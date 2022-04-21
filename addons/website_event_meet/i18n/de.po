@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:52+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -132,11 +132,6 @@ msgid ""
 msgstr ""
 "Sie sollten bereit sein, mindestens 10 Minuten im Raum zu verbringen, wenn "
 "Sie ein neues Thema beginnen möchten."
-
-#. module: website_event_meet
-#: model:event.meeting.room,name:website_event_meet.event_meeting_room_0
-msgid "Best wood for furniture"
-msgstr "Bestes Holz für Möbel"
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__can_publish
@@ -331,11 +326,6 @@ msgid "Let Visitors Create Rooms"
 msgstr "Zulassen, dass Besucher Räume erstellen"
 
 #. module: website_event_meet
-#: model:event.meeting.room,summary:website_event_meet.event_meeting_room_0
-msgid "Let's talk about wood types for furniture"
-msgstr "Lassen Sie uns über Holztypen für Möbel sprechen"
-
-#. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_max_capacity
 msgid "Max capacity"
 msgstr "Maximale Kapazität"
@@ -377,11 +367,6 @@ msgstr "Teilnehmer Anzahl"
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_max_participant_reached
 msgid "Peak participants"
 msgstr ""
-
-#. module: website_event_meet
-#: model:event.meeting.room,name:website_event_meet.event_meeting_room_1
-msgid "Reducing the ecological footprint with wood ?"
-msgstr "Mit Holz den ökologischen Fußabdruck verkleinern ?"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
@@ -428,13 +413,6 @@ msgid ""
 msgstr ""
 "In den Räumen können sich die Teilnehmer Ihrer Veranstaltung treffen und "
 "sich über verschiedene Themen unterhalten."
-
-#. module: website_event_meet
-#: model:event.meeting.room,summary:website_event_meet.event_meeting_room_1
-msgid "Share your tips to reduce your ecological footprint using wood."
-msgstr ""
-"Geben Sie uns Ihre Tipps zur Verringerung des ökologischen Fußabdrucks mit "
-"Holz."
 
 #. module: website_event_meet
 #. openerp-web
@@ -494,22 +472,9 @@ msgid "Unpublished"
 msgstr "Unveröffentlicht"
 
 #. module: website_event_meet
-#: model:event.meeting.room,summary:website_event_meet.event_meeting_room_2
-msgid ""
-"Venez partager vos meubles préférés et l'utilisation que vous en faites."
-msgstr ""
-"Kommen Sie und erzählen Sie uns von Ihren Lieblingsmöbeln und wie Sie sie "
-"nutzen."
-
-#. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_published
 msgid "Visible on current website"
 msgstr "Auf der aktuellen Website sichtbar"
-
-#. module: website_event_meet
-#: model:event.meeting.room,name:website_event_meet.event_meeting_room_2
-msgid "Vos meubles préférés ?"
-msgstr "Ihre Lieblingsmöbel?"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
@@ -525,11 +490,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_url
 msgid "Website URL"
 msgstr "Website-URL"
-
-#. module: website_event_meet
-#: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_2
-msgid "client(s)"
-msgstr "Kunde(n)"
 
 #. module: website_event_meet
 #. openerp-web
@@ -554,11 +514,6 @@ msgstr "Bsp. Finanzen"
 #, python-format
 msgid "e.g. Let's talk about Corporate Finance"
 msgstr "z.B. Lassen Sie uns über Unternehmensfinanzierung sprechen"
-
-#. module: website_event_meet
-#: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_1
-msgid "ecologist(s)"
-msgstr ""
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
@@ -598,7 +553,31 @@ msgstr "beginnt am"
 msgid "to have a chat with us!"
 msgstr "um einen Chat mit uns zu haben"
 
-#. module: website_event_meet
-#: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_0
-msgid "wood expert(s)"
-msgstr "Holzexperte(n)"
+#~ msgid "Best wood for furniture"
+#~ msgstr "Bestes Holz für Möbel"
+
+#~ msgid "Let's talk about wood types for furniture"
+#~ msgstr "Lassen Sie uns über Holztypen für Möbel sprechen"
+
+#~ msgid "Reducing the ecological footprint with wood ?"
+#~ msgstr "Mit Holz den ökologischen Fußabdruck verkleinern ?"
+
+#~ msgid "Share your tips to reduce your ecological footprint using wood."
+#~ msgstr ""
+#~ "Geben Sie uns Ihre Tipps zur Verringerung des ökologischen Fußabdrucks "
+#~ "mit Holz."
+
+#~ msgid ""
+#~ "Venez partager vos meubles préférés et l'utilisation que vous en faites."
+#~ msgstr ""
+#~ "Kommen Sie und erzählen Sie uns von Ihren Lieblingsmöbeln und wie Sie sie "
+#~ "nutzen."
+
+#~ msgid "Vos meubles préférés ?"
+#~ msgstr "Ihre Lieblingsmöbel?"
+
+#~ msgid "client(s)"
+#~ msgstr "Kunde(n)"
+
+#~ msgid "wood expert(s)"
+#~ msgstr "Holzexperte(n)"
