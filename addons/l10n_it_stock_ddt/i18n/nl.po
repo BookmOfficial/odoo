@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 15:18+0000\n"
+"POT-Creation-Date: 2022-04-15 22:30+0000\n"
 "PO-Revision-Date: 2022-01-10 15:18+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -93,11 +93,6 @@ msgid "Carrier Condition"
 msgstr ""
 
 #. module: l10n_it_stock_ddt
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking__l10n_it_country_code
-msgid "Country Code"
-msgstr ""
-
-#. module: l10n_it_stock_ddt
 #: model:ir.model.fields.selection,name:l10n_it_stock_ddt.selection__stock_picking__l10n_it_transport_method__courier
 msgid "Courier service"
 msgstr ""
@@ -123,13 +118,6 @@ msgid "DDTs"
 msgstr ""
 
 #. module: l10n_it_stock_ddt
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_account_move__display_name
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking__display_name
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking_type__display_name
-msgid "Display Name"
-msgstr ""
-
-#. module: l10n_it_stock_ddt
 #: model_terms:ir.ui.view,arch_db:l10n_it_stock_ddt.report_ddt_view
 msgid "Documento di Trasporto"
 msgstr ""
@@ -147,13 +135,6 @@ msgstr ""
 #. module: l10n_it_stock_ddt
 #: model_terms:ir.ui.view,arch_db:l10n_it_stock_ddt.report_ddt_view
 msgid "Gross Weight (kg)"
-msgstr ""
-
-#. module: l10n_it_stock_ddt
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_account_move__id
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking__id
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking_type__id
-msgid "ID"
 msgstr ""
 
 #. module: l10n_it_stock_ddt
@@ -178,13 +159,6 @@ msgstr ""
 #. module: l10n_it_stock_ddt
 #: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking_type__l10n_it_ddt_sequence_id
 msgid "L10N It Ddt Sequence"
-msgstr ""
-
-#. module: l10n_it_stock_ddt
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_account_move____last_update
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking____last_update
-#: model:ir.model.fields,field_description:l10n_it_stock_ddt.field_stock_picking_type____last_update
-msgid "Last Modified on"
 msgstr ""
 
 #. module: l10n_it_stock_ddt
@@ -251,7 +225,6 @@ msgstr ""
 
 #. module: l10n_it_stock_ddt
 #: code:addons/l10n_it_stock_ddt/models/stock_picking.py:0
-#: code:addons/l10n_it_stock_ddt/models/stock_picking.py:0
 #, python-format
 msgid "Sequence"
 msgstr ""
@@ -264,13 +237,6 @@ msgstr ""
 #. module: l10n_it_stock_ddt
 #: model:ir.model.fields.selection,name:l10n_it_stock_ddt.selection__stock_picking__l10n_it_transport_reason__substitution
 msgid "Substitution"
-msgstr ""
-
-#. module: l10n_it_stock_ddt
-#: model:ir.model.fields,help:l10n_it_stock_ddt.field_stock_picking__l10n_it_country_code
-msgid ""
-"The ISO country code in two chars. \n"
-"You can use this field for quick search."
 msgstr ""
 
 #. module: l10n_it_stock_ddt
