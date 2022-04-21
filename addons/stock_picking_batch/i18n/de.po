@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:19+0000\n"
+"POT-Creation-Date: 2022-04-15 23:24+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -657,6 +657,11 @@ msgid "Stock Batch Transfer"
 msgstr ""
 
 #. module: stock_picking_batch
+#: model:ir.model,name:stock_picking_batch.model_stock_move
+msgid "Stock Move"
+msgstr ""
+
+#. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_package_destination
 msgid "Stock Package Destination"
 msgstr "Lagerpaket Zielort"
@@ -682,8 +687,8 @@ msgid ""
 "Technical Field used to decide whether the button \"Allocation\" should be "
 "displayed."
 msgstr ""
-"Technisches Feld, mit dem entschieden wird, ob die Schaltfläche "
-"\"Zuweisung\" angezeigt werden soll."
+"Technisches Feld, mit dem entschieden wird, ob die Schaltfläche \"Zuweisung"
+"\" angezeigt werden soll."
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__show_check_availability
@@ -746,10 +751,13 @@ msgid ""
 "                    help the timing management of operations (tasks to be "
 "done at 1pm)."
 msgstr ""
-"Ziel des Wave-Transfers ist es, Vorgänge aus verschiedenen Transfers zusammenzufassen,\n"
+"Ziel des Wave-Transfers ist es, Vorgänge aus verschiedenen Transfers "
+"zusammenzufassen,\n"
 "um deren Effizienz zu steigern.\n"
-"Er kann auch dabei helfen, Aufträge zuzuweisen (eine Person = eine Charge) oder\n"
-"das Zeitmanagement von Vorgängen zu erleichtern (Aufgaben, die um 13 Uhr erledigt werden sollen)."
+"Er kann auch dabei helfen, Aufträge zuzuweisen (eine Person = eine Charge) "
+"oder\n"
+"das Zeitmanagement von Vorgängen zu erleichtern (Aufgaben, die um 13 Uhr "
+"erledigt werden sollen)."
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
