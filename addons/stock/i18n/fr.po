@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"POT-Creation-Date: 2022-04-15 23:23+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Thomas Deleval <thd@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -925,11 +925,6 @@ msgstr ""
 "une étagère spécifique)."
 
 #. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Add quality checks to your transfer operations"
-msgstr "Ajouter des contrôles qualité à vos opérations de transfert"
-
-#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Additional Info"
 msgstr "Info complémentaire"
@@ -979,15 +974,6 @@ msgstr "Tous les transferts"
 #: model:ir.model.fields.selection,name:stock.selection__procurement_group__move_type__one
 msgid "All at once"
 msgstr "Tout en une fois"
-
-#. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"All our contractual relations will be governed exclusively by United States "
-"law."
-msgstr ""
-"Toutes nos relations contractuelles seront gouvernées exclusivement par les "
-"lois des Etats-Unis"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__returned_move_ids
@@ -1264,7 +1250,6 @@ msgstr "Reliquats"
 #: model:ir.model.fields,field_description:stock.field_stock_location__barcode
 #: model:ir.model.fields,field_description:stock.field_stock_package_type__barcode
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__barcode
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Barcode"
 msgstr "Code-barres"
 
@@ -1292,15 +1277,6 @@ msgstr "Transferts en Lot"
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__reservation_method__by_date
 msgid "Before scheduled date"
 msgstr "Avant la date prévue"
-
-#. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
-"responsibility."
-msgstr ""
-"Le texte ci-dessous sert de suggestion et n'engage pas la responsabilité "
-"d'Odoo S.A.."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block
@@ -1345,12 +1321,6 @@ msgid ""
 msgstr ""
 "En décochant cette case, vous pouvez masquer un emplacement sans pour autant "
 "le supprimer."
-
-#. module: stock
-#: model:product.product,name:stock.product_cable_management_box
-#: model:product.template,name:stock.product_cable_management_box_product_template
-msgid "Cable Management Box"
-msgstr "Boîtier pour cables"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_calendar
@@ -1445,21 +1415,6 @@ msgstr "Catégorie"
 #: model:ir.model.fields,field_description:stock.field_product_template__route_from_categ_ids
 msgid "Category Routes"
 msgstr "Catégorie de route"
-
-#. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"Certain countries apply withholding at source on the amount of invoices, in "
-"accordance with their internal legislation. Any withholding at source will "
-"be paid by the client to the tax authorities. Under no circumstances can My "
-"Company (Chicago) become involved in costs related to a country's "
-"legislation. The amount of the invoice will therefore be due to My Company "
-"(Chicago) in its entirety and does not include any costs relating to the "
-"legislation of the country in which the client is located."
-msgstr ""
-"Certains pays appliquent des withholding tax à la source sur le montant des "
-"factures, selon leur législation. Chaque withholding à la source sera payé "
-"par le client aux fisc."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__move_dest_exists
@@ -1630,36 +1585,6 @@ msgstr "Société"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Compute shipping costs"
 msgstr "Calculer les frais de port"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Compute shipping costs and ship with DHL"
-msgstr "Calculer les frais de port et expédier avec DHL"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Compute shipping costs and ship with Easypost"
-msgstr "Calculer les frais de port et expédier avec Easypost"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Compute shipping costs and ship with FedEx"
-msgstr "Calculer les frais de port et expédier avec FedEx"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Compute shipping costs and ship with UPS"
-msgstr "Calculer les frais de port et expédier avec UPS"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Compute shipping costs and ship with USPS"
-msgstr "Calculer les frais de port et expédier avec USPS"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Compute shipping costs and ship with bpost"
-msgstr "Calculer les frais de port et expédier avec bpost"
 
 #. module: stock
 #: model:ir.model,name:stock.model_res_config_settings
@@ -1858,12 +1783,6 @@ msgstr "Créer un nouveau type d'opération"
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
 msgid "Create a new package"
 msgstr "Créer un nouveau paquet"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Create customizable worksheets for your quality checks"
-msgstr ""
-"Créez des feuilles de travail personnalisables pour vos contrôles qualité"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_putaway_tree
@@ -2227,11 +2146,9 @@ msgstr "Routes par défaut à travers l'entrepôt"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that Bookm creates automatically requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
-"Définissez un règle de stock minimum afin qu' Odoo crée automatiquement des "
-"achats ou des ordres de fabrications pour réapprovisionner  votre stock"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_warehouse_form
@@ -2242,21 +2159,12 @@ msgstr "Définissez un nouvel entrepôt"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Bookm is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
-"Définissez vos emplacements de façon à ce qu'ils reflètent la structure de "
-"votre entrepôt et de votre\n"
-" organisation. Odoo est capable de gérer des emplacements physiques\n"
-" (entrepôts, étagères, bacs, etc.), des emplacements de partenaire "
-"(clients,\n"
-" fournisseurs) ainsi que des emplacements virtuels. Ces derniers servent de "
-"contrepartie aux\n"
-" opérations de stock, telles que les ordres de fabrication,\n"
-" la consommation, les inventaires, etc."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__removal_strategy_id
@@ -2335,7 +2243,6 @@ msgstr "Méthodes de livraison"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
-#: model:stock.picking.type,name:stock.chi_picking_type_out
 #: model:stock.picking.type,name:stock.picking_type_out
 #, python-format
 msgid "Delivery Orders"
@@ -2642,11 +2549,6 @@ msgid "Do you confirm you want to scrap"
 msgstr "Confirmez-vous que vous voulez mettre au rebut"
 
 #. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Documentation"
-msgstr "Documentation"
-
-#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__qty_done
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__is_done
 #: model:ir.model.fields.selection,name:stock.selection__stock_move__state__done
@@ -2732,20 +2634,6 @@ msgid "Email sent to the customer once the order is done."
 msgstr "Email envoyé au client lorsque la commande est traitée."
 
 #. module: stock
-#: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
-msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast "
-"and works even without a stable internet connection. It supports all flows: "
-"inventory adjustments, batch picking, moving lots or pallets, low inventory "
-"checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
-msgstr ""
-"Appréciez une expérience à haute fréquence avec l'app Code Barre Odoo. Cette "
-"app est très rapide et fonctionne même sans une connection internet stable. "
-"Code Barre supporte tous les flux: Ajustement d'inventaire, transferts, "
-"transferts en lot, colisage, etc... Rendez vous dans le menu des apps pour "
-"activer l'interface Code Barre"
-
-#. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__tracking
 #: model:ir.model.fields,help:stock.field_product_template__tracking
 #: model:ir.model.fields,help:stock.field_stock_move__has_tracking
@@ -2766,17 +2654,12 @@ msgstr "Erreur"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Bookm moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Bookm will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Toute opération de stock dans Odoo déplace des articles d'un emplacement à "
-"un autre. Par exemple, si vous recevez des articles d'un fournisseur, Odoo "
-"déplacera les articles de l'emplacement Fournisseurs vers l'emplacement "
-"Stock. Chaque rapport peut porter sur un emplacement physique, un "
-"emplacement partenaire ou un emplacement virtuel."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.exception_on_picking
@@ -3303,19 +3186,6 @@ msgid "Icon to indicate an exception activity."
 msgstr "Icône pour indiquer une activité d'exception."
 
 #. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"If a payment is still outstanding more than sixty (60) days after the due "
-"payment date, My Company (Chicago) reserves the right to call on the "
-"services of a debt recovery company. All legal expenses will be payable by "
-"the client."
-msgstr ""
-"Si un paiement est toujours en attente plus de 60 jours après la date de "
-"paiement, My Company (Chicago) se réserve le droit de contacter une "
-"entreprise de recouvrement. Toutes les dépenses associées devront être "
-"payées par le client."
-
-#. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_storage_category__allow_new_product__same
 msgid "If all products are same"
 msgstr "Si tous les articles sont les mêmes"
@@ -3389,12 +3259,9 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, Bookm will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial numbers."
 msgstr ""
-"Si cette case est cochée, Odoo va automatquement pré-remplir les opérations "
-"détaillées avec les articles correspondants, les emplacements et les numéros "
-"de lot/série."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__print_label
@@ -3494,21 +3361,15 @@ msgid "Immediate transfer?"
 msgstr "Transfert immédiat ?"
 
 #. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid "Import"
+msgstr ""
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__in_type_id
 msgid "In Type"
 msgstr "Type d'entrée"
-
-#. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"In order for it to be admissible, My Company (Chicago) must be notified of "
-"any claim by means of a letter sent by recorded delivery to its registered "
-"office within 8 days of the delivery of the goods or the provision of the "
-"services."
-msgstr ""
-"Afin de pouvoir être admissible, My Company(Chicago) doit être notifié de "
-"toute plainte par recommandé postal dans les 8 jours de la livraison des "
-"biens."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__incoming_qty
@@ -4624,23 +4485,6 @@ msgid "My Activity Deadline"
 msgstr "Échéance de mon activité"
 
 #. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"My Company (Chicago) undertakes to do its best to supply performant services "
-"in due time in accordance with the agreed timeframes. However, none of its "
-"obligations can be considered as being an obligation to achieve results. My "
-"Company (Chicago) cannot under any circumstances, be required by the client "
-"to appear as a third party in the context of any claim for damages filed "
-"against the client by an end consumer."
-msgstr ""
-"My Company(Chicago) entreprend de faire de son mieux pour fournir des "
-"services performants dans les temps impartis. Toutefois, aucune de ses "
-"obligations ne peut être considérée comme une obligation d'atteindre des "
-"résultats. My Company(Chicago) ne peut en aucune circonstance, apparaitre "
-"comme tiers dans le contexte d'une plainte pour les dommages à charge du "
-"client par un consommateur final."
-
-#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_search_view
 msgid "My Counts"
 msgstr "Mes Comptages"
@@ -4758,6 +4602,12 @@ msgstr "Pas de reliquat"
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__no-message
 msgid "No Message"
 msgstr "Aucun message"
+
+#. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid "No Stock On Hand"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_template__tracking__none
@@ -5153,23 +5003,6 @@ msgstr "Règle de Réapprovisionnement Originale"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Other Information"
 msgstr "Autres informations"
-
-#. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"Our invoices are payable within 21 working days, unless another payment "
-"timeframe is indicated on either the invoice or the order. In the event of "
-"non-payment by the due date, My Company (Chicago) reserves the right to "
-"request a fixed interest payment amounting to 10% of the sum remaining due. "
-"My Company (Chicago) will be authorized to suspend any provision of services "
-"without prior warning in the event of late payment."
-msgstr ""
-"Nos factures sont payables dans les 21 jours ouvrables, a mois qu'un autre "
-"délai soit précisé soit sur la facture, soit sur la commande. En cas de non-"
-"paiement dans les temps impartis, My Company (Chicago) se réserve le droit "
-"de requérir a un taux d'intérêt de 10% du montant non-perçu. My Company "
-"(Chicago) sera autorisée à suspendre toute fourniture de service sans "
-"préavis en cas de retard de paiement."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__out_type_id
@@ -5578,6 +5411,14 @@ msgid "Preferred route"
 msgstr "Route préférée"
 
 #. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid ""
+"Press the CREATE button to define quantity for each product in your stock or "
+"import them from a spreadsheet throughout Favorites"
+msgstr ""
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Print"
 msgstr "Imprimer"
@@ -5611,11 +5452,6 @@ msgstr "Priorité"
 #: model:ir.model.fields,help:stock.field_stock_move__delay_alert_date
 msgid "Process at this date to be on time"
 msgstr "Traiter à cette date pour être à temps"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Process operations faster with barcodes"
-msgstr "Traiter les opérations plus rapidement en utilisant les codes-barres"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -6255,7 +6091,6 @@ msgstr "Route de réception"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
-#: model:stock.picking.type,name:stock.chi_picking_type_in
 #: model:stock.picking.type,name:stock.picking_type_in
 #, python-format
 msgid "Receipts"
@@ -6787,11 +6622,6 @@ msgid "SMS Delivery error"
 msgstr "Erreur d'envoi SMS"
 
 #. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
-msgstr "CONDITIONS GENERALES DE VENTE"
-
-#. module: stock
 #. openerp-web
 #: code:addons/stock/static/src/xml/stock_orderpoint.xml:0
 #, python-format
@@ -7129,11 +6959,6 @@ msgstr "Expéditions"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Shipping"
 msgstr "Expédition"
-
-#. module: stock
-#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
-msgid "Shipping Connectors"
-msgstr "Connecteurs avec les transporteurs"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__move_type
@@ -7849,19 +7674,6 @@ msgid "The barcode for a location must be unique per company !"
 msgstr "Le code-barres d'un emplacement doit être unique pour une société !"
 
 #. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"The client explicitly waives its own standard terms and conditions, even if "
-"these were drawn up after these standard terms and conditions of sale. In "
-"order to be valid, any derogation must be expressly agreed to in advance in "
-"writing."
-msgstr ""
-"Le client renonce expressément à ses propres conditions générales de vente, "
-"même si celles-ci ont été établies postérieurement aux présentes conditions "
-"générales de vente. Pour être valable, toute dérogation doit être "
-"expressément convenue au préalable par écrit."
-
-#. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_warehouse_orderpoint_product_location_check
 msgid "The combination of product and location must be unique."
 msgstr "La combinaison d'article et d'emplacement doit être unique"
@@ -7919,12 +7731,6 @@ msgstr "Le stock prévu pour le"
 msgid "The inventory frequency (days) for a location must be non-negative"
 msgstr ""
 "La fréquence d'inventaire (jours) pour un emplacement ne peut être négative"
-
-#. module: stock
-#: code:addons/stock/models/stock_production_lot.py:0
-#, python-format
-msgid "The lot name must contain at least one digit."
-msgstr "Le numéro du lot doit contenir au moins un chiffre."
 
 #. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_warehouse_warehouse_name_uniq
@@ -8083,6 +7889,14 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
 msgid "There's no product move yet"
 msgstr "Il n'y a pas encore de mouvement d'article"
+
+#. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid ""
+"This analysis gives you an overview of the current stock level of your "
+"products."
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__name
@@ -8305,12 +8119,6 @@ msgid "This will discard all unapplied counts, do you want to proceed?"
 msgstr ""
 "Ceci va effacer tous les comptages non appliqués, est-ce vraiment ce que "
 "vous voulez faire?"
-
-#. module: stock
-#: model:digest.tip,name:stock.digest_tip_stock_0
-#: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
-msgid "Tip: Speed up inventory operations with barcodes"
-msgstr "Astuce: Accélérez vos transferts grâce aux codes-barres"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__location_dest_id
@@ -8634,12 +8442,6 @@ msgstr "Prix unitaire"
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_move_line_operation_tree
 msgid "Unit of Measure"
 msgstr "Unité de mesure"
-
-#. module: stock
-#: model:product.product,uom_name:stock.product_cable_management_box
-#: model:product.template,uom_name:stock.product_cable_management_box_product_template
-msgid "Units"
-msgstr "Unités"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -8973,6 +8775,7 @@ msgstr "Avertir sur Quantité de Rebut insuffisante"
 #. module: stock
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/models/stock_move_line.py:0
+#: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/models/stock_quant.py:0
 #: code:addons/stock/models/stock_scrap.py:0
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -9110,22 +8913,17 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field, "
-"Odoo generates a procurement to bring the forecasted quantity to the Max "
+"Bookm generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr ""
-"Quand le stock virtuel tombe en dessous de la quantité mini indiquée dans de "
-"champ, Odoo génère un approvisionnement pour ramener la quantité prévue à la "
-"quantité maxi."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Bookm generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Quand le stock virtuel tombe en dessous de la quantité mini, Odoo génère un "
-"approvisionnement pour ramener la quantité prévue à la quantité indiquée ici."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_carrier
@@ -9477,10 +9275,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on <i>apply</"
-"i> Odoo will process all the quantities."
+"i> Bookm will process all the quantities."
 msgstr ""
-"Vous n'avez pas enregistré les quantités <i>faites,</i> en cliquant sur "
-"<i>valider</i> Odoo validera toutes les quantités."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
@@ -9572,9 +9368,13 @@ msgid "You need to supply a Lot/Serial number for products %s."
 msgstr "Vous devez fournir un numéro de Lot/de Série pour l'article %s."
 
 #. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid "You should update this document to reflect your T&amp;C."
-msgstr "Vous devriez mettre à jour ce document pour refléter vos CGV."
+#: code:addons/stock/models/stock_picking.py:0
+#, python-format
+msgid ""
+"You should not use a planned internal transfer to move some products between "
+"two warehouses. Instead, use an immediate internal transfer or the resupply "
+"route."
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -9614,6 +9414,12 @@ msgstr ""
 "             Choisissez la quantité à acheter ou produire et créez des "
 "commandes en un click.\n"
 "              Pour gagner du temps à l'avenir, automatisez les règles."
+
+#. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid "Your stock is currently empty"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_label_layout__print_format__zpl
@@ -9780,6 +9586,238 @@ msgid ""
 "{{ object.company_id.name }} Delivery Order (Ref {{ object.name or 'n/a' }})"
 msgstr ""
 "{{ object.company_id.name }} Delivery Order (Ref {{ object.name or 'n/a' }})"
+
+#~ msgid "Add quality checks to your transfer operations"
+#~ msgstr "Ajouter des contrôles qualité à vos opérations de transfert"
+
+#~ msgid ""
+#~ "All our contractual relations will be governed exclusively by United "
+#~ "States law."
+#~ msgstr ""
+#~ "Toutes nos relations contractuelles seront gouvernées exclusivement par "
+#~ "les lois des Etats-Unis"
+
+#~ msgid ""
+#~ "Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+#~ "responsibility."
+#~ msgstr ""
+#~ "Le texte ci-dessous sert de suggestion et n'engage pas la responsabilité "
+#~ "d'Odoo S.A.."
+
+#~ msgid "Cable Management Box"
+#~ msgstr "Boîtier pour cables"
+
+#~ msgid ""
+#~ "Certain countries apply withholding at source on the amount of invoices, "
+#~ "in accordance with their internal legislation. Any withholding at source "
+#~ "will be paid by the client to the tax authorities. Under no circumstances "
+#~ "can My Company (Chicago) become involved in costs related to a country's "
+#~ "legislation. The amount of the invoice will therefore be due to My "
+#~ "Company (Chicago) in its entirety and does not include any costs relating "
+#~ "to the legislation of the country in which the client is located."
+#~ msgstr ""
+#~ "Certains pays appliquent des withholding tax à la source sur le montant "
+#~ "des factures, selon leur législation. Chaque withholding à la source sera "
+#~ "payé par le client aux fisc."
+
+#~ msgid "Compute shipping costs and ship with DHL"
+#~ msgstr "Calculer les frais de port et expédier avec DHL"
+
+#~ msgid "Compute shipping costs and ship with Easypost"
+#~ msgstr "Calculer les frais de port et expédier avec Easypost"
+
+#~ msgid "Compute shipping costs and ship with FedEx"
+#~ msgstr "Calculer les frais de port et expédier avec FedEx"
+
+#~ msgid "Compute shipping costs and ship with UPS"
+#~ msgstr "Calculer les frais de port et expédier avec UPS"
+
+#~ msgid "Compute shipping costs and ship with USPS"
+#~ msgstr "Calculer les frais de port et expédier avec USPS"
+
+#~ msgid "Compute shipping costs and ship with bpost"
+#~ msgstr "Calculer les frais de port et expédier avec bpost"
+
+#~ msgid "Create customizable worksheets for your quality checks"
+#~ msgstr ""
+#~ "Créez des feuilles de travail personnalisables pour vos contrôles qualité"
+
+#~ msgid ""
+#~ "Define a minimum stock rule so that Odoo creates automatically requests "
+#~ "for quotations or confirmed manufacturing orders to resupply your stock."
+#~ msgstr ""
+#~ "Définissez un règle de stock minimum afin qu' Odoo crée automatiquement "
+#~ "des achats ou des ordres de fabrications pour réapprovisionner  votre "
+#~ "stock"
+
+#~ msgid ""
+#~ "Define your locations to reflect your warehouse structure and\n"
+#~ "            organization. Odoo is able to manage physical locations\n"
+#~ "            (warehouses, shelves, bin, etc), partner locations "
+#~ "(customers,\n"
+#~ "            vendors) and virtual locations which are the counterpart of\n"
+#~ "            the stock operations like the manufacturing orders\n"
+#~ "            consumptions, inventories, etc."
+#~ msgstr ""
+#~ "Définissez vos emplacements de façon à ce qu'ils reflètent la structure "
+#~ "de votre entrepôt et de votre\n"
+#~ " organisation. Odoo est capable de gérer des emplacements physiques\n"
+#~ " (entrepôts, étagères, bacs, etc.), des emplacements de partenaire "
+#~ "(clients,\n"
+#~ " fournisseurs) ainsi que des emplacements virtuels. Ces derniers servent "
+#~ "de contrepartie aux\n"
+#~ " opérations de stock, telles que les ordres de fabrication,\n"
+#~ " la consommation, les inventaires, etc."
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#~ msgid ""
+#~ "Enjoy a quick-paced experience with the Odoo barcode app. It is blazing "
+#~ "fast and works even without a stable internet connection. It supports all "
+#~ "flows: inventory adjustments, batch picking, moving lots or pallets, low "
+#~ "inventory checks, etc. Go to the \"Apps\" menu to activate the barcode "
+#~ "interface."
+#~ msgstr ""
+#~ "Appréciez une expérience à haute fréquence avec l'app Code Barre Odoo. "
+#~ "Cette app est très rapide et fonctionne même sans une connection internet "
+#~ "stable. Code Barre supporte tous les flux: Ajustement d'inventaire, "
+#~ "transferts, transferts en lot, colisage, etc... Rendez vous dans le menu "
+#~ "des apps pour activer l'interface Code Barre"
+
+#~ msgid ""
+#~ "Every stock operation in Odoo moves the products from one\n"
+#~ "            location to another one.  For instance, if you receive "
+#~ "products\n"
+#~ "            from a vendor, Odoo will move products from the Vendor\n"
+#~ "            location to the Stock location. Each report can be performed "
+#~ "on\n"
+#~ "            physical, partner or virtual locations."
+#~ msgstr ""
+#~ "Toute opération de stock dans Odoo déplace des articles d'un emplacement "
+#~ "à un autre. Par exemple, si vous recevez des articles d'un fournisseur, "
+#~ "Odoo déplacera les articles de l'emplacement Fournisseurs vers "
+#~ "l'emplacement Stock. Chaque rapport peut porter sur un emplacement "
+#~ "physique, un emplacement partenaire ou un emplacement virtuel."
+
+#~ msgid ""
+#~ "If a payment is still outstanding more than sixty (60) days after the due "
+#~ "payment date, My Company (Chicago) reserves the right to call on the "
+#~ "services of a debt recovery company. All legal expenses will be payable "
+#~ "by the client."
+#~ msgstr ""
+#~ "Si un paiement est toujours en attente plus de 60 jours après la date de "
+#~ "paiement, My Company (Chicago) se réserve le droit de contacter une "
+#~ "entreprise de recouvrement. Toutes les dépenses associées devront être "
+#~ "payées par le client."
+
+#~ msgid ""
+#~ "If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+#~ "operations with the corresponding products, locations and lot/serial "
+#~ "numbers."
+#~ msgstr ""
+#~ "Si cette case est cochée, Odoo va automatquement pré-remplir les "
+#~ "opérations détaillées avec les articles correspondants, les emplacements "
+#~ "et les numéros de lot/série."
+
+#~ msgid ""
+#~ "In order for it to be admissible, My Company (Chicago) must be notified "
+#~ "of any claim by means of a letter sent by recorded delivery to its "
+#~ "registered office within 8 days of the delivery of the goods or the "
+#~ "provision of the services."
+#~ msgstr ""
+#~ "Afin de pouvoir être admissible, My Company(Chicago) doit être notifié de "
+#~ "toute plainte par recommandé postal dans les 8 jours de la livraison des "
+#~ "biens."
+
+#~ msgid ""
+#~ "My Company (Chicago) undertakes to do its best to supply performant "
+#~ "services in due time in accordance with the agreed timeframes. However, "
+#~ "none of its obligations can be considered as being an obligation to "
+#~ "achieve results. My Company (Chicago) cannot under any circumstances, be "
+#~ "required by the client to appear as a third party in the context of any "
+#~ "claim for damages filed against the client by an end consumer."
+#~ msgstr ""
+#~ "My Company(Chicago) entreprend de faire de son mieux pour fournir des "
+#~ "services performants dans les temps impartis. Toutefois, aucune de ses "
+#~ "obligations ne peut être considérée comme une obligation d'atteindre des "
+#~ "résultats. My Company(Chicago) ne peut en aucune circonstance, apparaitre "
+#~ "comme tiers dans le contexte d'une plainte pour les dommages à charge du "
+#~ "client par un consommateur final."
+
+#~ msgid ""
+#~ "Our invoices are payable within 21 working days, unless another payment "
+#~ "timeframe is indicated on either the invoice or the order. In the event "
+#~ "of non-payment by the due date, My Company (Chicago) reserves the right "
+#~ "to request a fixed interest payment amounting to 10% of the sum remaining "
+#~ "due. My Company (Chicago) will be authorized to suspend any provision of "
+#~ "services without prior warning in the event of late payment."
+#~ msgstr ""
+#~ "Nos factures sont payables dans les 21 jours ouvrables, a mois qu'un "
+#~ "autre délai soit précisé soit sur la facture, soit sur la commande. En "
+#~ "cas de non-paiement dans les temps impartis, My Company (Chicago) se "
+#~ "réserve le droit de requérir a un taux d'intérêt de 10% du montant non-"
+#~ "perçu. My Company (Chicago) sera autorisée à suspendre toute fourniture "
+#~ "de service sans préavis en cas de retard de paiement."
+
+#~ msgid "Process operations faster with barcodes"
+#~ msgstr ""
+#~ "Traiter les opérations plus rapidement en utilisant les codes-barres"
+
+#~ msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+#~ msgstr "CONDITIONS GENERALES DE VENTE"
+
+#~ msgid "Shipping Connectors"
+#~ msgstr "Connecteurs avec les transporteurs"
+
+#~ msgid ""
+#~ "The client explicitly waives its own standard terms and conditions, even "
+#~ "if these were drawn up after these standard terms and conditions of sale. "
+#~ "In order to be valid, any derogation must be expressly agreed to in "
+#~ "advance in writing."
+#~ msgstr ""
+#~ "Le client renonce expressément à ses propres conditions générales de "
+#~ "vente, même si celles-ci ont été établies postérieurement aux présentes "
+#~ "conditions générales de vente. Pour être valable, toute dérogation doit "
+#~ "être expressément convenue au préalable par écrit."
+
+#, python-format
+#~ msgid "The lot name must contain at least one digit."
+#~ msgstr "Le numéro du lot doit contenir au moins un chiffre."
+
+#~ msgid "Tip: Speed up inventory operations with barcodes"
+#~ msgstr "Astuce: Accélérez vos transferts grâce aux codes-barres"
+
+#~ msgid "Units"
+#~ msgstr "Unités"
+
+#~ msgid ""
+#~ "When the virtual stock goes below the Min Quantity specified for this "
+#~ "field, Odoo generates a procurement to bring the forecasted quantity to "
+#~ "the Max Quantity."
+#~ msgstr ""
+#~ "Quand le stock virtuel tombe en dessous de la quantité mini indiquée dans "
+#~ "de champ, Odoo génère un approvisionnement pour ramener la quantité "
+#~ "prévue à la quantité maxi."
+
+#~ msgid ""
+#~ "When the virtual stock goes below the Min Quantity, Odoo generates a "
+#~ "procurement to bring the forecasted quantity to the Quantity specified as "
+#~ "Max Quantity."
+#~ msgstr ""
+#~ "Quand le stock virtuel tombe en dessous de la quantité mini, Odoo génère "
+#~ "un approvisionnement pour ramener la quantité prévue à la quantité "
+#~ "indiquée ici."
+
+#~ msgid ""
+#~ "You have not recorded <i>done</i> quantities yet, by clicking on "
+#~ "<i>apply</i> Odoo will process all the quantities."
+#~ msgstr ""
+#~ "Vous n'avez pas enregistré les quantités <i>faites,</i> en cliquant sur "
+#~ "<i>valider</i> Odoo validera toutes les quantités."
+
+#~ msgid "You should update this document to reflect your T&amp;C."
+#~ msgstr "Vous devriez mettre à jour ce document pour refléter vos CGV."
 
 #~ msgid ""
 #~ "Defines the default method used for suggesting the exact location (shelf) "
