@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 23:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:26+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -246,11 +246,6 @@ msgid ""
 msgstr "No olvide cambiar el contacto en los siguientes pedidos de entrega: %s"
 
 #. module: sale_stock
-#: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
-msgid "Documentation"
-msgstr "Documentación"
-
-#. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__effective_date
 msgid "Effective Date"
 msgstr "Fecha efectiva"
@@ -452,12 +447,6 @@ msgstr ""
 #, python-format
 msgid "On"
 msgstr "Al"
-
-#. module: sale_stock
-#: code:addons/sale_stock/models/sale_order.py:0
-#, python-format
-msgid "Ordered quantity decreased!"
-msgstr "¡La cantidad pedida ha sido reducida!"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_config_settings__default_picking_policy
@@ -739,16 +728,6 @@ msgstr "Cuando comenzar el envío"
 #: code:addons/sale_stock/models/sale_order.py:0
 #, python-format
 msgid ""
-"You are decreasing the ordered quantity! Do not forget to manually update "
-"the delivery order if needed."
-msgstr ""
-"¡Está reduciendo la cantidad pedida! No olvide actualizar manualmente la "
-"orden de entrega si es necesario."
-
-#. module: sale_stock
-#: code:addons/sale_stock/models/sale_order.py:0
-#, python-format
-msgid ""
 "You cannot decrease the ordered quantity below the delivered quantity.\n"
 "Create a return first."
 msgstr ""
@@ -787,3 +766,18 @@ msgstr "procesado en lugar de"
 #, python-format
 msgid "will be late."
 msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr "Documentación"
+
+#, python-format
+#~ msgid "Ordered quantity decreased!"
+#~ msgstr "¡La cantidad pedida ha sido reducida!"
+
+#, python-format
+#~ msgid ""
+#~ "You are decreasing the ordered quantity! Do not forget to manually update "
+#~ "the delivery order if needed."
+#~ msgstr ""
+#~ "¡Está reduciendo la cantidad pedida! No olvide actualizar manualmente la "
+#~ "orden de entrega si es necesario."
