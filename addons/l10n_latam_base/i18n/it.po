@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-22 13:00+0000\n"
+"POT-Creation-Date: 2022-04-15 22:31+0000\n"
 "PO-Revision-Date: 2019-08-22 13:00+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -15,6 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. module: l10n_latam_base
+#: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
+msgid "<span class=\"oe_read_only\"> - </span>"
+msgstr ""
 
 #. module: l10n_latam_base
 #: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__active
@@ -53,6 +58,11 @@ msgid "Created on"
 msgstr ""
 
 #. module: l10n_latam_base
+#: model:l10n_latam.identification.type,name:l10n_latam_base.it_fid
+msgid "Cédula Extranjera"
+msgstr ""
+
+#. module: l10n_latam_base
 #: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__description
 msgid "Description"
 msgstr ""
@@ -60,11 +70,6 @@ msgstr ""
 #. module: l10n_latam_base
 #: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__display_name
 msgid "Display Name"
-msgstr ""
-
-#. module: l10n_latam_base
-#: model:l10n_latam.identification.type,name:l10n_latam_base.it_fid
-msgid "Foreign ID"
 msgstr ""
 
 #. module: l10n_latam_base
