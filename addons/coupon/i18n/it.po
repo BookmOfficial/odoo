@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 21:32+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -65,17 +65,6 @@ msgstr "%s, è stato generato un buono sconto per te"
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
 msgid "*Valid for following products:"
 msgstr "*Valido per i seguenti prodotti:"
-
-#. module: coupon
-#: model:coupon.program,name:coupon.10_percent_coupon
-msgid "10% Discount"
-msgstr "Sconto 10%"
-
-#. module: coupon
-#: model:product.product,name:coupon.product_product_10_percent_discount
-#: model:product.template,name:coupon.product_product_10_percent_discount_product_template
-msgid "10.0% discount on total amount"
-msgstr "10,0% di sconto sull'importo totale"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_program_view_form_common
@@ -271,11 +260,6 @@ msgstr ""
 "promozioni automaticamente se alcune condizioni sono soddisfatte."
 
 #. module: coupon
-#: model:coupon.program,name:coupon.3_cabinets_plus_1_free
-msgid "Buy 3 large cabinets, get one for free"
-msgstr "Acquista 3 armadietti grandi e ricevine uno gratis"
-
-#. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_generate_view_form
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_view_form
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_view_tree
@@ -291,11 +275,6 @@ msgstr "Annullata"
 #: model:ir.model.fields,field_description:coupon.field_coupon_coupon__code
 msgid "Code"
 msgstr "Codice"
-
-#. module: coupon
-#: model:coupon.program,name:coupon.10_percent_auto_applied
-msgid "Code for 10% on orders"
-msgstr "Codice per 10% sugli ordini"
 
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_program__company_id
@@ -556,12 +535,6 @@ msgstr "Prodotto gratuito"
 #, python-format
 msgid "Free Product - %s"
 msgstr "Prodotto gratuito - %s"
-
-#. module: coupon
-#: model:product.product,name:coupon.product_product_free_large_cabinet
-#: model:product.template,name:coupon.product_product_free_large_cabinet_product_template
-msgid "Free Product - Large Cabinet"
-msgstr "Prodotto gratuito - Armadietto grande"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_generate_view_form
@@ -1091,14 +1064,6 @@ msgid "Unit of Measure"
 msgstr "Unità di misura"
 
 #. module: coupon
-#: model:product.product,uom_name:coupon.product_product_10_percent_discount
-#: model:product.product,uom_name:coupon.product_product_free_large_cabinet
-#: model:product.template,uom_name:coupon.product_product_10_percent_discount_product_template
-#: model:product.template,uom_name:coupon.product_product_free_large_cabinet_product_template
-msgid "Units"
-msgstr "Unità"
-
-#. module: coupon
 #: model:ir.model.fields.selection,name:coupon.selection__coupon_program__promo_code_usage__code_needed
 msgid "Use a code"
 msgstr "Usa un codice"
@@ -1174,3 +1139,21 @@ msgstr "in meno sul prodotto più conveniente"
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
 msgid "on your next order"
 msgstr "sul prossimo ordine"
+
+#~ msgid "10% Discount"
+#~ msgstr "Sconto 10%"
+
+#~ msgid "10.0% discount on total amount"
+#~ msgstr "10,0% di sconto sull'importo totale"
+
+#~ msgid "Buy 3 large cabinets, get one for free"
+#~ msgstr "Acquista 3 armadietti grandi e ricevine uno gratis"
+
+#~ msgid "Code for 10% on orders"
+#~ msgstr "Codice per 10% sugli ordini"
+
+#~ msgid "Free Product - Large Cabinet"
+#~ msgstr "Prodotto gratuito - Armadietto grande"
+
+#~ msgid "Units"
+#~ msgstr "Unità"
