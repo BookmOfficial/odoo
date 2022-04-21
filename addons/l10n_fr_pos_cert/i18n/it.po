@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 14:38+0000\n"
+"POT-Creation-Date: 2022-04-15 22:24+0000\n"
 "PO-Revision-Date: 2021-10-27 14:38+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. module: l10n_fr_pos_cert
 #: code:addons/l10n_fr_pos_cert/models/pos.py:0
 #, python-format
-msgid "According to French law, you cannot delet a point of sale order."
+msgid "According to French law, you cannot delete a point of sale order."
 msgstr ""
 
 #. module: l10n_fr_pos_cert
@@ -60,7 +60,7 @@ msgstr ""
 #: code:addons/l10n_fr_pos_cert/models/pos.py:0
 #, python-format
 msgid ""
-"An error occured when computing the inalterability. Impossible to get the "
+"An error occurred when computing the inalterability. Impossible to get the "
 "unique previous posted point of sale order."
 msgstr ""
 
@@ -165,16 +165,7 @@ msgid "Deleting of orders is not allowed."
 msgstr ""
 
 #. module: l10n_fr_pos_cert
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_bank_statement__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_bank_statement_line__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_fiscal_position__display_name
 #: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_config__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order_line__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_session__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_report_l10n_fr_pos_cert_report_pos_hash_integrity__display_name
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_res_company__display_name
 msgid "Display Name"
 msgstr ""
 
@@ -247,16 +238,7 @@ msgid "Hash integrity result PDF"
 msgstr ""
 
 #. module: l10n_fr_pos_cert
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_bank_statement__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_bank_statement_line__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_fiscal_position__id
 #: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_config__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order_line__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_session__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_report_l10n_fr_pos_cert_report_pos_hash_integrity__id
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_res_company__id
 msgid "ID"
 msgstr ""
 
@@ -283,8 +265,10 @@ msgstr ""
 #. module: l10n_fr_pos_cert
 #: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
 msgid ""
-"La chaîne de hachage est conforme: il n’est pas possible d’altérer les données\n"
-"                                            sans casser la chaîne de hachage pour les pièces ultérieures."
+"La chaîne de hachage est conforme: il n’est pas possible d’altérer les "
+"données\n"
+"                                            sans casser la chaîne de hachage "
+"pour les pièces ultérieures."
 msgstr ""
 
 #. module: l10n_fr_pos_cert
@@ -298,16 +282,7 @@ msgid "Last Hash"
 msgstr ""
 
 #. module: l10n_fr_pos_cert
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_bank_statement____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_bank_statement_line____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_fiscal_position____last_update
 #: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_account_sale_closing____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_config____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_order_line____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_pos_session____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_report_l10n_fr_pos_cert_report_pos_hash_integrity____last_update
-#: model:ir.model.fields,field_description:l10n_fr_pos_cert.field_res_company____last_update
 msgid "Last Modified on"
 msgstr ""
 
@@ -402,11 +377,9 @@ msgstr ""
 
 #. module: l10n_fr_pos_cert
 #: code:addons/l10n_fr_pos_cert/models/account_closing.py:0
-#: code:addons/l10n_fr_pos_cert/models/account_closing.py:0
 #, python-format
 msgid ""
-"Sale Closings are not meant to be written or deleted under any "
-"circumstances."
+"Sale Closings are not meant to be written or deleted under any circumstances."
 msgstr ""
 
 #. module: l10n_fr_pos_cert
@@ -420,20 +393,25 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:l10n_fr_pos_cert.action_list_view_account_sale_closing
 msgid ""
 "Sales closings run automatically on a daily, monthly and annual basis. It "
-"computes both period and cumulative totals from all the sales entries posted"
-" in the system after the previous closing."
+"computes both period and cumulative totals from all the sales entries posted "
+"in the system after the previous closing."
 msgstr ""
 
 #. module: l10n_fr_pos_cert
 #: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
 msgid ""
-"Selon l’article 286 du code général des impôts français, toute livraison de bien ou prestation\n"
-"                                        de services ne donnant pas lieu à facturation et étant enregistrée au moyen d’un logiciel ou\n"
-"                                        d’un système de caisse doit satisfaire à des conditions d’inaltérabilité et de sécurisation des\n"
-"                                        données en vue d’un contrôle de l’administration fiscale.\n"
+"Selon l’article 286 du code général des impôts français, toute livraison de "
+"bien ou prestation\n"
+"                                        de services ne donnant pas lieu à "
+"facturation et étant enregistrée au moyen d’un logiciel ou\n"
+"                                        d’un système de caisse doit "
+"satisfaire à des conditions d’inaltérabilité et de sécurisation des\n"
+"                                        données en vue d’un contrôle de "
+"l’administration fiscale.\n"
 "                                        <br/>\n"
 "                                        <br/>\n"
-"                                        Ces conditions sont respectées via une fonction de hachage des ventes du Point de Vente.\n"
+"                                        Ces conditions sont respectées via "
+"une fonction de hachage des ventes du Point de Vente.\n"
 "                                        <br/>\n"
 "                                        <br/>"
 msgstr ""
@@ -450,7 +428,7 @@ msgstr ""
 
 #. module: l10n_fr_pos_cert
 #: model_terms:ir.actions.act_window,help:l10n_fr_pos_cert.action_list_view_account_sale_closing
-msgid "The closings are created by Odoo"
+msgid "The closings are created by Bookm"
 msgstr ""
 
 #. module: l10n_fr_pos_cert
@@ -475,15 +453,6 @@ msgid ""
 msgstr ""
 
 #. module: l10n_fr_pos_cert
-#: code:addons/l10n_fr_pos_cert/models/pos.py:0
-#, python-format
-msgid ""
-"This session has been opened another day. To comply with the French law, you"
-" should close sessions on a daily basis. Please close session %s and open a "
-"new one."
-msgstr ""
-
-#. module: l10n_fr_pos_cert
 #: model:ir.model.fields,help:l10n_fr_pos_cert.field_account_sale_closing__total_interval
 msgid ""
 "Total in receivable accounts during the interval, excluding overlapping "
@@ -499,7 +468,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_fr_pos_cert.report_pos_hash_integrity
 msgid ""
 "Toutes les ventes effectuées via le Point de Vente\n"
-"                                                sont bien dans la chaîne de hachage."
+"                                                sont bien dans la chaîne de "
+"hachage."
 msgstr ""
 
 #. module: l10n_fr_pos_cert
@@ -519,17 +489,15 @@ msgid ""
 msgstr ""
 
 #. module: l10n_fr_pos_cert
-#: code:addons/l10n_fr_pos_cert/models/account_bank_statement.py:0
-#, python-format
-msgid ""
-"You cannot modify anything on a bank statement line (name: %s) that was "
-"created by point of sale operations."
-msgstr ""
-
-#. module: l10n_fr_pos_cert
 #: code:addons/l10n_fr_pos_cert/models/pos.py:0
 #, python-format
 msgid ""
 "You cannot overwrite the values ensuring the inalterability of the point of "
 "sale."
+msgstr ""
+
+#. module: l10n_fr_pos_cert
+#: code:addons/l10n_fr_pos_cert/models/pos.py:0
+#, python-format
+msgid "You have to set a country in your company setting."
 msgstr ""
