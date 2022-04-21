@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:29+0000\n"
+"POT-Creation-Date: 2022-04-15 23:52+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -162,25 +162,6 @@ msgid "Archived"
 msgstr "Archiviert"
 
 #. module: website_event_exhibitor
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_3
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_4
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_5
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_6
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_7
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_8
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_3
-msgid "As a team, we are happy to contribute to this event."
-msgstr ""
-"Wir als Team freuen uns, zu dieser Veranstaltung einen Beitrag zu leisten."
-
-#. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__message_attachment_count
 msgid "Attachment Count"
 msgstr "# Anhänge"
@@ -222,24 +203,6 @@ msgstr "Chat Raum"
 #, python-format
 msgid "Come back between"
 msgstr "Kommen Sie wieder zwischen"
-
-#. module: website_event_exhibitor
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_3
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_4
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_5
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_6
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_7
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_8
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_3
-msgid "Come see us live, we hope to meet you !"
-msgstr "Besuchen Sie uns live, wir hoffen, Sie zu treffen!"
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.exhibitor_card
@@ -284,24 +247,6 @@ msgstr "Erstellt am"
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
 msgid "Description"
 msgstr "Beschreibung"
-
-#. module: website_event_exhibitor
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_3
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_4
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_5
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_6
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_7
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_8
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_3
-msgid "Discover more"
-msgstr "Entdecken Sie mehr"
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__display_name
@@ -417,24 +362,6 @@ msgstr "Gold"
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_search
 msgid "Group By"
 msgstr "Gruppieren nach"
-
-#. module: website_event_exhibitor
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_3
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_4
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_5
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_6
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_7
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_8
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_9
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_0
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_1
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_2
-#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_3
-msgid "Happy to be Sponsor"
-msgstr "Glücklich, Sponsor zu sein"
 
 #. module: website_event_exhibitor
 #: model:ir.model.fields,field_description:website_event_exhibitor.field_event_sponsor__has_message
@@ -963,8 +890,8 @@ msgstr "z.B. : OpenWood Decoration"
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
-msgid "e.g. : https://www.odoo.com"
-msgstr "z.B. : https://www.odoo.com"
+msgid "e.g. : https://www.example.com"
+msgstr ""
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
@@ -1026,3 +953,19 @@ msgstr "startet in"
 #, python-format
 msgid "starts on"
 msgstr "beginnt am"
+
+#~ msgid "As a team, we are happy to contribute to this event."
+#~ msgstr ""
+#~ "Wir als Team freuen uns, zu dieser Veranstaltung einen Beitrag zu leisten."
+
+#~ msgid "Come see us live, we hope to meet you !"
+#~ msgstr "Besuchen Sie uns live, wir hoffen, Sie zu treffen!"
+
+#~ msgid "Discover more"
+#~ msgstr "Entdecken Sie mehr"
+
+#~ msgid "Happy to be Sponsor"
+#~ msgstr "Glücklich, Sponsor zu sein"
+
+#~ msgid "e.g. : https://www.odoo.com"
+#~ msgstr "z.B. : https://www.odoo.com"
