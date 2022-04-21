@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"POT-Creation-Date: 2022-04-15 23:13+0000\n"
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -85,11 +85,6 @@ msgstr "'Offerteaanvraag - %s' % (object.name)"
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "-&gt;"
 msgstr "-&gt;"
-
-#. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid "3-way matching"
-msgstr "3-weg controle"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_account_3way_match
@@ -1205,11 +1200,6 @@ msgid "Display Type"
 msgstr "Soort weergave"
 
 #. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid "Documentation"
-msgstr "Documentatie"
-
-#. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__done
 msgid "Done"
 msgstr "Gereed"
@@ -1359,15 +1349,6 @@ msgstr "Indien aangevinkt vragen nieuwe berichten je aandacht."
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "indien aangevinkt hebben sommige leveringen een fout."
-
-#. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid ""
-"If enabled, activates 3-way matching on vendor bills : the items must be "
-"received in order to pay the invoice."
-msgstr ""
-"Indien geactiveerd dan wordt 3-weg controle actief op leveranciersfacturen. "
-"De goederen moeten ontvangen zijn alvorens de factuur betaald kan worden."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -1542,14 +1523,6 @@ msgstr "Geblokkeerd"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Hoofdbijlage"
-
-#. module: purchase
-#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
-msgid ""
-"Make sure you only pay bills for which you received the goods you ordered"
-msgstr ""
-"Zorg ervoor dat je enkel facturen betaald waarvan je de goederen reeds "
-"ontvangen hebt."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -3149,13 +3122,8 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Bookm."
 msgstr ""
-"Leveranciersfacturen kunnen op voorhand gegenereerd worden gebaseerd op "
-"inkooporders\n"
-"of ontvangsten. Dit staat je toe de facturen te beheren\n"
-"die je ontvangt van leveranciers aan de hand van het concept\n"
-"document in Odoo."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3227,30 +3195,19 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
-"dates and keep you informed in case of any delays. To get the vendor's "
-"performance statistics, click on the OTD rate."
+"shipment, Bookm will send the vendor an email to ask confirmation of "
+"shipment dates and keep you informed in case of any delays. To get the "
+"vendor's performance statistics, click on the OTD rate."
 msgstr ""
-"Bekijk bij het aanmaken van een inkooporder het percentage <i>tijdige "
-"levering</i> van de leverancier: het percentage producten dat op tijd is "
-"verzonden. Activeer de <i>automatische herinneringen</i> als deze te laag "
-"is. Een paar dagen voor de geplande verzending zal Odoo de verkoper een e-"
-"mail sturen om bevestiging van de verzenddatums te vragen en je op de hoogte "
-"houden in geval van vertragingen. Om de prestatiestatistieken van de "
-"leverancier te krijgen, klik je op het OTD-tarief."
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Bookm asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Bij het verzenden van een order per e-mail, vraagt Odoo de verkoper om de "
-"ontvangst van de order te bevestigen. Wanneer de verkoper de order bevestigt "
-"door op een knop in de e-mail te klikken, wordt de informatie toegevoegd aan "
-"de order. Gebruik filters om orders te volgen die niet zijn bevestigd."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.mail_notification_confirm
@@ -3323,3 +3280,64 @@ msgstr "dag(en) voor"
 msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
 msgstr ""
 "{{ object.company_id.name }} Inkooporder (Ref {{ object.name or 'n/b' }})"
+
+#~ msgid "3-way matching"
+#~ msgstr "3-weg controle"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentatie"
+
+#~ msgid ""
+#~ "If enabled, activates 3-way matching on vendor bills : the items must be "
+#~ "received in order to pay the invoice."
+#~ msgstr ""
+#~ "Indien geactiveerd dan wordt 3-weg controle actief op "
+#~ "leveranciersfacturen. De goederen moeten ontvangen zijn alvorens de "
+#~ "factuur betaald kan worden."
+
+#~ msgid ""
+#~ "Make sure you only pay bills for which you received the goods you ordered"
+#~ msgstr ""
+#~ "Zorg ervoor dat je enkel facturen betaald waarvan je de goederen reeds "
+#~ "ontvangen hebt."
+
+#~ msgid ""
+#~ "Vendors bills can be pre-generated based on purchase\n"
+#~ "                    orders or receipts. This allows you to control bills\n"
+#~ "                    you receive from your vendor according to the draft\n"
+#~ "                    document in Odoo."
+#~ msgstr ""
+#~ "Leveranciersfacturen kunnen op voorhand gegenereerd worden gebaseerd op "
+#~ "inkooporders\n"
+#~ "of ontvangsten. Dit staat je toe de facturen te beheren\n"
+#~ "die je ontvangt van leveranciers aan de hand van het concept\n"
+#~ "document in Odoo."
+
+#~ msgid ""
+#~ "When creating a purchase order, have a look at the vendor's <i>On Time "
+#~ "Delivery</i> rate: the percentage of products shipped on time. If it is "
+#~ "too low, activate the <i>automated reminders</i>. A few days before the "
+#~ "due shipment, Odoo will send the vendor an email to ask confirmation of "
+#~ "shipment dates and keep you informed in case of any delays. To get the "
+#~ "vendor's performance statistics, click on the OTD rate."
+#~ msgstr ""
+#~ "Bekijk bij het aanmaken van een inkooporder het percentage <i>tijdige "
+#~ "levering</i> van de leverancier: het percentage producten dat op tijd is "
+#~ "verzonden. Activeer de <i>automatische herinneringen</i> als deze te laag "
+#~ "is. Een paar dagen voor de geplande verzending zal Odoo de verkoper een e-"
+#~ "mail sturen om bevestiging van de verzenddatums te vragen en je op de "
+#~ "hoogte houden in geval van vertragingen. Om de prestatiestatistieken van "
+#~ "de leverancier te krijgen, klik je op het OTD-tarief."
+
+#~ msgid ""
+#~ "When sending a purchase order by email, Odoo asks the vendor to "
+#~ "acknowledge the reception of the order. When the vendor acknowledges the "
+#~ "order by clicking on a button in the email, the information is added on "
+#~ "the purchase order. Use filters to track orders that have not been "
+#~ "acknowledged."
+#~ msgstr ""
+#~ "Bij het verzenden van een order per e-mail, vraagt Odoo de verkoper om de "
+#~ "ontvangst van de order te bevestigen. Wanneer de verkoper de order "
+#~ "bevestigt door op een knop in de e-mail te klikken, wordt de informatie "
+#~ "toegevoegd aan de order. Gebruik filters om orders te volgen die niet "
+#~ "zijn bevestigd."
