@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 06:07+0000\n"
+"POT-Creation-Date: 2022-04-15 23:48+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -48,12 +48,6 @@ msgstr ""
 #, python-format
 msgid " Add Images"
 msgstr "Ajouter des images"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "\" alert with a"
-msgstr "\" alerte avec un"
 
 #. module: website
 #: code:addons/website/models/website_rewrite.py:0
@@ -256,11 +250,6 @@ msgid ", .s_website_form"
 msgstr ", .s_website_form"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid ", author:"
-msgstr ", auteur :"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
 ".\n"
@@ -351,12 +340,6 @@ msgid "15 km"
 msgstr "15 km"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "2 <span class=\"sr-only\">(current)</span>"
-msgstr "2 <span class=\"sr-only\">(actuel)</span>"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_map_options
 msgid "2 km"
 msgstr "2 km"
@@ -392,10 +375,8 @@ msgid "24x7 toll-free support"
 msgstr "24h/7j support gratuit"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
 msgid "25%"
 msgstr "25%"
 
@@ -490,12 +471,6 @@ msgid "50%"
 msgstr "50%"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr ""
-"Plus de 50.000 entreprises utilisent Odoo pour développer leurs activités. "
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "75%"
@@ -512,13 +487,6 @@ msgstr "8 km"
 #, python-format
 msgid "80% Development"
 msgstr "80% Développement"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-msgstr ""
-"<b>Plus de 50000 sociétés</b> utilisent Odoo pour faire croître leur "
-"business."
 
 #. module: website
 #. openerp-web
@@ -780,15 +748,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid ""
 "<i class=\"fa fa-arrow-right\"/>\n"
-"                                            How to get my Client ID"
-msgstr ""
-"<i class=\"fa fa-arrow-right\"/>\n"
-"                                            Comment obtenir mon ID Client"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid ""
-"<i class=\"fa fa-arrow-right\"/>\n"
 "                                            How to get my Measurement ID"
 msgstr ""
 
@@ -883,11 +842,9 @@ msgstr ""
 #: model_terms:website.page,arch_db:website.contactus_page
 #: model_terms:website.page,arch_db:website.contactus_thanks
 msgid ""
-"<i class=\"fa fa-map-marker fa-fw mr-2\"/><span class=\"o_force_ltr"
-"\">Chaussée de Namur 40</span>"
+"<i class=\"fa fa-map-marker fa-fw mr-2\"/><span class=\"o_force_ltr\">3575 "
+"Fake Buena Vista Avenue</span>"
 msgstr ""
-"<i class=\"fa fa-map-marker fa-fw mr-2\"/><span class=\"o_force_ltr"
-"\">Chaussée de Namur 40</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -895,11 +852,9 @@ msgstr ""
 #: model_terms:website.page,arch_db:website.contactus_page
 #: model_terms:website.page,arch_db:website.contactus_thanks
 msgid ""
-"<i class=\"fa fa-phone fa-fw mr-2\"/><span class=\"o_force_ltr\">+ 32 81 81 "
-"37 00</span>"
+"<i class=\"fa fa-phone fa-fw mr-2\"/><span class=\"o_force_ltr\">+1 (650) "
+"555-0111</span>"
 msgstr ""
-"<i class=\"fa fa-phone fa-fw mr-2\"/><span class=\"o_force_ltr\">+ 32 81 81 "
-"37 00</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.language_selector_add_language
@@ -1090,35 +1045,9 @@ msgstr ""
 "                                        </small>"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid ""
-"<small id=\"emailHelp\" class=\"form-text text-muted\">Form field help text</"
-"small>"
-msgstr ""
-"<small id=\"emailHelp\" class=\"form-text text-muted\">Texte d'aide du champ "
-"de formulaire</small>"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid ""
-"<small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share "
-"your email with anyone else.</small>"
-msgstr ""
-"<small id=\"emailHelp\" class=\"form-text text-muted\">Nous ne partagerons "
-"jamais votre e-mail.</small>"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
 msgid "<small>/ month</small>"
 msgstr "<small>/ mois</small>"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "<small>TABS</small>"
-msgstr "<small>ONGLETS</small>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_header_magazine_oe_structure_header_magazine_1
@@ -1518,6 +1447,7 @@ msgstr ""
 "d'affichage."
 
 #. module: website
+#: model:ir.model.fields,help:website.field_base_automation__website_published
 #: model:ir.model.fields,help:website.field_ir_actions_server__website_published
 #: model:ir.model.fields,help:website.field_ir_cron__website_published
 msgid ""
@@ -1652,8 +1582,6 @@ msgstr "Gestion des comptes et des ventes"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_rewrite__redirect_type
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Action"
 msgstr "Action"
 
@@ -1670,9 +1598,7 @@ msgstr "Activer quand même"
 #: model:ir.model.fields,field_description:website.field_website_page__active
 #: model:ir.model.fields,field_description:website.field_website_rewrite__active
 #: model:ir.model.fields,field_description:website.field_website_visitor__active
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
 msgid "Active"
 msgstr "Active"
 
@@ -1856,12 +1782,6 @@ msgstr "Publicité &amp; Marketing"
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_asset__directive__after
 msgid "After"
 msgstr "Après"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Alert"
-msgstr "Alerte"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list_options
@@ -2249,12 +2169,7 @@ msgid "Autoredirect Language"
 msgstr "Redirection automatique vers la langue de l'utilisateur"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Autosizing"
-msgstr "Redimensionnement automatique"
-
-#. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__website_published
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_published
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_published
 msgid "Available on the Website"
@@ -2266,12 +2181,6 @@ msgstr "Disponible sur le site web"
 #, python-format
 msgid "BSgzTvR5L1GB9jriT451iTN4huVPxHmltG6T6eo"
 msgstr "BSgzTvR5L1GB9jriT451iTN4huVPxHmltG6T6eo"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "BTS Base Colors"
-msgstr "Couleurs de base BTS"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
@@ -2293,12 +2202,6 @@ msgstr "Arrière-plan"
 #, python-format
 msgid "Background Shape"
 msgstr "Forme d'arrière-plan"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Badge"
-msgstr "Badge"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_menus_logos
@@ -2410,6 +2313,13 @@ msgid "Blogging and posting relevant content"
 msgstr "Bloguer et publier du contenu pertinent"
 
 #. module: website
+#. openerp-web
+#: code:addons/website/static/src/components/configurator/configurator.xml:0
+#, python-format
+msgid "Bookm Logo"
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_list
 msgid "Books"
 msgstr "Livres"
@@ -2499,14 +2409,6 @@ msgid "Boxes"
 msgstr "Boites"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Breadcrumb"
-msgstr "Fil d'Ariane"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
@@ -2537,12 +2439,6 @@ msgstr "Votre site web est en construction..."
 #: model:ir.model.fields,field_description:website.field_theme_ir_asset__bundle
 msgid "Bundle"
 msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Button"
-msgstr "Bouton"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
@@ -2651,30 +2547,6 @@ msgid "Cannot load google map."
 msgstr "Impossible de charger la carte Google."
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Card"
-msgstr "Carte"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Card Body"
-msgstr "Corps de la carte"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Card Footer"
-msgstr "Pied de page de la carte"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Card Header"
-msgstr "En-tête de la carte"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse_options
 msgid "Card Style"
 msgstr ""
@@ -2731,11 +2603,9 @@ msgstr "Modifier les Icônes"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
-"                            ready-to-use themes available in our app store."
+"Change theme in a few clicks, and browse through Bookm's catalog of\n"
+"                            ready-to-use themes."
 msgstr ""
-"Changez de thème en quelques clics, et parcourez le catalogue Odoo de\n"
-"thèmes prêts à l'emploi disponibles dans notre boutique d'applications."
 
 #. module: website
 #. openerp-web
@@ -2946,7 +2816,6 @@ msgstr "Cloner cette page"
 #: code:addons/website/static/src/xml/website.xml:0
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
 #: model_terms:ir.ui.view,arch_db:website.s_popup
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
 #, python-format
 msgid "Close"
 msgstr "Fermer"
@@ -3044,9 +2913,7 @@ msgid "Complete CRM for any size team"
 msgstr "Un CRM complet pour tout taille d'équipe"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Components"
 msgstr "Composants"
 
@@ -3359,11 +3226,6 @@ msgid "Create Page"
 msgstr "Créer une page"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.brand_promotion
-msgid "Create a"
-msgstr "Créer un"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
@@ -3556,14 +3418,6 @@ msgid "Dashed"
 msgstr "Pointillé"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Data"
-msgstr "Données"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_chart/options.js:0
 #, python-format
@@ -3733,6 +3587,7 @@ msgstr "Départements"
 
 #. module: website
 #. openerp-web
+#: code:addons/website/static/src/js/menu/content.js:0
 #: code:addons/website/static/src/xml/website.pageProperties.xml:0
 #, python-format
 msgid "Dependencies"
@@ -3832,14 +3687,6 @@ msgstr "Directive"
 #: model:ir.cron,name:website.website_disable_unused_snippets_assets
 msgid "Disable unused snippets assets"
 msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Disabled"
-msgstr "Désactivé"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
@@ -4107,9 +3954,7 @@ msgid "Dresses"
 msgstr "Robes"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Dropdown"
 msgstr "Menu déroulant"
 
@@ -4162,11 +4007,9 @@ msgstr "Par exemple : https://www.mydomain.com"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Easily design your own Odoo templates thanks to clean HTML\n"
+"Easily design your own templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
-"Créez facilement vos propres modèles Odoo grâce à un HTML propre\n"
-"structure et bootstrap CSS."
 
 #. module: website
 #. openerp-web
@@ -4270,12 +4113,6 @@ msgid "Email"
 msgstr "Courriel"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Email address"
-msgstr "Adresse e-mail"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
 msgid "Email support"
 msgstr "Courriel de support"
@@ -4327,12 +4164,6 @@ msgid ""
 "Enter code that will be added into the <head> of every page of your site."
 msgstr ""
 "Entrez le code qui sera ajouté dans le <head> de chaque page de votre site."
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Enter email"
-msgstr "Entrez votre e-mail"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_tabs_options
@@ -4423,6 +4254,7 @@ msgid "Extension View"
 msgstr "Vue étendue"
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__xml_id
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__xml_id
 #: model:ir.model.fields,field_description:website.field_ir_cron__xml_id
 #: model:ir.model.fields,field_description:website.field_website_page__xml_id
@@ -4749,8 +4581,8 @@ msgstr "Suivez-nous"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Suivez le trafic de votre site web sur Odoo."
+msgid "Follow your website traffic in Bookm."
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -4788,12 +4620,6 @@ msgstr "Pour les cookies de session, l'authentification et l'analyse,"
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Force your user to create an account per website"
 msgstr "Oblige votre utilisateur à créer un compte par site web"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Form"
-msgstr "Formulaire"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_model__website_form_label
@@ -5137,18 +4963,6 @@ msgid "H2"
 msgstr "H2"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "H4 Card title"
-msgstr "Titre de la carte H4"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "H5 Card subtitle"
-msgstr "Sous-titre de la carte H5"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
 msgid "HTML/CSS/JS Editor"
 msgstr "Éditeur HTML/CSS/JS "
@@ -5187,19 +5001,13 @@ msgstr "Hamburger Menu"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
-msgid "Happy Odoo Anniversary!"
-msgstr "Joyeux anniversaire Odoo!"
+msgid "Happy Anniversary!"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
 msgid "Has Social Default Image"
 msgstr "A une image sociale par défaut"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Header"
-msgstr "Entête"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__header_color
@@ -5220,42 +5028,6 @@ msgstr "Position de l'en-tête"
 #: model:ir.model.fields,field_description:website.field_website_page__header_visible
 msgid "Header Visible"
 msgstr "En-tête visible"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Headings 1"
-msgstr "Titre 1"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Headings 2"
-msgstr "Titre 2"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Headings 3"
-msgstr "Titre 3"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Headings 4"
-msgstr "Titre 4"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Headings 5"
-msgstr "Titre 5"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Headings 6"
-msgstr "Titre 6"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -5358,23 +5130,15 @@ msgstr ""
 #. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:0
 #: model:website.menu,name:website.menu_home
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.footer_custom
 #: model_terms:ir.ui.view,arch_db:website.s_tabs
 #: model_terms:ir.ui.view,arch_db:website.template_footer_contact
 #: model_terms:ir.ui.view,arch_db:website.template_footer_headline
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
 #: model_terms:ir.ui.view,arch_db:website.template_footer_minimalist
-#: model_terms:website.page,arch_db:website.bs_debug_page
 #, python-format
 msgid "Home"
 msgstr "Accueil"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Home <span class=\"sr-only\">(current)</span>"
-msgstr "Accueil<span class=\"sr-only\">(actuel)</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -5414,13 +5178,6 @@ msgstr "Heures"
 #: model_terms:ir.ui.view,arch_db:website.template_footer_contact
 msgid "How can we help?"
 msgstr "Comment pouvons nous aider?"
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/xml/website.backend.xml:0
-#, python-format
-msgid "How to get my Client ID"
-msgstr "Comment obtenir mon identifiant client"
 
 #. module: website
 #. openerp-web
@@ -5469,6 +5226,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: website
+#: model:ir.model.fields,help:website.field_base_automation__xml_id
 #: model:ir.model.fields,help:website.field_ir_actions_server__xml_id
 #: model:ir.model.fields,help:website.field_ir_cron__xml_id
 msgid "ID of the action if defined in a XML file"
@@ -5674,11 +5432,6 @@ msgid "Info and stats about your company"
 msgstr "Informations et statistiques sur votre entreprise"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Information about the"
-msgstr "Informations sur le"
-
-#. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_ui_view__inherit_id
 msgid "Inherit"
 msgstr "Hérite"
@@ -5763,16 +5516,6 @@ msgstr "Installation de langue"
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Install new language"
 msgstr "Installer une nouvelle langue"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Installed Applications"
-msgstr "Applications installées"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Installed Localizations / Account Charts"
-msgstr "Localisations installées / Plans comptables"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website__theme_id
@@ -5937,18 +5680,12 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
-"It appears your website is still using the old color system of\n"
-"            Odoo 13.0 in some places. We made sure it is still working but\n"
-"            we recommend you to try to use the new color system, which is\n"
-"            still customizable."
+"It appears your website is still using the old color system in some "
+"places. \n"
+"            We made sure it is still working but we recommend you to try to "
+"use the new \n"
+"            color system, which is still customizable."
 msgstr ""
-"Il semble que votre site Web utilise toujours l'ancien système de couleurs "
-"de\n"
-"Odoo 13.0 à certains endroits. Nous nous sommes assurés qu'il fonctionne "
-"toujours, mais\n"
-"nous vous recommandons d'essayer d'utiliser le nouveau système de couleurs, "
-"qui est\n"
-"toujours personnalisable."
 
 #. module: website
 #. openerp-web
@@ -5961,18 +5698,6 @@ msgstr "Il semble que votre fichier a été appelé par"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Item"
 msgstr "Article"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Item 1"
-msgstr "Article 1"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Item 2"
-msgstr "Article 2"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options
@@ -6042,9 +5767,7 @@ msgid "Keywords"
 msgstr "Mots-clés"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
 msgid "Label"
 msgstr "Libellé"
 
@@ -6093,13 +5816,11 @@ msgid "Laptops"
 msgstr "Ordinateurs portables"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Large"
 msgstr "Grand"
 
@@ -6320,14 +6041,6 @@ msgid "Let's go!"
 msgstr "Allons-y !"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Library"
-msgstr "Bibliothèque"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse_options
 msgid "Light"
 msgstr "Léger"
@@ -6353,14 +6066,6 @@ msgid "Line Color"
 msgstr ""
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Link"
-msgstr "Lien"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:0
 #, python-format
@@ -6371,18 +6076,6 @@ msgstr "Lien d'ancrage"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Link Style"
 msgstr "Style de lien"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Link button"
-msgstr "Bouton lien"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Link text"
-msgstr "Texte du lien"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -6573,6 +6266,7 @@ msgstr "Moyen"
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:0
+#: model_terms:ir.ui.view,arch_db:website.snippet_options
 #, python-format
 msgid "Mega Menu"
 msgstr "Mega Menu"
@@ -6750,16 +6444,11 @@ msgstr "Surveiller les données des résultats de la recherche Google"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Odoo "
-"Social app. Engage with them in just a click using a live chat request or a "
-"push notification. If they have completed one of your forms, you can send "
-"them an SMS, or call them right away while they are browsing your website."
+"Monitor your visitors while they are browsing your website. Engage with them "
+"in just a click using a live chat request or a push notification. If they "
+"have completed one of your forms, you can send them an SMS, or call them "
+"right away while they are browsing your website."
 msgstr ""
-"Surveillez vos visiteurs lorsqu'ils naviguent sur votre site Web avec "
-"l'application Odoo Social. Interagissez avec eux en un seul clic en "
-"utilisant une demande de chat en direct ou une notification push. S'ils ont "
-"rempli l'un de vos formulaires, vous pouvez leur envoyer un SMS ou les "
-"appeler tout de suite pendant qu'ils naviguent sur votre site Web."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -6938,12 +6627,6 @@ msgid "Narrow"
 msgstr "Étroit"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Navbar"
-msgstr "Barre de navigation"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards
 msgid ""
 "Need to pick up your order at one of our stores? Discover the nearest to you."
@@ -7013,11 +6696,9 @@ msgstr "Bulletin d'information pop-up"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_dynamic_snippet_carousel/000.xml:0
 #: code:addons/website/static/src/snippets/s_image_gallery/000.xml:0
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
 #: model_terms:ir.ui.view,arch_db:website.s_image_gallery
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
-#: model_terms:website.page,arch_db:website.bs_debug_page
 #, python-format
 msgid "Next"
 msgstr "Suivant"
@@ -7157,11 +6838,6 @@ msgstr ""
 "supplémentaires sur votre navigateur afin de vous identifier."
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Note: To hide this page, uncheck it from the top Customize menu."
-msgstr "Note : Pour cacher cette page, décochez la dans le menu \"Customize\""
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
 msgid "Nothing"
@@ -7183,23 +6859,6 @@ msgstr "Nombre de langues"
 #, python-format
 msgid "OR"
 msgstr "OU"
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/components/configurator/configurator.xml:0
-#, python-format
-msgid "Odoo Logo"
-msgstr "Logo Odoo"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "Odoo Menu"
-msgstr "Menu Odoo"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Version Odoo"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -7327,11 +6986,6 @@ msgstr ""
 "résultat est utilisé comme si c'était l'architecture réelle de cette vue.\n"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Open Source ERP"
-msgstr "ERP Open Source"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/menu/seo.js:0
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
@@ -7415,9 +7069,7 @@ msgid "Our team will message you back as soon as possible."
 msgstr "Notre équipe vous renverra un message dès que possible."
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Outline"
 msgstr "Contour"
 
@@ -7559,41 +7211,9 @@ msgid "Pages"
 msgstr "Pages"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Pagination"
-msgstr "Pagination"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_menus_logos
 msgid "Pants"
 msgstr "Pantalons"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid ""
-"Paragraph text. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing "
-"elit. <i>Integer posuere erat a ante</i>."
-msgstr ""
-"Paragraphe de texte. Lorem <b>ipsum dolor sit amet</b>, consectetur "
-"adipiscing elit. <i>Integer posuere erat a ante</i>."
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid ""
-"Paragraph with <strong>bold</strong>, <span class=\"text-muted\">muted</"
-"span> and <em>italic</em> texts"
-msgstr ""
-"Paragraphe avec textes <strong>gras</strong>, <span class=\"text-muted"
-"\">muet</span> et <em>italique</em> "
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Paragraph."
-msgstr "Paragraphe"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_website_menu__parent_id
@@ -7662,12 +7282,6 @@ msgstr "Sélectionner un thème"
 #: model_terms:ir.ui.view,arch_db:website.s_chart_options
 msgid "Pie"
 msgstr "Tarte"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Pill"
-msgstr "Pilule"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -7741,12 +7355,6 @@ msgid "Prepend"
 msgstr ""
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Preset"
-msgstr "Préréglage"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:0
 #, python-format
@@ -7771,11 +7379,9 @@ msgstr "Aperçu"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_dynamic_snippet_carousel/000.xml:0
 #: code:addons/website/static/src/snippets/s_image_gallery/000.xml:0
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
 #: model_terms:ir.ui.view,arch_db:website.s_image_gallery
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
-#: model_terms:website.page,arch_db:website.bs_debug_page
 #, python-format
 msgid "Previous"
 msgstr "Précedent"
@@ -8284,6 +7890,12 @@ msgid "Route"
 msgstr "Route"
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_call_to_action
+#: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
+msgid "Run Bookm to grow your businesses."
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "SEO"
 msgstr "SEO"
@@ -8404,10 +8016,8 @@ msgid "Scroll down to next section"
 msgstr "Faites défiler jusqu'à la section suivante"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.view_view_qweb
 #: model_terms:ir.ui.view,arch_db:website.website_search_box
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Search"
 msgstr "Rechercher"
 
@@ -8436,14 +8046,10 @@ msgstr "Search Visitor"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Odoo's integration with Unsplash, featuring millions of royalty "
+"website. Bookm's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
-"Recherchez dans la boîte de dialogue multimédia lorsque vous avez besoin de "
-"photos pour illustrer votre site Web. L'intégration d'Odoo à Unsplash, avec "
-"des millions de photos libres de droits et de haute qualité, vous permet "
-"d'obtenir l'image parfaite, en quelques clics."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_searchbar
@@ -8577,12 +8183,6 @@ msgstr "Seo name"
 #, python-format
 msgid "Separate email addresses with a comma."
 msgstr "Séparez les adresses email par une virgule."
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Separated link"
-msgstr "Lien séparé"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_ir_asset__sequence
@@ -8761,11 +8361,8 @@ msgstr "Connecté"
 msgid ""
 "Sitemap.xml: Help search engine crawlers to find out what pages are present "
 "and which have recently changed, and to crawl your site accordingly. This "
-"file is automatically generated by Odoo."
+"file is automatically generated by Bookm."
 msgstr ""
-"Sitemap.xml: Aidez les robots des moteurs de recherche à découvrir quelles "
-"pages sont présentes, celles qui ont récemment changé, et à explorer votre "
-"site en conséquence. Ce fichier est généré automatiquement par Odoo."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -8836,14 +8433,12 @@ msgid "Slogan"
 msgstr "Slogan"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
 #: model_terms:ir.ui.view,arch_db:website.s_share_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Small"
 msgstr "Petit"
 
@@ -8851,16 +8446,6 @@ msgstr "Petit"
 #: model_terms:ir.ui.view,arch_db:website.s_facebook_page_options
 msgid "Small Header"
 msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid ""
-"Small text. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing elit. "
-"<i>Integer posuere erat a ante</i>."
-msgstr ""
-"Petit texte. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing elit. "
-"<i>Integer posuere erat a ante</i>."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -8890,12 +8475,6 @@ msgstr "Solide"
 #, python-format
 msgid "Some Users"
 msgstr "Certains utilisateurs"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Something else here"
-msgstr "Quelque chose d'autre ici"
 
 #. module: website
 #. openerp-web
@@ -9202,11 +8781,6 @@ msgstr ""
 "environnement multi-sites web."
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Technical name:"
-msgstr "Nom technique:"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
 msgid "Telephone"
 msgstr "Téléphone"
@@ -9312,12 +8886,6 @@ msgid "Text Position"
 msgstr "Position du texte"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "Text muted. Lorem <b>ipsum dolor sit amet</b>, consectetur."
-msgstr ""
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website_form_editor.xml:0
 #, python-format
@@ -9407,6 +8975,7 @@ msgid "The full URL to access the document through the website."
 msgstr "L'URL complète afin d'accéder au document à travers le site web."
 
 #. module: website
+#: model:ir.model.fields,help:website.field_base_automation__website_url
 #: model:ir.model.fields,help:website.field_ir_actions_server__website_url
 #: model:ir.model.fields,help:website.field_ir_cron__website_url
 msgid "The full URL to access the server action through the website."
@@ -9499,8 +9068,6 @@ msgstr "Thème pièce-jointe"
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.editor.js:0
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
 #, python-format
 msgid "Theme Colors"
 msgstr "Couleurs de Thème"
@@ -9646,12 +9213,6 @@ msgid ""
 msgstr ""
 "Ce champ enregistrera le `arch_db` actuel avant d’écrire dessus.\n"
 "Utile pour réinitialiser une vue brisée."
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "This is a \""
-msgstr "C'est un \""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_banner
@@ -9804,7 +9365,7 @@ msgstr "Pour avoir du succès, votre contenu doit être utile à vos lecteurs."
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Odoo "
+"Google. With the built-in SEO tool, once you define a few keywords, Bookm "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
@@ -9821,15 +9382,7 @@ msgstr ""
 "Management' dans le menu déroulant * Action *."
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Toggle"
-msgstr "Basculer"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
 #: model_terms:ir.ui.view,arch_db:website.option_header_off_canvas
-#: model_terms:website.page,arch_db:website.bs_debug_page
 msgid "Toggle navigation"
 msgstr "Basculer la navigation"
 
@@ -9965,11 +9518,6 @@ msgstr "Twitter"
 #: model:ir.model.fields,field_description:website.field_website__social_twitter
 msgid "Twitter Account"
 msgstr "Compte Twitter"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.external_snippets
-msgid "Twitter Scroller"
-msgstr "Defilé de Tweets"
 
 #. module: website
 #. openerp-web
@@ -10324,12 +9872,6 @@ msgstr ""
 #: model:ir.model,name:website.model_res_users
 msgid "Users"
 msgstr "Utilisateurs"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Utilities &amp; Typography"
-msgstr "Utilitaires &amp; Typographie"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_progress_bar_options
@@ -10803,6 +10345,7 @@ msgid "Website Pages"
 msgstr "Pages du site web"
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__website_path
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_path
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_path
 msgid "Website Path"
@@ -10858,6 +10401,7 @@ msgid "Website URL"
 msgstr "Adresse du site"
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__website_url
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_url
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_url
 msgid "Website Url"
@@ -11408,38 +10952,6 @@ msgid "big"
 msgstr "grand"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "breadcrumb"
-msgstr "fil d'Ariane"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "btn-outline-primary"
-msgstr "btn-outline-primary"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "btn-outline-secondary"
-msgstr "btn-outline-secondary"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "btn-primary"
-msgstr "btn-primary"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "btn-secondary"
-msgstr "btn-secondary"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
@@ -11555,11 +11067,6 @@ msgid "found(s)"
 msgstr "lien(s) trouvé(s)"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.brand_promotion
-msgid "free website"
-msgstr "Site Web gratuit"
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
@@ -11568,8 +11075,8 @@ msgstr "à partir d'un logo"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Odoo)"
-msgstr "frontend_lang (Odoo)"
+msgid "frontend_lang (Bookm)"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -11613,8 +11120,8 @@ msgstr "https://fonts.google.com/specimen/Roboto"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgid "https://www.example.com"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -11624,15 +11131,11 @@ msgstr "iPhone"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (Bookm)<br/>\n"
+"                                            utm_campaign (Bookm)<br/>\n"
+"                                            utm_source (Bookm)<br/>\n"
+"                                            utm_medium (Bookm)"
 msgstr ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -11647,11 +11150,6 @@ msgid "in the top right corner to start designing."
 msgstr "dans le coin supérieur droit pour commencer."
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.template_footer_links
-msgid "info@yourcompany.com"
-msgstr "info@yourcompany.com"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.footer_custom
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
 #: model_terms:ir.ui.view,arch_db:website.template_footer_centered
@@ -11659,8 +11157,13 @@ msgstr "info@yourcompany.com"
 #: model_terms:ir.ui.view,arch_db:website.template_header_contact_oe_structure_header_contact_1
 #: model_terms:ir.ui.view,arch_db:website.template_header_hamburger_oe_structure_header_hamburger_3
 #: model_terms:ir.ui.view,arch_db:website.template_header_sidebar_oe_structure_header_sidebar_1
-msgid "info@yourcompany.example.com"
-msgstr "info@yourcompany.example.com"
+msgid "info@example.mybookm.com"
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.template_footer_links
+msgid "info@yourcompany.com"
+msgstr "info@yourcompany.com"
 
 #. module: website
 #. openerp-web
@@ -11670,20 +11173,9 @@ msgid "inform customers"
 msgstr "informer les clients"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instance d'Odoo, le"
-
-#. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
 msgid "ir.ui.view"
 msgstr "ir.ui.view"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_view
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "link"
-msgstr "lien"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -11694,12 +11186,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "menu, pricing"
 msgstr "menu, tarification"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "o-color-"
-msgstr "o-color-"
 
 #. module: website
 #. openerp-web
@@ -11738,12 +11224,6 @@ msgstr "site web parfait ?"
 #: model_terms:ir.ui.view,arch_db:website.theme_view_form_preview
 msgid "phone"
 msgstr "téléphone"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "placeholder"
-msgstr ""
 
 #. module: website
 #. openerp-web
@@ -11793,8 +11273,8 @@ msgstr "séparateur, diviseur"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "session_id (Odoo)<br/>"
-msgstr "session_id (Odoo)<br/>"
+msgid "session_id (Bookm)<br/>"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -11805,12 +11285,6 @@ msgstr "statistiques, statistiques, KPI"
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "testimonials"
 msgstr "témoignages"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.color_combinations_debug_view
-#: model_terms:website.page,arch_db:website.color_combinations_debug_page
-msgid "text link"
-msgstr ""
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__theme_ir_ui_view
@@ -12050,6 +11524,368 @@ msgstr "⌙ Vidéo"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "⌙ Width"
 msgstr "⌙ Largeur"
+
+#~ msgid "\" alert with a"
+#~ msgstr "\" alerte avec un"
+
+#~ msgid ", author:"
+#~ msgstr ", auteur :"
+
+#~ msgid "2 <span class=\"sr-only\">(current)</span>"
+#~ msgstr "2 <span class=\"sr-only\">(actuel)</span>"
+
+#~ msgid "50,000+ companies run Odoo to grow their businesses."
+#~ msgstr ""
+#~ "Plus de 50.000 entreprises utilisent Odoo pour développer leurs "
+#~ "activités. "
+
+#~ msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+#~ msgstr ""
+#~ "<b>Plus de 50000 sociétés</b> utilisent Odoo pour faire croître leur "
+#~ "business."
+
+#~ msgid ""
+#~ "<i class=\"fa fa-arrow-right\"/>\n"
+#~ "                                            How to get my Client ID"
+#~ msgstr ""
+#~ "<i class=\"fa fa-arrow-right\"/>\n"
+#~ "                                            Comment obtenir mon ID Client"
+
+#~ msgid ""
+#~ "<i class=\"fa fa-map-marker fa-fw mr-2\"/><span class=\"o_force_ltr"
+#~ "\">Chaussée de Namur 40</span>"
+#~ msgstr ""
+#~ "<i class=\"fa fa-map-marker fa-fw mr-2\"/><span class=\"o_force_ltr"
+#~ "\">Chaussée de Namur 40</span>"
+
+#~ msgid ""
+#~ "<i class=\"fa fa-phone fa-fw mr-2\"/><span class=\"o_force_ltr\">+ 32 81 "
+#~ "81 37 00</span>"
+#~ msgstr ""
+#~ "<i class=\"fa fa-phone fa-fw mr-2\"/><span class=\"o_force_ltr\">+ 32 81 "
+#~ "81 37 00</span>"
+
+#~ msgid ""
+#~ "<small id=\"emailHelp\" class=\"form-text text-muted\">Form field help "
+#~ "text</small>"
+#~ msgstr ""
+#~ "<small id=\"emailHelp\" class=\"form-text text-muted\">Texte d'aide du "
+#~ "champ de formulaire</small>"
+
+#~ msgid ""
+#~ "<small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share "
+#~ "your email with anyone else.</small>"
+#~ msgstr ""
+#~ "<small id=\"emailHelp\" class=\"form-text text-muted\">Nous ne "
+#~ "partagerons jamais votre e-mail.</small>"
+
+#~ msgid "<small>TABS</small>"
+#~ msgstr "<small>ONGLETS</small>"
+
+#~ msgid "Alert"
+#~ msgstr "Alerte"
+
+#~ msgid "Autosizing"
+#~ msgstr "Redimensionnement automatique"
+
+#~ msgid "BTS Base Colors"
+#~ msgstr "Couleurs de base BTS"
+
+#~ msgid "Badge"
+#~ msgstr "Badge"
+
+#~ msgid "Breadcrumb"
+#~ msgstr "Fil d'Ariane"
+
+#~ msgid "Button"
+#~ msgstr "Bouton"
+
+#~ msgid "Card"
+#~ msgstr "Carte"
+
+#~ msgid "Card Body"
+#~ msgstr "Corps de la carte"
+
+#~ msgid "Card Footer"
+#~ msgstr "Pied de page de la carte"
+
+#~ msgid "Card Header"
+#~ msgstr "En-tête de la carte"
+
+#~ msgid ""
+#~ "Change theme in a few clicks, and browse through Odoo's catalog of\n"
+#~ "                            ready-to-use themes available in our app "
+#~ "store."
+#~ msgstr ""
+#~ "Changez de thème en quelques clics, et parcourez le catalogue Odoo de\n"
+#~ "thèmes prêts à l'emploi disponibles dans notre boutique d'applications."
+
+#~ msgid "Create a"
+#~ msgstr "Créer un"
+
+#~ msgid "Data"
+#~ msgstr "Données"
+
+#~ msgid "Disabled"
+#~ msgstr "Désactivé"
+
+#~ msgid ""
+#~ "Easily design your own Odoo templates thanks to clean HTML\n"
+#~ "                            structure and bootstrap CSS."
+#~ msgstr ""
+#~ "Créez facilement vos propres modèles Odoo grâce à un HTML propre\n"
+#~ "structure et bootstrap CSS."
+
+#~ msgid "Email address"
+#~ msgstr "Adresse e-mail"
+
+#~ msgid "Enter email"
+#~ msgstr "Entrez votre e-mail"
+
+#~ msgid "Follow your website traffic in Odoo."
+#~ msgstr "Suivez le trafic de votre site web sur Odoo."
+
+#~ msgid "Form"
+#~ msgstr "Formulaire"
+
+#~ msgid "H4 Card title"
+#~ msgstr "Titre de la carte H4"
+
+#~ msgid "H5 Card subtitle"
+#~ msgstr "Sous-titre de la carte H5"
+
+#, python-format
+#~ msgid "Happy Odoo Anniversary!"
+#~ msgstr "Joyeux anniversaire Odoo!"
+
+#~ msgid "Header"
+#~ msgstr "Entête"
+
+#~ msgid "Headings 1"
+#~ msgstr "Titre 1"
+
+#~ msgid "Headings 2"
+#~ msgstr "Titre 2"
+
+#~ msgid "Headings 3"
+#~ msgstr "Titre 3"
+
+#~ msgid "Headings 4"
+#~ msgstr "Titre 4"
+
+#~ msgid "Headings 5"
+#~ msgstr "Titre 5"
+
+#~ msgid "Headings 6"
+#~ msgstr "Titre 6"
+
+#~ msgid "Home <span class=\"sr-only\">(current)</span>"
+#~ msgstr "Accueil<span class=\"sr-only\">(actuel)</span>"
+
+#, python-format
+#~ msgid "How to get my Client ID"
+#~ msgstr "Comment obtenir mon identifiant client"
+
+#~ msgid "Information about the"
+#~ msgstr "Informations sur le"
+
+#~ msgid "Installed Applications"
+#~ msgstr "Applications installées"
+
+#~ msgid "Installed Localizations / Account Charts"
+#~ msgstr "Localisations installées / Plans comptables"
+
+#~ msgid ""
+#~ "It appears your website is still using the old color system of\n"
+#~ "            Odoo 13.0 in some places. We made sure it is still working "
+#~ "but\n"
+#~ "            we recommend you to try to use the new color system, which "
+#~ "is\n"
+#~ "            still customizable."
+#~ msgstr ""
+#~ "Il semble que votre site Web utilise toujours l'ancien système de "
+#~ "couleurs de\n"
+#~ "Odoo 13.0 à certains endroits. Nous nous sommes assurés qu'il fonctionne "
+#~ "toujours, mais\n"
+#~ "nous vous recommandons d'essayer d'utiliser le nouveau système de "
+#~ "couleurs, qui est\n"
+#~ "toujours personnalisable."
+
+#~ msgid "Item 1"
+#~ msgstr "Article 1"
+
+#~ msgid "Item 2"
+#~ msgstr "Article 2"
+
+#~ msgid "Library"
+#~ msgstr "Bibliothèque"
+
+#~ msgid "Link"
+#~ msgstr "Lien"
+
+#~ msgid "Link button"
+#~ msgstr "Bouton lien"
+
+#~ msgid "Link text"
+#~ msgstr "Texte du lien"
+
+#~ msgid ""
+#~ "Monitor your visitors while they are browsing your website with the Odoo "
+#~ "Social app. Engage with them in just a click using a live chat request or "
+#~ "a push notification. If they have completed one of your forms, you can "
+#~ "send them an SMS, or call them right away while they are browsing your "
+#~ "website."
+#~ msgstr ""
+#~ "Surveillez vos visiteurs lorsqu'ils naviguent sur votre site Web avec "
+#~ "l'application Odoo Social. Interagissez avec eux en un seul clic en "
+#~ "utilisant une demande de chat en direct ou une notification push. S'ils "
+#~ "ont rempli l'un de vos formulaires, vous pouvez leur envoyer un SMS ou "
+#~ "les appeler tout de suite pendant qu'ils naviguent sur votre site Web."
+
+#~ msgid "Navbar"
+#~ msgstr "Barre de navigation"
+
+#~ msgid "Note: To hide this page, uncheck it from the top Customize menu."
+#~ msgstr ""
+#~ "Note : Pour cacher cette page, décochez la dans le menu \"Customize\""
+
+#, python-format
+#~ msgid "Odoo Logo"
+#~ msgstr "Logo Odoo"
+
+#~ msgid "Odoo Menu"
+#~ msgstr "Menu Odoo"
+
+#~ msgid "Odoo Version"
+#~ msgstr "Version Odoo"
+
+#~ msgid "Open Source ERP"
+#~ msgstr "ERP Open Source"
+
+#~ msgid "Pagination"
+#~ msgstr "Pagination"
+
+#~ msgid ""
+#~ "Paragraph text. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing "
+#~ "elit. <i>Integer posuere erat a ante</i>."
+#~ msgstr ""
+#~ "Paragraphe de texte. Lorem <b>ipsum dolor sit amet</b>, consectetur "
+#~ "adipiscing elit. <i>Integer posuere erat a ante</i>."
+
+#~ msgid ""
+#~ "Paragraph with <strong>bold</strong>, <span class=\"text-muted\">muted</"
+#~ "span> and <em>italic</em> texts"
+#~ msgstr ""
+#~ "Paragraphe avec textes <strong>gras</strong>, <span class=\"text-muted"
+#~ "\">muet</span> et <em>italique</em> "
+
+#~ msgid "Paragraph."
+#~ msgstr "Paragraphe"
+
+#~ msgid "Pill"
+#~ msgstr "Pilule"
+
+#~ msgid "Preset"
+#~ msgstr "Préréglage"
+
+#~ msgid ""
+#~ "Search in the media dialogue when you need photos to illustrate your "
+#~ "website. Odoo's integration with Unsplash, featuring millions of royalty "
+#~ "free and high quality photos, makes it possible for you to get the "
+#~ "perfect picture, in just a few clicks."
+#~ msgstr ""
+#~ "Recherchez dans la boîte de dialogue multimédia lorsque vous avez besoin "
+#~ "de photos pour illustrer votre site Web. L'intégration d'Odoo à Unsplash, "
+#~ "avec des millions de photos libres de droits et de haute qualité, vous "
+#~ "permet d'obtenir l'image parfaite, en quelques clics."
+
+#~ msgid "Separated link"
+#~ msgstr "Lien séparé"
+
+#~ msgid ""
+#~ "Sitemap.xml: Help search engine crawlers to find out what pages are "
+#~ "present and which have recently changed, and to crawl your site "
+#~ "accordingly. This file is automatically generated by Odoo."
+#~ msgstr ""
+#~ "Sitemap.xml: Aidez les robots des moteurs de recherche à découvrir "
+#~ "quelles pages sont présentes, celles qui ont récemment changé, et à "
+#~ "explorer votre site en conséquence. Ce fichier est généré automatiquement "
+#~ "par Odoo."
+
+#~ msgid ""
+#~ "Small text. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing "
+#~ "elit. <i>Integer posuere erat a ante</i>."
+#~ msgstr ""
+#~ "Petit texte. Lorem <b>ipsum dolor sit amet</b>, consectetur adipiscing "
+#~ "elit. <i>Integer posuere erat a ante</i>."
+
+#~ msgid "Something else here"
+#~ msgstr "Quelque chose d'autre ici"
+
+#~ msgid "Technical name:"
+#~ msgstr "Nom technique:"
+
+#~ msgid "This is a \""
+#~ msgstr "C'est un \""
+
+#~ msgid "Toggle"
+#~ msgstr "Basculer"
+
+#~ msgid "Twitter Scroller"
+#~ msgstr "Defilé de Tweets"
+
+#~ msgid "Utilities &amp; Typography"
+#~ msgstr "Utilitaires &amp; Typographie"
+
+#~ msgid "breadcrumb"
+#~ msgstr "fil d'Ariane"
+
+#~ msgid "btn-outline-primary"
+#~ msgstr "btn-outline-primary"
+
+#~ msgid "btn-outline-secondary"
+#~ msgstr "btn-outline-secondary"
+
+#~ msgid "btn-primary"
+#~ msgstr "btn-primary"
+
+#~ msgid "btn-secondary"
+#~ msgstr "btn-secondary"
+
+#~ msgid "free website"
+#~ msgstr "Site Web gratuit"
+
+#~ msgid "frontend_lang (Odoo)"
+#~ msgstr "frontend_lang (Odoo)"
+
+#~ msgid "https://www.odoo.com"
+#~ msgstr "https://www.odoo.com"
+
+#~ msgid ""
+#~ "im_livechat_previous_operator_pid (Odoo)<br/>\n"
+#~ "                                            utm_campaign (Odoo)<br/>\n"
+#~ "                                            utm_source (Odoo)<br/>\n"
+#~ "                                            utm_medium (Odoo)"
+#~ msgstr ""
+#~ "im_livechat_previous_operator_pid (Odoo)<br/>\n"
+#~ "                                            utm_campaign (Odoo)<br/>\n"
+#~ "                                            utm_source (Odoo)<br/>\n"
+#~ "                                            utm_medium (Odoo)"
+
+#~ msgid "info@yourcompany.example.com"
+#~ msgstr "info@yourcompany.example.com"
+
+#~ msgid "instance of Odoo, the"
+#~ msgstr "instance d'Odoo, le"
+
+#~ msgid "link"
+#~ msgstr "lien"
+
+#~ msgid "o-color-"
+#~ msgstr "o-color-"
+
+#~ msgid "session_id (Odoo)<br/>"
+#~ msgstr "session_id (Odoo)<br/>"
 
 #~ msgid "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;"
 #~ msgstr "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;"
