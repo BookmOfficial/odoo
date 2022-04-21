@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-08 06:19+0000\n"
+"POT-Creation-Date: 2022-04-15 23:08+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -19,11 +19,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#. module: pos_coupon
-#: model:coupon.program,name:pos_coupon.15_pc_on_next_order
-msgid "15% on next order"
-msgstr "15% op volgende order"
 
 #. module: pos_coupon
 #: model:mail.template,body_html:pos_coupon.mail_coupon_template
@@ -609,3 +604,6 @@ msgstr "[Kassa] Coupon: per e-mail verzenden"
 #, python-format
 msgid "no expiration"
 msgstr "vervalt niet"
+
+#~ msgid "15% on next order"
+#~ msgstr "15% op volgende order"
