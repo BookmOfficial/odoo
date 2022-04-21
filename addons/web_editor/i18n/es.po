@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:20+0000\n"
+"POT-Creation-Date: 2022-04-15 23:47+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -2257,7 +2257,7 @@ msgstr "Esta imagen es una imagen externa."
 #, python-format
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Bookm."
 msgstr ""
 
 #. module: web_editor
@@ -2336,6 +2336,13 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #, python-format
 msgid "Toggle ordered list"
+msgstr ""
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/xml/editor.xml:0
+#, python-format
+msgid "Toggle strikethrough"
 msgstr ""
 
 #. module: web_editor
@@ -2579,6 +2586,12 @@ msgstr ""
 "de la pantalla."
 
 #. module: web_editor
+#: code:addons/web_editor/models/ir_qweb.py:0
+#, python-format
+msgid "You entered an invalid value, please try again."
+msgstr ""
+
+#. module: web_editor
 #: code:addons/web_editor/controllers/main.py:0
 #, python-format
 msgid "You need to specify either data or url to create an attachment."
@@ -2657,15 +2670,15 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgid "https://www.bookm.be/logo.png"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/mydocument"
-msgstr "https://www.odoo.com/mydocument"
+msgid "https://www.bookm.be/mydocument"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -2820,6 +2833,14 @@ msgstr ""
 #, python-format
 msgid "⌙ Your URL"
 msgstr ""
+
+#, python-format
+#~ msgid "https://www.odoo.com/logo.png"
+#~ msgstr "https://www.odoo.com/logo.png"
+
+#, python-format
+#~ msgid "https://www.odoo.com/mydocument"
+#~ msgstr "https://www.odoo.com/mydocument"
 
 #, python-format
 #~ msgid "No results"
