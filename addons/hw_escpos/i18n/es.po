@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-07 14:39+0000\n"
+"POT-Creation-Date: 2022-04-15 22:08+0000\n"
 "PO-Revision-Date: 2016-01-03 20:30+0000\n"
 "Last-Translator: Carlos rodriguez <carlosalbertor436@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/odoo/odoo-9/language/es/)\n"
@@ -19,26 +19,18 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py:302
 #, python-format
-msgid "         TOTAL"
-msgstr "         TOTAL"
+#~ msgid "         TOTAL"
+#~ msgstr "         TOTAL"
 
-#. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py:312
 #, python-format
-msgid "        CHANGE"
-msgstr "Cambio"
+#~ msgid "        CHANGE"
+#~ msgstr "Cambio"
 
-#. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py:318
 #, python-format
-msgid "Discounts"
-msgstr "Descuentos"
+#~ msgid "Discounts"
+#~ msgstr "Descuentos"
 
-#. module: hw_escpos
-#: code:addons/hw_escpos/controllers/main.py:293
 #, python-format
-msgid "Subtotal"
-msgstr "Subtotal"
+#~ msgid "Subtotal"
+#~ msgstr "Subtotal"
