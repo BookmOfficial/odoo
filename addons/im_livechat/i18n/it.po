@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 08:19+0000\n"
+"POT-Creation-Date: 2022-04-15 22:08+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -600,7 +600,7 @@ msgstr "Motiva il punto"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Odoo CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the Bookm CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add to your "
 "website."
 msgstr ""
@@ -707,17 +707,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__is_anonymous
 msgid "Is visitor anonymous"
 msgstr ""
-
-#. module: im_livechat
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_3
-msgid "Joel Willis, Marc Demo"
-msgstr "Joel Willis, Marc Demo"
-
-#. module: im_livechat
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_2
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_6
-msgid "Joel Willis, Mitchell Admin"
-msgstr "Joel Willis, Mitchell Admin"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
@@ -1012,11 +1001,6 @@ msgid "OK"
 msgstr "Ok"
 
 #. module: im_livechat
-#: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Odoo"
-msgstr "Odoo"
-
-#. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/legacy/public_livechat.xml:0
 #, python-format
@@ -1084,11 +1068,9 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In Bookm for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Gli operatori che risultano inattivi all'interno di Odoo per più di 30 "
-"minuti saranno considerati disconnessi."
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -1127,11 +1109,6 @@ msgstr "Attendere"
 #, python-format
 msgid "Please wait..."
 msgstr "Attendere..."
-
-#. module: im_livechat
-#: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Powered by"
-msgstr "Fornito da"
 
 #. module: im_livechat
 #. openerp-web
@@ -1660,31 +1637,6 @@ msgid "Visitor"
 msgstr "Visitatore"
 
 #. module: im_livechat
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_0
-msgid "Visitor #234, Mitchell Admin"
-msgstr "Ospite n° 234, Mitchell Admin"
-
-#. module: im_livechat
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_1
-msgid "Visitor #323, Marc Demo"
-msgstr "Ospite n° 323, Marc Demo"
-
-#. module: im_livechat
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_4
-msgid "Visitor #532, Mitchell Admin"
-msgstr "Ospite n° 532, Mitchell Admin"
-
-#. module: im_livechat
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_5
-msgid "Visitor #649, Mitchell Admin"
-msgstr "Ospite n° 649, Mitchell Admin"
-
-#. module: im_livechat
-#: model:mail.channel,name:im_livechat.im_livechat_mail_channel_data_7
-msgid "Visitor #722, Marc Demo"
-msgstr "Ospite n° 722, Marc Demo"
-
-#. module: im_livechat
 #: code:addons/im_livechat/models/mail_channel.py:0
 #, python-format
 msgid "Visitor has left the conversation."
@@ -1694,11 +1646,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__is_happy
 msgid "Visitor is Happy"
 msgstr ""
-
-#. module: im_livechat
-#: model:mail.channel,name:im_livechat.mail_channel_livechat_1
-msgid "Visitor, Mitchell Admin"
-msgstr "Ospite, Mitchell Admin"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__web_page
@@ -1830,3 +1777,40 @@ msgstr "senza nome"
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "{{author_name}}"
 msgstr ""
+
+#~ msgid "Joel Willis, Marc Demo"
+#~ msgstr "Joel Willis, Marc Demo"
+
+#~ msgid "Joel Willis, Mitchell Admin"
+#~ msgstr "Joel Willis, Mitchell Admin"
+
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#~ msgid ""
+#~ "Operators that do not show any activity In Odoo for more than 30 minutes "
+#~ "will be considered as disconnected."
+#~ msgstr ""
+#~ "Gli operatori che risultano inattivi all'interno di Odoo per più di 30 "
+#~ "minuti saranno considerati disconnessi."
+
+#~ msgid "Powered by"
+#~ msgstr "Fornito da"
+
+#~ msgid "Visitor #234, Mitchell Admin"
+#~ msgstr "Ospite n° 234, Mitchell Admin"
+
+#~ msgid "Visitor #323, Marc Demo"
+#~ msgstr "Ospite n° 323, Marc Demo"
+
+#~ msgid "Visitor #532, Mitchell Admin"
+#~ msgstr "Ospite n° 532, Mitchell Admin"
+
+#~ msgid "Visitor #649, Mitchell Admin"
+#~ msgstr "Ospite n° 649, Mitchell Admin"
+
+#~ msgid "Visitor #722, Marc Demo"
+#~ msgstr "Ospite n° 722, Marc Demo"
+
+#~ msgid "Visitor, Mitchell Admin"
+#~ msgstr "Ospite, Mitchell Admin"
