@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 21:32+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -30,6 +30,11 @@ msgstr "Bankrekeningen"
 #: model:ir.ui.menu,name:contacts.menu_action_res_bank_form
 msgid "Banks"
 msgstr "Banken"
+
+#. module: contacts
+#: model_terms:ir.actions.act_window,help:contacts.action_contacts
+msgid "Bookm helps you track all activities related to your contacts."
+msgstr ""
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.res_partner_menu_config
@@ -84,13 +89,11 @@ msgid "Localization"
 msgstr "Lokalisatie"
 
 #. module: contacts
-#: model_terms:ir.actions.act_window,help:contacts.action_contacts
-msgid "Odoo helps you track all activities related to your contacts."
-msgstr ""
-"Odoo helpt je bij het volgen van alle activiteiten met betrekking tot je "
-"contacten."
-
-#. module: contacts
 #: model:ir.model,name:contacts.model_res_users
 msgid "Users"
 msgstr "Gebruikers"
+
+#~ msgid "Odoo helps you track all activities related to your contacts."
+#~ msgstr ""
+#~ "Odoo helpt je bij het volgen van alle activiteiten met betrekking tot je "
+#~ "contacten."
