@@ -1,23 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* barcodes_gs1_nomenclature
-# 
+#
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 14:47+0000\n"
+"POT-Creation-Date: 2022-04-15 21:30+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: barcodes_gs1_nomenclature
@@ -28,8 +28,8 @@ msgstr "Nome alfanumerico"
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_nomenclature__gs1_separator_fnc1
 msgid ""
-"Alternative regex delimiter for the FNC1 (by default, if not set, it is <GS>"
-" ASCII 29 char). The separator must not match the begin/end of any related "
+"Alternative regex delimiter for the FNC1 (by default, if not set, it is <GS> "
+"ASCII 29 char). The separator must not match the begin/end of any related "
 "rules pattern."
 msgstr ""
 
@@ -128,8 +128,8 @@ msgstr "Ubicazione"
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__type__lot
-msgid "Lot"
-msgstr "Lotto"
+msgid "Lot number"
+msgstr ""
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__measure
@@ -171,7 +171,7 @@ msgstr ""
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_rule__gs1_content_type
 msgid ""
 "The GS1 content type defines what kind of data the rule will process the "
-"barcode as:        * Date: the barcode will be converted into a Odoo "
+"barcode as:        * Date: the barcode will be converted into a Bookm "
 "datetime;        * Measure: the barcode's value is related to a specific "
 "UoM;        * Numeric Identifier: fixed length barcode following a specific "
 "encoding;        * Alpha-Numeric Name: variable length barcode."
@@ -192,7 +192,8 @@ msgid ""
 "\t- A second one to catch the value."
 msgstr ""
 "Il modello di regola \"%s\" non è valido, ha bisogno di due gruppi:\n"
-"\t- Un primo per l'identificatore dell'applicazione (di solito da 2 a 4 cifre);\n"
+"\t- Un primo per l'identificatore dell'applicazione (di solito da 2 a 4 "
+"cifre);\n"
 "\t- Un secondo per catturare il valore."
 
 #. module: barcodes_gs1_nomenclature
@@ -200,8 +201,10 @@ msgstr ""
 #, python-format
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
-"If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
-"Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
+"If this rule uses decimal, check it can't get sometime else than a digit as "
+"last char for the Application Identifier.\n"
+"Check also the possible matched values can only be digits, otherwise the "
+"value can't be casted as a measure."
 msgstr ""
 
 #. module: barcodes_gs1_nomenclature
@@ -211,24 +214,22 @@ msgid ""
 "This Nomenclature use the GS1 specification, only GS1-128 encoding rules is "
 "accepted is this kind of nomenclature."
 msgstr ""
-"Questa nomenclatura usa la specifica GS1, solo le regole di codifica GS1-128"
-" sono accettate in questo tipo di nomenclatura."
+"Questa nomenclatura usa la specifica GS1, solo le regole di codifica GS1-128 "
+"sono accettate in questo tipo di nomenclatura."
 
 #. module: barcodes_gs1_nomenclature
 #. openerp-web
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 #, python-format
 msgid "This barcode can't be parsed by any barcode rules."
-msgstr ""
-"Questo barcode non può essere analizzato da nessuna regola di barcode."
+msgstr "Questo barcode non può essere analizzato da nessuna regola di barcode."
 
 #. module: barcodes_gs1_nomenclature
 #. openerp-web
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 #, python-format
 msgid "This barcode can't be partially or fully parsed."
-msgstr ""
-"Questo barcode non può essere analizzato parzialmente o completamente."
+msgstr "Questo barcode non può essere analizzato parzialmente o completamente."
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_rule__encoding
@@ -243,3 +244,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__type
 msgid "Type"
 msgstr "Tipologia"
+
+#~ msgid "Lot"
+#~ msgstr "Lotto"
