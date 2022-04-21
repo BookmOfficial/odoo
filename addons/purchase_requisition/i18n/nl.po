@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-12 07:50+0000\n"
+"POT-Creation-Date: 2022-04-15 23:14+0000\n"
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -28,8 +28,8 @@ msgstr "'Aanbesteding - %s' % (object.name)"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
-msgid "<strong>Call for Tender Reference:</strong><br/>"
-msgstr "<strong>Aanbestedingreferentie:</strong><br/>"
+msgid "<strong>Agreement Deadline:</strong><br/>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -65,11 +65,6 @@ msgstr "<strong>Geplande datum</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Scheduled Ordering Date:</strong><br/>"
 msgstr "<strong>Geplande orderdatum:</strong><br/>"
-
-#. module: purchase_requisition
-#: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
-msgid "<strong>Selection Type:</strong><br/>"
-msgstr "<strong>Selectie soort:</strong><br/>"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -177,7 +172,6 @@ msgstr "Aanbesteding"
 
 #. module: purchase_requisition
 #: model:ir.actions.report,name:purchase_requisition.action_report_purchase_requisitions
-#: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "Call for Tenders"
 msgstr "Aanbestedingen"
 
@@ -473,11 +467,6 @@ msgid "Messages"
 msgstr "Berichten"
 
 #. module: purchase_requisition
-#: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
-msgid "Multiple Requisitions"
-msgstr "Meer aanvragen"
-
-#. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr "Mijn activiteit deadline"
@@ -568,6 +557,11 @@ msgstr "Bestelde hoeveelheden"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Ordering Date"
 msgstr "Orderdatum"
+
+#. module: purchase_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
+msgid "Price Unit"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_product_product__purchase_requisition
@@ -673,11 +667,6 @@ msgid "Purchase Requisition Type"
 msgstr "Inkooporderaanvraagtype"
 
 #. module: purchase_requisition
-#: model:ir.actions.act_window,name:purchase_requisition.act_res_partner_2_purchase_order
-msgid "Purchase orders"
-msgstr "Inkooporders"
-
-#. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__is_quantity_copy
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__is_quantity_copy
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_type__quantity_copy
@@ -699,6 +688,11 @@ msgstr "Offerteaanvragen/Orders"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Reference"
 msgstr "Referentie"
+
+#. module: purchase_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
+msgid "Reference:"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.product_template_form_view_inherit
@@ -970,3 +964,15 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "e.g. PO0025"
 msgstr "Bijv. PO0025"
+
+#~ msgid "<strong>Call for Tender Reference:</strong><br/>"
+#~ msgstr "<strong>Aanbestedingreferentie:</strong><br/>"
+
+#~ msgid "<strong>Selection Type:</strong><br/>"
+#~ msgstr "<strong>Selectie soort:</strong><br/>"
+
+#~ msgid "Multiple Requisitions"
+#~ msgstr "Meer aanvragen"
+
+#~ msgid "Purchase orders"
+#~ msgstr "Inkooporders"
