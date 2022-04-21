@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 10:54+0000\n"
+"POT-Creation-Date: 2022-04-15 22:48+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -57,11 +57,15 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hallo,<br/><br/>\n"
-"                Sie haben um die Abmeldung von der Mailingliste <strong t-out=\"object.name or ''\"/> gebeten.\n"
+"                Sie haben um die Abmeldung von der Mailingliste <strong t-"
+"out=\"object.name or ''\"/> gebeten.\n"
 "                <br/><br/>\n"
-"                Bitte bestätigen Sie dies über den folgenden Link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>\n"
+"                Bitte bestätigen Sie dies über den folgenden Link: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out="
+"\"ctx['token_url'] or ''\"/></a></strong>\n"
 "                <br/><br/>\n"
-"                Falls Sie dies nicht beabsichtigt hatten, können Sie diese Nachricht einfach ignorieren.\n"
+"                Falls Sie dies nicht beabsichtigt hatten, können Sie diese "
+"Nachricht einfach ignorieren.\n"
 "            </div>\n"
 "        "
 
@@ -84,11 +88,15 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hallo,<br/><br/>\n"
-"                Sie haben um die Abmeldung von der Mailingliste <strong t-out=\"object.name or ''\"/> gebeten.\n"
+"                Sie haben um die Abmeldung von der Mailingliste <strong t-"
+"out=\"object.name or ''\"/> gebeten.\n"
 "                <br/><br/>\n"
-"                Bitte bestätigen Sie dies über den folgenden Link: <strong t-if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out=\"ctx['token_url'] or ''\"/></a></strong>.\n"
+"                Bitte bestätigen Sie dies über den folgenden Link: <strong t-"
+"if=\"ctx.get('token_url')\"><a t-att-href=\"ctx['token_url']\"><t t-out="
+"\"ctx['token_url'] or ''\"/></a></strong>.\n"
 "                <br/><br/>\n"
-"                Falls Sie dies nicht beabsichtigt haben, können Sie diese Nachricht einfach ignorieren.\n"
+"                Falls Sie dies nicht beabsichtigt haben, können Sie diese "
+"Nachricht einfach ignorieren.\n"
 "            </div>\n"
 "        "
 
@@ -221,8 +229,11 @@ msgid ""
 "danger\" attrs=\"{'invisible': [('author_moderation', '!=', "
 "'ban')]}\">Banned</span>"
 msgstr ""
-"<span class=\"oe_read_only ml-2 badge badge-success\" attrs=\"{'invisible': [('author_moderation', '!=', 'allow')]}\">Auf der Whitelist</span>\n"
-"                            <span class=\"oe_read_only ml-2 badge badge-danger\" attrs=\"{'invisible': [('author_moderation', '!=', 'ban')]}\">Gesperrt</span>"
+"<span class=\"oe_read_only ml-2 badge badge-success\" attrs=\"{'invisible': "
+"[('author_moderation', '!=', 'allow')]}\">Auf der Whitelist</span>\n"
+"                            <span class=\"oe_read_only ml-2 badge badge-"
+"danger\" attrs=\"{'invisible': [('author_moderation', '!=', "
+"'ban')]}\">Gesperrt</span>"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.group_archive_menu
@@ -977,11 +988,6 @@ msgid "Moderators must have an email address."
 msgstr "Moderatoren müssen eine E-Mail Adresse haben."
 
 #. module: mail_group
-#: model:mail.group,name:mail_group.mail_group_1
-msgid "My Company News"
-msgstr "Neuigkeiten meine Firma"
-
-#. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group__name
 msgid "Name"
 msgstr "Name"
@@ -1159,11 +1165,6 @@ msgstr "Posten an:"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
 msgid "Privacy"
 msgstr "Privatsphäre"
-
-#. module: mail_group
-#: model:mail.group,name:mail_group.mail_group_2
-msgid "Public Mailing List"
-msgstr "Öffentliche Mailingliste"
 
 #. module: mail_group
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
@@ -1357,22 +1358,17 @@ msgstr "Die Beschreibung der Richtlinien fehlt."
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
-"email that does not reply to an existing record will cause the creation of a "
-"new record of this model (e.g. a Project Task)"
+"The model (Bookm Document Kind) to which this alias corresponds. Any "
+"incoming email that does not reply to an existing record will cause the "
+"creation of a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Das Odoo Datenmodell auf das sich der Alias bezieht. Jeglicher E-Mail "
-"Posteingang ohne Bezug zu einer bereits vorhandenen E-Mail  führt "
-"üblicherweise zur Erstellung eines neuen Datensatz (z.B. Projektaufgabe)."
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.com>"
 msgstr ""
-"Die Bezeichnung des E-Mail-Alias, z.B. 'jobs', falls Sie E-Mails an z.B. "
-"<jobs@example.odoo.com> erhalten möchten"
 
 #. module: mail_group
 #: code:addons/mail_group/models/mail_group.py:0
@@ -1571,3 +1567,25 @@ msgstr "abgemeldet von"
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_groups
 msgid "your email..."
 msgstr "Ihre E-Mail..."
+
+#~ msgid "My Company News"
+#~ msgstr "Neuigkeiten meine Firma"
+
+#~ msgid "Public Mailing List"
+#~ msgstr "Öffentliche Mailingliste"
+
+#~ msgid ""
+#~ "The model (Odoo Document Kind) to which this alias corresponds. Any "
+#~ "incoming email that does not reply to an existing record will cause the "
+#~ "creation of a new record of this model (e.g. a Project Task)"
+#~ msgstr ""
+#~ "Das Odoo Datenmodell auf das sich der Alias bezieht. Jeglicher E-Mail "
+#~ "Posteingang ohne Bezug zu einer bereits vorhandenen E-Mail  führt "
+#~ "üblicherweise zur Erstellung eines neuen Datensatz (z.B. Projektaufgabe)."
+
+#~ msgid ""
+#~ "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+#~ "<jobs@example.odoo.com>"
+#~ msgstr ""
+#~ "Die Bezeichnung des E-Mail-Alias, z.B. 'jobs', falls Sie E-Mails an z.B. "
+#~ "<jobs@example.odoo.com> erhalten möchten"
