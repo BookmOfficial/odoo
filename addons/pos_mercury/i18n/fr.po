@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"POT-Creation-Date: 2022-04-15 23:09+0000\n"
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -19,11 +19,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#. module: pos_mercury
-#: model_terms:ir.ui.view,arch_db:pos_mercury.res_config_settings_view_form_inherit_pos_mercury
-msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Buy a card reader"
-msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Acheter un lecteur de carte "
 
 #. module: pos_mercury
 #: model_terms:ir.ui.view,arch_db:pos_mercury.view_pos_mercury_configuration_form
@@ -67,6 +62,13 @@ msgstr "CODE D'APPROBATION :"
 #: model:ir.model,name:pos_mercury.model_barcode_rule
 msgid "Barcode Rule"
 msgstr "Règle de code-barres"
+
+#. module: pos_mercury
+#. openerp-web
+#: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Bookm error while processing transaction."
+msgstr ""
 
 #. module: pos_mercury
 #. openerp-web
@@ -279,13 +281,6 @@ msgstr "Pas de réponse de Vantiv (Vantiv en panne?)"
 #, python-format
 msgid "No response from server (connected to network?)"
 msgstr "Pas de réponse du serveur (connecté au réseau?)"
-
-#. module: pos_mercury
-#. openerp-web
-#: code:addons/pos_mercury/static/src/js/PaymentScreen.js:0
-#, python-format
-msgid "Odoo error while processing transaction."
-msgstr "Erreur Odoo pendant le traitement de la transaction."
 
 #. module: pos_mercury
 #. openerp-web
@@ -529,3 +524,10 @@ msgstr ""
 #, python-format
 msgid "X______________________________"
 msgstr "X______________________________"
+
+#~ msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Buy a card reader"
+#~ msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Acheter un lecteur de carte "
+
+#, python-format
+#~ msgid "Odoo error while processing transaction."
+#~ msgstr "Erreur Odoo pendant le traitement de la transaction."
