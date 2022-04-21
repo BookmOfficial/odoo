@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:49+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -38,11 +38,6 @@ msgstr ""
 #, python-format
 msgid "LEADS"
 msgstr "LEADS"
-
-#. module: mass_mailing_crm
-#: model:mailing.mailing,name:mass_mailing_crm.mass_mail_lead_0
-msgid "Lead Recall"
-msgstr "Lead recall"
 
 #. module: mass_mailing_crm
 #: model:ir.model,name:mass_mailing_crm.model_crm_lead
@@ -80,11 +75,12 @@ msgid "Use Leads"
 msgstr "Gebruik leads"
 
 #. module: mass_mailing_crm
-#: model:mailing.mailing,sms_subject:mass_mailing_crm.mass_mail_lead_0
-msgid "We want to hear from you !"
-msgstr "We willen van je horen!"
-
-#. module: mass_mailing_crm
 #: model:ir.model.fields,field_description:mass_mailing_crm.field_utm_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
 msgstr "Winnaar selectie"
+
+#~ msgid "Lead Recall"
+#~ msgstr "Lead recall"
+
+#~ msgid "We want to hear from you !"
+#~ msgstr "We willen van je horen!"
