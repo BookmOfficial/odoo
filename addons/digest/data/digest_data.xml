@@ -413,8 +413,6 @@
     </div>
 </div>
 
-<div t-if="display_mobile_banner" t-call="digest.digest_section_mobile" />
-
 <div class="global_layout" id="footer">
     <p style="font-weight: bold;" t-esc="company.name"/>
     </div>
