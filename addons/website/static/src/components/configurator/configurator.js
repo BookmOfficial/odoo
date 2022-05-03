@@ -16,10 +16,10 @@ const {whenReady} = owl.utils;
 
 const WEBSITE_TYPES = {
     1: {id: 1, label: _lt("a business website"), name: 'business'},
-    2: {id: 2, label: _lt("an online store"), name: 'online_store'},
+    // 2: {id: 2, label: _lt("an online store"), name: 'online_store'},
     3: {id: 3, label: _lt("a blog"), name: 'blog'},
-    4: {id: 4, label: _lt("an event website"), name: 'event'},
-    5: {id: 5, label: _lt("an elearning platform"), name: 'elearning'}
+    // 4: {id: 4, label: _lt("an event website"), name: 'event'},
+    // 5: {id: 5, label: _lt("an elearning platform"), name: 'elearning'}
 };
 
 const WEBSITE_PURPOSES = {
@@ -27,7 +27,7 @@ const WEBSITE_PURPOSES = {
     2: {id: 2, label: _lt("develop the brand"), name: 'develop_brand'},
     3: {id: 3, label: _lt("sell more"), name: 'sell_more'},
     4: {id: 4, label: _lt("inform customers"), name: 'inform_customers'},
-    5: {id: 5, label: _lt("schedule appointments"), name: 'schedule_appointments'}
+    // 5: {id: 5, label: _lt("schedule appointments"), name: 'schedule_appointments'}
 };
 
 const PALETTE_NAMES = [
