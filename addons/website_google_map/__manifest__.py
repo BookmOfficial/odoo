@@ -14,6 +14,4 @@ Show your company address/partner address on Google Maps. Configure an API key i
     ],
     'installable': True,
     'license': 'LGPL-3',
-    # Install snippet always when website is installed
-    'auto_install': True,
 }
