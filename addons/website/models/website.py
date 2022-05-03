@@ -472,7 +472,8 @@ class Website(models.Model):
                         'raw': response.content,
                         'public': True,
                     })
-                    self.env['ir.model.data'].create({
+                    #  Fix ir_model_data create rights for website configurator
+                    self.env['ir.model.data'].sudo().create({
                         'name': 'configurator_%s_%s' % (website.id, name.split('.')[1]),
                         'module': 'website',
                         'model': 'ir.attachment',
