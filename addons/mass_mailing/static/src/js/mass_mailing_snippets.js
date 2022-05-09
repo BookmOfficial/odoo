@@ -115,6 +115,12 @@ options.registry.ImageTools.include({
         if (imgShapeContainerEl) {
             imgShapeContainerEl.classList.toggle('d-none', !odoo.debug);
         }
+
+        // Transform is _very_ badly supported in mail clients. Hide the option.
+        const transformEl = this.el.querySelector('[data-transform="true"]');
+        if (transformEl) {
+            transformEl.classList.toggle('d-none', true);
+        }
     },
 
     //--------------------------------------------------------------------------
@@ -148,6 +154,21 @@ options.registry.ImageTools.include({
             warningEl.title = _t("Be aware that this option may not work on many mail clients");
             imgShapeTitleEl.appendChild(warningEl);
         }
+    },
+});
+
+options.registry.Parallax = options.Class.extend({
+
+    //--------------------------------------------------------------------------
+    // Private
+    //--------------------------------------------------------------------------
+
+    /**
+     * @override
+     */
+    async _computeWidgetVisibility(widgetName, params) {
+        // Parallax is not supported in emails.
+        return false;
     },
 });
 

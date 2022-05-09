@@ -354,6 +354,14 @@ class TestChannelInternals(MailCommon):
             "Last message id should stay the same after mark channel as seen with an older message"
         )
 
+    def test_channel_message_post_should_not_allow_adding_wrong_parent(self):
+        channels = self.env['mail.channel'].create([{'name': '1'}, {'name': '2'}])
+        message = self._add_messages(channels[0], 'Body1')
+        message_format2 = channels[1].message_post(body='Body2', parent_id=message.id)
+        self.assertFalse(message_format2['parent_id'], "should not allow parent from wrong thread")
+        message_format3 = channels[1].message_post(body='Body3', parent_id=message.id + 100)
+        self.assertFalse(message_format3['parent_id'], "should not allow non-existing parent")
+
     @mute_logger('odoo.models.unlink')
     def test_channel_unsubscribe_auto(self):
         """ Archiving / deleting a user should automatically unsubscribe related
@@ -399,6 +407,16 @@ class TestChannelInternals(MailCommon):
         self.assertEqual(test_channel_group.channel_partner_ids, self.env['res.partner'])
         self.assertEqual(self.test_channel.channel_partner_ids, self.user_employee.partner_id | test_partner)
         self.assertEqual(test_chat.channel_partner_ids, self.user_employee.partner_id | test_partner)
+
+    @users('employee')
+    def test_channel_private_unfollow(self):
+        """ Test that a partner can leave (unfollow) a private channel. """
+        channel_private = self.env['mail.channel'].create({
+            'name': 'Winden caves',
+            'public': 'private',
+        })
+        channel_private.action_unfollow()
+        self.assertEqual(channel_private.channel_partner_ids, self.env['res.partner'])
 
     def test_channel_unfollow_should_not_post_message_if_the_partner_has_been_removed(self):
         '''

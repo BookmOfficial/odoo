@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from datetime import timedelta
-import math
 import logging
+import math
+from collections import defaultdict
+from datetime import timedelta
+from itertools import repeat
+
 import pytz
 
 from odoo import api, fields, models, Command
@@ -303,8 +306,9 @@ class Meeting(models.Model):
                 })
 
     def _compute_attendee(self):
+        mapped_attendees = self._find_attendee_batch()
         for meeting in self:
-            attendee = meeting._find_attendee()
+            attendee = mapped_attendees[meeting.id]
             meeting.attendee_status = attendee.state if attendee else 'needsAction'
 
     @api.constrains('start', 'stop', 'start_date', 'stop_date')
@@ -424,56 +428,34 @@ class Meeting(models.Model):
 
         return events
 
-    def read(self, fields=None, load='_classic_read'):
-        def hide(field, value):
-            """
-            :param field: field name
-            :param value: field value
-            :return: obfuscated field value
-            """
-            if field in {'name', 'display_name'}:
-                return _('Busy')
-            return [] if isinstance(value, list) else False
+    def _read(self, fields):
+        if self.env.is_system():
+            super()._read(fields)
+            return
 
-        def split_privacy(events):
-            """
-            :param events: list of event values (dict)
-            :return: tuple(private events, public events)
-            """
-            private = [event for event in events if event.get('privacy') == 'private']
-            public = [event for event in events if event.get('privacy') != 'private']
-            return private, public
+        fields = set(fields)
+        private_fields = fields - self._get_public_fields()
+        if not private_fields:
+            super()._read(fields)
+            return
 
-        def split_visibility(events):
-            """
-            :param events: list of event values (dict)
-            :return: tuple(my events, other events)
-            """
-            current_partner_id = self.env.user.partner_id.id
-            visible_events = []
-            other_events = []
-            for event in events:
-                if (event.get('user_id') and event.get('user_id')[0] == self.env.uid) or current_partner_id in event.get('partner_ids'):
-                    visible_events.append(event)
-                else:
-                    other_events.append(event)
-            return visible_events, other_events
+        private_fields.add('partner_ids')
+        super()._read(fields | {'privacy', 'user_id', 'partner_ids'})
+        current_partner_id = self.env.user.partner_id
+        others_private_events = self.filtered(
+            lambda e: e.privacy == 'private' \
+                  and e.user_id != self.env.user \
+                  and current_partner_id not in e.partner_ids
+        )
+        if not others_private_events:
+            return
 
-        def obfuscated(events):
-            """
-            :param events: list of event values (dict)
-            :return: events with private field values obfuscated
-            """
-            public_fields = self._get_public_fields()
-            return [{
-                field: hide(field, value) if field not in public_fields else value
-                for field, value in event.items()
-            } for event in events]
-
-        events = super().read(fields=fields + ['privacy', 'user_id', 'partner_ids'], load=load)
-        private_events, public_events = split_privacy(events)
-        my_private_events, others_private_events = split_visibility(private_events)
-        return public_events + my_private_events + obfuscated(others_private_events)
+        for field_name in private_fields:
+            field = self._fields[field_name]
+            replacement = field.convert_to_cache(
+                _('Busy') if field_name == 'name' else False,
+                others_private_events)
+            self.env.cache.update(others_private_events, field, repeat(replacement))
 
     def write(self, values):
         detached_events = self.env['calendar.event']
@@ -718,6 +700,10 @@ class Meeting(models.Model):
     # MAILING
     # ------------------------------------------------------------
 
+    def _get_mail_tz(self):
+        self.ensure_one()
+        return self.event_tz or self.env.user.tz
+
     def _sync_activities(self, fields):
         # update activities
         for event in self:
@@ -938,27 +924,46 @@ class Meeting(models.Model):
     # TOOLS
     # ------------------------------------------------------------
 
+    def _find_attendee_batch(self):
+        """ Return the first attendee where the user connected has been invited
+            or the attendee selected in the filter that is the owner
+            from all the meeting_ids in parameters.
+        """
+        result = defaultdict(lambda: self.env['calendar.attendee'])
+        self_attendees = self.attendee_ids.filtered(lambda a: a.partner_id == self.env.user.partner_id)
+        for attendee in self_attendees:
+            result[attendee.event_id.id] = attendee
+        remaining_events = self - self_attendees.event_id
+
+        events_checked_partners = self.env['calendar.filters'].search([
+            ('user_id', '=', self.env.user.id),
+            ('partner_id', 'in', remaining_events.attendee_ids.partner_id.ids),
+            ('partner_checked', '=', True)
+        ]).partner_id
+        filter_events = self.env['calendar.event']
+        for event in remaining_events:
+            event_partners = event.attendee_ids.partner_id
+            event_checked_partners = events_checked_partners & event_partners
+            if event.partner_id in event_checked_partners and event.partner_id in event_partners:
+                filter_events |= event
+                result[event.id] = event.attendee_ids.filtered(lambda attendee: attendee.partner_id == event.partner_id)[:1]
+        remaining_events -= filter_events
+
+        for event in remaining_events:
+            event_checked_partners = events_checked_partners & event_partners
+            attendee = event.attendee_ids.filtered(
+                lambda a: a.partner_id in event_checked_partners and a.state != "needsAction")
+            result[event.id] = attendee[:1]
+        return result
+
+    # YTI TODO MASTER: Remove deprecated method
     def _find_attendee(self):
         """ Return the first attendee where the user connected has been invited
             or the attendee selected in the filter that is the owner
             from all the meeting_ids in parameters.
         """
         self.ensure_one()
-
-        my_attendee = self.attendee_ids.filtered(lambda att: att.partner_id == self.env.user.partner_id)
-        if my_attendee:
-            return my_attendee[:1]
-
-        event_checked_attendees = self.env['calendar.filters'].search([
-            ('user_id', '=', self.env.user.id),
-            ('partner_id', 'in', self.attendee_ids.partner_id.ids),
-            ('partner_checked', '=', True)
-        ]).mapped('partner_id')
-        if self.partner_id in event_checked_attendees and self.partner_id in self.attendee_ids.partner_id:
-            return self.attendee_ids.filtered(lambda attendee: attendee.partner_id == self.partner_id)[:1]
-
-        attendee = self.attendee_ids.filtered(lambda att: att.partner_id in event_checked_attendees and att.state != "needsAction")
-        return attendee[:1]
+        return self._find_attendee_batch()[self.id]
 
     def _get_start_date(self):
         """Return the event starting date in the event's timezone.

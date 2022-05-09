@@ -13,6 +13,7 @@ import {
     isMediaElement,
     getDeepRange,
     isUnbreakable,
+    isUnremovable
 } from './utils.js';
 
 const NOT_A_NUMBER = /[^\d]/g;
@@ -51,11 +52,11 @@ export function areSimilarElements(node, node2) {
     ) {
         return false;
     }
-    if (node.tagName == 'LI' && node.classList.contains('oe-nested')) {
+    if (node.tagName === 'LI' && node.classList.contains('oe-nested')) {
         return (
             node.lastElementChild &&
             node2.firstElementChild &&
-            getListMode(node.lastElementChild) == getListMode(node2.firstElementChild)
+            getListMode(node.lastElementChild) === getListMode(node2.firstElementChild)
         );
     }
     if (['UL', 'OL'].includes(node.tagName)) {
@@ -77,15 +78,20 @@ export function areSimilarElements(node, node2) {
 class Sanitize {
     constructor(root) {
         this.root = root;
-        // Remove unique ids from checklists and stars. These will be renewed
-        // afterwards.
-        for (const node of closestBlock(root).querySelectorAll('[id^=checkId-]')) {
-            node.removeAttribute('id');
+        const rootClosestBlock = closestBlock(root);
+        if (rootClosestBlock) {
+            // Remove unique ids from checklists and stars. These will be
+            // renewed afterwards.
+            for (const node of rootClosestBlock.querySelectorAll('[id^=checkId-]')) {
+                node.removeAttribute('id');
+            }
         }
         this.parse(root);
-        // Ensure unique ids on checklists and stars.
-        for (const node of closestBlock(root).querySelectorAll('.o_checklist > li, .o_stars')) {
-            node.setAttribute('id', `checkId-${Math.floor(new Date() * Math.random())}`);
+        if (rootClosestBlock) {
+            // Ensure unique ids on checklists and stars.
+            for (const node of rootClosestBlock.querySelectorAll('.o_checklist > li, .o_stars')) {
+                node.setAttribute('id', `checkId-${Math.floor(new Date() * Math.random())}`);
+            }
         }
     }
 
@@ -112,8 +118,35 @@ class Sanitize {
             node = nodeP;
         }
 
+        // Remove zero-width spaces added by `fillEmpty` when there is content
+        // and the selection is not next to it.
+        const anchor = this.root.ownerDocument.getSelection().anchorNode;
+        if (
+            node.nodeType === Node.TEXT_NODE &&
+            node.textContent.includes('\u200B') &&
+            (
+                node.textContent.length > 1 ||
+                // There can be multiple ajacent text nodes, in which case the
+                // zero-width space is not needed either, despite being alone
+                // (length === 1) in its own text node.
+                Array.from(node.parentNode.childNodes).find(
+                    sibling =>
+                        sibling !== node &&
+                        sibling.nodeType === Node.TEXT_NODE &&
+                        sibling.length > 0
+                )
+            ) &&
+            !isBlock(node.parentElement) &&
+            anchor !== node
+        ) {
+            const restoreCursor = preserveCursor(this.root.ownerDocument);
+            node.textContent = node.textContent.replace('\u200B', '');
+            node.parentElement.removeAttribute("data-oe-zws-empty-inline");
+            restoreCursor();
+        }
+
         // Remove empty blocks in <li>
-        if (node.nodeName == 'P' && node.parentElement.tagName == 'LI') {
+        if (node.nodeName === 'P' && node.parentElement.tagName === 'LI') {
             const next = node.nextSibling;
             const pnode = node.parentElement;
             if (isEmptyBlock(node)) {
@@ -125,6 +158,13 @@ class Sanitize {
                 return;
             }
         }
+        // Transform <li> into <p> if they are not in a <ul> / <ol>
+        if (node.nodeName === 'LI' && !node.closest('ul, ol')) {
+            const p = document.createElement("p");
+            p.replaceChildren(...node.childNodes);
+            node.replaceWith(p);
+            node = p;
+        }
 
         // Sanitize font awesome elements
         if (isFontAwesome(node)) {
@@ -133,7 +173,7 @@ class Sanitize {
         }
 
         // Sanitize media elements
-        if (isMediaElement(node)) {
+        if (isMediaElement(node) || node.tagName === 'HR') {
             // Ensure all media elements are tagged contenteditable=false.
             // we cannot use the node.isContentEditable because it can wrongly return false
             // when the editor is starting up ( first sanitize )

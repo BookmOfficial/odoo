@@ -207,10 +207,11 @@ class HrEmployeeBase(models.AbstractModel):
         if 'leave_manager_id' in values:
             old_managers = self.mapped('leave_manager_id')
             if values['leave_manager_id']:
-                old_managers -= self.env['res.users'].browse(values['leave_manager_id'])
+                leave_manager = self.env['res.users'].browse(values['leave_manager_id'])
+                old_managers -= leave_manager
                 approver_group = self.env.ref('hr_holidays.group_hr_holidays_responsible', raise_if_not_found=False)
-                if approver_group:
-                    approver_group.sudo().write({'users': [(4, values['leave_manager_id'])]})
+                if approver_group and not leave_manager.has_group('hr_holidays.group_hr_holidays_responsible'):
+                    leave_manager.sudo().write({'groups_id': [(4, approver_group.id)]})
 
         res = super(HrEmployeeBase, self).write(values)
         # remove users from the Responsible group if they are no longer leave managers
@@ -252,16 +253,12 @@ class HrEmployee(models.Model):
         return super()._get_user_m2o_to_empty_on_archived_employees() + ['leave_manager_id']
 
     def action_time_off_dashboard(self):
-        domain = []
-        if self.env.context.get('active_ids'):
-            domain = [('employee_id', 'in', self.env.context.get('active_ids', []))]
-
         return {
             'name': _('Time Off Dashboard'),
             'type': 'ir.actions.act_window',
             'res_model': 'hr.leave',
             'views': [[self.env.ref('hr_holidays.hr_leave_employee_view_dashboard').id, 'calendar']],
-            'domain': domain,
+            'domain': [('employee_id', 'in', self.ids)],
             'context': {
                 'employee_id': self.ids,
             },

@@ -66,6 +66,10 @@ class IrActions(models.Model):
         self.clear_caches()
         return res
 
+    @api.ondelete(at_uninstall=True)
+    def _unlink_check_home_action(self):
+        self.env['res.users'].with_context(active_test=False).search([('action_id', 'in', self.ids)]).sudo().write({'action_id': None})
+
     @api.model
     def _get_eval_context(self, action=None):
         """ evaluation context to pass to safe_eval """
@@ -654,19 +658,6 @@ class IrActionsServer(models.Model):
                     action.name, action.state
                 )
         return res or False
-
-    def _neutralize(self):
-        # In some cases, cron neutralization is not enough as modifying records
-        # like `fetchmail.server`, `calendar.alarm` and `base.automation` will
-        # re-enable their cron jobs as a side-effect.
-        super()._neutralize()
-        self.flush()
-        self.invalidate_cache()
-        self.env.cr.execute("""
-            UPDATE ir_act_server
-            SET code = '#' || REPLACE(code, E'\n', E'\n#')
-            WHERE usage = 'ir_cron' AND state = 'code'
-        """)
 
 
 class IrServerObjectLines(models.Model):

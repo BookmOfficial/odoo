@@ -156,8 +156,25 @@ class SaleOrderLine(models.Model):
             # If company_id is set, always filter taxes by the company
             line.tax_id = line.order_id.fiscal_position_id.map_tax(taxes)
 
+    def _add_precomputed_values(self, vals_list):
+        """ In the specific case where the discount is provided in the create values
+        without being rounded, we have to 'manually' round it otherwise it won't be,
+        because editable precomputed field values are kept 'as is'.
+
+        This is a temporary fix until the problem is fixed in the ORM.
+        """
+        precision = self.env['decimal.precision'].precision_get('Discount')
+        for vals in vals_list:
+            if vals.get('discount'):
+                vals['discount'] = float_round(vals['discount'], precision_digits=precision)
+        return super()._add_precomputed_values(vals_list)
+
     @api.model_create_multi
     def create(self, vals_list):
+        for vals in vals_list:
+            if vals.get('display_type') or self.default_get(['display_type']).get('display_type'):
+                vals['product_uom_qty'] = 0.0
+
         lines = super().create(vals_list)
         for line in lines:
             if line.product_id and line.state == 'sale':
@@ -267,7 +284,7 @@ class SaleOrderLine(models.Model):
         related="product_id.product_tmpl_id", domain=[('sale_ok', '=', True)])
     product_updatable = fields.Boolean(compute='_compute_product_updatable', string='Can Edit Product')
     product_uom_qty = fields.Float(
-        string='Quantity', digits='Product Unit of Measure', required=True,
+        string='Quantity', digits='Product Unit of Measure', required=True, default=1.0,
         compute='_compute_product_uom_qty', store=True, readonly=False, precompute=True)
     product_uom = fields.Many2one(
         'uom.uom', string='Unit of Measure',
@@ -315,6 +332,7 @@ class SaleOrderLine(models.Model):
 
     analytic_tag_ids = fields.Many2many(
         'account.analytic.tag', string='Analytic Tags',
+        compute='_compute_analytic_tag_ids', store=True, readonly=False,
         domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]")
     analytic_line_ids = fields.One2many('account.analytic.line', 'so_line', string="Analytic lines")
     is_expense = fields.Boolean('Is expense', help="Is true if the sales order line comes from an expense or a vendor bills")
@@ -327,7 +345,8 @@ class SaleOrderLine(models.Model):
         related='order_id.currency_id', depends=['order_id.currency_id'],
         store=True, string='Currency', precompute=True)
     company_id = fields.Many2one(related='order_id.company_id', string='Company', store=True, index=True, precompute=True)
-    order_partner_id = fields.Many2one(related='order_id.partner_id', store=True, string='Customer', precompute=True)
+    order_partner_id = fields.Many2one(
+        related='order_id.partner_id', store=True, string='Customer', index=True, precompute=True)
     salesman_id = fields.Many2one(related='order_id.user_id', store=True, string='Salesperson', precompute=True)
     state = fields.Selection(
         related='order_id.state', string='Order Status', copy=False, store=True, precompute=True)
@@ -489,8 +508,6 @@ class SaleOrderLine(models.Model):
                 line.product_uom_qty = 0.0
                 continue
 
-            # Default value = 1.0
-            line.product_uom_qty = line.product_uom_qty or 1.0
             if not line.product_packaging_id:
                 continue
             packaging_uom = line.product_packaging_id.product_uom_id
@@ -567,6 +584,19 @@ class SaleOrderLine(models.Model):
                     amount_to_invoice = price_subtotal - line.untaxed_amount_invoiced
 
             line.untaxed_amount_to_invoice = amount_to_invoice
+
+    @api.depends('product_id', 'order_id.date_order', 'order_id.partner_id')
+    def _compute_analytic_tag_ids(self):
+        for line in self:
+            if not line.display_type and not line.analytic_tag_ids:
+                default_analytic_account = line.env['account.analytic.default'].sudo().account_get(
+                    product_id=line.product_id.id,
+                    partner_id=line.order_id.partner_id.id,
+                    user_id=self.env.uid,
+                    date=line.order_id.date_order,
+                    company_id=line.company_id.id,
+                )
+                line.analytic_tag_ids = default_analytic_account.analytic_tag_ids
 
     def _get_invoice_line_sequence(self, new=0, old=0):
         """
@@ -705,8 +735,16 @@ class SaleOrderLine(models.Model):
                 line.price_unit = 0.0
             else:
                 price = line._get_display_price()
-                line.price_unit = self.env['account.tax']._fix_tax_included_price_company(
-                    price, line.product_id.taxes_id, line.tax_id, line.company_id)
+                line.price_unit = line.product_id._get_tax_included_unit_price(
+                    line.company_id,
+                    line.order_id.currency_id,
+                    line.order_id.date_order,
+                    'sale',
+                    fiscal_position=line.order_id.fiscal_position_id,
+                    product_price_unit=price,
+                    product_currency=line.currency_id
+                )
+
 
     def _get_display_price(self):
         self.ensure_one()

@@ -189,6 +189,10 @@ class AccountTax(models.Model):
             if len(invoice_repartition_line_ids) != len(refund_repartition_line_ids):
                 raise ValidationError(_("Invoice and credit note distribution should have the same number of lines."))
 
+            if not invoice_repartition_line_ids.filtered(lambda x: x.repartition_type == 'tax') or \
+                    not refund_repartition_line_ids.filtered(lambda x: x.repartition_type == 'tax'):
+                raise ValidationError(_("Invoice and credit note repartition should have at least one tax repartition line."))
+
             index = 0
             while index < len(invoice_repartition_line_ids):
                 inv_rep_ln = invoice_repartition_line_ids[index]
@@ -338,6 +342,8 @@ class AccountTax(models.Model):
         # <=> new_base * (1 - tax_amount) = base
         if self.amount_type == 'division' and price_include:
             return base_amount - (base_amount * (self.amount / 100))
+        # default value for custom amount_type
+        return 0.0
 
     def json_friendly_compute_all(self, price_unit, currency_id=None, quantity=1.0, product_id=None, partner_id=None, is_refund=False):
         """ Called by the reconciliation to compute taxes on writeoff during bank reconciliation
@@ -576,7 +582,7 @@ class AccountTax(models.Model):
             sum_repartition_factor = sum(tax_repartition_lines.mapped('factor'))
 
             #compute the tax_amount
-            if not skip_checkpoint and price_include and total_included_checkpoints.get(i) and sum_repartition_factor != 0:
+            if not skip_checkpoint and price_include and total_included_checkpoints.get(i) is not None and sum_repartition_factor != 0:
                 # We know the total to reach for that tax, so we make a substraction to avoid any rounding issues
                 tax_amount = total_included_checkpoints[i] - (base + cumulated_tax_included_amount)
                 cumulated_tax_included_amount = 0
@@ -588,7 +594,7 @@ class AccountTax(models.Model):
             tax_amount = round(tax_amount, precision_rounding=prec)
             factorized_tax_amount = round(tax_amount * sum_repartition_factor, precision_rounding=prec)
 
-            if price_include and not total_included_checkpoints.get(i):
+            if price_include and total_included_checkpoints.get(i) is None:
                 cumulated_tax_included_amount += factorized_tax_amount
 
             # If the tax affects the base of subsequent taxes, its tax move lines must

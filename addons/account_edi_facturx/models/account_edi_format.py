@@ -3,7 +3,7 @@
 from odoo import models, fields, _
 from odoo.tools import DEFAULT_SERVER_DATE_FORMAT, float_repr, is_html_empty, str2bool
 from odoo.tests.common import Form
-from odoo.exceptions import UserError
+from odoo.exceptions import RedirectWarning, UserError
 
 from datetime import datetime
 import markupsafe
@@ -36,7 +36,7 @@ class AccountEdiFormat(models.Model):
         if not edi_document.attachment_id:
             return
 
-        pdf_writer.embed_odoo_attachment(edi_document.attachment_id, subtype='application/xml')
+        pdf_writer.embed_odoo_attachment(edi_document.attachment_id, subtype='text/xml')
         if not pdf_writer.is_pdfa and str2bool(self.env['ir.config_parameter'].sudo().get_param('edi.use_pdfa', 'False')):
             try:
                 pdf_writer.convert_to_pdfa()
@@ -58,16 +58,36 @@ class AccountEdiFormat(models.Model):
 
         def format_monetary(number, currency):
             # Format the monetary values to avoid trailing decimals (e.g. 90.85000000000001).
+            if currency.is_zero(number):  # Ensure that we never return -0.0
+                number = 0.0
             return float_repr(number, currency.decimal_places)
 
         self.ensure_one()
         # Create file content.
+        seller_siret = 'siret' in invoice.company_id._fields and invoice.company_id.siret or invoice.company_id.company_registry
+        buyer_siret = 'siret' in invoice.commercial_partner_id._fields and invoice.commercial_partner_id.siret
+        tax_detail_vals = invoice._prepare_edi_tax_details(
+                grouping_key_generator=lambda tax_values: {
+                    'unece_tax_category_code': tax_values['tax_id']._get_unece_category_code(invoice.commercial_partner_id, invoice.company_id),
+                    'amount': tax_values['tax_id'].amount,
+                    'amount_type': tax_values['tax_id'].amount_type,  # We need to check the type
+                }
+            )
+        # For compatibility with the old template that was not using a grouped tax details. Only used to get the tax amount.
+        # Done here to avoid adding a key in the base method that shouldn't be used. (the tax_amount key should be used)
+        tax_details = list(tax_detail_vals['tax_details'].values())
+        for line in tax_detail_vals['invoice_line_tax_details'].values():
+            tax_details.extend(list(line['tax_details'].values()))
+        for tax_detail in tax_details:
+            tax_detail['tax'] = tax_detail['group_tax_details'][0]['tax_id']
         template_values = {
             **invoice._prepare_edi_vals_to_export(),
-            'tax_details': invoice._prepare_edi_tax_details(),
+            'tax_details': tax_detail_vals,
             'format_date': format_date,
             'format_monetary': format_monetary,
             'is_html_empty': is_html_empty,
+            'seller_specified_legal_organization': seller_siret,
+            'buyer_specified_legal_organization': buyer_siret,
         }
 
         xml_content = markupsafe.Markup("<?xml version='1.0' encoding='UTF-8'?>")
@@ -171,17 +191,35 @@ class AccountEdiFormat(models.Model):
             if elements:
                 invoice_form.narration = elements[0].text
 
-            # Total amount.
-            elements = tree.xpath('//ram:GrandTotalAmount', namespaces=tree.nsmap)
+            # Get currency string for new invoices, or invoices coming from outside
+            elements = tree.xpath('//ram:InvoiceCurrencyCode', namespaces=tree.nsmap)
             if elements:
+                currency_str = elements[0].text
+                # Fallback for old invoices from odoo where the InvoiceCurrencyCode was not present
+            else:
+                elements = tree.xpath('//ram:TaxTotalAmount', namespaces=tree.nsmap)
+                if elements:
+                    currency_str = elements[0].attrib.get('currencyID', None)
 
-                # Currency.
-                currency_str = elements[0].attrib.get('currencyID', None)
-                if currency_str:
-                    invoice_form.currency_id = self._retrieve_currency(currency_str)
+            # Currency.
+            if currency_str:
+                currency = self._retrieve_currency(currency_str)
+                if currency and not currency.active:
+                    error_msg = _('The currency (%s) of the document you are uploading is not active in this database.\n'
+                                  'Please activate it before trying again to import.', currency.name)
+                    error_action = {
+                        'view_mode': 'form',
+                        'res_model': 'res.currency',
+                        'type': 'ir.actions.act_window',
+                        'target': 'new',
+                        'res_id': currency.id,
+                        'views': [[False, 'form']]
+                    }
+                    raise RedirectWarning(error_msg, error_action, _('Display the currency'))
+                invoice_form.currency_id = currency
 
-                    # Store xml total amount.
-                    amount_total_import = total_amount * refund_sign
+                # Store xml total amount.
+                amount_total_import = total_amount * refund_sign
 
             # Date.
             elements = tree.xpath('//rsm:ExchangedDocument/ram:IssueDateTime/udt:DateTimeString', namespaces=tree.nsmap)
@@ -231,6 +269,24 @@ class AccountEdiFormat(models.Model):
                                 invoice_line_form.price_unit = float(line_elements[0].text) / float(quantity_elements[0].text)
                             else:
                                 invoice_line_form.price_unit = float(line_elements[0].text)
+                            # For Gross price, we need to check if a discount must be taken into account
+                            discount_elements = element.xpath('.//ram:AppliedTradeAllowanceCharge',
+                                                          namespaces=tree.nsmap)
+                            if discount_elements:
+                                discount_percent_elements = element.xpath(
+                                    './/ram:AppliedTradeAllowanceCharge/ram:CalculationPercent', namespaces=tree.nsmap)
+                                if discount_percent_elements:
+                                    invoice_line_form.discount = float(discount_percent_elements[0].text)
+                                else:
+                                    # if discount not available, it will be computed from the gross and net prices.
+                                    net_price_elements = element.xpath('.//ram:NetPriceProductTradePrice/ram:ChargeAmount',
+                                                                  namespaces=tree.nsmap)
+                                    if net_price_elements:
+                                        quantity_elements = element.xpath(
+                                            './/ram:NetPriceProductTradePrice/ram:BasisQuantity', namespaces=tree.nsmap)
+                                        net_unit_price = float(net_price_elements[0].text) / float(quantity_elements[0].text) \
+                                            if quantity_elements else float(net_price_elements[0].text)
+                                        invoice_line_form.discount = (invoice_line_form.price_unit - net_unit_price) / invoice_line_form.price_unit * 100.
                         else:
                             line_elements = element.xpath('.//ram:NetPriceProductTradePrice/ram:ChargeAmount', namespaces=tree.nsmap)
                             if line_elements:
@@ -239,10 +295,6 @@ class AccountEdiFormat(models.Model):
                                     invoice_line_form.price_unit = float(line_elements[0].text) / float(quantity_elements[0].text)
                                 else:
                                     invoice_line_form.price_unit = float(line_elements[0].text)
-                        # Discount.
-                        line_elements = element.xpath('.//ram:AppliedTradeAllowanceCharge/ram:CalculationPercent', namespaces=tree.nsmap)
-                        if line_elements:
-                            invoice_line_form.discount = float(line_elements[0].text)
 
                         # Taxes
                         tax_element = element.xpath('.//ram:SpecifiedLineTradeSettlement/ram:ApplicableTradeTax/ram:RateApplicablePercent', namespaces=tree.nsmap)

@@ -107,6 +107,14 @@ class CrmLead(models.Model):
                     })
         return True
 
+    def _prepare_customer_values(self, partner_name, is_company=False, parent_id=False):
+        res = super()._prepare_customer_values(partner_name, is_company=is_company, parent_id=parent_id)
+        res.update({
+            'partner_latitude': self.partner_latitude,
+            'partner_longitude': self.partner_longitude,
+        })
+        return res
+
     def search_geo_partner(self):
         Partner = self.env['res.partner']
         res_partner_ids = {}
@@ -296,8 +304,8 @@ class CrmLead(models.Model):
             except AccessError:
                 return super(CrmLead, self)._get_access_action(access_uid=access_uid, force_website=force_website)
             user = self.env['res.users'].sudo().browse(access_uid)
-        if user.share or force_website:
             record = self.with_user(user)
+        if user.share or force_website:
             try:
                 record.check_access_rights('read')
                 record.check_access_rule('read')

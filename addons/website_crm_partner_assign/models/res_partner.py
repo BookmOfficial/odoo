@@ -8,7 +8,7 @@ from odoo.addons.http_routing.models.ir_http import slug
 
 class ResPartnerGrade(models.Model):
     _name = 'res.partner.grade'
-    _order = 'sequence desc'
+    _order = 'sequence'
     _inherit = ['website.published.mixin']
     _description = 'Partner Grade'
 
@@ -29,7 +29,7 @@ class ResPartnerGrade(models.Model):
 
 class ResPartnerActivation(models.Model):
     _name = 'res.partner.activation'
-    _order = 'sequence desc'
+    _order = 'sequence'
     _description = 'Partner Activation'
 
     sequence = fields.Integer('Sequence')
@@ -94,6 +94,18 @@ class ResPartner(models.Model):
             partner.opportunity_count += assign_counts.get(partner.id, 0)
 
     def action_view_opportunity(self):
+        self.ensure_one()  # especially here as we are doing an id, in, IDS domain
         action = super().action_view_opportunity()
-        action['domain'] = expression.OR([action.get('domain', []), [('partner_assigned_id', '=', self.id)]])
+        action_domain_origin = action.get('domain')
+        action_context_origin = action.get('context') or {}
+        action_domain_assign = [('partner_assigned_id', '=', self.id)]
+        if not action_domain_origin:
+            action['domain'] = action_domain_assign
+            return action
+        # perform searches independently as having OR with those leaves seems to
+        # be counter productive
+        Lead = self.env['crm.lead'].with_context(**action_context_origin)
+        ids_origin = Lead.search(action_domain_origin).ids
+        ids_new = Lead.search(action_domain_assign).ids
+        action['domain'] = [('id', 'in', sorted(list(set(ids_origin) | set(ids_new))))]
         return action

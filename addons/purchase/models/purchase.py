@@ -379,13 +379,12 @@ class PurchaseOrder(models.Model):
             force_email_company=force_email_company, force_email_lang=force_email_lang
         )
         if self.date_order:
-            amount_txt = _('%(amount)s due %(date)s',
+            render_context['subtitle'] = _('%(amount)s due\N{NO-BREAK SPACE}%(date)s',
                            amount=format_amount(self.env, self.amount_total, self.currency_id, lang_code=render_context.get('lang')),
                            date=format_date(self.env, self.date_order, date_format='short', lang_code=render_context.get('lang'))
                           )
         else:
-            amount_txt = format_amount(self.env, self.amount_total, self.currency_id, lang_code=render_context.get('lang'))
-        render_context['subtitle'] = Markup("<span>%s<br />%s</span>") % (self.name, amount_txt)
+            render_context['subtitle'] = format_amount(self.env, self.amount_total, self.currency_id, lang_code=render_context.get('lang'))
         return render_context
 
     def _track_subtype(self, init_values):
@@ -625,6 +624,7 @@ class PurchaseOrder(models.Model):
             raise UserError(_('Please define an accounting purchase journal for the company %s (%s).') % (self.company_id.name, self.company_id.id))
 
         partner_invoice = self.env['res.partner'].browse(self.partner_id.address_get(['invoice'])['invoice'])
+        partner_bank_id = self.partner_id.bank_ids.filtered_domain(['|', ('company_id', '=', False), ('company_id', '=', self.company_id.id)])[:1]
         invoice_vals = {
             'ref': self.partner_ref or '',
             'move_type': move_type,
@@ -634,7 +634,7 @@ class PurchaseOrder(models.Model):
             'partner_id': partner_invoice.id,
             'fiscal_position_id': (self.fiscal_position_id or self.fiscal_position_id._get_fiscal_position(partner_invoice)).id,
             'payment_reference': self.partner_ref or '',
-            'partner_bank_id': self.partner_id.bank_ids[:1].id,
+            'partner_bank_id': partner_bank_id.id,
             'invoice_origin': self.name,
             'invoice_payment_term_id': self.payment_term_id.id,
             'invoice_line_ids': [],
@@ -1240,7 +1240,8 @@ class PurchaseOrderLine(models.Model):
 
         self.price_unit = price_unit
         product_ctx = {'seller_id': seller.id, 'lang': get_lang(self.env, self.partner_id.lang).code}
-        self.name = self._get_product_purchase_description(self.product_id.with_context(product_ctx))
+        if seller.product_name:
+            self.name = self._get_product_purchase_description(self.product_id.with_context(product_ctx))
 
     @api.onchange('product_id', 'product_qty', 'product_uom')
     def _onchange_suggest_packaging(self):

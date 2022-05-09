@@ -1047,3 +1047,102 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         self.assertEqual(mails, ['odoobot@example.com'])
 
         self.assertGoogleAPINotCalled()
+
+    def test_several_users_have_the_same_mail(self):
+        # We want to chose the internal user
+        user1 = new_test_user(self.env, login='test@example.com', groups='base.group_portal')
+        user2 = new_test_user(self.env, login='calendar-user2')
+        user2.partner_id.email = 'test@example.com'
+        user1.partner_id.name = "A First in alphabet"
+        user2.partner_id.name = "B Second in alphabet"
+        values = {
+            'id': "abcd",
+            'description': 'coucou',
+            "updated": self.now,
+            'organizer': {'email': 'odoobot@example.com', 'self': True},
+            'summary': False,
+            'visibility': 'public',
+            'attendees': [{'email': 'test@example.com', 'responseStatus': 'accepted'}, {'email': 'test2@example.com', 'responseStatus': 'accepted'}],
+            'reminders': {'useDefault': True},
+            'start': {
+                'dateTime': '2020-01-13T16:00:00+01:00',
+                'timeZone': 'Europe/Brussels'
+            },
+            'end': {
+                'dateTime': '2020-01-13T20:00:00+01:00',
+                'timeZone': 'Europe/Brussels'
+            },
+        }
+        event = self.env['calendar.event']._sync_google2odoo(GoogleEvent([values]))
+        new_partner = self.env['res.partner'].search([('email', '=', 'test2@example.com')])
+        self.assertEqual(event.partner_ids.ids, [user2.partner_id.id, new_partner.id], "The internal user should be chosen")
+
+    @patch_api
+    def test_event_with_meeting_url(self):
+        values = {
+            'id': 'oj44nep1ldf8a3ll02uip0c9aa',
+            'description': 'Small mini desc',
+            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'summary': 'Pricing new update',
+            'visibility': 'public',
+            'attendees': [{
+                'displayName': 'Mitchell Admin',
+                'email': 'admin@yourcompany.example.com',
+                'responseStatus': 'needsAction'
+            },],
+            'reminders': {'useDefault': True},
+            'start': {
+                'dateTime': '2020-01-13T16:55:00+01:00',
+                'timeZone': 'Europe/Brussels'
+            },
+            'end': {
+                'dateTime': '2020-01-13T19:55:00+01:00',
+                'timeZone': 'Europe/Brussels'
+            },
+            'conferenceData': {
+                'entryPoints': [{
+                    'entryPointType': 'video',
+                    'uri': 'https://meet.google.com/odoo-random-test',
+                    'label': 'meet.google.com/odoo-random-test'
+                }, {
+                    'entryPointType': 'more',
+                    'uri':'https://tel.meet/odoo-random-test?pin=42424242424242',
+                    'pin':'42424242424242'
+                }]
+            }
+        }
+        self.env['calendar.event']._sync_google2odoo(GoogleEvent([values]))
+        event = self.env['calendar.event'].search([('google_id', '=', values.get('id'))])
+        self.assertTrue(event, "It should have created an event")
+        self.assertEqual(event.videocall_location, 'https://meet.google.com/odoo-random-test')
+        self.assertGoogleAPINotCalled()
+
+    @patch_api
+    def test_event_with_availability(self):
+        values = {
+            'id': 'oj44nep1ldf8a3ll02uip0c9aa',
+            'description': 'Small mini desc',
+            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'summary': 'Pricing new update',
+            'visibility': 'public',
+            'attendees': [{
+                'displayName': 'Mitchell Admin',
+                'email': 'admin@yourcompany.example.com',
+                'responseStatus': 'needsAction'
+            },],
+            'reminders': {'useDefault': True},
+            'start': {
+                'dateTime': '2020-01-13T16:55:00+01:00',
+                'timeZone': 'Europe/Brussels'
+            },
+            'end': {
+                'dateTime': '2020-01-13T19:55:00+01:00',
+                'timeZone': 'Europe/Brussels'
+            },
+            'transparency': 'transparent'
+        }
+        self.env['calendar.event']._sync_google2odoo(GoogleEvent([values]))
+        event = self.env['calendar.event'].search([('google_id', '=', values.get('id'))])
+        self.assertTrue(event, "It should have created an event")
+        self.assertEqual(event.show_as, 'free')
+        self.assertGoogleAPINotCalled

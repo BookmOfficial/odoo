@@ -7,7 +7,7 @@ from dateutil.relativedelta import relativedelta
 
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError, ValidationError
-from odoo.tools import html2plaintext, is_html_empty, plaintext2html
+from odoo.tools import is_html_empty
 
 ATTENDEE_CONVERTER_O2M = {
     'needsAction': 'notresponded',
@@ -16,6 +16,7 @@ ATTENDEE_CONVERTER_O2M = {
     'accepted': 'accepted'
 }
 ATTENDEE_CONVERTER_M2O = {
+    'none': 'needsAction',
     'notResponded': 'needsAction',
     'tentativelyAccepted': 'tentative',
     'declined': 'declined',
@@ -105,7 +106,7 @@ class Meeting(models.Model):
         values = {
             **default_values,
             'name': microsoft_event.subject or _("(No title)"),
-            'description': plaintext2html(microsoft_event.bodyPreview),
+            'description': microsoft_event.body['content'],
             'location': microsoft_event.location and microsoft_event.location.get('displayName') or False,
             'user_id': microsoft_event.owner(self.env).id,
             'privacy': sensitivity_o2m.get(microsoft_event.sensitivity, self.default_get(['privacy'])['privacy']),
@@ -273,8 +274,8 @@ class Meeting(models.Model):
 
         if 'description' in fields_to_sync:
             values['body'] = {
-                'content': html2plaintext(self.description) if not is_html_empty(self.description) else '',
-                'contentType': "text",
+                'content': self.description if not is_html_empty(self.description) else '',
+                'contentType': "html",
             }
 
         if any(x in fields_to_sync for x in ['allday', 'start', 'date_end', 'stop']):

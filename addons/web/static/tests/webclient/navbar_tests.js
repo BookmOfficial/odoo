@@ -9,7 +9,7 @@ import { actionService } from "@web/webclient/actions/action_service";
 import { hotkeyService } from "@web/core/hotkeys/hotkey_service";
 import { NavBar } from "@web/webclient/navbar/navbar";
 import { clearRegistryWithCleanup, makeTestEnv } from "../helpers/mock_env";
-import { click, getFixture, nextTick, patchWithCleanup, makeDeferred } from "../helpers/utils";
+import { click, getFixture, nextTick, patchWithCleanup, makeDeferred, mockTimeout } from "../helpers/utils";
 
 const { Component, mount, xml } = owl;
 const systrayRegistry = registry.category("systray");
@@ -61,6 +61,22 @@ QUnit.test("dropdown menu can be toggled", async (assert) => {
     assert.containsOnce(dropdown, ".dropdown-menu");
     await click(dropdown, "button.dropdown-toggle");
     assert.containsNone(dropdown, ".dropdown-menu");
+    navbar.destroy();
+});
+
+QUnit.test("href attribute on apps menu items", async (assert) => {
+    baseConfig.serverData.menus = {
+        root: { id: "root", children: [1], name: "root", appID: "root" },
+        1: { id: 1, children: [2], name: "My app", appID: 1, actionID: 339 },
+    };
+    const env = await makeTestEnv(baseConfig);
+    const target = getFixture();
+    const navbar = await mount(NavBar, { env, target });
+    const appsMenu = navbar.el.querySelector(".o_navbar_apps_menu");
+    await click(appsMenu, "button.dropdown-toggle");
+    const dropdownItem = navbar.el.querySelector(".o_navbar_apps_menu .dropdown-item");
+    assert.strictEqual(dropdownItem.getAttribute("href"), "#menu_id=1&action=339");
+
     navbar.destroy();
 });
 
@@ -423,15 +439,7 @@ QUnit.test("'more' menu sections properly updated on app change", async (assert)
 QUnit.test("Do not execute adapt when navbar is destroyed", async (assert) => {
     assert.expect(5);
 
-    let prom = makeDeferred();
-
-    patchWithCleanup(browser, {
-        setTimeout: async (handler, delay, ...args) => {
-            await prom;
-            return handler(...args);
-        },
-        clearTimeout: () => {},
-    });
+    const execRegisteredTimeouts = mockTimeout();
     class MyNavbar extends NavBar {
         async adapt() {
             assert.step("adapt NavBar");
@@ -447,13 +455,10 @@ QUnit.test("Do not execute adapt when navbar is destroyed", async (assert) => {
     const navbar = await mount(MyNavbar, { env, target });
     assert.verifySteps(["adapt NavBar"]);
     window.dispatchEvent(new Event("resize"));
-    prom.resolve();
-    await prom;
-    prom = makeDeferred();
+    execRegisteredTimeouts();
     assert.verifySteps(["adapt NavBar"]);
     window.dispatchEvent(new Event("resize"));
     navbar.destroy();
-    prom.resolve();
-    await prom;
+    execRegisteredTimeouts();
     assert.verifySteps([]);
 });

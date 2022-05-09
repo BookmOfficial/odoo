@@ -341,8 +341,9 @@ class IrAttachment(models.Model):
                 'xml' in mimetype and    # other xml (svg, text/xml, etc)
                 not 'openxmlformats' in mimetype)  # exception for Office formats
         user = self.env.context.get('binary_field_real_user', self.env.user)
-        force_text = (xml_like and (not user._is_system() or
-            self.env.context.get('attachments_mime_plainxml')))
+        force_text = xml_like and (
+            self.env.context.get('attachments_mime_plainxml') or
+            not self.env['ir.ui.view'].with_user(user).check_access_rights('write', False))
         if force_text:
             values['mimetype'] = 'text/plain'
         if not self.env.context.get('image_no_postprocess'):
@@ -575,7 +576,6 @@ class IrAttachment(models.Model):
         return super(IrAttachment, self).write(vals)
 
     def copy(self, default=None):
-        self.check('write')
         if not (default or {}).keys() & {'datas', 'db_datas', 'raw'}:
             # ensure the content is kept and recomputes checksum/store_fname
             default = dict(default or {}, raw=self.raw)
@@ -626,9 +626,11 @@ class IrAttachment(models.Model):
             # creating multiple attachments on a single record.
             record_tuple = (values.get('res_model'), values.get('res_id'))
             record_tuple_set.add(record_tuple)
-        for record_tuple in record_tuple_set:
-            (res_model, res_id) = record_tuple
-            self.check('create', values={'res_model':res_model, 'res_id':res_id})
+
+        # don't use possible contextual recordset for check, see commit for details
+        Attachments = self.browse()
+        for res_model, res_id in record_tuple_set:
+            Attachments.check('create', values={'res_model':res_model, 'res_id':res_id})
         return super().create(vals_list)
 
     def _post_add_create(self):

@@ -2536,6 +2536,24 @@ class TestFields(TransactionCaseWithUserDemo):
         self.assertFalse(Model.rare_description.prefetch)
         self.assertFalse(Model.rare_html_description.prefetch)
 
+    def test_98_unlink_recompute(self):
+        move = self.env['test_new_api.move'].create({
+            'line_ids': [(0, 0, {'quantity': 42})],
+        })
+        line = move.line_ids
+        self.assertEqual(move.quantity, 42)
+
+        # create an ir.rule for lines that uses move.quantity
+        self.env['ir.rule'].create({
+            'model_id': self.env['ir.model']._get(line._name).id,
+            'domain_force': "[('move_id.quantity', '>=', 0)]",
+        })
+
+        # unlink the line, and check the recomputation of move.quantity
+        user = self.env.ref('base.user_demo')
+        line.with_user(user).unlink()
+        self.assertEqual(move.quantity, 0)
+
 
 class TestX2many(common.TransactionCase):
     def test_definition_many2many(self):
@@ -2774,12 +2792,12 @@ class TestX2many(common.TransactionCase):
         result = recs.search([('id', 'in', recs.ids), ('lines', 'not in', [])])
         self.assertEqual(result, recs)
 
-        # these cases are weird
+        # test 'not in' where the lines contain NULL values
         result = recs.search([('id', 'in', recs.ids), ('lines', 'not in', (line1 + line0).ids)])
-        self.assertEqual(result, recs.browse())
+        self.assertEqual(result, recs - recX)
 
         result = recs.search([('id', 'in', recs.ids), ('lines', 'not in', line0.ids)])
-        self.assertEqual(result, recs.browse())
+        self.assertEqual(result, recs)
 
         # special case: compare with False
         result = recs.search([('id', 'in', recs.ids), ('lines', '=', False)])
@@ -2805,6 +2823,21 @@ class TestX2many(common.TransactionCase):
             'ttype': 'many2many',
             'relation': 'res.country',
             'store': False,
+        })
+        self.assertTrue(field.unlink())
+
+    def test_custom_m2m_related(self):
+        # this checks the ondelete of a related many2many field
+        model_id = self.env['ir.model']._get_id('res.partner')
+        field = self.env['ir.model.fields'].create({
+            'name': 'x_foo',
+            'field_description': 'Foo',
+            'model_id': model_id,
+            'ttype': 'many2many',
+            'relation': 'res.partner.category',
+            'related': 'category_id',
+            'readonly': True,
+            'store': True,
         })
         self.assertTrue(field.unlink())
 
@@ -3062,6 +3095,24 @@ class TestParentStore(common.TransactionCase):
         """ Move multiple nodes to create a cycle. """
         with self.assertRaises(UserError):
             self.cats(1, 3).write({'parent': self.cats(9).id})
+
+    def test_compute_depend_parent_path(self):
+        self.assertEqual(self.cats(7).depth, 3)
+        self.assertEqual(self.cats(8).depth, 3)
+        self.assertEqual(self.cats(9).depth, 3)
+
+        # change parent of node to have 2 parents
+        self.cats(7).parent = self.cats(2)
+        self.assertEqual(self.cats(7).depth, 2)
+
+        # change parent of node to root
+        self.cats(7).parent = False
+        self.assertEqual(self.cats(7).depth, 0)
+
+        # change grand-parent of nodes
+        self.cats(6).parent = self.cats(0)
+        self.assertEqual(self.cats(8).depth, 2)
+        self.assertEqual(self.cats(9).depth, 2)
 
 
 class TestRequiredMany2one(common.TransactionCase):

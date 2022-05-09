@@ -225,8 +225,14 @@ class ProductTemplate(models.Model):
     def _compute_barcode(self):
         self.barcode = False
         for template in self:
-            if len(template.product_variant_ids) == 1:
+            # TODO master: update product_variant_count depends and use it instead
+            variant_count = len(template.product_variant_ids)
+            if variant_count == 1:
                 template.barcode = template.product_variant_ids.barcode
+            elif variant_count == 0:
+                archived_variants = template.with_context(active_test=False).product_variant_ids
+                if len(archived_variants) == 1:
+                    template.barcode = archived_variants.barcode
 
     def _search_barcode(self, operator, value):
         templates = self.with_context(active_test=False).search([('product_variant_ids.barcode', operator, value)])
@@ -472,7 +478,6 @@ class ProductTemplate(models.Model):
 
         Product = self.env['product.product']
         templates = self.browse([])
-        domain_no_variant = [('product_variant_ids', '=', False)]
         while True:
             domain = templates and [('product_tmpl_id', 'not in', templates.ids)] or []
             args = args if args is not None else []
@@ -487,13 +492,7 @@ class ProductTemplate(models.Model):
                    If this happens, an infinite loop will occur."""
                 break
             templates |= new_templates
-            current_round_templates = self.browse([])
-            if not products:
-                domain_template = args + domain_no_variant + (templates and [('id', 'not in', templates.ids)] or [])
-                template_ids = super(ProductTemplate, self)._name_search(name=name, args=domain_template, operator=operator, limit=limit, name_get_uid=name_get_uid)
-                current_round_templates |= self.browse(template_ids)
-                templates |= current_round_templates
-            if (not products and not current_round_templates) or (limit and (len(templates) > limit)):
+            if (not products) or (limit and (len(templates) > limit)):
                 break
 
         searched_ids = set(templates.ids)
@@ -501,10 +500,16 @@ class ProductTemplate(models.Model):
         # we need to add the base _name_search to the results
         # FIXME awa: this is really not performant at all but after discussing with the team
         # we don't see another way to do it
+        tmpl_without_variant_ids = []
         if not limit or len(searched_ids) < limit:
+            tmpl_without_variant_ids = self.env['product.template'].search(
+                [('id', 'not in', self.env['product.template']._search([('product_variant_ids.active', '=', True)]))]
+            )
+        if tmpl_without_variant_ids:
+            domain = expression.AND([args or [], [('id', 'in', tmpl_without_variant_ids.ids)]])
             searched_ids |= set(super(ProductTemplate, self)._name_search(
                     name,
-                    args=args,
+                    args=domain,
                     operator=operator,
                     limit=limit,
                     name_get_uid=name_get_uid))
@@ -623,6 +628,9 @@ class ProductTemplate(models.Model):
                 # For each possible variant, create if it doesn't exist yet.
                 for combination_tuple in all_combinations:
                     combination = self.env['product.template.attribute.value'].concat(*combination_tuple)
+                    is_combination_possible = tmpl_id._is_combination_possible_by_config(combination, ignore_no_variant=True)
+                    if not is_combination_possible:
+                        continue
                     if combination in existing_variants:
                         current_variants_to_activate += existing_variants[combination]
                     else:
@@ -653,6 +661,9 @@ class ProductTemplate(models.Model):
             Product.create(variants_to_create)
         if variants_to_unlink:
             variants_to_unlink._unlink_or_archive()
+            # prevent change if exclusion deleted template by deleting last variant
+            if self.exists() != self:
+                raise UserError(_("This configuration of product attributes, values, and exclusions would lead to no possible variant. Please archive or delete your product directly if intended."))
 
         # prefetched o2m have to be reloaded (because of active_test)
         # (eg. product.template: product_variant_ids)
@@ -857,6 +868,15 @@ class ProductTemplate(models.Model):
             # combination has different values than the ones configured on the template
             return False
 
+        exclusions = self._get_own_attribute_exclusions()
+        if exclusions:
+            # exclude if the current value is in an exclusion,
+            # and the value excluding it is also in the combination
+            for ptav in combination:
+                for exclusion in exclusions.get(ptav.id):
+                    if exclusion in combination.ids:
+                        return False
+
         return True
 
     def _is_combination_possible(self, combination, parent_combination=None, ignore_no_variant=False):
@@ -900,15 +920,6 @@ class ProductTemplate(models.Model):
             if not variant or not variant.active:
                 # not dynamic, the variant has been archived or deleted
                 return False
-
-        exclusions = self._get_own_attribute_exclusions()
-        if exclusions:
-            # exclude if the current value is in an exclusion,
-            # and the value excluding it is also in the combination
-            for ptav in combination:
-                for exclusion in exclusions.get(ptav.id):
-                    if exclusion in combination.ids:
-                        return False
 
         parent_exclusions = self._get_parent_attribute_exclusions(parent_combination)
         if parent_exclusions:
@@ -1264,11 +1275,20 @@ class ProductTemplate(models.Model):
     def _get_contextual_price(self):
         self.ensure_one()
         # YTI TODO: During website_sale cleaning, we should get rid of those crappy context thing
-        if not self._context.get('pricelist'):
+        pricelist = self._get_contextual_pricelist()
+        if not pricelist:
             return 0.0
-        pricelist = self.env['product.pricelist'].browse(self._context.get('pricelist'))
 
         quantity = self.env.context.get('quantity', 1.0)
         uom = self.env['uom.uom'].browse(self.env.context.get('uom'))
         date = self.env.context.get('date')
         return pricelist._get_product_price(self, quantity, uom=uom, date=date)
+
+    def _get_contextual_pricelist(self):
+        """ Get the contextual pricelist
+
+        This method is meant to be overriden in other standard modules.
+        """
+        if self._context.get('pricelist'):
+            return self.env['product.pricelist'].browse(self._context.get('pricelist'))
+        return self.env['product.pricelist']

@@ -1,5 +1,4 @@
 /** @odoo-module **/
-const INVISIBLE_REGEX = /\u200c/g;
 
 export const DIRECTIONS = {
     LEFT: false,
@@ -869,24 +868,85 @@ export function isBold(node) {
     return fontWeight > 500 || fontWeight > +getComputedStyle(closestBlock(node)).fontWeight;
 }
 /**
- * Return true if the given node font style equal italic
+ * Return true if the given node appears italic.
  *
  * @param {Node} node
  * @returns {boolean}
  */
 export function isItalic(node) {
-    const fontStyle = getComputedStyle(closestElement(node)).fontStyle;
-    return fontStyle === 'italic';
+    return getComputedStyle(closestElement(node)).fontStyle === 'italic';
 }
 /**
- * Return true if the given node text-decoration style equal underline
+ * Return true if the given node appears underlined.
  *
  * @param {Node} node
  * @returns {boolean}
  */
 export function isUnderline(node) {
-    const textDecoration = getComputedStyle(closestElement(node)).textDecorationLine;
-    return textDecoration === 'underline';
+    let parent = closestElement(node);
+    while (parent) {
+        if (getComputedStyle(parent).textDecorationLine === 'underline') {
+            return true;
+        }
+        parent = parent.parentElement;
+    }
+    return false;
+}
+/**
+ * Return true if the given node appears struck through.
+ *
+ * @param {Node} node
+ * @returns {boolean}
+ */
+export function isStrikeThrough(node) {
+    let parent = closestElement(node);
+    while (parent) {
+        if (getComputedStyle(parent).textDecorationLine === 'line-through') {
+            return true;
+        }
+        parent = parent.parentElement;
+    }
+    return false;
+}
+/**
+ * Return true if the given node appears in a different direction than that of
+ * the editable ('ltr' or 'rtl').
+ *
+ * Note: The direction of the editable is set on its "dir" attribute, to the
+ * value of the "direction" option on instantiation of the editor.
+ *
+ * @param {Node} node
+ * @param {Element} editable
+ * @returns {boolean}
+ */
+ export function isDirectionSwitched(node, editable) {
+    const defaultDirection = editable.getAttribute('dir');
+    return getComputedStyle(closestElement(node)).direction !== defaultDirection;
+}
+export const isFormat = {
+    bold: isBold,
+    italic: isItalic,
+    underline: isUnderline,
+    strikeThrough: isStrikeThrough,
+    switchDirection: isDirectionSwitched,
+};
+/**
+ * Return true if the current selection on the editable appears as the given
+ * format. The selection is considered to appear as that format if every text
+ * node in it appears as that format.
+ *
+ * @param {Element} editable
+ * @param {String} format 'bold'|'italic'|'underline'|'strikeThrough'|'switchDirection'
+ * @returns {boolean}
+ */
+export function isSelectionFormat(editable, format) {
+    const selectedText = getSelectedNodes(editable)
+        .filter(n => n.nodeType === Node.TEXT_NODE && n.nodeValue.trim().length);
+    if (selectedText.length) {
+        return selectedText.every(n => isFormat[format](n.parentElement, editable))
+    } else {
+        return isFormat[format](closestElement(editable.ownerDocument.getSelection().anchorNode), editable);
+    }
 }
 
 export function isUnbreakable(node) {
@@ -918,15 +978,10 @@ export function isUnremovable(node) {
     if (node.nodeType !== Node.ELEMENT_NODE && node.nodeType !== Node.TEXT_NODE) {
         return true;
     }
-    const isEditableRoot =
-        node.isContentEditable &&
-        node.parentElement &&
-        !node.parentElement.isContentEditable &&
-        node.nodeName !== 'A'; // links can be their own contenteditable but should be removable by default.
     return (
-        isEditableRoot ||
+        node.oid === 'root' ||
         (node.nodeType === Node.ELEMENT_NODE &&
-            (node.getAttribute('t-set') || node.getAttribute('t-call'))) ||
+            (node.classList.contains('o_editable') || node.getAttribute('t-set') || node.getAttribute('t-call'))) ||
         (node.classList && node.classList.contains('oe_unremovable'))
     );
 }
@@ -942,6 +997,12 @@ export function isFontAwesome(node) {
         node &&
         (node.nodeName === 'I' || node.nodeName === 'SPAN') &&
         ['fa', 'fab', 'fad', 'far'].some(faClass => node.classList.contains(faClass))
+    );
+}
+export function isZWS(node) {
+    return (
+        node &&
+        node.textContent === '\u200B'
     );
 }
 export function isMediaElement(node) {
@@ -1096,6 +1157,7 @@ export function isContentTextNode(node) {
  * will always return 'true' while it is sometimes invisible.
  *
  * @param {Node} node
+ * @param {boolean} areBlocksAlwaysVisible
  * @returns {boolean}
  */
 export function isVisible(node, areBlocksAlwaysVisible = true) {
@@ -1245,7 +1307,7 @@ export function isFakeLineBreak(brEl) {
  * @returns {boolean}
  */
 export function isEmptyBlock(blockEl) {
-    if (blockEl.nodeType !== Node.ELEMENT_NODE) {
+    if (!blockEl || blockEl.nodeType !== Node.ELEMENT_NODE) {
         return false;
     }
     if (isVisibleStr(blockEl.textContent)) {
@@ -1393,7 +1455,7 @@ export function splitAroundUntil(elements, limitAncestor) {
 }
 
 export function insertText(sel, content) {
-    if (sel.anchorNode.nodeType == Node.TEXT_NODE) {
+    if (sel.anchorNode.nodeType === Node.TEXT_NODE) {
         const pos = [sel.anchorNode.parentElement, splitTextNode(sel.anchorNode, sel.anchorOffset)];
         setSelection(...pos, ...pos, false);
     }
@@ -1402,6 +1464,7 @@ export function insertText(sel, content) {
     sel.getRangeAt(0).insertNode(txt);
     restore();
     setSelection(...boundariesOut(txt), false);
+    return txt;
 }
 
 /**
@@ -1436,12 +1499,39 @@ export function fillEmpty(el) {
         blockEl.appendChild(br);
         fillers.br = br;
     }
-    if (!el.textContent.length && isUnremovable(el) && !isBlock(el)) {
+    if (
+        !el.textContent.length &&
+        !isBlock(el) &&
+        el.nodeName !== 'BR' &&
+        !el.hasAttribute("data-oe-zws-empty-inline")
+    ) {
+        // As soon as there is actual content in the node, the zero-width space
+        // is removed by the sanitize function.
         const zws = document.createTextNode('\u200B');
         el.appendChild(zws);
+        el.setAttribute("data-oe-zws-empty-inline", "");
         fillers.zws = zws;
+        const previousSibling = el.previousSibling;
+        if (previousSibling && previousSibling.nodeName === "BR") {
+            previousSibling.remove();
+        }
+        setSelection(zws, 0, zws, 0);
     }
     return fillers;
+}
+/**
+ * Takes a selection (assumed to be collapsed) and insert a zero-width space at
+ * its anchor point. Then, select that zero-width space.
+ *
+ * @param {Selection} selection
+ * @returns {Node} the inserted zero-width space
+ */
+export function insertAndSelectZws(selection) {
+    const offset = selection.anchorOffset;
+    const zws = insertText(selection, '\u200B');
+    splitTextNode(zws, offset);
+    selection.getRangeAt(0).selectNode(zws);
+    return zws;
 }
 /**
  * Removes the given node if invisible and all its invisible ancestors.
@@ -1459,7 +1549,7 @@ export function clearEmpty(node) {
 }
 
 export function setTagName(el, newTagName) {
-    if (el.tagName == newTagName) {
+    if (el.tagName === newTagName) {
         return el;
     }
     var n = document.createElement(newTagName);
@@ -1598,6 +1688,7 @@ export function prepareUpdate(...args) {
  * @param {HTMLElement} el
  * @param {number} offset
  * @param {number} direction @see DIRECTIONS.LEFT @see DIRECTIONS.RIGHT
+ * @param {CTYPES} leftCType
  * @returns {Object}
  */
 export function getState(el, offset, direction, leftCType) {
@@ -1633,7 +1724,7 @@ export function getState(el, offset, direction, leftCType) {
     let lastSpace = null;
     for (const node of domPath) {
         if (node.nodeType === Node.TEXT_NODE) {
-            const value = node.nodeValue.replace(INVISIBLE_REGEX, '');
+            const value = node.nodeValue;
             // If we hit a text node, the state depends on the path direction:
             // any space encountered backwards is a visible space if we hit
             // visible content afterwards. If going forward, spaces are only

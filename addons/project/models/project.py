@@ -8,7 +8,7 @@ from collections import defaultdict
 from datetime import timedelta, datetime, time
 from random import randint
 
-from odoo import api, Command, fields, models, tools, SUPERUSER_ID, _
+from odoo import api, Command, fields, models, tools, SUPERUSER_ID, _, _lt
 from odoo.exceptions import UserError, ValidationError, AccessError
 from odoo.tools import format_amount
 from odoo.osv.expression import OR
@@ -160,13 +160,24 @@ class Project(models.Model):
     def _compute_attached_docs_count(self):
         self.env.cr.execute(
             """
-            SELECT coalesce(task.project_id, project.id), count(*)
-              FROM ir_attachment attachment
-              LEFT JOIN project_task task ON attachment.res_model = 'project.task' AND task.id = attachment.res_id
-              LEFT JOIN project_project project ON attachment.res_model = 'project.project' AND project.id = attachment.res_id
-             WHERE project.id IN %(project_ids)s
-                OR task.project_id IN %(project_ids)s
-             GROUP BY coalesce(task.project_id, project.id)
+            WITH docs AS (
+                 SELECT res_id as id, count(*) as count
+                   FROM ir_attachment
+                  WHERE res_model = 'project.project'
+                    AND res_id IN %(project_ids)s
+               GROUP BY res_id
+
+              UNION ALL
+
+                 SELECT t.project_id as id, count(*) as count
+                   FROM ir_attachment a
+                   JOIN project_task t ON a.res_model = 'project.task' AND a.res_id = t.id
+                  WHERE t.project_id IN %(project_ids)s
+               GROUP BY t.project_id
+            )
+            SELECT id, sum(count)
+              FROM docs
+          GROUP BY id
             """,
             {"project_ids": tuple(self.ids)}
         )
@@ -177,9 +188,7 @@ class Project(models.Model):
     def _compute_task_count(self):
         task_data = self.env['project.task'].read_group(
             [('project_id', 'in', self.ids),
-             '|',
-                ('stage_id.fold', '=', False),
-                ('stage_id', '=', False)],
+             ('is_closed', '=', False)],
             ['project_id', 'display_project_id:count'], ['project_id'])
         result_wo_subtask = defaultdict(int)
         result_with_subtasks = defaultdict(int)
@@ -243,7 +252,7 @@ class Project(models.Model):
         'res.users', 'project_favorite_user_rel', 'project_id', 'user_id',
         default=_get_default_favorite_user_ids,
         string='Members')
-    is_favorite = fields.Boolean(compute='_compute_is_favorite', inverse='_inverse_is_favorite',
+    is_favorite = fields.Boolean(compute='_compute_is_favorite', inverse='_inverse_is_favorite', compute_sudo=True,
         string='Show Project on Dashboard',
         help="Whether this project should be displayed on your dashboard.")
     label_tasks = fields.Char(string='Use Tasks as', default='Tasks', help="Label used for the tasks of the project.", translate=True)
@@ -255,7 +264,7 @@ class Project(models.Model):
     task_count = fields.Integer(compute='_compute_task_count', string="Task Count")
     task_count_with_subtasks = fields.Integer(compute='_compute_task_count')
     task_ids = fields.One2many('project.task', 'project_id', string='Tasks',
-                               domain=['|', ('stage_id.fold', '=', False), ('stage_id', '=', False)])
+                               domain=[('is_closed', '=', False)])
     color = fields.Integer(string='Color Index')
     user_id = fields.Many2one('res.users', string='Project Manager', default=lambda self: self.env.user, tracking=True)
     alias_enabled = fields.Boolean(string='Use Email Alias', compute='_compute_alias_enabled', readonly=False)
@@ -457,24 +466,23 @@ class Project(models.Model):
     def map_tasks(self, new_project_id):
         """ copy and map tasks from old to new project """
         project = self.browse(new_project_id)
-        tasks = self.env['project.task']
+        new_task_ids = []
+        new_subtasks = self.env['project.task']
         # We want to copy archived task, but do not propagate an active_test context key
-        task_ids = self.env['project.task'].with_context(active_test=False).search([('project_id', '=', self.id)], order='parent_id').ids
-        old_to_new_tasks = {}
+        task_ids = self.env['project.task'].with_context(active_test=False).search([('project_id', '=', self.id), ('parent_id', '=', False)]).ids
+        if self.allow_task_dependencies and 'task_mapping' not in self.env.context:
+            self = self.with_context(task_mapping=dict())
         for task in self.env['project.task'].browse(task_ids):
             # preserve task name and stage, normally altered during copy
             defaults = self._map_tasks_default_valeus(task, project)
-            if task.parent_id:
-                # set the parent to the duplicated task
-                defaults['parent_id'] = old_to_new_tasks.get(task.parent_id.id, False)
             new_task = task.copy(defaults)
-            # If child are created before parent (ex sub_sub_tasks)
-            new_child_ids = [old_to_new_tasks[child.id] for child in task.child_ids if child.id in old_to_new_tasks]
-            tasks.browse(new_child_ids).write({'parent_id': new_task.id})
-            old_to_new_tasks[task.id] = new_task.id
-            tasks += new_task
-
-        return project.write({'tasks': [(6, 0, tasks.ids)]})
+            new_task_ids.append(new_task.id)
+            all_subtasks = new_task._get_all_subtasks()
+            if all_subtasks:
+                new_subtasks += new_task.child_ids.filtered(lambda child: child.display_project_id == self)
+        project.write({'tasks': [Command.set(new_task_ids)]})
+        new_subtasks.write({'display_project_id': project.id})
+        return True
 
     @api.returns('self', lambda value: value.id)
     def copy(self, default=None):
@@ -741,7 +749,7 @@ class Project(models.Model):
         self.ensure_one()
         buttons = [{
             'icon': 'tasks',
-            'text': _('Tasks'),
+            'text': _lt('Tasks'),
             'number': self.task_count,
             'action_type': 'action',
             'action': 'project.act_project_project_2_project_task_all',
@@ -752,10 +760,16 @@ class Project(models.Model):
             'sequence': 3,
         }]
         if self.user_has_groups('project.group_project_rating'):
+            if self.rating_avg >= 3.66:
+                icon = 'smile-o text-success'
+            elif self.rating_avg >= 2.33:
+                icon = 'meh-o text-warning'
+            else:
+                icon = 'frown-o text-danger'
             buttons.append({
-                'icon': 'smile-o',
+                'icon': icon,
                 'text': _('Satisfaction'),
-                'number': f'{self.rating_avg_percentage} %',
+                'number': f'{round(100 * self.rating_avg_percentage, 2)} %',
                 'action_type': 'object',
                 'action': 'action_view_all_rating',
                 'show': self.rating_active and self.rating_count > 0,
@@ -764,7 +778,7 @@ class Project(models.Model):
         if self.user_has_groups('project.group_project_manager'):
             buttons.append({
                 'icon': 'area-chart',
-                'text': _('Burndown Chart'),
+                'text': _lt('Burndown Chart'),
                 'action_type': 'action',
                 'action': 'project.action_project_task_burndown_chart_report',
                 'additional_context': json.dumps({
@@ -775,7 +789,7 @@ class Project(models.Model):
             })
             buttons.append({
                 'icon': 'users',
-                'text': _('Collaborators'),
+                'text': _lt('Collaborators'),
                 'number': self.collaborator_count,
                 'action_type': 'action',
                 'action': 'project.project_collaborator_action',
@@ -788,7 +802,7 @@ class Project(models.Model):
         if self.user_has_groups('analytic.group_analytic_accounting'):
             buttons.append({
                 'icon': 'usd',
-                'text': _('Gross Margin'),
+                'text': _lt('Gross Margin'),
                 'number': format_amount(self.env, self.analytic_account_balance, self.company_id.currency_id),
                 'action_type': 'object',
                 'action': 'action_view_analytic_account_entries',
@@ -972,7 +986,7 @@ class Task(models.Model):
     # Second Many2many containing the actual personal stage for the current user
     # See project_task_stage_personal.py for the model defininition
     personal_stage_type_ids = fields.Many2many('project.task.type', 'project_task_user_rel', column1='task_id', column2='stage_id',
-        ondelete='restrict', group_expand='_read_group_personal_stage_type_ids',
+        ondelete='restrict', group_expand='_read_group_personal_stage_type_ids', copy=False,
         domain="[('user_id', '=', user.id)]", depends=['user_ids'], string='Personal Stage')
     # Personal Stage computed from the user
     personal_stage_id = fields.Many2one('project.task.stage.personal', string='Personal Stage State', compute_sudo=False,
@@ -1009,7 +1023,7 @@ class Task(models.Model):
     legend_blocked = fields.Char(related='stage_id.legend_blocked', string='Kanban Blocked Explanation', readonly=True, related_sudo=False)
     legend_done = fields.Char(related='stage_id.legend_done', string='Kanban Valid Explanation', readonly=True, related_sudo=False)
     legend_normal = fields.Char(related='stage_id.legend_normal', string='Kanban Ongoing Explanation', readonly=True, related_sudo=False)
-    is_closed = fields.Boolean(related="stage_id.fold", string="Closing Stage", related_sudo=False, help="Folded in Kanban stages are closing stages.")
+    is_closed = fields.Boolean(related="stage_id.fold", string="Closing Stage", store=True, index=True, related_sudo=False, help="Folded in Kanban stages are closing stages.")
     parent_id = fields.Many2one('project.task', string='Parent Task', index=True)
     child_ids = fields.One2many('project.task', 'parent_id', string="Sub-tasks")
     child_text = fields.Char(compute="_compute_child_text")
@@ -1031,10 +1045,10 @@ class Task(models.Model):
     allow_task_dependencies = fields.Boolean(related='project_id.allow_task_dependencies')
     # Tracking of this field is done in the write function
     depend_on_ids = fields.Many2many('project.task', relation="task_dependencies_rel", column1="task_id",
-                                     column2="depends_on_id", string="Blocked By", tracking=True,
+                                     column2="depends_on_id", string="Blocked By", tracking=True, copy=False,
                                      domain="[('allow_task_dependencies', '=', True), ('id', '!=', id)]")
     dependent_ids = fields.Many2many('project.task', relation="task_dependencies_rel", column1="depends_on_id",
-                                     column2="task_id", string="Block",
+                                     column2="task_id", string="Block", copy=False,
                                      domain="[('allow_task_dependencies', '=', True), ('id', '!=', id)]")
     dependent_tasks_count = fields.Integer(string="Dependent Tasks", compute='_compute_dependent_tasks_count')
 
@@ -1474,13 +1488,25 @@ class Task(models.Model):
     def copy(self, default=None):
         if default is None:
             default = {}
-        if not default.get('name'):
+        if self.allow_task_dependencies and 'task_mapping' not in self.env.context:
+            self = self.with_context(task_mapping=dict())
+        has_default_name = bool(default.get('name', ''))
+        if not has_default_name:
             default['name'] = _("%s (copy)", self.name)
         if self.recurrence_id:
             default['recurrence_id'] = self.recurrence_id.copy().id
         if self.allow_subtasks:
-            default['child_ids'] = [child.copy().id for child in self.child_ids]
-        return super(Task, self).copy(default)
+            default['child_ids'] = [child.copy({'name': child.name} if has_default_name else None).id for child in self.child_ids]
+        task_copy = super(Task, self).copy(default)
+        if self.allow_task_dependencies:
+            task_mapping = self.env.context.get('task_mapping')
+            task_mapping[self.id] = task_copy.id
+            new_tasks = task_mapping.values()
+            self.write({'depend_on_ids': [Command.unlink(t.id) for t in self.depend_on_ids if t.id in new_tasks]})
+            self.write({'dependent_ids': [Command.unlink(t.id) for t in self.dependent_ids if t.id in new_tasks]})
+            task_copy.write({'depend_on_ids': [Command.link(task_mapping.get(t.id, t.id)) for t in self.depend_on_ids]})
+            task_copy.write({'dependent_ids': [Command.link(task_mapping.get(t.id, t.id)) for t in self.dependent_ids]})
+        return task_copy
 
     @api.model
     def get_empty_list_help(self, help):
@@ -1644,6 +1670,8 @@ class Task(models.Model):
 
     def copy_data(self, default=None):
         defaults = super().copy_data(default=default)
+        if self.env.user.has_group('project.group_project_user'):
+            return defaults
         return [{k: v for k, v in default.items() if k in self.SELF_READABLE_FIELDS} for default in defaults]
 
     @api.model
@@ -1651,6 +1679,18 @@ class Task(models.Model):
         for field in fields:
             if field not in self.SELF_WRITABLE_FIELDS:
                 raise AccessError(_('You have not write access of %s field.') % field)
+
+    def _load_records_create(self, vals_list):
+        projects_with_recurrence = self.env['project.project'].search([('allow_recurring_tasks', '=', True)])
+        for vals in vals_list:
+            if vals.get('recurring_task'):
+                if vals.get('project_id') in projects_with_recurrence.ids and not vals.get('recurrence_id'):
+                    default_val = self.default_get(self._get_recurrence_fields())
+                    vals.update(**default_val)
+                else:
+                    for field_name in self._get_recurrence_fields() + ['recurring_task']:
+                        vals.pop(field_name, None)
+        return super()._load_records_create(vals_list)
 
     @api.model_create_multi
     def create(self, vals_list):
@@ -1734,6 +1774,8 @@ class Task(models.Model):
         if 'active' in vals and not vals.get('active') and any(self.mapped('recurrence_id')):
             # TODO: show a dialog to stop the recurrence
             raise UserError(_('You cannot archive recurring tasks. Please disable the recurrence first.'))
+        if 'recurrence_id' in vals and vals.get('recurrence_id') and any(not task.active for task in self):
+            raise UserError(_('Archived tasks cannot be recurring. Please unarchive the task first.'))
         # stage change: update date_last_stage_update
         if 'stage_id' in vals:
             vals.update(self.update_date_end(vals['stage_id']))
@@ -1976,7 +2018,7 @@ class Task(models.Model):
 
         project_user_group_id = self.env.ref('project.group_project_user').id
         new_group = ('group_project_user', lambda pdata: pdata['type'] == 'user' and project_user_group_id in pdata['groups'], {})
-        if not self.user_ids and not self.stage_id.fold:
+        if not self.user_ids and not self.is_closed:
             take_action = self._notify_get_action_link('assign', **local_msg_vals)
             project_actions = [{'url': take_action, 'title': _('I take it')}]
             new_group[2]['actions'] = project_actions
@@ -2083,7 +2125,7 @@ class Task(models.Model):
                 self.search([
                     ('partner_id', '=', False),
                     ('email_from', '=', new_partner.email),
-                    ('stage_id.fold', '=', False)]).write({'partner_id': new_partner.id})
+                    ('is_closed', '=', False)]).write({'partner_id': new_partner.id})
         return super(Task, self)._message_post_after_hook(message, msg_vals)
 
     def action_assign_to_me(self):

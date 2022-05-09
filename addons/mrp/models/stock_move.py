@@ -343,6 +343,7 @@ class StockMove(models.Model):
         elif self.production_id:
             action['views'] = [(self.env.ref('mrp.view_stock_move_operations_finished').id, 'form')]
             action['context']['show_source_location'] = False
+            action['context']['show_reserved_quantity'] = False
         return action
 
     def _action_cancel(self):
@@ -438,16 +439,11 @@ class StockMove(models.Model):
 
     @api.model
     def _prepare_merge_moves_distinct_fields(self):
-        return super()._prepare_merge_moves_distinct_fields() + ['created_production_id', 'cost_share']
+        return super()._prepare_merge_moves_distinct_fields() + ['created_production_id', 'cost_share', 'bom_line_id']
 
     @api.model
     def _prepare_merge_negative_moves_excluded_distinct_fields(self):
         return super()._prepare_merge_negative_moves_excluded_distinct_fields() + ['created_production_id']
-
-    def _merge_moves_fields(self):
-        res = super()._merge_moves_fields()
-        res['cost_share'] = sum(self.mapped('cost_share'))
-        return res
 
     def _compute_kit_quantities(self, product_id, kit_qty, kit_bom, filters):
         """ Computes the quantity delivered or received when a kit is sold or purchased.
@@ -526,7 +522,7 @@ class StockMove(models.Model):
         else:
             super()._multi_line_quantity_done_set(quantity_done)
 
-    def _prepare_extra_move_vals(self, qty):
-        vals = super()._prepare_extra_move_vals(qty)
-        vals['date_deadline'] = self.date_deadline
-        return vals
+    def _prepare_procurement_values(self):
+        res = super()._prepare_procurement_values()
+        res['bom_line_id'] = self.bom_line_id.id
+        return res

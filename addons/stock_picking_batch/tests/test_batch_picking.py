@@ -449,3 +449,17 @@ class TestBatchPicking(TransactionCase):
         self.assertTrue(picking_out_3.batch_id)
         self.assertEqual(picking_out_1.batch_id.id, picking_out_3.batch_id.id)
         self.assertFalse(picking_out_2.batch_id)
+        # If Picking 1 is validated without Picking 3, Picking 1 should be removed from the batch
+        picking_out_1.move_ids.quantity_done = 10
+        picking_out_1.button_validate()
+        self.assertFalse(picking_out_1.batch_id)
+        self.assertEqual(len(picking_out_3.batch_id.picking_ids), 1)
+
+    def test_remove_all_transfers_from_confirmed_batch(self):
+        """
+            Check that the batch is canceled when all transfers are deleted
+        """
+        self.batch.action_confirm()
+        self.assertEqual(self.batch.state, 'in_progress', 'Batch Transfers should be in progress.')
+        self.batch.write({'picking_ids': [[5, 0, 0]]})
+        self.assertEqual(self.batch.state, 'cancel', 'Batch Transfers should be cancelled when there are no transfers.')

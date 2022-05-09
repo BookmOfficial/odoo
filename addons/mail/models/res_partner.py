@@ -83,6 +83,8 @@ class Partner(models.Model):
             raise ValueError(_('An email is required for find_or_create to work'))
 
         parsed_name, parsed_email = self._parse_partner_name(email)
+        if not parsed_email and assert_valid_email:
+            raise ValueError(_('%(email)s is not recognized as a valid email. This is required to create a new customer.'))
         if parsed_email:
             email_normalized = tools.email_normalize(parsed_email)
             if email_normalized:
@@ -123,7 +125,7 @@ class Partner(models.Model):
         return partners_format
 
     def _message_fetch_failed(self):
-        """Returns all messages, sent by the current partner, that have errors, in
+        """Returns first 100 messages, sent by the current partner, that have errors, in
         the format expected by the web client."""
         self.ensure_one()
         notifications = self.env['mail.notification'].search([
@@ -132,7 +134,7 @@ class Partner(models.Model):
             ('mail_message_id.message_type', '!=', 'user_notification'),
             ('mail_message_id.model', '!=', False),
             ('mail_message_id.res_id', '!=', 0),
-        ])
+        ], limit=100)
         return notifications.mail_message_id._message_notification_format()
 
     def _get_channels_as_member(self):

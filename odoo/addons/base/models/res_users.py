@@ -814,8 +814,10 @@ class Users(models.Model):
     def has_group(self, group_ext_id):
         # use singleton's id if called on a non-empty recordset, otherwise
         # context uid
-        uid = self.id or self._uid
-        return self.with_user(uid)._has_group(group_ext_id)
+        uid = self.id
+        if uid and uid != self._uid:
+            self = self.with_user(uid)
+        return self._has_group(group_ext_id)
 
     @api.model
     @tools.ormcache('self._uid', 'group_ext_id')
@@ -990,7 +992,7 @@ class Users(models.Model):
                     "and *might* be a proxy. If your Odoo is behind a proxy, "
                     "it may be mis-configured. Check that you are running "
                     "Odoo in Proxy Mode and that the proxy is properly configured, see "
-                    "https://www.odoo.com/documentation/15.0/administration/install/deploy.html#https for details.",
+                    "https://www.odoo.com/documentation/saas-15.2/administration/install/deploy.html#https for details.",
                     source
                 )
             raise AccessDenied(_("Too many login failures, please wait a bit before trying again."))
@@ -1133,19 +1135,23 @@ class UsersImplied(models.Model):
         return super(UsersImplied, self).create(vals_list)
 
     def write(self, values):
+        if not values.get('groups_id'):
+            return super(UsersImplied, self).write(values)
         users_before = self.filtered(lambda u: u.has_group('base.group_user'))
         res = super(UsersImplied, self).write(values)
-        if values.get('groups_id'):
-            # add implied groups for all users
-            for user in self:
-                if not user.has_group('base.group_user') and user in users_before:
-                    # if we demoted a user, we strip him of all its previous privileges
-                    # (but we should not do it if we are simply adding a technical group to a portal user)
-                    vals = {'groups_id': [Command.clear()] + values['groups_id']}
-                    super(UsersImplied, user).write(vals)
-                gs = set(concat(g.trans_implied_ids for g in user.groups_id))
-                vals = {'groups_id': [Command.link(g.id) for g in gs]}
-                super(UsersImplied, user).write(vals)
+        demoted_users = users_before.filtered(lambda u: not u.has_group('base.group_user'))
+        if demoted_users:
+            # demoted users are restricted to the assigned groups only
+            vals = {'groups_id': [Command.clear()] + values['groups_id']}
+            super(UsersImplied, demoted_users).write(vals)
+        # add implied groups for all users (in batches)
+        users_batch = defaultdict(self.browse)
+        for user in self:
+            users_batch[user.groups_id] += user
+        for groups, users in users_batch.items():
+            gs = set(concat(g.trans_implied_ids for g in groups))
+            vals = {'groups_id': [Command.link(g.id) for g in gs]}
+            super(UsersImplied, users).write(vals)
         return res
 
 #
@@ -1493,6 +1499,13 @@ class UsersView(models.Model):
                     values.pop('groups_id', None)
         return res
 
+    @api.model
+    def read_group(self, domain, fields, groupby, offset=0, limit=None, orderby=False, lazy=True):
+        if fields:
+            # ignore reified fields
+            fields = [fname for fname in fields if not is_reified_group(fname)]
+        return super().read_group(domain, fields, groupby, offset=offset, limit=limit, orderby=orderby, lazy=lazy)
+
     def _add_reified_groups(self, fields, values):
         """ add the given reified group fields into `values` """
         gids = set(parse_m2m(values.get('groups_id') or []))
@@ -1777,8 +1790,7 @@ class APIKeyDescription(models.TransientModel):
     @check_identity
     def make_key(self):
         # only create keys for users who can delete their keys
-        if not self.user_has_groups('base.group_user'):
-            raise AccessError(_("Only internal users can create API keys"))
+        self.check_access_make_key()
 
         description = self.sudo()
         k = self.env['res.users.apikeys']._generate(None, self.sudo().name)
@@ -1794,6 +1806,10 @@ class APIKeyDescription(models.TransientModel):
                 'default_key': k,
             }
         }
+
+    def check_access_make_key(self):
+        if not self.user_has_groups('base.group_user'):
+            raise AccessError(_("Only internal users can create API keys"))
 
 class APIKeyShow(models.AbstractModel):
     _name = _description = 'res.users.apikeys.show'

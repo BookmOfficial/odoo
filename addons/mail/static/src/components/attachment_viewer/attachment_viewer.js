@@ -52,6 +52,9 @@ export class AttachmentViewer extends Component {
     }
 
     _mounted() {
+        if (!this.root.el) {
+            return;
+        }
         this.root.el.focus();
         this._handleImageLoad();
         this._hideUnwantedPdfJsButtons();
@@ -203,7 +206,7 @@ export class AttachmentViewer extends Component {
                     </script>
                 </head>
                 <body onload='onloadImage()'>
-                    <img src="${this.attachmentViewer.attachment.defaultSource}" alt=""/>
+                    <img src="${this.attachmentViewer.imageUrl}" alt=""/>
                 </body>
             </html>`);
         printWindow.document.close();

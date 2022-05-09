@@ -26,6 +26,7 @@ const {
     applyModifications,
     removeOnImageChangeAttrs,
     isImageSupportedForProcessing,
+    isImageSupportedForStyle,
     createDataURL,
     isGif,
 } = require('web_editor.image_processing');
@@ -2028,6 +2029,7 @@ const ListUserValueWidget = UserValueWidget.extend({
             draggableTdEl.appendChild(draggableEl);
             trEl.appendChild(draggableTdEl);
         }
+        let recordDataSelected = false;
         const inputEl = document.createElement('input');
         inputEl.type = this.el.dataset.inputType || 'text';
         if (value) {
@@ -2037,6 +2039,7 @@ const ListUserValueWidget = UserValueWidget.extend({
             inputEl.name = id;
         }
         if (recordData) {
+            recordDataSelected = recordData.selected;
             if (recordData.placeholder) {
                 inputEl.placeholder = recordData.placeholder;
             }
@@ -2052,17 +2055,19 @@ const ListUserValueWidget = UserValueWidget.extend({
         if (this.hasDefault) {
             const checkboxEl = document.createElement('we-button');
             checkboxEl.classList.add('o_we_user_value_widget', 'o_we_checkbox_wrapper');
-            if (this.selected.includes(id)) {
+            if (this.selected.includes(id) || recordDataSelected) {
                 checkboxEl.classList.add('active');
             }
-            const div = document.createElement('div');
-            const checkbox = document.createElement('we-checkbox');
-            div.appendChild(checkbox);
-            checkboxEl.appendChild(div);
-            checkboxEl.appendChild(checkbox);
-            const checkboxTdEl = document.createElement('td');
-            checkboxTdEl.appendChild(checkboxEl);
-            trEl.appendChild(checkboxTdEl);
+            if (!recordData || !recordData.notToggleable) {
+                const div = document.createElement('div');
+                const checkbox = document.createElement('we-checkbox');
+                div.appendChild(checkbox);
+                checkboxEl.appendChild(div);
+                checkboxEl.appendChild(checkbox);
+                const checkboxTdEl = document.createElement('td');
+                checkboxTdEl.appendChild(checkboxEl);
+                trEl.appendChild(checkboxTdEl);
+            }
         }
         if (!recordData || !recordData.undeletable) {
             const buttonTdEl = document.createElement('td');
@@ -2073,6 +2078,12 @@ const ListUserValueWidget = UserValueWidget.extend({
             trEl.appendChild(buttonTdEl);
         }
         this.listTable.appendChild(trEl);
+    },
+    /**
+     * @override
+     */
+    _getFocusableElement() {
+        return this.listTable.querySelector('input');
     },
     /**
      * @private
@@ -2117,7 +2128,10 @@ const ListUserValueWidget = UserValueWidget.extend({
                 return isNaN(idInt) ? id : idInt;
             });
             values.forEach(v => {
-                v.selected = this.selected.includes(v.id);
+                // Elements not toggleable are considered as always selected.
+                // We have to check that it is equal to the string 'true'
+                // because this information comes from the dataset.
+                v.selected = this.selected.includes(v.id) || v.notToggleable === 'true';
             });
         }
         this._value = JSON.stringify(values);
@@ -2159,14 +2173,19 @@ const ListUserValueWidget = UserValueWidget.extend({
      * @private
      */
     _onAddCustomItemClick() {
-        let id;
+        let id = undefined;
         if (this.el.dataset.generateIdForNewItems) {
-            id = generateHTMLId(30);
+            id = generateHTMLId(); // TODO remove in master
         }
         if (this.el.dataset.newElementsToggled) {
-            this.selected.push(id);
+            this.selected.push(id); // TODO remove in master
         }
-        this._addItemToTable(id, this.el.dataset.defaultValue);
+
+        const recordData = {};
+        if (this.el.dataset.newElementsNotToggleable) {
+            recordData.notToggleable = true;
+        }
+        this._addItemToTable(id, this.el.dataset.defaultValue, recordData);
         this._notifyCurrentState();
     },
     /**
@@ -2999,8 +3018,9 @@ const SnippetOptionWidget = Widget.extend({
      * menu. Note: this is called after the start and onFocus methods.
      *
      * @abstract
+     * @returns {Promise|undefined}
      */
-    onBuilt: function () {},
+    async onBuilt() {},
     /**
      * Called when the parent edition overlay is removed from the associated
      * snippet (another snippet enters edition for example).
@@ -3607,6 +3627,7 @@ const SnippetOptionWidget = Widget.extend({
                     // if editing the other).
                     const parts = backgroundImageCssToParts(styles['background-image']);
                     if (parts.gradient) {
+                        _restoreTransitions();
                         return parts.gradient;
                     }
                 }
@@ -4883,6 +4904,9 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
      */
     async _computeWidgetVisibility(widgetName, params) {
         if (widgetName === 'media_link_opt') {
+            if (this.$target[0].matches('img')) {
+                return isImageSupportedForStyle(this.$target[0]);
+            }
             return !this.$target[0].classList.contains('media_iframe_video');
         }
         return this._super(...arguments);
@@ -5187,7 +5211,7 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
             const img = this._getImg();
             return this._isImageSupportedForProcessing(img, true);
         }
-        return this._super(...arguments);
+        return isImageSupportedForStyle(this._getImg());
     },
     /**
      * Indicates if an option should be applied only on supported mimetypes.
@@ -5546,6 +5570,10 @@ registry.ImageTools = ImageHandlerOption.extend({
         }
         if (params.optionsPossibleValues.resetCrop) {
             return this._isCropped();
+        }
+        if (params.optionsPossibleValues.crop) {
+            const img = this._getImg();
+            return isImageSupportedForStyle(img) || this._isImageSupportedForProcessing(img);
         }
         return this._super(...arguments);
     },

@@ -101,7 +101,8 @@ class StockMove(models.Model):
         self.write({'created_purchase_line_id': False})
 
     def _get_upstream_documents_and_responsibles(self, visited):
-        if self.created_purchase_line_id and self.created_purchase_line_id.state not in ('draft', 'done', 'cancel'):
+        if self.created_purchase_line_id and self.created_purchase_line_id.state not in ('done', 'cancel') \
+                and (self.created_purchase_line_id.state != 'draft' or self._context.get('include_draft_documents')):
             return [(self.created_purchase_line_id.order_id, self.created_purchase_line_id.order_id.user_id, visited)]
         elif self.purchase_line_id and self.purchase_line_id.state not in ('done', 'cancel'):
             return[(self.purchase_line_id.order_id, self.purchase_line_id.order_id.user_id, visited)]
@@ -299,7 +300,8 @@ class Orderpoint(models.Model):
 
     def _get_orderpoint_procurement_date(self):
         date = super()._get_orderpoint_procurement_date()
-        date -= relativedelta(days=self.company_id.po_lead)
+        if any(rule.action == 'buy' for rule in self.rule_ids):
+            date -= relativedelta(days=self.company_id.po_lead)
         return date
 
 

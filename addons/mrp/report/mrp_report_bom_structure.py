@@ -220,7 +220,7 @@ class ReportBomStructure(models.AbstractModel):
             if operation._skip_operation_line(product):
                 continue
             operation_cycle = float_round(qty / operation.workcenter_id.capacity, precision_rounding=1, rounding_method='UP')
-            duration_expected = operation_cycle * (operation.time_cycle + (operation.workcenter_id.time_stop + operation.workcenter_id.time_start))
+            duration_expected = (operation_cycle * operation.time_cycle * 100.0 / operation.workcenter_id.time_efficiency) + (operation.workcenter_id.time_stop + operation.workcenter_id.time_start)
             total = ((duration_expected / 60.0) * operation.workcenter_id.costs_hour)
             operations.append({
                 'level': level or 0,
@@ -257,7 +257,7 @@ class ReportBomStructure(models.AbstractModel):
             else:
                 prod_qty = line.product_qty * factor / bom.product_qty
                 company = bom.company_id or self.env.company
-                not_rounded_price = line.product_id.uom_id._compute_price(line.product_id.with_context(force_comany=company.id).standard_price, line.product_uom_id) * prod_qty
+                not_rounded_price = line.product_id.uom_id._compute_price(line.product_id.with_company(company).standard_price, line.product_uom_id) * prod_qty
                 price += company.currency_id.round(not_rounded_price)
         return price
 

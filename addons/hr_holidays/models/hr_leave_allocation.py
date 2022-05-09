@@ -11,6 +11,7 @@ from dateutil.relativedelta import relativedelta
 
 from odoo import api, fields, models
 from odoo.addons.resource.models.resource import HOURS_PER_DAY
+from odoo.addons.hr_holidays.models.hr_leave import get_employee_from_context
 from odoo.exceptions import AccessError, UserError, ValidationError
 from odoo.tools.translate import _
 from odoo.tools.float_utils import float_round
@@ -255,13 +256,14 @@ class HolidaysAllocation(models.Model):
 
     @api.depends('holiday_type')
     def _compute_from_holiday_type(self):
+        default_employee_ids = self.env['hr.employee'].browse(self.env.context.get('default_employee_id')) or self.env.user.employee_id
         for allocation in self:
             if allocation.holiday_type == 'employee':
                 if not allocation.employee_ids:
                     allocation.employee_ids = self.env.user.employee_id
                 allocation.mode_company_id = False
                 allocation.category_id = False
-            if allocation.holiday_type == 'company':
+            elif allocation.holiday_type == 'company':
                 allocation.employee_ids = False
                 if not allocation.mode_company_id:
                     allocation.mode_company_id = self.env.company
@@ -274,7 +276,8 @@ class HolidaysAllocation(models.Model):
                 allocation.employee_ids = False
                 allocation.mode_company_id = False
             else:
-                allocation.employee_ids = self.env.context.get('default_employee_id') or self.env.user.employee_id
+                employee_ids = self.env.context.get('default_employee_id', self.env.user.employee_id)
+                allocation.employee_ids = [employee_ids] if isinstance(employee_ids, int) else employee_ids
 
     @api.depends('holiday_type', 'employee_id')
     def _compute_department_id(self):
@@ -409,6 +412,9 @@ class HolidaysAllocation(models.Model):
                     continue
                 allocation.lastcall = max(allocation.lastcall, first_level_start_date)
                 allocation.nextcall = first_level._get_next_date(allocation.lastcall)
+                if len(level_ids) > 1:
+                    second_level_start_date = allocation.date_from + get_timedelta(level_ids[1].start_count, level_ids[1].start_type)
+                    allocation.nextcall = min(second_level_start_date - relativedelta(days=1), allocation.nextcall)
                 allocation._message_log(body=first_allocation)
             days_added_per_level = defaultdict(lambda: 0)
             while allocation.nextcall <= today:
@@ -419,6 +425,15 @@ class HolidaysAllocation(models.Model):
                 # this is used to prorate the first number of days given to the employee
                 period_start = current_level._get_previous_date(allocation.lastcall)
                 period_end = current_level._get_next_date(allocation.lastcall)
+                # If accruals are lost at the beginning of year, skip accrual until beginning of this year
+                if current_level.action_with_unused_accruals == 'lost':
+                    this_year_first_day = today + relativedelta(day=1, month=1)
+                    if period_end < this_year_first_day:
+                        allocation.lastcall = allocation.nextcall
+                        allocation.nextcall = nextcall
+                        continue
+                    else:
+                        period_start = max(period_start, this_year_first_day)
                 # Also prorate this accrual in the event that we are passing from one level to another
                 if current_level_idx < (len(level_ids) - 1) and allocation.accrual_plan_id.transition_mode == 'immediately':
                     next_level = level_ids[current_level_idx + 1]
@@ -430,11 +445,9 @@ class HolidaysAllocation(models.Model):
                 allocation.lastcall = allocation.nextcall
                 allocation.nextcall = nextcall
             if days_added_per_level:
-                number_of_days_to_add = 0
-                for value in days_added_per_level.values():
-                    number_of_days_to_add += value
+                number_of_days_to_add = allocation.number_of_days + sum(days_added_per_level.values())
                 # Let's assume the limit of the last level is the correct one
-                allocation.write({'number_of_days': min(allocation.number_of_days + number_of_days_to_add, current_level.maximum_leave)})
+                allocation.number_of_days = min(number_of_days_to_add, current_level.maximum_leave + allocation.leaves_taken) if current_level.maximum_leave > 0 else number_of_days_to_add
 
     @api.model
     def _update_accrual(self):
@@ -444,12 +457,12 @@ class HolidaysAllocation(models.Model):
         """
         # Get the current date to determine the start and end of the accrual period
         today = datetime.combine(fields.Date.today(), time(0, 0, 0))
-        if today.day == 1 and today.month == 1:
-            end_of_year_allocations = self.search(
-            [('allocation_type', '=', 'accrual'), ('state', '=', 'validate'), ('accrual_plan_id', '!=', False), ('employee_id', '!=', False),
-             '|', ('date_to', '=', False), ('date_to', '>', fields.Datetime.now())])
-            end_of_year_allocations._end_of_year_accrual()
-            end_of_year_allocations.flush()
+        this_year_first_day = today + relativedelta(day=1, month=1)
+        end_of_year_allocations = self.search(
+        [('allocation_type', '=', 'accrual'), ('state', '=', 'validate'), ('accrual_plan_id', '!=', False), ('employee_id', '!=', False),
+            '|', ('date_to', '=', False), ('date_to', '>', fields.Datetime.now()), ('lastcall', '<', this_year_first_day)])
+        end_of_year_allocations._end_of_year_accrual()
+        end_of_year_allocations.flush()
         allocations = self.search(
         [('allocation_type', '=', 'accrual'), ('state', '=', 'validate'), ('accrual_plan_id', '!=', False), ('employee_id', '!=', False),
             '|', ('date_to', '=', False), ('date_to', '>', fields.Datetime.now()),
@@ -464,8 +477,9 @@ class HolidaysAllocation(models.Model):
         # Try to force the leave_type name_get when creating new records
         # This is called right after pressing create and returns the name_get for
         # most fields in the view.
-        if 'employee_id' in field_onchange:
-            self = self.with_context(employee_id=int(field_onchange['employee_id']))
+        if field_onchange.get('employee_id') and 'employee_id' not in self._context and values:
+            employee_id = get_employee_from_context(values, self._context, self.env.user.employee_id.id)
+            self = self.with_context(employee_id=employee_id)
         return super().onchange(values, field_name, field_onchange)
 
     def name_get(self):

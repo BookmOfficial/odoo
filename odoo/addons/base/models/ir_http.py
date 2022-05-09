@@ -394,8 +394,14 @@ class IrHttp(models.AbstractModel):
                 filehash = record['checksum']
 
         if not content:
-            if model == 'ir.attachment':
+            if model == 'ir.attachment' and field in {'datas', 'raw'}:
                 content = record.raw
+            elif (
+                field_def.related_field and
+                field_def.related_field.name == 'raw' and
+                field_def.related_field.model_name == 'ir.attachment'
+            ):
+                content = record[field] or b''
             else:
                 data = record[field] or b''
                 content = base64.b64decode(data)
@@ -474,7 +480,8 @@ class IrHttp(models.AbstractModel):
         content, headers, status = None, [], None
 
         if record._name == 'ir.attachment':
-            status, content, filename, mimetype, filehash = self._binary_ir_attachment_redirect_content(record, default_mimetype=default_mimetype)
+            status, content, default_filename, mimetype, filehash = self._binary_ir_attachment_redirect_content(record, default_mimetype=default_mimetype)
+            filename = filename or default_filename
         if not content:
             status, content, filename, mimetype, filehash = self._binary_record_content(
                 record, field=field, filename=filename, filename_field=filename_field,

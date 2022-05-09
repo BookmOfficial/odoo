@@ -1831,7 +1831,7 @@ class BaseModel(metaclass=MetaModel):
         """
         names = dict(self.name_get())
         for record in self:
-            record.display_name = names.get(record.id, False)
+            record.display_name = names.get(record.id)
 
     def name_get(self):
         """Returns a textual representation for the records in ``self``, with
@@ -1852,7 +1852,7 @@ class BaseModel(metaclass=MetaModel):
         if name in self._fields:
             convert = self._fields[name].convert_to_display_name
             for record in self:
-                result.append((record.id, convert(record[name], record)))
+                result.append((record.id, convert(record[name], record) or ""))
         else:
             for record in self:
                 result.append((record.id, "%s,%s" % (record._name, record.id)))
@@ -3371,11 +3371,11 @@ Fields:
             for field in fields_pre:
                 values = next(cols)
                 if context.get('lang') and not field.inherited and callable(field.translate):
-                    translate = field.get_trans_func(fetched)
                     values = list(values)
-                    for index in range(len(ids)):
-                        values[index] = translate(ids[index], values[index])
-
+                    if any(values):
+                        translate = field.get_trans_func(fetched)
+                        for index in range(len(ids)):
+                            values[index] = translate(ids[index], values[index])
                 # store values in cache
                 self.env.cache.update(fetched, field, values)
 
@@ -3635,6 +3635,7 @@ Fields:
             return True
 
         self.check_access_rights('unlink')
+        self.check_access_rule('unlink')
         self._check_concurrency()
 
         from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
@@ -3649,8 +3650,6 @@ Fields:
         self.modified(self._fields, before=True)
 
         with self.env.norecompute():
-            self.check_access_rule('unlink')
-
             cr = self._cr
             Data = self.env['ir.model.data'].sudo().with_context({})
             Defaults = self.env['ir.default'].sudo()
@@ -3976,7 +3975,7 @@ Fields:
         The new records are initialized using the values from the list of dicts
         ``vals_list``, and if necessary those from :meth:`~.default_get`.
 
-        :param list vals_list:
+        :param Union[list[dict], dict] vals_list:
             values for the model's fields, as a list of dictionaries::
 
                 [{'field_name': field_value, ...}, ...]
@@ -4383,11 +4382,15 @@ Fields:
             FROM {0} node
             WHERE node.id IN %s
             AND child.parent_path LIKE concat(node.parent_path, '%%')
-            RETURNING child.id
+            RETURNING child.id, child.parent_path
         """
         cr.execute(query.format(self._table), [prefix, tuple(self.ids)])
-        modified_ids = {row[0] for row in cr.fetchall()}
-        self.browse(modified_ids).modified(['parent_path'])
+
+        # update the cache of updated nodes, and determine what to recompute
+        updated = dict(cr.fetchall())
+        records = self.browse(updated)
+        self.env.cache.update(records, self._fields['parent_path'], updated.values())
+        records.modified(['parent_path'])
 
     def _load_records_write(self, values):
         self.write(values)
@@ -6663,9 +6666,9 @@ Fields:
         return
 
 
-collections.Set.register(BaseModel)
+collections.abc.Set.register(BaseModel)
 # not exactly true as BaseModel doesn't have index or count
-collections.Sequence.register(BaseModel)
+collections.abc.Sequence.register(BaseModel)
 
 class RecordCache(MutableMapping):
     """ A mapping from field names to values, to read and update the cache of a record. """

@@ -221,11 +221,47 @@ class PosGlobalState extends PosModel {
     _loadResPartner() {
         this.db.add_partners(this.partners);
     }
+    _assignApplicableItems(pricelist, correspondingProduct, pricelistItem) {
+        if (!(pricelist.id in correspondingProduct.applicablePricelistItems)) {
+            correspondingProduct.applicablePricelistItems[pricelist.id] = [];
+        }
+        correspondingProduct.applicablePricelistItems[pricelist.id].push(pricelistItem);
+    }
     _loadProductProduct(products) {
+        const productMap = {};
+        const productTemplateMap = {};
+
         const modelProducts = products.map(product => {
             product.pos = this;
+            product.applicablePricelistItems = {};
+            productMap[product.id] = product;
+            productTemplateMap[product.product_tmpl_id[0]] = (productTemplateMap[product.product_tmpl_id[0]] || []).concat(product);
             return Product.create(product);
         });
+
+        for (let pricelist of this.pricelists) {
+            for (const pricelistItem of pricelist.items) {
+                if (pricelistItem.product_id) {
+                    let product_id = pricelistItem.product_id[0];
+                    let correspondingProduct = productMap[product_id];
+                    if (correspondingProduct) {
+                        this._assignApplicableItems(pricelist, correspondingProduct, pricelistItem);
+                    }
+                }
+                else if (pricelistItem.product_tmpl_id) {
+                    let product_tmpl_id = pricelistItem.product_tmpl_id[0];
+                    let correspondingProducts = productTemplateMap[product_tmpl_id];
+                    for (let correspondingProduct of (correspondingProducts || [])) {
+                        this._assignApplicableItems(pricelist, correspondingProduct, pricelistItem);
+                    }
+                }
+                else {
+                    for (const correspondingProduct of products) {
+                        this._assignApplicableItems(pricelist, correspondingProduct, pricelistItem);
+                    }
+                }
+            }
+        }
         this.db.add_products(modelProducts)
     }
     _loadPosPaymentMethod() {
@@ -390,7 +426,7 @@ class PosGlobalState extends PosModel {
         }
         for (var i = 0; i < jsons.length; i++) {
             var json = jsons[i];
-            if (json.pos_session_id !== this.pos_session.id && json.lines.length > 0) {
+            if (json.pos_session_id !== this.pos_session.id && (json.lines.length > 0 || json.statement_ids.length > 0)) {
                 orders.push(this.createAutomaticallySavedOrder(json));
             } else if (json.pos_session_id !== this.pos_session.id) {
                 this.db.remove_unpaid_order(jsons[i]);
@@ -436,7 +472,7 @@ class PosGlobalState extends PosModel {
                     offset: page * this.config.limited_products_amount,
                     limit: this.config.limited_products_amount,
                 }],
-            });
+            }, { shadow: true });
             this._loadProductProduct(products);
             page += 1;
         } while(products.length == this.config.limited_products_amount);
@@ -458,7 +494,7 @@ class PosGlobalState extends PosModel {
                     },
                 ],
                 context: this.env.session.user_context,
-            });
+            }, { shadow: true });
             this.db.add_partners(partners);
             i += 1;
         } while(partners.length);
@@ -989,13 +1025,15 @@ class PosGlobalState extends PosModel {
      * Make the products corresponding to the given ids to be available_in_pos and
      * fetch them to be added on the loaded products.
      */
-    async _addProducts(ids){
-        await this.env.services.rpc({
-            model: 'product.product',
-            method: 'write',
-            args: [ids, {'available_in_pos': true}],
-            context: this.env.session.user_context,
-        });
+    async _addProducts(ids, setAvailable=true){
+        if(setAvailable){
+            await this.env.services.rpc({
+                model: 'product.product',
+                method: 'write',
+                args: [ids, {'available_in_pos': true}],
+                context: this.env.session.user_context,
+            });
+        }
         let product = await this.env.services.rpc({
             model: 'pos.session',
             method: 'get_pos_ui_product_product_by_params',
@@ -1073,12 +1111,10 @@ class Product extends PosModel {
             category = category.parent;
         }
 
-        var pricelist_items = _.filter(pricelist.items, function (item) {
-            return (! item.product_tmpl_id || item.product_tmpl_id[0] === self.product_tmpl_id) &&
-                   (! item.product_id || item.product_id[0] === self.id) &&
-                   (! item.categ_id || _.contains(category_ids, item.categ_id[0])) &&
-                   (! item.date_start || moment(item.date_start).isSameOrBefore(date)) &&
-                   (! item.date_end || moment(item.date_end).isSameOrAfter(date));
+        var pricelist_items = _.filter(self.applicablePricelistItems[pricelist.id], function (item) {
+            return (! item.categ_id || _.contains(category_ids, item.categ_id[0])) &&
+                   (! item.date_start || moment.utc(item.date_start).isSameOrBefore(date)) &&
+                   (! item.date_end || moment.utc(item.date_end).isSameOrAfter(date));
         });
 
         var price = self.lst_price;
@@ -1725,7 +1761,7 @@ class Orderline extends PosModel {
         // 1) Flatten the taxes.
 
         var _collect_taxes = function(taxes, all_taxes){
-            taxes.sort(function (tax1, tax2) {
+            taxes = [...taxes].sort(function (tax1, tax2) {
                 return tax1.sequence - tax2.sequence;
             });
             _(taxes).each(function(tax){
@@ -2626,14 +2662,22 @@ class Order extends PosModel {
     /* ---- Payment Lines --- */
     add_paymentline(payment_method) {
         this.assert_editable();
-        var newPaymentline = Payment.create({},{order: this, payment_method:payment_method, pos: this.pos});
-        this.paymentlines.add(newPaymentline);
-        this.select_paymentline(newPaymentline);
-        if(this.pos.config.cash_rounding){
-          this.selected_paymentline.set_amount(0);
+        if (this.electronic_payment_in_progress()) {
+            return false;
+        } else {
+            var newPaymentline = Payment.create({},{order: this, payment_method:payment_method, pos: this.pos});
+            this.paymentlines.add(newPaymentline);
+            this.select_paymentline(newPaymentline);
+            if(this.pos.config.cash_rounding){
+              this.selected_paymentline.set_amount(0);
+            }
+            newPaymentline.set_amount(this.get_due());
+
+            if (payment_method.payment_terminal) {
+                newPaymentline.set_payment_status('pending');
+            }
+            return newPaymentline;
         }
-        newPaymentline.set_amount(this.get_due());
-        return newPaymentline;
     }
     get_paymentlines(){
         return this.paymentlines;
@@ -2719,14 +2763,16 @@ class Order extends PosModel {
             return sum + orderLine.get_price_without_tax();
         }), 0), this.pos.currency.rounding);
     }
+    _reduce_total_discount_callback(sum, orderLine) {
+        sum += (orderLine.get_unit_price() * (orderLine.get_discount()/100) * orderLine.get_quantity());
+        if (orderLine.display_discount_policy() === 'without_discount'){
+            sum += ((orderLine.get_lst_price() - orderLine.get_unit_price()) * orderLine.get_quantity());
+        }
+        return sum;
+    }
     get_total_discount() {
-        return round_pr(this.orderlines.reduce((function(sum, orderLine) {
-            sum += (orderLine.get_unit_price() * (orderLine.get_discount()/100) * orderLine.get_quantity());
-            if (orderLine.display_discount_policy() === 'without_discount'){
-                sum += ((orderLine.get_lst_price() - orderLine.get_unit_price()) * orderLine.get_quantity());
-            }
-            return sum;
-        }), 0), this.pos.currency.rounding);
+        const reduce_callback = this._reduce_total_discount_callback.bind(this);
+        return round_pr(this.orderlines.reduce(reduce_callback, 0), this.pos.currency.rounding);
     }
     get_total_tax() {
         if (this.pos.company.tax_calculation_rounding_method === "round_globally") {
@@ -2882,7 +2928,7 @@ class Order extends PosModel {
                 if (utils.float_is_zero(rounding_applied, this.pos.currency.decimal_places)){
                     // https://xkcd.com/217/
                     return 0;
-                } else if(this.get_total_with_tax() < this.pos.cash_rounding[0].rounding) {
+                } else if(Math.abs(this.get_total_with_tax()) < this.pos.cash_rounding[0].rounding) {
                     return 0;
                 } else if(this.pos.cash_rounding[0].rounding_method === "UP" && rounding_applied < 0 && remaining > 0) {
                     rounding_applied += this.pos.cash_rounding[0].rounding;

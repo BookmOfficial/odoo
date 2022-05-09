@@ -4,7 +4,7 @@ odoo.define("pos_gift_card.GiftCardPopup", function (require) {
   const AbstractAwaitablePopup = require("point_of_sale.AbstractAwaitablePopup");
   const Registries = require("point_of_sale.Registries");
 
-  const { useState } = owl;
+  const { useState, onPatched, useComponent} = owl;
 
   class GiftCardPopup extends AbstractAwaitablePopup {
     constructor() {
@@ -18,7 +18,29 @@ odoo.define("pos_gift_card.GiftCardPopup", function (require) {
         amountToSet: 0,
         giftCardBarcode: "",
       });
+      this.useAutoFocus(this.state);
     }
+
+    useAutoFocus(state) {
+      const component = useComponent();
+      let hasFocused = false;
+      function autofocus() {
+          if (state.showBarcodeGeneration) {
+              // Should autofocus here but only if it hasn't autofocus yet.
+              if (!hasFocused) {
+                  const elem = component.el.querySelector(`.giftCardPopupInput`);
+                  if (elem) {
+                      elem.focus();
+                      hasFocused = true;
+                  }
+              }
+          } else {
+              // When changing showBarcodeGeneration to false, we reset hasFocused.
+              hasFocused = false;
+          }
+      }
+      onPatched(autofocus);
+  }
 
     switchBarcodeView() {
       this.state.showBarcodeGeneration = !this.state.showBarcodeGeneration;

@@ -180,7 +180,9 @@ class SaleOrder(models.Model):
     user_id = fields.Many2one(
         'res.users', string='Salesperson', index=True, tracking=2,
         compute='_compute_user_id', store=True, readonly=False, precompute=True,
-        domain=lambda self: [('groups_id', 'in', self.env.ref('sales_team.group_sale_salesman').id)])
+        domain=lambda self: "[('groups_id', '=', {}), ('share', '=', False), ('company_ids', '=', company_id)]".format(
+            self.env.ref("sales_team.group_sale_salesman").id
+        ),)
     partner_id = fields.Many2one(
         'res.partner', string='Customer', readonly=False,
         states=READONLY_FIELD_STATES,
@@ -197,7 +199,7 @@ class SaleOrder(models.Model):
         states={'done': [('readonly', True)], 'cancel': [('readonly', True)]},
         domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]",)
 
-    pricelist_id = fields.Many2one(
+    pricelist_id = fields.Many2one(  # TODO in master, should be required !!!
         'product.pricelist', string='Pricelist', required=False, check_company=True,  # Unrequired company
         compute='_compute_pricelist_id', store=True, precompute=True, readonly=False,
         states=READONLY_FIELD_STATES,
@@ -207,6 +209,7 @@ class SaleOrder(models.Model):
         related='pricelist_id.currency_id', depends=["pricelist_id"], store=True, precompute=True, ondelete="restrict")
     analytic_account_id = fields.Many2one(
         'account.analytic.account', 'Analytic Account',
+        compute='_compute_analytic_account_id', store=True, readonly=False,
         copy=False, check_company=True,  # Unrequired company
         states=READONLY_FIELD_STATES,
         domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]",
@@ -285,7 +288,6 @@ class SaleOrder(models.Model):
                                                   string='Authorized Transactions', copy=False)
     show_update_pricelist = fields.Boolean(
         string='Has Pricelist Changed',
-        compute='_compute_show_update_pricelist', store=True, readonly=True, precompute=True,
         help="Technical Field, True if the pricelist was changed;\n"
              " this will then display a recomputation button")
     tag_ids = fields.Many2many('crm.tag', 'sale_order_tag_rel', 'order_id', 'tag_id', string='Tags')
@@ -407,7 +409,7 @@ class SaleOrder(models.Model):
         for order in self:
             total = 0.0
             for line in order.order_line:
-                total += line.price_subtotal + line.price_unit * ((line.discount or 0.0) / 100.0) * line.product_uom_qty  # why is there a discount in a field named amount_undiscounted ??
+                total += (line.price_subtotal * 100)/(100-line.discount) if line.discount != 100 else (line.price_unit * line.product_uom_qty)
             order.amount_undiscounted = total
 
     @api.depends('state')
@@ -422,6 +424,18 @@ class SaleOrder(models.Model):
                 record.tax_country_id = record.fiscal_position_id.country_id
             else:
                 record.tax_country_id = record.company_id.account_fiscal_country_id
+
+    @api.depends('partner_id', 'date_order')
+    def _compute_analytic_account_id(self):
+        for order in self:
+            if not order.analytic_account_id:
+                default_analytic_account = order.env['account.analytic.default'].sudo().account_get(
+                    partner_id=order.partner_id.id,
+                    user_id=order.env.uid,
+                    date=order.date_order,
+                    company_id=order.company_id.id,
+                )
+                order.analytic_account_id = default_analytic_account.analytic_id
 
     @api.ondelete(at_uninstall=False)
     def _unlink_except_draft_or_cancel(self):
@@ -551,10 +565,10 @@ class SaleOrder(models.Model):
                 }
             }
 
-    @api.depends('pricelist_id')
-    def _compute_show_update_pricelist(self):
-        for order in self:
-            order.show_update_pricelist = order.order_line and order.pricelist_id and order._origin.pricelist_id != self.pricelist_id
+    @api.onchange('pricelist_id')
+    def _onchange_pricelist_id_show_update_prices(self):
+        if self.order_line and self.pricelist_id and self._origin.pricelist_id != self.pricelist_id:
+            self.show_update_pricelist = True
 
     def update_prices(self):
         self.ensure_one()
@@ -580,6 +594,10 @@ class SaleOrder(models.Model):
                 ) if 'date_order' in vals else None
                 vals['name'] = self.env['ir.sequence'].next_by_code(
                     'sale.order', sequence_date=seq_date) or _('New')
+            if 'pricelist_id' in vals and not vals.get('pricelist_id'):
+                # Force precomputation of pricelist_id by popping the empty value
+                # to make sure pricelist_id field is always specified
+                vals.pop('pricelist_id')
 
         return super().create(vals_list)
 
@@ -1116,13 +1134,12 @@ class SaleOrder(models.Model):
             force_email_company=force_email_company, force_email_lang=force_email_lang
         )
         if self.validity_date:
-            amount_txt = _('%(amount)s due %(date)s',
+            render_context['subtitle'] = _(u'%(amount)s due\N{NO-BREAK SPACE}%(date)s',
                            amount=format_amount(self.env, self.amount_total, self.currency_id, lang_code=render_context.get('lang')),
                            date=format_date(self.env, self.validity_date, date_format='short', lang_code=render_context.get('lang'))
                           )
         else:
-            amount_txt = format_amount(self.env, self.amount_total, self.currency_id, lang_code=render_context.get('lang'))
-        render_context['subtitle'] = Markup("<span>%s<br />%s</span>") % (self.name, amount_txt)
+            render_context['subtitle'] = format_amount(self.env, self.amount_total, self.currency_id, lang_code=render_context.get('lang'))
         return render_context
 
     def preview_sale_order(self):
@@ -1141,10 +1158,10 @@ class SaleOrder(models.Model):
                 line.qty_to_invoice = 0
 
     def payment_action_capture(self):
-        self.authorized_transaction_ids._send_capture_request()
+        self.authorized_transaction_ids.action_capture()
 
     def payment_action_void(self):
-        self.authorized_transaction_ids._send_void_request()
+        self.authorized_transaction_ids.action_void()
 
     def get_portal_last_transaction(self):
         self.ensure_one()

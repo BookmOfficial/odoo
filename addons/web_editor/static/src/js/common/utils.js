@@ -179,6 +179,7 @@ function _areCssValuesEqual(value1, value2, cssProp, $target) {
         temp2El.style.backgroundImage = value2;
         document.body.appendChild(temp2El);
         value2 = getComputedStyle(temp2El).backgroundImage;
+        document.body.removeChild(temp2El);
 
         return value1 === value2;
     }
@@ -340,16 +341,10 @@ function _isColorGradient(value) {
  * Generates a string ID.
  *
  * @private
- * @param {integer} length the length of the generated ID.
  * @returns {string}
  */
-function _generateHTMLId(length) {
-    let result = '';
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-    while (result.length < length) {
-        result += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-    return result;
+function _generateHTMLId() {
+    return `o${Math.random().toString(36).substring(2, 15)}`;
 }
 /**
  * Returns the class of the element that matches the specified prefix.
