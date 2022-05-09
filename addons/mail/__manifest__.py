@@ -166,4 +166,7 @@
         ],
     },
     'license': 'LGPL-3',
+    # Install mail always on new database when base is installed
+    # It will install its remaining dependencies aswell
+    'auto_install': ['base'],
 }
