@@ -13,14 +13,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 22:48+0000\n"
-"PO-Revision-Date: 2021-09-14 12:23+0000\n"
-"Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"PO-Revision-Date: 2022-05-10 14:51+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: French <https://weblate.bookm.be/projects/odoo-15/mail_bot/fr/"
+">\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -35,12 +37,12 @@ msgstr ""
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__bot_failed
 msgid "Bot Failed"
-msgstr ""
+msgstr "Bot Failed"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__bot_state
 msgid "Bot Status"
-msgstr ""
+msgstr "Statut du Bot"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__bot_state__disabled
@@ -81,6 +83,9 @@ msgid ""
 "help you discover its features.<br/><b>Try to send me an emoji</b> <span "
 "class=\"o_odoobot_command\">:)</span>"
 msgstr ""
+"Bonjour,<br/>Le chat de Bookm's aide les employés à collaborer efficacement. "
+"Je vous propose de découvrir ses fonctionnalités.<br/><b>Tentez de m'envoyer "
+"un emoji</b> <span class=\"o_odoobot_command\"> :)</span>"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -96,6 +101,9 @@ msgid ""
 ">Congratulations, you finished this tour. You can now <b>close this chat "
 "window</b>. Enjoy discovering Bookm."
 msgstr ""
+"Je suis un simple bot, mais si c'est un chien, il est le plus mignon 😊 <br/"
+">Félicitations, vous avez terminé cette visite. Vous pouvez maintenant "
+"<b>fermer cette fenêtre de discussion</b>. Bonne découverte de Bookm."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -191,6 +199,9 @@ msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
 "Write <span class=\"o_odoobot_command\">@BookmBot</span> and select me."
 msgstr ""
+"Désolé, je n'écoute pas. Pour attirer l'attention de quelqu'un, <b>piquez-"
+"lui</b>. Ecrivez <span class=\"o_odoobot_command\">@BookmBot</span> et "
+"sélectionnez-moi."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -218,7 +229,7 @@ msgstr "Pour commencer, essayez de m'envoyer un emoji :)"
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
 msgid "Unfortunately, I'm just a bot 😞 I don't understand!"
-msgstr ""
+msgstr "Malheureusement, je ne suis qu'un bot 😞 Je ne comprends pas !"
 
 #. module: mail_bot
 #: model:ir.model,name:mail_bot.model_res_users
@@ -233,6 +244,9 @@ msgid ""
 "attention. <b>Try to ping me using</b> <span class=\"o_odoobot_command"
 "\">@BookmBot</span> in a sentence."
 msgstr ""
+"Wow vous êtes un naturel!<br/>Parlez à quelqu'un avec @username pour attirer "
+"son attention. <b>Essayez de me pinger en utilisant</b> <span class="
+"\"o_odoobot_command\">@BookmBot</span> dans une phrase."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

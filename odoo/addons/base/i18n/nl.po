@@ -12,14 +12,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 21:25+0000\n"
-"PO-Revision-Date: 2021-09-14 12:18+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"PO-Revision-Date: 2022-05-10 14:51+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/base/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at
@@ -163,6 +164,88 @@ msgid ""
 "\n"
 "    "
 msgstr ""
+"\n"
+"\n"
+"Localization Module for Denmark\n"
+"===============================\n"
+"\n"
+"This is the module to manage the **accounting chart for Denmark**. Cover "
+"both one-man business as well as I/S, IVS, ApS and A/S\n"
+"\n"
+"**Modulet opsætter:**\n"
+"\n"
+"- **Dansk kontoplan**\n"
+"\n"
+"- Dansk moms\n"
+"        - 25% moms\n"
+"        - Resturationsmoms 6,25%\n"
+"        - Omvendt betalingspligt\n"
+"\n"
+"- Konteringsgrupper\n"
+"        - EU (Virksomhed)\n"
+"        - EU (Privat)\n"
+"        - 3.lande\n"
+"\n"
+"- Finans raporter\n"
+"        - Resulttopgørelse\n"
+"        - Balance\n"
+"        - Momsafregning\n"
+"            - Afregning\n"
+"            - Rubrik A, B og C\n"
+"\n"
+"- **Anglo-Saxon regnskabsmetode**\n"
+"\n"
+".\n"
+"\n"
+"Produkt setup:\n"
+"==============\n"
+"\n"
+"**Vare**\n"
+"\n"
+"**Salgsmoms:**      Salgmoms 25%\n"
+"\n"
+"**Salgskonto:**     1010 Salg af vare, m/moms\n"
+"\n"
+"**Købsmoms:**       Købsmoms 25%\n"
+"\n"
+"**Købskonto:**      2010 Direkte omkostninger vare, m/moms\n"
+"\n"
+".\n"
+"\n"
+"**Ydelse**\n"
+"\n"
+"**Salgsmoms:**      Salgmoms 25%, ydelser\n"
+"\n"
+"**Salgskonto:**     1011 Salg af ydelser, m/moms\n"
+"\n"
+"**Købsmoms:**       Købsmoms 25%, ydelser\n"
+"\n"
+"**Købskonto:**      2011 Direkte omkostninger ydelser, m/moms\n"
+"\n"
+".\n"
+"\n"
+"**Vare med omvendt betalingspligt**\n"
+"\n"
+"**Salgsmoms:**      Salg omvendt betalingspligt\n"
+"\n"
+"**Salgskonto:**     1012 Salg af vare, u/moms\n"
+"\n"
+"**Købsmoms:**       Køb omvendt betalingspligt\n"
+"\n"
+"**Købskonto:**      2012 Direkte omkostninger vare, u/moms\n"
+"\n"
+"\n"
+".\n"
+"\n"
+"**Restauration**\n"
+"\n"
+"**Købsmoms:**       Restaurationsmoms 6,25%, købsmoms\n"
+"\n"
+"**Købskonto:**      4010 Restaurationsbesøg\n"
+"\n"
+".\n"
+"\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_do
@@ -1053,6 +1136,17 @@ msgid ""
 "and encourage users to configure their 2FA using an authenticator app.\n"
 "    "
 msgstr ""
+"\n"
+"2FA per post\n"
+"===============\n"
+"Twee-factor authenticatie door een code naar de e-mail inbox van de "
+"gebruiker te sturen\n"
+"wanneer de 2FA met behulp van een authenticator app niet is geconfigureerd.\n"
+"Om gebruikers te dwingen standaard een twee-factor authenticatie te "
+"gebruiken,\n"
+"en gebruikers aan te moedigen hun 2FA te configureren met behulp van een "
+"authenticator app.\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_tax_python
@@ -2904,6 +2998,10 @@ msgid ""
 "=======================================================\n"
 "    "
 msgstr ""
+"\n"
+"GCC POS Localization\n"
+"=======================================================\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_gamification
@@ -3158,6 +3256,25 @@ msgid ""
 "<https://service.odoo.co.in/einvoice_create_api_user>\n"
 "    "
 msgstr ""
+"\n"
+"Indian - E-invoicing\n"
+"====================\n"
+"To submit invoicing through API to the government.\n"
+"We use \"Tera Software Limited\" as GSP\n"
+"\n"
+"Step 1: First you need to create an API username and password in the E-"
+"invoice portal.\n"
+"Step 2: Switch to company related to that GST number\n"
+"Step 3: Set that username and password in Odoo (Goto: Invoicing/Accounting -"
+"> Configration -> Settings -> Customer Invoices or find \"E-invoice\" in "
+"search bar)\n"
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in odoo. If you have a "
+"multi-company with the same GST number then perform step 1 for the first "
+"company only.\n"
+"\n"
+"For the creation of API username and password please ref this document: "
+"<https://service.odoo.co.in/einvoice_create_api_user>\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in
@@ -3294,6 +3411,10 @@ msgid ""
 "=======================================================\n"
 "    "
 msgstr ""
+"\n"
+"K.S.A. POS Localization\n"
+"=======================================================\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_landed_costs
@@ -4986,6 +5107,11 @@ msgid ""
 "==============================================================================\n"
 "    "
 msgstr ""
+"\n"
+"This is the base module to manage the accounting chart for Egypt in Odoo.\n"
+"============================================================================="
+"=\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_gr
@@ -6649,6 +6775,8 @@ msgid ""
 " This is the base module to manage chart of accounts and localization for "
 "the Pakistan "
 msgstr ""
+" Dit is de basismodule voor het beheer van het rekeningstelsel en de "
+"lokalisatie voor Pakistan "
 
 #. module: base
 #: code:addons/model.py:0
@@ -7009,7 +7137,7 @@ msgstr "2FA Uitnodigingsmail"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_totp_mail_enforce
 msgid "2FA by mail"
-msgstr ""
+msgstr "2FA per mail"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
@@ -7092,7 +7220,7 @@ msgstr "<code>dateutil</code> (Python module)"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "<code>env</code>: environment on which the action is triggered"
-msgstr ""
+msgstr "<code>env</code>: omgeving waarop de actie is geactiveerd"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
@@ -7109,6 +7237,8 @@ msgid ""
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
 msgstr ""
+"<code>model</code>: model van het record op welke de functie wordt "
+"geactiveerd; is een void recordset"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
@@ -8640,6 +8770,8 @@ msgid ""
 "Also you will find here all the related documents and download it by "
 "clicking on any individual document."
 msgstr ""
+"Ook vindt u hier alle gerelateerde documenten en kunt u deze downloaden door "
+"op een individueel document te klikken."
 
 #. module: base
 #: code:addons/base/models/ir_fields.py:0
@@ -9445,6 +9577,11 @@ msgid ""
 "                        We recommend applying modifications to standard "
 "views through inherited views."
 msgstr ""
+"Wees er van bewust dat het wijzigen van de architectuur van een standaard "
+"view niet aangeraden wordt, aangezien de wijzigingen overschreven zullen "
+"worden bij toekomstige module updates.<br/>\n"
+"                        Wij raden aan wijzigingen toe te passen op standaard "
+"views via geërfde views."
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_asset__directive__before
@@ -9579,16 +9716,22 @@ msgstr "Bonaire, Sint Eustatius en Saba"
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
 msgid "Bookm helps you easily track all activities related to a customer."
 msgstr ""
+"Met Bookm kunt u gemakkelijk alle activiteiten met betrekking tot een klant "
+"volgen."
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
 msgid "Bookm helps you easily track all activities related to a vendor."
 msgstr ""
+"Met Bookm kunt u gemakkelijk alle activiteiten met betrekking tot een "
+"leverancier bijhouden."
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_form
 msgid "Bookm helps you track all activities related to your contacts."
 msgstr ""
+"Bookm helpt u bij het bijhouden van alle activiteiten met betrekking tot uw "
+"contacten."
 
 #. module: base
 #: code:addons/base/models/ir_module.py:0
@@ -9598,6 +9741,9 @@ msgid ""
 "Module operations are not possible at this time, please try again later or "
 "contact your system administrator."
 msgstr ""
+"Bookm is momenteel een geplande actie aan het verwerken.\n"
+"Modulebewerkingen zijn op dit moment niet mogelijk, probeer het later nog "
+"eens of neem contact op met uw systeembeheerder."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_sequence__padding
@@ -9605,6 +9751,8 @@ msgid ""
 "Bookm will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
 msgstr ""
+"Bookm voegt automatisch wat '0' toe aan de linkerkant van het 'Volgende "
+"nummer' om de gewenste opvulgrootte te krijgen."
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_property__type__boolean
@@ -10641,7 +10789,7 @@ msgstr "Configureer je producten"
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade
 msgid "Confirm"
-msgstr "Bevestigen"
+msgstr "Bevestig"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.identity_check_wizard
@@ -11048,7 +11196,7 @@ msgstr "Maak een nieuwe klant aan in je adresboek"
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_attachment
 msgid "Create a new document"
-msgstr ""
+msgstr "Een nieuw document maken"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -11066,6 +11214,9 @@ msgid ""
 "Create and manage the companies that will be managed by Bookm from here. "
 "Shops or subsidiaries can be created and maintained from here."
 msgstr ""
+"Creëer en beheer de bedrijven die door Bookm beheerd zullen worden van "
+"hieruit. Winkels of dochterondernemingen kunnen van hieruit worden "
+"aangemaakt en onderhouden."
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_res_users
@@ -11286,7 +11437,7 @@ msgstr "Aangemaakt op"
 #: code:addons/base/models/ir_translation.py:0
 #, python-format
 msgid "Creating translation on non existing records"
-msgstr ""
+msgstr "Vertaling maken op niet bestaande records"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_form
@@ -11789,6 +11940,8 @@ msgid ""
 "Define for which email address or domain this server can be used.\n"
 "e.g.: \"notification@example.com\" or \"example.com\""
 msgstr ""
+"Definieer voor welk email adres of domein deze server gebruikt kan worden.\n"
+"b.v.: \"notification@example.com\" of \"example.com\""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.module_form
@@ -12452,7 +12605,7 @@ msgstr "Egypte"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_eg
 msgid "Egypt - Accounting"
-msgstr ""
+msgstr "Egypte - Boekhouding"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner__partner_share
@@ -12599,7 +12752,7 @@ msgstr "Voer een beschrijving en het doel van de sleutel in."
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__to_buy
 msgid "Enterprise Module"
-msgstr ""
+msgstr "Enterprise Module"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website
@@ -12645,7 +12798,7 @@ msgstr "Eritrea"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_demo_failure__error
 msgid "Error"
-msgstr "Fout"
+msgstr "Error"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_constraint__message
@@ -13088,12 +13241,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_fetchmail_gmail
 msgid "Fetchmail Gmail"
-msgstr ""
+msgstr "Fetchmail Gmail"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_fetchmail_outlook
 msgid "Fetchmail Outlook"
-msgstr ""
+msgstr "Fetchmail Outlook"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_fr_fec
@@ -14065,7 +14218,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_google_gmail
 msgid "Gmail support for incoming / outgoing mail servers"
-msgstr ""
+msgstr "Gmail-ondersteuning voor inkomende/uitgaande mailservers"
 
 #. module: base
 #: code:addons/base/models/res_config.py:0
@@ -14092,7 +14245,7 @@ msgstr "Google Drive™ integratie"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_google_gmail
 msgid "Google Gmail"
-msgstr ""
+msgstr "Google Gmail"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_google_map
@@ -14112,7 +14265,7 @@ msgstr "Google gebruikers"
 #. module: base
 #: model:ir.module.module,description:base.module_fetchmail_gmail
 msgid "Google authentication for incoming mail server"
-msgstr ""
+msgstr "Google authenticatie voor inkomende mail server"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_google_recaptcha
@@ -14264,7 +14417,7 @@ msgstr "Samenwerkingsraad van de Golf (GCC)"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_gcc_pos
 msgid "Gulf Cooperation Council - Point of Sale"
-msgstr ""
+msgstr "Gulf Cooperation Council - Point of Sale"
 
 #. module: base
 #: model:res.country,name:base.gy
@@ -14841,6 +14994,9 @@ msgid ""
 "groups. If this field is empty, Bookm will compute visibility based on the "
 "related object's read access."
 msgstr ""
+"Indien je groepen hebt, zal de zichtbaarheid van dit menu gebaseerd worden "
+"op deze groepen. Indien dit veld leeg is, zal Bookm de zichtbaarheid "
+"berekenen op basis van de leestoegang van het verwante object's."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_access__active
@@ -15070,7 +15226,7 @@ msgstr "India - Boekhouding"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_in_edi
 msgid "Indian - E-invoicing"
-msgstr ""
+msgstr "Indian - E-invoicing"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_in_pos
@@ -15742,7 +15898,7 @@ msgstr "K.S.A - Factuur"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_sa_pos
 msgid "K.S.A. - Point of Sale"
-msgstr ""
+msgstr "K.S.A. - Point of Sale"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_digest
@@ -16797,6 +16953,11 @@ msgid ""
 "to specific groups in order to make them accessible to some users within the "
 "system."
 msgstr ""
+"Beheer en pas de items aan die beschikbaar zijn en worden weergegeven in uw "
+"systeemmenu. U kunt een item verwijderen door te klikken op het vakje aan "
+"het begin van elke regel en het vervolgens te verwijderen via de knop die "
+"verscheen. Items kunnen worden toegewezen aan specifieke groepen om ze "
+"toegankelijk te maken voor bepaalde gebruikers binnen het systeem."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_slides
@@ -17096,7 +17257,7 @@ msgstr "Micronesië"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_microsoft_outlook
 msgid "Microsoft Outlook"
-msgstr ""
+msgstr "Microsoft Outlook"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_microsoft_account
@@ -18210,7 +18371,7 @@ msgstr "O PUBLIEKE ADMINISTRATIE EN DEFENSIE, VERPLICHTE SOCIALE ZEKERHEID"
 #. module: base
 #: model:ir.module.module,description:base.module_fetchmail_outlook
 msgid "OAuth authentication for incoming Outlook mail server"
-msgstr ""
+msgstr "OAuth authenticatie voor inkomende Outlook mail server"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_oauth
@@ -21505,7 +21666,7 @@ msgstr "Outlook Calendar"
 #. module: base
 #: model:ir.module.module,description:base.module_microsoft_outlook
 msgid "Outlook support for outgoing mail servers"
-msgstr ""
+msgstr "Outlook-ondersteuning voor uitgaande mailservers"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_paperformat__dpi
@@ -21603,7 +21764,7 @@ msgstr "Pakistan"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pk
 msgid "Pakistan - Accounting"
-msgstr ""
+msgstr "Pakistan - Accounting"
 
 #. module: base
 #: model:res.country,name:base.pw
@@ -22105,6 +22266,9 @@ msgid ""
 "restricted menus).\n"
 "                They usually do not belong to the usual groups."
 msgstr ""
+"Portaalleden hebben specifieke toegangsrechten (zoals recordregels en "
+"beperkte menu's).\n"
+"                Zij behoren meestal niet tot de gebruikelijke groepen."
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__orientation__portrait
@@ -22600,6 +22764,9 @@ msgid ""
 "restricted menus).\n"
 "                They usually do not belong to the usual groups."
 msgstr ""
+"Openbare gebruikers hebben specifieke toegangsrechten (zoals recordregels en "
+"beperkte menu's).\n"
+"                Zij behoren meestal niet tot de gebruikelijke groepen."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_blog
@@ -23478,6 +23645,9 @@ msgid ""
 "SMTP-over-SSL is not supported. You could use STARTTLS instead. If SSL is "
 "needed, an upgrade to Python 2.6 on the server-side should do the trick."
 msgstr ""
+"SMTP-over-SSL wordt niet ondersteund. U zou in plaats daarvan STARTTLS "
+"kunnen gebruiken. Als SSL nodig is, zou een upgrade naar Python 2.6 aan de "
+"server-zijde moeten volstaan."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_purchase_stock
@@ -23889,6 +24059,13 @@ msgid ""
 "                            all these fields in common. (not one of the "
 "fields)."
 msgstr ""
+"Selecteer de lijst van velden die worden gebruikt om te zoeken naar\n"
+"                            dubbele records. Als u meerdere velden "
+"selecteert,\n"
+"                            zal Bookm u voorstellen om alleen de records "
+"samen te voegen die\n"
+"                            al deze velden gemeen hebben. (niet één van de "
+"velden)."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__selectable
@@ -24760,7 +24937,7 @@ msgstr "Zweden"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_se
 msgid "Sweden - Accounting"
-msgstr ""
+msgstr "Sweden - Accounting"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_language_install
@@ -25224,6 +25401,10 @@ msgid ""
 "Bookm. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
 msgstr ""
+"De configuratie wizards worden gebruikt om u te helpen bij het configureren "
+"van een nieuwe instantie van Bookm. Ze worden gestart tijdens de installatie "
+"van nieuwe modules, maar u kunt ervoor kiezen om sommige wizards handmatig "
+"te herstarten vanuit dit menu."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__related
@@ -26619,6 +26800,13 @@ msgid ""
 "retrieve those PDFs by selecting each of the affected records individually, "
 "which will avoid merging."
 msgstr ""
+"Het lukt niet om de PDF's samen te voegen die bij de volgende records horen:"
+"\n"
+"%s\n"
+"\n"
+"Gelieve ze uit te sluiten van de selectie om verder te gaan. Het's nog "
+"steeds mogelijk om die PDF's op te halen door elk van de betrokken records "
+"afzonderlijk te selecteren, waardoor samenvoegen wordt vermeden."
 
 #. module: base
 #: code:addons/base/models/ir_model.py:0
@@ -27389,6 +27577,9 @@ msgid ""
 "Views allows you to personalize each view of Bookm. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
 msgstr ""
+"Met Views kunt u elke weergave van Bookm personaliseren. U kunt nieuwe "
+"velden toevoegen, velden verplaatsen, de naam wijzigen of de velden die u "
+"niet nodig hebt, verwijderen."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_view__inherit_children_ids
@@ -27920,6 +28111,8 @@ msgid ""
 "You can not remove the admin user as it is used internally for resources "
 "(updates, module installation, ...)"
 msgstr ""
+"U kunt de admin gebruiker niet verwijderen aangezien deze intern gebruikt "
+"wordt voor bronnen (updates, module installatie, ...)"
 
 #. module: base
 #: code:addons/base/models/report_paperformat.py:0
@@ -28352,7 +28545,7 @@ msgstr "bijv. en_US"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_address_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "e.g. https://www.example.com"
-msgstr ""
+msgstr "b.v. https://www.example.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale
@@ -28488,7 +28681,7 @@ msgstr "many2many"
 #: code:addons/base/models/ir_actions.py:0
 #, python-format
 msgid "many2many fields cannot be evaluated by reference"
-msgstr ""
+msgstr "many2many-velden kunnen niet met verwijzing worden geëvalueerd"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__ttype__many2one

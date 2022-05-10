@@ -12,21 +12,23 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 21:29+0000\n"
-"PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"PO-Revision-Date: 2022-05-10 14:52+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: German <https://weblate.bookm.be/projects/odoo-15/"
+"auth_totp_portal/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: auth_totp_portal
 #. openerp-web
 #: code:addons/auth_totp_portal/static/src/js/totp_frontend.js:0
 #, python-format
 msgid " Copy"
-msgstr ""
+msgstr " Kopieren"
 
 #. module: auth_totp_portal
 #: model_terms:ir.ui.view,arch_db:auth_totp_portal.totp_portal_hook
@@ -58,7 +60,7 @@ msgstr ""
 #. module: auth_totp_portal
 #: model_terms:ir.ui.view,arch_db:auth_totp_portal.totp_portal_hook
 msgid "<strong>Added On</strong>"
-msgstr ""
+msgstr "<strong>Hinzufügen am</strong>"
 
 #. module: auth_totp_portal
 #: model_terms:ir.ui.view,arch_db:auth_totp_portal.totp_portal_hook

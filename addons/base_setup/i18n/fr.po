@@ -11,14 +11,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 21:31+0000\n"
-"PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"PO-Revision-Date: 2022-05-10 14:52+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: French <https://weblate.bookm.be/projects/odoo-15/base_setup/"
+"fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -171,7 +173,7 @@ msgstr "Recevez de chouettes feedbacks et motivez vos employés"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_mail_plugin
 msgid "Allow integration with the mail plugins"
-msgstr ""
+msgstr "Permettre l'intégration avec les plugins de messagerie"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_calendar
@@ -275,7 +277,7 @@ msgstr "Créez et attachez des documents Google Drive à vos entrées"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__external_email_server_default
 msgid "Custom Email Servers"
-msgstr ""
+msgstr "Serveurs de messagerie personnalisés"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__report_footer
@@ -344,7 +346,7 @@ msgstr "Entrer une adresse de courriel"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Extract and analyze Bookm data from Google Spreadsheet"
-msgstr ""
+msgstr "Extrayez et analysez les données Bookm de Google Spreadsheet"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -380,7 +382,7 @@ msgstr "Géolocaliser vos partenaires"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_product_images
 msgid "Get product pictures using barcode"
-msgstr ""
+msgstr "Obtenir des photos de produits à l'aide d'un code-barres"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -410,7 +412,7 @@ msgstr "Import & Export"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrate with mail client plugins"
-msgstr ""
+msgstr "Intégrer les plugins des clients de messagerie"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -464,7 +466,7 @@ msgstr "Charger les données de démonstration"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Mail Plugin"
-msgstr ""
+msgstr "Mail Plugin"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -630,7 +632,7 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use external pads in Notes"
-msgstr ""
+msgstr "Utilisez les pads externes dans Notes"
 
 #. module: base_setup
 #: model:ir.model,name:base_setup.model_res_users
@@ -645,6 +647,9 @@ msgid ""
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
+"Lorsque vous remplissez votre carnet d'adresses, Bookm fournit une liste "
+"d'entreprises correspondantes. Lorsque vous sélectionnez un élément, les "
+"données et le logo de l'entreprise sont automatiquement remplis."
 
 #. module: base_setup
 #. openerp-web

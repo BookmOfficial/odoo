@@ -11,14 +11,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 23:11+0000\n"
-"PO-Revision-Date: 2021-09-14 12:25+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"PO-Revision-Date: 2022-05-10 14:52+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/"
+"product_expiry/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -74,7 +76,7 @@ msgstr "Configuratie instellingen"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Confirm"
-msgstr "Bevestigen"
+msgstr "Bevestig"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_expiry_picking_confirmation

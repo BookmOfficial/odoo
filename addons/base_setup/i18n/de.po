@@ -12,14 +12,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 21:31+0000\n"
-"PO-Revision-Date: 2021-09-14 12:20+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"PO-Revision-Date: 2022-05-10 14:52+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: German <https://weblate.bookm.be/projects/odoo-15/base_setup/"
+"de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -340,7 +342,7 @@ msgstr "E-Mail-Adresse eingeben"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Extract and analyze Bookm data from Google Spreadsheet"
-msgstr ""
+msgstr "Extrahieren und Analysieren von Bookm-Daten aus Google Spreadsheet"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -622,7 +624,7 @@ msgstr "Verwenden Sie externe Authentifizierungsanbieter (OAuth)"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use external pads in Notes"
-msgstr ""
+msgstr "Verwenden Sie externe Pads in Notes"
 
 #. module: base_setup
 #: model:ir.model,name:base_setup.model_res_users
@@ -637,6 +639,9 @@ msgid ""
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
+"Beim Auffüllen Ihres Adressbuchs bietet Bookm eine Liste mit passenden "
+"Unternehmen an. Wenn Sie ein Element auswählen, werden die Unternehmensdaten "
+"und das Logo automatisch ausgefüllt."
 
 #. module: base_setup
 #. openerp-web

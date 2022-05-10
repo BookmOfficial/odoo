@@ -13,14 +13,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 22:47+0000\n"
-"PO-Revision-Date: 2021-09-14 12:23+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2022\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"PO-Revision-Date: 2022-05-10 14:51+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/mail/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -55,6 +56,8 @@ msgid ""
 "%(email)s is not recognized as a valid email. This is required to create a "
 "new customer."
 msgstr ""
+"%(email)s wordt niet herkend als een geldig e-mailadres. Dit is nodig om een "
+"nieuwe klant aan te maken."
 
 #. module: mail
 #: code:addons/mail/wizard/mail_wizard_invite.py:0
@@ -1054,7 +1057,7 @@ msgstr ""
 #: code:addons/mail/models/mail_thread_blacklist.py:0
 #, python-format
 msgid "Are you sure you want to unblacklist this Email Address?"
-msgstr ""
+msgstr "Weet u zeker dat u dit e-mailadres wilt deblokkeren?"
 
 #. module: mail
 #. openerp-web
@@ -1247,7 +1250,7 @@ msgstr "Avatar 512"
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
 msgid "Avatar of BookmBot"
-msgstr ""
+msgstr "Avatar van BookmBot"
 
 #. module: mail
 #. openerp-web
@@ -1319,6 +1322,8 @@ msgid ""
 "Bookm will not have the permission to send native notifications on this "
 "device."
 msgstr ""
+"Bookm zal geen toestemming hebben om native meldingen op dit apparaat te "
+"versturen."
 
 #. module: mail
 #. openerp-web
@@ -1524,6 +1529,8 @@ msgid ""
 "Channel \"%(channel_name)s\" only accepts members of group \"%(group_name)s"
 "\". Forbidden for: %(guest_names)s"
 msgstr ""
+"Kanaal \"%(channel_name)s\" accepteert alleen leden van groep \"%(group_name)"
+"s\". Verboden voor: %(guest_names)s"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:0
@@ -1746,7 +1753,7 @@ msgstr "Configureer je eigen e-mail servers"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_remove_view_form
 msgid "Confirm"
-msgstr "Bevestigen"
+msgstr "Bevestig"
 
 #. module: mail
 #. openerp-web
@@ -2693,7 +2700,7 @@ msgstr "Envelop voorbeeld"
 #: model:ir.model.fields.selection,name:mail.selection__res_partner__activity_exception_decoration__danger
 #, python-format
 msgid "Error"
-msgstr "Fout"
+msgstr "Error"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__error_msg
@@ -3122,7 +3129,7 @@ msgstr "Afhandelen met e-mails"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
 msgid "Handle in Bookm"
-msgstr ""
+msgstr "Afhandelen in Bookm"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -3308,13 +3315,13 @@ msgstr "Id van de gevolgde resource"
 #: model:ir.model.fields,field_description:mail.field_res_partner__vat
 #: model:ir.model.fields,field_description:mail.field_res_users__vat
 msgid "Identification Number"
-msgstr ""
+msgstr "Identificatie Nummer"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_partner__vat
 #: model:ir.model.fields,help:mail.field_res_users__vat
 msgid "Identification Number for selected type"
-msgstr ""
+msgstr "Identificatienummer voor geselecteerd type"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_channel_rtc_session_view_form
@@ -3436,6 +3443,8 @@ msgid ""
 "If you have setup a catch-all email domain redirected to the Bookm server, "
 "enter the domain name here."
 msgstr ""
+"Als je een 'catch-all' e-mail adres heeft aangemaakt, welke verwijst naar de "
+"Bookm server, vul dan hier de domein naam in."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -5410,6 +5419,9 @@ msgid ""
 "- Handle by Emails: notifications are sent to your email address\n"
 "- Handle in Bookm: notifications appear in your Bookm Inbox"
 msgstr ""
+"Beleid over hoe om te gaan met Chatter-meldingen:\n"
+"- Afhandelen via E-mails: meldingen worden naar uw e-mailadres gestuurd\n"
+"- Afhandelen in Bookm: meldingen verschijnen in uw Bookm Postvak In"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5474,6 +5486,8 @@ msgid ""
 "Posting a message with channels as listeners is not supported. Please update "
 "code accordingly."
 msgstr ""
+"Het posten van een bericht met kanalen als luisteraars wordt niet "
+"ondersteund. Gelieve de code dienovereenkomstig aan te passen."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__previous_type_ids
@@ -5581,6 +5595,8 @@ msgid ""
 "Push notifications have been blocked. Go to your browser settings to allow "
 "them."
 msgstr ""
+"Pushmeldingen zijn geblokkeerd. Ga naar uw browserinstellingen om ze toe te "
+"staan."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users_settings__push_to_talk_key
@@ -5978,7 +5994,7 @@ msgstr "Sjabloonweergave beperken"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Restrict mail templates edition and QWEB placeholders usage."
-msgstr ""
+msgstr "Beperk het gebruik van mail templates editie en QWEB plaatshouders."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -6850,6 +6866,9 @@ msgid ""
 "incoming email that does not reply to an existing record will cause the "
 "creation of a new record of this model (e.g. a Project Task)"
 msgstr ""
+"Het model (Bookm Document Kind) waarmee deze alias correspondeert. Elke "
+"inkomende e-mail die niet beantwoordt aan een bestaand record zal leiden tot "
+"de creatie van een nieuw record van dit model (b.v. een Project Taak)"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_name
@@ -6858,6 +6877,8 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.com>"
 msgstr ""
+"De naam van de e-mail alias, bijvoorbeeld: 'jobs' als je alle e-mails van "
+"<jobs@example.com> wilt ontvangen"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6983,6 +7004,9 @@ msgid ""
 "including from the Technical menu in the Settings, in order to preserve "
 "storage space of your database."
 msgstr ""
+"Deze optie verwijdert permanent elk spoor van een e-mail nadat het is "
+"verzonden, ook uit het Technisch menu in de Instellingen, om de opslagruimte "
+"van uw database te besparen."
 
 #. module: mail
 #. openerp-web
@@ -7541,6 +7565,9 @@ msgid ""
 "Using your own email server is not required to send/receive emails. Users "
 "already benefit from a ready-to-use email server (@example.mybookm.com)."
 msgstr ""
+"Het gebruik van een eigen e-mailserver is niet vereist voor het verzenden/"
+"ontvangen van e-mails. Gebruikers profiteren al van een kant-en-klare e-"
+"mailserver (@example.mybookm.com)."
 
 #. module: mail
 #. openerp-web
@@ -7738,7 +7765,7 @@ msgstr "Je bent in kanaal <b>#%s</b>."
 #: code:addons/mail/controllers/discuss.py:0
 #, python-format
 msgid "You are not allowed to upload an attachment here."
-msgstr ""
+msgstr "U mag hier geen bijlage uploaden."
 
 #. module: mail
 #. openerp-web
@@ -7830,6 +7857,8 @@ msgid ""
 "You do not have the access right to unblacklist emails. Please contact your "
 "administrator."
 msgstr ""
+"U hebt niet genoeg rechten om e-mails van de zwarte lijst te halen. Neem "
+"contact op met uw beheerder."
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:0

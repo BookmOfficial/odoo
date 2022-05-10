@@ -14,14 +14,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 23:48+0000\n"
-"PO-Revision-Date: 2021-09-14 12:27+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"PO-Revision-Date: 2022-05-10 14:52+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/website/nl/>"
+"\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: website
 #. openerp-web
@@ -834,6 +836,8 @@ msgid ""
 "<i class=\"fa fa-map-marker fa-fw mr-2\"/><span class=\"o_force_ltr\">3575 "
 "Fake Buena Vista Avenue</span>"
 msgstr ""
+"<i class=\"fa fa-map-marker fa-fw mr-2\"/><span class=\"o_force_ltr\">3575 "
+"Fake Buena Vista Avenue</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -844,6 +848,8 @@ msgid ""
 "<i class=\"fa fa-phone fa-fw mr-2\"/><span class=\"o_force_ltr\">+1 (650) "
 "555-0111</span>"
 msgstr ""
+"<i class=\"fa fa-phone fa-fw mr-2\"/><span class=\"o_force_ltr\">+1 (650) "
+"555-0111</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.language_selector_add_language
@@ -1292,22 +1298,22 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers
 msgid "<span class=\"s_number display-4\">12</span><br/>"
-msgstr ""
+msgstr "<span class=\"s_number display-4\">12</span><br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers
 msgid "<span class=\"s_number display-4\">37</span><br/>"
-msgstr ""
+msgstr "<span class=\"s_number display-4\">37</span><br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers
 msgid "<span class=\"s_number display-4\">45</span><br/>"
-msgstr ""
+msgstr "<span class=\"s_number display-4\">45</span><br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers
 msgid "<span class=\"s_number display-4\">8</span><br/>"
-msgstr ""
+msgstr "<span class=\"s_number display-4\">8</span><br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_progress_bar
@@ -2310,7 +2316,7 @@ msgstr "Bloggen en relevante inhoud plaatsen"
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "Bookm Logo"
-msgstr ""
+msgstr "Bookm Logo"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_list
@@ -2600,6 +2606,9 @@ msgid ""
 "Change theme in a few clicks, and browse through Bookm's catalog of\n"
 "                            ready-to-use themes."
 msgstr ""
+"Verander van thema in een paar klikken, en blader door Bookm's catalogus "
+"van\n"
+"                            kant-en-klare thema's."
 
 #. module: website
 #. openerp-web
@@ -3680,7 +3689,7 @@ msgstr "Richtlijn"
 #: model:ir.cron,cron_name:website.website_disable_unused_snippets_assets
 #: model:ir.cron,name:website.website_disable_unused_snippets_assets
 msgid "Disable unused snippets assets"
-msgstr ""
+msgstr "Schakel ongebruikte snippets uit"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
@@ -4000,6 +4009,8 @@ msgid ""
 "Easily design your own templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
+"Ontwerp eenvoudig uw eigen sjablonen dankzij de heldere HTML\n"
+"                            structuur en bootstrap CSS."
 
 #. module: website
 #. openerp-web
@@ -4168,7 +4179,7 @@ msgstr "Gelijke breedte"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 #, python-format
 msgid "Error"
-msgstr "Fout"
+msgstr "Error"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_list
@@ -4576,7 +4587,7 @@ msgstr "Volg ons"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Follow your website traffic in Bookm."
-msgstr ""
+msgstr "Volg uw website verkeer in Bookm."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -5011,7 +5022,7 @@ msgstr "Hamburger menu"
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
 msgid "Happy Anniversary!"
-msgstr ""
+msgstr "Gelukkig jubileum!"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -5707,6 +5718,11 @@ msgid ""
 "use the new \n"
 "            color system, which is still customizable."
 msgstr ""
+"Het lijkt erop dat uw website op sommige plaatsen nog het oude "
+"kleurensysteem gebruikt.\n"
+"            We hebben ervoor gezorgd dat het nog werkt, maar we raden u aan "
+"om het nieuwe\n"
+"            kleurensysteem te gebruiken, dat nog steeds aanpasbaar is."
 
 #. module: website
 #. openerp-web
@@ -6469,6 +6485,10 @@ msgid ""
 "have completed one of your forms, you can send them an SMS, or call them "
 "right away while they are browsing your website."
 msgstr ""
+"Monitor uw bezoekers terwijl ze op uw website surfen. Ga met één klik met ze "
+"in gesprek via een live chat verzoek of een push notificatie. Als ze een van "
+"uw formulieren hebben ingevuld, kunt u ze een sms sturen, of ze meteen "
+"bellen terwijl ze op uw website surfen."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -7913,7 +7933,7 @@ msgstr "Route"
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
 msgid "Run Bookm to grow your businesses."
-msgstr ""
+msgstr "Gebruik Bookm om uw bedrijven te laten groeien."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -8070,6 +8090,10 @@ msgid ""
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
+"Zoek in de mediadialoog wanneer u foto's nodig hebt om uw website te "
+"illustreren. Bookm's integratie met Unsplash, met miljoenen royalty vrije en "
+"hoge kwaliteit foto's, maakt het mogelijk voor u om de perfecte foto te "
+"krijgen, in slechts een paar klikken."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_searchbar
@@ -8382,6 +8406,9 @@ msgid ""
 "and which have recently changed, and to crawl your site accordingly. This "
 "file is automatically generated by Bookm."
 msgstr ""
+"Sitemap.xml: Helpt zoekmachine crawlers met het ontdekken van uw pagina's, "
+"welke onlangs gewijzigd zijn, en om uw site correct te crawlen. Dit bestand "
+"wordt automatisch gegenereerd door Bookm."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -9390,6 +9417,10 @@ msgid ""
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
+"Om meer bezoekers te krijgen, moet je je richten op trefwoorden die vaak "
+"worden gezocht in Google. Met de ingebouwde SEO tool, zodra je een paar "
+"trefwoorden hebt gedefinieerd, zal Bookm je de beste trefwoorden aanraden. "
+"Pas vervolgens je titel en beschrijving aan om je verkeer te stimuleren."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -11099,7 +11130,7 @@ msgstr "van Logo"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid "frontend_lang (Bookm)"
-msgstr ""
+msgstr "frontend_lang (Bookm)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -11144,7 +11175,7 @@ msgstr "https://fonts.google.com/specimen/Roboto"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "https://www.example.com"
-msgstr ""
+msgstr "https://www.example.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -11159,6 +11190,10 @@ msgid ""
 "                                            utm_source (Bookm)<br/>\n"
 "                                            utm_medium (Bookm)"
 msgstr ""
+"im_livechat_previous_operator_pid (Bookm)<br/>\n"
+"                                            utm_campaign (Bookm)<br/>\n"
+"                                            utm_source (Bookm)<br/>\n"
+"                                            utm_medium (Bookm)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -11181,7 +11216,7 @@ msgstr "in de rechterbovenhoek om te beginnen met ontwerpen."
 #: model_terms:ir.ui.view,arch_db:website.template_header_hamburger_oe_structure_header_hamburger_3
 #: model_terms:ir.ui.view,arch_db:website.template_header_sidebar_oe_structure_header_sidebar_1
 msgid "info@example.mybookm.com"
-msgstr ""
+msgstr "info@example.mybookm.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
@@ -11303,7 +11338,7 @@ msgstr "scheidingsteken, scheidingslijn"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid "session_id (Bookm)<br/>"
-msgstr ""
+msgstr "session_id (Bookm)<br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

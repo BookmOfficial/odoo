@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server 13.0alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 22:31+0000\n"
-"PO-Revision-Date: 2019-08-22 13:00+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-10 14:52+0000\n"
+"Last-Translator: Bookm <admin@bookm.be>\n"
+"Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/"
+"l10n_latam_base/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. module: l10n_latam_base
 #: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
@@ -65,7 +67,7 @@ msgstr ""
 #. module: l10n_latam_base
 #: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__description
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
 #. module: l10n_latam_base
 #: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__display_name
@@ -82,13 +84,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_latam_base.field_res_users__vat
 #: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
 msgid "Identification Number"
-msgstr ""
+msgstr "Identificatie Nummer"
 
 #. module: l10n_latam_base
 #: model:ir.model.fields,help:l10n_latam_base.field_res_partner__vat
 #: model:ir.model.fields,help:l10n_latam_base.field_res_users__vat
 msgid "Identification Number for selected type"
-msgstr ""
+msgstr "Identificatienummer voor geselecteerd type"
 
 #. module: l10n_latam_base
 #: model:ir.actions.act_window,name:l10n_latam_base.action_l10n_latam_identification_type
