@@ -19,11 +19,11 @@
 
         <t t-if="object.program_id.reward_type == 'discount'">
             <t t-if="object.program_id.discount_type == 'fixed_amount'">
-                <span style="font-size: 50px; color: #875A7B; font-weight: bold;" t-out="'%s' % format_amount(object.program_id.discount_fixed_amount, object.program_id.currency_id) or ''">$ 10.00</span><br />
+                <span style="font-size: 50px; color: #1E1E74; font-weight: bold;" t-out="'%s' % format_amount(object.program_id.discount_fixed_amount, object.program_id.currency_id) or ''">$ 10.00</span><br />
                 <strong style="font-size: 24px;">off on your next order</strong><br />
             </t>
             <t t-else="">
-                <span style="font-size: 50px; color: #875A7B; font-weight: bold;"><t t-out="object.program_id.discount_percentage or ''">10</t> %</span>
+                <span style="font-size: 50px; color: #1E1E74; font-weight: bold;"><t t-out="object.program_id.discount_percentage or ''">10</t> %</span>
             </t>
             <t t-if="object.program_id.discount_apply_on == 'specific_products'">
                 <br />
@@ -50,11 +50,11 @@
             <br />
         </t>
         <t t-elif="object.program_id.reward_type == 'product'">
-            <span style="font-size: 36px; color: #875A7B; font-weight: bold;" t-out="'get %s free %s' % (object.program_id.reward_product_quantity, object.program_id.reward_product_id.name) or ''">get 1 free Corner Desk Right Sit</span><br />
+            <span style="font-size: 36px; color: #1E1E74; font-weight: bold;" t-out="'get %s free %s' % (object.program_id.reward_product_quantity, object.program_id.reward_product_id.name) or ''">get 1 free Corner Desk Right Sit</span><br />
             <strong style="font-size: 24px;">on your next order</strong><br />
         </t>
         <t t-elif="object.program_id.reward_type == 'free_shipping'">
-            <span style="font-size: 36px; color: #875A7B; font-weight: bold;">
+            <span style="font-size: 36px; color: #1E1E74; font-weight: bold;">
                 get free shipping
             </span><br />
             <strong style="font-size: 24px;">on your next order</strong><br />
