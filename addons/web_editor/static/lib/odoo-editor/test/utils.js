@@ -2,7 +2,7 @@ import { OdooEditor } from '../src/OdooEditor.js';
 import { sanitize } from '../src/utils/sanitize.js';
 import { insertText as insertTextSel } from '../src/utils/utils.js';
 
-const Direction = {
+export const Direction = {
     BACKWARD: 'BACKWARD',
     FORWARD: 'FORWARD',
 };
@@ -264,7 +264,7 @@ export function customErrorMessage(assertLocation, value, expected) {
     value = value.replace('\u200B', zws);
     expected = expected.replace('\u200B', zws);
 
-    return `[${assertLocation}}]\nactual  : '${value}'\nexpected: '${expected}'\n\nStackTrace `;
+    return `[${assertLocation}]\nactual  : '${value}'\nexpected: '${expected}'\n\nStackTrace `;
 }
 
 export async function testEditor(Editor = OdooEditor, spec, options = {}) {

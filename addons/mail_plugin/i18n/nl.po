@@ -138,7 +138,7 @@ msgstr "Bedrijf"
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Company Created."
-msgstr "Bedrijf gemaakt."
+msgstr "Bedrijf aangemaakt."
 
 #. module: mail_plugin
 #. openerp-web
@@ -161,7 +161,7 @@ msgstr "Soort bedrijf"
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Company created"
-msgstr "Bedrijf gemaakt"
+msgstr "Bedrijf aangemaakt"
 
 #. module: mail_plugin
 #. openerp-web
@@ -656,6 +656,13 @@ msgstr "Omzet"
 #, python-format
 msgid "Save in Bookm"
 msgstr ""
+
+#. module: mail_plugin
+#. openerp-web
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+#, python-format
+msgid "Save the contact to create the company"
+msgstr "Sla het contact op om het bedrijf aan te maken"
 
 #. module: mail_plugin
 #. openerp-web
