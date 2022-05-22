@@ -6,21 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:23+0000\n"
-"PO-Revision-Date: 2022-04-15 22:23+0000\n"
+"POT-Creation-Date: 2022-05-22 20:19+0000\n"
+"PO-Revision-Date: 2022-05-22 20:19+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-
-#. module: l10n_es_edi_sii
-#: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
-msgid ""
-"<br/>\n"
-"                                    Check this box if test env:"
-msgstr ""
 
 #. module: l10n_es_edi_sii
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
@@ -168,11 +161,6 @@ msgid "File"
 msgstr ""
 
 #. module: l10n_es_edi_sii
-#: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
-msgid "Go to Configuration &gt; Certificates [ES] to add your certificate."
-msgstr ""
-
-#. module: l10n_es_edi_sii
 #: model:ir.model.fields.selection,name:l10n_es_edi_sii.selection__res_company__l10n_es_edi_tax_agency__bizkaia
 msgid "Hacienda Foral de Bizkaia"
 msgstr ""
@@ -264,6 +252,11 @@ msgid "Line %s should only have one sujeto tax."
 msgstr ""
 
 #. module: l10n_es_edi_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
+msgid "Manage certificates (SII/TicketBAI)"
+msgstr ""
+
+#. module: l10n_es_edi_sii
 #: code:addons/l10n_es_edi_sii/models/account_edi_format.py:0
 #, python-format
 msgid ""
@@ -290,6 +283,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_es_edi_sii.selection__account_tax_template__l10n_es_type__no_sujeto_loc
 #: model:ir.model.fields.selection,name:l10n_es_edi_sii.selection__l10n_es_sii_account_tax_mixin__l10n_es_type__no_sujeto_loc
 msgid "No Sujeto por reglas de Localization"
+msgstr ""
+
+#. module: l10n_es_edi_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
+msgid "No tax agency selected: SII not activated."
 msgstr ""
 
 #. module: l10n_es_edi_sii
@@ -329,6 +327,11 @@ msgstr ""
 #: code:addons/l10n_es_edi_sii/models/account_edi_format.py:0
 #, python-format
 msgid "Please specify a tax agency on your company for SII."
+msgstr ""
+
+#. module: l10n_es_edi_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
+msgid "Production mode: EDI data is sent to the official agency servers."
 msgstr ""
 
 #. module: l10n_es_edi_sii
@@ -407,6 +410,13 @@ msgid "Tax Type (Spain)"
 msgstr ""
 
 #. module: l10n_es_edi_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
+msgid ""
+"Tax agency selected: invoices will be sent by SII for journals where it is "
+"activated."
+msgstr ""
+
+#. module: l10n_es_edi_sii
 #: model:ir.model.fields,help:l10n_es_edi_sii.field_account_bank_statement_line__l10n_es_registration_date
 #: model:ir.model.fields,help:l10n_es_edi_sii.field_account_move__l10n_es_registration_date
 #: model:ir.model.fields,help:l10n_es_edi_sii.field_account_payment__l10n_es_registration_date
@@ -424,6 +434,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_es_edi_sii.field_res_company__l10n_es_edi_test_env
 #: model:ir.model.fields,field_description:l10n_es_edi_sii.field_res_config_settings__l10n_es_edi_test_env
 msgid "Test Mode"
+msgstr ""
+
+#. module: l10n_es_edi_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
+msgid ""
+"Test mode: EDI data is sent to separate test servers and is not considered "
+"official."
 msgstr ""
 
 #. module: l10n_es_edi_sii
