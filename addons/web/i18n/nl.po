@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 23:47+0000\n"
-"PO-Revision-Date: 2022-05-10 14:52+0000\n"
+"POT-Creation-Date: 2022-05-22 20:52+0000\n"
+"PO-Revision-Date: 2022-05-25 12:05+0000\n"
 "Last-Translator: Bookm <admin@bookm.be>\n"
 "Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/web/nl/>\n"
 "Language: nl\n"
@@ -4001,8 +4001,7 @@ msgstr "Neem even de tijd voor een kopje koffie,"
 #: code:addons/web/static/src/legacy/js/core/misc.js:0
 #, python-format
 msgid "Take a minute to get a coffee,<br />because it's loading..."
-msgstr ""
-"Neem een minuutje om koffie te halen,<br />want Odoo is aan het laden..."
+msgstr "Neem even de tijd om koffie te halen,<br />want het is aan het laden..."
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_base_document_layout__vat
@@ -4728,7 +4727,7 @@ msgstr "Je gelooft het misschien niet,"
 #, python-format
 msgid "You may not believe it,<br />but the application is actually loading..."
 msgstr ""
-"Je zou het haast niet geloven,<br />maar Odoo is wel degelijk aan het "
+"Je gelooft het misschien niet, <br />maar de applicatie is echt aan het "
 "laden..."
 
 #. module: web
@@ -4875,7 +4874,7 @@ msgstr "op:"
 #: code:addons/web/static/src/core/ui/block_ui.js:0
 #, python-format
 msgid "because it's loading..."
-msgstr "omdat Odoo aan het laden is..."
+msgstr "omdat Bookm aan het laden is..."
 
 #. module: web
 #. openerp-web
@@ -5092,7 +5091,7 @@ msgstr "is waar"
 #: code:addons/web/static/src/core/ui/block_ui.js:0
 #, python-format
 msgid "it's still loading..."
-msgstr "Odoo is nog aan het laden..."
+msgstr "Bookm is nog aan het laden..."
 
 #. module: web
 #. openerp-web
