@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:52+0000\n"
+"POT-Creation-Date: 2022-05-22 20:39+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -39,8 +39,8 @@ msgid ""
 "Analytic account in which cost and revenue entries will take        place "
 "for financial management of the manufacturing order."
 msgstr ""
-"Cuenta analítica en la que se producirán los asientos de costos e ingresos"
-"        para la gestión financiera de la orden de fabricación."
+"Cuenta analítica en la que se producirán los asientos de costos e "
+"ingresos        para la gestión financiera de la orden de fabricación."
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_bom__analytic_account_id
@@ -115,6 +115,11 @@ msgid ""
 msgstr ""
 "Rellene esto sólo si desea generar apuntes analíticos automáticos desde las "
 "órdenes de fabricación."
+
+#. module: mrp_account
+#: model:ir.model,name:mrp_account.model_account_move_line
+msgid "Journal Item"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model.fields.selection,name:mrp_account.selection__account_analytic_line__category__manufacturing_order
