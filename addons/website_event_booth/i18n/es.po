@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 23:50+0000\n"
+"POT-Creation-Date: 2022-05-22 20:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -27,7 +27,8 @@ msgid ""
 "out. Please change your choices before validating again.</span>"
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
-"                                    <span>Lo lamentamos, varias cabinas están agotadas. Cambie sus preferencias antes de volver a validar.</span>"
+"                                    <span>Lo lamentamos, varias cabinas "
+"están agotadas. Cambie sus preferencias antes de volver a validar.</span>"
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_layout
@@ -35,8 +36,8 @@ msgid ""
 "<i class=\"fa fa-gear mr-1\" role=\"img\" aria-label=\"Configure\" title="
 "\"Configure event booths\"/><em>Configure Booths</em>"
 msgstr ""
-"<i class=\"fa fa-gear mr-1\" role=\"img\" aria-label=\"Configurar\" "
-"title=\"Configurar cabinas de evento\"/><em>Configurar cabinas</em>"
+"<i class=\"fa fa-gear mr-1\" role=\"img\" aria-label=\"Configurar\" title="
+"\"Configurar cabinas de evento\"/><em>Configurar cabinas</em>"
 
 #. module: website_event_booth
 #: model_terms:ir.ui.view,arch_db:website_event_booth.event_booth_registration
