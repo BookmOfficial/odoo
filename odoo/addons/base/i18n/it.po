@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 21:25+0000\n"
+"POT-Creation-Date: 2022-05-22 19:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:18+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -406,12 +406,28 @@ msgstr ""
 "Utilizza le stampanti Epson ePOS nel punto vendita senza il box IoT.\n"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_l10n_eg_edi_eta
+msgid ""
+"\n"
+"            Egyptian Tax Authority Invoice Integration\n"
+"        "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_website_event_crm_questions
 msgid ""
 "\n"
 "        Add information when we build the description of a lead to include\n"
 "        the questions and answers linked to the registrations.\n"
 "    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_admini
+msgid ""
+"\n"
+"        Bookm develop security user\n"
+"        "
 msgstr ""
 
 #. module: base
@@ -779,6 +795,17 @@ msgstr ""
 "\n"
 "       Modulo tecnico: implementazione matrice\n"
 "    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_eg_edi_eta
+msgid ""
+"\n"
+"       This module integrate with the ETA Portal to automatically sign and "
+"send your invoices to the tax Authority.\n"
+"       Special thanks to Plementus <info@plementus.com> for their help in "
+"developing this module.\n"
+"    "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_multilang
@@ -2077,6 +2104,30 @@ msgid ""
 "Council Implementing Regulation (EU) 2019/2026\n"
 "\n"
 "    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_hw_l10n_eg_eta
+msgid ""
+"\n"
+"Egypt ETA Hardware Driver\n"
+"=======================\n"
+"\n"
+"This module allows Odoo to digitally sign invoices using an USB key approved "
+"by the egyptian government\n"
+"\n"
+"Special thanks to Plementus <info@plementus.com> for their help in "
+"developing this module.\n"
+"\n"
+"Requirements per system\n"
+"-----------------------\n"
+"\n"
+"Windows:\n"
+"    - eps2003csp11.dll\n"
+"    \n"
+"Linux/macOS:\n"
+"    - OpenSC\n"
+"\n"
 msgstr ""
 
 #. module: base
@@ -4009,6 +4060,7 @@ msgid ""
 "    * Fiscal positions\n"
 "    * Invoice Payment Reference Types (Finnish Standard Reference & Finnish "
 "Creditor Reference (RF))\n"
+"    * Finnish Reference format for Sale Orders\n"
 "\n"
 "Set the payment reference type from the Sales Journal.\n"
 "    "
@@ -4243,6 +4295,15 @@ msgstr ""
 "L'intégration comptable a été validé avec l'aide du Cabinet d'expertise "
 "comptable\n"
 "Seddik au cours du troisième trimestre 2010."
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_tw
+msgid ""
+"\n"
+"This is the base module to manage the accounting chart for Taiwan in Odoo.\n"
+"==============================================================================\n"
+"    "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_generic_coa
@@ -5214,6 +5275,14 @@ msgstr ""
 "più importanti.\n"
 
 #. module: base
+#: model:ir.module.module,description:base.module_l10n_ke
+msgid ""
+"\n"
+"This provides a base chart of accounts and taxes template for use in Odoo.\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_web_kanban_gauge
 msgid ""
 "\n"
@@ -5571,6 +5640,11 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_bookm___integration
+msgid " Integration"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_website_sale_delivery_mondialrelay
 msgid " Let's choose Point Relais® on your ecommerce "
 msgstr ""
@@ -5578,6 +5652,21 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_delivery_mondialrelay
 msgid " Let's choose a Point Relais® as shipping address "
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_bookm___mail
+msgid " Mail"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_bookm___security
+msgid " Security"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_bookm___setup
+msgid " Setup"
 msgstr ""
 
 #. module: base
@@ -5594,6 +5683,11 @@ msgstr ""
 msgid ""
 " This is the base module to manage chart of accounts and localization for "
 "the Pakistan "
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_bookm___website
+msgid " Website"
 msgstr ""
 
 #. module: base
@@ -6448,6 +6542,183 @@ msgid "<u><strong>Views</strong></u>"
 msgstr "<u><strong>Viste</strong></u>"
 
 #. module: base
+#: model:ir.module.module,description:base.module_contract
+msgid ""
+"================================\n"
+"Recurring - Contracts Management\n"
+"================================\n"
+"\n"
+".. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"   !! This file is generated by oca-gen-addon-readme !!\n"
+"   !! changes will be overwritten.                   !!\n"
+"   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"\n"
+".. |badge1| image:: https://img.shields.io/badge/maturity-Production"
+"%2FStable-green.png\n"
+"    :target: https://odoo-community.org/page/development-status\n"
+"    :alt: Production/Stable\n"
+".. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png\n"
+"    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html\n"
+"    :alt: License: AGPL-3\n"
+".. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fcontract-"
+"lightgray.png?logo=github\n"
+"    :target: https://github.com/OCA/contract/tree/15.0/contract\n"
+"    :alt: OCA/contract\n"
+".. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-"
+"F47D42.png\n"
+"    :target: https://translation.odoo-community.org/projects/contract-15-0/"
+"contract-15-0-contract\n"
+"    :alt: Translate me on Weblate\n"
+".. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png\n"
+"    :target: https://runbot.odoo-community.org/runbot/110/15.0\n"
+"    :alt: Try me on Runbot\n"
+"\n"
+"|badge1| |badge2| |badge3| |badge4| |badge5| \n"
+"\n"
+"This module enables contracts management with recurring\n"
+"invoicing functions. Also you can print and send by email contract report.\n"
+"\n"
+"It works for customer contract and supplier contracts.\n"
+"\n"
+"Contracts are shown in portal.\n"
+"\n"
+"**Table of contents**\n"
+"\n"
+".. contents::\n"
+"   :local:\n"
+"\n"
+"Configuration\n"
+"=============\n"
+"\n"
+"To view discount field in contract line, you need to set *Discount on lines* "
+"in\n"
+"user access rights.\n"
+"\n"
+"Contracts can be viewed on the portal (list and detail) if the user logged "
+"into the portal is a follower of the contract.\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"#. Contracts are in Invoicing -> Customers -> Customer and Invoicing -> "
+"Vendors -> Supplier Contracts\n"
+"#. When creating a contract, fill fields for selecting the invoicing "
+"parameters:\n"
+"\n"
+"   * a journal\n"
+"   * a price list (optional)\n"
+"\n"
+"#. And add the lines to be invoiced with:\n"
+"\n"
+"   * the product with a description, a quantity and a price\n"
+"   * the recurrence parameters: interval (days, weeks, months, months last "
+"day or years),\n"
+"     start date, date of next invoice (automatically computed, can be "
+"modified) and end date (optional)\n"
+"   * auto-price, for having a price automatically obtained from the price "
+"list\n"
+"   * #START# or #END# in the description field to display the start/end date "
+"of\n"
+"     the invoiced period in the invoice line description\n"
+"   * pre-paid (invoice at period start) or post-paid (invoice at start of "
+"next period)\n"
+"\n"
+"#. The \"Generate Recurring Invoices from Contracts\" cron runs daily to "
+"generate the invoices.\n"
+"   If you are in debug mode, you can click on the invoice creation button.\n"
+"#. The *Show recurring invoices* shortcut on contracts shows all invoices "
+"created from the\n"
+"   contract.\n"
+"#. The contract report can be printed from the Print menu\n"
+"#. The contract can be sent by email with the *Send by Email* button\n"
+"#. Contract templates can be created from the Configuration -> Contracts -> "
+"Contract Templates menu.\n"
+"   They allow to define default journal, price list and lines when creating "
+"a contract.\n"
+"   To use it, just select the template on the contract and fields will be "
+"filled automatically.\n"
+"\n"
+"* Contracts appear in portal to following users in every contract:\n"
+"\n"
+".. image:: https://raw.githubusercontent.com/OCA/contract/15.0/contract/"
+"static/src/screenshots/portal-my.png\n"
+".. image:: https://raw.githubusercontent.com/OCA/contract/15.0/contract/"
+"static/src/screenshots/portal-list.png\n"
+".. image:: https://raw.githubusercontent.com/OCA/contract/15.0/contract/"
+"static/src/screenshots/portal-detail.png\n"
+"\n"
+"Known issues / Roadmap\n"
+"======================\n"
+"\n"
+"* Recover states and others functional fields in Contracts.\n"
+"* Add recurrence flag at template level.\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues <https://github.com/OCA/contract/"
+"issues>`_.\n"
+"In case of trouble, please check there if your issue has already been "
+"reported.\n"
+"If you spotted it first, help us smashing it by providing a detailed and "
+"welcomed\n"
+"`feedback <https://github.com/OCA/contract/issues/new?body=module:%20contract"
+"%0Aversion:%2015.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current"
+"%20behavior**%0A%0A**Expected%20behavior**>`_.\n"
+"\n"
+"Do not contact contributors directly about support or help with technical "
+"issues.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Authors\n"
+"~~~~~~~\n"
+"\n"
+"* Tecnativa\n"
+"* ACSONE SA/NV\n"
+"\n"
+"Contributors\n"
+"~~~~~~~~~~~~\n"
+"\n"
+"* Angel Moya <angel.moya@domatix.com>\n"
+"* Dave Lasley <dave@laslabs.com>\n"
+"* Miquel Raïch <miquel.raich@eficent.com>\n"
+"* Souheil Bejaoui <souheil.bejaoui@acsone.eu>\n"
+"* Thomas Binsfeld <thomas.binsfeld@acsone.eu>\n"
+"* Guillaume Vandamme <guillaume.vandamme@acsone.eu>\n"
+"* Raphaël Reverdy <raphael.reverdy@akretion.com>\n"
+"\n"
+"* `Tecnativa <https://www.tecnativa.com>`_:\n"
+"\n"
+"    * Pedro M. Baeza\n"
+"    * Carlos Dauden\n"
+"    * Vicent Cubells\n"
+"    * Rafael Blasco\n"
+"    * Víctor Martínez\n"
+"* Iván Antón <ozono@ozonomultimedia.com>\n"
+"\n"
+"Maintainers\n"
+"~~~~~~~~~~~\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"This module is part of the `OCA/contract <https://github.com/OCA/contract/"
+"tree/15.0/contract>`_ project on GitHub.\n"
+"\n"
+"You are welcome to contribute. To learn how please visit https://odoo-"
+"community.org/page/Contribute.\n"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_ui_view.py:0
 #, python-format
 msgid "A <graph> can only contains <field> nodes, found a <%s>"
@@ -6698,7 +6969,6 @@ msgstr "Menù accesso"
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.ir_access_act
 #: model:ir.ui.menu,name:base.menu_ir_access_act
-#: model:res.groups,name:base.group_erp_manager
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_form
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
@@ -6740,11 +7010,6 @@ msgstr "Accesso alla funzionalità di esportazione"
 #, python-format
 msgid "Access to unauthorized or invalid companies."
 msgstr "Accesso ad aziende non autorizzate o non valide."
-
-#. module: base
-#: model:ir.module.category,name:base.module_category_account
-msgid "Account"
-msgstr "Conto"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting_localizations_account_charts
@@ -7299,6 +7564,11 @@ msgstr ""
 "cantone"
 
 #. module: base
+#: model:res.groups,name:base.group_erp_manager
+msgid "Administrator"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_model.py:0
 #, python-format
 msgid "Administrator access is required to uninstall a module"
@@ -7320,6 +7590,11 @@ msgstr "Eventi avanzati"
 #: model_terms:ir.ui.view,arch_db:base.view_model_form
 msgid "Advanced Properties"
 msgstr "Proprietà avanzate"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_odoo_experts
+msgid "Advisor, Corporate, Service, Business, Finance, IT"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment_adyen
@@ -7500,13 +7775,6 @@ msgid "Allows to send sms to website visitor that have lead"
 msgstr "Consente di inviare SMS ai visitatori del sito web con un contatto CRM"
 
 #. module: base
-#: model_terms:ir.actions.act_window,help:base.action_attachment
-msgid ""
-"Also you will find here all the related documents and download it by "
-"clicking on any individual document."
-msgstr ""
-
-#. module: base
 #: code:addons/base/models/ir_fields.py:0
 #, python-format
 msgid ""
@@ -7598,6 +7866,16 @@ msgstr "Contabilità analitica in produzione"
 #: model:res.country,name:base.ad
 msgid "Andorra"
 msgstr "Andorra"
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_anelusia
+msgid "Anelusia Fashion Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_anelusia
+msgid "Anelusia Theme"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ao
@@ -7729,6 +8007,11 @@ msgid "Arch To Compare To"
 msgstr "Arco da paragonare a"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_enark
+msgid "Architect, Corporate, Business, Finance, Services"
+msgstr ""
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_view_form
 msgid "Architecture"
 msgstr "Architettura"
@@ -7794,6 +8077,22 @@ msgid "Armenia"
 msgstr "Armenia"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_artists
+msgid ""
+"Artist, Arts, Galleries, Creative, Paintings, Photography, Shows, Stores"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_artists
+msgid "Artists Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_artists
+msgid "Artists Theme - Art Galleries, Photography, Painting"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.aw
 msgid "Aruba"
 msgstr "Aruba"
@@ -7834,6 +8133,11 @@ msgid "At least one language must be active."
 msgstr "Almeno una lingua deve essere attiva."
 
 #. module: base
+#: model_terms:ir.actions.act_window,help:base.action_attachment
+msgid "Attach a new document"
+msgstr "Allega un nuovo documento"
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_form
 msgid "Attached To"
 msgstr "Allegato a"
@@ -7857,6 +8161,85 @@ msgstr "Allegati"
 #: model:ir.module.module,shortdesc:base.module_attachment_indexation
 msgid "Attachments List and Document Indexation"
 msgstr "Elenco di Allegati e Repertoriazione di Documento"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_attachment_s3
+msgid "Attachments on S3 storage"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_attachment_s3
+msgid ""
+"Attachments on S3 storage\n"
+"=========================\n"
+"\n"
+"This addon allows to store the attachments (documents and assets) on S3 or "
+"any\n"
+"other S3-compatible Object Storage.\n"
+"\n"
+"Configuration\n"
+"-------------\n"
+"\n"
+"Activate S3 storage:\n"
+"\n"
+"* Create or set the system parameter with the key ``ir_attachment."
+"location``\n"
+"  and the value in the form ``s3``.\n"
+"\n"
+"Configure accesses with environment variables:\n"
+"\n"
+"* ``AWS_HOST`` (not required if using AWS services)\n"
+"* ``AWS_REGION`` (required if using AWS services)\n"
+"* ``AWS_ACCESS_KEY_ID``\n"
+"* ``AWS_SECRET_ACCESS_KEY``\n"
+"* ``AWS_BUCKETNAME`` (optional {db} placeholder)\n"
+"\n"
+"Read-only mode:\n"
+"\n"
+"The bucket and the file key are stored in the attachment. So if you change "
+"the\n"
+"``AWS_BUCKETNAME`` or the ``ir_attachment.location``, the existing "
+"attachments\n"
+"will still be read on their former bucket. But as soon as they are written "
+"over\n"
+"or new attachments are created, they will be created on the new bucket or "
+"on\n"
+"the other location (db or filesystem). This is a convenient way to be able "
+"to\n"
+"read the production attachments on a replication (since you have the\n"
+"credentials) without any risk to alter the production data.\n"
+"\n"
+"This addon must be added in the server wide addons with (``--load`` "
+"option):\n"
+"\n"
+"``--load=web,attachment_s3``\n"
+"\n"
+"The System Parameter ``ir_attachment.storage.force.database`` can be "
+"customized to\n"
+"force storage of files in the database. See the documentation of the module\n"
+"``base_attachment_object_storage``.\n"
+"\n"
+"Multi-tenancy\n"
+"-------------\n"
+"\n"
+"Use the `{db}` placeholder to handle multi-tenancy.\n"
+"\n"
+"On instances that hold multiple databases, it's preferable to have one "
+"bucket per database.\n"
+"\n"
+"To handle this, you can insert the `{db}` placeholder in your bucket name "
+"variable ``AWS_BUCKETNAME``.\n"
+"It will be replaced by the database name.\n"
+"This will give you a unique bucketname per database.\n"
+"\n"
+"\n"
+"Limitations\n"
+"-----------\n"
+"\n"
+"* You need to call ``env['ir.attachment'].force_storage()`` after\n"
+"  having changed the ``ir_attachment.location`` configuration in order to\n"
+"  migrate the existing attachments to S3.\n"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_holidays_attendance
@@ -7989,6 +8372,16 @@ msgid "Available for User"
 msgstr "Disponibile per l'Utente"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_avantgarde
+msgid "Avantgarde Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_avantgarde
+msgid "Avantgarde is a sophisticated theme to inspire and impress"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_avatar_mixin__avatar_1920
 #: model:ir.model.fields,field_description:base.field_res_partner__avatar_1920
 #: model:ir.model.fields,field_description:base.field_res_users__avatar_1920
@@ -8028,6 +8421,16 @@ msgstr "Avatar 512"
 #: model:ir.model,name:base.model_avatar_mixin
 msgid "Avatar Mixin"
 msgstr "Avatar Mixin"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_aviato
+msgid "Aviato Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_aviato
+msgid "Aviato Theme - Responsive Bootstrap Theme for Odoo CMS"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.az
@@ -8114,6 +8517,11 @@ msgstr "Bahamas"
 #: model:res.country,name:base.bh
 msgid "Bahrain"
 msgstr "Bahrein"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_notes
+msgid "Band, Musics, Sound, Concerts, Artists, Records, Event, Food, Stores"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.bd
@@ -8226,6 +8634,11 @@ msgid "Base"
 msgstr "Imponibile"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_base_attachment_object_storage
+msgid "Base Attachment Object Store"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_test_base_automation
 msgid "Base Automation Tests: Ensure Flow Robustness"
 msgstr ""
@@ -8263,6 +8676,52 @@ msgid "Base View Architecture"
 msgstr "Architettura vista di base"
 
 #. module: base
+#: model:ir.module.module,description:base.module_base_attachment_object_storage
+msgid ""
+"Base class for attachments on external object store\n"
+"===================================================\n"
+"\n"
+"This is a base addon that regroup common code used by addons targeting "
+"specific object store \n"
+"\n"
+"Configuration\n"
+"-------------\n"
+"\n"
+"Object storage may be slow, and for this reason, we want to store\n"
+"some files in the database whatever.\n"
+"\n"
+"Small images (128, 256) are used in Odoo in list / kanban views. We\n"
+"want them to be fast to read.\n"
+"They are generally < 50KB (default configuration) so they don't take\n"
+"that much space in database, but they'll be read much faster than from\n"
+"the object storage.\n"
+"\n"
+"The assets (application/javascript, text/css) are stored in database\n"
+"as well whatever their size is:\n"
+"\n"
+"* a database doesn't have thousands of them\n"
+"* of course better for performance\n"
+"* better portability of a database: when replicating a production\n"
+"  instance for dev, the assets are included\n"
+"\n"
+"This storage configuration can be modified in the system parameter\n"
+"``ir_attachment.storage.force.database``, as a JSON value, for instance::\n"
+"\n"
+"    {\"image/\": 51200, \"application/javascript\": 0, \"text/css\": 0}\n"
+"\n"
+"Where the key is the beginning of the mimetype to configure and the\n"
+"value is the limit in size below which attachments are kept in DB.\n"
+"0 means no limit.\n"
+"\n"
+"Default configuration means:\n"
+"\n"
+"* images mimetypes (image/png, image/jpeg, ...) below 50KB are\n"
+"  stored in database\n"
+"* application/javascript are stored in database whatever their size\n"
+"* text/css are stored in database whatever their size\n"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_base_import
 msgid "Base import"
 msgstr "Importazione di base"
@@ -8271,6 +8730,11 @@ msgstr "Importazione di base"
 #: model:ir.module.module,shortdesc:base.module_base_import_module
 msgid "Base import module"
 msgstr "Modulo di importazione di base"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_base_attachment_object_storage
+msgid "Base module for the implementation of external object store."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_ui_view__mode__primary
@@ -8291,6 +8755,12 @@ msgstr ""
 "Strumenti di supporto e modelli di base per supportare l'acquisto integrato."
 
 #. module: base
+#: model:ir.module.module,description:base.module_theme_bewise
+#: model:ir.module.module,shortdesc:base.module_theme_bewise
+msgid "Be Wise Theme"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_l10n_ar_website_sale
 msgid ""
 "Be able to see Identification Type and AFIP Responsibility in ecommerce "
@@ -8304,6 +8774,21 @@ msgid ""
 "since the changes will be overwritten during future module updates.<br/>\n"
 "                        We recommend applying modifications to standard "
 "views through inherited views."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_beauty
+msgid "Beauty Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_beauty
+msgid "Beauty Theme - Cosmetics, Beauty, Make Up, Hairdresser"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_beauty
+msgid "Beauty, Health, Care, Make Up, Cosmetics, Hair Dressers, Stores"
 msgstr ""
 
 #. module: base
@@ -8410,6 +8895,21 @@ msgid "Binding View Types"
 msgstr "Tipo di vista vincolata"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_bistro
+msgid "Bistro Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_bistro
+msgid "Bistro Theme - Restaurant, Food/Drink, Catering, Food trucks"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_bistro
+msgid "Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_company__layout_background__blank
 msgid "Blank"
 msgstr "Vuoto"
@@ -8433,6 +8933,149 @@ msgstr "Bolivia - Contabilità"
 #: model:res.country,name:base.bq
 msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, Sint Eustatius e Saba"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_bookm_
+msgid "Bookm "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_disable_google_analytics_dashboard
+msgid "Bookm Disable Google Analytics Dashboard"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_disable_website_configurator_features
+#: model:ir.module.module,shortdesc:base.module_bookm_disable_website_configurator_features
+#: model:ir.module.module,summary:base.module_bookm_disable_website_configurator_features
+msgid "Bookm Disable Website Configurator Features"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_mail_template_mail_address
+#: model:ir.module.module,summary:base.module_bookm_mail_template_mail_address
+msgid "Bookm Fix Mail Template Mail Address"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_mass_mailing_unsubscribe
+msgid "Bookm Fix Mass Mailing Unsubscribe"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_mass_mailing_unsubscribe
+#: model:ir.module.module,description:base.module_bookm_postmark_integration
+msgid ""
+"Bookm Fix Mass Mailing Unsubscribe Header\n"
+"=========================================\n"
+"\n"
+"Adds `List-Unsubscribe` header to email in order to conform with specs that "
+"email providers require.\n"
+"\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_website_sequence
+#: model:ir.module.module,shortdesc:base.module_bookm_website_sequence
+#: model:ir.module.module,summary:base.module_bookm_website_sequence
+msgid "Bookm Fix Website Sequence"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_mail_reply_to_domain
+#: model:ir.module.module,summary:base.module_bookm_mail_reply_to_domain
+msgid "Bookm Force Mail Reply To Domain"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_auth_signup
+msgid "Bookm Security Auth Signup"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_base
+msgid "Bookm Security Base"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_base_setup
+msgid "Bookm Security Base Setup"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_base_ir_module
+msgid "Bookm Security Base ir module"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_digest
+msgid "Bookm Security Digest"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_google_recaptcha
+msgid "Bookm Security Google reCAPTCHA"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_mail
+msgid "Bookm Security Mail"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_phone_validation
+msgid "Bookm Security Phone Validation"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_resource
+msgid "Bookm Security Resource"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_social_media
+msgid "Bookm Security Social Media"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_utm
+msgid "Bookm Security UTM"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_web
+msgid "Bookm Security Web"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_web_tour
+msgid "Bookm Security Web Tour"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_website
+msgid "Bookm Security Website"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_security_website_ir_module
+msgid "Bookm Security Website ir module"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_setup_base_languages
+msgid "Bookm Setup Base Languages"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_system_administrator_visiblity
+msgid "Bookm System Administrator Visiblity"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_disable_google_analytics_dashboard
+msgid "Bookm disable Google Analytics dashboard"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
@@ -8459,10 +9102,96 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_auth_signup
+msgid "Bookm security auth_signup"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_base
+msgid "Bookm security base"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_base_ir_module
+msgid "Bookm security base ir module"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_base_setup
+#: model:ir.module.module,summary:base.module_bookm_security_web_tour
+msgid "Bookm security base_setup"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_digest
+msgid "Bookm security digest"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_google_recaptcha
+msgid "Bookm security google_recaptcha"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_mail
+msgid "Bookm security mail"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_phone_validation
+msgid "Bookm security phone_validation"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_resource
+msgid "Bookm security resource"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_social_media
+msgid "Bookm security social_media"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_utm
+msgid "Bookm security utm"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_web
+msgid "Bookm security web"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_website
+msgid "Bookm security website"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_security_website_ir_module
+msgid "Bookm security website ir module"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_setup_base_languages
+msgid "Bookm setup for base languages"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,help:base.field_ir_sequence__padding
 msgid ""
 "Bookm will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_bookstore
+msgid "Books, Magazines, Music"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_bookstore
+msgid "Bookstore Theme"
 msgstr ""
 
 #. module: base
@@ -8629,6 +9358,16 @@ msgstr "Burundi"
 #, python-format
 msgid "Button must have a name"
 msgstr "Nome obbligatorio per il pulsante"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_buzzy
+msgid "Buzzy Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_buzzy
+msgid "Buzzy Theme - Responsive Bootstrap Theme for Odoo CMS"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.module_form
@@ -9092,6 +9831,18 @@ msgid "City Addresses"
 msgstr "Indirizzi città"
 
 #. module: base
+#: model:ir.module.module,description:base.module_theme_clean
+#: model:ir.module.module,shortdesc:base.module_theme_clean
+msgid "Clean Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_cobalt
+#: model:ir.module.module,description:base.module_theme_paptic
+msgid "Clean and sharp design."
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_logging__type__client
 msgid "Client"
 msgstr "Cliente"
@@ -9114,6 +9865,11 @@ msgstr "Etichetta azione cliente"
 #: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
 msgid "Close"
 msgstr "Chiudi"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_cobalt
+msgid "Cobalt Theme"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.cc
@@ -9559,6 +10315,11 @@ msgid "Construction"
 msgstr "Costruzioni"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_paptic
+msgid "Consultancy, Design, Tech, Computers, IT, Blogs"
+msgstr ""
+
+#. module: base
 #: model:ir.model,name:base.model_res_partner
 #: model:ir.model.fields,field_description:base.field_res_partner__child_ids
 #: model:ir.model.fields,field_description:base.field_res_users__child_ids
@@ -9657,6 +10418,11 @@ msgstr ""
 "{})"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_contract_management
+msgid "Contract Management"
+msgstr ""
+
+#. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_contracts
 msgid "Contracts"
 msgstr "Contratti"
@@ -9675,6 +10441,16 @@ msgstr "Isole Cook"
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__copied
 msgid "Copied"
 msgstr "Copiato"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_theme_corporate
+msgid "Corporate"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_buzzy
+msgid "Corporate, Services, Technology, Shapes, Illustrations"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.cr
@@ -9885,14 +10661,14 @@ msgid "Create a new customer in your address book"
 msgstr "Crea un nuovo cliente nella rubrica degli indirizzi"
 
 #. module: base
-#: model_terms:ir.actions.act_window,help:base.action_attachment
-msgid "Create a new document"
-msgstr ""
-
-#. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
 msgid "Create a new vendor in your address book"
 msgstr "Crea un nuovo fornitore nella rubrica degli indirizzi"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_test_themes
+msgid "Create a new website for each Odoo theme for an easy preview."
+msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.res_partner_industry_action
@@ -10145,6 +10921,11 @@ msgstr "Data di creazione"
 #: model_terms:ir.ui.view,arch_db:base.ir_logging_form_view
 msgid "Creation details"
 msgstr "Creazione dettagli"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_theme_creative
+msgid "Creative"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__credit_limit
@@ -10414,6 +11195,7 @@ msgid "Data to Write"
 msgstr "Dati da salvare"
 
 #. module: base
+#: model:ir.ui.menu,name:base.next_id_9
 #: model_terms:ir.ui.view,arch_db:base.ir_logging_search_view
 msgid "Database"
 msgstr "Database"
@@ -10436,11 +11218,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_logging__dbname
 msgid "Database Name"
 msgstr "Nome database"
-
-#. module: base
-#: model:ir.ui.menu,name:base.next_id_9
-msgid "Database Structure"
-msgstr "Struttura database"
 
 #. module: base
 #: code:addons/models.py:0
@@ -10764,6 +11541,13 @@ msgstr ""
 "significativo il tuo tasso di successo."
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_avantgarde
+msgid ""
+"Design, Fine Art, Artwork, Creative, Creativity, Galleries, Trends, Shows, "
+"Magazines, Blogs"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_mass_mailing_sms
 msgid "Design, send and track SMS"
 msgstr "Creazione, invio e monitoraggio SMS"
@@ -10813,6 +11597,11 @@ msgid "Developer API Keys"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_cobalt
+msgid "Development, IT development, Design, Tech, Computers, IT, Blogs"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_digital
 msgid "Digital Products"
 msgstr "Prodotti digitali"
@@ -10822,6 +11611,13 @@ msgstr "Prodotti digitali"
 #, python-format
 msgid "Digital formatting"
 msgstr "Formattazione digitale"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_zap
+msgid ""
+"Digital, Marketing, Copywriting, Media, Events, Non Profit, NGO, Corporate, "
+"Business, Services"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_decimal_precision__digits
@@ -10846,6 +11642,11 @@ msgstr "Disattiva"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_paperformat__disable_shrinking
 msgid "Disable smart shrinking"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_disable_google_analytics_dashboard
+msgid "Disables Google Analytics Dashboard."
 msgstr ""
 
 #. module: base
@@ -11054,6 +11855,11 @@ msgstr ""
 #, python-format
 msgid "Displayed fields"
 msgstr "Campi visualizzati"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_anelusia
+msgid "Diversity, Fashions, Trends, Clothes, Shoes, Sports, Fitness, Stores"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.dj
@@ -11284,6 +12090,7 @@ msgid "Edit Translations"
 msgstr "Modifica traduzioni"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_theme_education
 #: model:res.partner.industry,name:base.res_partner_industry_P
 msgid "Education"
 msgstr "Istruzione"
@@ -11296,6 +12103,17 @@ msgstr "Egitto"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_eg
 msgid "Egypt - Accounting"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hw_l10n_eg_eta
+#: model:ir.module.module,summary:base.module_hw_l10n_eg_eta
+msgid "Egypt ETA Hardware Driver"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_eg_edi_eta
+msgid "Egyptian E-Invoice Integration"
 msgstr ""
 
 #. module: base
@@ -11417,6 +12235,12 @@ msgid "Enable profiling until"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_theme_enark
+#: model:ir.module.module,shortdesc:base.module_theme_enark
+msgid "Enark Theme"
+msgstr ""
+
+#. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_D
 msgid "Energy supply"
 msgstr "Approvvigionamento energetico"
@@ -11459,6 +12283,18 @@ msgstr "Divertimento"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_profile__entry_count
 msgid "Entry count"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_theme_environment
+msgid "Environment"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_treehouse
+msgid ""
+"Environment, Nature, Ecology, Sustainable Development, Non Profit, NGO, "
+"Travels"
 msgstr ""
 
 #. module: base
@@ -11578,6 +12414,13 @@ msgstr "Espositori evento"
 #: model:ir.module.module,shortdesc:base.module_website_event_meet
 msgid "Event Meeting / Rooms"
 msgstr "Sale riunioni per eventi"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_monglia
+msgid ""
+"Event, Restaurants, Bars, Pubs, Cafes, Catering, Food, Drinks, Concerts, "
+"Shows, Musics, Dance, Party"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_event_exhibitor
@@ -11709,6 +12552,16 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_hr_expense
 msgid "Expenses"
 msgstr "Note spese"
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_odoo_experts
+msgid "Experts Business Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_odoo_experts
+msgid "Experts Theme"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_report_paperformat__report_ids
@@ -12322,6 +13175,11 @@ msgid "Filter Name"
 msgstr "Nome filtro"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_dbfilter_from_header
+msgid "Filter databases with HTTP headers"
+msgstr ""
+
+#. module: base
 #: model:ir.model.constraint,message:base.constraint_ir_filters_name_model_uid_unique
 msgid "Filter names must be unique"
 msgstr "I nomi dei filtri devono essere univoci"
@@ -12376,6 +13234,16 @@ msgid "Finland"
 msgstr "Finlandia"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_fi_sale
+msgid "Finland - Sale"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_fi_sale
+msgid "Finland Sale"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_fi
 msgid "Finnish Localization"
 msgstr "Localizzazione finlandese"
@@ -12384,6 +13252,16 @@ msgstr "Localizzazione finlandese"
 #: model:ir.model.fields,field_description:base.field_res_lang__week_start
 msgid "First Day of Week"
 msgstr "Primo giorno della settimana"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_fix
+msgid "Fix"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_mail_template_mail_address
+msgid "Fix mail template local part of mail address"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__image_url
@@ -12412,6 +13290,11 @@ msgid "Float"
 msgstr "Decimale"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_orchid
+msgid "Florist, Gardens, Flowers, Nature, Green, Beauty, Stores"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__format__folio
 msgid "Folio 27  210 x 330 mm"
 msgstr "Folio 27 210 x 330 mm"
@@ -12422,6 +13305,7 @@ msgid "Font"
 msgstr "Font"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_theme_food
 #: model:res.partner.industry,name:base.res_partner_industry_I
 msgid "Food"
 msgstr "Alimentare"
@@ -12454,6 +13338,11 @@ msgid ""
 msgstr ""
 "Per motivi di sicurezza, non è possibile unire più di 3 contatti insieme. È "
 "possibile riaprire la procedura guidata più volte, se necessario."
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_mail_reply_to_domain
+msgid "Force mail reply to domain"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.identity_check_wizard
@@ -12617,6 +13506,11 @@ msgstr "Schermo intero"
 #: model:ir.model.fields,field_description:base.field_ir_logging__func
 msgid "Function"
 msgstr "Funzione"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_loftspace
+msgid "Furniture, Toys, Games, Kids, Boys, Girls, Stores"
+msgstr ""
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_G
@@ -12955,6 +13849,11 @@ msgid "Graph"
 msgstr "grafico"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_graphene
+msgid "Graphene Theme"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.gr
 msgid "Greece"
 msgstr "Grecia"
@@ -13232,6 +14131,16 @@ msgid ""
 "Here is your new API key, use it instead of a password for RPC access.\n"
 "                            Your login is still necessary for interactive "
 "usage."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_bookm_system_administrator_visiblity
+msgid "Hide System Adminstrators"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_system_administrator_visiblity
+msgid "Hide System Adminstrators from other users in lower groups"
 msgstr ""
 
 #. module: base
@@ -14053,6 +14962,13 @@ msgid "Installed Version"
 msgstr "Versione installata"
 
 #. module: base
+#: model:ir.module.module,description:base.module_bookm_setup_base_languages
+msgid ""
+"Installs supported system languages and restricts partner from selection "
+"unsupported languages."
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_bus
 msgid "Instant Messaging Bus allow you to send messages to users, in live."
 msgstr ""
@@ -14566,6 +15482,12 @@ msgid "Kazakhstan"
 msgstr "Kazakistan"
 
 #. module: base
+#: model:ir.module.module,description:base.module_theme_kea
+#: model:ir.module.module,shortdesc:base.module_theme_kea
+msgid "Kea Theme"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,help:base.field_res_users__password
 msgid ""
 "Keep empty if you don't want the user to be able to connect on the system."
@@ -14575,6 +15497,11 @@ msgstr "Lascia vuoto se non desideri che l'utente possa accedere al sistema."
 #: model:res.country,name:base.ke
 msgid "Kenya"
 msgstr "Kenya"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_ke
+msgid "Kenya - Accounting"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_config_parameter__key
@@ -14590,9 +15517,24 @@ msgid "Key must be unique."
 msgstr "La chiave deve essere unica."
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_kiddo
+msgid "Kiddo Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_kiddo
+msgid "Kiddo theme for Odoo Website"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.ki
 msgid "Kiribati"
 msgstr "Kiribati"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_knowledge_management
+msgid "Knowledge Management"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_si
@@ -15093,6 +16035,11 @@ msgid "Legal    3   8.5 x 14 inches, 215.9 x 355.6 mm"
 msgstr "Legale 3 8.5 x 14 inches, 215.9 x 355.6 mm"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_clean
+msgid "Legal, Corporate, Business, Tech, Services"
+msgstr ""
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.sequence_view
 msgid "Legend (for prefix, suffix)"
 msgstr "Legenda (per prefisso e suffisso)"
@@ -15134,6 +16081,11 @@ msgid "Liberia"
 msgstr "Liberia"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_bookstore
+msgid "Library, Books, Magazines, Literature, Musics, Media, Store"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.ly
 msgid "Libya"
 msgstr "Libia"
@@ -15147,6 +16099,16 @@ msgstr "Licenza"
 #: model:res.country,name:base.li
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_theme_lifestyle
+msgid "Lifestyle"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_graphene
+msgid "Light colours, thin text, clean and sharp design."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__limit
@@ -15267,9 +16229,20 @@ msgstr "Codice localizzazione"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting_localizations
+#: model:ir.module.category,name:base.module_category_localization
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 msgid "Localization"
 msgstr "Localizzazione"
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_loftspace
+msgid "Loftspace Fashion Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_loftspace
+msgid "Loftspace Theme"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_logging_form_view
@@ -15440,6 +16413,11 @@ msgstr "Manutenzione"
 #: model:ir.module.module,shortdesc:base.module_hr_maintenance
 msgid "Maintenance - HR"
 msgstr "Manutenzione - Dipendenti"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_nano
+msgid "Maker, Agencies, Creative, Design, IT, Services, Fancy"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.mw
@@ -16307,6 +17285,16 @@ msgid "Monday"
 msgstr "Lunedì"
 
 #. module: base
+#: model:ir.module.module,description:base.module_theme_monglia
+msgid "Monglia Catering Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_monglia
+msgid "Monglia Theme"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.mn
 msgid "Mongolia"
 msgstr "Mongolia"
@@ -16480,6 +17468,16 @@ msgstr "Nome:"
 #: model:res.country,name:base.na
 msgid "Namibia"
 msgstr "Namibia"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_nano
+msgid "Nano Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_nano
+msgid "Nano Theme - Responsive Bootstrap Theme for Odoo CMS"
+msgstr ""
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -16815,6 +17813,12 @@ msgid "Notes"
 msgstr "Note"
 
 #. module: base
+#: model:ir.module.module,description:base.module_theme_notes
+#: model:ir.module.module,shortdesc:base.module_theme_notes
+msgid "Notes & Play Theme"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_website_sale_stock_wishlist
 msgid "Notify the user when a product is back in stock"
 msgstr "Avvisa l'utente quando un prodotto è di nuovo in stock"
@@ -16857,6 +17861,11 @@ msgstr "Numero di moduli aggiornati"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users__rules_count
 msgid "Number of record rules that apply to the current user"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_kiddo
+msgid "Nursery, Toys, Games, Kids, Boys, Girls, Stores"
 msgstr ""
 
 #. module: base
@@ -18434,6 +19443,16 @@ msgid "Options"
 msgstr "Opzioni"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_orchid
+msgid "Orchid Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_orchid
+msgid "Orchid Theme - Flowers, Beauty"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model__order
 msgid "Order"
 msgstr "Ordinamento"
@@ -18936,6 +19955,11 @@ msgid "Paper size"
 msgstr "Dimensione carta"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_paptic
+msgid "Paptic Theme"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.pg
 msgid "Papua New Guinea"
 msgstr "Papua Nuova Guinea"
@@ -19234,6 +20258,11 @@ msgid "Payulatam payment acquirer"
 msgstr "Sistema di pagamento Payulatam"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_theme_personal
+msgid "Personal"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.pe
 msgid "Peru"
 msgstr "Perù"
@@ -19419,6 +20448,11 @@ msgstr "Vincolo PostgreSQL o nome chiave esterna."
 #: model:ir.model.fields,help:base.field_ir_model_relation__name
 msgid "PostgreSQL table name implementing a many2many relation."
 msgstr "Nome tabella PostgreSQL che implementa una relazione molti a molti."
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_postmark_integration
+msgid "Postmark integration"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
@@ -20117,6 +21151,23 @@ msgid "Real Estate"
 msgstr "Immobiliare"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_real_estate
+msgid "Real Estate Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_real_estate
+msgid "Real Estate Theme - Houses, Appartments, Real Estate Agencies"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_real_estate
+msgid ""
+"Real Estate, Agencies, Construction, Services, Accomodations, Lodging, "
+"Hosting, Houses, Appartments, Vacations, Holidays, Travels"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_server_object_lines__resource_ref
 #: model_terms:ir.ui.view,arch_db:base.view_model_data_form
 msgid "Record"
@@ -20188,6 +21239,11 @@ msgstr "Record: %s"
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment
 msgid "Recruitment"
 msgstr "Selezione del personale"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_contract
+msgid "Recurring - Contracts Management"
+msgstr ""
 
 #. module: base
 #: code:addons/models.py:0
@@ -20520,6 +21576,11 @@ msgstr "Ripristina versione precedente (ripristino leggero)."
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__on_delete__restrict
 msgid "Restrict"
 msgstr "Limitare"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_theme_retail
+msgid "Retail"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_paperformat__margin_right
@@ -21056,6 +22117,83 @@ msgid "Security and Authentication"
 msgstr "Sicurezza ed Autenticazione"
 
 #. module: base
+#: model:ir.module.module,description:base.module_bookm_security_auth_signup
+msgid "Security settings needed for auth_signup module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_base
+msgid "Security settings needed for base module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_base_setup
+msgid "Security settings needed for base_setup module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_digest
+msgid "Security settings needed for digest module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_website_ir_module
+msgid "Security settings needed for erp manager to change themes."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_base_ir_module
+msgid ""
+"Security settings needed for erp manager to install modules. Allowed modules "
+"are defined by the recurd rule in ir_rule.xml"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_google_recaptcha
+msgid "Security settings needed for google_recaptcha module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_mail
+msgid "Security settings needed for mail module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_phone_validation
+msgid "Security settings needed for phone_validation module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_resource
+msgid "Security settings needed for resource module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_social_media
+msgid "Security settings needed for social_media module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_utm
+msgid "Security settings needed for utm module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_web
+msgid "Security settings needed for web module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_web_tour
+msgid "Security settings needed for web_tour module."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_bookm_security_website
+msgid "Security settings needed for website module."
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_fields.py:0
 #, python-format
 msgid "See all possible values"
@@ -21272,6 +22410,7 @@ msgid "Server"
 msgstr "Server"
 
 #. module: base
+#: model:ir.model,name:base.model_ir_actions_server
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_server__usage__ir_actions_server
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_search
@@ -21285,7 +22424,6 @@ msgstr "Azione server, valore corrispondente"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_server_action
-#: model:ir.model,name:base.model_ir_actions_server
 #: model:ir.ui.menu,name:base.menu_server_action
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_search
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_tree
@@ -21313,7 +22451,13 @@ msgid "Service Margins in Sales Orders"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_graphene
+msgid "Service, Corporate, Design, Technology, Robotics, Computers, IT, Blogs"
+msgstr ""
+
+#. module: base
 #: model:ir.module.category,name:base.module_category_services
+#: model:ir.module.category,name:base.module_category_theme_services
 msgid "Services"
 msgstr "Servizi"
 
@@ -21322,6 +22466,65 @@ msgstr "Servizi"
 #: model_terms:ir.ui.view,arch_db:base.ir_profile_view_search
 msgid "Session"
 msgstr "Sessione"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_session_redis_cluster
+msgid "Sessions in Redis Cluster"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_session_redis_cluster
+msgid ""
+"Sessions in Redis Cluster\n"
+"=========================\n"
+"\n"
+"This addon allows to store the web sessions in Redis Cluster.\n"
+"\n"
+"Configuration\n"
+"-------------\n"
+"\n"
+"The storage of sessions in Redis is activated using environment variables.\n"
+"\n"
+"* ``ODOO_SESSION_REDIS`` has to be ``1`` or ``true``\n"
+"* ``ODOO_SESSION_REDIS_HOST`` is the redis hostname (default is "
+"``localhost``)\n"
+"* ``ODOO_SESSION_REDIS_PORT`` is the redis port (default is ``6379``)\n"
+"* ``ODOO_SESSION_REDIS_PASSWORD`` is the password for the AUTH command\n"
+"  (optional)\n"
+"* ``ODOO_SESSION_REDIS_URL`` is an alternative way to define the Redis "
+"server\n"
+"  address. It's the preferred way when you're using the ``rediss://`` "
+"protocol.\n"
+"* ``ODOO_SESSION_REDIS_PREFIX`` is the prefix for the session keys "
+"(optional)\n"
+"* ``ODOO_SESSION_REDIS_EXPIRATION`` is the time in seconds before expiration "
+"of\n"
+"  the sessions (default is 7 days)\n"
+"* ``ODOO_SESSION_REDIS_EXPIRATION_ANONYMOUS`` is the time in seconds before "
+"expiration of\n"
+"  the anonymous sessions (default is 3 hours)\n"
+"\n"
+"\n"
+"The keys are set to ``session:<session id>``.\n"
+"When a prefix is defined, the keys are ``session:<prefix>:<session id>``\n"
+"\n"
+"This addon must be added in the server wide addons with (``--load`` "
+"option):\n"
+"\n"
+"``--load=web,session_redis``\n"
+"\n"
+"Limitations\n"
+"-----------\n"
+"\n"
+"* The server has to be restarted in order for the sessions to be stored in\n"
+"  Redis.\n"
+"* All the users will have to login again as their previous session will be\n"
+"  dropped.\n"
+"* The addon monkey-patch ``odoo.http.Root.session_store`` with a custom\n"
+"  method when the Redis mode is active, so incompatibilities with other "
+"addons\n"
+"  is possible if they do the same.\n"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__on_delete__set_null
@@ -21376,7 +22579,6 @@ msgstr "Non è permesso impostare password vuote per motivi di sicurezza!"
 #. module: base
 #: model:ir.actions.act_window,name:base.res_config_setting_act_window
 #: model:ir.ui.menu,name:base.menu_administration
-#: model:res.groups,name:base.group_system
 #: model_terms:ir.ui.view,arch_db:base.res_config_settings_view_form
 msgid "Settings"
 msgstr "Impostazioni"
@@ -21548,6 +22750,16 @@ msgstr "Slovenia - Contabilità"
 #: model:ir.module.module,shortdesc:base.module_snailmail
 msgid "Snail Mail"
 msgstr "Invio per posta"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_common
+msgid "Snippets Library"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_common
+msgid "Snippets library containing snippets to be styled in themes."
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_social_media
@@ -21806,6 +23018,16 @@ msgid "Stock - SMS"
 msgstr "Magazzino - SMS"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_attachment_s3
+msgid "Store assets and attachments on a S3 compatible object storage"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_session_redis_cluster
+msgid "Store web sessions in Redis"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__store
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_search
 msgid "Stored"
@@ -21985,6 +23207,11 @@ msgid "Syria"
 msgstr "Siria"
 
 #. module: base
+#: model:res.groups,name:base.group_system
+msgid "System Administrator"
+msgstr ""
+
+#. module: base
 #: model:ir.model,name:base.model_ir_config_parameter
 msgid "System Parameter"
 msgstr "Parametro di sistema"
@@ -22071,6 +23298,11 @@ msgstr "etichette..."
 #: model:res.country,name:base.tw
 msgid "Taiwan"
 msgstr "Taiwan"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_tw
+msgid "Taiwan - Accounting"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.tj
@@ -22161,6 +23393,16 @@ msgstr "Traduzioni tecniche"
 #: model:ir.actions.report,name:base.ir_module_reference_print
 msgid "Technical guide"
 msgstr "Guida tecnica"
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_theme_technology
+msgid "Technology"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_kea
+msgid "Technology, Tech, IT, Computers, Stores, Virtual Reality"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_report__report_name
@@ -22900,11 +24142,21 @@ msgid "Theme"
 msgstr "Tema"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_common
+msgid "Theme Common"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_url,name:base.action_theme_store
 #: model:ir.ui.menu,name:base.menu_theme_store
 #: model:ir.ui.menu,name:base.theme_store
 msgid "Theme Store"
 msgstr "Negozio temi"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_test_themes
+msgid "Themes Testing Module"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
@@ -23158,6 +24410,17 @@ msgstr ""
 msgid ""
 "This module lets you use the full power of certifications within your "
 "courses."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_test_themes
+msgid ""
+"This module will help you to quickly test all the Odoo\n"
+"    themes without having to switch from one theme to another on your "
+"website.\n"
+"    It will simply create a new website for each Odoo theme and install "
+"every\n"
+"    theme on one website."
 msgstr ""
 
 #. module: base
@@ -23509,6 +24772,11 @@ msgid "Transportation"
 msgstr "Trasporti"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_aviato
+msgid "Travel, Excursion, Plane, Tour, Agency "
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_act_window_view__view_mode__tree
 #: model:ir.model.fields.selection,name:base.selection__ir_ui_view__type__tree
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
@@ -23519,6 +24787,16 @@ msgstr "Albero"
 #: code:addons/base/models/ir_ui_view.py:0
 #, python-format
 msgid "Tree child can only have one of %(tags)s tag (not %(wrong_tag)s)"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_treehouse
+msgid "Treehouse Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_treehouse
+msgid "Treehouse Theme - Responsive Bootstrap Theme for Odoo CMS"
 msgstr ""
 
 #. module: base
@@ -23844,6 +25122,11 @@ msgstr "Stati Uniti - Contabilità"
 #: model:ir.module.module,shortdesc:base.module_uom
 msgid "Units of measure"
 msgstr "Unità di misura"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_bewise
+msgid "University, Education, Schools, Young, Play, Kids"
+msgstr ""
 
 #. module: base
 #: code:addons/model.py:0 model:ir.model,name:base.model__unknown
@@ -24404,6 +25687,23 @@ msgid "Vat Label"
 msgstr "Etichetta IVA"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_vehicle
+msgid "Vehicle Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_vehicle
+msgid "Vehicle Theme - Cars, Motorbikes, Bikes, Tires"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_theme_vehicle
+msgid ""
+"Vehicle, Cars, Motorbikes, Bikes, Tires, Transports, Repair, Mechanics, "
+"Garages, Sports, Services"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_window,name:base.action_partner_supplier_form
 msgid "Vendors"
 msgstr "Fornitori"
@@ -24733,6 +26033,11 @@ msgid "Website profile"
 msgstr "Profilo sito web"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_theme_yes
+msgid "Wedding, Love, Photography, Services"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_lang__week_start__3
 msgid "Wednesday"
 msgstr "Mercoledì"
@@ -24946,6 +26251,16 @@ msgstr ""
 #: model:res.country,name:base.ye
 msgid "Yemen"
 msgstr "Yemen"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_yes
+msgid "Yes Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_yes
+msgid "Yes Theme - Wedding"
+msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
@@ -25270,6 +26585,16 @@ msgid "Zambia"
 msgstr "Zambia"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_theme_zap
+msgid "Zap Theme"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_theme_zap
+msgid "Zap Theme - Corporate, Business, Marketing, Copywriting"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.zw
 msgid "Zimbabwe"
 msgstr "Zimbabwe"
@@ -25293,6 +26618,7 @@ msgid "_Import"
 msgstr "_Importa"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_account
 #: model:ir.module.category,name:base.module_category_services_account
 msgid "account"
 msgstr ""
@@ -25336,6 +26662,11 @@ msgid "binary"
 msgstr "binario"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_bookm_admini
+msgid "bookm_admini"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__ttype__boolean
 msgid "boolean"
 msgstr "booleano"
@@ -25371,6 +26702,134 @@ msgstr "data/ora"
 #, python-format
 msgid "day"
 msgstr "giorno"
+
+#. module: base
+#: model:ir.module.module,description:base.module_dbfilter_from_header
+msgid ""
+"dbfilter\\_from\\_header\n"
+"======================\n"
+"\n"
+"[![Beta](https://img.shields.io/badge/maturity-Beta-yellow.png)](https://"
+"odoo-community.org/page/development-status)\n"
+"[![License: AGPL-3](https://img.shields.io/badge/licence-AGPL--3-blue.png)]"
+"(http://www.gnu.org/licenses/agpl-3.0-standalone.html)\n"
+"[![OCA/server-tools](https://img.shields.io/badge/github-OCA%2Fserver--tools-"
+"lightgray.png?logo=github)](https://github.com/OCA/server-tools/tree/13.0/"
+"dbfilter_from_header)\n"
+"[![Translate me on Weblate](https://img.shields.io/badge/weblate-Translate"
+"%20me-F47D42.png)](https://translation.odoo-community.org/projects/server-"
+"tools-13-0/server-tools-13-0-dbfilter_from_header)\n"
+"[![Try me on Runbot](https://img.shields.io/badge/runbot-Try%20me-875A7B."
+"png)](https://runbot.odoo-community.org/runbot/149/13.0)\n"
+"\n"
+"This addon lets you pass a dbfilter as a HTTP header.\n"
+"\n"
+"This is interesting for setups where database names can\\'t be mapped to\n"
+"proxied host names.\n"
+"\n"
+"**Table of contents**\n"
+"\n"
+"::: {.contents local=\"\"}\n"
+":::\n"
+"\n"
+"Installation\n"
+"------------\n"
+"\n"
+"To install this module, you only need to add it to your addons, and load\n"
+"it as a server-wide module.\n"
+"\n"
+"This can be done with the `server_wide_modules` parameter in\n"
+"`/etc/odoo.conf` or with the `--load` command-line parameter\n"
+"\n"
+"`server_wide_modules = \"web, dbfilter_from_header\"`\n"
+"\n"
+"Configuration\n"
+"-------------\n"
+"\n"
+"Please keep in mind that the standard odoo dbfilter configuration is\n"
+"still applied before looking at the regular expression in the header.\n"
+"\n"
+"-   For nginx, use:\n"
+"\n"
+"    `proxy_set_header X-Odoo-dbfilter [your filter regex];`\n"
+"\n"
+"-   For caddy, use:\n"
+"\n"
+"    `proxy_header X-Odoo-dbfilter [your filter regex]`\n"
+"\n"
+"-   For Apache, use:\n"
+"\n"
+"    `RequestHeader set X-Odoo-dbfilter [your filter regex]`\n"
+"\n"
+"And make sure that proxy mode is enabled in Odoo\\'s configuration file:\n"
+"\n"
+"`proxy_mode = True`\n"
+"\n"
+"Usage\n"
+"-----\n"
+"\n"
+"To use this module, you need to complete installation and configuration\n"
+"parts.\n"
+"\n"
+"Bug Tracker\n"
+"-----------\n"
+"\n"
+"Bugs are tracked on [GitHub\n"
+"Issues](https://github.com/OCA/server-tools/issues). In case of trouble,\n"
+"please check there if your issue has already been reported. If you\n"
+"spotted it first, help us smashing it by providing a detailed and\n"
+"welcomed\n"
+"[feedback](https://github.com/OCA/server-tools/issues/new?body=module:"
+"%20dbfilter_from_header%0Aversion:%2013.0%0A%0A**Steps%20to%20reproduce**%0A-"
+"%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**).\n"
+"\n"
+"Do not contact contributors directly about support or help with\n"
+"technical issues.\n"
+"\n"
+"Credits\n"
+"-------\n"
+"\n"
+"### Authors\n"
+"\n"
+"-   Therp BV\n"
+"\n"
+"### Contributors\n"
+"\n"
+"-   Stéphane Bidoul \\<<stephane.bidoul@acsone.eu>\\>\n"
+"-   Yannick Vaucher \\<<yannick.vaucher@camptocamp.com>\\>\n"
+"-   Alexandre Fayolle \\<<alexandre.fayolle@camptocamp.com>\\>\n"
+"-   Holger Brunn \\<<hbrunn@therp.nl>\\>\n"
+"-   Laurent Mignon (aka lmi) \\<<laurent.mignon@acsone.eu>\\>\n"
+"-   Sandy Carter \\<<sandy.carter@savoirfairelinux.com>\\>\n"
+"-   Fabio Vilchez \\<<fabio.vilchez@clearcorp.co.cr>\\>\n"
+"-   Jos De Graeve \\<<Jos.DeGraeve@apertoso.be>\\>\n"
+"-   Lai Tim Siu (Quaritle Limited) \\<<info@quartile.co>\\>\n"
+"-   Tharathip Chaweewongphan \\<<tharathipc@ecosoft.co.th>\\>\n"
+"\n"
+"### Maintainers\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+"[![Odoo Community Association](https://odoo-community.org/logo.png)](https://"
+"odoo-community.org)\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization\n"
+"whose mission is to support the collaborative development of Odoo\n"
+"features and promote its widespread use.\n"
+"\n"
+"This module is part of the\n"
+"[OCA/server-tools](https://github.com/OCA/server-tools/tree/13.0/"
+"dbfilter_from_header)\n"
+"project on GitHub.\n"
+"\n"
+"You are welcome to contribute. To learn how please visit\n"
+"<https://odoo-community.org/page/Contribute>.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_dbfilter_from_header
+msgid "dbfilter_from_header"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_mondialrelay
@@ -25871,6 +27330,12 @@ msgstr "anno"
 #: model:res.country,name:base.ax
 msgid "Åland Islands"
 msgstr "Isole Åland"
+
+#~ msgid "Account"
+#~ msgstr "Conto"
+
+#~ msgid "Database Structure"
+#~ msgstr "Struttura database"
 
 #~ msgid ""
 #~ "\n"
@@ -27994,9 +29459,6 @@ msgstr "Isole Åland"
 
 #~ msgid "Assets Management"
 #~ msgstr "Gestione immobilizzazioni"
-
-#~ msgid "Attach a new document"
-#~ msgstr "Allega un nuovo documento"
 
 #~ msgid "Attendances Barcode in Mobile"
 #~ msgstr "Codice a barre presenze su dispositivo mobile"
