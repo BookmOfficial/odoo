@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 23:47+0000\n"
+"POT-Creation-Date: 2022-05-22 20:52+0000\n"
 "PO-Revision-Date: 2022-05-10 14:52+0000\n"
 "Last-Translator: Bookm <admin@bookm.be>\n"
 "Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/web_editor/"
@@ -594,6 +594,13 @@ msgstr "Bevestig"
 #, python-format
 msgid "Confirmation"
 msgstr "Bevestiging"
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
+#, python-format
+msgid "Content conflict"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -2205,6 +2212,16 @@ msgstr "De aangeboden url is niet correct"
 
 #. module: web_editor
 #. openerp-web
+#: code:addons/web_editor/static/src/xml/editor.xml:0
+#, python-format
+msgid ""
+"The version from the database will be used.\n"
+"                    If you need to keep your changes, copy the content below "
+"and edit the new document."
+msgstr ""
+
+#. module: web_editor
+#. openerp-web
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #, python-format
 msgid "Theme"
@@ -2216,6 +2233,13 @@ msgstr "Thema"
 #, python-format
 msgid "Theme colors"
 msgstr "Thema kleuren"
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/xml/editor.xml:0
+#, python-format
+msgid "There is a conflict between your version and the one in the database."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -2536,6 +2560,15 @@ msgstr "Vimeo"
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "Walden"
 msgstr "Walden"
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/xml/editor.xml:0
+#, python-format
+msgid ""
+"Warning: after closing this dialog, the version you were working on will be "
+"discarded and will never be available anymore."
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
