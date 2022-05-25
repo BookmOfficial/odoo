@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 23:13+0000\n"
+"POT-Creation-Date: 2022-05-24 18:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:25+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
@@ -31,6 +31,14 @@ msgid "<span class=\"o_stat_text\">Purchases</span>"
 msgstr "<span class=\"o_stat_text\">Einkäufe</span>"
 
 #. module: purchase_mrp
+#: code:addons/purchase_mrp/models/stock_move.py:0
+#, python-format
+msgid ""
+"Bookm is not able to generate the anglo saxon entries. The total valuation "
+"of %s is zero."
+msgstr ""
+
+#. module: purchase_mrp
 #: model:ir.model.fields,field_description:purchase_mrp.field_purchase_order__mrp_production_count
 msgid "Count of MO Source"
 msgstr ""
@@ -45,16 +53,6 @@ msgstr "Anzahl generierter Einkaufsbestellungen"
 #, python-format
 msgid "Manufacturing Source of %s"
 msgstr "Produktionsquelle von %s"
-
-#. module: purchase_mrp
-#: code:addons/purchase_mrp/models/stock_move.py:0
-#, python-format
-msgid ""
-"Odoo is not able to generate the anglo saxon entries. The total valuation of "
-"%s is zero."
-msgstr ""
-"Odoo ist nicht in der Lage, die angelsächsischen Einträge zu generieren. Die "
-"Gesamtbewertung von %s ist Null."
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_production
@@ -81,3 +79,11 @@ msgstr "Bestellungen generiert aus %s"
 #: model:ir.model,name:purchase_mrp.model_stock_move
 msgid "Stock Move"
 msgstr "Lagerbuchung"
+
+#, python-format
+#~ msgid ""
+#~ "Odoo is not able to generate the anglo saxon entries. The total valuation "
+#~ "of %s is zero."
+#~ msgstr ""
+#~ "Odoo ist nicht in der Lage, die angelsächsischen Einträge zu generieren. "
+#~ "Die Gesamtbewertung von %s ist Null."
