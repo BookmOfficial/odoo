@@ -1,0 +1,632 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ke
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-22 20:25+0000\n"
+"PO-Revision-Date: 2022-05-22 20:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5130
+msgid "Accounting"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2103
+msgid "Accruals"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5131
+msgid "Auditing"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2105
+msgid "Bad debt provision"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5136
+msgid "Bad debts"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5138
+msgid "Bank Charges"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4005
+msgid "Bank Interest received"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0090
+msgid "Biological assets"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5124
+msgid "Books"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke3000
+msgid "Called up share capital"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke3040
+msgid "Capital"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5116
+msgid "Car fuel"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5115
+msgid "Car hire"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5117
+msgid "Car maintenance"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5146
+msgid "Cash Register Gains/Losses"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2104
+msgid "Company Credit Card"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5132
+msgid "Consultancy"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2240
+msgid "Corporation Tax"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5143
+msgid "Corporation tax expense"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5001
+msgid "Cost of sales 1"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5002
+msgid "Cost of sales 2"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5003
+msgid "Cost of sales 3"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5004
+msgid "Cost of sales 4"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2100
+msgid "Creditors Control Account"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1100
+msgid "Debtors Control Account"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5107
+msgid "Directors pension"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5108
+msgid "Directors remuneration"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5105
+msgid "Distribution salaries and wages"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5104
+msgid "Distribution vehicles"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5139
+msgid "Donations"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5110
+msgid "Employers SDL & UIF"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5140
+msgid "Entertaining"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5134
+msgid "Exchange gains/losses"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5102
+msgid "Exhibitions and events"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0080
+msgid "Financial assets"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1003
+msgid "Finished Goods"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0030
+msgid "Fixtures and fittings"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5203
+msgid "Fixtures and fittings Depreciation"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5144
+msgid "Foreign Exchange Gains/Losses"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5109
+msgid "Gross Salaries"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2201
+msgid "HMRC - VAT Account"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2310
+msgid "Hire Purchase"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5141
+msgid "Insurance"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5137
+msgid "Interest paid"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.fiscal.position.template,name:l10n_ke.fiscal_position_template_non_kenyan
+msgid "International"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5119
+msgid "Internet & hosting"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4006
+msgid "Investment Interest received"
+msgstr ""
+
+#. module: l10n_ke
+#: model:ir.ui.menu,name:l10n_ke.account_reports_ke_statements_menu
+msgid "Kenya"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.chart.template,name:l10n_ke.l10nke_chart_template
+msgid "Kenyan COA"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0040
+msgid "Land and buildings"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5204
+msgid "Land and buildings Depreciation"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5133
+msgid "Legal and professional charges"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5113
+msgid "Light / heat and power"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.l10nke_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2300
+msgid "Loans"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2202
+msgid "Manual Adjustments & VAT"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5101
+msgid "Marketing"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5120
+msgid "Mobiles"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2320
+msgid "Mortgages"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0050
+msgid "Motor vehicles"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5205
+msgid "Motor vehicles Depreciation"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.fiscal.position.template,name:l10n_ke.fiscal_position_template_national
+msgid "National"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2220
+msgid "Net Wages"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5125
+msgid "Network costs"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5122
+msgid "Office consumables"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0060
+msgid "Office equipment (inc computer equipment)"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5206
+msgid "Office equipment (inc computer equipment) Depreciation"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2102
+msgid "Other Creditors"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1102
+msgid "Other Debtors"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4010
+msgid "Other Income"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5129
+msgid "Other admin expenses"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5127
+msgid "Other computer costs"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke3030
+msgid "Other reserves"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5135
+msgid "Other sundry expenses"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2210
+msgid "P.A.Y.E. & NI"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5103
+msgid "PR"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0020
+msgid "Patents & Trademarks"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5202
+msgid "Patents & Trademarks Depreciation"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2230
+msgid "Pension Fund"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0070
+msgid "Plant and machinery"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5207
+msgid "Plant and machinery Depreciation"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5123
+msgid "Postage and Carriage"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1103
+msgid "Prepayments"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5145
+msgid "Price Differences Control Account"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4008
+msgid "Profits/Losses on disposals of assets"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1110
+msgid "Purchase Tax Control Account"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.PTEX
+#: model:account.tax.template,name:l10n_ke.PTEX
+msgid "Purchase VAT Exempt"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.PT16
+#: model:account.tax.template,name:l10n_ke.PT16
+msgid "Purchases VAT (16%)"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.PT8
+#: model:account.tax.template,name:l10n_ke.PT8
+msgid "Purchases VAT (8%)"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.PT0
+msgid "Purchases VAT Zero rated"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,name:l10n_ke.PT0
+msgid "Purchases VAT Zero rated (0%)"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5128
+msgid "Recruitment fees"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5112
+msgid "Rent and rates"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5114
+msgid "Repairs and maintenance"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke3020
+msgid "Revaluation reserve"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4007
+msgid "Revenue Income"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2200
+msgid "Sales Tax Control Account"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.ST16
+#: model:account.tax.template,name:l10n_ke.ST16
+msgid "Sales VAT (16%)"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.ST8
+#: model:account.tax.template,name:l10n_ke.ST8
+msgid "Sales VAT (8%)"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.STEX
+#: model:account.tax.template,name:l10n_ke.STEX
+msgid "Sales VAT Exempt"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,description:l10n_ke.ST0
+msgid "Sales VAT Zero Rated"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.template,name:l10n_ke.ST0
+msgid "Sales VAT Zero Rated (0%)"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4001
+msgid "Sales category 1"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4002
+msgid "Sales category 2"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4003
+msgid "Sales category 3"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke4004
+msgid "Sales category 4"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke3010
+msgid "Share premium account"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5106
+msgid "Shipping"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke0010
+msgid "Software"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5201
+msgid "Software Depreciation"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5126
+msgid "Software expenses"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5121
+msgid "Stationery"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1001
+msgid "Stock"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5111
+msgid "Subcontractors payments"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke2101
+msgid "Sundry Creditors"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1101
+msgid "Sundry Debtors"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.group,name:l10n_ke.tax_group_0
+msgid "TVA 0%"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.group,name:l10n_ke.tax_group_16
+msgid "TVA 16%"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.tax.group,name:l10n_ke.tax_group_8
+msgid "TVA 8%"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5118
+msgid "Telephone"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke5142
+msgid "Travel and subsistence"
+msgstr ""
+
+#. module: l10n_ke
+#: model:account.account.template,name:l10n_ke.ke1002
+msgid "Work in Progress"
+msgstr ""

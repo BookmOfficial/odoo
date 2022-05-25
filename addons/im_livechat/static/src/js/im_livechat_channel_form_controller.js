@@ -42,7 +42,7 @@ const ImLivechatChannelFormController = FormController.extend({
      */
     async _onClickLivechatChatWindowColorsResetButton() {
         await this._updateColors({
-            header_background_color: "#875A7B",
+            header_background_color: "#1E1E74",
             title_color: "#FFFFFF",
         });
     },

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:40+0000\n"
+"POT-Creation-Date: 2022-05-22 20:31+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
@@ -870,7 +870,6 @@ msgstr "Si coché, de nouveaux messages demandent votre attention."
 
 #. module: lunch
 #: model:ir.model.fields,help:lunch.field_lunch_supplier__message_has_error
-#: model:ir.model.fields,help:lunch.field_lunch_supplier__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Si actif, certains messages ont une erreur de livraison."
 
@@ -1094,7 +1093,7 @@ msgid "Lunch: Send by email"
 msgstr ""
 
 #. module: lunch
-#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_894
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_458
 msgid "Lunch: send automatic email to Lunch Supplier"
 msgstr ""
 
@@ -1211,11 +1210,6 @@ msgstr "Nouvelle commande"
 #: model:ir.model.fields,field_description:lunch.field_lunch_product__new_until
 msgid "New Until"
 msgstr "Nouveau jusqu'à"
-
-#. module: lunch
-#: model:ir.model.fields,field_description:lunch.field_lunch_supplier__activity_calendar_event_id
-msgid "Next Activity Calendar Event"
-msgstr "Activité suivante de l'événement du calendrier"
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__activity_date_deadline
@@ -1560,11 +1554,6 @@ msgstr "Responsable"
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__activity_user_id
 msgid "Responsible User"
 msgstr "Responsable"
-
-#. module: lunch
-#: model:ir.model.fields,field_description:lunch.field_lunch_supplier__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr ""
 
 #. module: lunch
 #: model:lunch.product.category,name:lunch.categ_sandwich
@@ -2048,6 +2037,9 @@ msgstr "le"
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_alert_view_kanban
 msgid "to"
 msgstr "à"
+
+#~ msgid "Next Activity Calendar Event"
+#~ msgstr "Activité suivante de l'événement du calendrier"
 
 #~ msgid "1 Avocado - 1 Salmon - 1 Eggs - 1 Tuna"
 #~ msgstr "1 Avocat - 1 Saumon - 1 Oeufs - 1 Thon"

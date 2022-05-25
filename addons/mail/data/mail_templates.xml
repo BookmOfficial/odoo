@@ -17,13 +17,13 @@
     <td valign="center">
         <a t-if="has_button_access"
                 t-att-href="button_access['url']"
-                style="padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px">
+                style="padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #1E1E74; border: 0px solid #1E1E74; border-radius:3px">
             <t t-esc="button_access['title']"/>
         </a>
         <t t-if="actions">
             <t t-foreach="actions" t-as="action">
                 |
-                <a t-att-href="action['url']" style="color: #875A7B; text-decoration:none !important;">
+                <a t-att-href="action['url']" style="color: #1E1E74; text-decoration:none !important;">
                     <t t-esc="action['title']"/>
                 </a>
             </t>
@@ -54,7 +54,7 @@
     Sent
     <span t-if="company.name">
     by
-    <a t-if="website_url" t-att-href="website_url" style="text-decoration:none; color: #875A7B;">
+    <a t-if="website_url" t-att-href="website_url" style="text-decoration:none; color: #1E1E74;">
         <span t-esc="company.name"/>
     </a>
     <span t-if="not website_url" t-esc="company.name"/>
@@ -70,7 +70,7 @@
     <!-- HEADER -->
     <tr>
         <td align="center" style="min-width: 590px;">
-            <table width="590" border="0" cellpadding="0" bgcolor="#875A7B" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
+            <table width="590" border="0" cellpadding="0" bgcolor="#1E1E74" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
                 <tr><td valign="middle">
                     <span style="font-size:20px; color:white; font-weight: bold;">
                         <t t-esc="message.record_name"/>
@@ -94,7 +94,7 @@
     <!-- FOOTER -->
     <tr>
         <td align="center" style="min-width: 590px;">
-            <table width="590" border="0" cellpadding="0" bgcolor="#875A7B" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
+            <table width="590" border="0" cellpadding="0" bgcolor="#1E1E74" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
                 <tr><td valign="middle" align="left" style="color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;">
                     <t t-esc="company.name"/><br/>
                     <t t-esc="company.phone"/>
@@ -210,7 +210,7 @@
             <t t-out="message.body"/>
             <div t-if="is_online and not record._context.get('proforma')" style="margin: 32px 0px 32px 0px; text-align: center;">
                 <a t-att-href="access_url"
-                    style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
+                    style="background-color: #1E1E74; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
                     <t t-esc="access_name"/>
                 </a>
             </div>
@@ -256,7 +256,7 @@
     <span style="margin-top: 8px;">You have been assigned to the <t t-esc="model_description or 'document'"/> <t t-esc="object.display_name"/>.</span>
 </p>
 <p style="padding-top: 24px; padding-bottom: 16px;">
-    <a t-att-href="access_link" t-att-data-oe-model="object._name" t-att-data-oe-id="object.id" style="background-color:#875A7B; padding: 10px; text-decoration: none; color: #fff; border-radius: 5px;">
+    <a t-att-href="access_link" t-att-data-oe-model="object._name" t-att-data-oe-id="object.id" style="background-color:#1E1E74; padding: 10px; text-decoration: none; color: #fff; border-radius: 5px;">
             View <t t-esc="model_description or 'document'"/>
     </a>
 </p>
@@ -290,7 +290,7 @@
     to close for <span t-field="activity.date_deadline"/>.<br />
     <p style="padding: 16px 0px 16px 0px;">
         <a t-att-href="access_link" t-att-data-oe-model="activity.res_model" t-att-data-oe-id="activity.res_id"
-            style="background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
+            style="background-color:#1E1E74; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
             View <t t-esc="model_description or 'document'"/>
         </a>
     </p>

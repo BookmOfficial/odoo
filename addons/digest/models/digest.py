@@ -258,7 +258,7 @@ class Digest(models.Model):
             '|', ('group_id', 'in', user.groups_id.ids), ('group_id', '=', False)
         ], limit=tips_count)
         tip_descriptions = [
-            self.env['mail.render.mixin'].sudo()._render_template(tools.html_sanitize(tip.tip_description), 'digest.tip', tip.ids, post_process=True, engine="qweb")[tip.id]
+            tools.html_sanitize(self.env['mail.render.mixin'].sudo()._render_template(tip.tip_description, 'digest.tip', tip.ids, post_process=True, engine="qweb")[tip.id])
             for tip in tips
         ]
         if consumed:
@@ -286,13 +286,13 @@ class Digest(models.Model):
                   new_perioridicy_str=new_perioridicy_str)
             )
         elif self.periodicity == 'daily' and user.has_group('base.group_erp_manager'):
-            preferences.append(Markup('<p>%s<br /><a href="%s" target="_blank" style="color:#875A7B; font-weight: bold;">%s</a></p>') % (
+            preferences.append(Markup('<p>%s<br /><a href="%s" target="_blank" style="color:#1E1E74; font-weight: bold;">%s</a></p>') % (
                 _('Prefer a broader overview ?'),
                 f'/digest/{self.id:d}/set_periodicity?periodicity=weekly',
                 _('Switch to weekly Digests')
             ))
         if user.has_group('base.group_erp_manager'):
-            preferences.append(Markup('<p>%s<br /><a href="%s" target="_blank" style="color:#875A7B; font-weight: bold;">%s</a></p>') % (
+            preferences.append(Markup('<p>%s<br /><a href="%s" target="_blank" style="color:#1E1E74; font-weight: bold;">%s</a></p>') % (
                 _('Want to customize this email?'),
                 f'/web#view_type=form&amp;model={self._name}&amp;id={self.id:d}',
                 _('Choose the metrics you care about')

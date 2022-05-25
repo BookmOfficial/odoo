@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:48+0000\n"
-"PO-Revision-Date: 2022-04-15 22:48+0000\n"
+"POT-Creation-Date: 2022-05-22 20:35+0000\n"
+"PO-Revision-Date: 2022-05-22 20:35+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -643,6 +643,13 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Save in Bookm"
+msgstr ""
+
+#. module: mail_plugin
+#. openerp-web
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+#, python-format
+msgid "Save the contact to create the company"
 msgstr ""
 
 #. module: mail_plugin

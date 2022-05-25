@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 23:48+0000\n"
+"POT-Creation-Date: 2022-05-22 20:52+0000\n"
 "PO-Revision-Date: 2021-09-14 12:27+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -1439,7 +1439,6 @@ msgstr ""
 "sfondo contestuali e potenti opzioni di visualizzazione."
 
 #. module: website
-#: model:ir.model.fields,help:website.field_base_automation__website_published
 #: model:ir.model.fields,help:website.field_ir_actions_server__website_published
 #: model:ir.model.fields,help:website.field_ir_cron__website_published
 msgid ""
@@ -1476,11 +1475,6 @@ msgstr "Un ottimo titolo"
 #: model:ir.model.fields,help:website.field_website_snippet_filter__field_names
 msgid "A list of comma-separated field names"
 msgstr "Elenco di nomi campo separati da virgola"
-
-#. module: website
-#: model:website.configurator.feature,description:website.feature_module_stores_locator
-msgid "A map and a listing of your stores"
-msgstr "Una mappa e un elenco dei tuoi negozi"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_visitor__visit_count
@@ -2166,7 +2160,6 @@ msgid "Autoredirect Language"
 msgstr "Reindirizzare lingua automaticamente"
 
 #. module: website
-#: model:ir.model.fields,field_description:website.field_base_automation__website_published
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_published
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_published
 msgid "Available on the Website"
@@ -2551,11 +2544,6 @@ msgid "Cards"
 msgstr ""
 
 #. module: website
-#: model:website.configurator.feature,name:website.feature_module_career
-msgid "Career"
-msgstr "Carriera"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
 msgid "Case Studies"
 msgstr "Casi di studio"
@@ -2629,11 +2617,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_chart_options
 msgid "Chart"
 msgstr "Grafico"
-
-#. module: website
-#: model:website.configurator.feature,description:website.feature_module_live_chat
-msgid "Chat with visitors to improve traction"
-msgstr "Chatta con i visitatori per migliorare la trazione"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup
@@ -4180,7 +4163,6 @@ msgid "Event heading"
 msgstr "Titolo evento"
 
 #. module: website
-#: model:website.configurator.feature,name:website.feature_module_event
 #: model_terms:ir.ui.view,arch_db:website.s_facebook_page_options
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_big_icons_subtitles
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards
@@ -4240,7 +4222,6 @@ msgid "Extension View"
 msgstr "Vista estesa"
 
 #. module: website
-#: model:ir.model.fields,field_description:website.field_base_automation__xml_id
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__xml_id
 #: model:ir.model.fields,field_description:website.field_ir_cron__xml_id
 #: model:ir.model.fields,field_description:website.field_website_page__xml_id
@@ -4617,7 +4598,6 @@ msgstr ""
 "\" e project.issue potrebbe essere \"Segnala un problema\"."
 
 #. module: website
-#: model:website.configurator.feature,name:website.feature_module_forum
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
 msgid "Forum"
 msgstr "Forum"
@@ -4742,11 +4722,6 @@ msgstr "GitHub"
 #: model:ir.model.fields,field_description:website.field_website__social_github
 msgid "GitHub Account"
 msgstr "Account GitHub"
-
-#. module: website
-#: model:website.configurator.feature,description:website.feature_module_forum
-msgid "Give visitors the information they need"
-msgstr "Dai ai tuoi visitatori le informazioni di cui hanno bisogno"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_menus_logos
@@ -5227,7 +5202,6 @@ msgid "ID"
 msgstr "ID"
 
 #. module: website
-#: model:ir.model.fields,help:website.field_base_automation__xml_id
 #: model:ir.model.fields,help:website.field_ir_actions_server__xml_id
 #: model:ir.model.fields,help:website.field_ir_cron__xml_id
 msgid "ID of the action if defined in a XML file"
@@ -6115,11 +6089,6 @@ msgstr "Collegamenti ad altri siti web"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Little Icons"
 msgstr ""
-
-#. module: website
-#: model:website.configurator.feature,name:website.feature_module_live_chat
-msgid "Live Chat"
-msgstr "Livechat"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_view_kanban
@@ -7518,16 +7487,6 @@ msgid "Publish"
 msgstr "Pubblicata"
 
 #. module: website
-#: model:website.configurator.feature,description:website.feature_module_career
-msgid "Publish job offers and let people apply"
-msgstr "Pubblica offerte di lavoro e ricevi candidature"
-
-#. module: website
-#: model:website.configurator.feature,description:website.feature_module_event
-msgid "Publish on-site and online events"
-msgstr ""
-
-#. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/backend/button.js:0
 #: model_terms:ir.ui.view,arch_db:website.one_page_line
@@ -8156,11 +8115,6 @@ msgid "Selection"
 msgstr "Selezione"
 
 #. module: website
-#: model:website.configurator.feature,description:website.feature_module_shop
-msgid "Sell more with an eCommerce"
-msgstr "Vendi di più con e-commerce"
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_form
 msgid "Send Email"
 msgstr "Invia e-mail"
@@ -8256,11 +8210,6 @@ msgid "Share"
 msgstr "Condividi"
 
 #. module: website
-#: model:website.configurator.feature,description:website.feature_module_elearning
-msgid "Share knowledge publicly or for a fee"
-msgstr "Condividi le tue conoscenze pubblicamente o a pagamento"
-
-#. module: website
 #: model:website.configurator.feature,description:website.feature_module_success_stories
 msgid "Share your best case studies"
 msgstr "Condividi i tuoi migliori casi di studio"
@@ -8269,11 +8218,6 @@ msgstr "Condividi i tuoi migliori casi di studio"
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_menus_logos
 msgid "Shoes"
 msgstr "Scarpe"
-
-#. module: website
-#: model:website.configurator.feature,name:website.feature_module_shop
-msgid "Shop"
-msgstr "Negozio"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website__auto_redirect_lang
@@ -8620,11 +8564,6 @@ msgid "Storage"
 msgstr "Stoccaggio"
 
 #. module: website
-#: model:website.configurator.feature,name:website.feature_module_stores_locator
-msgid "Stores Locator"
-msgstr ""
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
 msgid "Storytelling is powerful.<br/> It draws readers in and engages them."
 msgstr "La narrazione è potente.<br/> Attrae i lettori e li coinvolge."
@@ -8967,7 +8906,6 @@ msgid "The full URL to access the document through the website."
 msgstr "URL completo per accedere al documento dal sito web."
 
 #. module: website
-#: model:ir.model.fields,help:website.field_base_automation__website_url
 #: model:ir.model.fields,help:website.field_ir_actions_server__website_url
 #: model:ir.model.fields,help:website.field_ir_cron__website_url
 msgid "The full URL to access the server action through the website."
@@ -9218,6 +9156,12 @@ msgstr ""
 #, python-format
 msgid "This message has been posted on your website!"
 msgstr "Il messaggio è stato pubblicato nel sito web."
+
+#. module: website
+#: code:addons/website/models/website_visitor.py:0
+#, python-format
+msgid "This operator is not supported"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
@@ -10331,7 +10275,6 @@ msgid "Website Pages"
 msgstr "Pagine sito web"
 
 #. module: website
-#: model:ir.model.fields,field_description:website.field_base_automation__website_path
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_path
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_path
 msgid "Website Path"
@@ -10387,7 +10330,6 @@ msgid "Website URL"
 msgstr "URL sito web"
 
 #. module: website
-#: model:ir.model.fields,field_description:website.field_base_automation__website_url
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_url
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_url
 msgid "Website Url"
@@ -10896,27 +10838,6 @@ msgstr "una tavolozza di colori"
 
 #. module: website
 #. openerp-web
-#: code:addons/website/static/src/components/configurator/configurator.js:0
-#, python-format
-msgid "an elearning platform"
-msgstr "una piattaforma e-learning"
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/components/configurator/configurator.js:0
-#, python-format
-msgid "an event website"
-msgstr "un sito web per eventi"
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/components/configurator/configurator.js:0
-#, python-format
-msgid "an online store"
-msgstr "un negozio online"
-
-#. module: website
-#. openerp-web
 #: code:addons/website/static/src/components/configurator/configurator.xml:0
 #, python-format
 msgid "and"
@@ -11010,11 +10931,6 @@ msgstr "es. Trastevere, Roma, Italia"
 #: model:ir.ui.menu,name:website.menu_website_dashboard
 msgid "eCommerce Dashboard"
 msgstr "Bacheca e-commerce"
-
-#. module: website
-#: model:website.configurator.feature,name:website.feature_module_elearning
-msgid "eLearning"
-msgstr "E-learning"
 
 #. module: website
 #. openerp-web
@@ -11239,13 +11155,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
 msgid "rows"
 msgstr "righe"
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/components/configurator/configurator.js:0
-#, python-format
-msgid "schedule appointments"
-msgstr "pianificare appuntamenti"
 
 #. module: website
 #. openerp-web
@@ -11512,6 +11421,52 @@ msgstr "⌙ Video"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "⌙ Width"
 msgstr "⌙ Larghezza"
+
+#~ msgid "A map and a listing of your stores"
+#~ msgstr "Una mappa e un elenco dei tuoi negozi"
+
+#~ msgid "Career"
+#~ msgstr "Carriera"
+
+#~ msgid "Chat with visitors to improve traction"
+#~ msgstr "Chatta con i visitatori per migliorare la trazione"
+
+#~ msgid "Give visitors the information they need"
+#~ msgstr "Dai ai tuoi visitatori le informazioni di cui hanno bisogno"
+
+#~ msgid "Live Chat"
+#~ msgstr "Livechat"
+
+#~ msgid "Publish job offers and let people apply"
+#~ msgstr "Pubblica offerte di lavoro e ricevi candidature"
+
+#~ msgid "Sell more with an eCommerce"
+#~ msgstr "Vendi di più con e-commerce"
+
+#~ msgid "Share knowledge publicly or for a fee"
+#~ msgstr "Condividi le tue conoscenze pubblicamente o a pagamento"
+
+#~ msgid "Shop"
+#~ msgstr "Negozio"
+
+#, python-format
+#~ msgid "an elearning platform"
+#~ msgstr "una piattaforma e-learning"
+
+#, python-format
+#~ msgid "an event website"
+#~ msgstr "un sito web per eventi"
+
+#, python-format
+#~ msgid "an online store"
+#~ msgstr "un negozio online"
+
+#~ msgid "eLearning"
+#~ msgstr "E-learning"
+
+#, python-format
+#~ msgid "schedule appointments"
+#~ msgstr "pianificare appuntamenti"
 
 #~ msgid "\" alert with a"
 #~ msgstr "\" con un"

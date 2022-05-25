@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:52+0000\n"
+"POT-Creation-Date: 2022-05-22 20:39+0000\n"
 "PO-Revision-Date: 2022-05-10 14:52+0000\n"
 "Last-Translator: Bookm <admin@bookm.be>\n"
 "Language-Team: French <https://weblate.bookm.be/projects/odoo-15/mrp/fr/>\n"
@@ -4374,6 +4374,12 @@ msgid ""
 msgstr ""
 "L'unité de mesure choisie est d'une autre catégorie que celle du formulaire "
 "de l'article."
+
+#. module: mrp
+#: code:addons/mrp/models/mrp_workcenter.py:0
+#, python-format
+msgid "The Workorder (%s) cannot be started twice!"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:0

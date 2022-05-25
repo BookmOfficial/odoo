@@ -11,7 +11,7 @@
                 Then, help us complete your Paypal credentials in Bookm.<br/><br/>
             </p>
             <a t-attf-href="/web#id=#{acquirer.id}&amp;model=payment.acquirer&amp;view_type=form"
-               style="background-color: #875A7B; padding: 10px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 12px;">
+               style="background-color: #1E1E74; padding: 10px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 12px;">
                 Set Paypal credentials
             </a>
             <p>
