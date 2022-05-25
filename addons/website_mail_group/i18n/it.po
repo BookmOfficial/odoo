@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 23:56+0000\n"
+"POT-Creation-Date: 2022-05-24 18:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:28+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -28,8 +28,8 @@ msgstr "<span class=\"o_stat_text\">Vai al <br/>sito web</span>"
 
 #. module: website_mail_group
 #: model_terms:ir.ui.view,arch_db:website_mail_group.s_group_options
-msgid "Create a public discussion group in your backend"
-msgstr "Crea un gruppo di discussione pubblico nell'interfaccia amministrativa"
+msgid "Create a public discussion group in Bookm"
+msgstr ""
 
 #. module: website_mail_group
 #: model:ir.ui.menu,name:website_mail_group.mail_group_menu_website_root
@@ -84,3 +84,7 @@ msgstr "Annulla iscrizione"
 #: model_terms:ir.ui.view,arch_db:website_mail_group.s_group
 msgid "your email..."
 msgstr "E-mail..."
+
+#~ msgid "Create a public discussion group in your backend"
+#~ msgstr ""
+#~ "Crea un gruppo di discussione pubblico nell'interfaccia amministrativa"
