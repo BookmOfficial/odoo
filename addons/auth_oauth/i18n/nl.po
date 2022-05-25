@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~13.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 21:28+0000\n"
+"POT-Creation-Date: 2022-05-22 19:45+0000\n"
 "PO-Revision-Date: 2021-09-14 12:20+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
@@ -48,13 +48,8 @@ msgstr "Toegestaan"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__auth_endpoint
-msgid "Authentication URL"
-msgstr "Authenticatie URL"
-
-#. module: auth_oauth
-#: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__body
-msgid "Body"
-msgstr "Inhoud"
+msgid "Authorization URL"
+msgstr ""
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__css_class
@@ -89,8 +84,8 @@ msgstr "Aangemaakt op"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__data_endpoint
-msgid "Data URL"
-msgstr "Data URL"
+msgid "Data Endpoint"
+msgstr ""
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__display_name
@@ -136,6 +131,11 @@ msgstr "Log in met Facebook"
 #: model:auth.oauth.provider,body:auth_oauth.provider_google
 msgid "Log in with Google"
 msgstr "Login met Google"
+
+#. module: auth_oauth
+#: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__body
+msgid "Login button label"
+msgstr ""
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users__oauth_access_token
@@ -210,14 +210,14 @@ msgid "Sign up is not allowed on this database."
 msgstr "Aanmelden is niet toegestaan binnen deze database."
 
 #. module: auth_oauth
+#: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
+msgid "UserInfo URL"
+msgstr ""
+
+#. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_res_users
 msgid "Users"
 msgstr "Gebruikers"
-
-#. module: auth_oauth
-#: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
-msgid "Validation URL"
-msgstr "Bevestiging URL"
 
 #. module: auth_oauth
 #: code:addons/auth_oauth/controllers/main.py:0
@@ -241,6 +241,18 @@ msgstr "arch"
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "e.g. 1234-xyz.apps.googleusercontent.com"
 msgstr "bijv. 1234-xyz.apps.googleusercontent.com"
+
+#~ msgid "Authentication URL"
+#~ msgstr "Authenticatie URL"
+
+#~ msgid "Body"
+#~ msgstr "Inhoud"
+
+#~ msgid "Data URL"
+#~ msgstr "Data URL"
+
+#~ msgid "Validation URL"
+#~ msgstr "Bevestiging URL"
 
 #~ msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Tutorial"
 #~ msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Handleiding"
