@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:02+0000\n"
+"POT-Creation-Date: 2022-05-22 20:03+0000\n"
 "PO-Revision-Date: 2022-05-10 14:52+0000\n"
 "Last-Translator: Bookm <admin@bookm.be>\n"
 "Language-Team: German <https://weblate.bookm.be/projects/odoo-15/hr_holidays/"
@@ -2748,16 +2748,6 @@ msgstr ""
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #, python-format
-msgid ""
-"Only a Time off Approver can apply the second approval on allocation "
-"requests."
-msgstr ""
-"Nur Abwesenheitsmanager können zweite Genehmigungen für Zuweisungen "
-"durchführen."
-
-#. module: hr_holidays
-#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
-#, python-format
 msgid "Only a time off Manager can approve its own requests."
 msgstr "Nur Abwesenheitsmanager können eigene Anfragen genehmigen."
 
@@ -4049,15 +4039,15 @@ msgstr "Einen in der Vergangenheit liegenden Urlaub können Sie nicht löschen"
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #, python-format
-msgid "You cannot delete an allocation request which is in %s state."
-msgstr "Sie können keine Anfrage im %s Status stornieren"
+msgid ""
+"You cannot delete an allocation request which has some validated leaves."
+msgstr ""
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #, python-format
-msgid ""
-"You cannot delete an allocation request which has some validated leaves."
-msgstr ""
+msgid "You cannot delete an allocation request which is in %s state."
+msgstr "Sie können keine Anfrage im %s Status stornieren"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave.py:0
@@ -4100,15 +4090,6 @@ msgid ""
 msgstr ""
 "Sie müssen entweder %ss Manager oder Abwesenheitsmanager sein um diesen "
 "Antrag zu genehmigen."
-
-#. module: hr_holidays
-#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
-#, python-format
-msgid ""
-"You must be either %s's manager or time off manager to approve this time off"
-msgstr ""
-"Sie müssen entweder der Vorgesetzte von %s oder der Urlaubsmanager sein, um "
-"diese Abwesenheit zu genehmigen."
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave.py:0
@@ -4300,6 +4281,22 @@ msgstr "validiert"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__start_type__year
 msgid "year(s)"
 msgstr "Jahr(e)"
+
+#, python-format
+#~ msgid ""
+#~ "Only a Time off Approver can apply the second approval on allocation "
+#~ "requests."
+#~ msgstr ""
+#~ "Nur Abwesenheitsmanager können zweite Genehmigungen für Zuweisungen "
+#~ "durchführen."
+
+#, python-format
+#~ msgid ""
+#~ "You must be either %s's manager or time off manager to approve this time "
+#~ "off"
+#~ msgstr ""
+#~ "Sie müssen entweder der Vorgesetzte von %s oder der Urlaubsmanager sein, "
+#~ "um diese Abwesenheit zu genehmigen."
 
 #~ msgid "Parental Leaves"
 #~ msgstr "Elternzeit"
