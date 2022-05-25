@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:08+0000\n"
+"POT-Creation-Date: 2022-05-22 20:08+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -101,8 +101,8 @@ msgid ""
 "<i class=\"fa fa-smile-o text-success\" title=\"Percentage of happy ratings"
 "\" role=\"img\" aria-label=\"Happy face\"/>"
 msgstr ""
-"<i class=\"fa fa-smile-o text-success\" title=\"Percentage of happy "
-"ratings\" role=\"img\" aria-label=\"Happy face\"/>"
+"<i class=\"fa fa-smile-o text-success\" title=\"Percentage of happy ratings"
+"\" role=\"img\" aria-label=\"Happy face\"/>"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
@@ -1535,8 +1535,7 @@ msgstr "Inténtalo de nuevo"
 #, python-format
 msgid "Type <b>:shortcut</b> to insert a canned response in your message.<br>"
 msgstr ""
-"Tipo <b>:atajo</b> para insertar una respuesta predefinida en su "
-"mensaje.<br>"
+"Tipo <b>:atajo</b> para insertar una respuesta predefinida en su mensaje.<br>"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__regex_url
