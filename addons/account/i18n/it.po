@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 21:25+0000\n"
+"POT-Creation-Date: 2022-05-22 19:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:18+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -2495,8 +2495,9 @@ msgstr ""
 #: code:addons/account/models/account_analytic_default.py:0
 #, python-format
 msgid ""
-"An analytic default requires at least an analytic account or an analytic tag."
-msgstr "Un predefinito richiede almeno un conto o un'etichetta analitica."
+"An analytic default requires an analytic account or an analytic tag used for "
+"analytic distribution."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -7666,6 +7667,13 @@ msgid "Journal Entry Date"
 msgstr "Data registrazione"
 
 #. module: account
+#. openerp-web
+#: code:addons/account/static/src/xml/account_payment.xml:0
+#, python-format
+msgid "Journal Entry Info"
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_print_journal__sort_selection__move_name
 msgid "Journal Entry Number"
 msgstr "Numero registrazione contabile"
@@ -7787,6 +7795,13 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__journal_id
 msgid "Journal where to create the entry."
 msgstr "Registro dove creare la registrazione."
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/xml/account_payment.xml:0
+#, python-format
+msgid "Journal:"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_journal_form
@@ -9818,20 +9833,6 @@ msgstr "Differenza di pagamento"
 #: model:ir.model.fields,field_description:account.field_account_payment_register__payment_difference_handling
 msgid "Payment Difference Handling"
 msgstr "Gestione differenza di pagamento"
-
-#. module: account
-#. openerp-web
-#: code:addons/account/static/src/xml/account_payment.xml:0
-#, python-format
-msgid "Payment Info"
-msgstr "Informazioni di pagamento"
-
-#. module: account
-#. openerp-web
-#: code:addons/account/static/src/xml/account_payment.xml:0
-#, python-format
-msgid "Payment Journal:"
-msgstr "Registro pagamenti:"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__payment_method_line_id
@@ -16279,6 +16280,12 @@ msgstr "es. INV"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid ""
+"for this customer. You can allocate them to mark this credit note as paid."
+msgstr ""
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "for this customer. You can allocate them to mark this invoice as paid."
 msgstr ""
 "per questo cliente. Puoi assegnarli per impostare la fattura come pagata."
@@ -16287,6 +16294,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "for this vendor. You can allocate them to mark this bill as paid."
 msgstr "per il fornitore. Assegnarli per impostare la fattura come pagata."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid ""
+"for this vendor. You can allocate them to mark this credit note as paid."
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
@@ -16365,13 +16378,13 @@ msgstr "su"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid "outstanding debits"
-msgstr "debiti in sospeso"
+msgid "outstanding credits"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
-msgid "outstanding payments"
-msgstr "pagamenti in sospeso"
+msgid "outstanding debits"
+msgstr "debiti in sospeso"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__payment_state__paid
@@ -16486,6 +16499,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_bank_statement_form
 msgid "→ Count"
 msgstr "→ Conteggio"
+
+#, python-format
+#~ msgid ""
+#~ "An analytic default requires at least an analytic account or an analytic "
+#~ "tag."
+#~ msgstr "Un predefinito richiede almeno un conto o un'etichetta analitica."
+
+#, python-format
+#~ msgid "Payment Info"
+#~ msgstr "Informazioni di pagamento"
+
+#, python-format
+#~ msgid "Payment Journal:"
+#~ msgstr "Registro pagamenti:"
+
+#~ msgid "outstanding payments"
+#~ msgstr "pagamenti in sospeso"
 
 #~ msgid ""
 #~ ". The journal entries need to be computed by Odoo before being posted in "
