@@ -43,8 +43,8 @@ class BrandedFileWriter(PdfFileWriter):
     def __init__(self):
         super().__init__()
         self.addMetadata({
-            '/Creator': "Odoo",
-            '/Producer': "Odoo",
+            '/Creator': "Bookm",
+            '/Producer': "Bookm",
         })
 
 
@@ -350,8 +350,8 @@ class OdooPdfFileWriter(PdfFileWriter):
 
         # Set odoo as producer
         self.addMetadata({
-            '/Creator': "Odoo",
-            '/Producer': "Odoo",
+            '/Creator': "Bookm",
+            '/Producer': "Bookm",
         })
         self.is_pdfa = True
 

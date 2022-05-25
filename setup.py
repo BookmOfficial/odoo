@@ -40,7 +40,7 @@ setup(
         'psycopg2-binary >= 2.2',
         'pydot',
         'pyopenssl',
-        'pypdf2',
+        'pypdf2 == 1.27.12',
         'pyserial',
         'python-dateutil',
         'python-stdnum',
