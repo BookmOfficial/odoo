@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-22 20:36+0000\n"
+"POT-Creation-Date: 2022-06-02 15:17+0000\n"
 "PO-Revision-Date: 2022-05-10 14:52+0000\n"
 "Last-Translator: Bookm <admin@bookm.be>\n"
 "Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/maintenance/"
@@ -900,6 +900,12 @@ msgid "New Request"
 msgstr "Nieuw verzoek"
 
 #. module: maintenance
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__activity_calendar_event_id
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_request__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Volgende activiteitenafspraak"
+
+#. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__activity_date_deadline
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__activity_date_deadline
 msgid "Next Activity Deadline"
@@ -1431,20 +1437,6 @@ msgid "Warranty Expiration Date"
 msgstr "Garantie verval datum"
 
 #. module: maintenance
-#: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__website_message_ids
-#: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__website_message_ids
-#: model:ir.model.fields,field_description:maintenance.field_maintenance_request__website_message_ids
-msgid "Website Messages"
-msgstr ""
-
-#. module: maintenance
-#: model:ir.model.fields,help:maintenance.field_maintenance_equipment__website_message_ids
-#: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__website_message_ids
-#: model:ir.model.fields,help:maintenance.field_maintenance_request__website_message_ids
-msgid "Website communication history"
-msgstr ""
-
-#. module: maintenance
 #: code:addons/maintenance/models/maintenance.py:0
 #, python-format
 msgid ""
@@ -1490,9 +1482,6 @@ msgstr "uren"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_tree
 msgid "maintenance Request"
 msgstr "Onderhoudsopdracht"
-
-#~ msgid "Next Activity Calendar Event"
-#~ msgstr "Volgende activiteitenafspraak"
 
 #~ msgid "Acer Laptop"
 #~ msgstr "Acer Laptop"
