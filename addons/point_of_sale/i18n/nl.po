@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:59+0000\n"
+"POT-Creation-Date: 2022-06-02 15:28+0000\n"
 "PO-Revision-Date: 2022-05-10 14:52+0000\n"
 "Last-Translator: Bookm <admin@bookm.be>\n"
 "Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/"
@@ -6752,7 +6752,6 @@ msgstr "Wil je demogegevens laden?"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/models/pos_config.py:0
 #: code:addons/point_of_sale/static/src/js/Chrome.js:0
 #: code:addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductScreen.js:0
 #, python-format
@@ -6781,10 +6780,12 @@ msgstr "Je mag deze hoeveelheid niet wijzigen."
 #: code:addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductScreen.js:0
 #, python-format
 msgid ""
-"You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
+"You are trying to sell products with serial/lot numbers, but some of them "
+"are not set.\n"
 "Would you like to proceed anyway?"
 msgstr ""
-"Je probeert producten te verkopen met serie-/partnummers, maar sommige zijn niet ingesteld.\n"
+"Je probeert producten te verkopen met serie-/partnummers, maar sommige zijn "
+"niet ingesteld.\n"
 "Wil je toch doorgaan?"
 
 #. module: point_of_sale
