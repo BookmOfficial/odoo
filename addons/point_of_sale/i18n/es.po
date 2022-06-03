@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:59+0000\n"
+"POT-Creation-Date: 2022-06-02 15:28+0000\n"
 "PO-Revision-Date: 2021-09-14 12:24+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -206,7 +206,8 @@ msgid ""
 "and make a fully integrated payment method."
 msgstr ""
 "<strong>Terminales de pago</strong>\n"
-"                                    con el fin de| instalar una terminal de pago y crear un método de pago totalmente integrado."
+"                                    con el fin de| instalar una terminal de "
+"pago y crear un método de pago totalmente integrado."
 
 #. module: point_of_sale
 #. openerp-web
@@ -796,8 +797,10 @@ msgid ""
 "from database."
 msgstr ""
 "Se cargan 100 partners de forma predeterminada.\n"
-"Al abrir la sesión, seguimos cargado los partners restantes en segundo plano.\n"
-"Mientras tanto, puede utilizar el botón de \"Cargar clientes\" para cargar partners desde la base de datos."
+"Al abrir la sesión, seguimos cargado los partners restantes en segundo "
+"plano.\n"
+"Mientras tanto, puede utilizar el botón de \"Cargar clientes\" para cargar "
+"partners desde la base de datos."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_print_via_proxy
@@ -2848,8 +2851,10 @@ msgid ""
 "Account used as outstanding account when creating accounting payment records "
 "for bank payments."
 msgstr ""
-"Deje vacío para utilizar la cuenta predeterminada de los ajustes de la empresa.\n"
-"La cuenta que se utiliza como cuenta pendiente al crear registros de pagos contables para los pagos bancarios."
+"Deje vacío para utilizar la cuenta predeterminada de los ajustes de la "
+"empresa.\n"
+"La cuenta que se utiliza como cuenta pendiente al crear registros de pagos "
+"contables para los pagos bancarios."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__receivable_account_id
@@ -2858,8 +2863,10 @@ msgid ""
 "Overrides the company's receivable account (for Point of Sale) used in the "
 "journal entries."
 msgstr ""
-"Dejar vacío para utilizar la cuenta predeterminada de los ajustes de la empresa.\n"
-"Anula la cuenta por cobrar de la empresa (para el punto de venta) utilizada en los asientos de diario."
+"Dejar vacío para utilizar la cuenta predeterminada de los ajustes de la "
+"empresa.\n"
+"Anula la cuenta por cobrar de la empresa (para el punto de venta) utilizada "
+"en los asientos de diario."
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
@@ -2879,9 +2886,13 @@ msgid ""
 "Only cash and bank journals are allowed."
 msgstr ""
 "Dejar vacío para utilizar la cuenta por cobrar del cliente.\n"
-"Define el diario en el que se anotan los pagos acumulados (o el pago individual si Identificar cliente es verdadero) después de cerrar la sesión.\n"
-"Para el diario de efectivo, escribimos directamente en la cuenta predeterminada del diario a través de las líneas de estado de cuenta.\n"
-"Para el diario de bancos, escribimos en la cuenta pendiente especificada en este método de pago.\n"
+"Define el diario en el que se anotan los pagos acumulados (o el pago "
+"individual si Identificar cliente es verdadero) después de cerrar la "
+"sesión.\n"
+"Para el diario de efectivo, escribimos directamente en la cuenta "
+"predeterminada del diario a través de las líneas de estado de cuenta.\n"
+"Para el diario de bancos, escribimos en la cuenta pendiente especificada en "
+"este método de pago.\n"
 "Solo se permiten los diarios de efectivo y de bancos."
 
 #. module: point_of_sale
@@ -3142,8 +3153,8 @@ msgstr ""
 msgid ""
 "Need loss account for the following journals to post the lost amount: %s\n"
 msgstr ""
-"Necesita una cuenta de pérdidas para para publicar el importe perdido en los"
-" siguientes diarios: %s\n"
+"Necesita una cuenta de pérdidas para para publicar el importe perdido en los "
+"siguientes diarios: %s\n"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0
@@ -6064,8 +6075,8 @@ msgid ""
 "This account is used as intermediary account when nothing is set in a "
 "payment method."
 msgstr ""
-"Esta cuenta se utiliza como una cuenta intermediaria cuando no hay un método"
-" de pago establecido."
+"Esta cuenta se utiliza como una cuenta intermediaria cuando no hay un método "
+"de pago establecido."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__amount_authorized_diff
@@ -6693,7 +6704,6 @@ msgstr "¿Le gustaría cargar datos de demostración?"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/models/pos_config.py:0
 #: code:addons/point_of_sale/static/src/js/Chrome.js:0
 #: code:addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductScreen.js:0
 #, python-format
@@ -6722,10 +6732,12 @@ msgstr "No se le permite cambiar esta cantidad"
 #: code:addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductScreen.js:0
 #, python-format
 msgid ""
-"You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
+"You are trying to sell products with serial/lot numbers, but some of them "
+"are not set.\n"
 "Would you like to proceed anyway?"
 msgstr ""
-"Está intentando vender productos con números de serie/lote, pero algunos de ellos no están configurados.\n"
+"Está intentando vender productos con números de serie/lote, pero algunos de "
+"ellos no están configurados.\n"
 "¿Quiere proceder de todos modos?"
 
 #. module: point_of_sale
@@ -7047,9 +7059,13 @@ msgid ""
 "In the meantime, you can click on the 'database icon' in the searchbar to "
 "load products from database."
 msgstr ""
-"cargamos todos los productos destacados (favoritos), todos los servicios, los últimos movimientos de inventario de los productos y los productos actualizados más recientes.\n"
-"Cuando la sesión está abierta, seguimos cargando los productos restantes en segundo plano.\n"
-"Mientras tanto, puede hacer clic en el icono de la base de datos en la barra de búsqueda para cargar productos desde la base de datos."
+"cargamos todos los productos destacados (favoritos), todos los servicios, "
+"los últimos movimientos de inventario de los productos y los productos "
+"actualizados más recientes.\n"
+"Cuando la sesión está abierta, seguimos cargando los productos restantes en "
+"segundo plano.\n"
+"Mientras tanto, puede hacer clic en el icono de la base de datos en la barra "
+"de búsqueda para cargar productos desde la base de datos."
 
 #. module: point_of_sale
 #. openerp-web
