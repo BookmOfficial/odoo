@@ -1250,6 +1250,7 @@ class Orderline extends PosModel {
     getPackLotLinesToEdit(isAllowOnlyOneLot) {
         const currentPackLotLines = this.pack_lot_lines;
         let nExtraLines = Math.abs(this.quantity) - currentPackLotLines.length;
+        nExtraLines = Math.ceil(nExtraLines);
         nExtraLines = nExtraLines > 0 ? nExtraLines : 1;
         const tempLines = currentPackLotLines
             .map(lotLine => ({
@@ -1612,6 +1613,19 @@ class Orderline extends PosModel {
         var rounding = this.pos.currency.rounding;
         return round_pr(this.get_unit_price() * this.get_quantity() * (1 - this.get_discount()/100), rounding);
     }
+    get_taxes_after_fp(taxes_ids){
+        var self = this;
+        var taxes =  this.pos.taxes;
+        var product_taxes = [];
+        _(taxes_ids).each(function(el){
+            var tax = _.detect(taxes, function(t){
+                return t.id === el;
+            });
+            product_taxes.push.apply(product_taxes, self._map_tax_fiscal_position(tax, self.order));
+        });
+        product_taxes = _.uniq(product_taxes, function(tax) { return tax.id; });
+        return product_taxes;
+    }
     get_display_price_one(){
         var rounding = this.pos.currency.rounding;
         var price_unit = this.get_unit_price();
@@ -1620,15 +1634,7 @@ class Orderline extends PosModel {
         } else {
             var product =  this.get_product();
             var taxes_ids = this.tax_ids || product.taxes_id;
-            var taxes =  this.pos.taxes;
-            var product_taxes = [];
-
-            _(taxes_ids).each(function(el){
-                product_taxes.push(_.detect(taxes, function(t){
-                    return t.id === el;
-                }));
-            });
-
+            var product_taxes = this.get_taxes_after_fp(taxes_ids);
             var all_taxes = this.compute_all(product_taxes, price_unit, 1, this.pos.currency.rounding);
 
             return round_pr(all_taxes.total_included * (1 - this.get_discount()/100), rounding);
@@ -1891,25 +1897,14 @@ class Orderline extends PosModel {
         }
     }
     get_all_prices(){
-        var self = this;
-
         var price_unit = this.get_unit_price() * (1.0 - (this.get_discount() / 100.0));
         var taxtotal = 0;
 
         var product =  this.get_product();
         var taxes_ids = this.tax_ids || product.taxes_id;
         taxes_ids = _.filter(taxes_ids, t => t in this.pos.taxes_by_id);
-        var taxes =  this.pos.taxes;
         var taxdetail = {};
-        var product_taxes = [];
-
-        _(taxes_ids).each(function(el){
-            var tax = _.detect(taxes, function(t){
-                return t.id === el;
-            });
-            product_taxes.push.apply(product_taxes, self._map_tax_fiscal_position(tax, self.order));
-        });
-        product_taxes = _.uniq(product_taxes, function(tax) { return tax.id; });
+        var product_taxes = this.get_taxes_after_fp(taxes_ids);
 
         var all_taxes = this.compute_all(product_taxes, price_unit, this.get_quantity(), this.pos.currency.rounding);
         var all_taxes_before_discount = this.compute_all(product_taxes, this.get_unit_price(), this.get_quantity(), this.pos.currency.rounding);
@@ -2206,7 +2201,7 @@ class Order extends PosModel {
         }
     }
     save_to_db(){
-        if (!this.temporary && !this.locked) {
+        if (!this.temporary && !this.locked && !this.finalized) {
             this.pos.db.save_unpaid_order(this);
         }
     }
@@ -2271,7 +2266,9 @@ class Order extends PosModel {
         var orderlines = json.lines;
         for (var i = 0; i < orderlines.length; i++) {
             var orderline = orderlines[i][2];
-            this.add_orderline(Orderline.create({}, {pos: this.pos, order: this, json: orderline}));
+            if (this.pos.db.get_product_by_id(orderline.product_id)) {
+                this.add_orderline(Orderline.create({}, { pos: this.pos, order: this, json: orderline }));
+            }
         }
 
         var paymentlines = json.statement_ids;

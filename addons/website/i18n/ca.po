@@ -21,6 +21,7 @@
 # ericrolo, 2022
 # Jonatan Gk, 2022
 # marcescu, 2022
+# Óscar Fonseca <tecnico@extreme-micro.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -28,7 +29,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-15 12:05+0000\n"
 "PO-Revision-Date: 2016-08-05 13:11+0000\n"
-"Last-Translator: marcescu, 2022\n"
+"Last-Translator: Óscar Fonseca <tecnico@extreme-micro.com>, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1184,7 +1185,7 @@ msgstr "<span class=\"list-inline-item\">|</span>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
 msgid "<span class=\"mx-2\">/</span>"
-msgstr "<span classe=\" mx2\">/ </ span>"
+msgstr "<span class=\"mx-2\">/</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.language_selector_inline
@@ -3087,7 +3088,7 @@ msgstr "Continuar"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list
 msgid "Continue reading <i class=\"fa fa-long-arrow-right align-middle ml-1\"/>"
-msgstr "Continua llegint < i classe=\" ffa fa- vora- dreta- alinear ml-1\" />"
+msgstr "Continua llegint <i class=\"fa fa-long-arrow-right align-middle ml-1\"/>"
 
 #. module: website
 #. openerp-web
@@ -4572,7 +4573,7 @@ msgstr "Nombre real"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_headline
 msgid "Follow Us"
-msgstr ""
+msgstr "Segueix-nos"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.footer_custom
@@ -9337,6 +9338,12 @@ msgstr "Aquest missatge ha estat publicat en el seu lloc web."
 #: model_terms:ir.ui.view,arch_db:website.s_popup_options
 msgid "This page"
 msgstr "Aquesta pàgina"
+
+#. module: website
+#: code:addons/website/models/website_visitor.py:0
+#, python-format
+msgid "This operator is not supported"
+msgstr "Aquest operador no és compatible"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.page_404

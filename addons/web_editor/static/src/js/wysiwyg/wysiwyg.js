@@ -34,6 +34,7 @@ const rgbToHex = OdooEditorLib.rgbToHex;
 const preserveCursor = OdooEditorLib.preserveCursor;
 const closestElement = OdooEditorLib.closestElement;
 const setSelection = OdooEditorLib.setSelection;
+const endPos = OdooEditorLib.endPos;
 
 var id = 0;
 const faZoomClassRegex = RegExp('fa-[0-9]x');
@@ -138,8 +139,10 @@ const Wysiwyg = Widget.extend({
             autohideToolbar: !!this.options.autohideToolbar,
             isRootEditable: this.options.isRootEditable,
             placeholder: this.options.placeholder,
+            showEmptyElementHint: this.options.showEmptyElementHint,
             controlHistoryFromDocument: this.options.controlHistoryFromDocument,
             getContentEditableAreas: this.options.getContentEditableAreas,
+            getReadOnlyAreas: this.options.getReadOnlyAreas,
             defaultLinkAttributes: this.options.userGeneratedContent ? {rel: 'ugc' } : {},
             allowCommandVideo: this.options.allowCommandVideo,
             getYoutubeVideoElement: getYoutubeVideoElement,
@@ -163,6 +166,12 @@ const Wysiwyg = Widget.extend({
                 return records.filter((record) => {
                     return !(record.target.classList && record.target.classList.contains('o_header_standard'));
                 });
+            },
+            preHistoryUndo: () => {
+                if (this.linkTools) {
+                    this.linkTools.destroy();
+                    this.linkTools = undefined;
+                }
             },
             commands: commands,
             plugins: options.editorPlugins,
@@ -801,13 +810,15 @@ const Wysiwyg = Widget.extend({
     historyReset: function () {
         this.odooEditor.historyReset();
     },
-
     /**
      * Save the content to the server for the normal mode.
      */
     saveToServer: async function (reload = true) {
         const defs = [];
-        this.trigger_up('edition_will_stopped');
+        if (!this.__edition_will_stopped_already_done) {
+            // TODO remove in master
+            this.trigger_up('edition_will_stopped');
+        }
         this.trigger_up('ready_to_save', {defs: defs});
         await Promise.all(defs);
 
@@ -1192,7 +1203,7 @@ const Wysiwyg = Widget.extend({
         const $node = $(params.node);
         // We need to keep track of FA icon because media.js will _clear those classes
         const wasFontAwesome = $node.hasClass('fa');
-        const $editable = $(this.odooEditor.editable);
+        const $editable = $(OdooEditorLib.closestElement(range.startContainer, '.o_editable'));
         const model = $editable.data('oe-model');
         const field = $editable.data('oe-field');
         const type = $editable.data('oe-type');
@@ -1253,7 +1264,12 @@ const Wysiwyg = Widget.extend({
     },
     _configureToolbar: function (options) {
         const $toolbar = this.toolbar.$el;
-        $toolbar.find('.btn-group').on('mousedown', e => e.preventDefault());
+        $toolbar.find('.btn-group').on('mousedown', e => {
+            // Do not prevent events on popovers.
+            if (!e.target.closest('.dropdown-menu')) {
+                e.preventDefault();
+            }
+        });
         const openTools = e => {
             e.preventDefault();
             e.stopImmediatePropagation();
@@ -1503,7 +1519,20 @@ const Wysiwyg = Widget.extend({
         } else if (!ColorpickerWidget.isCSSColor(color) && !weUtils.isColorGradient(color)) {
             color = (eventName === "foreColor" ? 'text-' : 'bg-') + color;
         }
-        this.odooEditor.execCommand('applyColor', color, eventName === 'foreColor' ? 'color' : 'backgroundColor', this.lastMediaClicked);
+        const fonts = this.odooEditor.execCommand('applyColor', color, eventName === 'foreColor' ? 'color' : 'backgroundColor', this.lastMediaClicked);
+
+        // Ensure the selection in the fonts tags, otherwise an undetermined
+        // race condition could generate a wrong selection later.
+        const first = fonts[0];
+        const last = fonts[fonts.length - 1];
+
+        const sel = this.odooEditor.document.getSelection();
+        sel.removeAllRanges();
+        const range = new Range();
+        range.setStart(first, 0);
+        range.setEnd(...endPos(last));
+        sel.addRange(range);
+
         const hexColor = this._colorToHex(color);
         this.odooEditor.updateColorpickerLabels({
             [eventName === 'foreColor' ? 'foreColor' : 'hiliteColor']: hexColor,

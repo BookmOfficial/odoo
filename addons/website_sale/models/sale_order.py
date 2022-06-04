@@ -29,6 +29,19 @@ class SaleOrder(models.Model):
     website_id = fields.Many2one('website', string='Website', readonly=True,
                                  help='Website through which this order was placed.')
 
+    @api.model_create_multi
+    def create(self, vals_list):
+        for vals in vals_list:
+            if vals.get('website_id'):
+                website = self.env['website'].browse(vals['website_id'])
+                if 'company_id' in vals:
+                    company = self.env['res.company'].browse(vals['company_id'])
+                    if website.company_id.id != company.id:
+                        raise ValueError(_("The company of the website you are trying to sale from (%s) is different than the one you want to use (%s)") % (website.company_id.name, company.name))
+                else:
+                    vals['company_id'] = website.company_id.id
+        return super().create(vals_list)
+
     def _compute_user_id(self):
         """Do not assign self.env.user as salesman for e-commerce orders
         Leave salesman empty if no salesman is specified on partner or website
@@ -171,7 +184,10 @@ class SaleOrder(models.Model):
 
         self = self.with_company(self.company_id)
         SaleOrderLineSudo = self.env['sale.order.line'].sudo()
-        product = self.env['product.product'].browse(int(product_id))
+        product = self.env['product.product'].browse(int(product_id)).exists()
+
+        if not product or (not line_id and not product._is_add_to_cart_allowed()):
+            raise UserError(_("The given product does not exist therefore it cannot be added to cart."))
 
         try:
             if add_qty:
@@ -193,9 +209,6 @@ class SaleOrder(models.Model):
 
         # Create line if no line with product_id can be located
         if not order_line:
-            if not product:
-                raise UserError(_("The given product does not exist therefore it cannot be added to cart."))
-
             no_variant_attribute_values = kwargs.get('no_variant_attribute_values') or []
             received_no_variant_values = product.env['product.template.attribute.value'].browse([int(ptav['value']) for ptav in no_variant_attribute_values])
             received_combination = product.product_template_attribute_value_ids | received_no_variant_values
