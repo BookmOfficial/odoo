@@ -20,7 +20,7 @@
                         </t>
                         <div style="padding: 16px 8px 16px 8px; text-align: center;">
                             <a t-att-href="object.website_url"
-                                style="background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">View content</a>
+                                style="background-color: #1E1E74; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">View content</a>
                         </div>
                         Enjoy this exclusive content!
                         <t t-if="user.signature">
@@ -51,7 +51,7 @@
                         </div>
                         <div style="padding: 16px 8px 16px 8px; text-align: center;">
                             <a t-att-href="(object.website_url + '?fullscreen=1') if ctx.get('fullscreen') else object.website_url"
-                                style="background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">View <strong t-out="object.name or ''">Trees</strong></a>
+                                style="background-color: #1E1E74; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">View <strong t-out="object.name or ''">Trees</strong></a>
                         </div>
                         <t t-if="user.signature">
                             <br />
@@ -79,7 +79,7 @@
                         <p>Check out the other available courses.</p><br/>
 
                         <div style="padding: 16px 8px 16px 8px; text-align: center;">
-                            <a href="/slides/all" style="background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
+                            <a href="/slides/all" style="background-color: #1E1E74; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
                                 Explore courses
                             </a>
                         </div>

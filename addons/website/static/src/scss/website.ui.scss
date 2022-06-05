@@ -231,9 +231,10 @@ body .modal {
                     background-color: inherit!important;
                     border-radius: 20px;
                     padding: 15px;
-
-                    $mobile-preview-width: 320px;
-                    $mobile-preview-height: 530px;
+                    
+                    // Updated to reflect current standards 
+                    $mobile-preview-width: 412px;
+                    $mobile-preview-height: 914px;
 
                     display: flex;
                     width: $mobile-preview-width + 15;

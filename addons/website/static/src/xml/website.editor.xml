@@ -131,7 +131,12 @@
                 <div class="small form-text text-muted">
                     Hint: How to use Google Map on your website (Contact Us page and as a snippet)
                     <br/>
-                    <a target="_blank" href="https://console.developers.google.com/flows/enableapi?apiid=maps_backend,static_maps_backend&amp;keyType=CLIENT_SIDE&amp;reusekey=true">
+                    <!-- Add required google places api + update to new apis/enableflow url
+                    Required API's:
+                    - Maps
+                    - Static maps
+                    - Places -->
+                    <a target="_blank" href="https://console.cloud.google.com/apis/enableflow?apiid=maps_backend,static_maps_backend,places_backend&amp;keyType=CLIENT_SIDE&amp;reusekey=true">
                         <i class="fa fa-arrow-right"/>
                         Create a Google Project and Get a Key
                     </a>

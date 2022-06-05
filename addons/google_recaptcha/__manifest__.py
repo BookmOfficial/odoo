@@ -12,7 +12,8 @@
     'data': [
         'views/res_config_settings_view.xml',
     ],
-    'auto_install': False,
+    # Install reCAPTCHA always on new database when base_setup is installed
+    'auto_install': True,
     'assets': {
         'web.assets_frontend': [
             'google_recaptcha/static/src/scss/recaptcha.scss',

@@ -335,7 +335,7 @@
                     <t t-foreach="gamification_redirection_data" t-as="data">
                         <t t-set="url" t-value="data['url']"/>
                         <t t-set="label" t-value="data['label']"/>
-                        <a t-att-href="url" style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;" t-out="label or ''">LABEL</a>
+                        <a t-att-href="url" style="background-color: #1E1E74; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;" t-out="label or ''">LABEL</a>
                     </t>
                 </div>
             </td>

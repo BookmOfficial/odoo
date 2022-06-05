@@ -630,7 +630,8 @@ class ResConfigSettings(models.TransientModel, ResConfigModuleInstallationMixin)
         if not self.env.is_admin():
             raise AccessError(_("Only administrators can change the settings"))
 
-        self = self.with_context(active_test=False)
+        # Set self to superuser so that admin doesn't need permissions for ir.config.parameter
+        self = self.sudo().with_context(active_test=False)
         classified = self._get_classified_fields()
 
         self.set_values()
