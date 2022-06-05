@@ -82,8 +82,10 @@
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="crm_use_auto_assignment"/>
-                                <a href="https://www.odoo.com/documentation/saas-15.2/applications/sales/crm/track_leads/lead_scoring.html#assign-leads"
+                                <!--DOCLINK:
+                                <a href="https://www.odoo.com/documentation/15.0/applications/sales/crm/track_leads/lead_scoring.html#assign-leads"
                                     title="Assign Documentation" class="o_doc_link" target="_blank"></a>
+                                -->
                                 <div class="text-muted">
                                     <span>Periodically assign leads based on rules</span><br />
                                     <span attrs="{'invisible': [('crm_use_auto_assignment', '=', False)]}">
@@ -116,7 +118,7 @@
                             </div>
                         </div>
                     </div>
-
+					<!-- Remove lead enrichment as long as we don't support this
                     <h2>Lead Generation</h2>
                     <div class="row mt16 o_settings_container" name="convert_visitor_setting_container">
                         <div class="col-lg-6 o_setting_box">
@@ -164,6 +166,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </xpath>
         </field>
@@ -173,7 +176,9 @@
         <field name="name">Settings</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">res.config.settings</field>
+        <!-- Not needed (other modules work fine without)
         <field name="view_id" ref="res_config_settings_view_form"/>
+        -->
         <field name="view_mode">form</field>
         <field name="target">inline</field>
         <field name="context">{'module' : 'crm', 'bin_size': False}</field>
