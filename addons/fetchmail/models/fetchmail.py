@@ -62,6 +62,7 @@ class FetchmailServer(models.Model):
     priority = fields.Integer(string='Server Priority', readonly=True, states={'draft': [('readonly', False)]}, help="Defines the order of processing, lower values mean higher priority", default=5)
     message_ids = fields.One2many('mail.mail', 'fetchmail_server_id', string='Messages', readonly=True)
     configuration = fields.Text('Configuration', readonly=True)
+    # TODO: odoo-mailgate.py has been removed
     script = fields.Char(readonly=True, default='/mail/static/scripts/odoo-mailgate.py')
 
     @api.onchange('server_type', 'is_ssl', 'object_id')

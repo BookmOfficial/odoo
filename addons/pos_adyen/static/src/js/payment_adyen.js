@@ -47,7 +47,7 @@ var PaymentAdyen = PaymentInterface.extend({
         if (line) {
             line.set_payment_status('retry');
         }
-        this._show_error(_t('Could not connect to the Odoo server, please check your internet connection and try again.'));
+        this._show_error(_t('Could not connect to the server, please check your internet connection and try again.'));
 
         return Promise.reject(data); // prevent subsequent onFullFilled's from being called
     },

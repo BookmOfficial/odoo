@@ -9,9 +9,11 @@
                 <div class="mt16">
                     <button name="%(pos_mercury.action_configuration_form)d" icon="fa-arrow-right" type="action" string="Vantiv Accounts" class="btn-link"/>
                 </div>
+                <!--DOCLINK:
                 <div>
                     <a href="https://www.odoo.com/app/point-of-sale-hardware#part_8" target="_blank"><i class="fa fa-fw fa-arrow-right"/>Buy a card reader</a>
                 </div>
+                -->
             </div>
         </field>
     </record>
