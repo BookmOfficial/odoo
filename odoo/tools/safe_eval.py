@@ -89,7 +89,7 @@ _EXPR_OPCODES = _CONST_OPCODES.union(to_opcodes([
 ])) - _BLACKLIST
 
 _SAFE_OPCODES = _EXPR_OPCODES.union(to_opcodes([
-    'POP_BLOCK', 'POP_EXCEPT',
+    'POP_BLOCK', 'POP_EXCEPT', 'GEN_START',
 
     # note: removed in 3.8
     'SETUP_LOOP', 'SETUP_EXCEPT', 'BREAK_LOOP', 'CONTINUE_LOOP',
