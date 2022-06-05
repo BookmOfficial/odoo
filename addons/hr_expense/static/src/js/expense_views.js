@@ -29,37 +29,38 @@ odoo.define('hr_expense.expenses.tree', function (require) {
         },
     });
 
-    const ExpenseQRCodeMixin = {
-        async _renderView() {
-            const self = this;
-            await this._super(...arguments);
-            const google_url = "https://play.google.com/store/apps/details?id=com.odoo.mobile";
-            const apple_url = "https://apps.apple.com/be/app/odoo/id1272543640";
-            const action_desktop = {
-                name: 'Download our App',
-                type: 'ir.actions.client',
-                tag: 'expense_qr_code_modal',
-                params: {'url': "https://apps.apple.com/be/app/odoo/id1272543640"},
-                target: 'new',
-            };
-            this.$el.find('img.o_expense_apple_store').on('click', function(event) {
-                event.preventDefault();
-                if (!config.device.isMobileDevice) {
-                    self.do_action(_.extend(action_desktop, {params: {'url': apple_url}}));
-                } else {
-                    self.do_action({type: 'ir.actions.act_url', url: apple_url});
-                }
-            });
-            this.$el.find('img.o_expense_google_store').on('click', function(event) {
-                event.preventDefault();
-                if (!config.device.isMobileDevice) {
-                    self.do_action(_.extend(action_desktop, {params: {'url': google_url}}));
-                } else {
-                    self.do_action({type: 'ir.actions.act_url', url: google_url});
-                }
-            });
-        },
-    };
+    // Remove as we do not want to use this
+    // const ExpenseQRCodeMixin = {
+    //     async _renderView() {
+    //         const self = this;
+    //         await this._super(...arguments);
+    //         const google_url = "https://play.google.com/store/apps/details?id=com.odoo.mobile";
+    //         const apple_url = "https://apps.apple.com/be/app/odoo/id1272543640";
+    //         const action_desktop = {
+    //             name: 'Download our App',
+    //             type: 'ir.actions.client',
+    //             tag: 'expense_qr_code_modal',
+    //             params: {'url': "https://apps.apple.com/be/app/odoo/id1272543640"},
+    //             target: 'new',
+    //         };
+    //         this.$el.find('img.o_expense_apple_store').on('click', function(event) {
+    //             event.preventDefault();
+    //             if (!config.device.isMobileDevice) {
+    //                 self.do_action(_.extend(action_desktop, {params: {'url': apple_url}}));
+    //             } else {
+    //                 self.do_action({type: 'ir.actions.act_url', url: apple_url});
+    //             }
+    //         });
+    //         this.$el.find('img.o_expense_google_store').on('click', function(event) {
+    //             event.preventDefault();
+    //             if (!config.device.isMobileDevice) {
+    //                 self.do_action(_.extend(action_desktop, {params: {'url': google_url}}));
+    //             } else {
+    //                 self.do_action({type: 'ir.actions.act_url', url: google_url});
+    //             }
+    //         });
+    //     },
+    // };
 
     const ExpenseDashboardMixin = {
         _render: async function () {
@@ -93,7 +94,7 @@ odoo.define('hr_expense.expenses.tree', function (require) {
     };
 
     // Expense List Renderer
-    var ExpenseListRenderer = ListRenderer.extend(ExpenseQRCodeMixin);
+    var ExpenseListRenderer = ListRenderer;
 
     // Expense List Renderer with the Header
     // Used in "My Expenses to Report", "All My Expenses" & "My Reports"
@@ -137,7 +138,7 @@ odoo.define('hr_expense.expenses.tree', function (require) {
         }),
     });
 
-    var ExpenseKanbanRenderer = KanbanRenderer.extend(ExpenseQRCodeMixin);
+    var ExpenseKanbanRenderer = KanbanRenderer;
 
     var ExpenseKanbanRendererHeader = ExpenseKanbanRenderer.extend(ExpenseDashboardMixin);
 

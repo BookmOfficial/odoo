@@ -30,7 +30,7 @@ This module also uses analytic accounting and is compatible with the invoice on 
     'data': [
         'security/hr_expense_security.xml',
         'security/ir.model.access.csv',
-        'data/digest_data.xml',
+        # Remove as no usfull tip yet: 'data/digest_data.xml',
         'data/mail_data.xml',
         'data/mail_templates.xml',
         'data/hr_expense_sequence.xml',
@@ -53,7 +53,7 @@ This module also uses analytic accounting and is compatible with the invoice on 
         'web.assets_backend': [
             'hr_expense/static/src/js/expense_views.js',
             'hr_expense/static/src/js/expense_form_view.js',
-            'hr_expense/static/src/js/expense_qr_code_action.js',
+            # Remove as we do not wnat to use this: 'hr_expense/static/src/js/expense_qr_code_action.js',
             'hr_expense/static/src/js/upload_mixin.js',
             'hr_expense/static/src/scss/hr_expense.scss',
         ],

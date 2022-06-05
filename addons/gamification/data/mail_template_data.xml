@@ -7,7 +7,7 @@
             <field name="model_id" ref="gamification.model_gamification_badge_user"/>
             <field name="partner_to">{{ object.user_id.partner_id.id }}</field>
             <field name="body_html" type="html">
-<table border="0" cellpadding="0" style="padding-top: 16px; background-color: #F1F1F1; color: #454748; width: 100%; border-collapse:separate;"><tr><td align="center">
+<table border="0" cellpadding="0" style="padding-top: 16px; padding-bottom: 16px; background-color: #F1F1F1; color: #454748; width: 100%; border-collapse:separate;"><tr><td align="center">
 <table border="0" width="590" cellpadding="0" style="padding: 16px; background-color: white; color: #454748; border-collapse:separate;" summary="o_mail_notification">
 <tbody>
     <!-- HEADER -->
@@ -87,6 +87,7 @@
 </table>
 </td></tr>
 <!-- POWERED BY -->
+<!-- Removed Powered By
 <tr><td align="center" style="min-width: 590px;">
     <table width="590" border="0" cellpadding="0" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
       <tr><td style="text-align: center; font-size: 14px;">
@@ -94,6 +95,7 @@
       </td></tr>
     </table>
 </td></tr>
+-->
 </table></field>
             <field name="lang">{{ object.user_id.lang }}</field>
             <field name="auto_delete" eval="True"/>
