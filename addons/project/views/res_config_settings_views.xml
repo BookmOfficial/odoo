@@ -62,6 +62,7 @@
                         </div>
                         <h2>Time Management</h2>
                         <div class="row mt16 o_settings_container" name="project_time">
+                        	<!-- Remove upgrade_boolean
                             <div class="col-12 col-lg-6 o_setting_box" name="project_time_management">
                                 <div class="o_setting_left_pane">
                                     <field name="module_project_forecast" widget="upgrade_boolean"/>
@@ -73,6 +74,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                             <div class="col-12 col-lg-6 o_setting_box" id="log_time_tasks_setting">
                                 <div class="o_setting_left_pane">
                                     <field name="module_hr_timesheet"/>
