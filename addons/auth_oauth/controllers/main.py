@@ -166,31 +166,32 @@ class OAuthController(http.Controller):
 
         return set_cookie_and_redirect(url)
 
-    @http.route('/auth_oauth/oea', type='http', auth='none')
-    def oea(self, **kw):
-        """login user via Odoo Account provider"""
-        dbname = kw.pop('db', None)
-        if not dbname:
-            dbname = db_monodb()
-        if not dbname:
-            return BadRequest()
-        if not http.db_filter([dbname]):
-            return BadRequest()
+    # Remove Odoo Auth provider
+    # @http.route('/auth_oauth/oea', type='http', auth='none')
+    # def oea(self, **kw):
+    #     """login user via Odoo Account provider"""
+    #     dbname = kw.pop('db', None)
+    #     if not dbname:
+    #         dbname = db_monodb()
+    #     if not dbname:
+    #         return BadRequest()
+    #     if not http.db_filter([dbname]):
+    #         return BadRequest()
 
-        registry = registry_get(dbname)
-        with registry.cursor() as cr:
-            try:
-                env = api.Environment(cr, SUPERUSER_ID, {})
-                provider = env.ref('auth_oauth.provider_openerp')
-            except ValueError:
-                return set_cookie_and_redirect('/web?db=%s' % dbname)
-            assert provider._name == 'auth.oauth.provider'
+    #     registry = registry_get(dbname)
+    #     with registry.cursor() as cr:
+    #         try:
+    #             env = api.Environment(cr, SUPERUSER_ID, {})
+    #             provider = env.ref('auth_oauth.provider_openerp')
+    #         except ValueError:
+    #             return set_cookie_and_redirect('/web?db=%s' % dbname)
+    #         assert provider._name == 'auth.oauth.provider'
 
-        state = {
-            'd': dbname,
-            'p': provider.id,
-            'c': {'no_user_creation': True},
-        }
+    #     state = {
+    #         'd': dbname,
+    #         'p': provider.id,
+    #         'c': {'no_user_creation': True},
+    #     }
 
-        kw['state'] = json.dumps(state)
-        return self.signin(**kw)
+    #     kw['state'] = json.dumps(state)
+    #     return self.signin(**kw)

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
+        <!-- Remove Odoo Auth provider
         <record id="provider_openerp" model="auth.oauth.provider">
             <field name="name">Odoo.com Accounts</field>
             <field name="auth_endpoint">https://accounts.odoo.com/oauth2/auth</field>
@@ -10,6 +11,7 @@
             <field name="body">Log in with Odoo.com</field>
             <field name="enabled" eval="True"/>
         </record>
+        -->
         <record id="provider_facebook" model="auth.oauth.provider">
             <field name="name">Facebook Graph</field>
             <field name="auth_endpoint">https://www.facebook.com/dialog/oauth</field>
@@ -29,11 +31,13 @@
         </record>
 
         <!-- Use database uuid as client_id for OpenERP oauth provider -->
+        <!-- Remove Odoo Auth provider
         <function model="auth.oauth.provider" name="write">
             <value eval="[ref('auth_oauth.provider_openerp')]"/>
             <value model="ir.config_parameter" eval="{
                 'client_id': obj().env['ir.config_parameter'].get_param('database.uuid'),
             }"/>
         </function>
+        -->
     </data>
 </odoo>
