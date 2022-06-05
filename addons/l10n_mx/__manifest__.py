@@ -45,7 +45,7 @@ With this module you will have:
         "data/res_bank_data.xml",
         "views/partner_view.xml",
         "views/res_bank_view.xml",
-        "views/res_config_settings_views.xml",
+        #Remove upgrade_boolean: "views/res_config_settings_views.xml",
         "views/account_views.xml",
     ],
     'demo': [
