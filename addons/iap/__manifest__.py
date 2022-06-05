@@ -17,9 +17,9 @@ to support In-App purchases inside Odoo. """,
         'security/ir.model.access.csv',
         'security/ir_rule.xml',
         'views/iap_views.xml',
-        'views/res_config_settings.xml',
+        # Remove IAP from settings: 'views/res_config_settings.xml',
     ],
-    'auto_install': True,
+    # Disable auto_install: 'auto_install': True,
     'assets': {
         'web.assets_backend': [
             'iap/static/src/js/**/*',
