@@ -21,7 +21,7 @@
         'views/res_config_settings_views.xml',
         'data/cron.xml',
     ],
-    'auto_install': True,
+    # Disable auto install: 'auto_install': True,
     'assets': {
         'web.assets_backend': [
             'partner_autocomplete/static/src/scss/partner_autocomplete.scss',

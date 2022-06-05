@@ -165,7 +165,7 @@ class ResPartner(models.Model):
             partners._update_autocomplete_data(vals_list[0].get('vat', False))
             if partners.additional_info:
                 template_values = json.loads(partners.additional_info)
-                template_values['flavor_text'] = _("Partner created by Odoo Partner Autocomplete Service")
+                template_values['flavor_text'] = _("Partner created by Partner Autocomplete Service")
                 partners.message_post_with_view(
                     'iap_mail.enrich_company',
                     values=template_values,

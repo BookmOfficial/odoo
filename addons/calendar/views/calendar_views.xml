@@ -6,14 +6,14 @@
         <field name="name">calendar.event.type</field>
         <field name="model">calendar.event.type</field>
         <field name="arch" type="xml">
-            <tree string="Meeting Types" sample="1" editable="bottom">
+            <tree string="Meeting Tags" sample="1" editable="bottom">
                 <field name="name"/>
             </tree>
         </field>
     </record>
 
     <record id="action_calendar_event_type" model="ir.actions.act_window">
-        <field name="name">Meeting Types</field>
+        <field name="name">Meeting Tags</field>
         <field name="res_model">calendar.event.type</field>
         <field name="view_id" ref="view_calendar_event_type_tree"/>
     </record>
@@ -23,7 +23,7 @@
         <field name="name">calendar.alarm.tree</field>
         <field name="model">calendar.alarm</field>
         <field name="arch" type="xml">
-            <tree string="Calendar Alarm" sample="1">
+            <tree string="Reminders" sample="1">
                 <field name="name" invisible="1"/>
                 <field name="alarm_type"/>
                 <field name="duration"/>
@@ -36,7 +36,7 @@
         <field name="name">calendar.alarm.form</field>
         <field name="model">calendar.alarm</field>
         <field name="arch" type="xml">
-            <form string="Calendar Alarm">
+            <form string="Reminders">
                 <sheet>
                     <group>
                         <group>
@@ -64,7 +64,7 @@
     </record>
 
     <record id="action_calendar_alarm" model="ir.actions.act_window">
-        <field name="name">Calendar Alarm</field>
+        <field name="name">Reminders</field>
         <field name="res_model">calendar.alarm</field>
         <field name="view_mode">tree,form</field>
         <field name="view_id" ref="view_calendar_alarm_tree"/>
