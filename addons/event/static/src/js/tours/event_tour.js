@@ -46,7 +46,7 @@ tour.register('event_tour', {
 }, {
     trigger: '.o_event_form_view input[name="name"]',
     content: Markup(_t("This is the <b>name</b> your guests will see when registering.")),
-    run: 'text Odoo Experience 2020',
+    run: 'text Experience 2020',
 }, {
     trigger: '.o_event_form_view input[name="date_end"]',
     content: Markup(_t("When will your event take place? <b>Select</b> the start and end dates <b>and click Apply</b>.")),

@@ -114,7 +114,7 @@
                                         </kanban>
                                     </field>
                                     <p class="text-muted" style="padding-left: 8px">
-                                        Operators that do not show any activity In Odoo for more than 30 minutes will be considered as disconnected.
+                                        Operators that do not show any activity In Bookm for more than 30 minutes will be considered as disconnected.
                                     </p>
                                 </group>
                             </page>
@@ -168,7 +168,7 @@
                                             or copy this url and send it by email to your customers or suppliers:
                                         </p>
                                         <field name="web_page" readonly="1" widget="CopyClipboardChar"/>
-                                        <p>For websites built with the Odoo CMS, go to Website > Configuration > Settings and select the Website Live Chat Channel you want to add to your website.</p>
+                                        <p>For websites built with the Bookm CMS, go to Website > Configuration > Settings and select the Website Live Chat Channel you want to add to your website.</p>
                                     </div>
                                 </group>
                             </page>

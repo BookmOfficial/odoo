@@ -15,7 +15,7 @@ class ResetGoogleAccount(models.TransientModel):
     delete_policy = fields.Selection(
         [('dont_delete', "Leave them untouched"),
          ('delete_google', "Delete from the current Google Calendar account"),
-         ('delete_odoo', "Delete from Odoo"),
+         ('delete_odoo', "Delete from Bookm"),
          ('delete_both', "Delete from both"),
         ], string="User's Existing Events", required=True, default='dont_delete',
         help="This will only affect events for which the user is the owner")
