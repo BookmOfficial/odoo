@@ -155,7 +155,7 @@
     <t t-name="wysiwyg.widgets.image">
         <t t-call="wysiwyg.widgets.file">
             <t t-set="uploadText">Upload an image</t>
-            <t t-set="urlPlaceholder">https://www.odoo.com/logo.png</t>
+            <t t-set="urlPlaceholder">https://www.bookm.be/logo.png</t>
             <t t-set="addText">Add URL</t>
             <t t-set="searchPlaceholder">Search an image</t>
             <t t-set="urlWarningTitle">Uploaded image's format is not supported. Try with: </t>
@@ -179,7 +179,7 @@
     <t t-name="wysiwyg.widgets.document">
         <t t-call="wysiwyg.widgets.file">
             <t t-set="uploadText">Upload a document</t>
-            <t t-set="urlPlaceholder">https://www.odoo.com/mydocument</t>
+            <t t-set="urlPlaceholder">https://www.bookm.be/mydocument</t>
             <t t-set="addText">Add document</t>
             <t t-set="searchPlaceholder">Search a document</t>
         </t>

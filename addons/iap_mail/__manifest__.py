@@ -14,7 +14,7 @@
     ],
     'application': False,
     'installable': True,
-    'auto_install': True,
+    # Disable auto_install: 'auto_install': true,
     'data': [
         'data/mail_templates.xml',
     ],
