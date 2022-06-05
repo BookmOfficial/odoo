@@ -475,9 +475,9 @@
                             </group>
                             <group groups="base.group_no_one">
                                 <div class="o_horizontal_separator">Developer API Keys
-                                    <a href="https://www.odoo.com/documentation/saas-15.2/developer/misc/api/odoo.html#api-keys" target="_blank">
+                                    <!--DOCLINK: <a href="https://www.odoo.com/documentation/15.0/developer/misc/api/odoo.html#api-keys" target="_blank">
                                         <i title="Documentation" class="fa fa-fw o_button_icon fa-info-circle"></i>
-                                    </a>
+                                    </a> -->
                                 </div>
                                 <div colspan="2" attrs="{'invisible': [('api_key_ids', '=', [])]}">
                                     <field name="api_key_ids" nolabel="1" colspan="4" readonly="0">

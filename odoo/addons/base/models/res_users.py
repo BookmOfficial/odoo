@@ -607,7 +607,7 @@ class Users(models.Model):
     @api.ondelete(at_uninstall=True)
     def _unlink_except_superuser(self):
         if SUPERUSER_ID in self.ids:
-            raise UserError(_('You can not remove the admin user as it is used internally for resources created by Odoo (updates, module installation, ...)'))
+            raise UserError(_('You can not remove the admin user as it is used internally for resources (updates, module installation, ...)'))
         self.clear_caches()
 
     @api.model

@@ -303,7 +303,7 @@ class Module(models.Model):
     application = fields.Boolean('Application', readonly=True)
     icon = fields.Char('Icon URL')
     icon_image = fields.Binary(string='Icon', compute='_get_icon_image')
-    to_buy = fields.Boolean('Odoo Enterprise Module', default=False)
+    to_buy = fields.Boolean('Enterprise Module', default=False)
     has_iap = fields.Boolean(compute='_compute_has_iap')
 
     _sql_constraints = [
@@ -591,7 +591,7 @@ class Module(models.Model):
             # during execution, the lock won't be released until timeout.
             self._cr.execute("SELECT * FROM ir_cron FOR UPDATE NOWAIT")
         except psycopg2.OperationalError:
-            raise UserError(_("Odoo is currently processing a scheduled action.\n"
+            raise UserError(_("Bookm is currently processing a scheduled action.\n"
                               "Module operations are not possible at this time, "
                               "please try again later or contact your system administrator."))
         function(self)
@@ -891,7 +891,7 @@ class Module(models.Model):
 
     @api.model
     def get_apps_server(self):
-        return tools.config.get('apps_server', 'https://apps.odoo.com/apps')
+        return tools.config.get('apps_server', '#')
 
     def _update_dependencies(self, depends=None, auto_install_requirements=()):
         existing = set(dep.name for dep in self.dependencies_id)

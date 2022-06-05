@@ -91,7 +91,7 @@ class IrMailServer(models.Model):
     from_filter = fields.Char(
         "FROM Filtering",
         help='Define for which email address or domain this server can be used.\n'
-             'e.g.: "notification@odoo.com" or "odoo.com"')
+             'e.g.: "notification@example.com" or "example.com"')
     smtp_host = fields.Char(string='SMTP Server', required=True, help="Hostname or IP of SMTP server")
     smtp_port = fields.Integer(string='SMTP Port', required=True, default=25, help="SMTP Port. Usually 465 for SSL, and 25 or 587 for other cases.")
     smtp_authentication = fields.Selection([('login', 'Username'), ('certificate', 'SSL Certificate')], string='Authenticate with', required=True, default='login')
@@ -133,7 +133,7 @@ class IrMailServer(models.Model):
         if not email_from:
             raise UserError(_('Please configure an email on the current user to simulate '
                               'sending an email message via this outgoing server'))
-        return email_from, 'noreply@odoo.com'
+        return email_from, 'noreply@example.com'
 
     def test_smtp_connection(self):
         for server in self:
@@ -294,7 +294,7 @@ class IrMailServer(models.Model):
         if smtp_encryption == 'ssl':
             if 'SMTP_SSL' not in smtplib.__all__:
                 raise UserError(
-                    _("Your Odoo Server does not support SMTP-over-SSL. "
+                    _("SMTP-over-SSL is not supported. "
                       "You could use STARTTLS instead. "
                        "If SSL is needed, an upgrade to Python 2.6 on the server-side "
                        "should do the trick."))
@@ -435,13 +435,13 @@ class IrMailServer(models.Model):
         joining the parameters "mail.bounce.alias" and
         "mail.catchall.domain".
 
-        If "mail.bounce.alias" is not set it defaults to "postmaster-odoo".
+        If "mail.bounce.alias" is not set it defaults to "postmaster".
 
         If "mail.catchall.domain" is not set, return None.
 
         '''
         get_param = self.env['ir.config_parameter'].sudo().get_param
-        postmaster = get_param('mail.bounce.alias', default='postmaster-odoo')
+        postmaster = get_param('mail.bounce.alias', default='postmaster')
         domain = get_param('mail.catchall.domain')
         if postmaster and domain:
             return '%s@%s' % (postmaster, domain)

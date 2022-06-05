@@ -764,7 +764,7 @@ class IrActionsReport(models.Model):
         if unreadable_pdfs:
             records = [stream_record[s].name for s in unreadable_pdfs if s in stream_record]
             raise UserError(_(
-                "Odoo is unable to merge the PDFs attached to the following records:\n"
+                "Unable to merge the PDFs attached to the following records:\n"
                 "%s\n\n"
                 "Please exclude them from the selection to continue. It's possible to "
                 "still retrieve those PDFs by selecting each of the affected records "
