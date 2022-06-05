@@ -43,7 +43,7 @@ class PaymentAcquirer(models.Model):
              "acquirer's database, allowing the customer to reuse it for a next purchase.")
     capture_manually = fields.Boolean(
         string="Capture Amount Manually",
-        help="Capture the amount from Odoo, when the delivery is completed.\n"
+        help="Capture the amount from Bookm, when the delivery is completed.\n"
              "Use this if you want to charge your customers cards only when\n"
              "you are sure you can ship the goods to them.")
     redirect_form_view_id = fields.Many2one(
@@ -119,7 +119,7 @@ class PaymentAcquirer(models.Model):
     module_id = fields.Many2one(string="Corresponding Module", comodel_name='ir.module.module')
     module_state = fields.Selection(
         string="Installation State", related='module_id.state', store=True)  # Stored for sorting
-    module_to_buy = fields.Boolean(string="Odoo Enterprise Module", related='module_id.to_buy')
+    module_to_buy = fields.Boolean(string="Enterprise Module", related='module_id.to_buy')
 
     # View configuration fields
     show_credentials_page = fields.Boolean(compute='_compute_view_configuration_fields')

@@ -71,17 +71,17 @@
     <record id="note_9" model="note.note">
       <field name="memo"><![CDATA[<p><b>Read those books</b></p>
       <p><br/></p>
-      <p>* Odoo: a modern approach to integrated business management</p>
-      <p>* Odoo for Retail and Industrial Management</p>]]>
+      <p>* Bookm: a modern approach to integrated business management</p>
+      <p>* Bookm for Retail and Industrial Management</p>]]>
       </field>
       <field name="user_id" ref="base.user_demo"/>
     </record>
 
     <record id="note_12" model="note.note">
-      <field name="memo"><![CDATA[<p><b>Read some documentation about Odoo before diving into the code</b></p>
+      <field name="memo"><![CDATA[<p><b>Read some documentation about Bookm before diving into the code</b></p>
       <p><br/></p>
-      <p>* Odoo: a modern approach to integrated business management</p>
-      <p>* Odoo for Retail and Industrial Management</p>]]>
+      <p>* Bookm: a modern approach to integrated business management</p>
+      <p>* Bookm for Retail and Industrial Management</p>]]>
       </field>
       <field name="color">7</field>
       <field name="stage_ids" eval="[(6,0,[ref('note_stage_03')])]"/>

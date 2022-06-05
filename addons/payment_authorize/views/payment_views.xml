@@ -18,9 +18,11 @@
                                 name="action_update_merchant_details"
                                 string="Generate Client Key"/>
                     </div>
-                    <a colspan="2" href="https://www.odoo.com/documentation/saas-15.2/applications/general/payment_acquirers/authorize.html" target="_blank">
+                    <!--DOCLINK:
+                    <a colspan="2" href="https://www.odoo.com/documentation/15.0/applications/general/payment_acquirers/authorize.html" target="_blank">
                         How to get paid with Authorize.Net
                     </a>
+                    -->
                 </group>
             </xpath>
             <field name="display_as" position="before">
