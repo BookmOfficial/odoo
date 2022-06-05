@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0+e\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-07 10:59+0000\n"
-"PO-Revision-Date: 2021-12-07 10:59+0000\n"
+"POT-Creation-Date: 2022-04-15 22:34+0000\n"
+"PO-Revision-Date: 2022-04-15 22:34+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,14 +19,6 @@ msgstr ""
 #: code:addons/l10n_nl_edi/models/account_edi_format.py:0
 #, python-format
 msgid "Customer's address must include street, zip and city (%s)."
-msgstr ""
-
-#. module: l10n_nl_edi
-#: code:addons/l10n_nl_edi/models/account_edi_format.py:0
-#, python-format
-msgid ""
-"Customer's country must belong to the EAS (Electronic Address Scheme) code "
-"list."
 msgstr ""
 
 #. module: l10n_nl_edi

@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server saas~15.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-07 10:47+0000\n"
 "PO-Revision-Date: 2021-12-07 10:47+0000\n"
+=======
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-16 00:02+0000\n"
+"PO-Revision-Date: 2022-04-16 00:02+0000\n"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -30,11 +37,14 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
 msgid "Check our Courses <i class=\"fa fa-chevron-right\"/>"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: website_slides_forum
 #: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_channel
 msgid "Come back later to monitor and moderate what is posted on your Forums."
+=======
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides_forum
@@ -111,6 +121,7 @@ msgid "Forums"
 msgstr ""
 
 #. module: website_slides_forum
+<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:website_slides_forum.forum_forum_action_channel
 msgid "Forums allow your attendees to ask questions to your community."
 msgstr ""
@@ -123,6 +134,10 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_channel
 msgid "No Forum Post yet!"
+=======
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_report
+msgid "No data yet!"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides_forum
@@ -164,3 +179,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides_forum.forum_post_view_graph_slides
 msgid "eLearning Forum Posts"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#. module: website_slides_forum
+#: model:ir.actions.act_window,name:website_slides_forum.forum_forum_action_channel
+msgid "eLearning Forums"
+msgstr ""
+>>>>>>> f95942631c8 ([i18n} Updated pot files)

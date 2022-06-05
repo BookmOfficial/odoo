@@ -1,0 +1,4526 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_dz
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:21+0000\n"
+"PO-Revision-Date: 2022-04-15 22:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_612
+msgid "(Disponible)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_707
+msgid "(disponible)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_normale19
+msgid "19.0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_specifique9
+msgid "9.0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_acq_normale19
+msgid "ACH-19.0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_acq_specifique9
+msgid "ACH-9.0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_exo_0
+#: model:account.tax.template,description:l10n_dz.tva_purchase_0
+msgid "ACHAT-0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6262
+msgid "Abonnement boite postale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6264
+msgid "Abonnement internet"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6182
+msgid "Abonnements aux Journaux, revues et JO/BOAL/BOMOP ...etc."
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6263
+msgid "Abonnements et communications téléphonie mobile"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4863
+msgid "Abonnements payés d’avance"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_542
+msgid "Accréditifs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38228
+msgid "Achat : Autres fournitures consommables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38278
+#: model:account.account.template,name:l10n_dz.pcg_6078
+msgid "Achat : Autres fournitures consommables non stockées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38218
+msgid "Achat : Autres matières consommables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38221
+msgid "Achat : Carburant et lubrifiant – Véhicules"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38223
+msgid "Achat : Droguerie et Produits d'entretien"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38227
+msgid "Achat : Fournitures de bureau et imprimés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38211
+msgid "Achat : Matières (ou groupe) C"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38212
+msgid "Achat : Matières (ou groupe) D"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38222
+msgid "Achat : Petit outillage et fournitures d'ateliers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38225
+msgid "Achat : Pièces de rechange et pneumatique pour matériel de transport"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38224
+msgid "Achat : Pièces de rechange pour équipements & matériels techniques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38226
+msgid "Achat : Quincaillerie générale et fournitures de magasin"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38261
+msgid "Achat d'Emballages perdus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38262
+msgid "Achat d'Emballages récupérables non identifiables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38263
+msgid "Achat d'Emballages à usage mixte"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38272
+#: model:account.account.template,name:l10n_dz.pcg_6072
+msgid "Achat non stocké d'énergie et de force motrice (ateliers)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38276
+#: model:account.account.template,name:l10n_dz.pcg_6076
+msgid "Achat non stocké de Tenues de travail et de sécurité"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38271
+#: model:account.account.template,name:l10n_dz.pcg_6071
+msgid "Achat non stocké de carburant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5886
+msgid "Achats au comptant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38178
+msgid "Achats d'autres fournitures accessoires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6041
+msgid "Achats d'études"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38171
+msgid "Achats de Fournitures A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38172
+msgid "Achats de Fournitures B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3801
+msgid "Achats de Marchandises (ou groupe) A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3802
+msgid "Achats de Marchandises (ou groupe) B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6042
+msgid "Achats de prestations de services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6054
+msgid "Achats d’immobilisations de faible valeur : Matériel de communicat"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6053
+msgid "Achats d’immobilisations de faible valeur : Matériel informatique"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6052
+msgid "Achats d’immobilisations de faible valeur : Mobilier"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6051
+msgid ""
+"Achats d’immobilisations de faible valeur : Petit matériel et outillage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3841
+msgid "Achats locaux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38275
+#: model:account.account.template,name:l10n_dz.pcg_6075
+msgid "Achats non stockés de fournitures d'atelier et de magasin"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4673
+msgid "Achats pour compte de tiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3842
+msgid "Achats à l'importation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_118
+msgid "Acompte sur dividendes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4441
+msgid "Acomptes provisionnels sur I.B.S"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2087
+msgid "Actif environnemental"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2186
+msgid "Actifs biologiques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_368
+msgid "Actifs non courants destinés à être cédés (réformes)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4566
+msgid "Actionnaires défaillants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_109
+msgid "Actionnaires: capital souscrit - non appelé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5031
+msgid "Actions détenues en vue de la revente"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_502
+msgid "Actions propres"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6261
+msgid "Affranchissement courrier"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_222
+msgid "Agencements et aménagements de terrain en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2157
+msgid "Agencements et aménagements du matériel et outillage industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2136
+msgid "Agencements, aménagements et installations des bâtiments"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1176
+msgid "Ajustement résultant de correction d'erreurs comptables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1175
+msgid "Ajustement résultant de correction d'estimation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5813
+msgid "Alimentation caisses"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6562
+msgid "Amendes et pénalités (pénales, fiscales et parafiscales)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_46861
+msgid "Amendes et pénalités à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28181
+msgid "Amort. Installations générales, agencements et aménagements divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281834
+msgid "Amort. du matériel de communication, projection et d’insonorisation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28157
+msgid "Amortis. des agencements et aménagements du matériel & outillage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281851
+msgid "Amortis.: Mobiliers et équipements ménagers des logements de fonction"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2822
+msgid "Amortissement : Agencements et aménagements de terrains"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2828
+msgid "Amortissement : Autres immobilisations corporelles en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281828
+msgid "Amortissement : Autres matériels roulants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281858
+msgid "Amortissement : Autres mobiliers et matériels divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281311
+msgid "Amortissement : Bâtiment Structure"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281312
+msgid "Amortissement : Bâtiments composant A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281313
+msgid "Amortissement : Bâtiments composant B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281314
+msgid "Amortissement : Bâtiments composant C"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2823
+msgid "Amortissement : Constructions en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28042
+msgid "Amortissement : Hébergement site Web"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2825
+msgid "Amortissement : Installations techniques en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28041
+msgid "Amortissement : Logiciels de traitements informatiques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281853
+msgid "Amortissement : Mobilier et matériel de cantine et réfectoire"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281852
+msgid "Amortissement : Mobilier et matériel médical de secours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2821
+msgid "Amortissement : Terrains en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28155
+msgid "Amortissement de l'outillage industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28186
+msgid "Amortissement des Actifs biologiques (évalués au coût amorti)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28158
+msgid "Amortissement des Autres matériels et outillage industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281848
+msgid "Amortissement des Autres mobiliers d'ameublement ou d'accueil"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281838
+msgid "Amortissement des Autres équipements de bureau"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28187
+msgid "Amortissement des Emballages récupérables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28121
+msgid "Amortissement des aménagements d'espaces verts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28122
+msgid "Amortissement des autres agencements et aménagements de terrains"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28058
+msgid "Amortissement des autres droits similaires (concession et franchise)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28132
+msgid "Amortissement des bâtiments industriels (à décomposer)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28151
+msgid "Amortissement des installations complexes spécialisées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28153
+msgid "Amortissement des installations à caractère spécifique"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281831
+msgid "Amortissement du Matériel de bureau"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281821
+msgid "Amortissement du Matériel de transport : Véhicules Lourds"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281823
+msgid "Amortissement du Matériel de transport : Véhicules Légers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281822
+msgid "Amortissement du Matériel de transport : Véhicules Utilitaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281824
+msgid "Amortissement du Matériel de transport en commun"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28154
+msgid "Amortissement du Matériel industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281832
+msgid "Amortissement du Matériel informatique"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281841
+msgid "Amortissement du Mobilier de bureau"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28051
+msgid "Amortissement du droit à la propriété industrielle et commerciale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_281835
+msgid "Amortissement du matériel didactique de formation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28133
+msgid "Amortissements : Bâtiments sociaux ( CMS-CANTINE-REFECTOIRE)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28087
+msgid "Amortissements des actifs environnementaux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28135
+msgid "Amortissements des agencements et aménagements de bâtiments"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2803
+msgid "Amortissements des frais de développement immobilisables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28134
+msgid "Amortissements des immeubles de placement (au coût amorti)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28136
+msgid "Amortissements des ouvrages d’infrastructure : Voies de transport"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2811
+msgid "Amortissements des terrains de gisement (carrières...)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28138
+msgid "Amortissements des travaux d’aménagement : Autres ouvrages"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_28081
+msgid "Amortissements du fonds de commerce (acquis à durée limitée)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2121
+msgid "Aménagement d’espaces verts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6231
+msgid "Annonces et insertions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6171
+msgid "Assistance technique"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4567
+msgid "Associés - Capital à rembourser"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_45611
+msgid "Associés : Apports en nature"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_45615
+msgid "Associés : Apports en numéraires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4562
+msgid "Associés : Capital souscrit, appelé et non versé (apports à libérer)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4564
+msgid "Associés : Versements anticipés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4563
+msgid "Associés : Versements reçus sur augmentation de Capital"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4556
+msgid "Associés – Comptes courants : Intérêts courus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4551
+msgid "Associés – Comptes courants : Principal"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6164
+msgid "Assurance catastrophe naturelle"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6165
+msgid "Assurance couverture risque de Vie"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4327
+msgid "Assurance groupe (Quote-part des travailleurs) à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4326
+msgid "Assurance groupe (Quote-part employeur) à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6163
+msgid "Assurance responsabilité civile"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6161
+msgid "Assurances multirisques professionnels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6162
+msgid "Assurances transport"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63138
+msgid "Autres Indemnités liées au salaire"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7068
+msgid "Autres Prestations de services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6058
+msgid "Autres achats de matériels, d'équipements et de travaux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2122
+msgid "Autres agencements et aménagements de terrains"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_372
+msgid "Autres approvisionnements à réceptionner"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6168
+msgid "Autres assurances"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5193
+msgid "Autres avances bancairesr"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4094
+msgid "Autres avances et acomptes (Consultants, CAC et Experts)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4258
+msgid "Autres avances exceptionnelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4674
+msgid "Autres avances pour compte"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4229
+msgid "Autres avances pour le compte des œuvres sociales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2758
+msgid "Autres cautionnements versés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4868
+msgid "Autres charges constatées d’avance"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6388
+msgid "Autres charges de personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6588
+msgid "Autres charges diverses de gestion courante"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6578
+msgid "Autres charges exceptionnelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_668
+msgid "Autres charges financières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6148
+msgid "Autres charges locatives"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_46862
+msgid "Autres charges opérationnelles à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2135
+msgid "Autres constructions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6375
+msgid "Autres contributions sociales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6368
+msgid "Autres cotisations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6288
+msgid "Autres cotisations et dons courants divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_178
+msgid "Autres dettes rattachés à des participations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_65663
+msgid "Autres dons et libéralités"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2058
+msgid "Autres droits similaires (concession et  franchise)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6458
+msgid "Autres droits, impôts et taxes divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4478
+msgid "Autres droits, impôts et taxes à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4268
+msgid "Autres dépôts et prestations reçus au profit du personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1018
+msgid "Autres fonds propres"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3178
+msgid "Autres fournitures accessoires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60178
+msgid "Autres fournitures accessoires consommées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3228
+msgid "Autres fournitures consommables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60228
+msgid "Autres fournitures consommées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6238
+msgid "Autres frais de relations publiques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6178
+msgid "Autres frais d’études et de recherches"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6278
+msgid "Autres frais et commissions sur prestations de services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21348
+msgid "Autres immeubles de placement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_228
+msgid "Autres immobilisations corporelles en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2328
+msgid "Autres immobilisations corporelles en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4428
+msgid "Autres impôts retenus à la source"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_698
+msgid "Autres impôts sur les résultats"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63148
+msgid "Autres indemnités et avantages divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3218
+msgid "Autres matières consommables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60218
+msgid "Autres matières consommées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3118
+#: model:account.account.template,name:l10n_dz.pcg_38118
+msgid "Autres matières premières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60118
+msgid "Autres matières premières consommées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2158
+msgid "Autres matériels et outillage industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21828
+msgid "Autres matériels roulants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21848
+msgid "Autres mobiliers d'ameublement ou d'accueil"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21858
+msgid "Autres mobiliers et matériels divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4518
+msgid "Autres opérations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_478
+msgid "Autres opérations à régulariser"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5178
+msgid "Autres organismes et établissements financiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4328
+msgid "Autres organismes sociaux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4878
+msgid "Autres produits constatés d’avance"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7088
+msgid "Autres produits des activités annexes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7588
+msgid "Autres produits divers de gestion courante"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7578
+msgid "Autres produits exceptionnels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_768
+msgid "Autres produits financiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_46872
+msgid "Autres produits opérationnels à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4818
+msgid "Autres provisions : Passifs courants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1588
+msgid "Autres provisions résultant d’obligation légale ou implicite"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2743
+msgid "Autres prêts accordés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_65118
+msgid "Autres redevances de gestion"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4278
+msgid "Autres retenues sur salaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6228
+msgid "Autres rémunérations divers (non incorporables aux coûts)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1068
+msgid "Autres réserves"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_748
+msgid "Autres subventions d'exploitation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4418
+msgid "Autres subventions et aides publiques à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1329
+msgid "Autres subventions inscrites au compte de résultat"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6418
+msgid "Autres taxes sur les salaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_262
+msgid "Autres titres de participation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5888
+msgid "Autres transferts en espèces"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6248
+msgid "Autres transports divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2138
+msgid "Autres travaux d'aménagement sur ouvrages d’infrastructures"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7048
+msgid "Autres travaux de réalisation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5081
+msgid "Autres valeurs mobilières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5118
+msgid "Autres valeurs à l’encaissement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2072
+msgid "Autres écarts d’acquisitions ou de fusions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21838
+msgid "Autres équipements de bureau"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7058
+msgid "Autres études techniques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4432
+msgid "Avance pour compte ANEM – Emplois aidés (Quote part de l'Etat)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23841
+msgid "Avances & acomptes sur acquisitions de terrains"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23842
+msgid "Avances & acomptes sur constructions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4511
+msgid "Avances de fonds"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40916
+msgid "Avances et acomptes sur achats de services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40913
+msgid "Avances et acomptes sur acquisition de Stocks"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23845
+msgid "Avances sur acquisitions autres mobiliers et matériels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23828
+msgid "Avances sur acquisitions d'autres immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23843
+msgid "Avances sur acquisitions d'installations techniques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23821
+msgid "Avances sur acquisitions de logiciels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23844
+msgid "Avances sur acquisitions de matériels et outillages industriels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_23848
+msgid "Avances sur commandes d’autres immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4256
+msgid "Avances sur frais de mission"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4672
+msgid "Avances sur frais divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4251
+msgid "Avances sur salaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4419
+msgid "Avances sur subventions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6384
+msgid "Avantages en nature accordés au personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6315
+msgid "Avantages et prestations en nature"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5171
+msgid "Banque postale (C.C.P)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_27611
+msgid "Billet de fonds à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63141
+msgid "Bonifications"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7086
+msgid "Bonis sur reprise d’emballages consignés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5063
+msgid "Bons de caisse à court terme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1035
+msgid "Bons de souscription d’actions (BSA)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5082
+msgid "Bons de souscription et instruments financiers composés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2722
+msgid "Bons du Trésor"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5062
+msgid "Bons du Trésor à court terme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21311
+msgid "Bâtiment Structure"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21312
+msgid "Bâtiment composant A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21313
+msgid "Bâtiment composant B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21314
+msgid "Bâtiment composant C"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2132
+msgid "Bâtiments industriels (à décomposer en cas de besoin)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2133
+msgid "Bâtiments sociaux (CMS – CANTINE – REFECTOIRE)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4313
+msgid "CNAS à payer (part employeur)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6235
+msgid "Cadeau à la clientèle"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5321
+msgid "Caisse auxiliaire : Succursale (ou Unité) A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5322
+msgid "Caisse auxiliaire : Succursale (ou Unité) B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5314
+msgid "Caisse principale en Devises"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5311
+msgid "Caisse principale en Dinars"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5152
+msgid "Caisses des établissements publics"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5151
+msgid "Caisses du Trésor Public"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_10112
+msgid "Capital souscrit - appelé non versé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_10113
+msgid "Capital souscrit appelé, versé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_10111
+msgid "Capital souscrit non appelé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60221
+msgid "Carburant et lubrifiant – Véhicules"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3221
+msgid "Carburant et lubrifiant –Véhicules"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6236
+msgid "Catalogues et imprimés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1655
+msgid "Cautionnements reçus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2752
+msgid "Cautionnements versés aux fonds de garantie"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2756
+msgid "Cautionnements versés sur Téléphone, Eau, Gaz et électricité"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2755
+msgid "Cautionnements versés sur loyers (Loyers d'avance)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2754
+msgid "Cautions de bonne exécution ou de bonne fin"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2753
+msgid "Cautions de soumissions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5083
+msgid "Certificat d'investissement (Art. 715-61 bis du C.Com)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7081
+msgid "Cession de matières premières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7082
+msgid "Cession d’autres approvisionnements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6142
+msgid "Charges de copropriété logements de fonction"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6213
+msgid "Charges de nettoyage et travaux d’insalubrité"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6212
+msgid "Charges de sécurité et de gardiennage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1386
+msgid "Charges différées – Passif non courant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4866
+msgid "Charges financières différées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1816
+msgid "Charges inter-Unités (ou établissement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6141
+msgid "Charges locatives d’immeubles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6581
+msgid "Charges sur exercices antérieurs (en cours d'exercice)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5111
+msgid "Chèques à encaisser"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4191
+msgid "Clients - Avances et acomptes reçus sur commandes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4196
+msgid "Clients - Dettes pour emballages et matériels consignés "
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4181
+msgid "Clients - Factures à établir – Secteur Public"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4114
+msgid "Clients : Autres créances diverses"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4182
+msgid "Clients : Factures à établir – Secteur Privé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4117
+msgid "Clients : Retenues de garantie"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4111
+msgid "Clients : Ventes de biens et services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.dz_pcg_recv
+msgid "Clients : effets à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.dz_pcg_recv_pos
+msgid "Clients : effets à recevoir (PoS)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4188
+msgid "Clients : intérêts moratoires à facturer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4162
+msgid "Clients douteux : secteur privé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4161
+msgid "Clients douteux : secteur public"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4197
+msgid "Clients à solde créditeur (à détailler par code Tiers)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6222
+msgid "Commissions et courtages sur ventes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62721
+msgid "Commissions et frais sur émission d’emprunts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62723
+msgid "Commissions sur aval et cautions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62722
+msgid "Commissions sur ouverture de crédit"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_108
+msgid "Compte de l'exploitant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5122
+msgid "Comptes bancaires : Devises"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5121
+msgid "Comptes bancaires : Dinars"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63114
+msgid "Congés payés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_223
+msgid "Constructions en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2323
+msgid "Constructions en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4221
+msgid "Contributions annuelles à payer (3%)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6361
+msgid "Cotisation annuelle à la CASNOS"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4323
+msgid "Cotisations CACOBATPH à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4314
+msgid "Cotisations CASNOS à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4312
+msgid "Cotisations FNPOS"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4321
+msgid "Cotisations Mutuelle à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4322
+msgid "Cotisations OPREBAT à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6352
+msgid "Cotisations au FNPOS"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6354
+msgid "Cotisations aux mutuelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6351
+msgid "Cotisations de sécurité sociale – CNAS"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6283
+msgid "Cotisations professionnelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6355
+msgid "Cotisations à la CACOBATPH"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6353
+msgid "Cotisations à la retraite – CNR"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4571
+msgid "Coupons d’action"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_729
+msgid "Coût de la sous activité (différence d'imputation coût du chômage)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_18841
+msgid "Créances commerciales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_18842
+msgid "Créances financières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1814
+msgid "Créances inter-Unités (ou établissement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4438
+msgid ""
+"Créances ou dettes résultant du changement de la réglementation fiscale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_266
+msgid "Créances rattachées à des participations groupe"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_267
+msgid "Créances rattachés à des participations hors groupe"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_268
+msgid "Créances rattachés à des sociétés en participation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_465
+msgid ""
+"Créances sur cessions de valeurs mobilières de placement et instruments "
+"financiers dérivés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2744
+msgid "Créances sur contrat de location-financement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4431
+msgid "Créances sur l'Etat – Indemnisations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4172
+msgid "Créances sur prestations en cours (à l'avancement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4171
+msgid "Créances sur travaux en cours (à l'avancement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44568
+msgid "Crédit de TVA à reporter (Précompte)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4679
+msgid "Créditeurs de frais divers (à détailler)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6812
+msgid "DAP-PDV : Immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6811
+msgid "DAP-PDV : Immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_18851
+msgid "Dettes commerciales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_18852
+msgid "Dettes financières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1815
+msgid "Dettes inter-Unités (ou établissement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4281
+msgid "Dettes provisionnées pour congés à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_171
+msgid "Dettes rattachées à des participations groupe"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_172
+msgid "Dettes rattachées à des participations hors groupe"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_173
+msgid "Dettes rattachés à des sociétés en participation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_464
+msgid ""
+"Dettes sur acquisitions de valeurs mobilières de placement et instruments "
+"financiers dérivés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4572
+msgid "Dividendes mis en paiement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6181
+msgid "Documentation générale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6183
+msgid "Documentation technique (plans, schémas, maquettes, etc.)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_65661
+msgid "Dons au profit des associations caritatives agréées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6855
+msgid "Dotation annuelle pour Indemnité de départ à la retraite et IFC"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6861
+msgid ""
+"Dotations aux amortissements des primes de remboursement des obligations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_682
+msgid ""
+"Dotations aux amortissements, provisions et PDV des biens mis en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6856
+msgid "Dotations aux provisions pour pertes et charges – PNC"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6858
+msgid "Dotations aux provisions – passifs courants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6854
+msgid "Dotations pour pertes de valeurs sur créances"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6853
+msgid "Dotations pour pertes de valeurs sur stocks"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3223
+#: model:account.account.template,name:l10n_dz.pcg_60223
+msgid "Droguerie et Produits d'entretien"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2082
+msgid "Droit au bail"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2051
+msgid "Droit à la propriété industrielle et commerciale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6455
+msgid "Droits de stationnement parking communal"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6284
+msgid "Droits de stationnement parking privé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6457
+msgid "Droits de timbre"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44575
+msgid "Droits de timbre perçus au profit du Trésor"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_229
+msgid "Droits du concédant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6456
+msgid "Droits d’enregistrement sur actes et marchés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4474
+msgid "Droits d’enregistrement à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4676
+msgid "Débiteurs divers (à détailler)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4622
+msgid "Débiteurs sur cessions d’immobilisations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3583
+msgid "Déchets et rebuts divers destinés à être cédés ou détruits"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5192
+msgid "Découvert bancaire"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7575
+msgid "Dégrèvements d’impôts (autre qu’IBS)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_476
+msgid "Dépenses en attente d’imputation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1651
+msgid "Dépôts reçus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2751
+msgid "Dépôts versés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2723
+msgid "Dépôts à terme (DAT > 12 mois)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.fiscal.position.template,name:l10n_dz.fiscal_position_template_exo
+msgid "EXO"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_0
+msgid "EXO-0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_export_0
+msgid "EXPORT-0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2079
+msgid "Ecart d'acquisition négatif (badwill)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2071
+msgid "Ecart d'acquisition positif (goodwill)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1059
+msgid "Ecart de réévaluation rapporté au résultat de l’exercice"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1051
+msgid "Ecart de réévaluation sur immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6571
+msgid "Ecart de stocks (négatif) de marchandises"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6572
+msgid ""
+"Ecart de stocks (négatif) de matières, fournitures et autres "
+"approvisionnements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7571
+msgid "Ecart de stocks (positif) de marchandises"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7572
+msgid ""
+"Ecart de stocks (positif) de matières, fournitures et autres "
+"approvisionnements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_104
+msgid "Ecart d’évaluation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_765
+msgid "Ecart d’évaluation sur actifs financiers – Plus-values"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5113
+msgid "Effets à l'encaissement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4032
+msgid "Effets à payer aux fournisseurs de services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4031
+msgid "Effets à payer aux fournisseurs de stocks"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3261
+msgid "Emballages perdus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60261
+msgid "Emballages perdus consommés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2187
+msgid "Emballages récupérables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3262
+msgid "Emballages récupérables non identifiables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60262
+msgid "Emballages récupérables non identifiables consommés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3263
+msgid "Emballages à usage mixte"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60263
+msgid "Emballages à usage mixte consommés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1681
+msgid "Emprunt Principal"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1631
+msgid "Emprunt Principal (Autres emprunts obligataires)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1611
+msgid "Emprunt Principal (Titres)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1621
+msgid "Emprunt Principal (obligataires convertibles)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1641
+msgid "Emprunts  à Court  Terme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1643
+msgid "Emprunts à Long Terme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1642
+msgid "Emprunts à Moyen Terme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6151
+msgid "Entretien et réparation sur biens immobiliers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6152
+msgid "Entretien et réparation sur biens mobiliers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4482
+msgid "Etat – charges à payer : Charges fiscales sur congés à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4488
+msgid "Etat – produits à recevoir : Dégrèvement d’impôts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4487
+msgid "Etat – produits à recevoir : Trop versés sur impôts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7051
+msgid "Etudes : E1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_72341
+msgid "Etudes en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3411
+msgid "Etudes en cours – E1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3412
+msgid "Etudes en cours – E2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3413
+msgid "Etudes en cours – E3"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_124
+msgid "Excédent (ou insuffisance) brut d’exploitation (EBE) – EBITDA"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.fiscal.position.template,note:l10n_dz.fiscal_position_template_exo
+msgid "Exo de TVA"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5191
+msgid "Facilité de caisse"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4086
+msgid "Factures à recevoir des Consultants, CAC et Experts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4083
+msgid "Factures à recevoir des Fournisseurs d’immobilisations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1671
+msgid "Financement Principal"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6233
+msgid "Foires, expositions et festivités"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1013
+msgid "Fonds d'exploitation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2081
+msgid "Fonds de commerce"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1012
+msgid "Fonds de dotation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4461
+msgid "Fonds de solidarité internationale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4671
+msgid ""
+"Fonds en dépôt chez les officiers ministériels (notaire, commis. priseurs)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4621
+msgid "Fonds à recevoir sur cessions d’Actifs réformés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4096
+msgid "Fournisseurs : Créances pour emballages et matériels à rendre"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4088
+msgid "Fournisseurs : Intérêts courus à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40173
+msgid "Fournisseurs : Retenues de garantie – Etrangers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40172
+msgid "Fournisseurs : Retenues de garantie – Privés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40171
+msgid "Fournisseurs : Retenues de garantie – Publics"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_405
+msgid "Fournisseurs d'immobilisations - Effets à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4047
+msgid "Fournisseurs d'immobilisations - Retenues de garantie"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4043
+msgid "Fournisseurs d'immobilisations : Etrangers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4042
+msgid "Fournisseurs d'immobilisations : Nationaux – Privés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4041
+msgid "Fournisseurs d'immobilisations : Nationaux – Publics"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40163
+msgid "Fournisseurs de services : Etrangers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40162
+msgid "Fournisseurs de services : Nationaux – Privés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40161
+msgid "Fournisseurs de services : Nationaux – Publics"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4082
+msgid "Fournisseurs de services – factures non parvenues"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40133
+msgid "Fournisseurs de stocks : Etrangers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_40132
+msgid "Fournisseurs de stocks : Nationaux – Privés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.dz_pcg_pay
+msgid "Fournisseurs de stocks : Nationaux – Publics"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4081
+msgid "Fournisseurs de stocks nationaux : Factures non parvenues"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4097
+msgid "Fournisseurs à soldes débiteurs (à détailler par code Tiers)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3171
+#: model:account.account.template,name:l10n_dz.pcg_60171
+msgid "Fournitures A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3172
+#: model:account.account.template,name:l10n_dz.pcg_60172
+msgid "Fournitures B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38274
+#: model:account.account.template,name:l10n_dz.pcg_6074
+msgid "Fournitures administratives et de bureautique non stockées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3227
+#: model:account.account.template,name:l10n_dz.pcg_60227
+msgid "Fournitures de bureau et imprimés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38273
+msgid "Fournitures non stockées : Eau, Gaz & Electricité (bureaux)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6073
+msgid "Fournitures non stockées : Eau, Gaz et Electricité (bureaux)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3832
+msgid "Frais Accessoires sur Achats d'autres approvisionnements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3831
+msgid "Frais Accessoires sur Achats de matières premières et fournitures"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_608
+msgid "Frais accessoires d’achat (inventaire intermittent)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6227
+msgid "Frais d'actes et de contentieux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6187
+msgid "Frais de colloques, séminaires et conférences"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6186
+msgid "Frais de conseils et assemblées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6252
+msgid "Frais de déménagement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_203
+msgid "Frais de développement immobilisables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6382
+msgid "Frais de formation et de perfectionnement du personnel (en interne)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6282
+msgid "Frais de formation externe du personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4286
+msgid "Frais de mission à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6281
+msgid "Frais de recrutement de personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6184
+msgid "Frais de reprographie"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_65662
+msgid "Frais de solidarité nationale et internationale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6185
+msgid "Frais de soumissions et de marchés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6265
+msgid "Frais de télécommunication (fixe et fax)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6383
+msgid "Frais d’activités socioculturelles et sportives"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4261
+msgid "Frais médicaux à rembourser"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6271
+msgid "Frais sur effets et sur titres"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_766
+msgid "Gains de change"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63113
+msgid "Heures supplémentaires et IFSP"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6226
+msgid "Honoraires (autres que ceux incorporés dans les coûts)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62573
+msgid "Hébergement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2042
+msgid "Hébergement site Web"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_imm_normale19
+msgid "IMMO-19.0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_imm_specifique9
+msgid "IMMO-9.0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,description:l10n_dz.tva_import_0
+msgid "IMPORT-0"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4421
+msgid "IRG retenu sur salaires (barème)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4426
+msgid "IRG – Libératoire retenu à la source aux consultants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4425
+msgid "IRG – Libératoire sur Jetons de présence et tantièmes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4423
+msgid "IRG – Libératoire sur bénéfices distribués"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4422
+msgid "IRG – Libératoire sur rappels de salaires et participation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4424
+msgid "IRG – Libératoire sur revenus mobiliers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_237
+msgid "Immobilisations incorporelles en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1159
+msgid "Impact d'ajustement négatif (moins value)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1151
+msgid "Impact d'ajustement positif (plus value)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1179
+msgid "Impact d'assainissement comptable et financier : négatif"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1171
+msgid "Impact d'assainissement comptable et financier : positif"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.fiscal.position.template,note:l10n_dz.fiscal_position_template_import_export
+msgid "Import Export"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.fiscal.position.template,name:l10n_dz.fiscal_position_template_import_export
+msgid "Import/Export"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_692
+msgid "Imposition différée actif – Produits"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_693
+msgid "Imposition différée passif – Charges"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_133
+msgid "Impôts différés actif"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_134
+msgid "Impôts différés passif"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_695
+msgid ""
+"Impôts sur les bénéfices basés sur le résultat des activités ordinaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4449
+msgid "Impôts sur les bénéfices – I.B.S à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63131
+msgid "Indemnité d'Expérience professionnelle (I.E.P)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63132
+msgid "Indemnité de nuisance"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63133
+msgid "Indemnité de travail posté"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63134
+msgid "Indemnités de fin de carrière et de départ à la retraite (IDR – IFC)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63135
+msgid "Indemnités kilométriques et de transport"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2151
+msgid "Installations complexes spécialisées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2181
+msgid "Installations générales agencements aménagements divers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_225
+msgid "Installations techniques en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2325
+msgid "Installations techniques, matériels et outillage industriels en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2153
+msgid "Installations à caractère spécifique"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_521
+msgid "Instruments financiers dérivés : Actifs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_529
+msgid "Instruments financiers dérivés : Passifs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6387
+msgid "Intéressement, primes et avantages liés aux résultats"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6616
+msgid "Intérêts bancaires et sur opérations de financement (escompte, ...)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4588
+#: model:account.account.template,name:l10n_dz.pcg_5088
+msgid "Intérêts courus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1648
+#: model:account.account.template,name:l10n_dz.pcg_1658
+#: model:account.account.template,name:l10n_dz.pcg_1678
+#: model:account.account.template,name:l10n_dz.pcg_1688
+msgid "Intérêts courus et non échus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1638
+msgid "Intérêts courus et non échus (Autres emprunts obligataires)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1618
+msgid "Intérêts courus et non échus (Titres)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1628
+msgid "Intérêts courus et non échus (obligataires convertibles)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2768
+msgid "Intérêts courus et non échus sur actifs non courants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5198
+msgid "Intérêts courus sur concours bancaires courants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2748
+msgid "Intérêts courus sur prêts et créances de crédit bail"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5186
+msgid "Intérêts courus à payer (agios à payer)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5187
+msgid "Intérêts courus à recevoir (intérêts des dépôts créditeurs à recevoir)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6618
+msgid "Intérêts des autres dettes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6612
+msgid "Intérêts des dettes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6611
+msgid "Intérêts des emprunts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1646
+msgid "Intérêts intercalaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6531
+msgid "Jetons de présence aux administrateurs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7531
+msgid "Jetons de présence perçus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4675
+msgid "Jetons de présence à payer aux Administrateurs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.l10n_dz_pcg_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6276
+msgid "Location de coffres"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_61311
+msgid "Locations immobilières : Redevance de crédit bail immobilier"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_61312
+msgid "Locations mobilières : Redevance de crédit bail mobilier"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21341
+msgid "Logements du personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2041
+msgid "Logiciels de traitements informatiques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_361
+msgid "Lot de bord et pièces d’accompagnement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7581
+msgid "Lots de bord et pièces de rechange gratuites"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6143
+msgid "Loyers garages et parking de stationnement de véhicules"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4861
+msgid "Loyers payés d’avance (autre que cautionnement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4871
+msgid "Loyers perçus d’avance (immeubles de placement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6156
+msgid "Maintenance"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6651
+msgid "Mali provenant du rachat des actions propres"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6137
+msgid "Malis sur emballages rendus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_301
+#: model:account.account.template,name:l10n_dz.pcg_6001
+#: model:account.account.template,name:l10n_dz.pcg_7001
+msgid "Marchandises (ou groupe) A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_302
+#: model:account.account.template,name:l10n_dz.pcg_6002
+#: model:account.account.template,name:l10n_dz.pcg_7002
+msgid "Marchandises (ou groupe) B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_121
+msgid "Marge commerciale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3111
+msgid "Matière (ou groupe) A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3112
+msgid "Matière (ou groupe) B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38111
+#: model:account.account.template,name:l10n_dz.pcg_60111
+msgid "Matières (ou groupe) A"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_38112
+#: model:account.account.template,name:l10n_dz.pcg_60112
+msgid "Matières (ou groupe) B"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3211
+#: model:account.account.template,name:l10n_dz.pcg_60211
+msgid "Matières (ou groupe) C"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3212
+#: model:account.account.template,name:l10n_dz.pcg_60212
+msgid "Matières (ou groupe) D"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3582
+msgid "Matières de récupération (à recycler)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_371
+msgid "Matières premières en cours de réception"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21831
+msgid "Matériel de bureau"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21834
+msgid "Matériel de communication, de projection et d’insonorisation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21821
+msgid "Matériel de transport : Véhicules Lourds"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21823
+msgid "Matériel de transport : Véhicules Légers de tourisme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21822
+msgid "Matériel de transport : Véhicules Utilitaires inférieurs à 3,5 T"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21835
+msgid "Matériel didactique de formation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2154
+msgid "Matériel industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21832
+msgid "Matériel informatique"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21824
+msgid "Matériels de transport en commun"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62552
+msgid "Missions : intérieur du pays - Frais de séjour"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62551
+msgid "Missions : intérieur du pays - Frais de voyage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21841
+msgid "Mobilier de bureau"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21853
+msgid "Mobilier et matériel de cantine et réfectoire"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21852
+msgid "Mobilier et matériel médical de secours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21851
+msgid "Mobiliers et équipements ménagers des logements de fonction"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6528
+msgid "Moins value sur cession autres équipements et matériels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6522
+msgid "Moins value sur cession matériel de transport"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6521
+msgid "Moins value sur cession matériel et outillage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6523
+msgid "Moins value sur cession mobilier et matériel de bureau"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6385
+msgid "Médailles du mérite et Jubilé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6381
+msgid "Médecine du travail et pharmacie"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44552
+msgid "Obligations cautionnées (au profit des Douanes)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5061
+msgid "Obligations à moins de 12 mois"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2721
+msgid "Obligations à terme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4586
+msgid "Opérations faites en commun : Charges à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4587
+msgid "Opérations faites en commun : Produits à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_362
+msgid "Organes et accessoires démantelés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4388
+msgid "Organismes sociaux : Autres charges à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4386
+msgid "Organismes sociaux : Charges sociales sur congés à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4389
+msgid "Organismes sociaux : Produits à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2155
+msgid "Outillage industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_70422
+msgid "Ouvrages d'art"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2137
+msgid "Ouvrages d’infrastructures : Voies de transport ou d'accès"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6234
+msgid "Parrainage, Sponsoring et mécénat"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_691
+msgid "Participation des travailleurs aux bénéfices"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_501
+msgid "Parts dans entreprises liées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4288
+msgid "Personnel : Autres charges à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4289
+msgid "Personnel : Produits à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6216
+msgid "Personnel détaché ou prêté à l'entreprise"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6211
+msgid "Personnel intérimaire"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2911
+msgid "Perte de valeur des terrains (autres que les terrains de gisement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_29087
+msgid "Perte de valeur sur actifs environnementaux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_29082
+msgid "Perte de valeur sur droit au bail"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_29081
+msgid "Perte de valeur sur fonds de commerce"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2905
+msgid ""
+"Pertes  de valeur sur concessions et droits similaires, brevets, licences, "
+"marques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_666
+msgid "Pertes de change"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6862
+msgid "Pertes de valeur des immobilisations financières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_392
+msgid "Pertes de valeur sur Autres approvisionnements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_393
+msgid "Pertes de valeur sur En cours de production de biens"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_394
+msgid "Pertes de valeur sur En cours de production de services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2915
+msgid ""
+"Pertes de valeur sur Installations techniques, matériel et outillage "
+"industriel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_391
+msgid "Pertes de valeur sur Matières premières et fournitures"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_390
+msgid "Pertes de valeur sur Stocks de marchandises"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_397
+msgid "Pertes de valeur sur Stocks à l'extérieur"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2941
+msgid "Pertes de valeur sur U.G.T (1)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2942
+msgid "Pertes de valeur sur U.G.T (2)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2916
+msgid "Pertes de valeur sur actifs biologiques (Juste valeur)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2912
+msgid "Pertes de valeur sur agencements et aménagements de terrain"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2988
+msgid "Pertes de valeur sur autres actifs financiers immobilisés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_498
+msgid "Pertes de valeur sur autres comptes de tiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4967
+msgid "Pertes de valeur sur autres comptes débiteurs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2918
+msgid "Pertes de valeur sur autres immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2962
+msgid "Pertes de valeur sur autres titres de participation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4951
+msgid "Pertes de valeur sur compte du groupe"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4955
+msgid "Pertes de valeur sur comptes courants des associés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2913
+msgid "Pertes de valeur sur constructions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4962
+msgid "Pertes de valeur sur créances de cessions d'immobilisations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4965
+msgid "Pertes de valeur sur créances de cessions de VMP"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2968
+msgid "Pertes de valeur sur créances rattachées à des SEP "
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2967
+msgid "Pertes de valeur sur créances rattachées à des participations – HG"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2966
+msgid "Pertes de valeur sur créances rattachées à des participations – groupe"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2903
+msgid "Pertes de valeur sur frais de développement immobilisables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2914
+msgid "Pertes de valeur sur immeubles de placement (Juste valeur)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_292
+msgid "Pertes de valeur sur immobilisations mises en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2983
+msgid "Pertes de valeur sur les dépôts et cautionnements versés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2982
+msgid "Pertes de valeur sur les prêts ordinaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2981
+msgid "Pertes de valeur sur les titres participatifs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2904
+msgid "Pertes de valeur sur logiciels informatiques et assimilés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4958
+msgid "Pertes de valeur sur opérations faites en commun (SEP – GIE)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_395
+msgid "Pertes de valeur sur stocks de produits"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2961
+msgid "Pertes de valeur sur titres de filiales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2971
+msgid "Pertes de valeur sur titres de placement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_591
+msgid "Pertes de valeur sur valeurs en banque et Etablissements financiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2907
+msgid "Pertes de valeur sur écart d’acquisition (Goodwill)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4911
+msgid "Pertes de valeurs sur comptes de clients"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2932
+msgid "Pertes de valeurs sur immobilisations corporelles en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2931
+msgid "Pertes de valeurs sur immobilisations incorporelles en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2972
+msgid "Pertes de valeurs sur les TIAP"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4912
+msgid "Pertes de valeurs sur retenues de garanties"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_594
+msgid "Pertes de valeurs sur régies d'avances et accréditifs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_667
+msgid "Pertes nettes sur cessions d’actifs financiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6541
+msgid "Pertes sur créances de l'exercice"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6542
+msgid "Pertes sur créances des exercices antérieurs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_664
+msgid "Pertes sur créances liées à des participations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3222
+#: model:account.account.template,name:l10n_dz.pcg_60222
+msgid "Petit outillage et fournitures d'ateliers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3225
+#: model:account.account.template,name:l10n_dz.pcg_60225
+msgid "Pièces de rechange et pneumatique pour matériel de transport"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_60224
+msgid "Pièces de rechange pour équipements et matériels techniques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3224
+msgid "Pièces de rechange pour équipements et matériels techniques   "
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_365
+msgid "Pièces de rechanges récupérées sur matériels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.chart.template,name:l10n_dz.l10n_dz_pcg_chart_template
+msgid "Plan Comptable Général (Algerie)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7528
+msgid "Plus value sur autres éléments d’actifs corporels cédés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7521
+msgid "Plus value sur cession d’éléments d’actifs mis à la réforme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_72342
+msgid "Prestations de services en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3451
+msgid "Prestations de services en cours – S1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3452
+msgid "Prestations de services en cours – S2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3453
+msgid "Prestations de services en cours – S3"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7061
+msgid "Prestations de services fournis : S1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63126
+msgid "Prime de caisse et de bilan"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1034
+msgid "Prime de conversion d’obligations en actions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1032
+msgid "Prime de fusion"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63122
+msgid "Prime de panier"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63121
+msgid "Prime de responsabilité"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63127
+msgid "Prime de sujétion"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1033
+msgid "Prime d’apports"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1031
+msgid "Prime d’émission"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_169
+msgid "Primes de remboursement des obligations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63125
+msgid "Primes de véhicule"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4862
+msgid "Primes d’assurances payées d’avance"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63123
+msgid "Primes d’encouragement et de rendement individuel (PRI-PRC)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63128
+msgid "Primes spéciales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63124
+msgid "Primes sur résultats au profit des cadres dirigeants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_122
+msgid "Production de l’exercice"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_732
+msgid "Production immobilisée d'actifs corporels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_731
+msgid "Production immobilisée d'actifs incorporels (logiciels)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1817
+msgid "Produis inter-Unités (ou établissement)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3311
+msgid "Produit en cours - P1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3312
+msgid "Produit en cours - P2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3313
+msgid "Produit en cours - P3"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_761
+msgid "Produits de participations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7586
+msgid "Produits des exercices antérieurs (en cours d'exercice)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1387
+msgid "Produits différés – Passif non courant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_72331
+msgid "Produits en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7245
+msgid "Produits finis"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3551
+msgid "Produits finis (ou groupe) – PF 1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3552
+msgid "Produits finis (ou groupe) – PF 2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3553
+msgid "Produits finis (ou groupe) – PF 3"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7241
+msgid "Produits intermédiaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3511
+msgid "Produits intermédiaires (ou groupe) – PI 1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3512
+msgid "Produits intermédiaires (ou groupe) – PI 2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3581
+#: model:account.account.template,name:l10n_dz.pcg_7248
+msgid "Produits résiduels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_767
+msgid "Profits nets sur cessions d’actifs financiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1584
+msgid "Provision pour garantie données aux clients (au-delà de 12 mois)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1582
+msgid "Provision pour perte à terminaison (contrats déficitaires)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1583
+msgid "Provision pour procès et litiges (au-delà de 12 mois)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1551
+msgid "Provision pour rappel d'impôts et amendes fiscales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4815
+msgid "Provisions pour amendes et pénalités"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1531
+msgid "Provisions pour avantages au personnel (IDR–IFC)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4812
+msgid "Provisions pour garanties données aux clients (moins de 12 mois)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4816
+msgid "Provisions pour pertes de change"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4811
+msgid "Provisions pour procès et litiges (moins de 12 mois)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1581
+msgid "Provisions pour remise en l’état ou de démantèlement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_156
+msgid "Provisions pour renouvellement des immobilisations (concession)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63112
+msgid "Présalaires et indemnités de stage et d’apprentissage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4212
+msgid "Présalaires à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2742
+msgid "Prêts au personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2741
+msgid "Prêts participatifs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6237
+msgid "Publications Autres publicités"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3226
+#: model:account.account.template,name:l10n_dz.pcg_60226
+msgid "Quincaillerie générale et fournitures de magasin"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7552
+msgid "Quote-part de bénéfice attribué (dans les SEP et GIE)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4231
+msgid "Quote-part de bénéfice attribuée au personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6551
+msgid "Quote-part de bénéfice transféré dans le cadre d'un GIE ou d'une SEP"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6552
+msgid "Quote-part de perte supportée dans le cadre d'un GIE ou d'une SEP"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7551
+msgid "Quote-part de perte transférée (dans les SEP et GIE)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_754
+msgid ""
+"Quotes-parts de subventions d’investissement virées au résultat de "
+"l’exercice"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6091
+msgid "R.R.R Obtenus sur achats de matières premières"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6095
+msgid "R.R.R Obtenus sur achats de petits matériels et équipements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6092
+msgid "R.R.R Obtenus sur achats d’autres approvisionnements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6094
+msgid "R.R.R Obtenus sur achats sur études et prestations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_629
+msgid "Rabais, remises et ristournes obtenus sur autres services extérieurs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_619
+msgid "Rabais, remises et ristournes obtenus sur services extérieurs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4198
+msgid "Rabais, remises, ristournes à accorder et autres avoirs à établir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4098
+msgid ""
+"Rabais, remises, ristournes à obtenir et autres avoirs non encore reçus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6575
+msgid "Rappel d’impôts (autre qu’IBS)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4486
+msgid "Rappels d'impôts à payer (hors IBS)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_477
+msgid "Recettes en attente d’imputations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_65112
+msgid "Redevances d'exploitation de carrières et gisements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_65111
+msgid "Redevances de concession de services publics"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6512
+msgid "Redevances pour brevets et licences de fabrication"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_751
+msgid ""
+"Redevances pour concessions, brevets, licences, logiciels et valeurs "
+"similaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6516
+msgid "Redevances pour exploitation de logiciels et valeurs similaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44583
+msgid "Remboursement de TVA demandé"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_46871
+msgid "Remboursement indemnisations d’assurances à percevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7582
+msgid "Remboursements sinistres et dégâts assurés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_756
+msgid "Rentrées sur créances amorties"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_119
+msgid "Report à nouveau (Déficit)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_110
+msgid "Report à nouveau (bénéfice)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7854
+msgid "Reprise sur pertes de valeurs – Créances"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7853
+msgid "Reprise sur pertes de valeurs – Stocks et encours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7858
+msgid "Reprise sur provisions pour pertes et charges – PNC"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_786
+msgid "Reprises financières sur pertes de valeur et provisions"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7813
+msgid "Reprises sur amortissements : Immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7811
+msgid "Reprises sur amortissements : Immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7814
+msgid "Reprises sur perte de valeur : Immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7812
+msgid "Reprises sur perte de valeur : Immobilisations incorporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7817
+msgid "Reprises sur plus values à réinvestir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7815
+msgid "Reprises sur écarts de réévaluation : Immobilisations corporelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4273
+msgid "Retenue pour fonds de solidarité nationale et internationale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4274
+msgid "Retenue sur loyers logements du personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4272
+msgid "Retenue sur prêts sociaux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4311
+msgid "Retenue sécurité sociale (part des employés)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_763
+msgid "Revenus de créances"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_762
+msgid "Revenus des actifs financiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7583
+msgid "Revenus des immeubles de placement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_70421
+msgid "Routes et voies d'accès"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62572
+msgid "Réceptions externes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_62571
+msgid "Réceptions internes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7093
+msgid "Réduction sur prestations – Hors factures"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7092
+msgid "Réduction sur ventes – Hors factures"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_541
+msgid "Régies d'avances"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.fiscal.position.template,name:l10n_dz.fiscal_position_template_national
+msgid "Régime National"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6223
+msgid "Rémunération de consultants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_634
+msgid "Rémunération de l'exploitant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6225
+msgid "Rémunérations d'affacturage (factoring)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1061
+msgid "Réserve légale"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1065
+msgid "Réserves Spéciales consécutive à l’octroi d’avantages"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1066
+msgid "Réserves facultatives"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1064
+msgid "Réserves ordinaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_10621
+msgid "Réserves réglementées : Bénéfice taxé au taux réduit"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_10622
+msgid "Réserves réglementées : Plus value de cession à réinvestir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1063
+msgid "Réserves statutaires ou contractuelles"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_128
+msgid "Résultat brut de l’exercice"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_127
+msgid "Résultat extraordinaire"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_120
+msgid "Résultat net de l’exercice – (BENEFICE)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_129
+msgid "Résultat net de l’exercice –(DEFICIT)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_125
+msgid "Résultat opérationnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_126
+msgid "Résultat ordinaire avant impôts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4271
+msgid "Saisie-arrêt et cession de rémunération (sur décision de Justice)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4275
+msgid "Salaires bloqués"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4211
+msgid "Salaires et appointements à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5176
+msgid "Société de bourse"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5173
+msgid "Sociétés de factoring (affacturage)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5172
+msgid "Sociétés de leasing (crédit-bail)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4213
+msgid "Soldes de tout compte restant dus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6112
+msgid "Sous traitance de capacité"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6113
+msgid "Sous traitance de marché"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6111
+msgid "Sous traitance de spécialité"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_373
+msgid "Stocks en dépôt ou en consignation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_374
+msgid "Stocks sous douanes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_741
+msgid "Subvention d'équilibre"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6563
+msgid "Subventions accordées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4414
+msgid "Subventions certification ISO à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4411
+msgid "Subventions d'investissement à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4412
+msgid "Subventions d’exploitation à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1321
+msgid "Subventions d’investissement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4462
+msgid "Subventions d’organismes étrangers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4413
+msgid "Subventions d’équilibre à recevoir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1312
+msgid "Subventions d’équipements: Financement d'autres organismes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1311
+msgid "Subventions d’équipements: Financementde l'Etat"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1319
+msgid "Subventions inscrites au compte de résultat"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1322
+msgid "Subventions pour financement d'activités à long terme"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4877
+msgid "Subventions à étaler"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63142
+msgid "Supplément familial : Prime de scolarité, IPSU, ICAF"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_acq_normale19
+msgid "TVA (achat) 19,0%"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_acq_specifique9
+msgid "TVA (achat) 9,0%"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_normale19
+msgid "TVA (vente) 19,0%"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_specifique9
+msgid "TVA (vente) 9,0%"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_purchase_0
+msgid "TVA 0% (achat)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_0
+msgid "TVA 0% (vente)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_exo_0
+msgid "TVA 0% EXO (achat)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_export_0
+msgid "TVA 0% export (vente)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_import_0
+msgid "TVA 0% import (achat)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44571
+msgid "TVA collectée sur Ventes – (livraisons juridiques ou matérielles)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44572
+msgid "TVA collectée sur les encaissements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_imm_normale19
+msgid "TVA immobilisation (achat) 19,0%"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.tax.template,name:l10n_dz.tva_imm_specifique9
+msgid "TVA immobilisation (achat) 9,0%"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44566
+msgid "TVA récupérable sur achats de stocks et de services"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44562
+msgid "TVA récupérable sur immobilisations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44584
+msgid "TVA récupérée d’avance ou en attente de régularisation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44587
+msgid "TVA sur factures de ventes ou de prestations à établir"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44586
+msgid "TVA sur factures d’achats non parvenues"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44563
+msgid "TVA transférée par d'autres entreprises"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_44551
+msgid "TVA à décaisser (à payer sur G.50)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4577
+msgid "Tantièmes à payer aux administrateurs et gérants"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6412
+msgid "Taxe d’apprentissage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6451
+msgid "Taxe foncière sur les propriétés bâties et non bâties"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4475
+msgid "Taxe foncière à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6413
+msgid "Taxe sur la formation professionnelle"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6422
+msgid "Taxe sur l’activité professionnelle – T.A.P. (sur encaissements)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6421
+msgid "Taxe sur l’activité professionnelle – T.A.P. (sur les débits)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4471
+msgid "Taxe sur l’activité professionnelle – TAP à payer (sur G.50)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4472
+msgid "Taxe sur l’apprentissage et la formation professionnelle"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6453
+msgid "Taxe sur l’environnement (écotaxe)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4473
+msgid "Taxe sur l’environnement – (Écotaxe)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_4476
+msgid "Taxes spéciales (ou spécifiques) à payer"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6452
+msgid "Taxes spéciales et droits d'accises"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6454
+msgid "Taxes sur les véhicules (Vignettes)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21121
+msgid "Terrains administratifs et commerciaux"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21132
+msgid "Terrains aménagés en aires de stationnement et parking"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21131
+msgid "Terrains aménagés en aires de stockage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2114
+msgid "Terrains de gisement (carrières)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_221
+msgid "Terrains en concession"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2322
+msgid "Terrains en cours "
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_21122
+msgid "Terrains industriels"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_2111
+msgid "Terrains nus"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_261
+msgid "Titres de filiales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_265
+msgid "Titres de participation évalués par équivalence (entreprises associés)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_271
+msgid ""
+"Titres immobilisés autres que les titres immobilisés de l'activité de "
+"portefeuille"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_273
+msgid "Titres immobilisés de l'activité de portefeuille (TIAP)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_63111
+msgid "Traitements, salaires et appointements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5112
+msgid "Traites remises à l’escompte"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_1313
+msgid "Transfert gratuit d’immobilisations"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6242
+msgid "Transport collectif du personnel"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6243
+msgid "Transport entre établissements ou chantiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6241
+msgid "Transport sur ventes"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6244
+msgid "Transports administratifs"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7046
+msgid "Travaux d'entretien et de nettoyage"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7045
+msgid "Travaux de VRD et d'assainissement"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7044
+msgid "Travaux de restauration de sites et monuments"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_70433
+msgid "Travaux de réalisation en C.E.S"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_70432
+msgid "Travaux de réalisation en Génie civil et Gros Œuvres"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_70431
+msgid "Travaux de réalisation en T.C.E"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_72335
+msgid "Travaux en cours"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3351
+msgid "Travaux en cours – T1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3352
+msgid "Travaux en cours – T2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_3353
+msgid "Travaux en cours – T3"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7047
+msgid "Travaux forestiers"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7041
+msgid "Travaux hydrauliques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_123
+msgid "Valeur Ajoutée d’exploitation"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6031
+msgid "Variations de stock de matières premières et Fournitures"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6032
+msgid "Variations de stock des autres approvisionnements"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5887
+msgid "Ventes au comptant"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7011
+msgid "Ventes de Produit fini (ou groupe) – PF1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7012
+msgid "Ventes de Produit fini (ou groupe) – PF2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7013
+msgid "Ventes de Produit fini (ou groupe) – PF3"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7021
+msgid "Ventes de Produits intermédiaires (ou groupe) – PI-1"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7022
+msgid "Ventes de Produits intermédiaires (ou groupe) – PI-2"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7031
+msgid "Ventes de déchets"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7033
+msgid "Ventes de matières de récupération recyclables"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7032
+msgid "Ventes de rebuts"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_7028
+msgid "Ventes de sous produits (PR et accessoires fabriqués)"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6374
+msgid "Versements aux œuvres sociales"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5812
+msgid "Versements d'espèces en banques"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_269
+msgid "Versements restant à effectuer sur titres de participation non libérés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_279
+msgid "Versements restant à effectuer sur titres immobilisés non libérés"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_509
+msgid ""
+"Versements restant à effectuer sur valeurs mobilières de placement non "
+"libérées"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_5811
+msgid "Virements interbancaires"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6251
+msgid "Voyages et déplacements à l’étranger"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_107
+msgid "Écarts d'équivalence"
+msgstr ""
+
+#. module: l10n_dz
+#: model:account.account.template,name:l10n_dz.pcg_6232
+msgid "Échantillons"
+msgstr ""

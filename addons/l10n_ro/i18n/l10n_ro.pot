@@ -1,0 +1,4839 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ro
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:36+0000\n"
+"PO-Revision-Date: 2022-04-15 22:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd1
+msgid "01 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd2
+msgid "02 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd3
+msgid "03 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd31
+msgid "03_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd4
+msgid "04 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd5
+msgid "05 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd5
+msgid "05 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd51
+msgid "05_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd51
+msgid "05_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd6
+msgid "06 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd6
+msgid "06 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd7
+msgid "07 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd7
+msgid "07 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd71
+msgid "07_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd71
+msgid "07_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd8
+msgid "08 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd8
+msgid "08 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd9
+msgid "09 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd9
+msgid "09 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd91
+msgid "09_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd91
+msgid "09_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd92
+msgid "09_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd1
+msgid ""
+"1 - BAZA - Livrări intracomunitare de bunuri, scutite conform art. 294 "
+"alin.(2) lit.a) şid) din Codul fiscal"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd10
+msgid "10 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd10
+msgid ""
+"10 - BAZA - Livrări de bunuri şi prestări de servicii taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd10
+msgid "10 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd10
+msgid ""
+"10 - TVA - Livrări de bunuri şi prestări de servicii taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd101
+msgid ""
+"10.1 - BAZA - Livrări de bunuri şi prestări de servicii taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd101
+msgid ""
+"10.1 - TVA - Livrări de bunuri şi prestări de servicii taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd102
+msgid ""
+"10.2 - TVA - Achizitii de bunuri şi prestări de servicii nedeductibile 50% "
+"taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd101
+msgid "10_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd101
+msgid "10_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd102
+msgid ""
+"10_2 - BAZA - Achizitii de bunuri şi prestări de servicii nedeductibile 50% "
+"taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd102
+msgid "10_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd11
+msgid "11 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd11
+msgid "11 - BAZA - Livrări de bunuri taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd11
+msgid "11 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd11
+msgid "11 - TVA - Livrări de bunuri taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd111
+msgid ""
+"11.1 - BAZA - Livrări de bunuri şi prestări de servicii taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd111
+msgid ""
+"11.1 - TVA - Livrări de bunuri şi prestări de servicii taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd112
+msgid ""
+"11.2 - BAZA - Achizitii de bunuri şi prestări de servicii nedeductibile 50% "
+"taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd112
+msgid ""
+"11.2 - TVA - Achizitii de bunuri şi prestări de servicii nedeductibile 50% "
+"taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd111
+msgid "11_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd111
+msgid "11_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd112
+msgid "11_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd12
+msgid "12 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd12
+msgid ""
+"12 - BAZA - Achiziţii de bunuri şi servicii supuse măsurilor de simplificare"
+" pentru care beneficiarul este obligat la plata TVA (taxare inversă) , din "
+"care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd12
+msgid "12 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd12
+msgid ""
+"12 - TVA - Achiziţii de bunuri şi servicii supuse măsurilor de simplificare "
+"pentru care beneficiarul este obligat la plata TVA (taxare inversă) , din "
+"care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd121
+msgid "12.1 - BAZA - Achizitii de bunuri si servicii, taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd121
+msgid "12.1 - TVA - Achizitii de bunuri si servicii, taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd122
+msgid "12.2 - BAZA - Achizitii de bunuri si servicii, taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd122
+msgid "12.2 - TVA - Achizitii de bunuri si servicii, taxabile cu cota 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd123
+msgid "12.3 - BAZA - Achizitii de bunuri si servicii, taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd123
+msgid "12.3 - TVA - Achizitii de bunuri si servicii, taxabile cu cota 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd121
+msgid "12_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd121
+msgid "12_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd122
+msgid "12_2 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd122
+msgid "12_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd123
+msgid "12_3 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd123
+msgid "12_3 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd13
+msgid "13 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd13
+msgid ""
+"13 - BAZA - Livrări de bunuri şi prestări de servicii supuse masurilor de "
+"simplificare (taxare inversa)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd14
+msgid "14 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd14
+msgid ""
+"14 - BAZA - Livrări de bunuri şi prestări de servicii scutite cu drept de "
+"deducere, altele decat cele de la rd. 1-3"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd15
+msgid "15 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd15
+msgid ""
+"15 - BAZA - Livrări de bunuri şi prestări de servicii scutite fără drept de "
+"deducere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd16
+msgid "16 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd16
+msgid "16 - BAZA - Regularizări taxă colectată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd16
+msgid "16 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd16
+msgid "16 - TVA - Regularizări taxă colectată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd17
+msgid "17 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd17
+msgid ""
+"17 - BAZA - Prestări de servicii intracomunitare conform art.278 alin.(8) "
+"din Codul fiscal pentru care locul prestării este în România"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd17
+msgid "17 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd17
+msgid ""
+"17 - TVA - Prestări de servicii intracomunitare conform art.278 alin.(8) din"
+" Codul fiscal pentru care locul prestării este în România"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd18
+msgid "18 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd18
+msgid ""
+"18 - BAZA - Regularizări privind prestări de servicii intracomunitare "
+"conform art.278 alin.(8) din Codul fiscal pentru care locul prestării este "
+"în România"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd18
+msgid "18 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd18
+msgid ""
+"18 - TVA - Regularizări privind prestări de servicii intracomunitare conform"
+" art.278 alin.(8) din Codul fiscal pentru care locul prestării este în "
+"România"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd2
+msgid ""
+"2 - BAZA - Regularizări livrări intracomunitare scutite conform art. 294 "
+"alin.(2) lit.a) şi d) din Codul fiscal"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd20
+msgid "20 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd20
+msgid ""
+"20 - BAZA - Achiziţii intracomunitare de bunuri pentru care cumpărătorul "
+"este obligat la plata TVA (taxare inversă) (rd.18=rd.5), din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd20
+msgid "20 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd20
+msgid ""
+"20 - TVA - Achiziţii intracomunitare de bunuri pentru care cumpărătorul este"
+" obligat la plata TVA (taxare inversă) (rd.18=rd.5), din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd201
+msgid ""
+"20.1 - BAZA - Achiziţii intracom. pentru care cumpărătorul este obligat la "
+"plata TVA (TI), iar furnizorul este înregistrat în scopuri de TVA în statul "
+"membru din care a avut loc livrarea (rd.18.1=rd.5.1)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd201
+msgid ""
+"20.1 - TVA - Achiziţii intracom. pentru care cumpărătorul este obligat la "
+"plata TVA (TI), iar furnizorul este înregistrat în scopuri de TVA în statul "
+"membru din care a avut loc livrarea (rd.18.1=rd.5.1)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd201
+msgid "20_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd201
+msgid "20_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd21
+msgid "21 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd21
+msgid ""
+"21 - BAZA - Regularizări privind achiziţiile intracomunitare de bunuri "
+"pentru care cumparatorul este obligat la plata TVA (taxare inversa) "
+"(rd.19=rd.6)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd21
+msgid "21 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd21
+msgid ""
+"21 - TVA - Regularizări privind achiziţiile intracomunitare de bunuri pentru"
+" care cumparatorul este obligat la plata TVA (taxare inversa) (rd.19=rd.6)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd22
+msgid "22 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd22
+msgid ""
+"22 - BAZA - Achiziţii de bunuri, altele decat cele de la rd. 18 şi 19, si "
+"achizitii de servicii pentru care beneficiarul din Romania este obligat la "
+"plata TVA (taxare inversa) (rd.20=rd.7), din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd22
+msgid "22 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd22
+msgid ""
+"22 - TVA - Achiziţii de bunuri, altele decat cele de la rd. 18 şi 19, si "
+"achizitii de servicii pentru care beneficiarul din Romania este obligat la "
+"plata TVA (taxare inversa) (rd.20=rd.7), din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd221
+msgid ""
+"22.1 - BAZA - Achizitii de servicii intracomunitare pentru care beneficiarul"
+" este obligat la plata TVA (taxare inversa) (rd.20.1=rd.7.1)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd221
+msgid ""
+"22.1 - TVA - Achizitii de servicii intracomunitare pentru care beneficiarul "
+"este obligat la plata TVA (taxare inversa) (rd.20.1=rd.7.1)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd221
+msgid "22_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd221
+msgid "22_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd23
+msgid "23 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd23
+msgid ""
+"23 - BAZA - Regularizari privind achizitii de servicii intracomunitare "
+"pentru care beneficiarul din Romania este obligat la plata TVA (taxare "
+"inversa) (rd.21=rd.8)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd23
+msgid "23 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd23
+msgid ""
+"23 - TVA - Regularizari privind achizitii de servicii intracomunitare pentru"
+" care beneficiarul din Romania este obligat la plata TVA (taxare inversa) "
+"(rd.21=rd.8)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd24
+msgid ""
+"24 - BAZA - Achiziţii de bunuri şi servicii taxabile cu cota de 19%, altele "
+"decat cele de la rd.27"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd24
+msgid ""
+"24 - TVA - Achiziţii de bunuri şi servicii taxabile cu cota de 19%, altele "
+"decat cele de la rd.27"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd241
+msgid ""
+"24.1 - BAZA - Achiziţii de bunuri şi servicii taxabile cu cota de 19%, "
+"altele decat cele de la rd.27"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd241
+msgid ""
+"24.1 - TVA - Achiziţii de bunuri şi servicii taxabile cu cota de 19%, altele"
+" decat cele de la rd.27"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd242
+msgid ""
+"24.2 - BAZA - Achiziţii de bunuri şi servicii taxabile cu cota de 19%, "
+"nedeductibile 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd242
+msgid ""
+"24.2 - TVA - Achiziţii de bunuri şi servicii taxabile cu cota de 19%, "
+"nedeductibile 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd241
+msgid "24_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd241
+msgid "24_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd242
+msgid "24_2 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd242
+msgid "24_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd25
+msgid "25 - BAZA - Achiziţii de bunuri şi servicii taxabile cu cota de 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd25
+msgid "25 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd25
+msgid "25 - TVA - Achiziţii de bunuri şi servicii taxabile cu cota de 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd251
+msgid "25.1 - BAZA - Achiziţii de bunuri şi servicii taxabile cu cota de 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd251
+msgid "25.1 - TVA - Achiziţii de bunuri şi servicii taxabile cu cota de 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd252
+msgid ""
+"25.2 - BAZA - Achiziţii de bunuri şi servicii taxabile cu cota de 9%, "
+"nedeductibile 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd252
+msgid ""
+"25.2 - TVA - Achiziţii de bunuri şi servicii taxabile cu cota de 9%, "
+"nedeductibile 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd251
+msgid "25_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd251
+msgid "25_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd252
+msgid "25_2 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd252
+msgid "25_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd26
+msgid "26 - BAZA - Achiziţii de bunuri taxabile cu cota de 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd26
+msgid "26 - TVA - Achiziţii de bunuri taxabile cu cota de 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd261
+msgid "26.1 - BAZA - Achiziţii de bunuri taxabile cu cota de 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd261
+msgid "26.1 - TVA - Achiziţii de bunuri taxabile cu cota de 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd262
+msgid ""
+"26.2 - BAZA - Achiziţii de bunuri taxabile cu cota de 5%, nedeductibile 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd262
+msgid ""
+"26.2 - TVA - Achiziţii de bunuri taxabile cu cota de 5%, nedeductibile 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd261
+msgid "26_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd261
+msgid "26_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd262
+msgid "26_2 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd262
+msgid "26_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd27
+msgid "27 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd27
+msgid ""
+"27 - BAZA - Achiziţii de bunuri şi servicii supuse masurilor de simplificare"
+" pentru care beneficiarul este obligat la plata TVA (taxare inversa),din "
+"care (rd.25=rd.12)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd27
+msgid "27 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd27
+msgid ""
+"27 - TVA - Achiziţii de bunuri şi servicii supuse masurilor de simplificare "
+"pentru care beneficiarul este obligat la plata TVA (taxare inversa),din care"
+" (rd.25=rd.12)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd271
+msgid ""
+"27.1 - BAZA - Achizitii de bunuri si servicii, taxabile cu cota 19% "
+"(rd.25.1=rd.12.1)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd271
+msgid ""
+"27.1 - TVA - Achizitii de bunuri si servicii, taxabile cu cota 19% "
+"(rd.25.1=rd.12.1)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd272
+msgid ""
+"27.2 - BAZA - Achizitii de bunuri, taxabile cu cota 9% (rd.25.2=rd.12.2)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd272
+msgid ""
+"27.2 - TVA - Achizitii de bunuri, taxabile cu cota 9% (rd.25.2=rd.12.2)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd273
+msgid ""
+"27.3 - BAZA - Achizitii de bunuri, taxabile cu cota 5% (rd.25.3=rd.12.3)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd273
+msgid ""
+"27.3 - TVA - Achizitii de bunuri, taxabile cu cota 5% (rd.25.3=rd.12.3)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd271
+msgid "27_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd271
+msgid "27_1 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd272
+msgid "27_2 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd272
+msgid "27_2 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd273
+msgid "27_3 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd273
+msgid "27_3 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd28
+msgid "28 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd28
+msgid ""
+"28 - TVA - Compensația în cotă forfetară pentru achiziții de produse și "
+"servicii agricole de la furnizori care aplică regimul special pentru "
+"agricultori"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd29
+msgid "29 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd29
+msgid "29 - TVA - Regularizări privind compensația în cotă forfetară"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd3
+msgid ""
+"3 - BAZA - Livrări de bunuri/prestări de servicii pentru care locul "
+"livrării/prestării este în afara României, precum şi livrări intracom. de "
+"bunuri, scut. conf. art. 294 alin.(2) lit.b) şi c) din CF, din care: "
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd31
+msgid ""
+"3.1 - BAZA - Prestări de servicii intracomunitare care nu beneficiază de "
+"scutire in statul membru in care taxa este datorată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd30
+msgid "30 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd30
+msgid ""
+"30 - BAZA - Achiziţii de bunuri şi servicii scutite de taxă sau "
+"neimpozabile, din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd301
+msgid ""
+"30.1 - BAZA - Achizitii de servicii intracomunitare scutite de taxa (nu se "
+"completeaza la metoda simplificata)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd301
+msgid "30_1 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_total_rd31
+msgid ""
+"31 - BAZA - TOTAL TAXĂ DEDUCTIBILĂ ( sumă de la rd.20 până la rd.29, cu "
+"excepţia celor de la rd.20.1,22.1, 27.1, 27.2, 27.3)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_total_rd31
+msgid ""
+"31 - TVA - TOTAL TAXĂ DEDUCTIBILĂ ( sumă de la rd.20 până la rd.29, cu "
+"excepţia celor de la rd.20.1,22.1, 27.1, 27.2, 27.3)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd32
+msgid ""
+"32 - TVA - SUB-TOTAL TAXĂ DEDUSĂ CONFORM ART. 297 ŞI ART. 298 SAU ART. 300 "
+"ŞI ART. 298 (rd.30<=rd.29)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd33
+msgid "33 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd33
+msgid ""
+"33 - TVA - TVA efectiv restituită cumpărătorilor straini, inclusiv "
+"comisionul unităţilor autorizate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_baza_rd34
+msgid "34 - BAZA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd34
+msgid "34 - BAZA - Regularizări taxă dedusă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd34
+msgid "34 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd34
+msgid "34 - TVA - Regularizări taxă dedusă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd35
+msgid "35 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd35
+msgid ""
+"35 - TVA - Ajustări conform pro-rata / ajustări pentru bunurile de capital"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd36
+msgid "36 - TVA - TOTAL TAXA DEDUSA (rd.32+rd.33+rd.34+rd.35)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd4
+msgid ""
+"4 - BAZA - Regularizări privind prestările de servicii intracomunitare care "
+"nu beneficiază de scutire in statul membru in care taxa este datorată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd40
+msgid "40 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd40
+msgid ""
+"40 - TVA - Diferenţe de TVA de plată stabilite de organele de inspecţie "
+"fiscală prin decizie comunicată şi neachitate până la data depunerii "
+"decontului de  TVA "
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,tag_name:l10n_ro.account_tax_report_ro_tva_rd43
+msgid "43 - TVA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd43
+msgid ""
+"43 - TVA - Diferenţe negative de TVA stabilite de organele de inspecţie "
+"fiscală prin decizie comunicată până la data depunerii decontului de TVA "
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd5
+msgid ""
+"5 - BAZA - Achizitii intracomunitare de bunuri pentru care cumpărătorul este"
+" obligat la plata TVA (taxare inversă), din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd5
+msgid ""
+"5 - TVA - Achizitii intracomunitare de bunuri pentru care cumpărătorul este "
+"obligat la plata TVA (taxare inversă), din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd51
+msgid ""
+"5.1 - BAZA - Achiziţii intracom. pentru care cumpărătorul este obligat la "
+"plata TVA (TI), iar furnizorul este înregistrat în scopuri de TVA în statul "
+"membru din care a avut loc livrarea intracom."
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd51
+msgid ""
+"5.1 - TVA - Achiziţii intracom. pentru care cumpărătorul este obligat la "
+"plata TVA (TI), iar furnizorul este înregistrat în scopuri de TVA în statul "
+"membru din care a avut loc livrarea intracom."
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd6
+msgid ""
+"6 - BAZA - Regularizări privind achiziţiile intracomunitare de bunuri pentru"
+" care cumpărătorul este obligat la plata TVA(taxare inversă)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd6
+msgid ""
+"6 - TVA - Regularizări privind achiziţiile intracomunitare de bunuri pentru "
+"care cumpărătorul este obligat la plata TVA(taxare inversă)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd7
+msgid ""
+"7 - BAZA - Achizitii de bunuri, altele decat cele de la rd.5 şi 6 si "
+"achizitii de servicii pentru care beneficiarul din Romania este obligat la "
+"plata TVA (taxare inversa) din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd7
+msgid ""
+"7 - TVA - Achizitii de bunuri, altele decat cele de la rd.5 şi 6 si "
+"achizitii de servicii pentru care beneficiarul din Romania este obligat la "
+"plata TVA (taxare inversa) din care:"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd71
+msgid ""
+"7.1 - BAZA - Achizitii de servicii intracomunitare pentru care beneficiarul "
+"este obligat la plata TVA (taxare inversa)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd71
+msgid ""
+"7.1 - TVA - Achizitii de servicii intracomunitare pentru care beneficiarul "
+"este obligat la plata TVA (taxare inversa)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd8
+msgid ""
+"8 - BAZA - Regularizari privind achizitii de servicii intracomunitare pentru"
+" care beneficiarul este obligat la plata TVA (taxare inversa)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd8
+msgid ""
+"8 - TVA - Regularizari privind achizitii de servicii intracomunitare pentru "
+"care beneficiarul este obligat la plata TVA (taxare inversa)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd9
+msgid ""
+"9 - BAZA - Livrări de bunuri şi prestări de servicii taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd9
+msgid ""
+"9 - TVA - Livrări de bunuri şi prestări de servicii taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd91
+msgid ""
+"9.1 - BAZA - Livrări de bunuri şi prestări de servicii taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd91
+msgid ""
+"9.1 - TVA - Livrări de bunuri şi prestări de servicii taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_rd92
+msgid ""
+"9.2 - BAZA - Achizitii de bunuri şi prestări de servicii nedeductibile 50% "
+"taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_rd92
+msgid ""
+"9.2 - TVA - Achizitii de bunuri şi prestări de servicii nedeductibile 50% "
+"taxabile cu cota 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_54
+#: model:account.group.template,name:l10n_ro.account_group_541
+msgid "Acreditive"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5411
+msgid "Acreditive în lei"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5414
+msgid "Acreditive în valută"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_361
+#: model:account.group.template,name:l10n_ro.account_group_36
+msgid "Active biologice de natura stocurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_356
+msgid "Active biologice de natura stocurilor aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_326
+msgid "Active biologice de natura stocurilor în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_217
+msgid "Active biologice productive"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_227
+msgid "Active biologice productive în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_807
+msgid "Active contingente"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_216
+msgid "Active corporale de explorare și evaluare a resurselor minerale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_206
+msgid "Active necorporale de explorare și evaluare a resurselor minerale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4551
+msgid "Acționari/asociați - conturi curente"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4558
+msgid "Acționari/asociați - dobânzi la conturi curente"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_262
+msgid "Acțiuni deținute la entități asociate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_263
+msgid "Acțiuni deținute la entități controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_261
+#: model:account.account.template,name:l10n_ro.pcg_501
+msgid "Acțiuni deținute la entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_109
+#: model:account.group.template,name:l10n_ro.account_group_117
+msgid "Acțiuni proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1092
+msgid "Acțiuni proprii deținute pe termen lung"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1091
+msgid "Acțiuni proprii deținute pe termen scurt"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1095
+msgid ""
+"Acțiuni proprii reprezentând titluri deținute de societatea absorbită la "
+"societatea absorbantă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_396
+msgid "Ajustări pentru deprecierea activelor biologice de natura stocurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3956
+msgid ""
+"Ajustări pentru deprecierea activelor biologice de natura stocurilor aflate "
+"la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2917
+msgid "Ajustări pentru deprecierea activelor biologice productive"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2916
+msgid ""
+"Ajustări pentru deprecierea activelor corporale de explorare și evaluare a "
+"resurselor minerale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2906
+msgid ""
+"Ajustări pentru deprecierea activelor necorporale de explorare și evaluare a"
+" resurselor minerale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2914
+msgid "Ajustări pentru deprecierea altor imobilizări corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2908
+msgid "Ajustări pentru deprecierea altor imobilizări necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_398
+msgid "Ajustări pentru deprecierea ambalajelor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3958
+msgid "Ajustări pentru deprecierea ambalajelor aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2903
+msgid "Ajustări pentru deprecierea cheltuielilor de dezvoltare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2905
+msgid ""
+"Ajustări pentru deprecierea concesiunilor, brevetelor, licențelor, mărcilor "
+"comerciale, drepturilor și activelor similare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2912
+msgid "Ajustări pentru deprecierea construcțiilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_49
+msgid "Ajustări pentru deprecierea creanțelor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_491
+msgid "Ajustări pentru deprecierea creanțelor - clienți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_496
+msgid "Ajustări pentru deprecierea creanțelor - debitori diverși"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_495
+msgid ""
+"Ajustări pentru deprecierea creanțelor - decontări în cadrul grupului și cu "
+"acționarii/asociații"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_291
+msgid "Ajustări pentru deprecierea imobilizărilor corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2931
+msgid ""
+"Ajustări pentru deprecierea imobilizărilor corporale în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_290
+msgid "Ajustări pentru deprecierea imobilizărilor necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_293
+msgid "Ajustări pentru deprecierea imobilizărilor în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2913
+msgid "Ajustări pentru deprecierea instalațiilor și mijloacelor de transport"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2935
+msgid ""
+"Ajustări pentru deprecierea investiții lor imobiliare în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2915
+msgid "Ajustări pentru deprecierea investițiilor imobiliare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_392
+msgid "Ajustări pentru deprecierea materialelor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3921
+msgid "Ajustări pentru deprecierea materialelor consumabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3922
+msgid ""
+"Ajustări pentru deprecierea materialelor de natura obiectelor de inventar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_391
+msgid "Ajustări pentru deprecierea materiilor prime"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3951
+msgid "Ajustări pentru deprecierea materiilor și materialelor aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_397
+msgid "Ajustări pentru deprecierea mărfurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3957
+msgid "Ajustări pentru deprecierea mărfurilor aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_393
+#: model:account.group.template,name:l10n_ro.account_group_393
+msgid "Ajustări pentru deprecierea producției în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_394
+msgid "Ajustări pentru deprecierea produselor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3947
+msgid "Ajustări pentru deprecierea produselor agricole"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3955
+msgid "Ajustări pentru deprecierea produselor agricole aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3945
+msgid "Ajustări pentru deprecierea produselor finite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3953
+msgid "Ajustări pentru deprecierea produselor finite aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3946
+msgid "Ajustări pentru deprecierea produselor reziduale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3954
+msgid "Ajustări pentru deprecierea produselor reziduale aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_29
+msgid "Ajustări pentru deprecierea sau pierderea de valoare a imobilizărilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3941
+msgid "Ajustări pentru deprecierea semifabricatelor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3952
+msgid "Ajustări pentru deprecierea semifabricatelor aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_395
+msgid "Ajustări pentru deprecierea stocurilor aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_39
+msgid ""
+"Ajustări pentru deprecierea stocurilor și producției în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2911
+msgid "Ajustări pentru deprecierea terenurilor și amenajărilor de terenuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2962
+msgid ""
+"Ajustări pentru pierderea de valoare a acțiunilor deținute la entități "
+"asociate și entități controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2961
+#: model:account.account.template,name:l10n_ro.pcg_591
+msgid ""
+"Ajustări pentru pierderea de valoare a acțiunilor deținute la entitățile "
+"afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2968
+msgid "Ajustări pentru pierderea de valoare a altor creanțe"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_598
+msgid ""
+"Ajustări pentru pierderea de valoare a altor investiții pe termen scurt și "
+"creanțe asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2963
+msgid "Ajustări pentru pierderea de valoare a altor titluri imobilizate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_59
+msgid "Ajustări pentru pierderea de valoare a conturilor de trezorerie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2965
+msgid ""
+"Ajustări pentru pierderea de valoare a creanțelor față de entitățile "
+"asociate și entitățile controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_296
+msgid "Ajustări pentru pierderea de valoare a imobilizărilor financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_596
+msgid "Ajustări pentru pierderea de valoare a obligațiunilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_595
+msgid ""
+"Ajustări pentru pierderea de valoare a obligațiunilor emise și răscumpărate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2964
+msgid ""
+"Ajustări pentru pierderea de valoare a sumelor de încasat de la entitățile "
+"afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2966
+msgid ""
+"Ajustări pentru pierderea de valoare a împrumuturilor acordate pe termen "
+"lung"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_437
+msgid "Ajutor de șomaj"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8018
+msgid "Alte angajamente acordate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8028
+msgid "Alte angajamente primite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_628
+msgid "Alte cheltuieli cu serviciile executate de terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_65881
+#: model:account.group.template,name:l10n_ro.account_group_65
+#: model:account.group.template,name:l10n_ro.account_group_658
+#: model:account.group.template,name:l10n_ro.account_group_6588
+msgid "Alte cheltuieli de exploatare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_65882
+msgid "Alte cheltuieli de exploatare nedeductibile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_668
+msgid "Alte cheltuieli financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6458
+msgid "Alte cheltuieli privind asigurările și protecția socială"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4318
+msgid "Alte contribuții pentru asigurările sociale de sănătate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2678
+msgid "Alte creanțe imobilizate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4482
+msgid "Alte creanțe privind bugetul statului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4382
+msgid "Alte creanțe sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4282
+msgid "Alte creanțe în legătură cu personalul"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4481
+msgid "Alte datorii față de bugetul statului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4381
+msgid "Alte datorii sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4281
+msgid "Alte datorii în legătură cu personalul"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_448
+msgid "Alte datorii și creanțe cu bugetul statului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_438
+msgid "Alte datorii și creanțe sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_428
+msgid "Alte datorii și creanțe în legătură cu personalul"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_103
+msgid "Alte elemente de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_208
+msgid "Alte imobilizări necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_446
+msgid "Alte impozite, taxe și vărsăminte asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_508
+msgid "Alte investiții pe termen scurt și creanțe asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3028
+msgid "Alte materiale consumabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1498
+msgid "Alte pierderi legate de instrumentele de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1518
+msgid "Alte provizioane"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1068
+msgid "Alte rezerve"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4458
+msgid "Alte sume primite cu caracter de subvenții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4758
+msgid "Alte sume primite cu caracter de subvenții pentru investiții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5081
+msgid "Alte titluri de plasament"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_265
+msgid "Alte titluri imobilizate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5328
+#: model:account.group.template,name:l10n_ro.account_group_532
+msgid "Alte valori"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8039
+msgid "Alte valori în afara bilanțului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7588
+#: model:account.group.template,name:l10n_ro.account_group_75
+#: model:account.group.template,name:l10n_ro.account_group_758
+msgid "Alte venituri din exploatare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_768
+msgid "Alte venituri financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1618
+msgid "Alte împrumuturi din emisiuni de obligațiuni"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_167
+msgid "Alte împrumuturi și datorii asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_381
+#: model:account.group.template,name:l10n_ro.account_group_38
+msgid "Ambalaje"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_358
+msgid "Ambalaje aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_328
+msgid "Ambalaje în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2112
+msgid "Amenajări de terenuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2817
+msgid "Amortizarea activelor biologice productive"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2816
+msgid ""
+"Amortizarea activelor corporale de explorare și evaluare a resurselor "
+"minerale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2806
+msgid ""
+"Amortizarea activelor necorporale de explorare și evaluare a resurselor "
+"minerale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2814
+msgid "Amortizarea altor imobilizări corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2808
+msgid "Amortizarea altor imobilizări necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2811
+msgid "Amortizarea amenajărilor de terenuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2801
+msgid "Amortizarea cheltuielilor de constituire"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2803
+msgid "Amortizarea cheltuielilor de dezvoltare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2805
+msgid ""
+"Amortizarea concesiunilor, brevetelor, licențelor, mărcilor comerciale, "
+"drepturilor și activelor similare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2812
+msgid "Amortizarea construcțiilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2807
+msgid "Amortizarea fondului comercial"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2813
+msgid "Amortizarea instalațiilor și mijloacelor de transport"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2815
+msgid "Amortizarea investițiilor imobiliare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_28
+msgid "Amortizări privind imobilizările"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_281
+msgid "Amortizări privind imobilizările corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_280
+msgid "Amortizări privind imobilizările necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2132
+msgid "Aparate și instalații de măsurare, control și reglare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_431
+msgid "Asigurări sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_43
+msgid "Asigurări sociale, protecția socială și conturi asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4093
+msgid "Avansuri acordate pentru imobilizări corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4094
+msgid "Avansuri acordate pentru imobilizări necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_425
+msgid "Avansuri acordate personalului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_542
+msgid "Avansuri de trezorerie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_achiz
+msgid ""
+"BAZA ACHIZIŢII DE BUNURI/ SERVICII ÎN INTERIORUL ŢĂRII ŞI IMPORTURI, "
+"ACHIZIŢII INTRACOMUNITARE, SCUTITE SAU NEIMPOZABILE"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_intracom_eu_achiz
+msgid ""
+"BAZA ACHIZIŢII INTRACOMUNITARE DE BUNURI ŞI ALTE ACHIZIŢII DE BUNURI ŞI "
+"SERVICII IMPOZABILE ÎN ROMÂNIA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_livrari
+msgid ""
+"BAZA LIVRĂRI DE BUNURI/ PRESTĂRI DE SERVICII ÎN INTERIORUL ŢĂRII ŞI "
+"EXPORTURI"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_intracom_eu
+msgid "Baza COMERŢ INTRACOMUNITAR ŞI ÎN AFARA UE"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_baza_col
+msgid "Baza Total Taxa COLECTATĂ"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1031
+msgid ""
+"Beneficii acordate angajaților sub forma instrumentelor de capitaluri "
+"proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_891
+msgid "Bilanț de deschidere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_892
+msgid "Bilanț de închidere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5322
+msgid "Bilete de tratament și odihnă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_44
+msgid "Bugetul statului, fonduri speciale și conturi asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8038
+msgid "Bunuri primite în administrare, concesiune și cu chirie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_cls_15
+msgid "CLASELE 1-5"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_all
+msgid "CLASELE 1-7"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_cls_67
+msgid "CLASELE 6-7"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_1
+msgid "CONTURI DE CAPITALURI, PROVIZIOANE, ÎMPRUMUTURI ȘI DATORII ASIMILATE"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_6
+msgid "CONTURI DE CHELTUIELI"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_2
+msgid "CONTURI DE IMOBILIZĂRI"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_3
+msgid "CONTURI DE STOCURI șI PRODUCțIE ÎN CURS DE EXECUțIE"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_4
+msgid "CONTURI DE TERȚI"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_5
+msgid "CONTURI DE TREZORERIE"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_7
+msgid "CONTURI DE VENITURI"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_101
+msgid "Capital"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1011
+msgid "Capital subscris nevărsat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1012
+msgid "Capital subscris vărsat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_10
+msgid "Capital și rezerve"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_53
+#: model:account.group.template,name:l10n_ro.account_group_531
+msgid "Casa"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5311
+msgid "Casa în lei"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5314
+msgid "Casa în valută"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5112
+msgid "Cecuri de încasat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_806
+msgid "Certificate de emisii de gaze cu efect de seră"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_804
+msgid "Certificate verzi"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_266
+msgid "Certificate verzi amânate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_507
+msgid "Certificate verzi primite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6351
+#: model:account.group.template,name:l10n_ro.account_group_63
+#: model:account.group.template,name:l10n_ro.account_group_635
+msgid "Cheltuieli cu alte impozite, taxe și vărsăminte asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6352
+msgid ""
+"Cheltuieli cu alte impozite, taxe și vărsăminte asimilate nedeductibile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_62
+msgid "Cheltuieli cu alte servicii executate de terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_68
+msgid ""
+"Cheltuieli cu amortizările, provizioanele și ajustările pentru depreciere "
+"sau pierdere de valoare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6421
+msgid "Cheltuieli cu avantajele în natură acordate salariaților"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_642
+msgid "Cheltuieli cu avantajele în natură și tichetele acordate salariaților"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_621
+msgid "Cheltuieli cu colaboratorii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_625
+msgid "Cheltuieli cu deplasări, detașări și transferări"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_691
+msgid "Cheltuieli cu impozitul pe profit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_69
+msgid "Cheltuieli cu impozitul pe profit și alte impozite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_698
+msgid ""
+"Cheltuieli cu impozitul pe venit și cu alte impozite care nu apar in "
+"elementele de mai sus"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_695
+msgid "Cheltuieli cu impozitul specific unor activitati"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6021
+msgid "Cheltuieli cu materiale auxiliare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_602
+msgid "Cheltuieli cu materialele consumabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_601
+msgid "Cheltuieli cu materiile prime"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_64
+msgid "Cheltuieli cu personalul"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_615
+msgid "Cheltuieli cu pregătirea personalului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_613
+msgid "Cheltuieli cu primele de asigurare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_644
+msgid "Cheltuieli cu primele reprezentând participarea personalului la profit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_652
+msgid "Cheltuieli cu protecția mediului înconjurător"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_612
+msgid "Cheltuieli cu redevențele, locațiile de gestiune și chiriile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_643
+msgid "Cheltuieli cu remunerarea în instrumente de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_641
+msgid "Cheltuieli cu salariile personalului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_627
+msgid "Cheltuieli cu serviciile bancare și asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_61
+msgid "Cheltuieli cu serviciile executate de terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_614
+msgid "Cheltuieli cu studiile și cercetările"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6584
+msgid "Cheltuieli cu sumele sau bunurile acordate ca sponsorizări"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6422
+msgid "Cheltuieli cu tichetele acordate salariaților"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_624
+msgid "Cheltuieli cu transportul de bunuri și personal"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_611
+msgid "Cheltuieli cu întreținerea și reparațiile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_201
+msgid "Cheltuieli de constituire"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_925
+msgid "Cheltuieli de desfacere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_203
+msgid "Cheltuieli de dezvoltare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6814
+msgid ""
+"Cheltuieli de exploatare privind ajustările pentru deprecierea activelor "
+"circulante"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6817
+msgid ""
+"Cheltuieli de exploatare privind ajustările pentru deprecierea fondului "
+"comercial"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6813
+msgid ""
+"Cheltuieli de exploatare privind ajustările pentru deprecierea "
+"imobilizărilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6811
+msgid "Cheltuieli de exploatare privind amortizarea imobilizărilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_681
+msgid ""
+"Cheltuieli de exploatare privind amortizările, provizioanele și ajustările "
+"pentru depreciere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6812
+msgid "Cheltuieli de exploatare privind provizioanele"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6231
+msgid "Cheltuieli de protocol"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_623
+msgid "Cheltuieli de protocol, reclama si publicitate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6232
+msgid "Cheltuieli de reclamă și publicitate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6512
+msgid "Cheltuieli din derularea operațiunilor de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_665
+msgid "Cheltuieli din diferențe de curs valutar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6513
+msgid "Cheltuieli din lichidarea operațiunilor de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_651
+msgid "Cheltuieli din operațiuni de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_655
+msgid "Cheltuieli din reevaluarea imobilizărilor corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_66
+msgid "Cheltuieli financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6864
+msgid ""
+"Cheltuieli financiare privind ajustările pentru pierderea de valoare a "
+"activelor circulante"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6863
+msgid ""
+"Cheltuieli financiare privind ajustările pentru pierderea de valoare a "
+"imobilizărilor financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6865
+msgid ""
+"Cheltuieli financiare privind amortizarea diferențelor aferente titlurilor "
+"de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6868
+msgid ""
+"Cheltuieli financiare privind amortizarea primelor de rambursare a "
+"obligațiunilor și a altor datorii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_686
+msgid ""
+"Cheltuieli financiare privind amortizările, provizioanele și ajustările "
+"pentru pierdere de valoare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_924
+msgid "Cheltuieli generale de administrație"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_923
+msgid "Cheltuieli indirecte de producție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6511
+msgid "Cheltuieli ocazionate de constituirea fiduciei"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_626
+msgid "Cheltuieli poștale și taxe de telecomunicații"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_606
+msgid "Cheltuieli privind activele biologice de natura stocurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6583
+msgid "Cheltuieli privind activele cedate și alte operațiuni de capital"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6861
+msgid "Cheltuieli privind actualizarea provizioanelor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6028
+msgid "Cheltuieli privind alte materiale consumabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_608
+msgid "Cheltuieli privind ambalajele"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_645
+msgid "Cheltuieli privind asigurările și protecția socială"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6587
+msgid "Cheltuieli privind calamitățile și alte evenimente similare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6022
+msgid "Cheltuieli privind combustibilul"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_622
+msgid "Cheltuieli privind comisioanele și onorariile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6453
+msgid ""
+"Cheltuieli privind contribuția angajatorului pentru asigurările sociale de "
+"sănătate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_646
+msgid "Cheltuieli privind contribuția asiguratorie pentru muncă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6455
+msgid "Cheltuieli privind contribuția unității la asigurările de viață"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6451
+msgid "Cheltuieli privind contribuția unității la asigurările sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6456
+msgid ""
+"Cheltuieli privind contribuția unității la fondurile de pensii facultative"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6457
+msgid ""
+"Cheltuieli privind contribuția unității la primele de asigurare voluntară de"
+" sănătate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6452
+msgid "Cheltuieli privind contribuția unității pentru ajutorul de șomaj"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_666
+msgid "Cheltuieli privind dobânzile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_605
+msgid "Cheltuieli privind energia și apa"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6026
+msgid "Cheltuieli privind furajele"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6641
+msgid "Cheltuieli privind imobilizările financiare cedate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_664
+msgid "Cheltuieli privind investițiile financiare cedate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_603
+msgid "Cheltuieli privind materialele de natura obiectelor de inventar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_604
+msgid "Cheltuieli privind materialele nestocate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6023
+msgid "Cheltuieli privind materialele pentru ambalat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.ro_pcg_expense
+msgid "Cheltuieli privind mărfurile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6024
+msgid "Cheltuieli privind piesele de schimb"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_667
+msgid "Cheltuieli privind sconturile acordate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6025
+msgid "Cheltuieli privind semințele și materialele de plantat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_60
+msgid "Cheltuieli privind stocurile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6586
+msgid ""
+"Cheltuieli reprezentând transferuri și contribuții datorate în baza unor "
+"acte normative speciale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_471
+msgid "Cheltuieli înregistrate în avans"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_921
+msgid "Cheltuielile activității de bază"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_922
+msgid "Cheltuielile activităților auxiliare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_70
+msgid "Cifra de afaceri netă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.ro_pcg_recv
+#: model:account.group.template,name:l10n_ro.account_group_411
+msgid "Clienți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_419
+msgid "Clienți - creditori"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_418
+msgid "Clienți - facturi de întocmit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4118
+msgid "Clienți incerți sau în litigiu"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_41
+msgid "Clienți și conturi asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3022
+msgid "Combustibili"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_205
+msgid ""
+"Concesiuni, brevete, licențe, mărci comerciale, drepturi și active similare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_212
+msgid "Construcții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:ir.model,name:l10n_ro.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_436
+msgid "Contributia asiguratorie pentru munca"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4313
+msgid "Contribuția angajatorului pentru asigurările sociale de sănătate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4314
+msgid "Contribuția angajaților pentru asigurările sociale de sănătate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4315
+msgid "Contribuția de asigurări sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4316
+msgid "Contribuția de asigurări sociale de sănătate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4312
+msgid "Contribuția personalului la asigurările sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4372
+msgid "Contribuția personalului la fondul de șomaj"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4311
+msgid "Contribuția unității la asigurările sociale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4371
+msgid "Contribuția unității la fondul de șomaj"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_47
+msgid "Conturi de subvenții, regularizare și asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_51
+msgid "Conturi la bănci"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5121
+msgid "Conturi la bănci în lei"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5124
+msgid "Conturi la bănci în valută"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_931
+msgid "Costul producției obținute"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_933
+msgid "Costul producției în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_463
+msgid ""
+"Creante reprezentand dividende repartizate in cursul exercitiului financiar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4662
+msgid "Creanțe din operațiuni de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2673
+msgid "Creanțe față de entitățile asociate și entitățile controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_267
+msgid "Creanțe imobilizate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_809
+msgid "Creanțe preluate prin cesionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1625
+msgid "Credite bancare externe garantate de bănci"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1624
+msgid "Credite bancare externe garantate de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1627
+msgid "Credite bancare interne garantate de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1621
+#: model:account.group.template,name:l10n_ro.account_group_162
+msgid "Credite bancare pe termen lung"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1622
+msgid "Credite bancare pe termen lung nerambursate la scadență"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5191
+msgid "Credite bancare pe termen scurt"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5192
+msgid "Credite bancare pe termen scurt nerambursate la scadență"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1626
+#: model:account.account.template,name:l10n_ro.pcg_5196
+msgid "Credite de la trezoreria statului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5195
+msgid "Credite externe garantate de bănci"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5194
+msgid "Credite externe garantate de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1623
+#: model:account.account.template,name:l10n_ro.pcg_5193
+msgid "Credite externe guvernamentale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5197
+msgid "Credite interne garantate de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_462
+msgid "Creditori diverși"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7642
+msgid "Câștiguri din investiții pe termen scurt cedate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1412
+msgid "Câștiguri legate de anularea instrumentelor de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1411
+msgid "Câștiguri legate de vânzarea instrumentelor de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_141
+msgid ""
+"Câștiguri legate de vânzarea sau anularea instrumentelor de capitaluri "
+"proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_14
+msgid ""
+"Câștiguri sau pierderi legate de emiterea, răscumpărarea, vânzarea, cedarea "
+"cu titlu gratuit sau anularea instrumentelor de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_166
+msgid "Datorii care privesc imobilizările financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_808
+msgid "Datorii contingente"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4661
+msgid "Datorii din operațiuni de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1661
+msgid "Datorii față de entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1663
+msgid "Datorii față de entitățile asociate și entitățile controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_461
+msgid "Debitori diverși"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8034
+msgid "Debitori scoși din activ, urmăriți în continuare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_46
+msgid "Debitori și creditori diverși"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_456
+msgid "Decontări cu acționarii/asociații privind capitalul"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4531
+#: model:account.group.template,name:l10n_ro.account_group_453
+msgid "Decontări cu entitățile asociate și entitățile controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_466
+msgid "Decontări din operațiuni de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_473
+msgid "Decontări din operațiuni în curs de clarificare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_458
+msgid "Decontări din operațiuni în participație"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4581
+msgid "Decontări din operațiuni în participație - activ"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4582
+msgid "Decontări din operațiuni în participație - pasiv"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_901
+msgid "Decontări interne privind cheltuielile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_903
+msgid "Decontări interne privind diferențele de preț"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_902
+msgid "Decontări interne privind producția obținută"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_48
+msgid "Decontări în cadrul unității"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4511
+#: model:account.group.template,name:l10n_ro.account_group_451
+msgid "Decontări între entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_482
+msgid "Decontări între subunități"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_481
+msgid "Decontări între unitate și subunități"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6581
+msgid "Despăgubiri, amenzi și penalități"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_107
+msgid "Diferențe de curs valutar din conversie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1033
+msgid ""
+"Diferențe de curs valutar în relație cu investiția netă într-o entitate "
+"străină"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_368
+msgid "Diferențe de preț la active biologice de natura stocurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_388
+msgid "Diferențe de preț la ambalaje"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_308
+msgid "Diferențe de preț la materii prime și materiale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_378
+msgid "Diferențe de preț la mărfuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_348
+msgid "Diferențe de preț la produse"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1038
+msgid ""
+"Diferențe din modificarea valorii juste a activelor financiare disponibile "
+"în vederea vânzării și alte elemente de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7652
+msgid ""
+"Diferențe favorabile de curs valutar din evaluarea elementelor monetare care"
+" fac parte din investiția netă într-o entitate străină"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7651
+msgid ""
+"Diferențe favorabile de curs valutar legate de elementele monetare exprimate"
+" în valută"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6652
+msgid ""
+"Diferențe nefavorabile de curs valutar din evaluarea elementelor monetare "
+"care fac parte din investiția netă într-o entitate străină"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6651
+msgid ""
+"Diferențe nefavorabile de curs valutar legate de elementele monetare "
+"exprimate în valută"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_457
+msgid "Dividende de plată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2674
+msgid ""
+"Dobânda aferentă creanțelor față de entitățile asociate și entitățile "
+"controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2672
+msgid "Dobânda aferentă sumelor de încasat de la entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2676
+msgid "Dobânda aferentă împrumuturilor acordate pe termen lung"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2679
+msgid "Dobânzi aferente altor creanțe imobilizate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1687
+msgid "Dobânzi aferente altor împrumuturi și datorii asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1682
+msgid "Dobânzi aferente creditelor bancare pe termen lung"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5198
+msgid "Dobânzi aferente creditelor bancare pe termen scurt"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1686
+msgid ""
+"Dobânzi aferente datoriilor fată de entitătile asociate și entitățile "
+"controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1685
+msgid "Dobânzi aferente datoriilor față de entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4538
+msgid ""
+"Dobânzi aferente decontărilor cu entitățile asociate și entitățile "
+"controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4518
+msgid "Dobânzi aferente decontărilor între entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1681
+msgid "Dobânzi aferente împrumuturilor din emisiuni de obligațiuni"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_168
+msgid "Dobânzi aferente împrumuturilor și datoriilor asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5186
+#: model:account.account.template,name:l10n_ro.pcg_8051
+msgid "Dobânzi de plătit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5187
+#: model:account.account.template,name:l10n_ro.pcg_8052
+msgid "Dobânzi de încasat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5088
+msgid "Dobânzi la obligațiuni și titluri de plasament"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6582
+msgid "Donații acordate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4753
+msgid "Donații pentru investiții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_426
+msgid "Drepturi de personal neridicate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2131
+msgid "Echipamente tehnologice (mașini, utilaje și instalații de lucru)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_403
+msgid "Efecte de plătit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_405
+msgid "Efecte de plătit pentru imobilizări"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_413
+msgid "Efecte de primit de la clienți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5113
+msgid "Efecte de încasat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5114
+msgid "Efecte remise spre scontare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8037
+msgid "Efecte scontate neajunse la scadență"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_207
+msgid "Fond comercial"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2075
+msgid "Fond comercial negativ"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2071
+msgid "Fond comercial pozitiv"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_447
+msgid "Fonduri speciale - taxe și vărsăminte asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3026
+msgid "Furaje"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.ro_pcg_pay
+msgid "Furnizori"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_409
+msgid "Furnizori - debitori"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4091
+msgid "Furnizori - debitori pentru cumpărări de bunuri de natura stocurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4092
+msgid "Furnizori - debitori pentru prestări de servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_408
+msgid "Furnizori - facturi nesosite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_404
+msgid "Furnizori de imobilizări"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_40
+msgid "Furnizori și conturi asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8011
+msgid "Giruri și garanții acordate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8021
+msgid "Giruri și garanții primite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_45
+msgid "Grup și acționari/asociați"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_21
+msgid "Imobilizări corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8031
+msgid "Imobilizări corporale luate cu chirie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_22
+msgid "Imobilizări corporale în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_231
+msgid "Imobilizări corporale în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_26
+msgid "Imobilizări financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_20
+msgid "Imobilizări necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_23
+msgid "Imobilizări în curs"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4411
+msgid "Impozitul pe profit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_441
+msgid "Impozitul pe profit/venit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4418
+msgid "Impozitul pe venit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_444
+msgid "Impozitul pe venituri de natura salariilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4415
+msgid "Impozitul specific unor activități"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_213
+msgid "Instalații tehnice și mijloace de transport"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_223
+msgid "Instalații tehnice și mijloace de transport în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_108
+msgid "Interese care nu controlează"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1082
+msgid "Interese care nu controlează - alte capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1081
+msgid "Interese care nu controlează - rezultatul exercițiului financiar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_215
+msgid "Investiții imobiliare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_235
+msgid "Investiții imobiliare în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_50
+msgid "Investiții pe termen scurt"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.ro_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3021
+msgid "Materiale auxiliare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_302
+msgid "Materiale consumabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_322
+msgid "Materiale consumabile în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_303
+msgid "Materiale de natura obiectelor de inventar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_323
+msgid "Materiale de natura obiectelor de inventar în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3023
+msgid "Materiale pentru ambalat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_301
+msgid "Materii prime"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_321
+msgid "Materii prime în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_351
+msgid "Materii și materiale aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2133
+msgid "Mijloace de transport"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_214
+msgid ""
+"Mobilier, aparatură birotică, echipamente de protecție a valorilor umane și "
+"materiale și alte active corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_224
+msgid ""
+"Mobilier, aparatură birotică, echipamente de protecție a valorilor umane și "
+"materiale și alte active corporale în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_371
+#: model:account.group.template,name:l10n_ro.account_group_37
+msgid "Mărfuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_357
+msgid "Mărfuri aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_327
+msgid "Mărfuri în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:ir.model.fields,field_description:l10n_ro.field_res_partner__nrc
+#: model:ir.model.fields,field_description:l10n_ro.field_res_users__nrc
+msgid "NRC"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatinea
+msgid "Neimpozabil-A"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatine
+msgid "Neimpozabil-L"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_506
+msgid "Obligațiuni"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2677
+msgid "Obligațiuni achiziționate cu ocazia emisiunilor efectuate de terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_505
+msgid "Obligațiuni emise și răscumpărate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1018
+msgid "Patrimoniul institutelor naționale de cercetare-dezvoltare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1017
+msgid "Patrimoniul privat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1016
+msgid "Patrimoniul public"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1015
+msgid "Patrimoniul regiei"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_423
+msgid "Personal - ajutoare materiale datorate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_421
+msgid "Personal - salarii datorate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_42
+msgid "Personal și conturi asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_663
+msgid "Pierderi din creanțe legate de participații"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_654
+msgid "Pierderi din creanțe și debitori diverși"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_6642
+msgid "Pierderi din investițiile pe termen scurt cedate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_149
+msgid ""
+"Pierderi legate de emiterea, răscumpărarea, vânzarea, cedarea cu titlu "
+"gratuit sau anularea instrumentelor de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1495
+msgid ""
+"Pierderi rezultate din reorganizări, care sunt determinate de anularea "
+"titlurilor deținute"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1491
+msgid "Pierderi rezultate din vânzarea instrumentelor de capitaluri proprii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3024
+msgid "Piese de schimb"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4754
+msgid "Plusuri de inventar de natura imobilizărilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,note:l10n_ro.fiscal_position_template_51
+msgid ""
+"Pozitia se refera atat la livrari / achizitii intracomunitare cat si "
+"extracomunitare cu drept de deducere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,note:l10n_ro.fiscal_position_template_52
+msgid ""
+"Pozitia se refera atat la livrari / achizitii intracomunitare cat si "
+"extracomunitare fara drept de deducere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,note:l10n_ro.fiscal_position_template_7
+msgid "Pozitia se refera la livrari extracomunitare care sunt taxabile."
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1043
+msgid "Prime de aport"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_104
+msgid "Prime de capital"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1044
+msgid "Prime de conversie a obligațiunilor în acțiuni"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1041
+msgid "Prime de emisiune"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1042
+msgid "Prime de fuziune/divizare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1692
+msgid "Prime privind rambursarea altor datorii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1691
+msgid "Prime privind rambursarea obligațiunilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_169
+msgid "Prime privind rambursarea obligațiunilor și a altor datorii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_424
+msgid "Prime reprezentând participarea personalului la profit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_33
+msgid "Producție în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_34
+msgid "Produse"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_354
+msgid "Produse aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_347
+msgid "Produse agricole"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_345
+msgid "Produse finite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_346
+msgid "Produse reziduale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_331
+msgid "Produse în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_121
+msgid "Profit sau pierdere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_15
+#: model:account.group.template,name:l10n_ro.account_group_151
+msgid "Provizioane"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1513
+msgid ""
+"Provizioane pentru dezafectare imobilizări corporale și alte acțiuni "
+"similare legate de acestea"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1512
+msgid "Provizioane pentru garanții acordate clienților"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1516
+msgid "Provizioane pentru impozite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1511
+msgid "Provizioane pentru litigii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1515
+msgid "Provizioane pentru pensii și obligații similare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1514
+msgid "Provizioane pentru restructurare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1517
+msgid "Provizioane pentru terminarea contractului de muncă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8036
+msgid "Redevențe, locații de gestiune, chirii și alte datorii asimilate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_709
+msgid "Reduceri comerciale acordate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_609
+msgid "Reduceri comerciale primite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_7
+msgid "Regim Extra-Comunitar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_3
+msgid "Regim Intra-Comunitar (TVA)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_6
+msgid "Regim Intra-Comunitar Neimpozabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_4
+msgid "Regim Intra-Comunitar Scutit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_11
+msgid "Regim National"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_1
+msgid "Regim National (TVA)"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_51
+msgid "Regim Scutite - cu drept de deducere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_52
+msgid "Regim Scutite - fara drept de deducere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_8
+msgid "Regim TVA la Incasare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.fiscal.position.template,name:l10n_ro.fiscal_position_template_2
+msgid "Regim Taxare Inversa"
+msgstr ""
+
+#. module: l10n_ro
+#: model:ir.model.fields,help:l10n_ro.field_res_partner__nrc
+#: model:ir.model.fields,help:l10n_ro.field_res_users__nrc
+msgid "Registration number at the Registry of Commerce"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_129
+msgid "Repartizarea profitului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_106
+msgid "Rezerve"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_105
+msgid "Rezerve din reevaluare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1061
+msgid "Rezerve legale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1063
+msgid "Rezerve statutare sau contractuale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_12
+msgid "Rezultatul exercițiului financiar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_11
+msgid "Rezultatul reportat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1172
+msgid ""
+"Rezultatul reportat provenit din adoptarea pentru prima dată a IAS, mai "
+"puțin IAS 29"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1174
+msgid "Rezultatul reportat provenit din corectarea erorilor contabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1173
+msgid "Rezultatul reportat provenit din modificările politicilor contabile"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1176
+msgid ""
+"Rezultatul reportat provenit din trecerea la aplicarea reglementărilor "
+"contabile conforme cu directivele europene"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1171
+msgid ""
+"Rezultatul reportat reprezentând profitul nerepartizat sau pierderea "
+"neacoperită"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1175
+msgid ""
+"Rezultatul reportat reprezentând surplusul realizat din rezerve din "
+"reevaluare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_427
+msgid "Rețineri din salarii datorate terților"
+msgstr ""
+
+#. module: l10n_ro
+#: model:ir.ui.menu,name:l10n_ro.account_reports_ro_statements_menu
+msgid "Romania"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.chart.template,name:l10n_ro.ro_chart_template
+msgid "Romania - Chart of Accounts"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatiscdeda
+msgid "Scutit-A"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatiscdeda_intr
+msgid "Scutit-AI"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatiscded
+msgid "Scutit-L1"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatiscnoded
+msgid "Scutit-L2"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_341
+msgid "Semifabricate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_3025
+msgid "Semințe și materiale de plantat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_332
+msgid "Servicii în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_35
+msgid "Stocuri aflate la terți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_30
+msgid "Stocuri de materii prime și materiale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8035
+msgid "Stocuri de natura obiectelor de inventar date în folosință"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_32
+msgid "Stocuri în curs de aprovizionare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_445
+msgid "Subvenții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4451
+msgid "Subvenții guvernamentale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4751
+msgid "Subvenții guvernamentale pentru investiții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_475
+msgid "Subvenții pentru investiții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_455
+msgid "Sume datorate acționarilor/asociaților"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2671
+msgid "Sume de încasat de la entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5125
+msgid "Sume în curs de decontare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_0
+#: model:account.tax.template,description:l10n_ro.tvaic_00
+msgid "TVA 0%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_0_eu
+msgid "TVA 0% EU"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_19
+msgid "TVA 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_19_eu
+msgid "TVA 19% EU"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tva_ned_19_50
+#: model:account.tax.template,name:l10n_ro.tva_ned_19_50
+msgid "TVA 19% Nedeductibil 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_20
+msgid "TVA 20%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_24
+msgid "TVA 24%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_5
+msgid "TVA 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_5_eu
+msgid "TVA 5% EU"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tva_ned_5_50
+#: model:account.tax.template,name:l10n_ro.tva_ned_5_50
+msgid "TVA 5% Nedeductibil 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_9
+msgid "TVA 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_9_eu
+msgid "TVA 9% EU"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tva_ned_9_50
+#: model:account.tax.template,name:l10n_ro.tva_ned_9_50
+msgid "TVA 9% Nedeductibil 50%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_achiz
+msgid ""
+"TVA ACHIZIŢII DE BUNURI/ SERVICII ÎN INTERIORUL ŢĂRII ŞI IMPORTURI, "
+"ACHIZIŢII INTRACOMUNITARE, SCUTITE SAU NEIMPOZABILE"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_intracom_eu_achiz
+msgid ""
+"TVA ACHIZIŢII INTRACOMUNITARE DE BUNURI ŞI ALTE ACHIZIŢII DE BUNURI ŞI "
+"SERVICII IMPOZABILE ÎN ROMÂNIA"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_intracom_eu
+msgid "TVA COMERŢ INTRACOMUNITAR ŞI ÎN AFARA UE"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_extra
+msgid "TVA Export"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_extrap0b
+msgid "TVA Import Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_extrap0s
+msgid "TVA Import Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap0b
+msgid "TVA Intracomunitara Achizitii 0% - Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap0s
+msgid "TVA Intracomunitara Achizitii 0% - Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap19b
+msgid "TVA Intracomunitara Achizitii 19% - Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap19s
+msgid "TVA Intracomunitara Achizitii 19% - Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap5b
+msgid "TVA Intracomunitara Achizitii 5% - Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap5s
+msgid "TVA Intracomunitara Achizitii 5% - Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap9b
+msgid "TVA Intracomunitara Achizitii 9% - Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrap9s
+msgid "TVA Intracomunitara Achizitii 9% - Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intrab
+msgid "TVA Intracomunitara Livrari Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvati_intras
+msgid "TVA Intracomunitara Livrari Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_livrari
+msgid ""
+"TVA LIVRĂRI DE BUNURI/ PRESTĂRI DE SERVICII ÎN INTERIORUL ŢĂRII ŞI EXPORTURI"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_ned
+msgid "TVA Nedeductibil"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_neimp
+msgid "TVA Neimpozabil"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_scutit
+msgid "TVA Scutit"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.group,name:l10n_ro.tax_group_tva_ti
+#: model:account.tax.template,description:l10n_ro.tvati
+#: model:account.tax.template,name:l10n_ro.tvati
+msgid "TVA Taxare Inversa"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatip00
+#: model:account.tax.template,name:l10n_ro.tvatip00
+msgid "TVA Taxare Inversa 0%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatip19
+#: model:account.tax.template,name:l10n_ro.tvatip19
+msgid "TVA Taxare Inversa 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatip05
+#: model:account.tax.template,name:l10n_ro.tvatip05
+msgid "TVA Taxare Inversa 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvatip09
+#: model:account.tax.template,name:l10n_ro.tvatip09
+msgid "TVA Taxare Inversa 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvatinea
+msgid "TVA Taxare Neimpozabila Achizitii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvatine
+msgid "TVA Taxare Neimpozabila Livrari"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvatiscdeda
+msgid "TVA Taxare Scutita Achizitii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvatiscdeda_intr
+msgid "TVA Taxare Scutita Achizitii Intracomunitare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvatiscded
+msgid "TVA Taxare Scutita Livrari cu drept de deducere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvatiscnoded
+msgid "TVA Taxare Scutita Livrari fara drept de deducere"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.report.line,name:l10n_ro.account_tax_report_ro_tva_col
+msgid "TVA Total Taxa COLECTATĂ"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_00
+#: model:account.tax.template,name:l10n_ro.tvac_00
+msgid "TVA colectat 0% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_00_s
+#: model:account.tax.template,name:l10n_ro.tvac_00_s
+msgid "TVA colectat 0% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvaic_19
+msgid "TVA colectat 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_19
+#: model:account.tax.template,name:l10n_ro.tvac_19
+msgid "TVA colectat 19% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_19_s
+#: model:account.tax.template,name:l10n_ro.tvac_19_s
+msgid "TVA colectat 19% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvaic_05
+msgid "TVA colectat 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_05
+#: model:account.tax.template,name:l10n_ro.tvac_05
+msgid "TVA colectat 5% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_05_s
+#: model:account.tax.template,name:l10n_ro.tvac_05_s
+msgid "TVA colectat 5% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvaic_09
+msgid "TVA colectat 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_09
+#: model:account.tax.template,name:l10n_ro.tvac_09
+msgid "TVA colectat 9% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvac_09_s
+#: model:account.tax.template,name:l10n_ro.tvac_09_s
+msgid "TVA colectat 9% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4427
+msgid "TVA colectată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4423
+msgid "TVA de plată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4424
+msgid "TVA de recuperat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvaid_00
+msgid "TVA deductibil 0%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_00
+#: model:account.tax.template,name:l10n_ro.tvad_00
+msgid "TVA deductibil 0% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_00_s
+#: model:account.tax.template,name:l10n_ro.tvad_00_s
+msgid "TVA deductibil 0% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvaid_19
+msgid "TVA deductibil 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_19
+#: model:account.tax.template,name:l10n_ro.tvad_19
+msgid "TVA deductibil 19% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_19_s
+#: model:account.tax.template,name:l10n_ro.tvad_19_s
+msgid "TVA deductibil 19% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvaid_05
+msgid "TVA deductibil 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_05
+#: model:account.tax.template,name:l10n_ro.tvad_05
+msgid "TVA deductibil 5% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_05_s
+#: model:account.tax.template,name:l10n_ro.tvad_05_s
+msgid "TVA deductibil 5% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvaid_09
+msgid "TVA deductibil 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_09
+#: model:account.tax.template,name:l10n_ro.tvad_09
+msgid "TVA deductibil 9% Bunuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,description:l10n_ro.tvad_09_s
+#: model:account.tax.template,name:l10n_ro.tvad_09_s
+msgid "TVA deductibil 9% Servicii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4426
+msgid "TVA deductibilă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaic_00
+msgid "TVA la Incasare - colectat 0%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaic_19
+msgid "TVA la Incasare - colectat 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaic_05
+msgid "TVA la Incasare - colectat 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaic_09
+msgid "TVA la Incasare - colectat 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaid_00
+msgid "TVA la Incasare - deductibil 0%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaid_19
+msgid "TVA la Incasare - deductibil 19%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaid_05
+msgid "TVA la Incasare - deductibil 5%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.tax.template,name:l10n_ro.tvaid_09
+msgid "TVA la Incasare - deductibil 9%"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_4428
+msgid "TVA neexigibilă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_44281
+msgid "TVA neexigibilă - Colectată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_44282
+msgid "TVA neexigibilă - Deductibilă"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_442
+msgid "Taxa pe valoarea adăugată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2111
+msgid "Terenuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_211
+msgid "Terenuri și amenajări de terenuri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5323
+msgid "Tichete și bilete de călătorie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5321
+msgid "Timbre fiscale și poștale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_264
+msgid "Titluri puse în echivalență"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_511
+#: model:account.group.template,name:l10n_ro.account_group_512
+#: model:account.group.template,name:l10n_ro.account_group_518
+#: model:account.group.template,name:l10n_ro.account_group_519
+msgid "Valori de încasat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8032
+msgid "Valori materiale primite spre prelucrare sau reparare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_8033
+msgid "Valori materiale primite în păstrare sau custodie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_71
+msgid "Venituri aferente costului producției în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_712
+msgid "Venituri aferente costurilor serviciilor în curs de execuție"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_711
+msgid "Venituri aferente costurilor stocurilor de produse"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_708
+msgid "Venituri din activități diverse"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7612
+msgid "Venituri din acțiuni deținute la entități asociate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7613
+msgid "Venituri din acțiuni deținute la entități controlate în comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7611
+msgid "Venituri din acțiuni deținute la entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7814
+msgid "Venituri din ajustări pentru deprecierea activelor circulante"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7813
+msgid "Venituri din ajustări pentru deprecierea imobilizărilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7615
+msgid "Venituri din alte imobilizări financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_754
+msgid "Venituri din creanțe reactivate și debitori diverși"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7512
+msgid "Venituri din derularea operațiunilor de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7581
+msgid "Venituri din despăgubiri, amenzi și penalități"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_765
+msgid "Venituri din diferențe de curs valutar"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_766
+msgid "Venituri din dobânzi"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7582
+msgid "Venituri din donații primite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7815
+msgid "Venituri din fondul comercial negativ"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_761
+msgid "Venituri din imobilizări financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7641
+msgid "Venituri din imobilizări financiare cedate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_764
+msgid "Venituri din investiții financiare cedate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_762
+msgid "Venituri din investiții financiare pe termen scurt"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7513
+msgid "Venituri din lichidarea operațiunilor de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_751
+msgid "Venituri din operațiuni de fiducie"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_72
+msgid "Venituri din producția de imobilizări"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_722
+msgid "Venituri din producția de imobilizări corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_721
+msgid "Venituri din producția de imobilizări necorporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_725
+msgid "Venituri din producția de investiții imobiliare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7812
+msgid "Venituri din provizioane"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_781
+msgid ""
+"Venituri din provizioane și ajustări pentru depreciere privind activitatea "
+"de exploatare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_78
+msgid ""
+"Venituri din provizioane, amortizări și ajustări pentru depreciere sau "
+"pierdere de valoare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_706
+msgid "Venituri din redevențe, locații de gestiune și chirii"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_755
+msgid "Venituri din reevaluarea imobilizărilor corporale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_767
+msgid "Venituri din sconturi obținute"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_704
+msgid "Venituri din servicii prestate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_705
+msgid "Venituri din studii și cercetări"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_74
+#: model:account.group.template,name:l10n_ro.account_group_741
+msgid "Venituri din subvenții de exploatare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7419
+msgid "Venituri din subvenții de exploatare aferente altor venituri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7411
+msgid "Venituri din subvenții de exploatare aferente cifrei de afaceri"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7416
+msgid ""
+"Venituri din subvenții de exploatare pentru alte cheltuieli de exploatare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7413
+msgid "Venituri din subvenții de exploatare pentru alte cheltuieli externe"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7415
+msgid ""
+"Venituri din subvenții de exploatare pentru asigurări și protecție socială"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7418
+msgid "Venituri din subvenții de exploatare pentru dobânda datorată"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7412
+msgid "Venituri din subvenții de exploatare pentru materii prime și materiale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7414
+msgid "Venituri din subvenții de exploatare pentru plata personalului"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7417
+msgid ""
+"Venituri din subvenții de exploatare în caz de calamități și alte evenimente"
+" similare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7584
+msgid "Venituri din subvenții pentru investiții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7018
+msgid "Venituri din vânzarea activelor biologice de natura stocurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7583
+msgid "Venituri din vânzarea activelor și alte operațiuni de capital"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.ro_pcg_sale
+msgid "Venituri din vânzarea mărfurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7017
+msgid "Venituri din vânzarea produselor agricole"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7015
+msgid "Venituri din vânzarea produselor finite"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_701
+msgid ""
+"Venituri din vânzarea produselor finite, produselor agricole și a activelor "
+"biologice de natura stocurilor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_703
+msgid "Venituri din vânzarea produselor reziduale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_702
+msgid "Venituri din vânzarea semifabricatelor"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_76
+msgid "Venituri financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7864
+msgid ""
+"Venituri financiare din ajustări pentru pierderea de valoare a activelor "
+"circulante"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7863
+msgid ""
+"Venituri financiare din ajustări pentru pierderea de valoare a "
+"imobilizărilor financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7865
+msgid ""
+"Venituri financiare din amortizarea diferențelor aferente titlurilor de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_786
+msgid ""
+"Venituri financiare din amortizări și ajustări pentru pierdere de valoare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7511
+msgid "Venituri ocazionate de constituirea fiduciei"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_7586
+msgid ""
+"Venituri reprezentând transferuri cuvenite în baza unor acte normative "
+"speciale"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_478
+msgid ""
+"Venituri în avans aferente activelor primite prin transfer de la clienți"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_472
+msgid "Venituri înregistrate în avans"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_581
+#: model:account.group.template,name:l10n_ro.account_group_58
+msgid "Viramente interne"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5091
+msgid ""
+"Vărsăminte de efectuat pentru acțiunile deținute la entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2695
+msgid "Vărsăminte de efectuat pentru alte imobilizări financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_5092
+msgid "Vărsăminte de efectuat pentru alte investiții pe termen scurt"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_269
+msgid "Vărsăminte de efectuat pentru imobilizări financiare"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_509
+msgid "Vărsăminte de efectuat pentru investițiile pe termen scurt"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2692
+msgid "Vărsăminte de efectuat privind acțiunile deținute la entități asociate"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2693
+msgid ""
+"Vărsăminte de efectuat privind acțiunile deținute la entități controlate în "
+"comun"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2691
+msgid ""
+"Vărsăminte de efectuat privind acțiunile deținute la entitățile afiliate"
+msgstr ""
+
+#. module: l10n_ro
+#: model_terms:ir.ui.view,arch_db:l10n_ro.res_partner_form_ro
+msgid "e.g. J12/1234/2012"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_2675
+msgid "Împrumuturi acordate pe termen lung"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_161
+msgid "Împrumuturi din emisiuni de obligațiuni"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1615
+msgid "Împrumuturi externe din emisiuni de obligațiuni garantate de bănci"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1614
+msgid "Împrumuturi externe din emisiuni de obligațiuni garantate de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_1617
+msgid "Împrumuturi interne din emisiuni de obligațiuni garantate de stat"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4452
+msgid "Împrumuturi nerambursabile cu caracter de subvenții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.account.template,name:l10n_ro.pcg_4752
+msgid "Împrumuturi nerambursabile cu caracter de subvenții pentru investiții"
+msgstr ""
+
+#. module: l10n_ro
+#: model:account.group.template,name:l10n_ro.account_group_16
+msgid "Împrumuturi și datorii asimilate"
+msgstr ""

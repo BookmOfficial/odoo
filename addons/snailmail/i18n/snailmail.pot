@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-02-11 14:34+0000\n"
 "PO-Revision-Date: 2022-02-11 14:34+0000\n"
+=======
+"POT-Creation-Date: 2022-04-15 23:22+0000\n"
+"PO-Revision-Date: 2022-04-15 23:22+0000\n"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -51,7 +56,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/snailmail/static/src/components/snailmail_error/snailmail_error.xml:0
 #, python-format
-msgid "An unknown error occurred. Please contact our"
+msgid ""
+"An unknown error occurred. Please contact our support for further "
+"assistance."
 msgstr ""
 
 #. module: snailmail
@@ -753,6 +760,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_confirm_view
 msgid "by post. Are you sure you want to continue?"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: snailmail
 #. openerp-web
@@ -767,3 +775,5 @@ msgstr ""
 #, python-format
 msgid "support"
 msgstr ""
+=======
+>>>>>>> f95942631c8 ([i18n} Updated pot files)

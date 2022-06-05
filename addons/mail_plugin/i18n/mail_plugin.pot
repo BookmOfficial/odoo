@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 10:28+0000\n"
-"PO-Revision-Date: 2021-09-14 10:28+0000\n"
+"POT-Creation-Date: 2022-04-15 22:48+0000\n"
+"PO-Revision-Date: 2022-04-15 22:48+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,7 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Bookm because their total size exceeded "
 "the allowed maximum."
 msgstr ""
 
@@ -69,6 +69,20 @@ msgstr ""
 #: code:addons/mail_plugin/controllers/mail_plugin.py:0
 #, python-format
 msgid "Bad Email."
+msgstr ""
+
+#. module: mail_plugin
+#. openerp-web
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#, python-format
+msgid "Bookm Access Token"
+msgstr ""
+
+#. module: mail_plugin
+#. openerp-web
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#, python-format
+msgid "Bookm Server URL"
 msgstr ""
 
 #. module: mail_plugin
@@ -499,7 +513,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Bookm"
 msgstr ""
 
 #. module: mail_plugin
@@ -542,20 +556,6 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Not enough credits to enrich."
-msgstr ""
-
-#. module: mail_plugin
-#. openerp-web
-#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-#, python-format
-msgid "Odoo Access Token"
-msgstr ""
-
-#. module: mail_plugin
-#. openerp-web
-#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-#, python-format
-msgid "Odoo Server URL"
 msgstr ""
 
 #. module: mail_plugin
@@ -642,7 +642,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
-msgid "Save in Odoo"
+msgid "Save in Bookm"
 msgstr ""
 
 #. module: mail_plugin
@@ -670,14 +670,14 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "Search In Database"
+msgid "Search In Bookm"
 msgstr ""
 
 #. module: mail_plugin
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "Search In Odoo"
+msgid "Search In Database"
 msgstr ""
 
 #. module: mail_plugin
@@ -691,7 +691,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
-msgid "Search contact in Odoo..."
+msgid "Search contact in Bookm..."
 msgstr ""
 
 #. module: mail_plugin
@@ -719,7 +719,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
-msgid "This contact does not exist in the Odoo database."
+msgid "This contact does not exist in the Bookm database."
 msgstr ""
 
 #. module: mail_plugin
@@ -741,7 +741,7 @@ msgstr ""
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Bookm because their total size "
 "exceeded the allowed maximum."
 msgstr ""
 
@@ -784,7 +784,7 @@ msgstr ""
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
+msgid "access your Bookm database?"
 msgstr ""
 
 #. module: mail_plugin

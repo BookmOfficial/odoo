@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-04-19 09:19+0000\n"
 "PO-Revision-Date: 2022-04-19 09:19+0000\n"
+=======
+"POT-Creation-Date: 2022-04-15 22:52+0000\n"
+"PO-Revision-Date: 2022-04-15 22:52+0000\n"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -458,11 +463,6 @@ msgid ""
 "Add by-products to bills of materials. This can be used to get several "
 "finished products as well. Without this option you only do: A + B = C. With "
 "the option: A + B = C + D."
-msgstr ""
-
-#. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Add quality checks to your work orders"
 msgstr ""
 
 #. module: mrp
@@ -1273,11 +1273,6 @@ msgid "Create backorder"
 msgstr ""
 
 #. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Create customizable worksheets for your quality checks"
-msgstr ""
-
-#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__created_production_id
 msgid "Created Production Order"
 msgstr ""
@@ -1552,11 +1547,6 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_document_file_kanban_mrp
 msgid "Document"
-msgstr ""
-
-#. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Documentation"
 msgstr ""
 
 #. module: mrp
@@ -3241,11 +3231,6 @@ msgid "Plan Orders"
 msgstr ""
 
 #. module: mrp
-#: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
-msgid "Plan manufacturing or purchase orders based on forecasts"
-msgstr ""
-
-#. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Planned"
@@ -4083,6 +4068,7 @@ msgid "Specify cost of work center per hour."
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
 #: model:ir.actions.server,name:mrp.action_production_order_split
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_form
 msgid "Split"
@@ -4127,6 +4113,8 @@ msgid "Split productions"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Starred"
 msgstr ""
@@ -4964,6 +4952,7 @@ msgid "User"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid ""
 "Using a MPS report to schedule your reordering and manufacturing operations "
@@ -4977,6 +4966,8 @@ msgid "Valid"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_backorder_form
 msgid "Validate"
@@ -5108,7 +5099,7 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Odoo work center control panel, your worker can start work orders "
+"With the Bookm work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
@@ -5127,6 +5118,7 @@ msgid "Wizard to Split Multiple Productions"
 msgstr ""
 
 #. module: mrp
+<<<<<<< HEAD
 #: model:ir.model,name:mrp.model_mrp_production_split
 msgid "Wizard to Split a Production"
 msgstr ""
@@ -5137,6 +5129,8 @@ msgid "Wizard to mark as done or create back order"
 msgstr ""
 
 #. module: mrp
+=======
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model,name:mrp.model_mrp_workcenter
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__workcenter_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__name
@@ -5503,7 +5497,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will produce all the finished products and consume all "
+"<i>apply</i> Bookm will produce all the finished products and consume all "
 "components."
 msgstr ""
 

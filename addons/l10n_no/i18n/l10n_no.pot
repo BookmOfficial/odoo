@@ -1,0 +1,2877 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_no
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:34+0000\n"
+"PO-Revision-Date: 2022-04-15 22:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax1
+msgid "0 Ingen mvabehandling 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax2
+msgid "1 Inngående mva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax7
+msgid "11 Inngående mva middel sats 15%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax8
+msgid "12 Inngående mva råfisk 11%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax9
+msgid "13 Inngående mva lav sats 12%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax10
+msgid "14 Innførselsmva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax11
+msgid "15 Innførselsmva middel sats 15%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax12
+msgid "20 Grunnlag ved innførsel av varer nullsats 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax13
+msgid "21 Grunnlag ved innførsel av varer høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax14
+msgid "22 Grunnlag ved innførsel av varer middel sats 15%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax3
+msgid "3 Utgående mva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax15
+msgid "31 Utgående mva middel sats 15%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax16
+msgid "32 Utgående mva råfisk 11%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax17
+msgid "33 Utgående mva lav sats 12%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax4
+msgid "5 Mvafritt salg 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax18
+msgid "51 Innenlands omsetning med omvendt avgiftsplikt nullsats 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax19
+msgid "52 Utførsel av varer og tjenester nullsats 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax5
+msgid "6 Omsetning utenfor mvaloven 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax6
+msgid "7 Ingen mvabehandling(inntekter) 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax20
+msgid "81 Innførsel av varer med fradrag for innførselsmva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax21
+msgid "82 Innførsel av varer uten fradrag for innførselsmva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax22
+msgid "83 Innførsel av varer med fradrag for innførselsmva middel sats 15%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax23
+msgid "84 Innførsel av varer uten fradrag for innførselsmva middel sats 15%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax24
+msgid "85 Innførsel av varer uten mva beregning 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax25
+msgid "86 Tjenester kjøpt fra utlandet med fradrag for mva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax26
+msgid "87 Tjenester kjøpt fra utlandet uten fradrag for mva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax27
+msgid "88 Tjenester kjøpt fra utlandet med fradrag for mva lav sats 12%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax28
+msgid "89 Tjenester kjøpt fra utlandet uten fradrag for mva lav sats 12%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax29
+msgid "91 Kjøp av klimakvoter eller gull med fradrag for mva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,name:l10n_no.tax30
+msgid "92 Kjøp av klimakvoter eller gull uten fradrag for mva høy sats 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_samlet_omsetning
+msgid "A. Samlet omsetning, uttak og innførsel"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2000
+msgid "Aksjekapital"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1800
+msgid "Aksjer & andeler i foretak i samme kons."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8071
+msgid "Aksjeutbytte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8940
+msgid "Aksjonærbidrag"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1890
+msgid "Andeler utenfor konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1820
+msgid "Andre aksjer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1190
+msgid "Andre anleggsmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2180
+msgid "Andre avsetninger for forpiktelser"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1290
+msgid "Andre driftsmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3900
+msgid "Andre driftsrelaterte inntekter, avgiftspliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1880
+msgid "Andre finansielle instrumenter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5280
+msgid "Andre fordeler i arbeidsforhold"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1399
+msgid "Andre fordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1560
+msgid "Andre fordringer på selskap innen samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1749
+msgid "Andre forskuddbetalte kostnader"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5930
+msgid "Andre ikke arb.giv.avg.pliktige forsikr."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1520
+#: model:account.account.template,name:l10n_no.chart1570
+#: model:account.account.template,name:l10n_no.chart1579
+msgid "Andre kortsiktige fordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1572
+msgid "Andre kortsiktige lån til ansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5500
+msgid "Andre kostnadsgodtgjørelser"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1390
+msgid "Andre langsiktige fordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3620
+msgid "Andre leieinntekter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5099
+msgid "Andre lønnsposteringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5199
+msgid "Andre lønnsposteringer, timeansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1870
+msgid "Andre markedsbaserte finansielle instrumenter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1840
+msgid "Andre obligasjoner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2790
+msgid "Andre offentlige avgifter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1060
+msgid "Andre rettigheter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1860
+msgid "Andre sertifikater"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1240
+#: model:account.account.template,name:l10n_no.chart1249
+msgid "Andre transportmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2690
+msgid "Andre trekk"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2270
+#: model:account.account.template,name:l10n_no.chart2340
+msgid "Andre valutalån"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1130
+msgid "Anlegg under utførelse"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6290
+msgid "Annen brensel"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3950
+msgid "Annen driftsrelatert inntekt, avgiftsfritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2050
+msgid "Annen egenkapital"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8070
+msgid "Annen finansinntekt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8179
+msgid "Annen finanskostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2390
+msgid "Annen gjeld til kredittinstitusjon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2030
+msgid "Annen innskutt egenkapital"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6890
+msgid "Annen kontorkostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2990
+msgid "Annen kortsiktig gjeld"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6390
+msgid "Annen kostnad lokaler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7090
+msgid "Annen kostnad transportmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7798
+msgid "Annen kostnad, fradragsberettiget"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7799
+msgid "Annen kostnad, ikke fradragsberettiget"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7190
+msgid "Annen kostnadsgodtgjørelse"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2299
+msgid "Annen langsiktig gjeld"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6490
+msgid "Annen leiekostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5390
+msgid "Annen oppgavepliktig godtgjørelse"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5395
+msgid "Annen oppgavepliktig godtgjørelse, trekkfri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4900
+msgid "Annen periodisering"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5990
+msgid "Annen personalkostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5890
+msgid "Annen refusjon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8050
+msgid "Annen renteinntekt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8150
+msgid "Annen rentekostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6590
+msgid "Annet driftsmateriel"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2781
+#: model:account.account.template,name:l10n_no.chart5411
+msgid "Arb.giv.avg. pål. feriep."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5400
+msgid "Arbeidsgiveravgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5405
+msgid "Arbeidsgiveravgift av påløpte feriepenger"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5182
+msgid "Arbeidsgiveravgift påløpte feriepenger"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5600
+msgid "Arbeidsgodtgjørelse til eiere i DLS"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6570
+msgid "Arbeidsklær og verneutstyr"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6840
+msgid "Aviser, tidsskrifter, bøker mv."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2500
+msgid "Avsatt betalbar skatt, ikke utlignet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8923
+msgid "Avsatt ekstraordinært utbytte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8980
+msgid "Avsatt til fri egenkapital"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8922
+msgid "Avsatt tilleggsutbytte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2800
+msgid "Avsatt utbytte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8920
+msgid "Avsatt utbytte/renter på grunnfondsbevis"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2140
+msgid "Avsetn. for garanti- & serviceforpl."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2188
+msgid "Avsetning for skyldig merverdiavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1580
+msgid "Avsetning tap på fordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2980
+msgid "Avsetninger og forpliktelser"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6000
+msgid "Avskrivning på bygn. & annen fast eiend."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6020
+msgid "Avskrivning på immaterielle eiendeler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6010
+msgid "Avskrivning på transportmidler, maskiner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5005
+msgid "Avtalte tariffgodtgjørelser"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5105
+msgid "Avtalte tariffgodtgjørelser, timeansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_innenlands_omsetning
+msgid "B. Innenlands omsetning og uttak"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1942
+msgid "Bank ikke allokert innbetaling"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1944
+msgid "Bank ikke identifisert innbetaling"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7770
+msgid "Bank og kortgebyrer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1921
+msgid "Bankinnskudd 2"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1950
+msgid "Bankinnskudd for skattetrekk"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4090
+#: model:account.account.template,name:l10n_no.chart4190
+#: model:account.account.template,name:l10n_no.chart4290
+#: model:account.account.template,name:l10n_no.chart4590
+#: model:account.account.template,name:l10n_no.chart4990
+msgid "Beholdningsendring"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4690
+msgid "Beholdningsendring 2"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7900
+msgid "Beholdningsendring anlegg under utførelse"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4390
+msgid "Beholdningsendring varer for videresalg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6250
+msgid "Bensin, dieselolje"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8300
+msgid "Betalbar skatt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8600
+msgid "Betalbar skatt, ekstraordinært resultat"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2510
+msgid "Betalbar skatt, utlignet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2620
+msgid "Bidragstrekk"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1230
+msgid "Biler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7100
+msgid "Bilgodtgjørelse, oppgavepliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7080
+msgid "Bilkostnader, bruk av privat bil i næring"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1160
+msgid "Boliger inklusive tomter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2360
+msgid "Byggelån"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1100
+msgid "Bygninger"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1120
+msgid "Bygningsmessige anlegg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_utforsel
+msgid "C. Utførsel"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model.fields,field_description:l10n_no.field_account_journal__invoice_reference_model
+msgid "Communication Standard"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model,name:l10n_no.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model,name:l10n_no.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_innforsel_av_varer
+msgid "D. Innførsel av varer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6810
+msgid "Datakostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7160
+msgid "Diettkostnader, ikke oppgavepliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7150
+msgid "Diettkostnader, oppgaveplikig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6550
+msgid "Driftsmaterialer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7000
+msgid "Drivstoff"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_kjop_med_omvendt_avgiftsplikt
+msgid "E. Kjøp med omvendt avgiftsplikt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2010
+msgid "Egne aksjer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7750
+msgid "Eiendoms- og festeavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4860
+msgid "Eksp. gebyr fritt, vareinnkjøp"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4800
+msgid "Eksp. gebyr pliktig, vareinnkjøp"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8400
+msgid "Ekstraordinær inntekt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8500
+msgid "Ekstraordinær kostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6200
+msgid "Elektrisitet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4600
+msgid "Emballasjematerialer "
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart9970
+msgid "Expense account on product template"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_fradragsberettigen_innenlands
+msgid "F. Fradragsberettiget innenlands inngående avgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3096
+msgid "Fakturert men ikke levert"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1260
+msgid "Fast bygningsinventar med annen avskrivning"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1440
+msgid "Ferdige egentilvirkede varer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2940
+#: model:account.account.template,name:l10n_no.chart5092
+msgid "Feriepenger"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5180
+msgid "Feriepenger beregnet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5192
+msgid "Feriepenger, timeaansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2040
+msgid "Fond for vurderingsforskjeller"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8950
+msgid "Fondsemisjon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1380
+msgid "Fordringer på ansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1370
+msgid "Fordringer på eiere, styremedlemmer mv."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2540
+msgid "Forhåndsskatt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7040
+msgid "Forsikringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7500
+msgid "Forsikringspremier"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2640
+msgid "Forsikringstrekk"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.no_a_cash
+msgid "Forskning og utvikling"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1010
+msgid "Forskning og utvikling, egenutviklet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2900
+msgid "Forskudd fra kunder"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2902
+msgid "Forskudd kunder gavekort"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2903
+msgid "Forskudd kunder tilgodelapp"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1480
+msgid "Forskuddsbetaling til leverandører"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1700
+msgid "Forskuddsbetalt leie"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1720
+msgid "Forskuddsbetalt lønn"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1710
+msgid "Forskuddsbetalt rente"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1740
+msgid "Forskuddsbetalt, ikke påløpt lønn"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2070
+msgid "Forskuddsskatt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2600
+msgid "Forskuddstrekk"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax10
+#: model:account.tax.template,description:l10n_no.tax11
+msgid "Fradrag for innførselsmva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax2
+#: model:account.tax.template,description:l10n_no.tax7
+#: model:account.tax.template,description:l10n_no.tax8
+#: model:account.tax.template,description:l10n_no.tax9
+msgid "Fradrag for inngående mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4810
+msgid "Frakt og porto pliktig, vareinnkjøp"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4360
+msgid "Frakt, toll m.m. vedr. innkjøp av varer for videresalg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4060
+#: model:account.account.template,name:l10n_no.chart4160
+#: model:account.account.template,name:l10n_no.chart4260
+msgid "Frakt, toll og spedisjon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6100
+msgid "Frakter, transportkostnader og forsikring"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4500
+msgid "Fremmedytelser og underentreprise"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5220
+msgid "Fri avis"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5200
+msgid "Fri bil"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5230
+msgid "Fri losji og bolig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5210
+msgid "Fri telefon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4400
+msgid "Fritt Kjøp"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6220
+msgid "Fyringsolje"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_fradragsberettiget_innforselsmerverdiavgift
+msgid "G. Fradragsberettiget innførselsmerverdiavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7550
+msgid "Garanti- og servicekostnader"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6210
+msgid "Gass"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5900
+msgid "Gaver til ansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7420
+msgid "Gaver, fradragsberettigede"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7430
+msgid "Gaver, ikke fradrag"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7710
+msgid "Generalforsamling"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2098
+msgid "Gevinst eller tap fra foregående år"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8078
+msgid "Gevinst realisasjon av aksjer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3800
+msgid "Gevinst ved avgang av anleggsmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2251
+msgid "Gjeld til ansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2910
+msgid "Gjeld til ansatte og eiere"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2255
+msgid "Gjeld til eiere"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2220
+msgid "Gjeld til kredittinstitusjoner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2260
+#: model:account.account.template,name:l10n_no.chart2920
+msgid "Gjeld til selskap i samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5330
+msgid "Godtgj. til styre- og bedriftsforsamling"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1080
+msgid "Goodwill"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2761
+msgid "Grunnlag innførsel varer, høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2765
+msgid "Grunnlag innførsel varer, ingen mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2763
+msgid "Grunnlag innførsel varer, middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1605
+msgid "Grunnlag utgående merverdiavgift, høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1607
+msgid "Grunnlag utgående merverdiavgift, lav sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1606
+msgid "Grunnlag utgående merverdiavgift, middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2745
+msgid "Grunnlag utgående mva kjøp av tjenester utland"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax12
+#: model:account.tax.template,description:l10n_no.tax13
+#: model:account.tax.template,description:l10n_no.tax14
+msgid "Grunnlag ved innførsel av varer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5251
+msgid "Gruppelivsforsikring"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_sum
+msgid "H. Sum"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1401
+msgid "Halvfabrikata"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6520
+msgid "Hjelpeverktøy"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6720
+msgid "Honorar for økonomisk & juridisk bistand"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6750
+msgid "Honorar regnskapsfører"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6510
+msgid "Håndverktøy"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3095
+msgid "Ikke fakturert omsetning"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1513
+msgid "Ikke fakturerte kundefordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2442
+msgid "Ikke fakturerte mottatte varer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2409
+msgid "Ikke reskontroført leverandørgjeld"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1509
+msgid "Ikke reskontroførte kundefordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart9990
+msgid "Income account on product template"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax1
+msgid "Ingen mvabehandling(anskaffelser)"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax6
+msgid "Ingen mvabehandling(inntekter)"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5420
+msgid "Innberetningspliktige pensjonskostnader"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax20
+#: model:account.tax.template,description:l10n_no.tax22
+msgid "Innførsel av varer med fradrag for innførselsmva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax24
+msgid "Innførsel av varer som det ikke skal beregnes mervediavgift av"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax21
+#: model:account.tax.template,description:l10n_no.tax23
+msgid "Innførsel av varer uten fradrag for innførselsmva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1610
+#: model:account.account.template,name:l10n_no.chart2710
+msgid "Inngående merverdiavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1611
+#: model:account.account.template,name:l10n_no.chart2711
+msgid "Inngående merverdiavgift høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1612
+#: model:account.account.template,name:l10n_no.chart2712
+msgid "Inngående merverdiavgift kjøp tjen. fra utlandet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1614
+#: model:account.account.template,name:l10n_no.chart2714
+msgid "Inngående merverdiavgift lav sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1613
+#: model:account.account.template,name:l10n_no.chart2713
+msgid "Inngående merverdiavgift middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2741
+msgid "Inngående mva, kjøp varer fra utlandet, høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2742
+msgid "Inngående mva, kjøp varer fra utlandet, middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4000
+msgid "Innkjøp av råvarer og halvfabrikata høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4030
+msgid "Innkjøp av råvarer og halvfabrikata middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4200
+msgid "Innkjøp ferdig egentilvirkede varer høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4230
+msgid "Innkjøp ferdig egentilvirkede varer middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4300
+msgid "Innkjøp varer for videresalg høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4330
+msgid "Innkjøp varer for videresalg middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4035
+msgid "Innkjøp varer og halvfabrikata, lav avgiftssats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4100
+msgid "Innkjøp varer under tilvirkning høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4130
+msgid "Innkjøp varer under tilvirkning middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4070
+#: model:account.account.template,name:l10n_no.chart4170
+msgid "Innkjøpsprisreduksjon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4270
+msgid "Innkjøpsprisreduksjon, avgiftspliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4470
+msgid "Innkjøpsprisreduksjoner, fritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1460
+msgid "Innkjøpte varer for videresalg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7820
+msgid "Innkommet på tidligere nedskrevne fordri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax18
+msgid "Innlands omsetning med omvendt avgiftsplikt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2055
+msgid "Innskudd kontanter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8090
+msgid "Inntekt på andre investeringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8010
+msgid "Inntekt på investering i annet foretak. s/ konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8020
+msgid "Inntekt på investering i tilknyttet selskap"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8000
+msgid "Inntekter på investeringer i datterselskap"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1790
+msgid "Interimskonto"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1250
+#: model:account.account.template,name:l10n_no.chart6540
+msgid "Inventar"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1310
+msgid "Investeringer annet foretak i samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1350
+msgid "Investeringer i aksjer og andeler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1300
+msgid "Investeringer i datterselskaper"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1330
+msgid "Investeringer i tilknyttede selskap"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1140
+msgid "Jord- og skogbrukseiendommer"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model,name:l10n_no.model_account_journal
+msgid "Journal"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model,name:l10n_no.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4910
+msgid "Justering av lager"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5520
+#: model:account.account.template,name:l10n_no.chart5910
+msgid "Kantinekostnader"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2380
+msgid "Kassakreditt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1910
+msgid "Kasse"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1919
+msgid "Kasse i transfer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1918
+msgid "Kassedifferenser"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3281
+msgid "Kasserabatt, git kunde"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax29
+msgid "Kjøp av klimakvoter eller gull med fradrag for mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax30
+msgid "Kjøp av klimakvoter eller gull uten fradrag for mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6785
+msgid "Kjøp av tjenester fra utlandet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8930
+msgid "Konsernbidrag"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1020
+msgid "Konsesjoner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1905
+msgid "Kontanter Euro"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1908
+msgid "Kontanter, annen valuta"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7400
+msgid "Kontingenter og gaver"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7410
+msgid "Kontingenter, ikke fradragsberettiget"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1280
+msgid "Kontormaskiner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6800
+msgid "Kontorrekvisita"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7630
+msgid "Kontroll-,prøve- og stempelavgifter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2200
+#: model:account.account.template,name:l10n_no.chart2300
+msgid "Konvertible lån"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1481
+msgid "Kortsiktige fordringer hos leverandører"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7730
+msgid "Kostnader ved egne aksjer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7620
+msgid "Kostnader ved varemerker o.l."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1780
+msgid "Krav på innbetaling av selskapskapital"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1670
+msgid "Krav på offentlige tilskudd"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6230
+msgid "Kull, koks"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1500
+msgid "Kundefordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1501
+msgid "Kundefordringer (PoS)"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1550
+msgid "Kundefordringer på selskap samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1514
+msgid "Kundfordringer - tjenester"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6430
+msgid "Leie andre kontormaskiner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6400
+msgid "Leie av driftsmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6410
+msgid "Leie av inventar"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6420
+msgid "Leie datasystemer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6300
+msgid "Leie lokaler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6440
+msgid "Leie transportmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3610
+msgid "Leieinntekter andre varige driftsmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3600
+msgid "Leieinntekter fast eiendom"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2400
+msgid "Leverandørgjeld"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2441
+msgid "Leverandørgjeld - tjenester"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2460
+msgid "Leverandørgjeld til selskap i samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.no_chart_template_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7600
+msgid "Lisenesavgifter og royalties"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1040
+msgid "Lisenser"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6340
+msgid "Lys, varme"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1320
+msgid "Lån til foretak samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1340
+msgid "Lån til tilknyttede selskap"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5700
+msgid "Lærlingtilskudd"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2930
+msgid "Lønn"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5000
+msgid "Lønn til ansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5100
+msgid "Lønn til ansatte, timeansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1571
+msgid "Lønnsforskudd"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.group,name:l10n_no.tax_group_0
+msgid "MVA 0%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.group,name:l10n_no.tax_group_10
+msgid "MVA 10%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.group,name:l10n_no.tax_group_12
+msgid "MVA 12%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.group,name:l10n_no.tax_group_15
+msgid "MVA 15%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.group,name:l10n_no.tax_group_25
+msgid "MVA 25%"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7390
+msgid "MVA-øreavrunding"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1830
+msgid "Markedsbaserte obligasjoner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1850
+msgid "Markedsbaserte sertifikater"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1810
+msgid "Markesdbaserte aksjer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1200
+msgid "Maskiner og anlegg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1210
+msgid "Maskiner og anlegg under utførelse"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3303
+msgid "Miljø avgift for tilv./solgte varer avgiftsfritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3302
+msgid "Miljø avgift for tilv./solgte varer avgiftspliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5290
+msgid "Motkonto for gruppe 52"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2762
+msgid "Motkonto grunnlag innførsel varer, høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2766
+msgid "Motkonto grunnlag innførsel varer, ingen mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2764
+msgid "Motkonto grunnlag innførsel varer, middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2746
+msgid "Motkonto grunnlag kjøp av tjenester utland"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6500
+msgid "Motordrevet verktøy"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax4
+msgid "Mvafritt salg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6860
+msgid "Møter, kurs, oppdatering mv."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6050
+msgid "Nedskr. varige driftsmidl. & imat. eiend"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8110
+msgid "Nedskrivn. av andre finansielle omløps."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8120
+msgid "Nedskrivning av finansielle anleggsmidl."
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model.fields.selection,name:l10n_no.selection__account_journal__invoice_reference_model__no
+msgid "Norway"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.chart.template,name:l10n_no.no_chart_template
+msgid "Norway's Chart of Accounts"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.ui.menu,name:l10n_no.account_reports_no_statements_menu
+msgid "Norwegian Statements"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1360
+msgid "Obligasjoner"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5950
+msgid "Obligatorisk tjenestepensjon (OTP)"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2210
+msgid "Obligsjonslån"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax5
+msgid "Omsetning utenfor merverdiavgiftsloven"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1640
+#: model:account.account.template,name:l10n_no.chart2740
+msgid "Oppgjørskonto merverdiavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1530
+msgid "Opptjente, ikke fakturerte driftsinntekter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8960
+msgid "Overføringer annen egenkapital"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8910
+msgid "Overføringer felleseid andelskapital for"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8900
+msgid "Overføringer fond for vurderingsforskjel"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2020
+msgid "Overkursfond"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5510
+msgid "Overtidsmat etter regning"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2240
+msgid "Pantelån"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1030
+msgid "Patenter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7610
+msgid "Patentkostnad ved egen patent"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2100
+msgid "Pensjonsforpliktelser"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5090
+msgid "Periodiseringskonto lønn"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6940
+msgid "Porto"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_1
+msgid "Post 1"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_1
+msgid "Post 1 Samlet omsetning og uttak utenfor merverdiavgiftsloven"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_10
+msgid "Post 10 Base"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_10
+msgid "Post 10 Innførsel av varer, og beregnet avgift 15 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_10_tax
+msgid "Post 10 Innførsel av varer, og beregnet avgift 15 % Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_10_tax
+msgid "Post 10 Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_11
+msgid "Post 11"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_11
+msgid ""
+"Post 11 Innførsel av varer som det ikke skal beregnes merverdiavgift av"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_12
+msgid "Post 12 Base"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_12_tax
+msgid "Post 12 Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_12
+msgid "Post 12 Tjenester kjøpt fra utlandet, og beregnet avgift 25 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_12_tax
+msgid "Post 12 Tjenester kjøpt fra utlandet, og beregnet avgift 25 % Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_13
+msgid "Post 13 Base"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_13
+msgid "Post 13 Innenlands kjøp av varer og tjenester, og beregnet avgift 25 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_13_tax
+msgid ""
+"Post 13 Innenlands kjøp av varer og tjenester, og beregnet avgift 25 % Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_13_tax
+msgid "Post 13 Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_14
+msgid "Post 14"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_14
+msgid "Post 14 Fradragsberettiget innenlands inngående avgift 25 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_15
+msgid "Post 15"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_15
+msgid "Post 15 Fradragsberettiget innenlands inngående avgift 15 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_16
+msgid "Post 16"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_16
+msgid "Post 16 Fradragsberettiget innenlands inngående avgift 12 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_17
+msgid "Post 17"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_17
+msgid "Post 17 Fradragsberettiget innførselsmerverdiavgift 25 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_18
+msgid "Post 18"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_18
+msgid "Post 18 Fradragsberettiget innførselsmerverdiavgift 15 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_19
+msgid "Post 19 Avgift å betale"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_2
+msgid ""
+"Post 2 Samlet omsetning og uttak innenfor merverdiavgiftloven og innførsel"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_3
+msgid "Post 3 Base"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_3
+msgid "Post 3 Innenlands omsetning og uttak, og beregnet avgift 25 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_3_tax
+msgid "Post 3 Innenlands omsetning og uttak, og beregnet avgift 25 % Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_3_tax
+msgid "Post 3 Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_4
+msgid "Post 4 Base"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_4
+msgid "Post 4 Innenlands omsetning og uttak, og beregnet avgift 15 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_4_tax
+msgid "Post 4 Innenlands omsetning og uttak, og beregnet avgift 15 % Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_4_tax
+msgid "Post 4 Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_5
+msgid "Post 5 Base"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_5
+msgid "Post 5 Innenlands omsetning og uttak, og beregnet avgift 12 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_5_tax
+msgid "Post 5 Innenlands omsetning og uttak, og beregnet avgift 12 % Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_5_tax
+msgid "Post 5 Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_6
+msgid "Post 6"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_6
+msgid "Post 6 Innenlands omsetning og uttak fritatt for merverdiavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_7
+msgid "Post 7"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_7
+msgid "Post 7 Innenlands omsetning med omvendt avgiftsplikt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_8
+msgid "Post 8"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_8
+msgid "Post 8 Utførsel av varer og tjenester fritatt for merverdiavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_9
+msgid "Post 9 Base"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_9
+msgid "Post 9 Innførsel av varer, og beregnet avgift 25 %"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,name:l10n_no.account_tax_report_line_post_9_tax
+msgid "Post 9 Innførsel av varer, og beregnet avgift 25 % Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.report.line,tag_name:l10n_no.account_tax_report_line_post_9_tax
+msgid "Post 9 Tax"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5430
+msgid "Premie pensjonsordning"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2060
+msgid "Privatuttak"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3700
+msgid "Provisjonsinntekter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7210
+msgid "Provisjonskostnader, ikke oppgavepliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7200
+msgid "Provisjonskostnader, oppgavepliktige"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2610
+msgid "Påleggstrekk"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2780
+msgid "Påløpt arbeidsgiveravgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2785
+msgid "Påløpt arbeidsgiveravgift ferielønn"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2490
+msgid "Påløpt lev.gjeld, mottatte varer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5091
+msgid "Påløpt, ikke utbetalt lønn"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5191
+msgid "Påløpt, ikke utbetalt lønn timeansatte"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2960
+msgid "Påløpte kostn. og forskuddsbet. inskudd"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1750
+msgid "Påløpte leieinntekter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1760
+msgid "Påløpte renteinntekter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2950
+msgid "Påløpte renter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8056
+msgid "Påminnelsesavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4370
+msgid "Rabatter m.m. vedr. innkjøp av varer for videresalg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3180
+msgid "Rabatter og andre salgsinntektsreduksjon avgiftsfri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3080
+msgid "Rabatter og annen salgsinntektsred., avgiftspl."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3280
+msgid "Rabatter og annen salgsinntektsreduksjon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3190
+msgid "Refunderbare utlegg for kjøpers regning, avg.fri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3090
+msgid "Refunderbare utlegg for kjøpers regning, avgiftspl"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5820
+msgid "Refusjon av arbeidsgiveravgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5800
+msgid "Refusjon av sykepenger"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2530
+msgid "Refusjon skatt etter Skatteloven §31 5. ledd"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model.fields,field_description:l10n_no.field_res_company__l10n_no_bronnoysund_number
+#: model:ir.model.fields,field_description:l10n_no.field_res_partner__l10n_no_bronnoysund_number
+#: model:ir.model.fields,field_description:l10n_no.field_res_users__l10n_no_bronnoysund_number
+msgid "Register of Legal Entities (Brønnøysund Register Center)"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7140
+msgid "Reisekostnader, ikke oppgavepliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7130
+msgid "Reisekostnader, oppgavepliktige"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7320
+msgid "Reklamekostnader"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6560
+msgid "Rekvisita"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6360
+msgid "Renhold"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6320
+msgid "Renovasjon, vann, avløp mv."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5240
+msgid "Rentefordel"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8030
+msgid "Renteinntekt på foretak i  samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8040
+msgid "Renteinntekter, skattefrie"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8130
+msgid "Rentekostnad foretak i samme konsern"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8140
+msgid "Rentekostnader, ikke fradragsberettigede"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7780
+msgid "Renter og gebyrer inkasso"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6690
+msgid "Reparasjon og vedlikehold annet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6600
+msgid "Reparasjoner og vedlikehold bygninger"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6620
+msgid "Reparasjoner og vedlikehold utstyr"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7350
+msgid "Representasjon, fradragsberettiget"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7360
+msgid "Representasjon, ikke fradragsberettiget"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6700
+msgid "Revisjonshonorar"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1400
+msgid "Råvarer og innkjøpte halvfabrikata"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3035
+msgid "Salgsinnt. handelsvarer, avgiftspliktig, lav sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3040
+msgid "Salgsinntekt egentilv. varer avgiftpl middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3010
+msgid "Salgsinntekt egentilv. varer avgiftspl. høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3110
+msgid "Salgsinntekt egentilvirkede varer avgiftsfri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3210
+msgid "Salgsinntekt egentilvirkede varer utenfor avg.omr"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3030
+msgid "Salgsinntekt handelsvarer avgiftpl. middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3100
+msgid "Salgsinntekt handelsvarer avgiftsfri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3000
+msgid "Salgsinntekt handelsvarer avgiftspl. høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3105
+msgid "Salgsinntekt handelsvarer, utførsel, avgiftsfri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3200
+msgid "Salgsinntekt handelsvarervarer utenfor avg.omr"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3120
+msgid "Salgsinntekt tjenester avgiftsfri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3020
+msgid "Salgsinntekt tjenester avgiftspl. høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3220
+msgid "Salgsinntekt tjenester utenfor avg.omr"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3125
+msgid "Salgsinntekt tjenester, utførsel, avgiftsfri"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3050
+msgid "Salgsinntekter tjenester avgiftspl. lav sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7300
+msgid "Salgskostnader"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2320
+msgid "Sertifikatlån"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7560
+msgid "Servicekostnader"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8350
+msgid "Skattekostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1220
+msgid "Skip, rigger, fly"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2770
+msgid "Skyldig arbeidsgiveravgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5260
+msgid "Smusstillegg"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3300
+#: model:account.account.template,name:l10n_no.chart3400
+msgid "Spes. offent. avg. tilvirk./solgte varer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3440
+msgid "Spes. offentlige tilskudd for tjenester"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6530
+msgid "Spesialverktøy"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3301
+msgid "Spesiell off. avg. tilv./solgte varer fritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2036
+msgid "Stiftelsesutgifter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2280
+msgid "Stille interessentinnskudd og ansv. lånekapital"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7700
+msgid "Styre- og bedriftsforsamlingsmøter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5300
+msgid "Tantieme"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7850
+msgid "Tap pga. brannskade"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7830
+msgid "Tap på fordringer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7860
+msgid "Tap på kontrakter"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7800
+msgid "Tap ved avgang driftsmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8178
+msgid "Tap ved realisasjon av aksjer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6900
+msgid "Telefon"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6901
+msgid "Telefon fritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax25
+#: model:account.tax.template,description:l10n_no.tax27
+msgid "Tjenester kjøpt fra utlandet med fradrag for mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax26
+#: model:account.tax.template,description:l10n_no.tax28
+msgid "Tjenester kjøpt fra utlandet uten fradrag for mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6110
+msgid "Toll og spedisjonskostnader ved forsend"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1150
+msgid "Tomter og andre grunnarealer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2650
+msgid "Trukket fagforeningskontigent"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2630
+msgid "Trygdetrekk"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6820
+msgid "Trykksaker"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2080
+#: model:account.account.template,name:l10n_no.chart8990
+msgid "Udekket tap"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7910
+msgid "Ukurante varer"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5252
+msgid "Ulykkesforsikring"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2160
+msgid "Uopptjent inntekt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2970
+msgid "Uopptjent inntekt , avsetning"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3500
+msgid "Uopptjente inntekter garanti"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3510
+msgid "Uopptjente inntekter service"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax19
+msgid "Utførsel av varer og tjenester"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3970
+msgid "Utgående gebyrer, avgiftsfritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3920
+msgid "Utgående gebyrer, avgiftspliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1600
+#: model:account.account.template,name:l10n_no.chart2700
+msgid "Utgående merverdiavgift"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1601
+#: model:account.account.template,name:l10n_no.chart2701
+msgid "Utgående merverdiavgift høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1602
+#: model:account.account.template,name:l10n_no.chart2702
+msgid "Utgående merverdiavgift kjøp tjen. fra utlandet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1604
+#: model:account.account.template,name:l10n_no.chart2704
+msgid "Utgående merverdiavgift lav sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1603
+#: model:account.account.template,name:l10n_no.chart2703
+msgid "Utgående merverdiavgift middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.tax.template,description:l10n_no.tax15
+#: model:account.tax.template,description:l10n_no.tax16
+#: model:account.tax.template,description:l10n_no.tax17
+#: model:account.tax.template,description:l10n_no.tax3
+msgid "Utgående mva"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2727
+msgid "Utgående mva, kjøp varer fra utlandet, høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2728
+msgid "Utgående mva, kjøp varer fra utlandet, middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3960
+msgid "Utgående porto, avgiftsfritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3910
+msgid "Utgående porto, avgiftspliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2120
+#: model:account.account.template,name:l10n_no.chart8320
+msgid "Utsatt skatt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8620
+msgid "Utsatt skatt, ekstraordinært resultat"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1070
+msgid "Utsatt skattefordel"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3070
+msgid "Uttak av tjenester avgiftspliktig høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3074
+msgid "Uttak av tjenester avgiftspliktig lav sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3170
+msgid "Uttak av tjenester, avgiftsfritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3071
+msgid "Uttak av tjenester, avgiftspliktig, høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3160
+msgid "Uttak av varer avgiftsfritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3060
+msgid "Uttak av varer avgiftspliktig høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3063
+msgid "Uttak av varer avgiftspliktig middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3260
+msgid "Uttak av varer utenfor avgiftsområdet"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3062
+msgid "Uttak av varer, avg.pliktig, middels sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart3061
+msgid "Uttak av varer, avgiftspliktig, høy sats"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8060
+msgid "Valutagevinst (agio)"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1980
+msgid "Valutakonto Euro"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8065
+msgid "Valutakursvinster, revenue"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8160
+msgid "Valutatap (disagio)"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6260
+msgid "Vann"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart4380
+msgid "Varekostnad"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1050
+msgid "Varemerker"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1420
+msgid "Varer under tilvirkning"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart6240
+msgid "Ved"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7020
+msgid "Vedlikehold"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart2491
+msgid "Vekselgjeld"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8100
+msgid "Verdired. av markedsbas.finans. omløps."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8080
+msgid "Verdiøkning finanseille omløpsmidler"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1270
+msgid "Verktøy mv."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart1239
+msgid "Vogntog, lastebiler og busser"
+msgstr ""
+
+#. module: l10n_no
+#: model:ir.model.fields,help:l10n_no.field_account_journal__invoice_reference_model
+msgid ""
+"You can choose different models for each type of reference. The default one "
+"is the Standard reference."
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5920
+msgid "Yrkesskadeforsikring"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart8800
+msgid "Årsresultat"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7395
+msgid "Øreavrunding"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7740
+msgid "Øreavrunding, MVA - oppgjør"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7746
+msgid "Øreavrunding, avgiftsfritt"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart7745
+msgid "Øreavrunding, avgiftspliktig"
+msgstr ""
+
+#. module: l10n_no
+#: model:account.account.template,name:l10n_no.chart5940
+msgid "Øvrige personalkostnader"
+msgstr ""

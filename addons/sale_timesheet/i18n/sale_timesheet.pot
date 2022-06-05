@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-03-15 12:07+0000\n"
 "PO-Revision-Date: 2022-03-15 12:07+0000\n"
+=======
+"POT-Creation-Date: 2022-04-15 23:22+0000\n"
+"PO-Revision-Date: 2022-04-15 23:22+0000\n"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -504,6 +509,7 @@ msgid "ID"
 msgstr ""
 
 #. module: sale_timesheet
+<<<<<<< HEAD
 #. openerp-web
 #: code:addons/sale_timesheet/static/src/xml/sale_project_templates.xml:0
 #, python-format
@@ -514,6 +520,8 @@ msgid ""
 msgstr ""
 
 #. module: sale_timesheet
+=======
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order__info_invoice
 msgid "Info Invoice"
 msgstr ""
@@ -687,6 +695,7 @@ msgid "My Projects"
 msgstr ""
 
 #. module: sale_timesheet
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
 msgid "No Invoice"
 msgstr ""
@@ -702,6 +711,8 @@ msgid "No Sales Order Item"
 msgstr ""
 
 #. module: sale_timesheet
+=======
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.actions.act_window,help:sale_timesheet.action_timesheet_from_invoice
 msgid "No activities found"
 msgstr ""
@@ -899,6 +910,15 @@ msgid "Project to make billable"
 msgstr ""
 
 #. module: sale_timesheet
+<<<<<<< HEAD
+=======
+#: code:addons/sale_timesheet/models/project.py:0
+#, python-format
+msgid "Rating"
+msgstr ""
+
+#. module: sale_timesheet
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/sale_timesheet/static/src/xml/sale_project_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -1384,11 +1404,6 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__product_template__service_type__timesheet
 msgid "Timesheets on project (one fare per SO/Project)"
-msgstr ""
-
-#. module: sale_timesheet
-#: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
-msgid "Timesheets taken into account when invoicing your time"
 msgstr ""
 
 #. module: sale_timesheet

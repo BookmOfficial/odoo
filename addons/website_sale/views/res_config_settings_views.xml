@@ -290,9 +290,9 @@
                                 Compute shipping cost and ship with Easypost
                             </div>
                         </div>
-                    </div>
+                    </div
+                    -->
                 </div>
-				-->
 
                 <field name='module_account' invisible="1"/>
                 <div attrs="{'invisible': [('module_account', '=', False)]}">

@@ -1,0 +1,130 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_in_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:29+0000\n"
+"PO-Revision-Date: 2022-04-15 22:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_in_sale
+#: model_terms:ir.ui.view,arch_db:l10n_in_sale.gst_report_saleorder_document_inherit
+msgid "<strong class=\"ml16\">HSN/SAC Code:</strong>"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model,name:l10n_in_sale.model_l10n_in_account_invoice_report
+msgid "Account Invoice Statistics"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields.selection,name:l10n_in_sale.selection__sale_order__l10n_in_gst_treatment__consumer
+msgid "Consumer"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model,name:l10n_in_sale.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields,field_description:l10n_in_sale.field_sale_order__l10n_in_company_country_code
+msgid "Country code"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields.selection,name:l10n_in_sale.selection__sale_order__l10n_in_gst_treatment__deemed_export
+msgid "Deemed Export"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model,name:l10n_in_sale.model_l10n_in_exempted_report
+msgid "Exempted Gst Supplied Statistics"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields,field_description:l10n_in_sale.field_sale_order__l10n_in_gst_treatment
+msgid "GST Treatment"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields,field_description:l10n_in_sale.field_sale_order__l10n_in_journal_id
+msgid "Journal"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model,name:l10n_in_sale.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields.selection,name:l10n_in_sale.selection__sale_order__l10n_in_gst_treatment__overseas
+msgid "Overseas"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model,name:l10n_in_sale.model_l10n_in_product_hsn_report
+msgid "Product HSN Statistics"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields.selection,name:l10n_in_sale.selection__sale_order__l10n_in_gst_treatment__composition
+msgid "Registered Business - Composition"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields.selection,name:l10n_in_sale.selection__sale_order__l10n_in_gst_treatment__regular
+msgid "Registered Business - Regular"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields,field_description:l10n_in_sale.field_sale_order__l10n_in_reseller_partner_id
+msgid "Reseller"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model,name:l10n_in_sale.model_sale_advance_payment_inv
+msgid "Sales Advance Payment Invoice"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model,name:l10n_in_sale.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields,field_description:l10n_in_sale.field_res_partner__l10n_in_shipping_gstin
+#: model:ir.model.fields,field_description:l10n_in_sale.field_res_users__l10n_in_shipping_gstin
+msgid "Shipping GSTIN"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields.selection,name:l10n_in_sale.selection__sale_order__l10n_in_gst_treatment__special_economic_zone
+msgid "Special Economic Zone"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields,help:l10n_in_sale.field_sale_order__l10n_in_company_country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: l10n_in_sale
+#: code:addons/l10n_in_sale/models/res_partner.py:0
+#, python-format
+msgid "The shipping GSTIN number [%s] does not seem to be valid"
+msgstr ""
+
+#. module: l10n_in_sale
+#: model:ir.model.fields.selection,name:l10n_in_sale.selection__sale_order__l10n_in_gst_treatment__unregistered
+msgid "Unregistered Business"
+msgstr ""

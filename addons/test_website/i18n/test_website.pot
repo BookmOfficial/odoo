@@ -1,0 +1,276 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* test_website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 23:34+0000\n"
+"PO-Revision-Date: 2022-04-15 23:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.multi_url_ir_ui_view
+#: model_terms:website.page,arch_db:test_website.multi_url
+msgid "&gt;"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__can_publish
+msgid "Can Publish"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_redirect_view_qs
+msgid "Home"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.update_module_base_view
+msgid "I am a base view"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_redirect_view
+msgid "I am a link"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__id
+msgid "ID"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__is_published
+msgid "Is Published"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__name
+msgid "Name"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__is_seo_optimized
+msgid "SEO optimized"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__seo_name
+msgid "Seo name"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "Test Error View"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_page_view
+#: model_terms:website.page,arch_db:test_website.test_page
+msgid "Test Page View"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_view
+msgid "Test View"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_view_child_broken
+msgid "Test View Child Broken"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_view_to_be_t_called
+msgid "Test View To Be t-called"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,help:test_website.field_test_model__website_url
+msgid "The full URL to access the document through the website."
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__website_published
+msgid "Visible on current website"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model,name:test_website.model_test_model
+msgid "Website Model Test"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__website_url
+msgid "Website URL"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__website_meta_description
+msgid "Website meta description"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__website_meta_keywords
+msgid "Website meta keywords"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__website_meta_title
+msgid "Website meta title"
+msgstr ""
+
+#. module: test_website
+#: model:ir.model.fields,field_description:test_website.field_test_model__website_meta_og_img
+msgid "Website opengraph image"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.multi_url_ir_ui_view
+#: model_terms:website.page,arch_db:test_website.multi_url
+msgid "get"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.multi_url_ir_ui_view
+#: model_terms:website.page,arch_db:test_website.multi_url
+msgid "get_post"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.multi_url_ir_ui_view
+#: model_terms:website.page,arch_db:test_website.multi_url
+msgid "get_post_nomultilang"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http AccessDenied (403)"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http AccessError (403)"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http Errors"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http InternalServerError (500)"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http MissingError (400)"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http NotFound (404)"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http UserError (400)"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "http ValidationError (400)"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_page_view
+#: model_terms:ir.ui.view,arch_db:test_website.test_view
+#: model_terms:ir.ui.view,arch_db:test_website.test_view_child_broken
+#: model_terms:ir.ui.view,arch_db:test_website.test_view_to_be_t_called
+#: model_terms:website.page,arch_db:test_website.test_page
+msgid "placeholder"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.multi_url_ir_ui_view
+#: model_terms:website.page,arch_db:test_website.multi_url
+msgid "post"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc AccessDenied"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc AccessError"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc Errors"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc InternalServerError"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc MissingError"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc UserError"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc ValidationError"
+msgstr ""
+
+#. module: test_website
+#: model_terms:ir.ui.view,arch_db:test_website.test_error_view
+msgid "rpc Warnings"
+msgstr ""

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.5alpha1+e\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:58+0000\n"
-"PO-Revision-Date: 2021-07-30 12:58+0000\n"
+"POT-Creation-Date: 2022-04-15 22:22+0000\n"
+"PO-Revision-Date: 2022-04-15 22:22+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,40 +16,2528 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/l10n_ec_witholding.py:0
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__witholding_move_id
-#, python-format
-msgid "Account Move"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_612
+msgid ""
+"(+) Ajuste por IVA devuelto e IVA rechazado (por concepto de devoluciones de IVA), ajuste\n"
+"                de IVA por procesos de control y otros (adquisiciones en importaciones), imputables al crédito\n"
+"                tributario(612)\n"
+"            "
 msgstr ""
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/l10n_ec_witholding.py:0
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__amount
-#, python-format
-msgid "Amount"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_613
+msgid ""
+"(+) Ajuste por IVA devuelto e IVA rechazado, ajuste de IVA por procesos de control y\n"
+"                otros (por concepto retenciones en la fuente de IVA), imputables al crédito tributario(613)\n"
+"            "
 msgstr ""
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/account_move.py:0
-#: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_line__l10n_ec_access_key
-#: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_line__l10n_ec_auth_type
-#: model:ir.model.fields,field_description:l10n_ec.field_account_move__l10n_ec_access_key
-#: model:ir.model.fields,field_description:l10n_ec.field_account_move__l10n_ec_auth_type
-#: model:ir.model.fields,field_description:l10n_ec.field_account_payment__l10n_ec_access_key
-#: model:ir.model.fields,field_description:l10n_ec.field_account_payment__l10n_ec_auth_type
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__l10n_ec_authorization
-#, python-format
-msgid "Authorization"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_610
+msgid ""
+"(+) Ajuste por IVA devuelto o descontado por adquisiciones efectuadas con medio\n"
+"                electrónico(610)\n"
+"            "
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__base
-msgid "Base"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_614
+msgid ""
+"(+) Ajuste por IVA devuelto por otras instituciones del sector público imputable al\n"
+"                crédito tributario en el mes(614)\n"
+"            "
 msgstr ""
 
 #. module: l10n_ec
-#: model:l10n_latam.identification.type,name:l10n_ec.ec_dni
-msgid "Ced"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_604
+msgid ""
+"(-) Compensación de IVA por ventas efectuadas en zonas afectadas - Ley de solidaridad,\n"
+"                restitución de crédito tributario en resoluciones(604)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_609
+msgid ""
+"(-) Retenciones en la fuente de IVA que le han sido efectuadas en este período(609)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_117
+msgid "(-) Saldo crédito tributario del mes anterior"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120305
+msgid "(-) depreciacion acumulada de activos biológicos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4110
+msgid "(-) descuento en ventas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120306
+msgid "(-) deterioro acumulado de activos biologícos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4111
+msgid "(-) devoluciones en ventas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_799
+msgid "(799)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_800
+msgid "(800)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_801
+msgid "(801)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_1x100
+msgid "1% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022002
+msgid "1.5x mil activos totales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_sale_1_75x100
+msgid "1.75%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_1_75x100
+msgid "1.75% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_sale_10x100
+msgid "10%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_10x100
+msgid "10% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_sale_15x100
+msgid "15%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_15x100
+msgid "15% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_2x100
+msgid "2% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_sale_2_75x100
+msgid "2.75%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_2_75x100
+msgid "2.75% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_sale_22x100
+msgid "22%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_22x100
+msgid "22% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_302
+msgid "302 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_303
+msgid "303"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_303
+msgid "303 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_303
+msgid ""
+"303 10% honorarios profesionales y demas pagos por servicios relacionados "
+"con el titulo profesional"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_304
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_304A
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_304B
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_304C
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_304D
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_304E
+msgid "304"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_304
+msgid "304 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_304
+msgid ""
+"304 8% servicios predomina el intelecto no relacionados con el titulo "
+"profesional"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_304A
+msgid ""
+"304a 8% comisiones y demas pagos por servicios predomina intelecto no "
+"relacionados con el titulo profesional"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_304B
+msgid ""
+"304b 8% pagos a notarios y registradores de la propiedad y mercantil por sus"
+" actividades ejercidas como tales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_304C
+msgid ""
+"304c 8% pagos a deportistas, entrenadores, arbitros, miembros del cuerpo "
+"tecnico por sus actividades ejercidas como tales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_304D
+msgid "304d 8% pagos a artistas por sus actividades ejercidas como tales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_304E
+msgid "304e 8% honorarios y demas pagos por servicios de docencia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_307
+msgid "307"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_307
+msgid "307 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_307
+msgid "307 2% servicios predomina mano de obra"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_308
+msgid "308"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_308
+msgid "308 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_308
+msgid "308 10% utilizacion o aprovechamiento de la imagen o renombre"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_309
+msgid "309"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_309
+msgid "309 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_309
+msgid ""
+"309 1.75% servicios prestados por medios de comunicación y agencias de "
+"publicidad"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_310
+msgid "310"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_310
+msgid "310 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_310
+msgid ""
+"310 1% servicio de transporte privado de pasajeros o transporte publico o "
+"privado de carga"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_311
+msgid "311"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_311
+msgid "311 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_311
+msgid ""
+"311 2% por pagos a traves de liquidacion de compra (nivel cultural o "
+"rusticidad)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_312
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_312A
+msgid "312"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_312
+msgid "312 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_312
+msgid "312 1.75% transferencia de bienes muebles de naturaleza corporal"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_312A
+msgid ""
+"312a 1% compra de bienes de origen agricola, avicola, pecuario, apicola, "
+"cunicula, bioacuatico, y forestal"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_314A
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_314B
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_314C
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_314D
+msgid "314"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_314
+msgid "314 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_314A
+msgid ""
+"314a 8% regalias por concepto de franquicias de acuerdo a ley de propiedad "
+"intelectual - pago a personas naturales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_314B
+msgid ""
+"314b 8% casales, derechos de autor, marcas, patentes y similares de acuerdo "
+"a ley de propiedad intelectual – pago a personas naturales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_314C
+msgid ""
+"314c 8% regalias por concepto de franquicias de acuerdo a ley de propiedad "
+"intelectual - pago a sociedades"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_314D
+msgid ""
+"314d 8% casales, derechos de autor, marcas, patentes y similares de acuerdo "
+"a ley de propiedad intelectual – pago a sociedades"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_319
+msgid "319"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_319
+msgid "319 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_319
+msgid ""
+"319 1.75% cuotas de arrendamiento mercantil (prestado por sociedades), "
+"inclusive la de opción de compra"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_320
+msgid "320"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_320
+msgid "320 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_320
+msgid "320 8% por arrendamiento bienes inmuebles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3210
+msgid "3210 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_322
+msgid "322"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_322
+msgid "322 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_322
+msgid "322 1.75% seguros y reaseguros (primas y cesiones) 1.75%\t"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_323
+msgid "323 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_324
+msgid "324 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_325
+msgid "325 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_326
+msgid "326 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_327
+msgid "327 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_328
+msgid "328 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_329
+msgid "329 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_331
+msgid "331 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_332
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_332A
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_332B
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_332C
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_332D
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_332G
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_332I
+msgid "332"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_332
+msgid "332 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_332
+msgid "332 0% otras compras de bienes y servicios no sujetas a retencion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_332A
+msgid ""
+"332a 0% enajenacion de derechos representativos de capital y otros derechos "
+"exentos (mayo 2016)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_332B
+msgid "332b 0% compra de bienes inmuebles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_332C
+msgid "332c 0% transporte publico de pasajeros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_332D
+msgid ""
+"332d 0% pagos en el pais por transporte de pasajeros o transporte "
+"internacional de carga, a compañias nacionales o extranjeras de aviacion o "
+"maritimas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_332G
+msgid "332g 0% pagos con tarjeta de credito"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_332I
+msgid "332i 0% pagos a través de convenios de débito (clientes ifi`s)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_333
+msgid "333 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_334
+msgid "334 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_335
+msgid "335 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_336
+msgid "336 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_337
+msgid "337 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3380
+msgid "3380 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3400
+msgid "3400 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_343A
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_343B
+msgid "343"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_343
+msgid "343 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_343A
+msgid "343a 1% por energia electrica"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_343B
+msgid ""
+"343b 1% por actividades de construccion de obra material inmueble, "
+"urbanizacion, lotizacion o actividades similares"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_344
+msgid "344 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_3440
+msgid "3440"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3440
+msgid "3440 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_3440
+msgid "3440 2.75% otras retenciones aplicables el 2,75%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_345
+msgid "345 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_346
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_347_346
+msgid "346"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_346
+msgid "346 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_346
+msgid ""
+"346 1.75% microempresas (otras retenciones aplicables a otros porcentajes)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_347_346
+msgid "347-346 2% donaciones en dinero -impuesto a la donaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_348
+msgid "348 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_349
+msgid "349 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_350
+msgid "350 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_352
+msgid "352 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_353
+msgid "353 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_354
+msgid "354 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_357
+msgid "357 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_358
+msgid "358 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_359
+msgid "359 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_360
+msgid "360 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_361
+msgid "361 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_362
+msgid "362 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3620
+msgid "3620 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_364
+msgid "364 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_369
+msgid "369 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_370
+msgid "370 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_372
+msgid "372 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_373
+msgid "373 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_374
+msgid "374 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_375
+msgid "375 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_376
+msgid "376 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_377
+msgid "377 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_378
+msgid "378 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_379
+msgid "379 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_383
+msgid "383 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_384
+msgid "384 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_385
+msgid "385 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_386
+msgid "386 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_387
+msgid "387 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3880
+msgid "3880 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3900
+msgid "3900 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_393
+msgid "393 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_394
+msgid "394 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_3940
+msgid "3940 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_395
+msgid "395 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_396
+msgid "396 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_398
+msgid "398 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_399
+msgid "399 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_400
+msgid "400 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_401
+msgid "401 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_402
+msgid "402 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_402
+msgid "402 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_403
+msgid "403 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_403
+msgid "403 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_404
+msgid "404 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_404
+msgid "404 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_405
+msgid "405 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4050
+msgid "4050 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_406
+msgid "406 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4060
+msgid "4060 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_407
+msgid "407 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4070
+msgid "4070 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_408
+msgid "408 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_408
+msgid "408 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_409
+msgid "409 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_409
+msgid "409 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_522A_410
+msgid "410"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_410
+msgid "410 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_501_411
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_502_411
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_509_411
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_511_411
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_512_411
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_517_411
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_520D_411
+msgid "411"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_411
+msgid "411 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_411
+msgid "411 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_412
+msgid "412 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_412
+msgid "412 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_413
+msgid "413 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_413
+msgid "413 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_414
+msgid "414 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_414
+msgid "414 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_415
+msgid "415 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_415
+msgid "415 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_416
+msgid "416 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4160
+msgid "4160 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_417
+msgid "417 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4170
+msgid "4170 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_418
+msgid "418 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4180
+msgid "4180 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_419
+msgid "419 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_419
+msgid "419 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_420
+msgid "420 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_421
+msgid "421 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_421
+msgid "421 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_501_422
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_502_422
+#: model:account.tax.template,description:l10n_ec.tax_withhold_profit_509_422
+msgid "422"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_422
+msgid "422 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_422
+msgid "422 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_423
+msgid "423 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_423
+msgid "423 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_424
+msgid "424 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_424
+msgid "424 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_425
+msgid "425 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4260
+msgid "4260 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4270
+msgid "4270 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4280
+msgid "4280 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_429
+msgid "429 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_429
+msgid "429 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_430
+msgid "430 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_431
+msgid "431 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_431
+msgid "431 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_432
+msgid "432 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_433
+msgid "433 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_434
+msgid "434 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_441
+msgid "441 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_442
+msgid "442 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_443
+msgid "443 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_444
+msgid "444 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_452
+msgid "452 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_453
+msgid "453 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_453
+msgid "453 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_454
+msgid "454 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_454
+msgid "454 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4550
+msgid "4550 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4560
+msgid "4560 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4570
+msgid "4570 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_458
+msgid "458 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_459
+msgid "459 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_460
+msgid "460 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_461
+msgid "461 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_463
+msgid "463 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_464
+msgid "464 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_465
+msgid "465 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4660
+msgid "4660 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4670
+msgid "4670 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4680
+msgid "4680 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_469
+msgid "469 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_470
+msgid "470 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_471
+msgid "471 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_472
+msgid "472 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_474
+msgid "474 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_475
+msgid "475 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4760
+msgid "4760 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4770
+msgid "4770 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_4780
+msgid "4780 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_479
+msgid "479 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_480
+msgid "480 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_480
+msgid "480 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_481
+msgid "481 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_481
+msgid "481 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_482
+msgid "482 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_482
+msgid "482 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_483
+msgid "483 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_484
+msgid "484 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_487
+msgid "487 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_495
+msgid "495 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_103_498
+msgid "498 (Reporte 103)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_499
+msgid "499 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_5x100
+msgid "5% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_500
+msgid "500 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_501
+msgid "501 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_501_411
+msgid ""
+"501-411 22% pago al exterior - beneficios empresariales (con convenio de "
+"doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_501_422
+msgid ""
+"501-422 22% pago al exterior - beneficios empresariales (sin convenio de "
+"doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_502
+msgid "502 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_502_411
+msgid ""
+"502-411 22% pago al exterior - servicios empresariales (con convenio de "
+"doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_502_422
+msgid ""
+"502-422 22% pago al exterior - servicios empresariales (sin convenio de "
+"doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_503
+msgid "503 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_504
+msgid "504 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_505
+msgid "505 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_506
+msgid "506 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_507
+msgid "507 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_508
+msgid "508 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_509
+msgid "509 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_509_411
+msgid ""
+"509-411 22% pago al exterior - casales, derechos de autor, marcas, patentes "
+"y similares (con convenio de doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_509_422
+msgid ""
+"509-422 pago al exterior - casales, derechos de autor, marcas, patentes y "
+"similares (sin convenio de doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_510
+msgid "510 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_511
+msgid "511 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_511_411
+msgid ""
+"511-411 22% pago al exterior - servicios profesionales independientes (con "
+"convenio de doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_512
+msgid "512 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_512_411
+msgid ""
+"512-411 22% pago al exterior - servicios profesionales dependientes (con "
+"convenio de doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_513
+msgid "513 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_514
+msgid "514 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_515
+msgid "515 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_516
+msgid "516 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_517
+msgid "517 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_517_411
+msgid ""
+"517-411 22% pago al exterior - reembolso de gastos (con convenio de doble "
+"tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_518
+msgid "518 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_519
+msgid "519 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_520
+msgid "520 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_520D_411
+msgid ""
+"520d-411 22% pago al exterior - comisiones por exportaciones y por promocion"
+" de turismo receptivo (con convenio de doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_521
+msgid "521 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_522
+msgid "522 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_522A_410
+msgid ""
+"522a-410 22% pago al exterior - servicios tecnicos, administrativos o de "
+"consultoria y regalias con convenio de doble tributacion (con convenio de "
+"doble tributación)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_523
+msgid "523 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_524
+msgid "524 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_525
+msgid "525 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_526
+msgid "526 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_527
+msgid "527 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_529
+msgid "529 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_531
+msgid "531 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_532
+msgid "532 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_535
+msgid "535 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_541
+msgid "541 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_542
+msgid "542 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_543
+msgid "543 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_544
+msgid "544 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_545
+msgid "545 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_554
+msgid "554 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_555
+msgid "555 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_601
+msgid "601 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_602
+msgid "602 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_604
+msgid "604 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_605
+msgid "605 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_606
+msgid "606 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_608
+msgid "608 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_609
+msgid "609 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_610
+msgid "610 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_612
+msgid "612 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_613
+msgid "613 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_614
+msgid "614 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_615
+msgid "615 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_617
+msgid "617 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_619
+msgid "619 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_620
+msgid "620 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_621
+msgid "621 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_699
+msgid "699 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_700
+msgid "700 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_701
+msgid "701 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_721
+msgid "721 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_723
+msgid "723 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_725
+msgid "725 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_727
+msgid "727 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_729
+msgid "729 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_731
+msgid "731 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_799
+msgid "799 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_withhold_profit_sale_8x100
+msgid "8% retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_800
+msgid "800 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,tag_name:l10n_ec.tax_report_line_104_801
+msgid "801 (Reporte 104)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_230
+msgid "A comercializadoras"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_233
+msgid "A distribuidores"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_173
+msgid "A través de liquidaciones de compra (nivel cultural o rusticidad)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_137
+msgid "AGENTE DE RETENCIÓN DEL IMPUESTO AL VALOR AGREGADO"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model,name:l10n_ec.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1
+msgid "Activo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec11
+msgid "Activo corriente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1204
+msgid "Activo intangible"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec12
+msgid "Activo no corriente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1203
+msgid "Activos biologicos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120403
+msgid "Activos de exploracion y explotacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1102
+msgid "Activos financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110201
+msgid "Activos financieros a valor razonable con cambios en resultados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110202
+msgid "Activos financieros disponibles para la venta"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120601
+msgid "Activos financieros mantenidos hasta el vencimiento"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110203
+msgid "Activos financieros mantenidos hasta su vencimiento"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1206
+msgid "Activos financieros no corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec1106
+msgid ""
+"Activos no corrientes mantenidos para la venta y operaciones discontinuadas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1105
+msgid "Activos por impuestos corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120501
+#: model:account.group.template,name:l10n_ec.ec1205
+msgid "Activos por impuestos diferidos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_101
+msgid "Adquisiciones exentas del pago de IVA"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_61
+msgid ""
+"Adquisiciones locales de activos fijos gravados tarifa diferente de cero (con derecho a\n"
+"                crédito tributario)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_98
+msgid "Adquisiciones no objeto de IVA"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_91
+msgid "Adquisiciones realizadas a contribuyentes RISE"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_57
+msgid ""
+"Adquisiciones y pagos (excluye activos fijos) gravados tarifa diferente de cero (con\n"
+"                derecho a crédito tributario)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_88
+msgid "Adquisiciones y pagos (incluye activos fijos) gravados tarifa 0%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52011801
+#: model:account.account.template,name:l10n_ec.ec52021801
+msgid "Agua potable"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec520118
+#: model:account.group.template,name:l10n_ec.ec520218
+msgid "Agua, energia, luz, y telecomunicaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020204
+#: model:account.account.template,name:l10n_ec.ec51030204
+#: model:account.account.template,name:l10n_ec.ec52010404
+#: model:account.account.template,name:l10n_ec.ec52020404
+msgid "Alimentacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012708
+#: model:account.account.template,name:l10n_ec.ec52022807
+msgid "Alimentación y refrigerios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012704
+#: model:account.account.template,name:l10n_ec.ec52022803
+msgid "Alícuotas y condominio"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120404
+msgid "Amortizacion acumulada de activos intangible"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec520122
+#: model:account.group.template,name:l10n_ec.ec520222
+msgid "Amortizaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields,help:l10n_ec.field_l10n_latam_document_type__internal_type
+msgid ""
+"Analog to account.move.move_type but with more options allowing to identify "
+"the kind of document we are working with. (not only related to account.move,"
+" could be for documents of other models like stock.picking)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120301
+msgid "Animales vivos en crecimiento"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120302
+msgid "Animales vivos en produccion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_275
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_308
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_338
+msgid "Anticipo de dividendos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110503
+msgid "Anticipo de impuesto a la renta"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_201
+msgid "Anticipo dividendos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec11020703
+msgid "Anticipo décimo cuarto sueldo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec11020702
+msgid "Anticipo décimo tercer sueldo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec11020701
+msgid "Anticipo sueldos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec11020704
+msgid "Anticipo utilidades"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110403
+msgid "Anticipos a proveedores"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2110
+#: model:account.account.template,name:l10n_ec.ec2206
+msgid "Anticipos de clientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_255
+msgid "Aplicables a otros porcentajes (incluye régimen Microempresarial)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_243
+msgid "Aplicables el 1%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_246
+msgid "Aplicables el 2%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_249
+msgid "Aplicables el 2,75%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_252
+msgid "Aplicables el 8%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070303
+msgid "Aportacion patronal al iess"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070304
+msgid "Aportacion personal al iess"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020301
+#: model:account.account.template,name:l10n_ec.ec51030301
+#: model:account.account.template,name:l10n_ec.ec52010201
+#: model:account.account.template,name:l10n_ec.ec52020201
+msgid "Aporte patronal"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec510203
+#: model:account.group.template,name:l10n_ec.ec520202
+msgid "Aportes a la seguridad social"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec510303
+#: model:account.group.template,name:l10n_ec.ec520102
+msgid "Aportes a la seguridad social (incluido fondo de reserva)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec32
+msgid "Aportes de socios o accionistas para futura capitalizacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_185
+msgid "Arrendamiento"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520109
+#: model:account.account.template,name:l10n_ec.ec520209
+msgid "Arrendamiento operativo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110402
+msgid "Arriendos pagados por anticipado"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_journal__l10n_ec_emission_type__auto_printer
+msgid "Auto Printer"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec110102
+msgid "Bancos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_302
+msgid "Base imponible(302)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_303
+msgid "Base imponible(303)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_304
+msgid "Base imponible(304)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_307
+msgid "Base imponible(307)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_308
+msgid "Base imponible(308)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_309
+msgid "Base imponible(309)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_310
+msgid "Base imponible(310)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_311
+msgid "Base imponible(311)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_312
+msgid "Base imponible(312)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_314
+msgid "Base imponible(314)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_319
+msgid "Base imponible(319)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_320
+msgid "Base imponible(320)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3210
+msgid "Base imponible(3210)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_322
+msgid "Base imponible(322)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_323
+msgid "Base imponible(323)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_324
+msgid "Base imponible(324)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_325
+msgid "Base imponible(325)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_326
+msgid "Base imponible(326)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_327
+msgid "Base imponible(327)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_328
+msgid "Base imponible(328)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_329
+msgid "Base imponible(329)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_331
+msgid "Base imponible(331)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_332
+msgid "Base imponible(332)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_333
+msgid "Base imponible(333)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_334
+msgid "Base imponible(334)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_335
+msgid "Base imponible(335)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_336
+msgid "Base imponible(336)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_337
+msgid "Base imponible(337)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3380
+msgid "Base imponible(3380)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3400
+msgid "Base imponible(3400)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_343
+msgid "Base imponible(343)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_344
+msgid "Base imponible(344)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3440
+msgid "Base imponible(3440)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_345
+msgid "Base imponible(345)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_346
+msgid "Base imponible(346)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_348
+msgid "Base imponible(348)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_349
+msgid "Base imponible(349)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_350
+msgid "Base imponible(350)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_402
+msgid "Base imponible(402)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_403
+msgid "Base imponible(403)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_404
+msgid "Base imponible(404)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4050
+msgid "Base imponible(4050)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4060
+msgid "Base imponible(4060)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4070
+msgid "Base imponible(4070)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_408
+msgid "Base imponible(408)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_409
+msgid "Base imponible(409)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_410
+msgid "Base imponible(410)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_411
+msgid "Base imponible(411)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_412
+msgid "Base imponible(412)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_413
+msgid "Base imponible(413)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_414
+msgid "Base imponible(414)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_415
+msgid "Base imponible(415)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4160
+msgid "Base imponible(4160)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4170
+msgid "Base imponible(4170)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4180
+msgid "Base imponible(4180)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_419
+msgid "Base imponible(419)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_420
+msgid "Base imponible(420)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_421
+msgid "Base imponible(421)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_422
+msgid "Base imponible(422)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_423
+msgid "Base imponible(423)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_424
+msgid "Base imponible(424)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_425
+msgid "Base imponible(425)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4260
+msgid "Base imponible(4260)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4270
+msgid "Base imponible(4270)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4280
+msgid "Base imponible(4280)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_429
+msgid "Base imponible(429)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_430
+msgid "Base imponible(430)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_431
+msgid "Base imponible(431)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_432
+msgid "Base imponible(432)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_433
+msgid "Base imponible(433)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_487
+msgid "Base imponible(487)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec510204
+#: model:account.group.template,name:l10n_ec.ec510304
+#: model:account.group.template,name:l10n_ec.ec520103
+#: model:account.group.template,name:l10n_ec.ec520203
+msgid "Beneficios sociales e indemnizaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_189
+msgid "Bienes inmuebles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020103
+#: model:account.account.template,name:l10n_ec.ec51030103
+#: model:account.account.template,name:l10n_ec.ec52010103
+#: model:account.account.template,name:l10n_ec.ec52020103
+msgid "Bonificaciones por desempeño"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022004
+msgid "Camara de comercio"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020202
+#: model:account.account.template,name:l10n_ec.ec51030202
+#: model:account.account.template,name:l10n_ec.ec52010402
+#: model:account.account.template,name:l10n_ec.ec52020402
+msgid "Capacitacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012707
+#: model:account.account.template,name:l10n_ec.ec52022806
+msgid "Capacitación, cursos y seminarios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec31
+msgid "Capital"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3102
+msgid "Capital suscrito no pagado, acciones en tesoreria"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3101
+msgid "Capital suscrito o asignado"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__l10n_ec_check_format
+msgid "Check Number Format EC"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__code
+msgid "Code"
 msgstr ""
 
 #. module: l10n_ec
@@ -71,13 +2559,49 @@ msgid "Code base"
 msgstr ""
 
 #. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520112
+#: model:account.account.template,name:l10n_ec.ec520212
+msgid "Combustibles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520110
+#: model:account.account.template,name:l10n_ec.ec520210
+#: model:account.account.template,name:l10n_ec.ec520302
+msgid "Comisiones"
+msgstr ""
+
+#. module: l10n_ec
 #: model:ir.model,name:l10n_ec.model_res_company
 msgid "Companies"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__company_id
-msgid "Company"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_179
+msgid ""
+"Compra de bienes de origen agrícola, avícola, pecuario, apícola, cunícula, bioacuático,\n"
+"                forestal y carnes en estado natural\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510102
+msgid "Compras netas locales de bienes no producidos por la compañia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510106
+msgid "Compras netas locales de materia prima"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_268
+msgid "Con convenio de doble tributación"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec1107
+msgid "Construcciones en proceso (nic 11 y secc.23 pymes)"
 msgstr ""
 
 #. module: l10n_ec
@@ -86,69 +2610,421 @@ msgid "Contact"
 msgstr ""
 
 #. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4103
+msgid "Contratos de construccion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022003
+msgid "Contribuciones super cias."
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_special_taxation_companies
+msgid "Contribuyentes especiales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120103
+#: model:account.account.template,name:l10n_ec.ec51040102
+#: model:account.account.template,name:l10n_ec.ec51040302
+#: model:account.account.template,name:l10n_ec.ec5201210102
+#: model:account.account.template,name:l10n_ec.ec5201230102
+#: model:account.account.template,name:l10n_ec.ec5202210102
+#: model:account.account.template,name:l10n_ec.ec5202230102
+msgid "Contrucciones en curso"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec51
+msgid "Costo de ventas y produccion"
+msgstr ""
+
+#. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__create_uid
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__create_uid
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__create_uid
 msgid "Created by"
 msgstr ""
 
 #. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__create_date
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__create_date
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__create_date
 msgid "Created on"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__currency_id
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__currency_id
-msgid "Currency"
+#: model:account.account.template,name:l10n_ec.ec110502
+msgid "Credito tributario a favor de la empresa(i.r.)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__out_invoice
-msgid "Customer Document"
+#: model:account.group.template,name:l10n_ec.ec110501
+msgid "Credito tributario a favor de la empresa(iva)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__out_refund
-msgid "Customer Refund"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_602
+msgid ""
+"Crédito tributario aplicable en este período (si la diferencia de los campos 499-564 es\n"
+"                menor que cero)(602)\n"
+"            "
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__out_withhold
-msgid "Customer Withhold"
+#: model:account.account.template,name:l10n_ec.ec52012304
+#: model:account.account.template,name:l10n_ec.ec52022305
+msgid "Cuentas por cobrar"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_product_product__witholding_tax_ids
-#: model:ir.model.fields,field_description:l10n_ec.field_product_template__witholding_tax_ids
-msgid "Customer Witholdings"
+#: model:account.account.template,name:l10n_ec.ec1102050102
+msgid "Cuentas por cobrar clientes no relacionados extranjeros"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__code
-msgid "Código"
+#: model:account.account.template,name:l10n_ec.ec1102050101
+msgid "Cuentas por cobrar clientes no relacionados locales"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,help:l10n_ec.field_product_product__witholding_tax_ids
-#: model:ir.model.fields,help:l10n_ec.field_product_template__witholding_tax_ids
-msgid "Default witholding used when selling the product."
+#: model:account.group.template,name:l10n_ec.ec110207
+msgid "Cuentas por cobrar empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2108
+#: model:account.group.template,name:l10n_ec.ec2204
+msgid "Cuentas por pagar diversas/relacionadas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec220402
+msgid "Cuentas por pagar diversas/relacionadas del exterior"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec220401
+msgid "Cuentas por pagar diversas/relacionadas locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2103
+#: model:account.group.template,name:l10n_ec.ec2202
+msgid "Cuentas y documentos por pagar"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210302
+#: model:account.account.template,name:l10n_ec.ec220202
+msgid "Cuentas y documentos por pagar del exterior"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210301
+#: model:account.account.template,name:l10n_ec.ec220201
+msgid "Cuentas y documentos por pagar locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:l10n_latam.identification.type,name:l10n_ec.ec_dni
+msgid "Cédula"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020402
+#: model:account.account.template,name:l10n_ec.ec51030402
+#: model:account.account.template,name:l10n_ec.ec52010302
+#: model:account.account.template,name:l10n_ec.ec52020302
+msgid "Decimo cuarto sueldo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020401
+#: model:account.account.template,name:l10n_ec.ec51030401
+#: model:account.account.template,name:l10n_ec.ec52010301
+#: model:account.account.template,name:l10n_ec.ec52020301
+msgid "Decimo tercer sueldo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011202
+msgid "Depreciacion acumulada contrucciones en curso"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120203
+msgid "Depreciacion acumulada de propiedades de inversion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011201
+msgid "Depreciacion acumulada edificios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011207
+msgid "Depreciacion acumulada equipo de computacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011203
+msgid "Depreciacion acumulada instalaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011205
+msgid "Depreciacion acumulada maquinaria y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011204
+msgid "Depreciacion acumulada muebles y enseres"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011206
+msgid "Depreciacion acumulada naves, aeronaves, barcazas y similares"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011209
+msgid "Depreciacion acumulada otros propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec120112
+msgid "Depreciacion acumulada propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011210
+msgid "Depreciacion acumulada repuestos y herramientas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011208
+msgid ""
+"Depreciacion acumulada vehiculos, equipos de transporte y equipo caminero "
+"movil"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec510401
+msgid "Depreciacion propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec520121
+#: model:account.group.template,name:l10n_ec.ec520221
+msgid "Depreciaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020405
+#: model:account.account.template,name:l10n_ec.ec51030405
+#: model:account.account.template,name:l10n_ec.ec52010305
+#: model:account.account.template,name:l10n_ec.ec52020305
+msgid "Desahucio"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020404
+#: model:account.account.template,name:l10n_ec.ec51030404
+#: model:account.account.template,name:l10n_ec.ec52010304
+#: model:account.account.template,name:l10n_ec.ec52020304
+msgid "Despido intempestivo "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011307
+msgid "Deterioro acumulado  equipo de computacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011306
+msgid "Deterioro acumulado  naves, aeronaves, barcazas y similares"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011308
+msgid ""
+"Deterioro acumulado  vehiculos, equipos de transporte y equipo caminero "
+"movil"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011302
+msgid "Deterioro acumulado contrucciones en curso"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120405
+msgid "Deterioro acumulado de activo intangible"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120204
+msgid "Deterioro acumulado de propiedades de inversion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec120113
+msgid "Deterioro acumulado de propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011301
+msgid "Deterioro acumulado edificios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011303
+msgid "Deterioro acumulado instalaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011305
+msgid "Deterioro acumulado maquinaria y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011304
+msgid "Deterioro acumulado muebles y enseres"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011309
+msgid "Deterioro acumulado otros propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec12011310
+msgid "Deterioro acumulado repuestos y herramientas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec510403
+msgid "Deterioro de propiedad, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510402
+msgid "Deterioro o pérdidas de activos biológicos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_146
+msgid ""
+"Devolución provisional de IVA mediante compensación con retenciones "
+"efectuadas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520304
+msgid "Diferencia en cambio"
 msgstr ""
 
 #. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__display_name
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__display_name
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__display_name
 msgid "Display Name"
 msgstr ""
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/l10n_ec_witholding.py:0
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__l10n_latam_document_type_id
-#, python-format
-msgid "Document Type"
+#: model:account.account.template,name:l10n_ec.ec4107
+#: model:account.account.template,name:l10n_ec.ec4301
+msgid "Dividendos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_281
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_314
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_344
+msgid ""
+"Dividendos con beneficiario efectivo persona natural residente en Ecuador"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_213
+msgid "Dividendos distribuidos a fideicomisos residentes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_207
+msgid "Dividendos distribuidos a personas naturales residentes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_210
+msgid "Dividendos distribuidos a sociedades residentes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_204
+msgid ""
+"Dividendos distribuidos que correspondan al impuesto a la renta único establecido en el\n"
+"                art. 27 de la LRTI\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_216
+msgid "Dividendos en acciones (capitalización de utilidades)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_284
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_317
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_347
+msgid "Dividendos incumpliendo el deber de informar la composición societaria"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210706
+msgid "Dividendos por pagar"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_278
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_311
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_341
+msgid ""
+"Dividendos sin beneficiario efectivo persona natural residente en Ecuador"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120603
+msgid "Documentos y cuentas por cobrar"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec110205
+msgid "Documentos y cuentas por cobrar cliente no relacionados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec11020501
+msgid ""
+"Documentos y cuentas por cobrar cliente no relacionados de actividades ordinarias que no\n"
+"                generen intereses\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec110206
+msgid "Documentos y cuentas por cobrar cliente relacionados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec11020602
+msgid "Documentos y cuentas por cobrar cliente relacionados extranjeros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec11020601
+msgid "Documentos y cuentas por cobrar cliente relacionados locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070403
+msgid "Décimos por pagar"
 msgstr ""
 
 #. module: l10n_ec
@@ -157,17 +3033,9 @@ msgid "Ecuadorian Configuration"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__l10n_ec_type
-msgid "Ecuadorian Type"
-msgstr ""
-
-#. module: l10n_ec
-#: model:ir.model.fields,help:l10n_ec.field_account_bank_statement_line__l10n_ec_auth_type
-#: model:ir.model.fields,help:l10n_ec.field_account_move__l10n_ec_auth_type
-#: model:ir.model.fields,help:l10n_ec.field_account_payment__l10n_ec_auth_type
-#: model:ir.model.fields,help:l10n_ec.field_l10n_latam_document_type__l10n_ec_authorization
-msgid ""
-"Ecuadorian tax authority requires an authorization for certain documents"
+#: code:addons/l10n_ec/models/l10n_latam_document_type.py:0
+#, python-format
+msgid "Ecuadorian Document %s must be like 001-001-123456789"
 msgstr ""
 
 #. module: l10n_ec
@@ -176,71 +3044,973 @@ msgid "Ecuadorian taxes subtype"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,help:l10n_ec.field_account_bank_statement_line__amount_by_group_wth
-#: model:ir.model.fields,help:l10n_ec.field_account_move__amount_by_group_wth
-#: model:ir.model.fields,help:l10n_ec.field_account_payment__amount_by_group_wth
-msgid "Edit Tax amounts if you encounter rounding issues."
+#: model:account.account.template,name:l10n_ec.ec120102
+#: model:account.account.template,name:l10n_ec.ec120202
+#: model:account.account.template,name:l10n_ec.ec51040101
+#: model:account.account.template,name:l10n_ec.ec51040301
+#: model:account.account.template,name:l10n_ec.ec5201210101
+#: model:account.account.template,name:l10n_ec.ec5201230101
+#: model:account.account.template,name:l10n_ec.ec5202210101
+#: model:account.account.template,name:l10n_ec.ec5202230101
+msgid "Edificios"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_import_journal_creation__l10n_ec_entity
+#: model:account.group.template,name:l10n_ec.ec110101
+msgid "Efectivo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1101
+msgid "Efectivo y equivalentes al efectivo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510404
+msgid "Efecto valor neto de realizacion de inventarios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5
+msgid "Egresos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_journal__l10n_ec_emission_type__electronic
+msgid "Electronic"
+msgstr ""
+
+#. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_entity
 msgid "Emission Entity"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_import_journal_creation__l10n_ec_emission
 #: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_emission
 msgid "Emission Point"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__hr_advance
-msgid "Employee Advance"
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_emission_address_id
+msgid "Emission address"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_outflows
+#: model:ir.model.fields,field_description:l10n_ec.field_account_journal__l10n_ec_emission_type
+msgid "Emission type"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_foreing_company_exports
+msgid "Empresa extranjera - exportacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_foreing_company_local
+msgid "Empresa extranjera - venta local"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_334
+msgid "En paraísos fiscales o regímenes fiscales preferentes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_151
+msgid "En relación de dependencia que supera o no la base desgravada"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_287
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_320
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_350
+msgid "Enajenación de derechos representativos de capital y otros derechos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_220
+msgid ""
+"Enajenación de derechos representativos de capital y otros derechos cotizados en bolsa\n"
+"                ecuatoriana\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_223
+msgid ""
+"Enajenación de derechos representativos de capital y otros derechos no cotizados en bolsa\n"
+"                ecuatoriana\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52011802
+#: model:account.account.template,name:l10n_ec.ec52021802
+msgid "Energia electrica"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120108
+#: model:account.account.template,name:l10n_ec.ec51040107
+#: model:account.account.template,name:l10n_ec.ec51040307
+#: model:account.account.template,name:l10n_ec.ec5201210107
+#: model:account.account.template,name:l10n_ec.ec5201230107
+#: model:account.account.template,name:l10n_ec.ec5202210107
+#: model:account.account.template,name:l10n_ec.ec5202230107
+msgid "Equipo de computacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.group,name:l10n_ec.tax_group_outflows
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__outflows_tax
 msgid "Exchange Outflows"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.actions.act_window,name:l10n_ec.action_account_l10n_ec_sri_payment_tree
-#: model:ir.ui.menu,name:l10n_ec.menu_action_account_l10n_ec_sri_payment
-msgid "Formas de pago SRI"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_26
+msgid "Exportaciones de bienes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_29
+msgid "Exportaciones de servicios y/o derechos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020302
+#: model:account.account.template,name:l10n_ec.ec51030302
+#: model:account.account.template,name:l10n_ec.ec52010202
+#: model:account.account.template,name:l10n_ec.ec52020202
+msgid "Fondos de reserva"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070305
+msgid "Fondos de reserva retenidos a empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec42
+msgid "Ganancia bruta"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4303
+msgid "Ganancia en inversiones en asociadas / subsidiarias y otras"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4108
+msgid "Ganancia por medición a valor razonable de activos biológicos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3601
+msgid "Ganancias acumuladas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec520123
+#: model:account.group.template,name:l10n_ec.ec520223
+msgid "Gasto deterioro"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520227
+msgid "Gasto impuesto a la renta (activos y pasivos diferidos)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec510202
+#: model:account.group.template,name:l10n_ec.ec510302
+#: model:account.group.template,name:l10n_ec.ec520104
+#: model:account.group.template,name:l10n_ec.ec520204
+msgid "Gasto planes de beneficios a empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510405
+msgid "Gasto por garantias en venta de productos o servicios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520125
+#: model:account.account.template,name:l10n_ec.ec520225
+msgid "Gasto por reestructuracion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec52
+msgid "Gastos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5202
+msgid "Gastos administrativos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022813
+msgid "Gastos de construcción"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520303
+msgid "Gastos de financiamiento de activos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520116
+#: model:account.account.template,name:l10n_ec.ec520216
+msgid "Gastos de gestion (agasajos a accionistas, trabajadores y clientes)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5201
+msgid "Gastos de ventas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520117
+#: model:account.account.template,name:l10n_ec.ec520217
+msgid "Gastos de viaje"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5203
+msgid "Gastos financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012713
+#: model:account.account.template,name:l10n_ec.ec52022814
+msgid "Gastos legales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520124
+#: model:account.account.template,name:l10n_ec.ec520224
+msgid ""
+"Gastos por cantidades anormales de utilización en el proceso de producción"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281802
+msgid "Gnd gastos de gestion y agasajos a clientes y empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec52022818
+msgid "Gnd gastos no deducibles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281806
+msgid "Gnd impuestos, intereses y multas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281805
+msgid "Gnd movilización no deducible"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281808
+msgid "Gnd otros gastos no deducibles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281803
+msgid "Gnd retenciones asumidas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281807
+msgid "Gnd salidas de divisas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281804
+msgid "Gnd soporte tecnico"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5202281801
+msgid "Gnd suministros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012705
+#: model:account.account.template,name:l10n_ec.ec52022804
+msgid "Guias, couriers, correos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520107
+#: model:account.account.template,name:l10n_ec.ec520207
+msgid "Honorarios a extranjeros por servicios ocasionales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_155
+msgid "Honorarios profesionales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520105
+#: model:account.account.template,name:l10n_ec.ec520205
+msgid "Honorarios, comisiones y dietas a personas naturales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020102
+#: model:account.account.template,name:l10n_ec.ec51030102
+#: model:account.account.template,name:l10n_ec.ec52010102
+#: model:account.account.template,name:l10n_ec.ec52020102
+msgid "Horas extra"
 msgstr ""
 
 #. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__id
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__id
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__id
 msgid "ID"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,help:l10n_ec.field_l10n_latam_document_type__l10n_ec_type
-msgid "Indicates the aplicability of the document"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_133
+msgid ""
+"IMPUESTO A LA SALIDA DE DIVISAS A EFECTOS DE DEVOLUCIÓN A EXPORTADORES HABITUALES DE\n"
+"                BIENES\n"
+"            "
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__out_waybill
-msgid "Issued Waybill"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_701
+msgid "ISD pagado(701)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_authorization__third
-msgid "Issued by Third Parties"
+#: model:account.tax.template,description:l10n_ec.tax_vat_413
+#: model:account.tax.template,description:l10n_ec.tax_vat_414
+#: model:account.tax.template,description:l10n_ec.tax_vat_415
+#: model:account.tax.template,description:l10n_ec.tax_vat_416
+#: model:account.tax.template,description:l10n_ec.tax_vat_417
+#: model:account.tax.template,description:l10n_ec.tax_vat_418
+#: model:account.tax.template,description:l10n_ec.tax_vat_516
+#: model:account.tax.template,description:l10n_ec.tax_vat_517
+#: model:account.tax.template,description:l10n_ec.tax_vat_518
+msgid "IVA 0%"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_authorization__own
-msgid "Issued by my company"
+#: model:account.tax.template,description:l10n_ec.tax_vat_411
+#: model:account.tax.template,description:l10n_ec.tax_vat_412
+#: model:account.tax.template,description:l10n_ec.tax_vat_444
+#: model:account.tax.template,description:l10n_ec.tax_vat_510
+#: model:account.tax.template,description:l10n_ec.tax_vat_511
+#: model:account.tax.template,description:l10n_ec.tax_vat_512
+#: model:account.tax.template,description:l10n_ec.tax_vat_513
+#: model:account.tax.template,description:l10n_ec.tax_vat_514
+#: model:account.tax.template,description:l10n_ec.tax_vat_515
+#: model:account.tax.template,description:l10n_ec.tax_vat_545
+msgid "IVA 12%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_vat_419
+#: model:account.tax.template,description:l10n_ec.tax_vat_542
+msgid "IVA EXENTO"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_83
+msgid ""
+"IVA generado en la diferencia entre adquisiciones y notas de crédito con distinta tarifa\n"
+"                (ajuste en negativo al crédito tributario)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_81
+msgid ""
+"IVA generado en la diferencia entre adquisiciones y notas de crédito con distinta tarifa\n"
+"                (ajuste en positivo al crédito tributario)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_12
+msgid ""
+"IVA generado en la diferencia entre ventas y notas de crédito con distinta tarifa (ajuste\n"
+"                a favor)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_10
+msgid ""
+"IVA generado en la diferencia entre ventas y notas de crédito con distinta tarifa (ajuste\n"
+"                a pagar)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_621
+msgid ""
+"IVA presuntivo de salas de juego (bingo mecánicos) y otros juegos de azar (aplica para\n"
+"                ejercicios anteriores al 2013)(621)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: code:addons/l10n_ec/models/res_partner.py:0
+#, python-format
+msgid "If your identification type is %s, it must be 10 digits"
+msgstr ""
+
+#. module: l10n_ec
+#: code:addons/l10n_ec/models/res_partner.py:0
+#, python-format
+msgid "If your identification type is %s, it must be 13 digits"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_77
+msgid "Importaciones de activos fijos gravados tarifa diferente de cero"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_73
+msgid ""
+"Importaciones de bienes (excluye activos fijos) gravados tarifa diferente de"
+" cero"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_85
+msgid "Importaciones de bienes (incluye activos fijos) gravados tarifa 0%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510103
+msgid "Importaciones de bienes no producidos por la compañia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510107
+msgid "Importaciones de materia prima"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_69
+msgid ""
+"Importaciones de servicios y/o derechos gravados tarifa diferente de cero"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_134
+msgid ""
+"Importaciones liquidadas de materias primas, insumos y bienes de capital que sean\n"
+"                incorporadas en procesos productivos de bienes que se exporten\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5102020501
+#: model:account.account.template,name:l10n_ec.ec5103020501
+#: model:account.account.template,name:l10n_ec.ec5201040501
+#: model:account.account.template,name:l10n_ec.ec5202040501
+msgid "Impuesto a la renta empleados asumido por la empresa"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210702
+msgid "Impuesto a la renta por pagar del ejercicio"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070101
+msgid "Impuesto a la renta retenido a empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_483
+msgid "Impuesto a liquidar del mes anterior(483)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_495
+msgid "Impuesto a liquidar en el próximo mes(495)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_484
+msgid "Impuesto a liquidar en este mes(484)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_601
+msgid ""
+"Impuesto causado (si la diferencia de los campos 499-564 es mayor que "
+"cero)(601)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_421
+msgid "Impuesto generado(421)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_422
+msgid "Impuesto generado(422)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_423
+msgid "Impuesto generado(423)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_424
+msgid "Impuesto generado(424)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_429
+msgid "Impuesto generado(429)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_453
+msgid "Impuesto generado(453)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_454
+msgid "Impuesto generado(454)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_520
+msgid "Impuesto generado(520)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_521
+msgid "Impuesto generado(521)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_522
+msgid "Impuesto generado(522)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_523
+msgid "Impuesto generado(523)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_524
+msgid "Impuesto generado(524)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_525
+msgid "Impuesto generado(525)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_526
+msgid "Impuesto generado(526)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_527
+msgid "Impuesto generado(527)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_529
+msgid "Impuesto generado(529)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_554
+msgid "Impuesto generado(554)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_555
+msgid "Impuesto generado(555)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_258
+msgid ""
+"Impuesto único a ingresos provenientes de actividades agropecuarias en etapa de\n"
+"                producción / comercialización local o exportación\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_239
+msgid "Impuesto único a la exportación de banano"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec211401
+msgid "Impuestos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520120
+#: model:account.group.template,name:l10n_ec.ec520220
+msgid "Impuestos, contribuciones y otros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec4
+msgid "Ingresos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec41
+msgid "Ingresos de actividades ordinarias"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec220901
+msgid "Ingresos diferidos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec430501
+msgid "Ingresos por diferecias de cambio"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_44
+msgid ""
+"Ingresos por reembolso como intermediario / valores facturados por operadoras de\n"
+"                transporte (informativo)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120104
+#: model:account.account.template,name:l10n_ec.ec51040103
+#: model:account.account.template,name:l10n_ec.ec51040303
+#: model:account.account.template,name:l10n_ec.ec5201210103
+#: model:account.account.template,name:l10n_ec.ec5201230103
+#: model:account.account.template,name:l10n_ec.ec5202210103
+#: model:account.account.template,name:l10n_ec.ec5202230103
+msgid "Instalaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012302
+#: model:account.account.template,name:l10n_ec.ec52022303
+msgid "Instrumentos financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012201
+#: model:account.account.template,name:l10n_ec.ec52012303
+#: model:account.account.template,name:l10n_ec.ec52022201
+#: model:account.account.template,name:l10n_ec.ec52022304
+msgid "Intangibles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4106
+#: model:account.account.template,name:l10n_ec.ec520301
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_335
+msgid "Intereses"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_272
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_305
+msgid "Intereses de créditos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4302
+msgid "Intereses financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_269
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_302
+msgid "Intereses por financiamiento de proveedores"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields,field_description:l10n_ec.field_l10n_latam_document_type__internal_type
+msgid "Internal Type"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510104
+msgid "Inventario final de bienes no producidos por la compañia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510108
+msgid "Inventario final de materia prima"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510110
+msgid "Inventario final de productos en proceso"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510112
+msgid "Inventario final de productos terminados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510101
+msgid "Inventario inicial de bienes no producidos por la compañia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510105
+msgid "Inventario inicial de materia prima"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510109
+msgid "Inventario inicial de productos en proceso"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510111
+msgid "Inventario inicial productos terminados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022302
+#: model:account.group.template,name:l10n_ec.ec1103
+msgid "Inventarios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110301
+msgid "Inventarios de materia prima"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110306
+msgid "Inventarios de prod. term. y mercad. en almacen - comprado a terceros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110305
+msgid ""
+"Inventarios de prod. term. y mercad. en almacen - producido por la compañia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110302
+msgid "Inventarios de productos en proceso"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110303
+msgid ""
+"Inventarios de suministros o materiales a ser consumidos en el proceso de "
+"produccion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110304
+msgid ""
+"Inventarios de suministros o materiales a ser consumidos en la prestacion de"
+" servicios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120702
+msgid "Inversiones asociadas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120703
+msgid "Inversiones negocios conjuntos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120701
+msgid "Inversiones subsidiarias"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_415
+#: model:account.tax.template,name:l10n_ec.tax_vat_517
+msgid "Iva 0%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_414
+msgid "Iva 0% (activos sin crédito tributario)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_416
+msgid "Iva 0% (activos)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_542
+msgid "Iva 0% (excento de iva)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_417
+msgid "Iva 0% (exportación bienes)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_418
+msgid "Iva 0% (exportación servicios)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_516
+msgid "Iva 0% (importación bienes)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_541
+msgid "Iva 0% (no objeto de iva)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_419
+msgid "Iva 0% (no objeto/exentas)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_518
+msgid "Iva 0% (rise)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_413
+msgid "Iva 0% (sin crédito tributario)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_411
+#: model:account.tax.template,name:l10n_ec.tax_vat_510
+msgid "Iva 12%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_412
+#: model:account.tax.template,name:l10n_ec.tax_vat_511
+msgid "Iva 12% (activos)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_515
+msgid "Iva 12% (importación activos)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_514
+msgid "Iva 12% (importación bienes)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_513
+msgid "Iva 12% (importación servicios)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_545
+msgid "Iva 12% (reembolso intermediario)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_444
+msgid "Iva 12% (reembolso)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_vat_512
+msgid "Iva 12% (sin crédito tributario)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec21140101
+msgid "Iva cobrado"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_sale_vat_goods_exports
+msgid "Iva cobrado en exportacion de bienes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_sale_vat_services_exports
+msgid "Iva cobrado en exportacion de servicios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_sale_vat_assets
+msgid "Iva cobrado en ventas de activos fijos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_sale_vat
+msgid "Iva cobrado en ventas locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_purchase_vat_zero
+msgid "Iva en compras 0%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_sale_vat_zero
+msgid "Iva en ventas 0%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_purchase_vat
+msgid "Iva pagado en compras locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_purchase_vat_assets
+msgid "Iva pagado en compras locales de activos fijos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_purchase_vat_assets_imports
+msgid "Iva pagado en importacion de activos fijos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_purchase_vat_goods_imports
+msgid "Iva pagado en importacion de bienes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_purchase_vat_service_imports
+msgid "Iva pagado en importacion de servicios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_sale_vat_outstanding_withholds
+msgid "Iva pagado en retenciones de la fuente"
 msgstr ""
 
 #. module: l10n_ec
 #: model:ir.model,name:l10n_ec.model_account_journal
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__journal_id
 msgid "Journal"
 msgstr ""
 
@@ -250,35 +4020,22 @@ msgid "Journal Entry"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model,name:l10n_ec.model_account_move_line
-msgid "Journal Item"
-msgstr ""
-
-#. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_line__l10n_ec_is_electronic
-#: model:ir.model.fields,field_description:l10n_ec.field_account_move__l10n_ec_is_electronic
-#: model:ir.model.fields,field_description:l10n_ec.field_account_payment__l10n_ec_is_electronic
-msgid "L10N Ec Is Electronic"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_48
+msgid "LIQUIDACIÓN DEL IVA EN EL MES"
 msgstr ""
 
 #. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment____last_update
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding____last_update
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines____last_update
 msgid "Last Modified on"
 msgstr ""
 
 #. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__write_uid
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__write_uid
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__write_uid
 msgid "Last Updated by"
 msgstr ""
 
 #. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__write_date
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__write_date
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__write_date
 msgid "Last Updated on"
 msgstr ""
 
@@ -288,65 +4045,850 @@ msgid "Latam Document Type"
 msgstr ""
 
 #. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_226
+msgid "Loterías, rifas, apuestas y similares"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520113
+#: model:account.account.template,name:l10n_ec.ec520213
+msgid "Lubricantes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5102
+msgid "Mano de obra directa"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5103
+msgid "Mano de obra indirecta"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012712
+#: model:account.account.template,name:l10n_ec.ec52022811
+msgid "Mantenimiento equipo computo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510406
+#: model:account.account.template,name:l10n_ec.ec520108
+#: model:account.account.template,name:l10n_ec.ec520208
+msgid "Mantenimiento y reparaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120106
+#: model:account.account.template,name:l10n_ec.ec51040105
+#: model:account.account.template,name:l10n_ec.ec51040305
+#: model:account.account.template,name:l10n_ec.ec5201210105
+#: model:account.account.template,name:l10n_ec.ec5201230105
+#: model:account.account.template,name:l10n_ec.ec5202210105
+#: model:account.account.template,name:l10n_ec.ec5202230105
+msgid "Maquinaria y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120402
+msgid ""
+"Marcas, patentes, derechos de llave , cuotas patrimoniales y otros similares"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022812
+msgid "Material de osteosintesis"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5101
+msgid "Materiales utilizados o productos vendidos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110307
+msgid "Mercaderias en transito"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_186
+msgid "Mercantil"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120105
+#: model:account.account.template,name:l10n_ec.ec51040104
+#: model:account.account.template,name:l10n_ec.ec51040304
+#: model:account.account.template,name:l10n_ec.ec5201210104
+#: model:account.account.template,name:l10n_ec.ec5201230104
+#: model:account.account.template,name:l10n_ec.ec5202210104
+#: model:account.account.template,name:l10n_ec.ec5202230104
+msgid "Muebles y enseres"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_vat_541
+msgid "NO OBJETO DE IVA"
+msgstr ""
+
+#. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_sri_payment__name
-msgid "Nombre"
+msgid "Name"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_authorization__none
-msgid "None"
+#: model:account.account.template,name:l10n_ec.ec120107
+#: model:account.account.template,name:l10n_ec.ec51040106
+#: model:account.account.template,name:l10n_ec.ec51040306
+#: model:account.account.template,name:l10n_ec.ec5201210106
+#: model:account.account.template,name:l10n_ec.ec5201230106
+#: model:account.account.template,name:l10n_ec.ec5202210106
+#: model:account.account.template,name:l10n_ec.ec5202230106
+msgid "Naves, aeronaves, barcazas y similares"
 msgstr ""
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/l10n_ec_witholding.py:0
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__invoice_id
-#, python-format
-msgid "Origin Document"
+#: model:account.account.template,name:l10n_ec.ec520119
+#: model:account.account.template,name:l10n_ec.ec520219
+msgid "Notarios y registradores de la propiedad o mercantiles"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_others
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_104
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_39
+msgid "Notas de crédito tarifa 0% por compensar próximo mes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_106
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_41
+msgid "Notas de crédito tarifa diferente de cero por compensar próximo mes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2104
+#: model:account.group.template,name:l10n_ec.ec2203
+msgid "Obligaciones con instituciones financieras"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210402
+#: model:account.account.template,name:l10n_ec.ec220302
+msgid "Obligaciones con instituciones financieras del exterior"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210401
+#: model:account.account.template,name:l10n_ec.ec220301
+msgid "Obligaciones con instituciones financieras locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2205
+msgid "Obligaciones emitidas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2114
+msgid "Obligaciones tributarias"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.group,name:l10n_ec.tax_group_others
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__other
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__other
 msgid "Others"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__partner_id
-msgid "Partner"
+#: model:account.fiscal.position.template,name:l10n_ec.fp_others
+msgid "Otras - sin cálculo automático de retención de iva"
 msgstr ""
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/account_move.py:0
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_65
+msgid ""
+"Otras adquisiciones y pagos gravados tarifa diferente de cero (sin derecho a crédito\n"
+"                tributario)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_261
+msgid "Otras autoretenciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110209
+msgid "Otras cuentas por cobrar"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110208
+msgid "Otras cuentas por cobrar relacionadas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120704
+msgid "Otras inversiones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070306
+msgid "Otras oblicaciones corrientes con el iess"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2107
+msgid "Otras obligaciones corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec210703
+msgid "Otras obligaciones corrientes con el iess"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec210701
+msgid "Otras obligaciones corrientes con la administracion tributaria"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070402
+#: model:account.group.template,name:l10n_ec.ec210704
+msgid "Otras obligaciones corrientes por beneficios de ley a empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2208
+msgid "Otras provisiones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2105010104
+msgid "Otras provisiones a favor de los empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21050102
+msgid "Otras provisiones locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec430502
+#: model:account.group.template,name:l10n_ec.ec4305
+msgid "Otras rentas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3404
+msgid "Otras reservas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_vat_withhold_others
+#: model:account.account.template,name:l10n_ec.ret_ir_others
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_242
+msgid "Otras retenciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec520402
+msgid "Otros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012202
+#: model:account.account.template,name:l10n_ec.ec52012305
+#: model:account.account.template,name:l10n_ec.ec52022202
+#: model:account.account.template,name:l10n_ec.ec52022306
+msgid "Otros activos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec1108
+msgid "Otros activos corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120706
+#: model:account.group.template,name:l10n_ec.ec1207
+msgid "Otros activos no corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_other_downpayments
+#: model:account.group.template,name:l10n_ec.ec110404
+msgid "Otros anticipos entregados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec211201
+msgid "Otros beneficios a largo plazo para los empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020406
+#: model:account.account.template,name:l10n_ec.ec51030406
+#: model:account.account.template,name:l10n_ec.ec52010306
+#: model:account.account.template,name:l10n_ec.ec52020306
+msgid "Otros beneficios e indemnizaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec220701
+msgid "Otros beneficios no corrientes para los empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_296
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_329
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_359
+msgid "Otros conceptos de ingresos gravados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51040801
+#: model:account.group.template,name:l10n_ec.ec510408
+msgid "Otros costos de produccion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec5104
+msgid "Otros costos indirectos de fabricacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012715
+#: model:account.account.template,name:l10n_ec.ec52022816
+#: model:account.account.template,name:l10n_ec.ec52040201
+#: model:account.group.template,name:l10n_ec.ec520127
+#: model:account.group.template,name:l10n_ec.ec520228
+#: model:account.group.template,name:l10n_ec.ec5204
+msgid "Otros gastos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52020405
+#: model:account.group.template,name:l10n_ec.ec51020205
+#: model:account.group.template,name:l10n_ec.ec51030205
+#: model:account.group.template,name:l10n_ec.ec52010405
+msgid "Otros gastos de planes de beneficios a empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520305
+msgid "Otros gastos financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012711
+#: model:account.account.template,name:l10n_ec.ec52022005
+#: model:account.account.template,name:l10n_ec.ec52022810
+msgid "Otros impuestos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec43
+msgid "Otros ingresos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4109
+msgid "Otros ingresos de actividades ordinarias"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120406
+msgid "Otros intangibles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_299
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_332
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_362
+msgid "Otros pagos al exterior no sujetos a retención"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2113
+msgid "Otros pasivos corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2109
+msgid "Otros pasivos financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2210
+msgid "Otros pasivos no corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120110
+#: model:account.account.template,name:l10n_ec.ec51040109
+#: model:account.account.template,name:l10n_ec.ec51040309
+#: model:account.account.template,name:l10n_ec.ec5201210109
+#: model:account.account.template,name:l10n_ec.ec5201230109
+#: model:account.account.template,name:l10n_ec.ec5202210109
+#: model:account.account.template,name:l10n_ec.ec5202230109
+msgid "Otros propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec35
+msgid "Otros resultados integrales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3504
+msgid "Otros superavit por revaluacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_267
+msgid "POR PAGOS A NO RESIDENTES"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_150
+msgid "POR PAGOS EFECTUADOS A RESIDENTES Y ESTABLECIMIENTOS PERMANENTES"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_218
+msgid "Pagos de bienes y servicios no sujetos a retención"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_109
+msgid ""
+"Pagos netos por reembolso como intermediario / valores facturados por socios a operadoras\n"
+"                de transporte (informativo)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210705
+msgid "Participacion trabajadores por pagar del ejercicio"
+msgstr ""
+
+#. module: l10n_ec
+#: model:l10n_latam.identification.type,name:l10n_ec.ec_passport
+msgid "Pasaporte"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2
+msgid "Pasivo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec21
+msgid "Pasivo corriente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2209
+msgid "Pasivo diferido"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec22
+msgid "Pasivo no corriente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2111
+msgid ""
+"Pasivos directamente asociados con los activos no corrientes y operaciones "
+"discontinuadas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2101
+msgid "Pasivos financieros a valor razonable con cambios en resultados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2201
+msgid "Pasivos por contratos de arrendamiento financiero"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2102
+msgid "Pasivos por contratos de arrendamiento financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec220902
+msgid "Pasivos por impuestos diferidos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022001
+msgid "Patente municipal"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec3
+msgid "Patrimonio neto"
+msgstr ""
+
+#. module: l10n_ec
 #: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_line__l10n_ec_sri_payment_id
 #: model:ir.model.fields,field_description:l10n_ec.field_account_move__l10n_ec_sri_payment_id
 #: model:ir.model.fields,field_description:l10n_ec.field_account_payment__l10n_ec_sri_payment_id
-#, python-format
 msgid "Payment Method (SRI)"
 msgstr ""
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/l10n_ec_witholding.py:0
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__percent
-#, python-format
-msgid "Percent"
+#: model:ir.actions.act_window,name:l10n_ec.action_account_l10n_ec_sri_payment_tree
+#: model:ir.ui.menu,name:l10n_ec.menu_action_account_l10n_ec_sri_payment
+msgid "Payment Methods SRI"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_irbpnr
+#: model:account.account.template,name:l10n_ec.ec52012706
+#: model:account.account.template,name:l10n_ec.ec52022805
+msgid "Peajes, parqueaderos y otros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520401
+msgid "Perdida en inversiones en asociadas / subsidiarias y otras"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3602
+msgid "Perdidas acumuladas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_foreing_person_exports
+msgid "Persona extranjera - exportacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_foreing_person_local
+msgid "Persona extranjera - venta local"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_person_leases
+msgid "Persona natural no obligada - arriendos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_person_rustic
+msgid "Persona natural no obligada - liquidaciones de compras"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_person_professional
+msgid "Persona natural no obligada - profesionales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_person_other
+msgid "Persona natural no obligadas - emite factura o nota de venta"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_person_obligated_accounting
+msgid "Persona natural obligada a llevar contabilidad"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.chart.template,name:l10n_ec.l10n_ec_ifrs
+msgid "Plan Contable NIIF Ecuador conforme Superintendencia de Compañías"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120303
+msgid "Plantas en crecimiento"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120304
+msgid "Plantas en produccion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.group,name:l10n_ec.tax_group_irbpnr
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__irbpnr
 msgid "Plastic Bottles (IRBPNR)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model,name:l10n_ec.model_product_template
-msgid "Product Template"
+#: model:account.account.template,name:l10n_ec.ec120401
+msgid "Plusvalias"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_withhold_income
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_615
+msgid "Por adquisiciones e Importaciones(615)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_605
+msgid ""
+"Por adquisiciones e importaciones (trasládese el campo 615 de la declaración del período\n"
+"                anterior)(605)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_608
+msgid ""
+"Por compensación de IVA por ventas efectuadas en zonas afectadas - Ley de solidaridad\n"
+"                (trasládese el campo 619 de la declaración del período anterior)(608)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_619
+msgid ""
+"Por compensación de IVA por ventas efectuadas en zonas afectadas - Ley de solidaridad,\n"
+"                restitución de crédito tributario en resoluciones(619)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_182
+msgid "Por regalías, derechos de autor, marcas, patentes y similares"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_606
+msgid ""
+"Por retenciones en la fuente de IVA que le han sido efectuadas (trasládese el campo 617\n"
+"                de la declaración del período anterior)(606)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_617
+msgid "Por retenciones en la fuente de IVA que le han sido efectuadas(617)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2106
+msgid "Porcion corriente de obligaciones emitidas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2112
+msgid "Porcion corriente de provisiones por beneficios a empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields.selection,name:l10n_ec.selection__account_journal__l10n_ec_emission_type__pre_printed
+msgid "Pre Printed"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_158
+msgid "Predomina el intelecto"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_161
+msgid "Predomina la mano de obra"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec410201
+#: model:account.group.template,name:l10n_ec.ec4102
+msgid "Prestacion de servicios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070302
+msgid "Prestamos hipotecarios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec21070301
+msgid "Prestamos quirografarios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec33
+msgid "Prima por emision primaria de acciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_236
+msgid ""
+"Producción y venta local de banano producido o no por el mismo sujeto pasivo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.group,name:l10n_ec.tax_group_withhold_income
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__withhold_income_tax
 msgid "Profit Withhold"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520111
+#: model:account.account.template,name:l10n_ec.ec520211
+msgid "Promocion y publicidad"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012102
+#: model:account.account.template,name:l10n_ec.ec52022102
+#: model:account.group.template,name:l10n_ec.ec1202
+msgid "Propiedades de inversion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1201
+#: model:account.group.template,name:l10n_ec.ec52012101
+#: model:account.group.template,name:l10n_ec.ec52012301
+#: model:account.group.template,name:l10n_ec.ec52022101
+#: model:account.group.template,name:l10n_ec.ec52022301
+msgid "Propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120604
+msgid "Provision cuentas incobrables de activos financieros no corrientes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110309
+msgid "Provision de inventarios por deterioro fisico"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110308
+msgid "Provision de inventarios por valor neto de realizacion"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2105010103
+msgid "Provision decimo cuarto"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2105010102
+msgid "Provision decimo tercero"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110210
+msgid "Provision por cuentas incobrables"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110204
+msgid "Provision por deterioro"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120602
+msgid ""
+"Provision por deterioro de activos financieros mantenidos hasta el "
+"vencimiento"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec2105010101
+msgid "Provision vacaciones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120705
+msgid "Provision valuacion de inversiones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2105
+msgid "Provisiones"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec21050101
+msgid "Provisiones a favor de los empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec210502
+msgid "Provisiones del exterior"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec210501
+msgid "Provisiones locales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec2207
+msgid "Provisiones por beneficios a empleados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_167
+msgid "Publicidad y comunicación"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__internal_type__purchase_liquidation
+msgid "Purchase Liquidation"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_56
+msgid "RESUMEN DE ADQUISICIONES Y PAGOS DEL PERÍODO QUE DECLARA"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_1
+msgid "RESUMEN DE VENTAS Y OTRAS OPERACIONES DEL PERÍODO QUE DECLARA"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_113
+msgid ""
+"RESUMEN IMPOSITIVO: AGENTE DE PERCEPCIÓN DEL IMPUESTO AL VALOR AGREGADO"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_sale_withhold_vat_10
+#: model:account.tax.template,description:l10n_ec.tax_withhold_vat_10
+msgid "RET IVA 10%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_sale_withhold_vat_100
+#: model:account.tax.template,description:l10n_ec.tax_withhold_vat_100
+msgid "RET IVA 100%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_sale_withhold_vat_20
+#: model:account.tax.template,description:l10n_ec.tax_withhold_vat_20
+msgid "RET IVA 20%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_sale_withhold_vat_30
+#: model:account.tax.template,description:l10n_ec.tax_withhold_vat_30
+msgid "RET IVA 30%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_sale_withhold_vat_50
+#: model:account.tax.template,description:l10n_ec.tax_withhold_vat_50
+msgid "RET IVA 50%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,description:l10n_ec.tax_sale_withhold_vat_70
+#: model:account.tax.template,description:l10n_ec.tax_withhold_vat_70
+msgid "RET IVA 70%"
 msgstr ""
 
 #. module: l10n_ec
@@ -355,13 +4897,355 @@ msgid "RUC"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.actions.act_window,name:l10n_ec.action_account_l10n_ec_witholding_tree
-#: model:ir.ui.menu,name:l10n_ec.menu_action_account_l10n_ec_witholding
-msgid "Retenciones"
+#: model:account.account.template,name:l10n_ec.ec52022817
+msgid "Recolección residuos"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_ice
+#: model:account.account.template,name:l10n_ec.ec4105
+msgid "Regalias"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520106
+#: model:account.account.template,name:l10n_ec.ec520206
+msgid "Remuneraciones a otros trabajadores autonomos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_195
+msgid "Rendimientos financieros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_198
+msgid ""
+"Rendimientos financieros entre instituciones del sistema financiero y entidades economía\n"
+"                popular y solidaria\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120111
+#: model:account.account.template,name:l10n_ec.ec51040110
+#: model:account.account.template,name:l10n_ec.ec51040310
+#: model:account.account.template,name:l10n_ec.ec5201210110
+#: model:account.account.template,name:l10n_ec.ec5201230110
+#: model:account.account.template,name:l10n_ec.ec5202210110
+#: model:account.account.template,name:l10n_ec.ec5202230110
+msgid "Repuestos y herramientas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3403
+msgid "Reserva de capital"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3401
+msgid "Reserva legal"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec34
+msgid "Reservas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3402
+msgid "Reservas facultativa y estatutaria"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3701
+msgid "Resultado neto del periodo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec36
+msgid "Resultados acumulados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3603
+msgid ""
+"Resultados acumulados provenientes de la adopcion por primera vez de las "
+"niif"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec37
+msgid "Resultados del ejercicio"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_sale_withhold_vat_10
+#: model:account.tax.template,name:l10n_ec.tax_withhold_vat_10
+msgid "Retencion iva 10%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_sale_withhold_vat_100
+#: model:account.tax.template,name:l10n_ec.tax_withhold_vat_100
+msgid "Retencion iva 100%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_sale_withhold_vat_20
+#: model:account.tax.template,name:l10n_ec.tax_withhold_vat_20
+msgid "Retencion iva 20%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_sale_withhold_vat_30
+#: model:account.tax.template,name:l10n_ec.tax_withhold_vat_30
+msgid "Retencion iva 30%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_sale_withhold_vat_50
+#: model:account.tax.template,name:l10n_ec.tax_withhold_vat_50
+msgid "Retencion iva 50%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.template,name:l10n_ec.tax_sale_withhold_vat_70
+#: model:account.tax.template,name:l10n_ec.tax_withhold_vat_70
+msgid "Retencion iva 70%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec21140103
+msgid "Retenciones de iva"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_vat_withhold_10
+msgid "Retenciones de iva 10%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_vat_withhold_100
+msgid "Retenciones de iva 100%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_vat_withhold_20
+msgid "Retenciones de iva 20%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_vat_withhold_30
+msgid "Retenciones de iva 30%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_vat_withhold_50
+msgid "Retenciones de iva 50%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_vat_withhold_70
+msgid "Retenciones de iva 70%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec21140102
+msgid "Retenciones de la fuente"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_1x100
+msgid "Retenciones de la fuente 1%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_1_75x100
+msgid "Retenciones de la fuente 1.75%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_10x100
+msgid "Retenciones de la fuente 10%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_15x100
+msgid "Retenciones de la fuente 15%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_2x100
+msgid "Retenciones de la fuente 2%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_2_75x100
+msgid "Retenciones de la fuente 2.75%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_22x100
+msgid "Retenciones de la fuente 22%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_5x100
+msgid "Retenciones de la fuente 5%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ret_ir_8x100
+msgid "Retenciones de la fuente 8%"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec_sale_profit_withhold
+msgid "Retenciones en la fuente pagadas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec211301
+msgid "Retenciones judiciales"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_721
+msgid "Retención del 10%(721)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_731
+msgid "Retención del 100%(731)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_723
+msgid "Retención del 20%(723)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_725
+msgid "Retención del 30%(725)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_727
+msgid "Retención del 50%(727)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_729
+msgid "Retención del 70%(729)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:ir.model,name:l10n_ec.model_l10n_ec_sri_payment
+msgid "SRI Payment Method"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_620
+msgid ""
+"SUBTOTAL A PAGAR Si (601-602-603-604-605-606-607-608-609+610+611+612+613+614) > 0(620)\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_364
+msgid "SUBTOTAL OPERACIONES EFECTUADAS CON EL EXTERIOR"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_264
+msgid "SUBTOTAL OPERACIONES EFECTUADAS EN EL PAÍS"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_126
+msgid "Saldo crédito tributario para el próximo mes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_public_companies
+msgid "Sector publico y ep"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012709
+#: model:account.account.template,name:l10n_ec.ec52022808
+msgid "Seguridad y vigilancia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020201
+#: model:account.account.template,name:l10n_ec.ec51030201
+#: model:account.account.template,name:l10n_ec.ec52010401
+#: model:account.account.template,name:l10n_ec.ec52020401
+msgid "Seguro medico "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec110401
+msgid "Seguros pagados por anticipado"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520114
+#: model:account.account.template,name:l10n_ec.ec520214
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_192
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_290
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_323
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_353
+msgid "Seguros y reaseguros (primas y cesiones)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012701
+msgid "Servicio de imprenta"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_154
+msgid "Servicios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012714
+#: model:account.account.template,name:l10n_ec.ec52022815
+msgid "Servicios contratados a terceros"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012710
+#: model:account.account.template,name:l10n_ec.ec52022809
+msgid "Servicios de limpieza"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_293
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_326
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_356
+msgid "Servicios técnicos, administrativos o de consultoría y regalías"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec1104
+msgid "Servicios y otros pagos anticipados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_301
+msgid "Sin convenio de doble tributación"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.fiscal.position.template,name:l10n_ec.fp_companies
+msgid "Sociedades - personas juridicas"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.group,name:l10n_ec.tax_group_ice
 msgid "Special Consumptions (ICE)"
 msgstr ""
 
@@ -371,25 +5255,95 @@ msgid "Special Consumptions Tax (ICE)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__in_invoice
-msgid "Supplier Document"
+#: model:account.account.template,name:l10n_ec.ec4104
+msgid "Subvenciones del gobierno"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__in_refund
-msgid "Supplier Refund"
+#: model:account.account.template,name:l10n_ec.ec21070401
+msgid "Sueldos y salarios por pagar"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields.selection,name:l10n_ec.selection__l10n_latam_document_type__l10n_ec_type__in_withhold
-msgid "Supplier Withhold"
+#: model:account.account.template,name:l10n_ec.ec51020101
+#: model:account.account.template,name:l10n_ec.ec51030101
+#: model:account.account.template,name:l10n_ec.ec52010101
+#: model:account.account.template,name:l10n_ec.ec52020101
+#: model:account.group.template,name:l10n_ec.ec510201
+#: model:account.group.template,name:l10n_ec.ec510301
+#: model:account.group.template,name:l10n_ec.ec520101
+#: model:account.group.template,name:l10n_ec.ec520201
+msgid "Sueldos, salarios y demas remuneraciones"
 msgstr ""
 
 #. module: l10n_ec
-#: code:addons/l10n_ec/models/l10n_ec_witholding.py:0
+#: model:account.account.template,name:l10n_ec.ec52012702
+#: model:account.account.template,name:l10n_ec.ec52022801
+msgid "Suministros de oficina"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec510407
+msgid "Suministros materiales y repuestos"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52012703
+msgid "Suministros y articulos de aseo y limpieza"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52022802
+msgid "Suministros y artículos de aseo y limpieza"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3501
+msgid "Superavit de activos financieros disponibles para la venta"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3503
+msgid "Superavit por revaluacion de activos intangibles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec3502
+msgid "Superavit por revaluacion de propiedades, planta y equipo"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_94
+msgid "TOTAL ADQUISICIONES Y PAGOS"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_499
+msgid "TOTAL IMPUESTO A LIQUIDAR EN ESTE MES(499)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_699
+msgid "TOTAL IMPUESTO A PAGAR POR PERCEPCIÓN(699)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_148
+msgid "TOTAL IMPUESTO A PAGAR POR RETENCIÓN"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_144
+msgid "TOTAL IMPUESTO RETENIDO"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_32
+msgid "TOTAL VENTAS Y OTRAS OPERACIONES"
+msgstr ""
+
+#. module: l10n_ec
 #: model:ir.model,name:l10n_ec.model_account_tax
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__name
-#, python-format
 msgid "Tax"
 msgstr ""
 
@@ -420,18 +5374,80 @@ msgid ""
 msgstr ""
 
 #. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52011803
+#: model:account.account.template,name:l10n_ec.ec52021803
+msgid "Telefonia fija"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec52011804
+#: model:account.account.template,name:l10n_ec.ec52021804
+msgid "Telefonia movil"
+msgstr ""
+
+#. module: l10n_ec
 #: model:ir.model,name:l10n_ec.model_account_tax_template
 msgid "Templates for Taxes"
 msgstr ""
 
 #. module: l10n_ec
-#: model_terms:res.company,invoice_terms_html:l10n_ec.demo_company_ec
-msgid "Terms &amp; Conditions"
+#: model:account.account.template,name:l10n_ec.ec120101
+#: model:account.account.template,name:l10n_ec.ec120201
+msgid "Terrenos"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__amount_total
-msgid "Total Amount"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_482
+msgid "Total impuesto generado(482)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_480
+msgid ""
+"Total transferencias gravadas tarifa diferente de cero a contado este "
+"mes(480)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_481
+msgid ""
+"Total transferencias gravadas tarifa diferente de cero a crédito este "
+"mes(481)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_176
+msgid "Transferencia de bienes muebles de naturaleza corporal"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.group.template,name:l10n_ec.ec110103
+msgid "Transferencias"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.l10n_ec_ifrs_liquidity_transfer
+msgid "Transferencias interbancarias"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_36
+msgid "Transferencias no objeto o exentas de IVA"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec5102020502
+#: model:account.account.template,name:l10n_ec.ec5103020502
+#: model:account.account.template,name:l10n_ec.ec5201040502
+#: model:account.account.template,name:l10n_ec.ec520115
+#: model:account.account.template,name:l10n_ec.ec5202040502
+#: model:account.account.template,name:l10n_ec.ec520215
+msgid "Transporte"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_170
+msgid "Transporte privado de pasajeros o servicio público o privado de carga"
 msgstr ""
 
 #. module: l10n_ec
@@ -440,30 +5456,59 @@ msgid "Type Ecuadorian Tax"
 msgstr ""
 
 #. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec51020203
+#: model:account.account.template,name:l10n_ec.ec51030203
+#: model:account.account.template,name:l10n_ec.ec52010403
+#: model:account.account.template,name:l10n_ec.ec52020403
+msgid "Uniformes"
+msgstr ""
+
+#. module: l10n_ec
 #: model:l10n_latam.identification.type,name:l10n_ec.ec_unknown
 msgid "Unknown"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_vat0
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_164
+msgid "Utilización o aprovechamiento de la imagen o renombre"
+msgstr ""
+
+#. module: l10n_ec
+#: code:addons/l10n_ec/models/res_partner.py:0
+#, python-format
+msgid ""
+"VAT %s is not valid for an Ecuadorian DNI, it must be like this form "
+"0915068258"
+msgstr ""
+
+#. module: l10n_ec
+#: code:addons/l10n_ec/models/res_partner.py:0
+#, python-format
+msgid ""
+"VAT %s is not valid for an Ecuadorian company, it must be like this form "
+"0993143790001"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.group,name:l10n_ec.tax_group_vat0
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__zero_vat
 msgid "VAT 0%"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_vat12
+#: model:account.tax.group,name:l10n_ec.tax_group_vat_12
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat12
 msgid "VAT 12%"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_vat14
+#: model:account.tax.group,name:l10n_ec.tax_group_vat14
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__vat14
 msgid "VAT 14%"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_vat_excempt
+#: model:account.tax.group,name:l10n_ec.tax_group_vat_excempt
 msgid "VAT Excempt"
 msgstr ""
 
@@ -473,65 +5518,698 @@ msgid "VAT Exempt"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_vat_not_charged
+#: model:account.tax.group,name:l10n_ec.tax_group_vat_not_charged
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__not_charged_vat
 msgid "VAT Not Charged"
 msgstr ""
 
 #. module: l10n_ec
-#: model:account.tax.group,name:l10n_ec.ec_tax_group_withhold_vat
+#: model:account.tax.group,name:l10n_ec.tax_group_withhold_vat
 #: model:ir.model.fields.selection,name:l10n_ec.selection__account_tax_group__l10n_ec_type__withhold_vat
 msgid "VAT Withhold"
 msgstr ""
 
 #. module: l10n_ec
-#: model_terms:ir.ui.view,arch_db:l10n_ec.account_witholding_form_view
-msgid "Validate"
+#: model:account.account.template,name:l10n_ec.ec51020403
+#: model:account.account.template,name:l10n_ec.ec51030403
+#: model:account.account.template,name:l10n_ec.ec52010303
+#: model:account.account.template,name:l10n_ec.ec52020303
+msgid "Vacaciones"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding_lines__witholding_id
-msgid "Witholding"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_401
+msgid "Valor bruto(401)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_l10n_ec_witholding__witholding_line_ids
-msgid "Witholding Line"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_402
+msgid "Valor bruto(402)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_account_bank_statement_line__amount_by_group_wth
-#: model:ir.model.fields,field_description:l10n_ec.field_account_move__amount_by_group_wth
-#: model:ir.model.fields,field_description:l10n_ec.field_account_payment__amount_by_group_wth
-msgid "Witholding amount by group"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_403
+msgid "Valor bruto(403)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,help:l10n_ec.field_account_move_line__witholding_tax_ids
-msgid "Witholding taxes that apply on the base amount"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_404
+msgid "Valor bruto(404)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model.fields,field_description:l10n_ec.field_account_move_line__witholding_tax_ids
-msgid "Witholdings"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_405
+msgid "Valor bruto(405)"
 msgstr ""
 
 #. module: l10n_ec
-#: model_terms:res.company,invoice_terms_html:l10n_ec.demo_company_ec
-msgid "Your conditions..."
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_406
+msgid "Valor bruto(406)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model,name:l10n_ec.model_l10n_ec_sri_payment
-msgid "l10n.ec.sri.payment"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_407
+msgid "Valor bruto(407)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model,name:l10n_ec.model_l10n_ec_witholding
-msgid "l10n_ec.witholding"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_408
+msgid "Valor bruto(408)"
 msgstr ""
 
 #. module: l10n_ec
-#: model:ir.model,name:l10n_ec.model_l10n_ec_witholding_lines
-msgid "l10n_ec.witholding.lines"
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_409
+msgid "Valor bruto(409)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_431
+msgid "Valor bruto(431)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_434
+msgid "Valor bruto(434)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_500
+msgid "Valor bruto(500)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_501
+msgid "Valor bruto(501)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_502
+msgid "Valor bruto(502)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_503
+msgid "Valor bruto(503)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_504
+msgid "Valor bruto(504)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_505
+msgid "Valor bruto(505)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_506
+msgid "Valor bruto(506)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_507
+msgid "Valor bruto(507)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_508
+msgid "Valor bruto(508)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_509
+msgid "Valor bruto(509)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_531
+msgid "Valor bruto(531)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_532
+msgid "Valor bruto(532)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_535
+msgid "Valor bruto(535)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec520126
+#: model:account.account.template,name:l10n_ec.ec520226
+msgid "Valor neto de realizacion de inventarios"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_411
+msgid "Valor neto(411)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_412
+msgid "Valor neto(412)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_413
+msgid "Valor neto(413)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_414
+msgid "Valor neto(414)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_415
+msgid "Valor neto(415)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_416
+msgid "Valor neto(416)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_417
+msgid "Valor neto(417)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_418
+msgid "Valor neto(418)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_419
+msgid "Valor neto(419)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_441
+msgid "Valor neto(441)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_442
+msgid "Valor neto(442)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_443
+msgid "Valor neto(443)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_444
+msgid "Valor neto(444)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_510
+msgid "Valor neto(510)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_511
+msgid "Valor neto(511)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_512
+msgid "Valor neto(512)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_513
+msgid "Valor neto(513)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_514
+msgid "Valor neto(514)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_515
+msgid "Valor neto(515)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_516
+msgid "Valor neto(516)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_517
+msgid "Valor neto(517)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_518
+msgid "Valor neto(518)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_519
+msgid "Valor neto(519)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_541
+msgid "Valor neto(541)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_542
+msgid "Valor neto(542)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_543
+msgid "Valor neto(543)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_544
+msgid "Valor neto(544)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_545
+msgid "Valor neto(545)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_352
+msgid "Valor retenido(352)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_353
+msgid "Valor retenido(353)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_354
+msgid "Valor retenido(354)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_357
+msgid "Valor retenido(357)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_358
+msgid "Valor retenido(358)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_359
+msgid "Valor retenido(359)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_360
+msgid "Valor retenido(360)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_361
+msgid "Valor retenido(361)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_362
+msgid "Valor retenido(362)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3620
+msgid "Valor retenido(3620)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_364
+msgid "Valor retenido(364)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_369
+msgid "Valor retenido(369)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_370
+msgid "Valor retenido(370)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_372
+msgid "Valor retenido(372)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_373
+msgid "Valor retenido(373)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_374
+msgid "Valor retenido(374)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_375
+msgid "Valor retenido(375)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_376
+msgid "Valor retenido(376)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_377
+msgid "Valor retenido(377)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_378
+msgid "Valor retenido(378)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_379
+msgid "Valor retenido(379)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_383
+msgid "Valor retenido(383)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_384
+msgid "Valor retenido(384)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_385
+msgid "Valor retenido(385)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_386
+msgid "Valor retenido(386)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_387
+msgid "Valor retenido(387)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3880
+msgid "Valor retenido(3880)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3900
+msgid "Valor retenido(3900)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_393
+msgid "Valor retenido(393)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_394
+msgid "Valor retenido(394)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_3940
+msgid "Valor retenido(3940)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_395
+msgid "Valor retenido(395)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_396
+msgid "Valor retenido(396)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_398
+msgid "Valor retenido(398)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_399
+msgid "Valor retenido(399)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_400
+msgid "Valor retenido(400)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_452
+msgid "Valor retenido(452)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_453
+msgid "Valor retenido(453)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_454
+msgid "Valor retenido(454)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4550
+msgid "Valor retenido(4550)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4560
+msgid "Valor retenido(4560)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4570
+msgid "Valor retenido(4570)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_458
+msgid "Valor retenido(458)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_459
+msgid "Valor retenido(459)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_460
+msgid "Valor retenido(460)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_461
+msgid "Valor retenido(461)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_463
+msgid "Valor retenido(463)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_464
+msgid "Valor retenido(464)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_465
+msgid "Valor retenido(465)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4660
+msgid "Valor retenido(4660)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4670
+msgid "Valor retenido(4670)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4680
+msgid "Valor retenido(4680)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_469
+msgid "Valor retenido(469)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_470
+msgid "Valor retenido(470)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_471
+msgid "Valor retenido(471)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_472
+msgid "Valor retenido(472)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_474
+msgid "Valor retenido(474)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_475
+msgid "Valor retenido(475)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4760
+msgid "Valor retenido(4760)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4770
+msgid "Valor retenido(4770)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_4780
+msgid "Valor retenido(4780)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_479
+msgid "Valor retenido(479)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_480
+msgid "Valor retenido(480)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_481
+msgid "Valor retenido(481)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_482
+msgid "Valor retenido(482)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_103_498
+msgid "Valor retenido(498)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_104_700
+msgid "Valor(700)"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec11010401
+#: model:account.group.template,name:l10n_ec.ec110104
+msgid "Valores en custodia"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec4304
+msgid ""
+"Valuacion de instrumentos financieros a valor razonable con cambio en "
+"resultados"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec120109
+#: model:account.account.template,name:l10n_ec.ec51040108
+#: model:account.account.template,name:l10n_ec.ec51040308
+#: model:account.account.template,name:l10n_ec.ec5201210108
+#: model:account.account.template,name:l10n_ec.ec5201230108
+#: model:account.account.template,name:l10n_ec.ec5202210108
+#: model:account.account.template,name:l10n_ec.ec5202230108
+msgid "Vehiculos, equipos de transporte y equipo caminero movil"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.account.template,name:l10n_ec.ec410101
+#: model:account.group.template,name:l10n_ec.ec4101
+msgid "Venta de bienes"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_229
+msgid "Venta de combustibles"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_23
+msgid ""
+"Ventas de activos fijos gravadas tarifa 0% que dan derecho a crédito "
+"tributario"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_17
+msgid ""
+"Ventas de activos fijos gravadas tarifa 0% que no dan derecho a crédito tributario\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_6
+msgid "Ventas de activos fijos gravadas tarifa diferente de cero"
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_20
+msgid ""
+"Ventas locales (excluye activos fijos) gravadas tarifa 0% que dan derecho a crédito\n"
+"                tributario\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_14
+msgid ""
+"Ventas locales (excluye activos fijos) gravadas tarifa 0% que no dan derecho a crédito\n"
+"                tributario\n"
+"            "
+msgstr ""
+
+#. module: l10n_ec
+#: model:account.tax.report.line,name:l10n_ec.tax_report_line_parent_line_report_2
+msgid ""
+"Ventas locales (excluye activos fijos) gravadas tarifa diferente de cero"
 msgstr ""

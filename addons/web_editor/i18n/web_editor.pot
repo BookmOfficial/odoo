@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-04-19 09:20+0000\n"
 "PO-Revision-Date: 2022-04-19 09:20+0000\n"
+=======
+"POT-Creation-Date: 2022-04-15 23:47+0000\n"
+"PO-Revision-Date: 2022-04-15 23:47+0000\n"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2281,7 +2286,8 @@ msgstr ""
 #, python-format
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in "
+"Bookm."
 msgstr ""
 
 #. module: web_editor
@@ -2692,14 +2698,14 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/logo.png"
+msgid "https://www.bookm.be/logo.png"
 msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/mydocument"
+msgid "https://www.bookm.be/mydocument"
 msgstr ""
 
 #. module: web_editor

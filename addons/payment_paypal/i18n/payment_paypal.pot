@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-15 12:06+0000\n"
 "PO-Revision-Date: 2022-03-15 12:06+0000\n"
+=======
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:57+0000\n"
+"PO-Revision-Date: 2022-04-15 22:57+0000\n"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,13 +27,13 @@ msgstr ""
 msgid ""
 "<br/><br/>\n"
 "                Thanks,<br/>\n"
-"                <b>The Odoo Team</b>"
+"                <b>The Bookm Team</b>"
 msgstr ""
 
 #. module: payment_paypal
 #: code:addons/payment_paypal/models/payment_acquirer.py:0
 #, python-format
-msgid "Add your PayPal account to Odoo"
+msgid "Add your PayPal account to Bookm"
 msgstr ""
 
 #. module: payment_paypal
@@ -41,12 +48,7 @@ msgid ""
 "                <br/><br/>\n"
 "                You have received a payment through PayPal.<br/>\n"
 "                Kindly follow the instructions given by PayPal to create your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Odoo.<br/><br/>"
-msgstr ""
-
-#. module: payment_paypal
-#: model_terms:ir.ui.view,arch_db:payment_paypal.payment_acquirer_form
-msgid "How to configure your paypal account?"
+"                Then, help us complete your Paypal credentials in Bookm.<br/><br/>"
 msgstr ""
 
 #. module: payment_paypal
@@ -131,7 +133,7 @@ msgstr ""
 
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_transaction__paypal_type
-msgid "This has no use in Odoo except for debugging."
+msgid "This has no use in Bookm except for debugging."
 msgstr ""
 
 #. module: payment_paypal

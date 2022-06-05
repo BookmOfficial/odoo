@@ -1,0 +1,2214 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_mn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 22:32+0000\n"
+"PO-Revision-Date: 2022-04-15 22:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mn
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat1
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat10
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat11
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat12
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat13
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat3
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat4
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat5
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat6
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat7
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat8
+#: model:account.tax.template,description:l10n_mn.account_tax_purchase_vat9
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat1
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat10
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat11
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat12
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat13
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat14
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat15
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat16
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat17
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat18
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat19
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat20
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat21
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat22
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat25
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat26
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat4
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat5
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat6
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat7
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat8
+#: model:account.tax.template,description:l10n_mn.account_tax_sale_vat9
+msgid "10%"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_exchange
+msgid "CF: Валютын ханшийн зөрүү"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_financing_loan
+msgid "CF: Санхүү: Зээл, өрийн үнэт цаас"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_financing_rental
+msgid "CF: Санхүү: Санхүүгийн түрээс"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_financing_donation
+msgid "CF: Санхүү: Хандив"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_financing_stock
+msgid "CF: Санхүү: Хувьцаа өмчийн бусад үнэт цаас"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_investing_iasset
+msgid "CF: Хөрөнгө оруулалт: Биет бус хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_investing_loan
+msgid "CF: Хөрөнгө оруулалт: Зээл урьдчилгаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_investing_interest
+msgid "CF: Хөрөнгө оруулалт: Зээлийн хүү"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_investing_dividends
+msgid "CF: Хөрөнгө оруулалт: Ногдол ашиг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_investing_invest
+msgid "CF: Хөрөнгө оруулалт: Хөрөнгө оруулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_investing_fasset
+msgid "CF: Хөрөнгө оруулалт: Үндсэн хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_employee
+msgid "CF: Үндсэн: Ажилчид"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_cost
+msgid "CF: Үндсэн: Ашиглалтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_product
+msgid "CF: Үндсэн: Бараа үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_insurance2
+msgid "CF: Үндсэн: Бусад Даатгал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_interest
+msgid "CF: Үндсэн: Зээлийн хүү"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_insurance
+msgid "CF: Үндсэн: Нийгмийн Даатгал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_funding
+msgid "CF: Үндсэн: Татаас санхүүжилт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_taxrefund
+msgid "CF: Үндсэн: Татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_transport
+msgid "CF: Үндсэн: Түлш тээвэр сэлбэг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.account_tag_operating_loyalty
+msgid "CF: Үндсэн: Эрхийн шимтгэл хураамж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.mn_chart_1_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.chart.template,name:l10n_mn.mn_chart_1
+#: model:ir.ui.menu,name:l10n_mn.account_reports_mn_statements_menu
+msgid "Mongolia"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1202_0101
+msgid "Авлагын бичиг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1405_0101
+msgid "Агентад байгаа бараа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1401_0101
+msgid "Агуулахад байгаа бараа материал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1402_0101
+msgid "Агуулахад байгаа түүхий эд материал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1403_0401
+msgid "Агуулахад байгаа хангамжийн материал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1403_0301
+msgid "Агуулахад байгаа үндсэн хөрөнгийн хэсэг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3803_0101
+msgid "Ажилчдад өгөх өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7401_0101
+msgid "Алданги, торгуулийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1401_0701
+msgid "Амьтан"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2201_0101
+msgid "Ашиг алдагдлаарх бодит үнэ цэнээр илэрхийлэх санхүүгийн хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1403_0501
+msgid "Ашиглалтанд байгаа хангамжийн материал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1403_0502
+msgid "Ашиглалтанд байгаа хангамжийн материалын элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3502_0201
+msgid "ББСБ-ын богино хугацаат зээлийн хүү"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3501_0201
+msgid "ББСБ-ын богино хугацаат зээлийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4001_0201
+msgid "ББСБ-ын урт хугацаат зээл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1101_0101
+msgid "Банкинд байгаа мөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3502_0101
+msgid "Банкны богино хугацаат зээлийн хүү"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3501_0101
+msgid "Банкны богино хугацаат зээлийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1104_0101
+msgid "Банкны төлбөрийн темринал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4001_0101
+msgid "Банкны урт хугацаат зээл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7406_0101
+msgid "Банкны үйлчилгээний шимтгэлийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_1001
+msgid "Барьцаалсан авлага"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3805_0101
+msgid "Баталгаа, барьцааны өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2104_0101
+msgid "Биет бус хөрөнгө - Барааны тэмдэг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2104_0201
+msgid "Биет бус хөрөнгө - Барааны тэмдэгийн хорогдол"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2109_0201
+msgid "Биет бус хөрөнгө - Бусад хөрөнгийн элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2109_0101
+msgid "Биет бус хөрөнгө - Бусад хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2101_0101
+msgid "Биет бус хөрөнгө - Зохиогчийн эрх"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2101_0201
+msgid "Биет бус хөрөнгө - Зохиогчийн эрхийн хорогдол"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2103_0101
+msgid "Биет бус хөрөнгө - Патент"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2103_0201
+msgid "Биет бус хөрөнгө - Патентын хорогдол"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2102_0101
+msgid "Биет бус хөрөнгө - Програм хангамж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2102_0201
+msgid "Биет бус хөрөнгө - Програм хангамжын хорогдол"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2105_0201
+msgid "Биет бус хөрөнгө - Тусгай зөвшөөрлийн хорогдол"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2105_0101
+msgid "Биет бус хөрөнгө - Тусгай зөвшөөрөл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5501_0201
+msgid "Биет бус хөрөнгө борлуулсны гарз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5501_0101
+msgid "Биет бус хөрөнгө борлуулсны олз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_1301
+msgid "Биет бус хөрөнгө худалдааны авлага"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1502_0401
+msgid "Биет бус хөрөнгө худалдан авахад төлсөн урьдчилгаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2002_0101
+msgid "Биет хөрөнгө - Барилга, байгууламж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2002_0201
+msgid "Биет хөрөнгө - Барилга, байгууламжын элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2009_0201
+msgid "Биет хөрөнгө - Бусад хөрөнгийн элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2009_0101
+msgid "Биет хөрөнгө - Бусад хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2001_0201
+msgid "Биет хөрөнгө - Газрын сайжруулалтын элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2001_0101
+msgid "Биет хөрөнгө - Газрын сайржуулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2008_0101
+msgid "Биет хөрөнгө - Дуусаагүй барилга"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2008_0201
+msgid "Биет хөрөнгө - Дуусаагүй барилгын элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2006_0201
+msgid "Биет хөрөнгө - Компьютер, дагалдах хэрэгслийн элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2006_0101
+msgid "Биет хөрөнгө - Компьютер, дагалдах хэрэгсэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2003_0101
+msgid "Биет хөрөнгө - Машин тоног төхөөрөмж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2003_0201
+msgid "Биет хөрөнгө - Машин тоног төхөөрөмжийн элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2005_0101
+msgid "Биет хөрөнгө - Тавилга эд хогшил"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2005_0201
+msgid "Биет хөрөнгө - Тавилга эд хогшлын элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2004_0201
+msgid "Биет хөрөнгө - Тээврийн хэрэгслийн элэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2004_0101
+msgid "Биет хөрөнгө - Тээврийн хэрэгсэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2401_0101
+msgid "Биологийн хөрөнгө - Мал амьтад"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2401_0201
+msgid "Биологийн хөрөнгө - Мал амьтадын хорогдол"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2402_0101
+msgid "Биологийн хөрөнгө - Ургамал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2402_0201
+msgid "Биологийн хөрөнгө - Ургамалын хорогдол"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0601
+msgid "Богино хугацаат зээлийн авлага ААН"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0801
+msgid "Богино хугацаат зээлийн авлага Холбоотой тал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0701
+msgid "Богино хугацаат зээлийн авлага Хувь хүн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7404_0101
+msgid "Болзошгүй алдагдлын санд төвлөрүүлсэн хөрөнгийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0201
+msgid "Борл -  НДШ-ийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0101
+msgid "Борл -  ЭМД-ийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_9901
+msgid "Борл -  Үйл ажиллагааны бусад зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1101
+msgid "Борл - Ашиглалтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0301
+msgid "Борл - Банкны шимтгэл хураамжын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0501
+msgid "Борл - Бичиг хэргийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0401
+msgid "Борл - Гадаад томилолтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1001
+msgid "Борл - Даатгалын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0402
+msgid "Борл - Дотоод томилолтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_2001
+msgid "Борл - Зар сурталчилгааны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1201
+msgid "Борл - Засварын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0604
+msgid "Борл - Интернетийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0701
+msgid "Борл - Мэргэжлийн үйлчилгээний зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7101_0201
+msgid "Борл - Нэмэгдэл цалингийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0901
+msgid "Борл - Сонин сэтгүүл захиалгын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_2201
+msgid "Борл - Судалгаа, туршилтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0602
+msgid "Борл - Суурин утасны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1701
+msgid "Борл - Тээврийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1401
+msgid "Борл - Түрээсийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_2101
+msgid "Борл - Төсөл хөгжлийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1501
+msgid "Борл - Харуул хамгаалалтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1901
+msgid "Борл - Хүлээн авалтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0801
+msgid "Борл - Хүний нөөцийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_2301
+msgid "Борл - Хүргэлт, түгээлтийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1601
+msgid "Борл - Цэвэрлэгээ үйлчилгээний зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1801
+msgid "Борл - Шатахууны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0601
+msgid "Борл - Шуудан холбооны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_1301
+msgid "Борл - Элэгдэл хорогдлын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7101_0101
+msgid "Борл - Үндсэн цалингийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7102_0603
+msgid "Борл - Үүрэн утасны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6003_0101
+msgid "Борлуулалтын буцаалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5101_0101
+msgid "Борлуулалтын орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5101_0201
+msgid "Борлуулалтын орлого (НӨАТ-с чөлөөлөгдөх)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6002_0101
+msgid "Борлуулалтын урамшуулал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6001_0101
+msgid "Борлуулалтын хөнгөлөлт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6006_0101
+msgid "Борлуулалтын үнийн бууралт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1701_0101
+msgid "Борлуулах зорилгоор эзэмшиж буй эргэлтийн бус хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3901_0101
+msgid "Борлуулах зорилгоор эзэмшиж буй эргэлтийн бус хөрөнгөнд хамаарах өр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6101_0101
+msgid "Борлуулсан бараа, бүтээгдэхүүний өртөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6102_0101
+msgid "Борлуулсан үйлчилгээний өртөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3809_0101
+msgid "Бусад богино хугацаат өр төлбөр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5201_0901
+msgid "Бусад дэлгэрэнгүй орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1302_0101
+msgid ""
+"Бусад дэлгэрэнгүй орлого болох бодит үнэ цэнээр илэрхийлэх санхүүгийн "
+"хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7499_0101
+msgid "Бусад ерөнхий зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1110_0101
+msgid "Бусад мөнгө түүнтэй адилтгах хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4009_0101
+msgid "Бусад урт хугацаат өр төлбөр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_9901
+msgid "Бусад худалдааны бус авлага"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1502_0901
+msgid "Бусад худалдааны бус урьдчилгаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2709_0101
+msgid "Бусад эргэлтийн бус хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1601_0101
+msgid "Бусад эргэлтийн хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6004_0101
+msgid "Бэлнээр төлсөний хөнгөлөлт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1502_0101
+msgid "Бэлтгэн нийлүүлэгчид төлсөн урьдчилгаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1001_0101
+msgid "Бэлэн мөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5302_0101
+msgid "Валютын ханшийн зөрүүний хэрэгжсэн гарз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5301_0101
+msgid "Валютын ханшийн зөрүүний хэрэгжсэн олз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5302_0201
+msgid "Валютын ханшийн зөрүүний хэрэгжээгүй гарз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5301_0201
+msgid "Валютын ханшийн зөрүүний хэрэгжээгүй олз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.fiscal.position.template,name:l10n_mn.fiscal_position_vat4
+msgid "Гадаад борлуулалт - Худалдан авалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4501_0101
+msgid "Гадаад валютын хөрвүүлэлтийн нөөц"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1408_0101
+msgid "Гарч буй барааны өртөгийн түр данс"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3802_0101
+msgid "Гишүүнчлэлийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3801_0101
+msgid "Даатгалын өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1502_0201
+msgid "Дараа тайлангийн урьдчилгаа, томилолт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.fiscal.position.template,name:l10n_mn.fiscal_position_vat0
+msgid "Дотоодын борлуулалт - Худалдан авалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1404_0301
+msgid "Дуусаагүй үйлдвэрлэл - НЗ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1404_0101
+msgid "Дуусаагүй үйлдвэрлэл - Шууд материал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1404_0201
+msgid "Дуусаагүй үйлдвэрлэл - Шууд хөдөлмөр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1003_0101
+msgid "Жижиг мөнгөн сан"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1406_0101
+msgid "Замд яваа бараа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1109_0101
+msgid "Замд яваа мөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1407_0101
+msgid "Ирж буй барааны өртөгийн түр данс"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1401_0801
+msgid "Мал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7403_0101
+msgid "Найдваргүй авлагын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1203_0101
+msgid "Найдваргүй авлагын хасагдуулга"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0901
+msgid "Ногдол ашгийн авлага"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5104_0101
+msgid "Ногдол ашгийн орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3601_0101
+msgid "Ногдол ашгийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4301_0101
+msgid "Нэмж төлөгдсөн капитал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.fiscal.position.template,name:l10n_mn.fiscal_position_vat2
+msgid "НӨАТ 0% (3000000)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat2
+msgid "НӨАТ 0% борлуулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat23
+msgid "НӨАТ 0% экспорт бараа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat24
+msgid "НӨАТ 0% экспорт үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat12
+msgid "НӨАТ Санхүүгийн түрээсийн худалдан авалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat13
+msgid "НӨАТ Факторинг, форфайтинг худалдан авалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat26
+msgid "НӨАТ Факторинг, форфайтинг хэлцлийн үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat17
+msgid "НӨАТ авсан хүү торгууль, алданги"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat6
+msgid "НӨАТ автомашин, эд анги худалдан авалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat7
+msgid "НӨАТ ажлын хэрэгцээнд авсан бараа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat12
+msgid "НӨАТ байр түрээслүүлэх, эзэмшүүлэх"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat1
+msgid "НӨАТ бараа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat11
+msgid "НӨАТ бараа түрээслүүлэх, эзэмшүүлэх"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat4
+msgid "НӨАТ бусад барааны борлуулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat22
+msgid "НӨАТ бусад үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat14
+msgid "НӨАТ бүтээл, загвар, зохиогчийн эрх"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat25
+msgid "НӨАТ дотоодод зарсан санхүүгийн түрээс"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat16
+msgid "НӨАТ зуучлалын үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat3
+msgid "НӨАТ импортоор авсан бараа, үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat8
+msgid "НӨАТ импортоор авсан үндсэн хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat11
+msgid "НӨАТ импортын бусад хамааралгүй бараа, үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat5
+msgid "НӨАТ мал аж ахуй эрхлэгчээс худалдан авсан"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.group,name:l10n_mn.account_tax_group1
+msgid "НӨАТ ногдох бараа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.group,name:l10n_mn.account_tax_group2
+msgid "НӨАТ ногдох үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat8
+msgid "НӨАТ нотариат үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat6
+msgid "НӨАТ татан буугдах үеийн борлуулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat4
+msgid "НӨАТ төлөгчөөр бүртгүүлэх үед худалдан авсан"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat19
+msgid "НӨАТ төсвийн санхүүжилт, татаас"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat10
+msgid "НӨАТ хайгуулд зориулсан импортын бараа, үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat15
+msgid "НӨАТ хонжворт сугалаа, таавар, бооцоо"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat20
+msgid "НӨАТ хууль зүйн үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat18
+msgid "НӨАТ хөрөнгийн үнэлгээний үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat13
+msgid "НӨАТ хөрөнгө түрээслүүлэх, эзэмшүүлэх"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat10
+msgid "НӨАТ цахилгаан, дулаан, ус, шуудан, холбоо"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat9
+msgid "НӨАТ чөлөөлөгдөх үйлдвэрлэлд зориулсан бараа, үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat3
+msgid "НӨАТ чөлөөлөх борлуулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat5
+msgid "НӨАТ эрх борлуулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat21
+msgid "НӨАТ үсчин, гоо сайхан, угаалга, цэвэрлэгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat7
+msgid "НӨАТ өрийн төлбөрт өгсөн бараа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_sale_vat9
+msgid "НӨАТ өрийн төлбөрт өгсөн үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.fiscal.position.template,name:l10n_mn.fiscal_position_vat3
+msgid "НӨАТ-гүй (2000000)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat2
+msgid "НӨАТ-гүй худалдан авалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.group,name:l10n_mn.account_tax_group6
+msgid "НӨАТ-с чөлөөлөгдөх"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.template,name:l10n_mn.account_tax_purchase_vat1
+msgid "НӨАТ-тэй худалдан авалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3701_0101
+msgid "Нөөц өр төлбөр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2205_0101
+msgid "Охин компанид оруулсан хөрөнгө оруулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3402_0201
+msgid "Сайн дурын даатгалын өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.group,name:l10n_mn.account_tax_group5
+msgid "Санхүүгийн түрээсийн зүйл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag17
+msgid "ТТ02: Албан татвар ногдох бусад орлого (17)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag11
+msgid "ТТ02: Биет бус хөрөнгө борлуулсны орлого (11)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag5
+msgid "ТТ02: Бусад орлогын дүн (5)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag14
+msgid "ТТ02: Гадаад валютын ханшийн зөрүүгийн бодит орлого (14)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag41
+msgid "ТТ02: Гадаад улсад олсон ногдол ашиг, хүүгийн орлого (41)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag43
+msgid "ТТ02: Гадаад улсад олсон орлого (43)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag13
+msgid "ТТ02: Гэрээний хүү, торгууль, хохирлын нөхөн төлбөрийн орлого (13)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag46
+msgid "ТТ02: Ногдол ашгийн орлого (46)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag25
+msgid "ТТ02: Сайн дурын даатгалын хураамжийн хэтрэлт (25)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag34
+msgid "ТТ02: Таавар, бооцоот тоглоом, хонжворт сугалааны орлого (34)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag35
+msgid ""
+"ТТ02: Таавар, бооцоот тоглоом, хонжворт сугалааны орлого олоход зарцуулсан "
+"зардал (35)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag22
+msgid "ТТ02: Татвар ногдох орлогоос хасагдахгүй зардал (22)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag23
+msgid "ТТ02: Татвар ногдох орлогыг бууруулах (23)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag2
+msgid "ТТ02: Татвараас чөлөөлөгдөх орлого (2)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag30
+msgid "ТТ02: Татварын хөнгөлөлт (30)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag12
+msgid "ТТ02: Техникийн зөвлөх үйлчилгээний орлого (12)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag8
+msgid "ТТ02: Туслах ажил үйлчилгээний орлого (8)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag36
+msgid "ТТ02: Хонжворт олгосон мөнгө болон барааны үнэ (36)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag9
+msgid "ТТ02: Хувьцаа, үнэт цаас борлуулсны орлого (9)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag39
+msgid "ТТ02: Хүүгийн орлого (39)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag15
+msgid "ТТ02: Хөдлөх болон үл хөдлөх эд хөрөнгийн түрээсийн орлого (15)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag16
+msgid "ТТ02: Хөдлөх эд хөрөнгө борлуулсны орлого (16)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag32
+msgid "ТТ02: Эротик хэвлэл, бичлэг, тоглолт борлуулалтын орлого (32)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag50
+msgid "ТТ02: Эрх борлуулсны орлого (50)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag48
+msgid "ТТ02: Эрхийн шимтгэлийн орлого (48)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag52
+msgid "ТТ02: Үл хөдлөх хөрөнгө борлуулсны орлого (52)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag7
+msgid "ТТ02: Үндсэн ажил үйлчилгээний орлого (7)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag10
+msgid "ТТ02: Үнэ төлбөргүйгээр бусдаас авсан бараа, үйлчилгээ (10)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.tax_report_tag27
+msgid ""
+"ТТ02: Өмнөх жилийн татварын алдагдлаас тайлант хугацаанд шилжүүлсэн дүн (27)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag15
+msgid ""
+"ТТ3a: Байр түрээслүүлэх, эзэмшүүлэх, ашиглуулах үйлчилгээний орлого (15)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag14
+msgid ""
+"ТТ3a: Бараа түрээслүүлэх, эзэмшүүлэх, ашиглуулах үйлчилгээний орлого (14)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag6
+msgid "ТТ3a: Бусад барааны борлуулалтын орлого (6)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag20
+msgid "ТТ3a: Бусдаас авсан хүү, торгууль, алдангийн орлого (20)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag5
+msgid "ТТ3a: Дотоодын зах зээлд борлуулсан барааны борлуулалтын орлого (5)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag36
+msgid "ТТ3a: Дотоодын зах зээлээс НӨАТ-тэй авсан бараа, ажил, үйлчилгээ (36)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag19
+msgid "ТТ3a: Зуучлалын үйлчилгээний орлого (19)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag38
+msgid ""
+"ТТ3a: Мал аж ахуй, тариалан эрхлэгчээс НӨАТ-тэй авсан бараа, үйлчилгээ (38)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag11
+msgid "ТТ3a: Наториатын үйлчилгээний орлого (11)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag35
+msgid ""
+"ТТ3a: НӨАТ-тэй авсан Импортын бараа, ажил үйлчилгээний худалдан авалт (35)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag37
+msgid ""
+"ТТ3a: Суутган төлөгчөөр бүртгүүлэх үед НӨАТ-тэй авсан бараа, үйлчилгээ (37)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag8
+msgid "ТТ3a: Татан буугдах үед үлдсэн барааны орлого (8)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag22
+msgid "ТТ3a: Төсвийн санхүүжилт, татаас, урамшууллын орлого (22)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag18
+msgid "ТТ3a: Хонжворт сугалаа, төлбөрт таавар, бооцоот тоглоомын орлого (18)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag25
+msgid "ТТ3a: Хуулийн 13-т зааснаас бусад үйлчилгээний орлого (25)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag21
+msgid "ТТ3a: Хөрөнгийн үнэлгээний үйлчилгээний орлого (21)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag13
+msgid ""
+"ТТ3a: Цахилгаан,  дулаан, ус, шуудан, холбооны үйлчилгээ үзүүлсний орлого "
+"(13)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag17
+msgid ""
+"ТТ3a: Шинэ бүтээл, загвар, зохиогчийн эрх, барааны тэмдэг худалдсаны орлого "
+"(17)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag29
+msgid "ТТ3a: Экспортолсон үйлчилгээний борлуулалтын орлого (29)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag28
+msgid "ТТ3a: Экспортонд гаргасан барааны борлуулалтын орлого (28)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag7
+msgid "ТТ3a: Эрх борлуулсны орлого (7)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag16
+msgid ""
+"ТТ3a: Үл хөдлөх, хөдлөх хөрөнгө түрээслүүлэх, эзэмшүүлэх ашиглуулах "
+"үйлчилгээий орлого (16)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag24
+msgid ""
+"ТТ3a: Үсчин, гоо сайхан, засвар үйлчилгээ, угаалга, хими цэвэрлэгээний "
+"үйлчилгээний орлого (24)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag23
+msgid "ТТ3a: Өмгөөлөл, хууль зүйн үйлчилгээний орлого (23)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag12
+msgid "ТТ3a: Өрийн төлбөрт тооцсон ажил үйлчилгээний орлого (12)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag9
+msgid "ТТ3a: Өрийн төлбөрт шилжүүлсэн барааны орлого (9)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag48
+msgid "ТТ3а: Cанхүүгийн түрээсээр дотоодын зах зээлд борлуулсны орлого (48)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag42
+msgid ""
+"ТТ3а: Ажлын хэрэгцээнд зориулж авсан бараа, үйлчилгээнд төлсөн НӨАТ (42)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag58
+msgid "ТТ3а: Борлуулалтын орлогын буцаалт, хөнгөлөлт (58)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag46
+msgid ""
+"ТТ3а: Импортоор оруулсан бусад хамааралгүй бараа, ажил, үйлчилгээнд төлсөн "
+"НӨАТ (46)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag2
+msgid "ТТ3а: НӨАТ-аас чөлөөлөгдөх борлуулалтын орлого (2)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag51
+msgid ""
+"ТТ3а: Санхүүгийн түрээсийн зүйлийг худалдан авахад төлсөн түрээсийн төлбөр "
+"(51)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag41
+msgid "ТТ3а: Суудлын автомашин, түүний эд анги сэлбэгт төлсөн  НӨАТ (41)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag52
+msgid "ТТ3а: Факторинг, форфайтинг хэлцлийг авахад төлсөн төлбөр (52)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag49
+msgid "ТТ3а: Факторинг, форфайтинг хэлцлийн үйлчилгээний орлого (49)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag45
+msgid ""
+"ТТ3а: Хайгуулын ажил болон ашиглалтын өмнөх үйл ажиллагаанд зориулж "
+"импортоор авсан бараа, ажил, үйлчилгээнд төлсөн НӨАТ (45)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag59
+msgid "ТТ3а: Худалдан авалтын буцаалт, хөнгөлөлт (59)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag33
+msgid "ТТ3а: Худалдан авсан нийт бараа, ажил үйлчилгээ (33)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag44
+msgid ""
+"ТТ3а: Чөлөөлөгдөх үйлдвэрлэл, үйлчилгээнд зориулж авсан бараа, ажил, "
+"үйлчилгээнд төлсөн НӨАТ (44)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.tag,name:l10n_mn.vat_report_tag43
+msgid ""
+"ТТ3а: Үндсэн хөрөнгө бэлтгэхэд зориулж импортоор авсан бараа, үйлчилгээнд "
+"төлсөн  НӨАТ (43)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_9101_0101
+msgid "Тайлант үеийн орлогын албан татварын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4601_0101
+msgid "Тайлант үеийн хуримтлагдсан ашиг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1401_0401
+msgid "Татан авалтын өртөгийн зөрүү"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_9103_0101
+msgid "Татвар ногдохгүй бусад дэлгэрэнгүй орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0101
+msgid "Татварын өглөг - ААНОАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0701
+msgid "Татварын өглөг - АТӨЯХАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0801
+msgid "Татварын өглөг - Агаарын бохирдлын татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_1001
+msgid "Татварын өглөг - Байгалийн нөөц ашиглалтын татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_9901
+msgid "Татварын өглөг - Бусад татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0401
+msgid "Татварын өглөг - Гаалийн албан татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0601
+msgid "Татварын өглөг - Газрын албан татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0201
+msgid "Татварын өглөг - НӨАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0901
+msgid "Татварын өглөг - Онцгой албан татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0301
+msgid "Татварын өглөг - ХХОАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_0501
+msgid "Татварын өглөг - Үл хөдлөх хөрөнгийн албан татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3401_1101
+msgid "Татварын өглөг – НХАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5201_0201
+msgid "Тооллогын зөрүүний алдагдал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5201_0101
+msgid "Тооллогын зөрүүний олз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7409_0101
+msgid "Туслах үйлдвэрлэл, үйлчилгээний зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1301_0101
+msgid "Түргэн борлогдох үнэт цаас"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5102_0101
+msgid "Түрээсийн орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0201
+msgid "Төлбөр, дутагдал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7203_0101
+msgid "Төсөл санхүүжүүлэх зээлийн хүүгийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1101
+msgid "Удирд -  Ашиглалтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0501
+msgid "Удирд -  Бичиг хэргийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1001
+msgid "Удирд -  Даатгалын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0402
+msgid "Удирд -  Дотоод томилолтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_2001
+msgid "Удирд -  Зар сурталчилгааны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1201
+msgid "Удирд -  Засварын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0604
+msgid "Удирд -  Интернетийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0701
+msgid "Удирд -  Мэргэжлийн үйлчилгээний зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0201
+msgid "Удирд -  НДШ-ийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0901
+msgid "Удирд -  Сонин сэтгүүл захиалгын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_2201
+msgid "Удирд -  Судалгаа, туршилтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0602
+msgid "Удирд -  Суурин утасны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1701
+msgid "Удирд -  Тээврийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1401
+msgid "Удирд -  Түрээсийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_2101
+msgid "Удирд -  Төсөл хөгжлийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1501
+msgid "Удирд -  Харуул хамгаалалтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1901
+msgid "Удирд -  Хүлээн авалтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0801
+msgid "Удирд -  Хүний нөөцийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_2301
+msgid "Удирд -  Хүргэлт, түгээлтийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1601
+msgid "Удирд -  Цэвэрлэгээ үйлчилгээний зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1801
+msgid "Удирд -  Шатахууны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0601
+msgid "Удирд -  Шуудан холбооны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0101
+msgid "Удирд -  ЭМД-ийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_1301
+msgid "Удирд -  Элэгдэл хорогдлын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_9901
+msgid "Удирд -  Үйл ажиллагааны бусад зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0603
+msgid "Удирд -  Үүрэн утасны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0301
+msgid "Удирд - Банкны шимтгэл хураамжын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7002_0401
+msgid "Удирд - Гадаад томилолтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7001_0201
+msgid "Удирд - Нэмэгдэл цалингийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7001_0101
+msgid "Удирд - Үндсэн цалингийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1401_0901
+msgid "Ургамал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2701_0101
+msgid "Урт хугацаат зээлийн авлага ААН"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2701_0301
+msgid "Урт хугацаат зээлийн авлага Холбоотой тал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2701_0201
+msgid "Урт хугацаат зээлийн авлага Хувь хүн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4002_0101
+msgid "Урт хугацаат нөөц өр төлбөр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3203_0101
+msgid "Урьдчилж орсон зээлийн хүүгийн орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3202_0101
+msgid "Урьдчилж орсон түрээсийн орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3201_0101
+msgid "Урьдчилж орсон худалдааны орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0101
+msgid "Урьдчилж төлсөн ААНОАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0701
+msgid "Урьдчилж төлсөн АТӨЯХАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0801
+msgid "Урьдчилж төлсөн Агаарын бохирдлын татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_1001
+msgid "Урьдчилж төлсөн Байгалийн нөөц ашиглалтын төлбөр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_9901
+msgid "Урьдчилж төлсөн Бусад татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0401
+msgid "Урьдчилж төлсөн Гаалийн албан татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0601
+msgid "Урьдчилж төлсөн Газрын төлбөр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0301
+msgid "Урьдчилж төлсөн НӨАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0901
+msgid "Урьдчилж төлсөн Онцгой албан татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1205_0201
+msgid "Урьдчилж төлсөн Сайн дурын даатгалын хураамж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0201
+msgid "Урьдчилж төлсөн ХХОАТатвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1205_0101
+msgid "Урьдчилж төлсөн ЭМ, НДШ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1501_0901
+msgid "Урьдчилж төлсөн бусад зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1501_0101
+msgid "Урьдчилж төлсөн түрээс"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1501_0201
+msgid "Урьдчилж төлсөн хураамж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1501_0301
+msgid "Урьдчилж төлсөн цалин"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1204_0501
+msgid "Урьдчилж төлсөн Үл хөдлөх хөрөнгийн албан татвар"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7405_0101
+msgid "Франчайзын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1404_0401
+msgid "Хагас боловсруулсан бүтээгдэхүүн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2301_0101
+msgid "Хайгуул ба үнэлгээний хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7301_0101
+msgid "Хайгуул, үнэлгээний зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4201_0101
+msgid "Халаасны хувьцаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1502_0601
+msgid "Хангамжийн зүйлс худалдан авахад төлсөн урьдчилгаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7402_0101
+msgid "Хандив, тусламжийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2204_0101
+msgid "Хараат компани, хамтарсан үйлдвэрт оруулсан хөрөнгө оруулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_9102_0101
+msgid "Хойшлогдсон татварын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2501_0101
+msgid "Хойшлогдсон татварын хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4003_0101
+msgid "Хойшлогдсон татварын өр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4001_0401
+msgid "Холбоотой талын урт хугацаат зээл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1303_0101
+msgid "Хорогдуулсан өртөгөөр илэрхийлэгдэх санхүүгийн өртөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3804_0101
+msgid "Хувь хүмүүст өгөх өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3502_0301
+msgid "Хувь хүний богино хугацаат зээлийн хүү"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3501_0301
+msgid "Хувь хүний богино хугацаат зээлийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4001_0301
+msgid "Хувь хүнээс авсан урт хугацаат зээл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1103_0101
+msgid "Хугацаагүй хадгаламж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_6005_0101
+msgid "Хугацаанаас өмнө төлсний хөнгөлөлт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1301_0201
+msgid "Хугацаат хадгаламж"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3101_0101
+msgid "Худалдааны БН-д өгөх өглөг ААН"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3101_0301
+msgid "Худалдааны БН-д өгөх өглөг Холбоотой тал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3101_0201
+msgid "Худалдааны БН-д өгөх өглөг Хувь хүн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1201_0101
+msgid "Худалдааны авлага ААН"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1201_0301
+msgid "Худалдааны авлага Холбоотой тал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1201_0201
+msgid "Худалдааны авлага Хувь хүн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1201_0202
+msgid "Худалдааны авлага Хувь хүн (PoS)"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0301
+msgid "Худалдааны бус авлага ААН"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0501
+msgid "Худалдааны бус авлага Холбоотой тал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0401
+msgid "Худалдааны бус авлага Хувь хүн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3806_0101
+msgid "Худалдааны бус бэлтгэн нийлүүлэгчид өгөх өглөг - ААН"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3806_0301
+msgid "Худалдааны бус бэлтгэн нийлүүлэгчид өгөх өглөг - Холбоотой тал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3806_0201
+msgid "Худалдааны бус бэлтгэн нийлүүлэгчид өгөх өглөг - Хувь хүн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.group,name:l10n_mn.account_tax_group4
+msgid "Худалдан авсан бараа, үйлчилгээ"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3806_0501
+msgid "Худалдан авсан хөрөнгө оруулалтын өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3806_0401
+msgid "Худалдан авсан үндсэн хөрөнгийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_1101
+msgid "Хүүний авлага"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5103_0101
+msgid "Хүүний орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4401_0101
+msgid "Хөрөнгийн дахин үнэлгээний нэмэгдэл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7407_0101
+msgid "Хөрөнгө акталж устгасны зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5601_0201
+msgid "Хөрөнгө оруулалт борлуулсны гарз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5601_0101
+msgid "Хөрөнгө оруулалт борлуулсны олз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_1401
+msgid "Хөрөнгө оруулалт худалдааны авлага"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1502_0501
+msgid "Хөрөнгө оруулалт худалдан авахад төлсөн урьдчилгаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2601_0101
+msgid "Хөрөнгө оруулалтын зориулалттай үндсэн хөрөнгө"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_0101
+msgid "Цалингийн урьдчилгаа, богино хугацаат зээл"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3301_0101
+msgid "Цалингийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_3402_0101
+msgid "ЭМ, НДШ-ийн өглөг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4101_0101
+msgid "Эздийн өмч - төрийн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4102_0101
+msgid "Эздийн өмч - хувийн"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4103_0101
+msgid "Эздийн өмч - хувьцаат"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4509_0101
+msgid "Эздийн өмчийн бусад хэсэг"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.tax.group,name:l10n_mn.account_tax_group3
+msgid "Экспортын борлуулалт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7201_0101
+msgid "Эргэлтийн хөрөнгө санхүүжүүлэх зээлийн хүүгийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5105_0101
+msgid "Эрхийн шимтгэлийн орлого"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_9301_0101
+msgid "Эхний үлдэгдлийн эх үүсвэр"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7408_0101
+msgid "Үйлдвэрийн ослын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5701_0201
+msgid "Үндсэн бус үйл ажиллагааны бусад гарз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5701_0101
+msgid "Үндсэн бус үйл ажиллагааны бусад олз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_2601_0201
+msgid "Үндсэн хөрөнгийн үнэ цэнийн бууралт"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7410_0101
+msgid "Үндсэн хөрөнгийн үнэ цэнийн бууралтын зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5401_0201
+msgid "Үндсэн хөрөнгө борлуулсны гарз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_5401_0101
+msgid "Үндсэн хөрөнгө борлуулсны олз"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_7202_0101
+msgid "Үндсэн хөрөнгө санхүүжүүлэх зээлийн хүүгийн зардал"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1206_1201
+msgid "Үндсэн хөрөнгө худалдааны авлага"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_1502_0301
+msgid "Үндсэн хөрөнгө худалдан авахад төлсөн урьдчилгаа"
+msgstr ""
+
+#. module: l10n_mn
+#: model:account.account.template,name:l10n_mn.account_template_4601_0201
+msgid "Өмнөх үеийн хуримтлагдсан ашиг"
+msgstr ""

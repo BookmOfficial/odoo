@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-03-15 12:06+0000\n"
 "PO-Revision-Date: 2022-03-15 12:06+0000\n"
+=======
+"POT-Creation-Date: 2022-04-15 21:31+0000\n"
+"PO-Revision-Date: 2022-04-15 21:31+0000\n"
+>>>>>>> f95942631c8 ([i18n} Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -149,7 +154,7 @@ msgid ""
 "                    </li>\n"
 "                </ul></li>\n"
 "                <t t-if=\"object.event_id.videocall_location\">\n"
-"                    <li>Meeting URL: <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">https://meet.jit.si/odoo-xyz</a></li>\n"
+"                    <li>Meeting URL: <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">https://meet.jit.si/bookm-xyz</a></li>\n"
 "                </t>\n"
 "                <t t-if=\"not is_html_empty(object.event_id.description)\">\n"
 "                    <li>Description of the event:\n"
@@ -345,7 +350,7 @@ msgid ""
 "                    </li>\n"
 "                </ul></li>\n"
 "                <t t-if=\"object.event_id.videocall_location\">\n"
-"                    <li>Meeting URL: <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">https://meet.jit.si/odoo-xyz</a></li>\n"
+"                    <li>Meeting URL: <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">https://meet.jit.si/bookm-xyz</a></li>\n"
 "                </t>\n"
 "                <t t-if=\"not is_html_empty(object.event_id.description)\">\n"
 "                    <li>Description of the event:\n"
@@ -435,7 +440,7 @@ msgid ""
 "                    </li>\n"
 "                </ul></li>\n"
 "                <t t-if=\"object.event_id.videocall_location\">\n"
-"                    <li>Meeting URL: <a t-attf-href=\"{{ object.event_id.videocall_location }}\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">https://meet.jit.si/odoo-xyz</a></li>\n"
+"                    <li>Meeting URL: <a t-attf-href=\"{{ object.event_id.videocall_location }}\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">https://meet.jit.si/bookm-xyz</a></li>\n"
 "                </t>\n"
 "                <t t-if=\"not is_html_empty(object.event_id.description)\">\n"
 "                    <li>Description of the event:\n"
@@ -645,14 +650,6 @@ msgstr ""
 #: model:ir.ui.menu,name:calendar.menu_calendar_configuration
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_view_form
 msgid "Calendar"
-msgstr ""
-
-#. module: calendar
-#: model:ir.actions.act_window,name:calendar.action_calendar_alarm
-#: model:ir.ui.menu,name:calendar.menu_calendar_alarm
-#: model_terms:ir.ui.view,arch_db:calendar.calendar_alarm_view_form
-#: model_terms:ir.ui.view,arch_db:calendar.view_calendar_alarm_tree
-msgid "Calendar Alarm"
 msgstr ""
 
 #. module: calendar
@@ -1290,7 +1287,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:calendar.action_calendar_event_type
 #: model:ir.ui.menu,name:calendar.menu_calendar_event_type
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_type_tree
-msgid "Meeting Types"
+msgid "Meeting Tags"
 msgstr ""
 
 #. module: calendar
@@ -1372,9 +1369,25 @@ msgid "Needs Action"
 msgstr ""
 
 #. module: calendar
+#: model:ir.model.fields,field_description:calendar.field_account_bank_statement_line__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_account_journal__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_account_move__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_account_payment__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_event_event__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_event_registration__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_fleet_vehicle__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_fleet_vehicle_log_contract__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_fleet_vehicle_log_services__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_hr_employee__activity_calendar_event_id
 #: model:ir.model.fields,field_description:calendar.field_mail_activity_mixin__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_product_product__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_product_template__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_project_project__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_project_task__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_project_update__activity_calendar_event_id
 #: model:ir.model.fields,field_description:calendar.field_res_partner__activity_calendar_event_id
 #: model:ir.model.fields,field_description:calendar.field_res_users__activity_calendar_event_id
+#: model:ir.model.fields,field_description:calendar.field_sale_order__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 msgstr ""
 
@@ -1583,8 +1596,12 @@ msgid "Remind Before"
 msgstr ""
 
 #. module: calendar
+#: model:ir.actions.act_window,name:calendar.action_calendar_alarm
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__alarm_ids
 #: model:ir.ui.menu,name:calendar.calendar_submenu_reminders
+#: model:ir.ui.menu,name:calendar.menu_calendar_alarm
+#: model_terms:ir.ui.view,arch_db:calendar.calendar_alarm_view_form
+#: model_terms:ir.ui.view,arch_db:calendar.view_calendar_alarm_tree
 msgid "Reminders"
 msgstr ""
 
@@ -1945,6 +1962,16 @@ msgstr ""
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_users
 msgid "Users"
+msgstr ""
+
+#. module: calendar
+#: model:ir.model.fields,field_description:calendar.field_calendar_event__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: calendar
+#: model:ir.model.fields,help:calendar.field_calendar_event__website_message_ids
+msgid "Website communication history"
 msgstr ""
 
 #. module: calendar
