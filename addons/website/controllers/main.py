@@ -234,21 +234,22 @@ class Website(Home):
 
         return request.make_response(content, [('Content-Type', mimetype)])
 
-    @http.route('/website/info', type='http', auth="public", website=True, sitemap=True)
-    def website_info(self, **kwargs):
-        try:
-            request.website.get_template('website.website_info').name
-        except Exception as e:
-            return request.env['ir.http']._handle_exception(e)
-        Module = request.env['ir.module.module'].sudo()
-        apps = Module.search([('state', '=', 'installed'), ('application', '=', True)])
-        l10n = Module.search([('state', '=', 'installed'), ('name', '=like', 'l10n_%')])
-        values = {
-            'apps': apps,
-            'l10n': l10n,
-            'version': odoo.service.common.exp_version()
-        }
-        return request.render('website.website_info', values)
+    # Remove websiter info page
+    # @http.route('/website/info', type='http', auth="public", website=True, sitemap=True)
+    # def website_info(self, **kwargs):
+    #     try:
+    #         request.website.get_template('website.website_info').name
+    #     except Exception as e:
+    #         return request.env['ir.http']._handle_exception(e)
+    #     Module = request.env['ir.module.module'].sudo()
+    #     apps = Module.search([('state', '=', 'installed'), ('application', '=', True)])
+    #     l10n = Module.search([('state', '=', 'installed'), ('name', '=like', 'l10n_%')])
+    #     values = {
+    #         'apps': apps,
+    #         'l10n': l10n,
+    #         'version': odoo.service.common.exp_version()
+    #     }
+    #     return request.render('website.website_info', values)
 
     @http.route(['/website/configurator', '/website/configurator/<int:step>'], type='http', auth="user", website=True, multilang=False)
     def website_configurator(self, step=1, **kwargs):

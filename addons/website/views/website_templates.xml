@@ -66,7 +66,7 @@
         <t t-set="x_icon" t-value="website.image_url(website, 'favicon')"/>
     </xpath>
     <xpath expr="//head/meta[last()]" position="after">
-        <meta name="generator" content="Odoo"/>
+        <meta name="generator" content="Bookm"/>
         <t t-set="website_meta" t-value="seo_object and seo_object.get_website_meta() or {}"/>
         <meta name="default_title" t-att-content="default_title" groups="website.group_website_designer"/>
         <meta t-if="(main_object and 'website_indexed' in main_object
@@ -139,10 +139,12 @@
         <!-- Background now controlled by css configuration, using color combinations -->
         <attribute name="class" add="o_colored_level o_cc" separator=" "/>
     </xpath>
+    <!-- Remove brand_promotion
     <xpath expr="//t[@t-call='web.brand_promotion']/.." position="attributes">
         <attribute name="class" add="o_not_editable" separator=" "/>
         <attribute name="t-if">not editable</attribute>
     </xpath>
+    -->
 
     <xpath expr="//div[@id='wrapwrap']" position="after">
         <t t-if="website and website.google_analytics_key and not editable">
@@ -194,17 +196,6 @@
             <t t-set="is_connected" t-value="website.user_id != user_id"/>
         </t>
         <t t-else="">$0</t>
-    </xpath>
-</template>
-
-<template id="brand_promotion" inherit_id="web.brand_promotion" name="Brand Promotion">
-    <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
-        <t t-call="web.brand_promotion_message">
-            <t t-set="_message">
-                Create a <a target="_blank" href="http://www.odoo.com/app/website?utm_source=db&amp;utm_medium=website">free website</a>
-            </t>
-            <t t-set="_utm_medium" t-valuef="website"/>
-        </t>
     </xpath>
 </template>
 
@@ -417,7 +408,7 @@
                         </div>
                         <!-- Contact -->
                         <div class="col-lg-4 text-lg-right pb16">
-                            <i class="fa fa-1x fa-fw fa-envelope mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span>
+                            <i class="fa fa-1x fa-fw fa-envelope mr-2"/><span><a href="mailto:info@example.mybookm.com">info@example.mybookm.com</a></span>
                         </div>
                         <div class="col-lg-2 text-lg-right pb16">
                             <i class="fa fa-1x fa-fw fa-phone mr-2"/><span class="o_force_ltr"><a href="tel:+1 (650) 555-0111">+1 (650) 555-0111</a></span>
@@ -679,7 +670,7 @@
                         <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-top-color: var(--400);"/>
                     </div>
                     <!-- Contact -->
-                    <small><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></small><br/>
+                    <small><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@example.mybookm.com">info@example.mybookm.com</a></span></small><br/>
                     <small><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr"><a href="tel:+1 (650) 555-0111">+1 (650) 555-0111</a></span></small>
                     <!-- Separator -->
                     <div class="s_hr text-left pt16 pb16" data-name="Separator">
@@ -850,7 +841,7 @@
                         <div class="col-lg-8">
                             <small>
                                 <i class="fa fa-1x fa-fw fa-phone mr-2"/><span class="mr-3"><a href="tel:+1 (650) 555-0111">+1 (650) 555-0111</a></span>
-                                <i class="fa fa-1x fa-fw fa-envelope mr-2 d-inline"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span>
+                                <i class="fa fa-1x fa-fw fa-envelope mr-2 d-inline"/><span><a href="mailto:info@example.mybookm.com">info@example.mybookm.com</a></span>
                             </small>
                         </div>
                         <div class="col-lg-4 text-lg-right">
@@ -1259,7 +1250,7 @@
                                 <a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
                                     <i class="fa fa-instagram m-1"/>
                                 </a>
-                                <a href="mailto:info@yourcompany.example.com" class="ml-3" target="_blank">
+                                <a href="mailto:info@example.mybookm.com" class="ml-3" target="_blank">
                                     <i class="fa fa-1x fa-envelope"/>
                                 </a>
                             </div>
@@ -1434,7 +1425,7 @@
                             <h5 class="mb-3">Connect with us</h5>
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-comment fa-fw mr-2"/><span><a href="/contactus">Contact us</a></span></li>
-                                <li><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></li>
+                                <li><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@example.mybookm.com">info@example.mybookm.com</a></span></li>
                                 <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr"><a href="tel:+1 (650) 555-0111">+1 (650) 555-0111</a></span></li>
                             </ul>
                             <div class="s_social_media text-left o_not_editable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
@@ -1549,7 +1540,7 @@
                     <p class="text-center mb-1">250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States</p>
                     <ul class="list-inline text-center">
                         <li class="list-inline-item mx-3"><i class="fa fa-1x fa-fw fa-phone mr-2"/><span class="o_force_ltr"><a href="tel:1 (650) 555-0111">+1 (650) 555-0111</a></span></li>
-                        <li class="list-inline-item mx-3"><i class="fa fa-1x fa-fw fa-envelope mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></li>
+                        <li class="list-inline-item mx-3"><i class="fa fa-1x fa-fw fa-envelope mr-2"/><span><a href="mailto:info@example.mybookm.com">info@example.mybookm.com</a></span></li>
                     </ul>
                 </div>
             </section>
@@ -1769,7 +1760,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-9 pb24">
-                            <h3>50,000+ companies run Odoo to grow their businesses.</h3>
+                            <h3>Run Bookm to grow your businesses.</h3>
                             <p class="lead">Join us and make your company a better place.</p>
                         </div>
                         <div class="col-lg-3 pb24">
@@ -1792,7 +1783,7 @@
                             <p><i class="fa fa-1x fa-fw fa-map-marker mr-2"/>250 Executive Park Blvd, Suite 3400 • San Francisco CA 94134 • United States</p>
                         </div>
                         <div class="col-lg-3">
-                            <p><i class="fa fa-1x fa-fw fa-envelope mr-2"/><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></p>
+                            <p><i class="fa fa-1x fa-fw fa-envelope mr-2"/><a href="mailto:info@example.mybookm.com">info@example.mybookm.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -1833,7 +1824,7 @@
                         <div class="col-lg-6 pb24">
                             <ul class="list-unstyled mb-0">
                                 <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr"><a href="tel:+1 (650) 555-0111">+1 (650) 555-0111</a></span></li>
-                                <li><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></li>
+                                <li><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@example.mybookm.com">info@example.mybookm.com</a></span></li>
                             </ul>
                         </div>
                         <div class="col-lg-3 pb24">
@@ -2134,12 +2125,15 @@
 </record>
 
 <!-- Error and special pages -->
+<!-- Remove website info
 <template id="website_info" name="Odoo Information">
     <t t-call="website.layout">
         <div id="wrap"/>
     </t>
 </template>
+-->
 
+<!-- Remove website info
 <template id="show_website_info" inherit_id="website.website_info" customize_show="True" name="Show Odoo Information">
     <xpath expr="//div[@id='wrap']" position="inside">
         <div class="oe_structure">
@@ -2196,6 +2190,7 @@
         </div>
     </xpath>
 </template>
+-->
 
 <template id="default_page">
     <t t-call="website.layout">

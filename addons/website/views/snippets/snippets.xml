@@ -170,7 +170,9 @@
         <t t-install="website_event" string="Events" t-thumbnail="/website/static/src/img/snippets_thumbs/s_event_upcoming_snippet.svg"/>
         <t id="newsletter_popup_snippet" t-install="mass_mailing" string="Newsletter Popup" t-thumbnail="/website/static/src/img/snippets_thumbs/newsletter_subscribe_popup.svg"/>
         <t t-install="website_mail_group" string="Discussion Group" t-thumbnail="/website/static/src/img/snippets_thumbs/s_group.svg"/>
+		<!-- Remove AS this module is not working properly
         <t t-install="website_twitter" string="Twitter Scroller" t-thumbnail="/website/static/src/img/snippets_thumbs/s_twitter_scroll.svg"/>
+		-->
         <t t-install="website_payment" string="Donation" t-thumbnail="/website/static/src/img/snippets_thumbs/s_donation.svg"/>
     </xpath>
     <xpath expr="//div[@id='snippet_content']//t[@t-snippet][last()]" position="after">
@@ -1003,7 +1005,7 @@
             <we-button t-att-data-select-label="_label" data-select-template="website.s_mega_menu_multi_menus" data-img="/website/static/src/img/snippets_thumbs/s_mega_menu_multi_menus.svg" t-out="_label"/>
             <t t-set="_label">Image Menu</t>
             <we-button t-att-data-select-label="_label" data-select-template="website.s_mega_menu_menu_image_menu" data-img="/website/static/src/img/snippets_thumbs/s_mega_menu_menu_image_menu.svg" t-out="_label"/>
-            <t t-set="_label">Odoo Menu</t>
+            <t t-set="_label">Mega Menu</t>
             <we-button t-att-data-select-label="_label" data-select-template="website.s_mega_menu_odoo_menu" data-img="/website/static/src/img/snippets_thumbs/s_mega_menu_odoo_menu.svg" t-out="_label"/>
             <t t-set="_label">Little Icons</t>
             <we-button t-att-data-select-label="_label" data-select-template="website.s_mega_menu_little_icons" data-img="/website/static/src/img/snippets_thumbs/s_mega_menu_little_icons.svg" t-out="_label"/>
@@ -1260,10 +1262,9 @@
     <!-- Theme options -->
     <div data-js="ThemeColors" data-selector="theme-colors" data-no-check="true">
         <we-alert class="o_old_color_system_warning d-none">
-            It appears your website is still using the old color system of
-            Odoo 13.0 in some places. We made sure it is still working but
-            we recommend you to try to use the new color system, which is
-            still customizable.
+            It appears your website is still using the old color system in some places. 
+            We made sure it is still working but we recommend you to try to use the new 
+            color system, which is still customizable.
         </we-alert>
         <we-row class="o_we_theme_colors_selector">
             <we-colorpicker data-name="color_1_opt" title="Primary"
