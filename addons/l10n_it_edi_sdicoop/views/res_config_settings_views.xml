@@ -18,8 +18,8 @@
                                         Fattura Elettronica mode
                                     </span>
                                     <div class="text-muted">
-                                        In demo mode Odoo will just simulate the sending of invoices to the government.<br/>
-                                        In test mode (experimental) Odoo will send the invoices to a non-production service.
+                                        In demo mode Bookm will just simulate the sending of invoices to the government.<br/>
+                                        In test mode (experimental) Bookm will send the invoices to a non-production service.
                                         Saving this change will direct all companies on this database to this use this configuration.
                                         Once registered for testing or official, the mode cannot be changed.
                                     </div>
@@ -28,9 +28,9 @@
                                            options="{'horizontal': true}"/>
                                 </div>
                                 <div class="mt8 content-group" attrs="{'invisible': ['|',('l10n_it_edi_proxy_current_state','=','active'), '&amp;', ('l10n_it_edi_proxy_current_state','=','demo'), ('l10n_it_edi_sdicoop_demo_mode','=','demo')]}">
-                                    <span class="o_form_label">Allow Odoo to process invoices</span>
+                                    <span class="o_form_label">Allow Bookm to process invoices</span>
                                     <div class="text-muted">
-                                        By checking this box, I accept that Odoo may process my invoices.
+                                        By checking this box, I accept that Bookm may process my invoices.
                                     </div>
                                     <div class="content-group">
                                         <field name="l10n_it_edi_sdicoop_register"/>

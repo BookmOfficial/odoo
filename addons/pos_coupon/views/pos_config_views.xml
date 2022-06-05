@@ -5,6 +5,7 @@
         <field name="model">pos.config</field>
         <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
         <field name="arch" type="xml">
+            <!-- Changed from pos-loyalty to product_prices due to debranding removal of this section -->
             <xpath expr="//div[@id='product_prices']" position="after">
                 <div class="col-12 col-lg-6 o_setting_box" id="pos-coupon">
                     <div class="o_setting_left_pane">

@@ -11,6 +11,7 @@
                         <div class="mt16 row">
                             <label for="unsplash_access_key" class="col-3 o_light_label" />
                             <field name="unsplash_access_key" />
+                            <!-- Added to be able to do complete setup through settings-->
                             <label for="unsplash_app_id" class="col-3 o_light_label" />
                             <field name="unsplash_app_id" />
                         </div>
