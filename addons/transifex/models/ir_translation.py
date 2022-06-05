@@ -14,7 +14,7 @@ class IrTranslation(models.Model):
 
     _inherit = 'ir.translation'
 
-    transifex_url = fields.Char("Transifex URL", compute='_get_transifex_url', help="Propose a modification in the official version of Odoo")
+    transifex_url = fields.Char("Transifex URL", compute='_get_transifex_url', help="Propose a modification in the official version")
 
     def _get_transifex_url(self):
         """ Construct transifex URL based on the module on configuration """

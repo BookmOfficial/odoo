@@ -267,7 +267,7 @@ class AccountEdiFormat(models.Model):
                         ' and request that they provide a solution.'
                         ' During the following 10 days, the Exchange System will try to forward the'
                         ' FatturaPA file to the Public Administration in question again.'
-                        ' Should this also fail, the System will notify Odoo of the failed delivery,'
+                        ' Should this also fail, the System will notify Bookm of the failed delivery,'
                         ' and you will be required to send the invoice to the Administration'
                         ' through another channel, outside of the Exchange System.')}
                 else:
