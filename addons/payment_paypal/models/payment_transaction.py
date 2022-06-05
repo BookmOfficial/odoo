@@ -19,7 +19,7 @@ class PaymentTransaction(models.Model):
 
     # See https://developer.paypal.com/docs/api-basics/notifications/ipn/IPNandPDTVariables/
     paypal_type = fields.Char(
-        string="PayPal Transaction Type", help="This has no use in Odoo except for debugging.")
+        string="PayPal Transaction Type", help="This has no use in Bookm except for debugging.")
 
     def _get_specific_rendering_values(self, processing_values):
         """ Override of payment to return Paypal-specific rendering values.
