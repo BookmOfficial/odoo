@@ -95,6 +95,7 @@ class DeliveryCarrier(models.Model):
             c.debug_logging = not c.debug_logging
 
     def install_more_provider(self):
+        # SUPPORTLINK could potentially be added for quick access to a request form
         return {
             'name': 'New Providers',
             'view_mode': 'kanban,form',
@@ -102,7 +103,7 @@ class DeliveryCarrier(models.Model):
             'domain': [['name', '=like', 'delivery_%'], ['name', '!=', 'delivery_barcode']],
             'type': 'ir.actions.act_window',
             'help': _('''<p class="o_view_nocontent">
-                    Buy Odoo Enterprise now to get more providers.
+                    Contact us to request more providers.
                 </p>'''),
         }
 
