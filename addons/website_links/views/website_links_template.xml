@@ -24,7 +24,7 @@
                                     <label class="col-md-3 col-form-label text-left">URL</label>
 
                                     <div class="col-md-9">
-                                        <input type="text" id="url" class="form-control required-form-control"  required="True" placeholder="e.g. https://www.odoo.com/contactus" t-att-value="u"/>
+                                        <input type="text" id="url" class="form-control required-form-control"  required="True" placeholder="e.g. https://www.example.com/contactus" t-att-value="u"/>
                                     </div>
                                 </div>
 
@@ -66,7 +66,7 @@
 
                         <div class="offset-md-1 col-md-3 d-none d-md-block">
                             <p class="text-muted text-justify">Share this page with a <strong>short link</strong> that includes <strong>analytics trackers</strong>.</p>
-                            <p class="text-muted text-justify">Those trackers can be used in Google Analytics to track clicks and visitors, or in Odoo reports to track opportunities and related revenues.</p>
+                            <p class="text-muted text-justify">Those trackers can be used in Google Analytics to track clicks and visitors, or in Bookm reports to track opportunities and related revenues.</p>
                         </div>
                     </div>
 

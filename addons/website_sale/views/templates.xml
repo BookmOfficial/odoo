@@ -1911,6 +1911,7 @@
         </div>
     </template>
 
+	<!-- Remove brand_promotion
     <template id="website_sale.brand_promotion" inherit_id="website.brand_promotion">
         <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
             <t t-call="web.brand_promotion_message">
@@ -1921,6 +1922,7 @@
             </t>
         </xpath>
     </template>
+    -->
 
     <!-- User Navbar -->
     <template id="user_navbar_inherit_website_sale" inherit_id="website.user_navbar">
