@@ -27,7 +27,7 @@ patchRecordMethods('MessagingInitializer', {
     async start() {
         await this.async(() => this._super());
 
-        if ('odoobot_initialized' in this.env.session && !this.env.session.odoobot_initialized) {
+        if ('bot_initialized' in this.env.session && !this.env.session.odoobot_initialized) {
             this._initializeOdooBot();
         }
     },
