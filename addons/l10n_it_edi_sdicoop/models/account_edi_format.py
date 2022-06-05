@@ -147,7 +147,7 @@ class AccountEdiFormat(models.Model):
 
             if invoice._is_commercial_partner_pa():
                 invoice.message_post(
-                    body=(_("Invoices for PA are not managed by Odoo, you can download the document and send it on your own."))
+                    body=(_("Invoices for PA are not managed by Bookm, you can download the document and send it on your own."))
                 )
                 to_return[invoice] = {'attachment': attachment, 'success': True}
             else:
