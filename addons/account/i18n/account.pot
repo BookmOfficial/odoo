@@ -7,12 +7,17 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-04-19 09:19+0000\n"
 "PO-Revision-Date: 2022-04-19 09:19+0000\n"
 =======
 "POT-Creation-Date: 2022-04-15 21:25+0000\n"
 "PO-Revision-Date: 2022-04-15 21:25+0000\n"
 >>>>>>> f95942631c8 ([i18n} Updated pot files)
+=======
+"POT-Creation-Date: 2022-05-22 19:43+0000\n"
+"PO-Revision-Date: 2022-05-22 19:43+0000\n"
+>>>>>>> e1a96e450c0 ([UPD] pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2224,8 +2229,8 @@ msgstr ""
 #: code:addons/account/models/account_analytic_default.py:0
 #, python-format
 msgid ""
-"An analytic default requires at least an analytic account or an analytic "
-"tag."
+"An analytic default requires an analytic account or an analytic tag used for"
+" analytic distribution."
 msgstr ""
 
 #. module: account

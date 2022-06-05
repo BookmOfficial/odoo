@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 21:28+0000\n"
-"PO-Revision-Date: 2022-04-15 21:28+0000\n"
+"POT-Creation-Date: 2022-05-22 19:45+0000\n"
+"PO-Revision-Date: 2022-05-22 19:45+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -124,18 +124,24 @@ msgstr ""
 
 #. module: auth_oauth
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:auth.oauth.provider,body:auth_oauth.provider_openerp
 msgid "Log in with Odoo.com"
 msgstr ""
 
 #. module: auth_oauth
+=======
+>>>>>>> e1a96e450c0 ([UPD] pot files)
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__body
 msgid "Login button label"
 msgstr ""
 
 #. module: auth_oauth
+<<<<<<< HEAD
 =======
 >>>>>>> f95942631c8 ([i18n} Updated pot files)
+=======
+>>>>>>> e1a96e450c0 ([UPD] pot files)
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users__oauth_access_token
 msgid "OAuth Access Token"
 msgstr ""
@@ -209,6 +215,7 @@ msgstr ""
 
 #. module: auth_oauth
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:auth_oauth.model_ir_config_parameter
 msgid "System Parameter"
 msgstr ""
@@ -220,6 +227,10 @@ msgid "UserInfo URL"
 #: model:ir.model,name:auth_oauth.model_res_users
 msgid "Users"
 >>>>>>> f95942631c8 ([i18n} Updated pot files)
+=======
+#: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
+msgid "UserInfo URL"
+>>>>>>> e1a96e450c0 ([UPD] pot files)
 msgstr ""
 
 #. module: auth_oauth

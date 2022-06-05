@@ -7,12 +7,17 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-02-11 14:33+0000\n"
 "PO-Revision-Date: 2022-02-11 14:33+0000\n"
 =======
 "POT-Creation-Date: 2022-04-15 23:23+0000\n"
 "PO-Revision-Date: 2022-04-15 23:23+0000\n"
 >>>>>>> f95942631c8 ([i18n} Updated pot files)
+=======
+"POT-Creation-Date: 2022-05-22 20:43+0000\n"
+"PO-Revision-Date: 2022-05-22 20:43+0000\n"
+>>>>>>> e1a96e450c0 ([UPD] pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -7401,6 +7406,12 @@ msgid "The forecasted stock on the"
 msgstr ""
 
 #. module: stock
+#: code:addons/stock/models/stock_orderpoint.py:0
+#, python-format
+msgid "The inter-warehouse transfers have been generated"
+msgstr ""
+
+#. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_location_inventory_freq_nonneg
 msgid "The inventory frequency (days) for a location must be non-negative"
 msgstr ""
@@ -8014,6 +8025,10 @@ msgstr ""
 #. module: stock
 #. openerp-web
 #: code:addons/stock/static/src/js/report_stock_reception.js:0
+<<<<<<< HEAD
+=======
+#: code:addons/stock/static/src/js/report_stock_reception.js:0
+>>>>>>> e1a96e450c0 ([UPD] pot files)
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 #, python-format
 msgid "Unassign"
@@ -8393,7 +8408,6 @@ msgstr ""
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/models/stock_move_line.py:0
 #: code:addons/stock/models/stock_move_line.py:0
-#: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/models/stock_quant.py:0
 #: code:addons/stock/models/stock_scrap.py:0
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -8891,6 +8905,7 @@ msgstr ""
 
 #. module: stock
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/stock/models/stock_picking.py:0
 #, python-format
@@ -8902,6 +8917,8 @@ msgstr ""
 
 #. module: stock
 >>>>>>> f95942631c8 ([i18n} Updated pot files)
+=======
+>>>>>>> e1a96e450c0 ([UPD] pot files)
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "You still have ongoing operations for picking types %s in warehouse %s"
