@@ -37,10 +37,10 @@ setup(
         'pillow',  # windows binary http://www.lfd.uci.edu/~gohlke/pythonlibs/
         'polib',
         'psutil',  # windows binary code.google.com/p/psutil/downloads/list
-        'psycopg2 >= 2.2',
+        'psycopg2-binary >= 2.2',
         'pydot',
         'pyopenssl',
-        'pypdf2',
+        'pypdf2 == 1.27.12',
         'pyserial',
         'python-dateutil',
         'python-stdnum',
@@ -51,7 +51,7 @@ setup(
         'requests',
         'zeep',
         'vobject',
-        'werkzeug',
+        'werkzeug == 2.0.2',
         'xlsxwriter',
         'xlwt',
     ],
