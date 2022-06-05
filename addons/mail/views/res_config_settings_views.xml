@@ -26,13 +26,15 @@
                         </div>
                         <div class="col-12 col-lg-6 o_setting_box"
                             id="email_servers_setting"
-                            title="Using your own email server is required to send/receive emails in Community and Enterprise versions. Online users already benefit from a ready-to-use email server (@mycompany.odoo.com).">
+                            title="Using your own email server is not required to send/receive emails. Users already benefit from a ready-to-use email server (@example.mybookm.com).">
                             <div class="o_setting_left_pane">
                                 <field name="external_email_server_default"/>
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="external_email_server_default"/>
-                                <a href="https://www.odoo.com/documentation/saas-15.2/applications/general/email_communication/email_servers.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                <!--Doclink:
+                                <a href="https://www.odoo.com/documentation/15.0/applications/productivity/discuss/advanced/email_servers.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                -->
                                 <div class="text-muted" id="external_email_server_default">
                                     Configure your own email servers
                                 </div>

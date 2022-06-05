@@ -14,7 +14,7 @@ class ResConfigSettings(models.TransientModel):
     fail_counter = fields.Integer('Fail Mail', compute="_compute_fail_counter")
     alias_domain = fields.Char(
         'Alias Domain', config_parameter='mail.catchall.domain',
-        help="If you have setup a catch-all email domain redirected to the Odoo server, enter the domain name here.")
+        help="If you have setup a catch-all email domain redirected to the Bookm server, enter the domain name here.")
     module_google_gmail = fields.Boolean('Support Gmail Authentication')
     restrict_template_rendering = fields.Boolean(
         'Restrict Template Rendering',

@@ -241,7 +241,7 @@ registerModel({
                     partner.id <= 0 ||
                     this.messaging.publicPartners.includes(partner)
                 ) {
-                    // ignore archived partners (except OdooBot), temporary
+                    // ignore archived partners (except Bot), temporary
                     // partners (livechat guests), public partners (technical)
                     continue;
                 }

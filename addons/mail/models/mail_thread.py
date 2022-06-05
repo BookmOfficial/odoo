@@ -1818,7 +1818,7 @@ class MailThread(models.AbstractModel):
         if self._name == 'mail.thread' or not self.id or message_type == 'user_notification':
             raise ValueError(_('Posting a message should be done on a business document. Use message_notify to send a notification to an user.'))
         if 'channel_ids' in kwargs:
-            raise ValueError(_("Posting a message with channels as listeners is not supported since Odoo 14.3+. Please update code accordingly."))
+            raise ValueError(_("Posting a message with channels as listeners is not supported. Please update code accordingly."))
         if 'model' in msg_kwargs or 'res_id' in msg_kwargs:
             raise ValueError(_("message_post does not support model and res_id parameters anymore. Please call message_post on record."))
         if 'subtype' in kwargs:
