@@ -20,7 +20,7 @@
                     <we-select class="select_discussion_list" data-attribute-name="id" data-no-preview="true">
                         <!-- 'we-button' added programmatically with DB data -->
                     </we-select>
-                    <we-button class="fa fa-fw fa-plus" title="Create a public discussion group in your backend"
+                    <we-button class="fa fa-fw fa-plus" title="Create a public discussion group in Bookm"
                                data-create-group="" data-no-preview="true" data-name="create_mail_group_opt"/>
                 </we-row>
             </div>
