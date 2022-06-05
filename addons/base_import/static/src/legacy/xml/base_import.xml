@@ -24,7 +24,9 @@
                             <i class="fa fa-download"/> <span><t t-esc="template.label"/></span>
                         </a>
                     </div>
-                    <a href="https://www.odoo.com/documentation/saas-15.2/applications/general/export_import_data.html" target="new">Import FAQ</a>
+                    <!--DOCLINK:
+                    <a href="https://www.odoo.com/documentation/15.0/applications/general/export_import_data.html" target="new">Import FAQ</a>
+                    -->
                 </div>
             </div>
         </form>
@@ -64,7 +66,7 @@
                 <td class="oe_import_grid-cell border-0 font-weight-bold" style="width: 20%;">
                     <span class="o_single_line_text" title="File Column">File Column</span></td>
                 <td class="oe_import_grid-cell border-0 font-weight-bold" style="width: 15%;" >
-                    <span class="o_single_line_text" title="File Column">Odoo Field</span></td>
+                    <span class="o_single_line_text" title="File Column">Field</span></td>
                 <td class="oe_import_grid-cell border-0 font-weight-bold">
                     <span class="o_single_line_text" title="File Column">Comments</span></td>
             </tr>
@@ -216,7 +218,7 @@
         <div class="oe_import_with_file d-none">
             <div class="oe_import_noheaders">
                 <p class="alert alert-info">If the file contains
-                    the column names, Odoo can try auto-detecting the
+                    the column names, Bookm can try auto-detecting the
                     field corresponding to the column. This makes imports
                     simpler especially when the file has many columns.</p>
             </div>
@@ -292,9 +294,11 @@ lines composed only of empty cells">
                         <i class="fa fa-download"/> <span>Download Template</span>
                     </a>
                 </div>
-                <a href="https://www.odoo.com/documentation/saas-15.2/applications/general/export_import_data.html" target="new">
+                <!--DOCLINK:
+                <a href="https://www.odoo.com/documentation/15.0/applications/general/export_import_data.html" target="new">
                     <i class="fa fa-external-link"></i> Go to Import FAQ
                 </a>
+                -->
 
                 <div class="oe_import_debug_option">
                     <h4 class="mt-3">Advanced</h4>
