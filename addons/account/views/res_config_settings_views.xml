@@ -82,6 +82,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Removed upgrade_boolean
                             <div class="col-12 col-lg-6 o_setting_box" id="taxcloud_settings">
                                 <div class="o_setting_left_pane">
                                     <field name="module_account_taxcloud" widget="upgrade_boolean"/>
@@ -93,13 +94,14 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                             <div class="col-12 col-lg-6 o_setting_box" id="eu_service" title="If you sell goods and services to customers in a foreign EU country, you must charge VAT based on the delivery address. This rule applies regardless of where you are located.">
                                 <div class="o_setting_left_pane">
                                     <field name="module_l10n_eu_oss"/>
                                 </div>
                                 <div class="o_setting_right_pane" name="l10n_eu_oss_right_pane">
                                     <label for="module_l10n_eu_oss"/>
-                                    <a href="https://www.odoo.com/documentation/saas-15.2/applications/finance/accounting/taxation/taxes/eu_distance_selling.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                    <!--DOCLINK: <a href="https://www.odoo.com/documentation/15.0/applications/finance/accounting/taxation/taxes/eu_distance_selling.html" title="Documentation" class="o_doc_link" target="_blank"></a> -->
                                     <div class="text-muted">
                                         Apply VAT of the EU country to which goods and services are delivered.
                                     </div>
@@ -166,6 +168,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Removed upgrade_boolean
                             <div class="col-12 col-lg-6 o_setting_box"
                                 id="update_exchange_rates"
                                 attrs="{'invisible': [('group_multi_currency', '=', False)]}">
@@ -179,6 +182,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                         </div>
                         <h2>Customer Invoices</h2>
                         <div class="row mt16 o_settings_container" id="invoicing_settings">
@@ -271,6 +275,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Removed upgrade_boolean
                             <div class="col-xs-12 col-md-6 o_setting_box" id="intrastat_statistics">
                                 <div class="o_setting_left_pane">
                                     <field name="module_account_intrastat" widget="upgrade_boolean"/>
@@ -282,6 +287,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                             <div class="col-12 col-lg-6 o_setting_box" id="default_incoterm">
                                 <div class="o_setting_left_pane"/>
                                 <div class="o_setting_right_pane">
@@ -294,6 +300,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Removed upgrade_boolean
                             <div class="col-xs-12 col-md-6 o_setting_box" id="show_sale_receipts">
                                 <div class="o_setting_left_pane">
                                     <field name="group_show_sale_receipts" widget="upgrade_boolean"/>
@@ -305,6 +312,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                             <div class="col-12 col-lg-6 o_setting_box" id="use_invoice_terms">
                                 <div class="o_setting_left_pane">
                                     <field name="use_invoice_terms"/>
@@ -352,6 +360,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Removed upgrade_boolean
                             <div class="col-12 col-lg-6 o_setting_box" id="account_batch_payment">
                                 <div class="o_setting_left_pane">
                                     <field name="module_account_batch_payment" widget="upgrade_boolean"/>
@@ -363,6 +372,8 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
+                            <!-- Removed upgrade_boolean
                             <div class="col-12 col-lg-6 o_setting_box"
                                 id="collect_customer_payment"
                                 title="If you check this box, you will be able to collect payments using SEPA Direct Debit mandates.">
@@ -382,6 +393,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                             <div class="col-xs-12 col-md-6 o_setting_box"
                                 id="qr_code_invoices"
                                 title="Add a QR-code to your invoices so that your customers can pay instantly with their mobile banking application.">
@@ -397,6 +409,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Removed upgrade_boolean
                         <h2>Vendor Bills</h2>
                         <div class="row mt16 o_settings_container" id="account_vendor_bills">
                             <div class="col-12 col-lg-6 o_setting_box" id="account_ocr_settings">
@@ -427,6 +440,7 @@
                                 </div>
                             </div>
                         </div>
+                        -->
                         <h2>Vendor Payments</h2>
                         <div class="row mt16 o_settings_container" id="print_vendor_checks_setting_container">
                             <div class="col-12 col-lg-6 o_setting_box" id="print_checks" groups="account.group_account_user">
@@ -441,6 +455,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Removed upgrade_boolean
                             <div class="col-12 col-lg-6 o_setting_box"
                                 id="sepa_payments"
                                 title="If you check this box, you will be able to register your payment using SEPA.">
@@ -455,6 +470,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                         </div>
 
                         <t groups="account.group_account_user" attrs="{'invisible': [('chart_template_id','=',False)]}">
@@ -510,6 +526,7 @@
                             </div>
                         </t>
 
+                        <!-- Removed upgrade_boolean
                         <t groups="account.group_account_user">
                             <h2>Bank &amp; Cash</h2>
                             <div class="row mt16 o_settings_container" id="bank_cash">
@@ -563,7 +580,8 @@
                                 </div>
                             </div>
                         </t>
-
+                        -->
+                        <!-- Removed upgrade_boolean
                         <t groups="account.group_account_user">
                             <h2>Accounting Import</h2>
                             <div class="row mt16 o_settings_container" id="accounting_import">
@@ -582,7 +600,8 @@
                                 </div>
                             </div>
                         </t>
-
+                        -->
+                        <!-- Removed upgrade_boolean
                         <t groups="account.group_account_user">
                             <h2>Fiscal Periods</h2>
                             <div class="row mt16 o_settings_container" id="accounting_reports">
@@ -600,6 +619,7 @@
                                 </div>
                             </div>
                         </t>
+                        -->
                         <h2>Analytics</h2>
                         <div class="row mt16 o_settings_container" id="analytic">
                             <div class="col-12 col-lg-6 o_setting_box"
@@ -629,6 +649,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Removed upgrade_boolean
                             <div class="col-12 col-lg-6 o_setting_box" id="account_budget" title="This allows accountants to manage analytic and crossovered budgets. Once the master budgets and the budgets are defined, the project managers can set the planned amount on each analytic account." groups="account.group_account_user">
                                 <div class="o_setting_left_pane">
                                     <field name="module_account_budget" widget="upgrade_boolean"/>
@@ -640,6 +661,7 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
                             <div class="col-12 col-lg-6 o_setting_box" id="monitor_product_margins">
                                 <div class="o_setting_left_pane">
                                     <field name="module_product_margin"/>

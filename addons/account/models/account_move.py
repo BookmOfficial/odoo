@@ -2576,7 +2576,7 @@ class AccountMove(models.Model):
         return reference
 
     def _get_invoice_reference_odoo_invoice(self):
-        """ This computes the reference based on the Odoo format.
+        """ This computes the reference based on the Bookm format.
             We simply return the number of the invoice, defined on the journal
             sequence.
         """
@@ -2584,7 +2584,7 @@ class AccountMove(models.Model):
         return self.name
 
     def _get_invoice_reference_odoo_partner(self):
-        """ This computes the reference based on the Odoo format.
+        """ This computes the reference based on the Bookm format.
             The data used is the reference set on the partner or its database
             id otherwise. For instance if the reference of the customer is
             'dumb customer 97', the reference will be 'CUST/dumb customer 97'.

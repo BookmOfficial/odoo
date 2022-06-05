@@ -6,6 +6,7 @@
         </record>
     </data>
 
+    <!-- Removed due to not offering Snailmail
     <data>
         <record id="digest_tip_account_0" model="digest.tip">
             <field name="name">Tip: No need to print, put in an envelop and post your invoices</field>
@@ -19,5 +20,6 @@
 </div>
             </field>
         </record>
-    </data>
+    </data> 
+    -->
 </odoo>
