@@ -8,6 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-03-15 12:05+0000\n"
 "PO-Revision-Date: 2022-03-15 12:05+0000\n"
 =======
@@ -18,6 +19,10 @@ msgstr ""
 "POT-Creation-Date: 2022-05-22 20:52+0000\n"
 "PO-Revision-Date: 2022-05-22 20:52+0000\n"
 >>>>>>> e1a96e450c0 ([UPD] pot files)
+=======
+"POT-Creation-Date: 2022-06-02 16:07+0000\n"
+"PO-Revision-Date: 2022-06-02 16:07+0000\n"
+>>>>>>> 0a2574d3cab (Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1249,6 +1254,7 @@ msgid ""
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,help:website.field_base_automation__website_published
 #: model:ir.model.fields,help:website.field_ir_actions_server__website_published
 #: model:ir.model.fields,help:website.field_ir_cron__website_published
 msgid ""
@@ -1279,6 +1285,11 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,help:website.field_website_snippet_filter__field_names
 msgid "A list of comma-separated field names"
+msgstr ""
+
+#. module: website
+#: model:website.configurator.feature,description:website.feature_module_stores_locator
+msgid "A map and a listing of your stores"
 msgstr ""
 
 #. module: website
@@ -1945,6 +1956,7 @@ msgid "Autoredirect Language"
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__website_published
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_published
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_published
 msgid "Available on the Website"
@@ -2336,6 +2348,11 @@ msgid "Cards"
 msgstr ""
 
 #. module: website
+#: model:website.configurator.feature,name:website.feature_module_career
+msgid "Career"
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
 msgid "Case Studies"
 msgstr ""
@@ -2403,6 +2420,11 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_chart_options
 msgid "Chart"
+msgstr ""
+
+#. module: website
+#: model:website.configurator.feature,description:website.feature_module_live_chat
+msgid "Chat with visitors to improve traction"
 msgstr ""
 
 #. module: website
@@ -3928,10 +3950,14 @@ msgstr ""
 
 #. module: website
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:website.configurator.feature,name:website.feature_module_event
 #: model_terms:ir.ui.view,arch_db:website.external_snippets
 =======
 >>>>>>> e1a96e450c0 ([UPD] pot files)
+=======
+#: model:website.configurator.feature,name:website.feature_module_event
+>>>>>>> 0a2574d3cab (Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website.s_facebook_page_options
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_big_icons_subtitles
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards
@@ -3989,6 +4015,7 @@ msgid "Extension View"
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__xml_id
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__xml_id
 #: model:ir.model.fields,field_description:website.field_ir_cron__xml_id
 #: model:ir.model.fields,field_description:website.field_website_page__xml_id
@@ -4359,6 +4386,7 @@ msgid ""
 msgstr ""
 
 #. module: website
+#: model:website.configurator.feature,name:website.feature_module_forum
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
 msgid "Forum"
 msgstr ""
@@ -4472,6 +4500,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_res_config_settings__social_github
 #: model:ir.model.fields,field_description:website.field_website__social_github
 msgid "GitHub Account"
+msgstr ""
+
+#. module: website
+#: model:website.configurator.feature,description:website.feature_module_forum
+msgid "Give visitors the information they need"
 msgstr ""
 
 #. module: website
@@ -4936,6 +4969,7 @@ msgid "ID"
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,help:website.field_base_automation__xml_id
 #: model:ir.model.fields,help:website.field_ir_actions_server__xml_id
 #: model:ir.model.fields,help:website.field_ir_cron__xml_id
 msgid "ID of the action if defined in a XML file"
@@ -5794,6 +5828,11 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Little Icons"
+msgstr ""
+
+#. module: website
+#: model:website.configurator.feature,name:website.feature_module_live_chat
+msgid "Live Chat"
 msgstr ""
 
 #. module: website
@@ -7190,6 +7229,16 @@ msgid "Publish"
 msgstr ""
 
 #. module: website
+#: model:website.configurator.feature,description:website.feature_module_career
+msgid "Publish job offers and let people apply"
+msgstr ""
+
+#. module: website
+#: model:website.configurator.feature,description:website.feature_module_event
+msgid "Publish on-site and online events"
+msgstr ""
+
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/backend/button.js:0
 #: code:addons/website/static/src/js/backend/button.js:0
@@ -7815,6 +7864,11 @@ msgid "Selection"
 msgstr ""
 
 #. module: website
+#: model:website.configurator.feature,description:website.feature_module_shop
+msgid "Sell more with an eCommerce"
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_form
 msgid "Send Email"
 msgstr ""
@@ -7909,6 +7963,11 @@ msgid "Share"
 msgstr ""
 
 #. module: website
+#: model:website.configurator.feature,description:website.feature_module_elearning
+msgid "Share knowledge publicly or for a fee"
+msgstr ""
+
+#. module: website
 #: model:website.configurator.feature,description:website.feature_module_success_stories
 msgid "Share your best case studies"
 msgstr ""
@@ -7916,6 +7975,11 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_menus_logos
 msgid "Shoes"
+msgstr ""
+
+#. module: website
+#: model:website.configurator.feature,name:website.feature_module_shop
+msgid "Shop"
 msgstr ""
 
 #. module: website
@@ -8267,6 +8331,11 @@ msgid "Storage"
 msgstr ""
 
 #. module: website
+#: model:website.configurator.feature,name:website.feature_module_stores_locator
+msgid "Stores Locator"
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
 msgid "Storytelling is powerful.<br/> It draws readers in and engages them."
 msgstr ""
@@ -8608,6 +8677,7 @@ msgid "The full URL to access the document through the website."
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,help:website.field_base_automation__website_url
 #: model:ir.model.fields,help:website.field_ir_actions_server__website_url
 #: model:ir.model.fields,help:website.field_ir_cron__website_url
 msgid "The full URL to access the server action through the website."
@@ -9882,6 +9952,7 @@ msgid "Website Pages"
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__website_path
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_path
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_path
 msgid "Website Path"
@@ -9936,6 +10007,7 @@ msgid "Website URL"
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_base_automation__website_url
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_url
 #: model:ir.model.fields,field_description:website.field_ir_cron__website_url
 msgid "Website Url"
@@ -10498,6 +10570,11 @@ msgstr ""
 #. module: website
 #: model:ir.ui.menu,name:website.menu_website_dashboard
 msgid "eCommerce Dashboard"
+msgstr ""
+
+#. module: website
+#: model:website.configurator.feature,name:website.feature_module_elearning
+msgid "eLearning"
 msgstr ""
 
 #. module: website

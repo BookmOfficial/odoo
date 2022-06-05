@@ -13,6 +13,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-04-15 22:01+0000\n"
 "PO-Revision-Date: 2022-04-15 22:01+0000\n"
 >>>>>>> f95942631c8 ([i18n} Updated pot files)
@@ -20,6 +21,10 @@ msgstr ""
 "POT-Creation-Date: 2022-05-22 20:02+0000\n"
 "PO-Revision-Date: 2022-05-22 20:02+0000\n"
 >>>>>>> e1a96e450c0 ([UPD] pot files)
+=======
+"POT-Creation-Date: 2022-06-02 14:42+0000\n"
+"PO-Revision-Date: 2022-06-02 14:42+0000\n"
+>>>>>>> 0a2574d3cab (Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -299,7 +304,6 @@ msgid "Advanced presence of employees"
 msgstr ""
 
 #. module: hr
-#: model:ir.model.fields,field_description:hr.field_crm_team__alias_contact
 #: model:ir.model.fields,field_description:hr.field_mail_alias__alias_contact
 #: model:ir.model.fields,field_description:hr.field_mail_channel__alias_contact
 msgid "Alias Contact Security"
@@ -1224,11 +1228,8 @@ msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_has_error
-#: model:ir.model.fields,help:hr.field_hr_department__message_has_sms_error
 #: model:ir.model.fields,help:hr.field_hr_employee__message_has_error
-#: model:ir.model.fields,help:hr.field_hr_employee__message_has_sms_error
 #: model:ir.model.fields,help:hr.field_hr_job__message_has_error
-#: model:ir.model.fields,help:hr.field_hr_job__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr ""
 
@@ -1774,7 +1775,6 @@ msgid "Plans"
 msgstr ""
 
 #. module: hr
-#: model:ir.model.fields,help:hr.field_crm_team__alias_contact
 #: model:ir.model.fields,help:hr.field_mail_alias__alias_contact
 #: model:ir.model.fields,help:hr.field_mail_channel__alias_contact
 msgid ""
@@ -1986,13 +1986,6 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__sinid
 msgid "SIN No"
-msgstr ""
-
-#. module: hr
-#: model:ir.model.fields,field_description:hr.field_hr_department__message_has_sms_error
-#: model:ir.model.fields,field_description:hr.field_hr_employee__message_has_sms_error
-#: model:ir.model.fields,field_description:hr.field_hr_job__message_has_sms_error
-msgid "SMS Delivery error"
 msgstr ""
 
 #. module: hr
@@ -2386,6 +2379,7 @@ msgstr ""
 #. module: hr
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:hr.field_hr_employee__member_of_department
 #: model:ir.model.fields,help:hr.field_hr_employee_base__member_of_department
 #: model:ir.model.fields,help:hr.field_hr_employee_public__member_of_department
@@ -2409,6 +2403,8 @@ msgstr ""
 
 #. module: hr
 >>>>>>> e1a96e450c0 ([UPD] pot files)
+=======
+>>>>>>> 0a2574d3cab (Updated pot files)
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__widower
 msgid "Widower"
 >>>>>>> f95942631c8 ([i18n} Updated pot files)

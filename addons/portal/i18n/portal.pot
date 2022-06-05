@@ -7,12 +7,17 @@ msgstr ""
 "Project-Id-Version: Odoo Server saas~15.1\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-12-07 10:47+0000\n"
 "PO-Revision-Date: 2021-12-07 10:47+0000\n"
 =======
 "POT-Creation-Date: 2022-04-15 23:07+0000\n"
 "PO-Revision-Date: 2022-04-15 23:07+0000\n"
 >>>>>>> f95942631c8 ([i18n} Updated pot files)
+=======
+"POT-Creation-Date: 2022-06-02 15:36+0000\n"
+"PO-Revision-Date: 2022-06-02 15:36+0000\n"
+>>>>>>> 0a2574d3cab (Updated pot files)
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,7 +126,7 @@ msgid ""
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
 "                        Click on the button below to pick a password and activate your account.\n"
 "                        <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
-"                            <a t-att-href=\"object.user_id.signup_url\" style=\"display: inline-block; padding: 10px; text-decoration: none; font-size: 12px; background-color: #875A7B; color: #fff; border-radius: 5px;\">\n"
+"                            <a t-att-href=\"object.user_id.signup_url\" style=\"display: inline-block; padding: 10px; text-decoration: none; font-size: 12px; background-color: #1E1E74; color: #fff; border-radius: 5px;\">\n"
 "                                <strong>Activate Account</strong>\n"
 "                            </a>\n"
 "                            <a href=\"/web/login\" style=\"display: inline-block; padding: 10px; text-decoration: none; font-size: 12px;\">\n"
@@ -534,6 +539,13 @@ msgid "Important:"
 msgstr ""
 
 #. module: portal
+#. openerp-web
+#: code:addons/portal/static/src/xml/portal_chatter.xml:0
+#, python-format
+msgid "Internal Note"
+msgstr ""
+
+#. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Internal User"
 msgstr ""
@@ -542,6 +554,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 #, python-format
+<<<<<<< HEAD
 msgid "Internal Note"
 msgstr ""
 
@@ -549,6 +562,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 #, python-format
+=======
+>>>>>>> 0a2574d3cab (Updated pot files)
 msgid "Internal notes are only displayed to internal users."
 msgstr ""
 
