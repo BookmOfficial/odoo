@@ -2,7 +2,7 @@
 <odoo><data>
 
 <!-- Channels home template -->
-<template id='courses_home' name="Odoo Courses Homepage">
+<template id='courses_home' name="Bookm Courses Homepage">
     <t t-set="body_classname" t-value="'o_wslides_body'"/>
     <t t-call="website.layout">
         <div id="wrap" class="wrap o_wslides_wrap">
@@ -166,7 +166,7 @@
 </template>
 
 <!-- Channel all/main template -->
-<template id='courses_all' name="Odoo All Courses">
+<template id='courses_all' name="Bookm All Courses">
     <t t-set="body_classname" t-value="'o_wslides_body'"/>
     <t t-call="website.layout">
         <div id="wrap" class="wrap o_wslides_wrap">
