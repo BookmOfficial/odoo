@@ -64,7 +64,7 @@ class PickingType(models.Model):
         help="If this checkbox is ticked, the pickings lines will represent detailed stock operations. If not, the picking lines will represent an aggregate of detailed stock operations.")
     show_reserved = fields.Boolean(
         'Pre-fill Detailed Operations', default=True,
-        help="If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+        help="If this checkbox is ticked, Bookm will automatically pre-fill the detailed "
         "operations with the corresponding products, locations and lot/serial numbers.")
     reservation_method = fields.Selection(
         [('at_confirm', 'At Confirmation'), ('manual', 'Manually'), ('by_date', 'Before scheduled date')],
