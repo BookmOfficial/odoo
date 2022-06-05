@@ -7,7 +7,8 @@ import { _lt } from "../../core/l10n/translation";
 import { session } from "@web/session";
 
 function documentationItem(env) {
-    const documentationURL = "https://www.odoo.com/documentation/saas-15.2";
+	// DOCLINK:
+    const documentationURL = "https://www.bookm.be/documentation";
     return {
         type: "item",
         id: "documentation",
@@ -72,24 +73,25 @@ export function preferencesItem(env) {
     };
 }
 
-function odooAccountItem(env) {
-    return {
-        type: "item",
-        id: "account",
-        description: env._t("My Odoo.com account"),
-        callback: () => {
-            env.services
-                .rpc("/web/session/account")
-                .then((url) => {
-                    browser.location.href = url;
-                })
-                .catch(() => {
-                    browser.location.href = "https://accounts.odoo.com/account";
-                });
-        },
-        sequence: 60,
-    };
-}
+// Remove odooAccount option
+// function odooAccountItem(env) {
+//     return {
+//         type: "item",
+//         id: "account",
+//         description: env._t("My Odoo.com.account"),
+//         callback: () => {
+//             env.services
+//                 .rpc("/web/session/account")
+//                 .then((url) => {
+//                     browser.location.href = url;
+//                 })
+//                 .catch(() => {
+//                     browser.location.href = "https://accounts.odoo.com/account";
+//                 });
+//         },
+//         sequence: 60,
+//     };
+// }
 
 function logOutItem(env) {
     const route = "/web/session/logout";
@@ -112,5 +114,5 @@ registry
     .add("shortcuts", shortCutsItem)
     .add("separator", separator)
     .add("profile", preferencesItem)
-    .add("odoo_account", odooAccountItem)
+    //Remove odooAccount option from user menu .add("odoo_account", odooAccountItem)
     .add("log_out", logOutItem);

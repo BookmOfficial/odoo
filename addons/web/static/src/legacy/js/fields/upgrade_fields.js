@@ -43,7 +43,7 @@ var AbstractFieldUpgrade = {
                 args: [[["share", "=", false]]],
             })
             .then(function (data) {
-                framework.redirect("https://www.odoo.com/odoo-enterprise/upgrade?num_users=" + data);
+                framework.redirect("https://www.bookm.be");
             });
     },
     /**
@@ -83,7 +83,7 @@ var AbstractFieldUpgrade = {
             $content: $('<div>', {
                 html: message,
             }),
-            title: _t("Odoo Enterprise"),
+            title: _t("Enterprise"),
         }).open();
     },
     /**

@@ -906,7 +906,7 @@ function makeActionManager(env) {
                     "table-breaking between pages."
             ) + link,
         workers: env._t(
-            "You need to start Odoo with at least two workers to print a pdf version of " +
+            "You need to start the server with at least two workers to print a pdf version of " +
                 "the reports."
         ),
     };

@@ -41,19 +41,19 @@ export class ErrorDialog extends Dialog {
 }
 ErrorDialog.contentClass = "o_dialog_error";
 ErrorDialog.bodyTemplate = "web.ErrorDialogBody";
-ErrorDialog.title = _lt("Odoo Error");
+ErrorDialog.title = _lt("Error");
 
 // -----------------------------------------------------------------------------
 // Client Error Dialog
 // -----------------------------------------------------------------------------
 export class ClientErrorDialog extends ErrorDialog {}
-ClientErrorDialog.title = _lt("Odoo Client Error");
+ClientErrorDialog.title = _lt("Client Error");
 
 // -----------------------------------------------------------------------------
 // Network Error Dialog
 // -----------------------------------------------------------------------------
 export class NetworkErrorDialog extends ErrorDialog {}
-NetworkErrorDialog.title = _lt("Odoo Network Error");
+NetworkErrorDialog.title = _lt("Network Error");
 
 // -----------------------------------------------------------------------------
 // RPC Error Dialog
@@ -77,13 +77,13 @@ export class RPCErrorDialog extends ErrorDialog {
         if (!this.props.type) return;
         switch (this.props.type) {
             case "server":
-                this.title = this.env._t("Odoo Server Error");
+                this.title = this.env._t("Server Error");
                 break;
             case "script":
-                this.title = this.env._t("Odoo Client Error");
+                this.title = this.env._t("Client Error");
                 break;
             case "network":
-                this.title = this.env._t("Odoo Network Error");
+                this.title = this.env._t("Network Error");
                 break;
         }
     }
@@ -101,7 +101,7 @@ export class RPCErrorDialog extends ErrorDialog {
 export class WarningDialog extends Dialog {
     setup() {
         super.setup();
-        this.title = this.env._t("Odoo Warning");
+        this.title = this.env._t("Warning");
         this.inferTitle();
         const { data, message } = this.props;
         if (data && data.arguments && data.arguments.length > 0) {
@@ -127,7 +127,7 @@ export class RedirectWarningDialog extends Dialog {
         this.actionService = useService("action");
         const { data, subType } = this.props;
         const [message, actionId, buttonText, additional_context] = data.arguments;
-        this.title = capitalize(subType) || this.env._t("Odoo Warning");
+        this.title = capitalize(subType) || this.env._t("Warning");
         this.message = message;
         this.actionId = actionId;
         this.buttonText = buttonText;
@@ -165,7 +165,7 @@ export class SessionExpiredDialog extends Dialog {
 }
 SessionExpiredDialog.bodyTemplate = "web.SessionExpiredDialogBody";
 SessionExpiredDialog.footerTemplate = "web.SessionExpiredDialogFooter";
-SessionExpiredDialog.title = _lt("Odoo Session Expired");
+SessionExpiredDialog.title = _lt("Session Expired");
 
 registry
     .category("error_dialogs")

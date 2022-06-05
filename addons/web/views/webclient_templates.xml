@@ -11,7 +11,7 @@
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <title t-esc="title or 'Odoo'"/>
+        <title t-esc="title or 'Bookm'"/>
         <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/img/favicon.ico'"/>
         <script id="web.layout.odooscript" type="text/javascript">
             var odoo = {
@@ -69,9 +69,11 @@
                                     <t t-call="web.debug_icon"/>
                                     <span class="o_footer_copyright_name mr-2">Copyright &amp;copy; <span t-field="res_company.name" itemprop="name">Company name</span></span>
                                 </div>
+                                <!-- Remove Odoo Brand Promotion
                                 <div class="col-sm text-center text-sm-right">
                                     <t t-call="web.brand_promotion"/>
-                                </div>
+                                </div> 
+                                -->
                             </div>
                         </div>
                     </div>
@@ -79,7 +81,8 @@
             </div>
         </xpath>
     </template>
-
+    
+    <!-- Remove Odoo Brand Promotion Templates
     <template id="brand_promotion_message" name="Brand Promotion Message">
         <t t-set="odoo_logo">
             <a target="_blank"
@@ -100,7 +103,8 @@
                 <t t-set="_utm_medium" t-valuef="portal"/>
             </t>
         </div>
-    </template>
+    </template> 
+    -->
 
     <template id="web.login_layout" name="Login Layout">
         <t t-call="web.frontend_layout">
@@ -116,12 +120,14 @@
                             <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}" alt="Logo" style="max-height:120px; max-width: 100%; width:auto"/>
                         </div>
                         <t t-out="0"/>
+                        <!-- Remove database manager from login + Powered by link
                         <div class="text-center small mt-4 pt-3 border-top" t-if="not disable_footer">
                             <t t-if="not disable_database_manager">
                                 <a class="border-right pr-2 mr-1" href="/web/database/manager">Manage Databases</a>
                             </t>
                             <a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Odoo</span></a>
                         </div>
+                         -->
                     </div>
                 </div>
             </div>
@@ -162,9 +168,11 @@
 
                 <div t-attf-class="clearfix oe_login_buttons text-center mb-1 {{'pt-2' if form_small else 'pt-3'}}">
                     <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                    <!-- Remove option to login as superuser from login
                     <t t-if="debug">
                         <button type="submit" name="redirect" value="/web/become" class="btn btn-link btn-sm btn-block">Log in as superuser</button>
-                    </t>
+                    </t> 
+                    -->
                     <div class="o_login_auth"/>
                 </div>
 
