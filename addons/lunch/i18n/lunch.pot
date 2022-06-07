@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-02-11 14:33+0000\n"
-"PO-Revision-Date: 2022-02-11 14:33+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 22:40+0000\n"
-"PO-Revision-Date: 2022-04-15 22:40+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 20:31+0000\n"
-"PO-Revision-Date: 2022-05-22 20:31+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 15:09+0000\n"
-"PO-Revision-Date: 2022-06-02 15:09+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 20:25+0000\n"
+"PO-Revision-Date: 2022-06-07 20:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -983,14 +968,11 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_res_company__lunch_minimum_threshold
 msgid "Lunch Minimum Threshold"
-<<<<<<< HEAD
 msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_res_company__lunch_notify_message
 msgid "Lunch Notify Message"
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: lunch
@@ -1011,7 +993,6 @@ msgstr ""
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_supplier
 msgid "Lunch Supplier"
-<<<<<<< HEAD
 msgstr ""
 
 #. module: lunch
@@ -1026,11 +1007,6 @@ msgid "Lunch notification message"
 msgstr ""
 
 #. module: lunch
-=======
-msgstr ""
-
-#. module: lunch
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.actions.server,name:lunch.lunch_order_action_cancel
 msgid "Lunch: Cancel meals"
 msgstr ""
@@ -1046,24 +1022,12 @@ msgid "Lunch: Send by email"
 msgstr ""
 
 #. module: lunch
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: model:ir.actions.server,name:lunch.lunch_order_action_notify
 msgid "Lunch: Send notifications"
 msgstr ""
 
 #. module: lunch
-#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_221
-=======
-#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_894
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_458
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_873
->>>>>>> 0a2574d3cab (Updated pot files)
+#: model:ir.actions.server,name:lunch.lunch_supplier_cron_sa_889
 msgid "Lunch: send automatic email to Lunch Supplier"
 msgstr ""
 
@@ -1533,23 +1497,11 @@ msgid "Responsible User"
 msgstr ""
 
 #. module: lunch
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0a2574d3cab (Updated pot files)
 #: model:ir.model.fields,field_description:lunch.field_lunch_supplier__message_has_sms_error
 msgid "SMS Delivery error"
 msgstr ""
 
 #. module: lunch
-<<<<<<< HEAD
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
->>>>>>> 0a2574d3cab (Updated pot files)
 #: model:lunch.product.category,name:lunch.categ_sandwich
 msgid "Sandwich"
 msgstr ""

@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-02-11 14:33+0000\n"
-"PO-Revision-Date: 2022-02-11 14:33+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 23:23+0000\n"
-"PO-Revision-Date: 2022-04-15 23:23+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 20:43+0000\n"
-"PO-Revision-Date: 2022-05-22 20:43+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 15:53+0000\n"
-"PO-Revision-Date: 2022-06-02 15:53+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 21:02+0000\n"
+"PO-Revision-Date: 2022-06-07 21:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1948,13 +1933,8 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-<<<<<<< HEAD
-"Define a minimum stock rule so that Odoo automatically creates requests for "
-"quotations or confirmed manufacturing orders to resupply your stock."
-=======
-"Define a minimum stock rule so that Bookm creates automatically requests for"
+"Define a minimum stock rule so that Bookm automatically creates requests for"
 " quotations or confirmed manufacturing orders to resupply your stock."
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: stock
@@ -3062,7 +3042,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_show_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically show the reception "
+"If this checkbox is ticked, Bookm will automatically show the reception "
 "report (if there are moves to allocate to) when validating."
 msgstr ""
 
@@ -6393,14 +6373,11 @@ msgid "SMS Delivery error"
 msgstr ""
 
 #. module: stock
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode_small
 msgid "SSCC:"
 msgstr ""
 
 #. module: stock
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/stock/static/src/xml/stock_orderpoint.xml:0
 #, python-format
@@ -7362,16 +7339,7 @@ msgid "The barcode for a location must be unique per company !"
 msgstr ""
 
 #. module: stock
-<<<<<<< HEAD
 #: code:addons/stock/models/stock_lot.py:0
-=======
-#: model:ir.model.constraint,message:stock.constraint_stock_warehouse_orderpoint_product_location_check
-msgid "The combination of product and location must be unique."
-msgstr ""
-
-#. module: stock
-#: code:addons/stock/models/stock_production_lot.py:0
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #, python-format
 msgid ""
 "The combination of serial number and product must be unique across a company.\n"
@@ -7563,6 +7531,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.duplicated_sn_warning
 msgid "This SN is already in another location."
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:0
@@ -7745,7 +7714,6 @@ msgid "This will discard all unapplied counts, do you want to proceed?"
 msgstr ""
 
 #. module: stock
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
 msgid ""
 "Those products you added are tracked but lots/serials were not defined. Once applied those can't be changed.<br/>\n"
@@ -7753,14 +7721,6 @@ msgid ""
 msgstr ""
 
 #. module: stock
-#: model:digest.tip,name:stock.digest_tip_stock_0
-#: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
-msgid "Tip: Speed up inventory operations with barcodes"
-msgstr ""
-
-#. module: stock
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__location_dest_id
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__location_dest_id
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -8030,10 +7990,7 @@ msgstr ""
 #. module: stock
 #. openerp-web
 #: code:addons/stock/static/src/js/report_stock_reception.js:0
-<<<<<<< HEAD
-=======
 #: code:addons/stock/static/src/js/report_stock_reception.js:0
->>>>>>> e1a96e450c0 ([UPD] pot files)
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 #, python-format
 msgid "Unassign"
@@ -8909,21 +8866,6 @@ msgid "You need to supply a Lot/Serial number for products %s."
 msgstr ""
 
 #. module: stock
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-#: code:addons/stock/models/stock_picking.py:0
-#, python-format
-msgid ""
-"You should not use a planned internal transfer to move some products between"
-" two warehouses. Instead, use an immediate internal transfer or the resupply"
-" route."
-msgstr ""
-
-#. module: stock
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
->>>>>>> e1a96e450c0 ([UPD] pot files)
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "You still have ongoing operations for picking types %s in warehouse %s"
@@ -8952,6 +8894,12 @@ msgid ""
 msgstr ""
 
 #. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid "Your stock is currently empty"
+msgstr ""
+
+#. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__lot_label_layout__print_format__zpl
 #: model:ir.model.fields.selection,name:stock.selection__product_label_layout__print_format__zpl
 msgid "ZPL Labels"
@@ -8960,12 +8908,6 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_label_layout__print_format__zplxprice
 msgid "ZPL Labels with price"
-msgstr ""
-
-#. module: stock
-#: code:addons/stock/models/stock_quant.py:0
-#, python-format
-msgid "Your stock is currently empty"
 msgstr ""
 
 #. module: stock

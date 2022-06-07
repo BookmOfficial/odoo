@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-04-19 09:19+0000\n"
-"PO-Revision-Date: 2022-04-19 09:19+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 21:32+0000\n"
-"PO-Revision-Date: 2022-04-15 21:32+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 19:49+0000\n"
-"PO-Revision-Date: 2022-05-22 19:49+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 14:37+0000\n"
-"PO-Revision-Date: 2022-06-02 14:37+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 19:57+0000\n"
+"PO-Revision-Date: 2022-06-07 19:57+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -265,14 +250,11 @@ msgid ""
 msgstr ""
 
 #. module: crm
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "<span>into this one.</span>"
 msgstr ""
 
 #. module: crm
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
 msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
@@ -1201,7 +1183,6 @@ msgid "Email cc"
 msgstr ""
 
 #. module: crm
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Email cc:"
 msgstr ""
@@ -1212,8 +1193,6 @@ msgid "Email:"
 msgstr ""
 
 #. module: crm
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
 msgid "Enrich all leads automatically"
 msgstr ""
@@ -1233,14 +1212,6 @@ msgstr ""
 msgid ""
 "Enrich your leads automatically with company data based on their email "
 "address."
-<<<<<<< HEAD
-msgstr ""
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Enrich your leads with company data based on their email addresses"
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: crm
@@ -3602,14 +3573,11 @@ msgid "Weeks"
 msgstr ""
 
 #. module: crm
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "What went wrong ?"
 msgstr ""
 
 #. module: crm
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: code:addons/crm/models/crm_lead.py:0 model:crm.stage,name:crm.stage_lead4
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form

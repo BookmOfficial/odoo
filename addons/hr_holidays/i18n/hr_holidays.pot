@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-04-19 09:19+0000\n"
-"PO-Revision-Date: 2022-04-19 09:19+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 22:02+0000\n"
-"PO-Revision-Date: 2022-04-15 22:02+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 20:03+0000\n"
-"PO-Revision-Date: 2022-05-22 20:03+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 14:43+0000\n"
-"PO-Revision-Date: 2022-06-02 14:43+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 20:03+0000\n"
+"PO-Revision-Date: 2022-06-07 20:03+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3366,7 +3351,7 @@ msgid "The time off has been automatically approved"
 msgstr ""
 
 #. module: hr_holidays
-#: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
+#: code:addons/hr_holidays/models/hr_leave.py:0
 #, python-format
 msgid "The time off has been canceled: %s"
 msgstr ""
@@ -3429,7 +3414,7 @@ msgid "This modification is not allowed in the current state."
 msgstr ""
 
 #. module: hr_holidays
-#: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
+#: code:addons/hr_holidays/models/hr_leave.py:0
 #, python-format
 msgid "This time off cannot be canceled."
 msgstr ""
@@ -4043,7 +4028,7 @@ msgstr ""
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #, python-format
-msgid "You can't manually archive a time off."
+msgid "You can't manually archive/unarchive a time off."
 msgstr ""
 
 #. module: hr_holidays
@@ -4075,12 +4060,6 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #, python-format
 msgid "You cannot delete an allocation request which is in %s state."
-msgstr ""
-
-#. module: hr_holidays
-#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
-#, python-format
-msgid "You cannot delete an allocation request which has some validated leaves."
 msgstr ""
 
 #. module: hr_holidays
@@ -4182,14 +4161,11 @@ msgid "available"
 msgstr ""
 
 #. module: hr_holidays
-<<<<<<< HEAD
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_available_holidays_report_tree
 msgid "by Employee"
 msgstr ""
 
 #. module: hr_holidays
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_summary_all
 msgid "by Type"
 msgstr ""
@@ -4213,11 +4189,8 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
-<<<<<<< HEAD
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_activity
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_activity
@@ -4242,11 +4215,8 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
-<<<<<<< HEAD
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #, python-format
 msgid "hours"
 msgstr ""

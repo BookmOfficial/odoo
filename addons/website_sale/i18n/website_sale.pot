@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-02-11 14:33+0000\n"
-"PO-Revision-Date: 2022-02-11 14:33+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 23:58+0000\n"
-"PO-Revision-Date: 2022-04-15 23:58+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 21:02+0000\n"
-"PO-Revision-Date: 2022-05-22 21:02+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 16:17+0000\n"
-"PO-Revision-Date: 2022-06-02 16:17+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 21:22+0000\n"
+"PO-Revision-Date: 2022-06-07 21:22+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -67,7 +52,6 @@ msgid "'. Showing results for '"
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.products_categories
 msgid "<b>Categories</b>"
 msgstr ""
@@ -80,10 +64,6 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.filter_products_price
 msgid "<b>Price Range</b>"
-=======
-#: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
-msgid "<b>Communication: </b>"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_sale
@@ -372,12 +352,7 @@ msgstr ""
 #. module: website_sale
 #: model:mail.template,body_html:website_sale.mail_template_sale_cart_recovery
 msgid ""
-<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 0px; background-color: white; color: #454748; border-collapse:separate;\">\n"
-=======
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; padding-bottom: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 "<tbody>\n"
 "    <!-- CONTENT -->\n"
 "    <tr>\n"
@@ -418,11 +393,6 @@ msgid ""
 "    </tr>\n"
 "</tbody>\n"
 "</table>\n"
-<<<<<<< HEAD
-=======
-"</td></tr>\n"
-"</table>\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 "            "
 msgstr ""
 
@@ -502,11 +472,6 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
 msgid "Acceptable file size"
-msgstr ""
-
-#. module: website_sale
-#: model:website.snippet.filter,name:website_sale.dynamic_filter_cross_selling_accessories
-msgid "Accessories for Product"
 msgstr ""
 
 #. module: website_sale
@@ -929,39 +894,6 @@ msgid "Company Name"
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Compute shipping cost and ship with Easypost"
-msgstr ""
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with DHL"
-msgstr ""
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with FedEx"
-msgstr ""
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with UPS"
-msgstr ""
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with USPS"
-msgstr ""
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Compute shipping costs and ship with bpost"
-msgstr ""
-
-#. module: website_sale
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs on orders"
 msgstr ""
@@ -1085,12 +1017,6 @@ msgid "Customers"
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "DHL Express Connector"
-msgstr ""
-
-#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Default"
 msgstr ""
@@ -1101,8 +1027,6 @@ msgid "Default (1/1)"
 msgstr ""
 
 #. module: website_sale
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:website_sale.field_website__currency_id
 msgid "Default Currency"
 msgstr ""
@@ -1166,14 +1090,11 @@ msgid "Description for the website"
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Design"
 msgstr ""
 
 #. module: website_sale
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,help:website_sale.field_product_product__website_sequence
 #: model:ir.model.fields,help:website_sale.field_product_template__website_sequence
 msgid "Determine the display order in the Website E-commerce"
@@ -1277,14 +1198,6 @@ msgid "E-commerce Promotional Code"
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Easypost"
-msgstr ""
-
-#. module: website_sale
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Edit"
@@ -1366,16 +1279,6 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_product_view_form_easy_inherit_website_sale
 msgid "Extra Variant Media"
-msgstr ""
-
-#. module: website_sale
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "FedEx"
-=======
-#: model_terms:ir.ui.view,arch_db:website_sale.sort
-msgid "Featured"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_sale
@@ -1579,14 +1482,11 @@ msgid "Lamp"
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Landscape (4/3)"
 msgstr ""
 
 #. module: website_sale
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:website_sale.field_product_image____last_update
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category____last_update
 #: model:ir.model.fields,field_description:website_sale.field_product_ribbon____last_update
@@ -1718,14 +1618,11 @@ msgid "Method"
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_delivery
 msgid "Module Website Sale Delivery"
 msgstr ""
 
 #. module: website_sale
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale.js:0
 #: model_terms:ir.ui.view,arch_db:website_sale.header_cart_link
@@ -1739,9 +1636,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_website_base_unit__name
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 #: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_view_tree
-#: model_terms:ir.ui.view,arch_db:website_sale.sort
-#: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_view_tree
-#, python-format
 msgid "Name"
 msgstr ""
 
@@ -1765,7 +1659,6 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.filters,name:website_sale.dynamic_snippet_newest_products_filter
-#: model:website.snippet.filter,name:website_sale.dynamic_filter_newest_products
 msgid "Newest Products"
 msgstr ""
 
@@ -1903,20 +1796,12 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-<<<<<<< HEAD
 #: code:addons/website_sale/models/res_partner.py:0
 #, python-format
 msgid "Open Sale Orders"
 msgstr ""
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
-msgstr ""
-
-#. module: website_sale
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 #, python-format
@@ -2353,11 +2238,6 @@ msgid "Products Recently Sold With"
 msgstr ""
 
 #. module: website_sale
-#: model:website.snippet.filter,name:website_sale.dynamic_filter_cross_selling_recently_sold_with
-msgid "Products Recently Sold With Product"
-msgstr ""
-
-#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_view_tree
 msgid "Products Ribbon"
 msgstr ""
@@ -2481,13 +2361,11 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.dynamic_snippet_latest_sold_products_action
-#: model:website.snippet.filter,name:website_sale.dynamic_filter_latest_sold_products
 msgid "Recently Sold Products"
 msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.dynamic_snippet_latest_viewed_products_action
-#: model:website.snippet.filter,name:website_sale.dynamic_filter_latest_viewed_products
 msgid "Recently Viewed Products"
 msgstr ""
 
@@ -2978,6 +2856,14 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "Thank you for your order."
+msgstr ""
+
+#. module: website_sale
+#: code:addons/website_sale/models/sale_order.py:0
+#, python-format
+msgid ""
+"The company of the website you are trying to sale from (%s) is different "
+"than the one you want to use (%s)"
 msgstr ""
 
 #. module: website_sale

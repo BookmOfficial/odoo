@@ -4,25 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~15.1\n"
+"Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2021-12-07 10:47+0000\n"
-"PO-Revision-Date: 2021-12-07 10:47+0000\n"
-=======
-"POT-Creation-Date: 2022-04-16 00:02+0000\n"
-"PO-Revision-Date: 2022-04-16 00:02+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 21:05+0000\n"
-"PO-Revision-Date: 2022-05-22 21:05+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 16:21+0000\n"
-"PO-Revision-Date: 2022-06-02 16:21+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 21:25+0000\n"
+"PO-Revision-Date: 2022-06-07 21:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -150,7 +135,6 @@ msgid "Add a new certification"
 msgstr ""
 
 #. module: website_slides_survey
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__is_preview
 msgid "Allow Preview"
 msgstr ""
@@ -168,8 +152,6 @@ msgid "Avg Score (%)"
 msgstr ""
 
 #. module: website_slides_survey
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "Begin Certification"
 msgstr ""
@@ -275,14 +257,11 @@ msgid "Courses Count"
 msgstr ""
 
 #. module: website_slides_survey
-<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:website_slides_survey.survey_survey_action_slides
 msgid "Create a Certification"
 msgstr ""
 
 #. module: website_slides_survey
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides_survey/static/src/xml/website_slides_fullscreen.xml:0
 #: code:addons/website_slides_survey/static/src/xml/website_slides_fullscreen.xml:0
@@ -313,14 +292,11 @@ msgid "How to upload a certification on your course?"
 msgstr ""
 
 #. module: website_slides_survey
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.res_config_settings_view_form
 msgid "Manage Certifications"
 msgstr ""
 
 #. module: website_slides_survey
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "No certifications yet!"
 msgstr ""
@@ -351,14 +327,11 @@ msgstr ""
 #. module: website_slides_survey
 #: model:ir.model,name:website_slides_survey.model_slide_slide_partner
 msgid "Slide / Partner decorated m2m"
-<<<<<<< HEAD
 msgstr ""
 
 #. module: website_slides_survey
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__slide_type
 msgid "Slide Type"
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides_survey
@@ -407,7 +380,6 @@ msgid "Test Certification"
 msgstr ""
 
 #. module: website_slides_survey
-<<<<<<< HEAD
 #: code:addons/website_slides_survey/models/survey_survey.py:0
 #, python-format
 msgid ""
@@ -417,9 +389,6 @@ msgstr ""
 
 #. module: website_slides_survey
 #: model:ir.model.fields,help:website_slides_survey.field_slide_slide__is_preview
-=======
-#: model:ir.model.fields,help:website_slides_survey.field_survey_survey__slide_channel_ids
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgid ""
 "The course is accessible by anyone : the users don't need to join the "
 "channel to access the content of the course."
@@ -442,14 +411,6 @@ msgid "The slides this survey is linked to through the e-learning application"
 msgstr ""
 
 #. module: website_slides_survey
-<<<<<<< HEAD
-=======
-#: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__slide_type
-msgid "Type"
-msgstr ""
-
-#. module: website_slides_survey
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: code:addons/website_slides_survey/controllers/slides.py:0
 #, python-format
 msgid "You are not allowed to create a survey."

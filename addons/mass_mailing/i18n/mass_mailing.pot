@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-04-19 09:19+0000\n"
-"PO-Revision-Date: 2022-04-19 09:19+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 22:49+0000\n"
-"PO-Revision-Date: 2022-04-15 22:49+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 20:36+0000\n"
-"PO-Revision-Date: 2022-05-22 20:36+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 15:18+0000\n"
-"PO-Revision-Date: 2022-06-02 15:18+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 20:33+0000\n"
+"PO-Revision-Date: 2022-06-07 20:33+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -135,14 +120,6 @@ msgid "800px"
 msgstr ""
 
 #. module: mass_mailing
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo."
-msgstr ""
-
-#. module: mass_mailing
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_alert
 msgid ""
 "<b>Explain the benefits you offer</b>\n"
@@ -952,7 +929,6 @@ msgid "Body converted to be sent by mail"
 msgstr ""
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid ""
 "Bookm has allowed us to offer you hundreds of apps in just a few years."
@@ -1210,19 +1186,6 @@ msgid ""
 msgstr ""
 
 #. module: mass_mailing
-<<<<<<< HEAD
-=======
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
-msgid "Column Title"
-msgstr ""
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_two_cols
-msgid "Column title"
-msgstr ""
-
-#. module: mass_mailing
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "Columns"
 msgstr ""
@@ -1341,7 +1304,6 @@ msgid "Create"
 msgstr ""
 
 #. module: mass_mailing
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/mass_mailing/static/src/xml/mailing_filter_widget.xml:0
 #, python-format
@@ -1349,13 +1311,6 @@ msgid "Create Favorite Filter"
 msgstr ""
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Create a"
-msgstr ""
-
-#. module: mass_mailing
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid "Create a Mailing"
 msgstr ""
@@ -1439,13 +1394,6 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_event
 msgid "Cybersecurity"
-msgstr ""
-
-#. module: mass_mailing
-#. openerp-web
-#: code:addons/mass_mailing/static/src/js/mass_mailing_widget.js:0
-#, python-format
-msgid "DRAG BUILDING BLOCKS HERE"
 msgstr ""
 
 #. module: mass_mailing
@@ -3838,29 +3786,10 @@ msgid "The filter domain is not valid for this recipients."
 msgstr ""
 
 #. module: mass_mailing
-<<<<<<< HEAD
 #: model:ir.model.fields,help:mass_mailing.field_mailing_list__is_public
 msgid ""
 "The mailing list can be accessible by recipient in the unsubscription page "
 "to allows him to update his subscription preferences."
-msgstr ""
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
-msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
-"                    business experts to build hundreds of apps in just a few years."
-msgstr ""
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
-=======
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-msgid ""
-"The open source model of Bookm has allowed us to leverage thousands of "
-"developers and business experts to build hundreds of apps in just a few "
-"years."
 msgstr ""
 
 #. module: mass_mailing
@@ -4139,16 +4068,6 @@ msgid "Update my subscriptions"
 msgstr ""
 
 #. module: mass_mailing
-<<<<<<< HEAD
-=======
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid ""
-"Usability improvements made on Bookm will automatically apply to all\n"
-"                                of our fully integrated apps."
-msgstr ""
-
-#. module: mass_mailing
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
 "Usability improvements made on Bookm will automatically apply to all\n"
@@ -4335,16 +4254,6 @@ msgid "Winner Selection"
 msgstr ""
 
 #. module: mass_mailing
-<<<<<<< HEAD
-=======
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid ""
-"With strong technical foundations, Bookm's framework is unique.\n"
-"                                It provides top notch usability that scales across all apps."
-msgstr ""
-
-#. module: mass_mailing
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
 "With strong technical foundations, Bookm's framework is unique.\n"

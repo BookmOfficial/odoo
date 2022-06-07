@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 14:51+0000\n"
-"PO-Revision-Date: 2022-06-02 14:51+0000\n"
+"POT-Creation-Date: 2022-06-07 20:10+0000\n"
+"PO-Revision-Date: 2022-06-07 20:10+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,10 +21,6 @@ msgid "2 digits code use by Datev"
 msgstr ""
 
 #. module: l10n_de
-<<<<<<< HEAD
-#: code:addons/l10n_de/models/datev.py:0
-#, python-format
-=======
 #: model:account.tax.report.line,tag_name:l10n_de.tax_report_de_tag_21
 msgid "21"
 msgstr ""
@@ -552,47 +548,6 @@ msgid "98. zu anderen Steuersatzen (zeile 35)"
 msgstr ""
 
 #. module: l10n_de
-#: model_terms:ir.ui.view,arch_db:l10n_de.din5008_css
-msgid ""
-";\n"
-"                                    }\n"
-"                                }\n"
-"                            }\n"
-"                            h2 {\n"
-"                                color:"
-msgstr ""
-
-#. module: l10n_de
-#: model_terms:ir.ui.view,arch_db:l10n_de.din5008_css
-msgid ""
-";\n"
-"                                }\n"
-"                            }\n"
-"                        }\n"
-"                        &amp;.invoice_note {\n"
-"                            td {\n"
-"                                .address {\n"
-"                                    &gt; span {\n"
-"                                        color:"
-msgstr ""
-
-#. module: l10n_de
-#: model_terms:ir.ui.view,arch_db:l10n_de.din5008_css
-msgid ""
-";\n"
-"                            }\n"
-"                            .page {\n"
-"                                [name=invoice_line_table], [name=stock_move_table], .o_main_table {\n"
-"                                    th {\n"
-"                                        color:"
-msgstr ""
-
-#. module: l10n_de
-#: model_terms:ir.ui.view,arch_db:l10n_de.external_layout_din5008
-msgid "<span>|</span>"
-msgstr ""
-
-#. module: l10n_de
 #: model:account.tax.report.line,name:l10n_de.tax_report_de_tax_tag_55
 msgid "Abziehbare Vorsteuerbetrage (zeile 55)"
 msgstr ""
@@ -612,23 +567,8 @@ msgid "Account Chart Template"
 msgstr ""
 
 #. module: l10n_de
-#: model:ir.model,name:l10n_de.model_account_analytic_line
-msgid "Analytic Line"
-msgstr ""
-
-#. module: l10n_de
 #: model:account.tax.report.line,name:l10n_de.tax_report_de_tax_tag_64
 msgid "Andere Steuerbetrage (zeile 64)"
-msgstr ""
-
-#. module: l10n_de
-#: model_terms:ir.ui.view,arch_db:l10n_de.external_layout_din5008
-msgid "BIC:"
-msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__bank_ids
-msgid "Banks"
 msgstr ""
 
 #. module: l10n_de
@@ -805,7 +745,6 @@ msgstr ""
 
 #. module: l10n_de
 #: model:account.account.tag,name:l10n_de.tag_de_liabilities_bs_A_III_2
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgid ""
 "Bilanz-Passiva: A III 2-Rücklage für Anteile an einem herrschenden oder "
 "mehrheitlich beteiligten Unternehmen"
@@ -817,10 +756,6 @@ msgid "Bilanz-Passiva: A III 3-Satzungsmäßige Rücklagen"
 msgstr ""
 
 #. module: l10n_de
-<<<<<<< HEAD
-#: model:ir.model,name:l10n_de.model_res_company
-msgid "Companies"
-=======
 #: model:account.account.tag,name:l10n_de.tag_de_liabilities_bs_A_III_4
 msgid "Bilanz-Passiva: A III 4-Andere Gewinnrücklagen"
 msgstr ""
@@ -915,54 +850,13 @@ msgid "Bilanz-Passiva: F-Passive latente Steuern"
 msgstr ""
 
 #. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#, python-format
-msgid "Cancelled Invoice"
-msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__city
-msgid "City"
-msgstr ""
-
-#. module: l10n_de
 #: model:ir.model,name:l10n_de.model_res_company
 msgid "Companies"
 msgstr ""
 
 #. module: l10n_de
-#: model:ir.model,name:l10n_de.model_base_document_layout
-msgid "Company Document Layout"
-msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__company_registry
-msgid "Company Registry"
-msgstr ""
-
-#. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#, python-format
-msgid "Credit Note"
-msgstr ""
-
-#. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#, python-format
-msgid "Draft Invoice"
-msgstr ""
-
-#. module: l10n_de
 #: model:account.account.tag,name:l10n_de.tag_de_intracom_ABC
 msgid "Dreiecksgeschäfte"
-msgstr ""
-
-#. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#: code:addons/l10n_de/models/base_document_layout.py:0
-#, python-format
-msgid "Due Date"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: l10n_de
@@ -973,11 +867,6 @@ msgstr ""
 #. module: l10n_de
 #: model:account.tax.report.line,name:l10n_de.tax_report_de_tag_37
 msgid "Ergänzende Angaben zu Umsätzen (zeile 37)"
-msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__account_fiscal_country_id
-msgid "Fiscal Country"
 msgstr ""
 
 #. module: l10n_de
@@ -1097,21 +986,9 @@ msgid "Germany"
 msgstr ""
 
 #. module: l10n_de
-<<<<<<< HEAD
-=======
-#: model_terms:ir.ui.view,arch_db:l10n_de.external_layout_din5008
-msgid "HRB Nr:"
-msgstr ""
-
-#. module: l10n_de
 #: model:account.tax.report.line,name:l10n_de.tax_report_de_tag_17
 #: model:account.tax.report.line,name:l10n_de.tax_report_de_tax_tag_17
 msgid "I. Anmeldung der Umsatzsteuer-Vorauszahlung (zeile 17)"
-msgstr ""
-
-#. module: l10n_de
-#: model_terms:ir.ui.view,arch_db:l10n_de.external_layout_din5008
-msgid "IBAN:"
 msgstr ""
 
 #. module: l10n_de
@@ -1126,28 +1003,6 @@ msgid "Innergemeinschaftliche Lieferung"
 msgstr ""
 
 #. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#: code:addons/l10n_de/models/base_document_layout.py:0
-#, python-format
-msgid "Invoice"
-msgstr ""
-
-#. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#: code:addons/l10n_de/models/base_document_layout.py:0
-#, python-format
-msgid "Invoice Date"
-msgstr ""
-
-#. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#: code:addons/l10n_de/models/base_document_layout.py:0
-#, python-format
-msgid "Invoice No."
-msgstr ""
-
-#. module: l10n_de
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model,name:l10n_de.model_account_move
 msgid "Journal Entry"
 msgstr ""
@@ -1156,26 +1011,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_de.field_account_tax__l10n_de_datev_code
 #: model:ir.model.fields,field_description:l10n_de.field_account_tax_template__l10n_de_datev_code
 msgid "L10N De Datev Code"
-msgstr ""
-
-#. module: l10n_de
-<<<<<<< HEAD
-=======
-#: model:ir.model.fields,field_description:l10n_de.field_account_analytic_line__l10n_de_document_title
-#: model:ir.model.fields,field_description:l10n_de.field_account_bank_statement_line__l10n_de_document_title
-#: model:ir.model.fields,field_description:l10n_de.field_account_move__l10n_de_document_title
-#: model:ir.model.fields,field_description:l10n_de.field_account_payment__l10n_de_document_title
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__l10n_de_document_title
-msgid "L10N De Document Title"
-msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,field_description:l10n_de.field_account_analytic_line__l10n_de_template_data
-#: model:ir.model.fields,field_description:l10n_de.field_account_bank_statement_line__l10n_de_template_data
-#: model:ir.model.fields,field_description:l10n_de.field_account_move__l10n_de_template_data
-#: model:ir.model.fields,field_description:l10n_de.field_account_payment__l10n_de_template_data
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__l10n_de_template_data
-msgid "L10N De Template Data"
 msgstr ""
 
 #. module: l10n_de
@@ -1195,12 +1030,6 @@ msgid "Lieferungen und sonstige Leistungen (zeile 18)"
 msgstr ""
 
 #. module: l10n_de
-#: model_terms:ir.ui.view,arch_db:l10n_de.external_layout_din5008
-msgid "Page: <span class=\"page\"/> of <span class=\"topage\"/>"
-msgstr ""
-
-#. module: l10n_de
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model,name:l10n_de.model_product_template
 msgid "Product Template"
 msgstr ""
@@ -1211,18 +1040,8 @@ msgid "Report Action"
 msgstr ""
 
 #. module: l10n_de
-<<<<<<< HEAD
-#: model:ir.model.fields,field_description:l10n_de.field_res_company__l10n_de_stnr
-msgid "St.-Nr."
-=======
 #: model:account.account.tag,name:l10n_de.tag_de_intracom_community_supplies
 msgid "Sonstige Leistungen"
-msgstr ""
-
-#. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#, python-format
-msgid "Source"
 msgstr ""
 
 #. module: l10n_de
@@ -1253,21 +1072,13 @@ msgid "Steuerpflichtige Umsätze (zeile 25)"
 msgstr ""
 
 #. module: l10n_de
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__street
-msgid "Street"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,help:l10n_de.field_res_company__l10n_de_stnr
-msgid ""
-"Steuernummer. Scheme: ??FF0BBBUUUUP, e.g.: 2893081508152 "
-"https://de.wikipedia.org/wiki/Steuernummer"
-msgstr ""
-
-#. module: l10n_de
 #: model:ir.model,name:l10n_de.model_account_tax
 msgid "Tax"
+msgstr ""
+
+#. module: l10n_de
+#: model:account.tax.report,name:l10n_de.tax_report
+msgid "Tax Report"
 msgstr ""
 
 #. module: l10n_de
@@ -1276,38 +1087,11 @@ msgid "Templates for Taxes"
 msgstr ""
 
 #. module: l10n_de
-<<<<<<< HEAD
-#: model:ir.model.fields,field_description:l10n_de.field_res_company__l10n_de_widnr
-msgid "W-IdNr."
-msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,help:l10n_de.field_res_company__l10n_de_widnr
-msgid "Wirtschafts-Identifikationsnummer."
-msgstr ""
-=======
-#: model:ir.model.fields,help:l10n_de.field_base_document_layout__account_fiscal_country_id
-msgid "The country to use the tax reports from for this company"
-msgstr ""
-
-#. module: l10n_de
 #: model:account.tax.report.line,name:l10n_de.tax_report_de_tax_tag_66
 msgid "Umsatzsteuer-Vorauszahlung/Uberschuss (zeile 66)"
 msgstr ""
 
 #. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#, python-format
-msgid "Vendor Bill"
-msgstr ""
-
-#. module: l10n_de
-#: code:addons/l10n_de/models/account_move.py:0
-#, python-format
-msgid "Vendor Credit Note"
-msgstr ""
-
-#. module: l10n_de
 #: model:ir.model.fields,field_description:l10n_de.field_res_company__l10n_de_widnr
 msgid "W-IdNr."
 msgstr ""
@@ -1316,9 +1100,3 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_de.field_res_company__l10n_de_widnr
 msgid "Wirtschafts-Identifikationsnummer."
 msgstr ""
-
-#. module: l10n_de
-#: model:ir.model.fields,field_description:l10n_de.field_base_document_layout__zip
-msgid "Zip"
-msgstr ""
->>>>>>> f95942631c8 ([i18n} Updated pot files)

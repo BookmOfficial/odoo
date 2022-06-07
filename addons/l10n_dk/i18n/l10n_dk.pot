@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 14:52+0000\n"
-"PO-Revision-Date: 2022-06-02 14:52+0000\n"
+"POT-Creation-Date: 2022-06-07 20:12+0000\n"
+"PO-Revision-Date: 2022-06-07 20:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -58,11 +58,6 @@ msgstr ""
 #. module: l10n_dk
 #: model:account.account.template,name:l10n_dk.a3655
 msgid "ATP-bidrag"
-msgstr ""
-
-#. module: l10n_dk
-#: model:ir.model,name:l10n_dk.model_account_chart_template
-msgid "Account Chart Template"
 msgstr ""
 
 #. module: l10n_dk
@@ -1374,6 +1369,11 @@ msgstr ""
 #. module: l10n_dk
 #: model:account.tax.report.line,tag_name:l10n_dk.account_tax_report_line_deduction_water_tax
 msgid "VA"
+msgstr ""
+
+#. module: l10n_dk
+#: model:account.tax.report,name:l10n_dk.account_tax_report_skat_dk
+msgid "VAT Report"
 msgstr ""
 
 #. module: l10n_dk

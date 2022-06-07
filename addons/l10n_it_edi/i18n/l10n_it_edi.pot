@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 14:59+0000\n"
-"PO-Revision-Date: 2022-06-02 14:59+0000\n"
+"POT-Creation-Date: 2022-06-07 20:18+0000\n"
+"PO-Revision-Date: 2022-06-07 20:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -303,6 +303,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_it_edi.field_account_move__l10n_it_einvoice_id
 #: model:ir.model.fields,field_description:l10n_it_edi.field_account_payment__l10n_it_einvoice_id
 msgid "Electronic invoice"
+msgstr ""
+
+#. module: l10n_it_edi
+#: model:ir.model,name:l10n_it_edi.model_mail_template
+msgid "Email Templates"
 msgstr ""
 
 #. module: l10n_it_edi

@@ -6,18 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-02-11 14:34+0000\n"
-"PO-Revision-Date: 2022-02-11 14:34+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 23:16+0000\n"
-"PO-Revision-Date: 2022-04-15 23:16+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-06-02 15:46+0000\n"
-"PO-Revision-Date: 2022-06-02 15:46+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 20:56+0000\n"
+"PO-Revision-Date: 2022-06-07 20:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -784,13 +774,8 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
-<<<<<<< HEAD
-"As an example, if you sell pre-paid hours of services, Odoo recommends you\n"
-"            to sell extra hours when all ordered hours have been consumed."
-=======
 "As an example, if you sell pre-paid hours of services, Bookm recommends you\n"
-"                to sell extra hours when all ordered hours have been consumed."
->>>>>>> f95942631c8 ([i18n} Updated pot files)
+"            to sell extra hours when all ordered hours have been consumed."
 msgstr ""
 
 #. module: sale

@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-03-15 12:05+0000\n"
-"PO-Revision-Date: 2022-03-15 12:05+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 22:01+0000\n"
-"PO-Revision-Date: 2022-04-15 22:01+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 20:02+0000\n"
-"PO-Revision-Date: 2022-05-22 20:02+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 14:42+0000\n"
-"PO-Revision-Date: 2022-06-02 14:42+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 20:02+0000\n"
+"PO-Revision-Date: 2022-06-07 20:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,14 +106,6 @@ msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
-<<<<<<< HEAD
-msgid ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\"/>"
-msgstr ""
-
-#. module: hr_expense
-#: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid ""
 "<span class=\"o_form_label\">Expense Journal</span>\n"
 "                                    <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
@@ -136,8 +113,6 @@ msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgid "<span>@</span>"
 msgstr ""
 
@@ -364,11 +339,6 @@ msgid "Attachment Count"
 msgstr ""
 
 #. module: hr_expense
-#: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_expenses_analysis_tree
-msgid "Attachments"
-msgstr ""
-
-#. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__bank_journal_id
 msgid "Bank Journal"
 msgstr ""
@@ -533,14 +503,11 @@ msgid "Currency"
 msgstr ""
 
 #. module: hr_expense
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__currency_rate
 msgid "Currency Rate"
 msgstr ""
 
 #. module: hr_expense
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Date"
@@ -586,19 +553,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__display_name
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__display_name
 msgid "Display Name"
-msgstr ""
-
-#. module: hr_expense
-<<<<<<< HEAD
-#: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
-msgid ""
-"Do not keep your expense tickets in your pockets any longer. Just snap a "
-"picture of your receipt and let Odoo digitalizes it for you. The OCR and "
-"Artificial Intelligence will fill the data automatically."
-=======
-#: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
-msgid "Documents"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: hr_expense
@@ -1174,15 +1128,12 @@ msgid "New Expense Report"
 msgstr ""
 
 #. module: hr_expense
-<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "New Expense Reports"
 msgstr ""
 
 #. module: hr_expense
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
@@ -1339,14 +1290,6 @@ msgid "Only Managers and HR Officers can approve expenses"
 msgstr ""
 
 #. module: hr_expense
-<<<<<<< HEAD
-=======
-#: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
-msgid "Other Info"
-msgstr ""
-
-#. module: hr_expense
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__done
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__payment_state__paid
 #: model:mail.message.subtype,name:hr_expense.mt_expense_paid
@@ -1661,15 +1604,6 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__sheet_is_editable
 msgid "Sheet Is Editable"
-<<<<<<< HEAD
-msgstr ""
-
-#. module: hr_expense
-#: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
-#: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
-msgid "Show all records which has next action date is before today"
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: hr_expense
@@ -1856,15 +1790,8 @@ msgid "Today Activities"
 msgstr ""
 
 #. module: hr_expense
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__total_amount_company
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
-=======
-#: code:addons/hr_expense/models/hr_expense.py:0
-#: model:ir.model.fields,field_description:hr_expense.field_hr_expense__total_amount_company
-#: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
-#, python-format
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgid "Total"
 msgstr ""
 

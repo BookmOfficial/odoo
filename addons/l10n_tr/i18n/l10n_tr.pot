@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 15:07+0000\n"
-"PO-Revision-Date: 2022-06-02 15:07+0000\n"
+"POT-Creation-Date: 2022-06-07 20:24+0000\n"
+"PO-Revision-Date: 2022-06-07 20:24+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,11 @@ msgid "350 Yıllara Yaygın İnşaat Ve Onarım Hakedişleri Bedelleri"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr796
+msgid "AMORTİSMANLAR VE TÜKENME PAYLARI"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr121
 #: model:account.account.template,name:l10n_tr.tr221
 msgid "Alacak Senetleri"
@@ -30,6 +35,11 @@ msgstr ""
 #: model:account.account.template,name:l10n_tr.tr122
 #: model:account.account.template,name:l10n_tr.tr222
 msgid "Alacak Senetleri Reeskontu(-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_44
+msgid "Alinan avanslar"
 msgstr ""
 
 #. module: l10n_tr
@@ -77,6 +87,11 @@ msgid "Arazi Ve Arsalar"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_75
+msgid "Araştirma ve geli̇şti̇rme gi̇derleri̇"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr263
 msgid "Araştırma Ve Geliştirme Giderleri"
 msgstr ""
@@ -89,6 +104,11 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr760
 msgid "Atraştırma Ve Geliştirme Giderleri"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr102999
+msgid "Banka Geçici Muallak Hesabı"
 msgstr ""
 
 #. module: l10n_tr
@@ -166,6 +186,26 @@ msgstr ""
 #: model:account.account.template,name:l10n_tr.tr322
 #: model:account.account.template,name:l10n_tr.tr422
 msgid "Borç Senetleri Reeskontu(-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_37
+msgid "Borç ve gi̇der karşiliklari"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_60
+msgid "Brüt satişlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr793
+msgid "DIŞARIDAN SAĞLANAN FAYDA VE HİZMETLER"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr999
+msgid "Dağıtılmamış Kâr / Zararlar"
 msgstr ""
 
 #. module: l10n_tr
@@ -378,6 +418,72 @@ msgid "Diğer İndirimler"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_71
+msgid "Di̇rekt i̇lkmadde ve malzeme gi̇derleri̇"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_72
+msgid "Di̇rekt i̇şçi̇li̇k gi̇derleri̇"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_13
+#: model:account.group.template,name:l10n_tr.tr_group_23
+msgid "Di̇ğer alacaklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_33
+msgid "Di̇ğer borçlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_29
+msgid "Di̇ğer duran varliklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_19
+msgid "Di̇ğer dönen varliklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_64
+msgid "Di̇ğer faali̇yetlerden olağan geli̇r ve kârlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_65
+msgid "Di̇ğer faali̇yetlerden olağan gi̇der ve zararlar (-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_39
+msgid "Di̇ğer kisa vadeli̇ yabanci kaynaklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_43
+msgid "Di̇ğer uzun borçlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_49
+msgid "Di̇ğer uzun vadeli̇ yabanci kaynaklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_34
+msgid "Di̇ğer çeşi̇tli̇ borçlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_2
+msgid "Duran varliklar"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr370
 msgid "Dönem Kârı Vergi Ve Diğer Yasal Yükümlülük Karşılıkları"
 msgstr ""
@@ -413,6 +519,17 @@ msgid "Dönem Net Zararı(-)"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_59
+#: model:account.group.template,name:l10n_tr.tr_group_69
+msgid "Dönem net kâri (zarari)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_1
+msgid "Dönen varliklar"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr294
 msgid "Elden Çıkarılacak Stoklar Ve Maddi Duran Varlıklar"
 msgstr ""
@@ -439,6 +556,11 @@ msgid "Ertelenmiş Finansal Kiralama Borçlanma Maliyetleri(-)"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_63
+msgid "Faali̇yet gi̇derleri̇ (-)"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr642
 msgid "Faiz Gelirleri"
 msgstr ""
@@ -462,6 +584,21 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr781
 msgid "Finansman Giderleri Yansıtma Hesabı"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_78
+msgid "Fi̇nansman gi̇derleri̇"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_66
+msgid "Fi̇nansman gi̇derleri̇ (-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr797
+msgid "FİNANSMAN GİDERLERİ"
 msgstr ""
 
 #. module: l10n_tr
@@ -495,9 +632,29 @@ msgid "Gelecek Yıllarda İndirilecek KDV"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_38
+msgid "Gelecek aylara ai̇t geli̇rler ve gi̇der tahakkuklari"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_18
+msgid "Gelecek aylara ai̇t gi̇derler"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_28
+msgid "Gelecek yillara ai̇t gi̇derler ve geli̇r tahakkuklari"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr181
 #: model:account.account.template,name:l10n_tr.tr281
 msgid "Gelir Tahakkukları"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_6
+msgid "Geli̇r tablosu hesaplari"
 msgstr ""
 
 #. module: l10n_tr
@@ -518,6 +675,11 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr632
 msgid "Genel Yönetim Giderleri(-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_77
+msgid "Genel yöneti̇m gi̇derleri̇"
 msgstr ""
 
 #. module: l10n_tr
@@ -546,6 +708,11 @@ msgid "Genel Üretim Giderleri Yansıtma Hesabı"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_73
+msgid "Genel üreti̇m gi̇derleri̇"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr570
 msgid "Geçmiş Yıllar Kârları"
 msgstr ""
@@ -556,13 +723,38 @@ msgid "Geçmiş Yıllar Zararları(-)"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_57
+msgid "Geçmi̇ş yillar kârlari"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_58
+msgid "Geçmi̇ş yillar zararlari (-)"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr381
 msgid "Gider Tahakkukları"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_79
+msgid "Gi̇der çeşi̇tleri̇"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr798
+msgid "GİDER ÇEŞİTLERİ YANSITMA HESAPLARI"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr260
 msgid "Haklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_10
+msgid "Hazir değerler"
 msgstr ""
 
 #. module: l10n_tr
@@ -603,6 +795,11 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr741
 msgid "Hizmet Üretim Maliyeti Yansıtma Hesabı"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_74
+msgid "Hi̇zmet üreti̇m mali̇yeti̇"
 msgstr ""
 
 #. module: l10n_tr
@@ -658,6 +855,11 @@ msgid "Kazaqnılmamış Finansal Kiralama Faiz Gelirleri(-)"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_3
+msgid "Kisa vadeli̇ yabanci kaynaklar"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr643
 msgid "Komisyon Gelirleri"
 msgstr ""
@@ -678,6 +880,11 @@ msgid "Kuruluş Ve Örgütlenme Giderleri"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_54
+msgid "Kâr yedekleri̇"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr372
 #: model:account.account.template,name:l10n_tr.tr472
 msgid "Kıdem Tazminatı Karşılığı"
@@ -689,13 +896,28 @@ msgid "Kısa Vadeli Borçlanma Giderleri(-)"
 msgstr ""
 
 #. module: l10n_tr
-#: model:account.account.template,name:l10n_tr.l10ntr_tek_duzen_hesap_liquidity_transfer
+#: model:account.account.template,name:l10n_tr.chart_template_common_liquidity_transfer
 msgid "Liquidity Transfer"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr792
+msgid "MEMUR ÜCRET VE GİDERLERİ"
 msgstr ""
 
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr522
 msgid "Maddi Duran Varlık Yeniden Değerlenme Artışları"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_25
+msgid "Maddi̇ duran varliklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_26
+msgid "Maddi̇ olmayan duran varliklar"
 msgstr ""
 
 #. module: l10n_tr
@@ -716,6 +938,31 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr701
 msgid "Maliyet Muhasebesi Yansıtma Hesabı"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_30
+msgid "Mali̇ borçlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_24
+msgid "Mali̇ duran varliklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_40
+msgid "Mali̇ uzun borçlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_7
+msgid "Mali̇yet hesaplari"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_70
+msgid "Mali̇yet muhasebesi̇ bağlanti hesaplari"
 msgstr ""
 
 #. module: l10n_tr
@@ -745,8 +992,28 @@ msgid "Menkul Kıymetler İhraç Farkı(-)"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_11
+msgid "Menkul kiymetler"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr393
 msgid "Merkez Ve Şubeler Cari Hesabı"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_9
+msgid "Nazim hesaplar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_67
+msgid "Olağandişi geli̇r ve kârlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_68
+msgid "Olağandişi gi̇der ve zararlar (-)"
 msgstr ""
 
 #. module: l10n_tr
@@ -779,6 +1046,11 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr631
 msgid "Pazarlama Satış Ve Dağıtım Giderleri(-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_76
+msgid "Pazarlama satiş ve dağitim gi̇derleri̇"
 msgstr ""
 
 #. module: l10n_tr
@@ -815,6 +1087,16 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr657
 msgid "Reeskont Faiz Giderleri(-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_61
+msgid "Satiş i̇ndi̇ri̇mleri̇ (-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_62
+msgid "Satişlarin mali̇yeti̇ (-)"
 msgstr ""
 
 #. module: l10n_tr
@@ -864,6 +1146,11 @@ msgid "Sermaye"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_52
+msgid "Sermaye yedekleri̇"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr541
 msgid "Statü Yedekleri"
 msgstr ""
@@ -875,8 +1162,23 @@ msgid "Stok Değer Düşüklüğü Karşılığı(-)"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_15
+msgid "Stoklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr102997
+msgid "Tahsil Edilmeyen Ödemeler"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr304
 msgid "Tahvil Anapara Borç, Taksit Ve Faizleri"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr102998
+msgid "Tasdik Edilmemiş Ödemeler"
 msgstr ""
 
 #. module: l10n_tr
@@ -890,8 +1192,18 @@ msgid "Taşıtlar"
 msgstr ""
 
 #. module: l10n_tr
-#: model:account.chart.template,name:l10n_tr.l10ntr_tek_duzen_hesap
+#: model:account.chart.template,name:l10n_tr.chart_template_common
 msgid "Tek Düzen Hesap Planı"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.chart.template,name:l10n_tr.chart_template_7a
+msgid "Tek Düzen Hesap Planı - 7/A seçeneği"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.chart.template,name:l10n_tr.chart_template_7b
+msgid "Tek Düzen Hesap Planı - 7/B seçeneği"
 msgstr ""
 
 #. module: l10n_tr
@@ -910,6 +1222,22 @@ msgid "Ticari Mallar"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_12
+#: model:account.group.template,name:l10n_tr.tr_group_22
+msgid "Ti̇cari̇ alacaklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_32
+msgid "Ti̇cari̇ borçlar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_42
+msgid "Ti̇cari̇ uzun borçlar"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr661
 msgid "Uzun Vadeli Borçlanma Giderleri(-)"
 msgstr ""
@@ -917,6 +1245,26 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr303
 msgid "Uzun Vadeli Kredilerin Anapara Taksitleri Ve Faizleri"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_47
+msgid "Uzun borç ve gi̇der karşiliklari"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_48
+msgid "Uzun gelecek yillara ai̇t geli̇rler ve gi̇der tahakkuklari"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_4
+msgid "Uzun vadeli̇ yabanci kaynaklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr795
+msgid "VERGİ RESİM VE HARÇLAR"
 msgstr ""
 
 #. module: l10n_tr
@@ -989,6 +1337,11 @@ msgid "Yıllara Yaygın İnşaat Ve Onarım Maliyetleri"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr794
+msgid "ÇEŞİTLİ GİDERLER"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr680
 msgid "Çalışmayan Kısım Gider Ve Zararları(-)"
 msgstr ""
@@ -1025,8 +1378,18 @@ msgid "Ödenecek Vergi Ve Fonlar"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_36
+msgid "Ödenecek vergi̇ ve di̇ğer yükümlülükler"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr501
 msgid "Ödenmiş Sermaye(-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_50
+msgid "Ödenmi̇ş sermaye"
 msgstr ""
 
 #. module: l10n_tr
@@ -1037,6 +1400,11 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr681
 msgid "Önceki Dönem Gider Ve Zararları(-)"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_5
+msgid "Öz kaynaklar"
 msgstr ""
 
 #. module: l10n_tr
@@ -1055,6 +1423,21 @@ msgid "Özel Maliyetler"
 msgstr ""
 
 #. module: l10n_tr
+#: model:account.group.template,name:l10n_tr.tr_group_27
+msgid "Özel tükenmeye tabi̇ varliklar"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr799
+msgid "ÜRETİM MALİYET HESABI"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr790
+msgid "İLK MADDE VE MALZEME GİDERLERİ"
+msgstr ""
+
+#. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr150
 msgid "İlk Madde Malzeme"
 msgstr ""
@@ -1062,6 +1445,11 @@ msgstr ""
 #. module: l10n_tr
 #: model:account.account.template,name:l10n_tr.tr191
 msgid "İndirilecek KDV"
+msgstr ""
+
+#. module: l10n_tr
+#: model:account.account.template,name:l10n_tr.tr791
+msgid "İŞÇİ ÜCRET VE GİDERLERİ"
 msgstr ""
 
 #. module: l10n_tr

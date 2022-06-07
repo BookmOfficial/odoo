@@ -4,27 +4,10 @@
 #
 msgid ""
 msgstr ""
-<<<<<<< HEAD
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-11 14:33+0000\n"
-"PO-Revision-Date: 2022-02-11 14:33+0000\n"
-=======
-"Project-Id-Version: Odoo Server 15.0\n"
-"Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-04-15 22:01+0000\n"
-"PO-Revision-Date: 2022-04-15 22:01+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 20:02+0000\n"
-"PO-Revision-Date: 2022-05-22 20:02+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 14:42+0000\n"
-"PO-Revision-Date: 2022-06-02 14:42+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 20:02+0000\n"
+"PO-Revision-Date: 2022-06-07 20:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1500,7 +1483,6 @@ msgid "Master"
 msgstr ""
 
 #. module: hr
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_employee__member_of_department
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__member_of_department
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__member_of_department
@@ -1508,8 +1490,6 @@ msgid "Member of department"
 msgstr ""
 
 #. module: hr
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:hr.field_hr_department__member_ids
 msgid "Members"
 msgstr ""
@@ -2377,37 +2357,17 @@ msgid "Warning"
 msgstr ""
 
 #. module: hr
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: model:ir.model.fields,help:hr.field_hr_employee__member_of_department
 #: model:ir.model.fields,help:hr.field_hr_employee_base__member_of_department
 #: model:ir.model.fields,help:hr.field_hr_employee_public__member_of_department
 msgid ""
 "Whether the employee is a member of the active user's department or one of "
 "it's child department."
-=======
-=======
-#: model:ir.model.fields,field_description:hr.field_hr_department__website_message_ids
-#: model:ir.model.fields,field_description:hr.field_hr_employee__website_message_ids
-#: model:ir.model.fields,field_description:hr.field_hr_job__website_message_ids
-msgid "Website Messages"
 msgstr ""
 
 #. module: hr
-#: model:ir.model.fields,help:hr.field_hr_department__website_message_ids
-#: model:ir.model.fields,help:hr.field_hr_employee__website_message_ids
-#: model:ir.model.fields,help:hr.field_hr_job__website_message_ids
-msgid "Website communication history"
-msgstr ""
-
-#. module: hr
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
->>>>>>> 0a2574d3cab (Updated pot files)
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__widower
 msgid "Widower"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: hr

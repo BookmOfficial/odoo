@@ -6,18 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-03-15 12:05+0000\n"
-"PO-Revision-Date: 2022-03-15 12:05+0000\n"
-=======
-"POT-Creation-Date: 2022-04-15 23:12+0000\n"
-"PO-Revision-Date: 2022-04-15 23:12+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-06-02 15:41+0000\n"
-"PO-Revision-Date: 2022-06-02 15:41+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 20:52+0000\n"
+"PO-Revision-Date: 2022-06-07 20:52+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1760,14 +1750,6 @@ msgstr ""
 #: code:addons/project/static/src/js/project_kanban.js:0
 #, python-format
 msgid "Edit Personal Stage"
-<<<<<<< HEAD
-=======
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,arch_db:project.view_task_form2
-msgid "Edit recurring task"
->>>>>>> 0a2574d3cab (Updated pot files)
 msgstr ""
 
 #. module: project
@@ -2781,10 +2763,7 @@ msgid "Name of the tasks"
 msgstr ""
 
 #. module: project
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Neutral face"
 msgstr ""
@@ -3069,15 +3048,12 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
 msgid "Ok"
-<<<<<<< HEAD
 msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Okay"
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: project
@@ -3243,16 +3219,6 @@ msgid "Phone"
 msgstr ""
 
 #. module: project
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
-msgid ""
-"Plan resource allocation across projects and tasks, and estimate deadlines "
-"more accurately"
-msgstr ""
-
-#. module: project
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:project.field_res_config_settings__module_project_forecast
 msgid "Planning"
 msgstr ""
@@ -5225,46 +5191,11 @@ msgid "You have not write access of %s field."
 msgstr ""
 
 #. module: project
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0a2574d3cab (Updated pot files)
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid ""
 "You should at least have one personal stage. Create a new stage to which the"
 " tasks can be transferred after this one is deleted."
-<<<<<<< HEAD
-=======
-=======
-msgstr ""
-
-#. module: project
->>>>>>> 0a2574d3cab (Updated pot files)
-#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
-msgid "assignee"
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
-msgid "assignees"
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,arch_db:project.project_sharing_quick_create_task_form
-#: model_terms:ir.ui.view,arch_db:project.quick_create_task_form
-msgid "e.g. New Design"
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
-msgid "e.g. Office Party"
-msgstr ""
-
-#. module: project
-#: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
-msgid "e.g. office-party"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: project

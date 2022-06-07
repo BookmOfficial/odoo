@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-02 14:58+0000\n"
-"PO-Revision-Date: 2022-06-02 14:58+0000\n"
+"POT-Creation-Date: 2022-06-07 20:16+0000\n"
+"PO-Revision-Date: 2022-06-07 20:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -578,6 +578,11 @@ msgstr ""
 #: model:account.tax.report.line,tag_name:l10n_il.account_tax_report_line_out_balance_pa
 #: model:account.tax.template,name:l10n_il.il_vat_pa_sales_17
 msgid "VAT PA Sales"
+msgstr ""
+
+#. module: l10n_il
+#: model:account.tax.report,name:l10n_il.vat_report
+msgid "VAT Report (PCN874)"
 msgstr ""
 
 #. module: l10n_il

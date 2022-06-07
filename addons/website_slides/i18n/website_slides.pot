@@ -6,23 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.2\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-"POT-Creation-Date: 2022-05-20 12:38+0000\n"
-"PO-Revision-Date: 2022-05-20 12:38+0000\n"
-=======
-"POT-Creation-Date: 2022-04-16 00:02+0000\n"
-"PO-Revision-Date: 2022-04-16 00:02+0000\n"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
-=======
-"POT-Creation-Date: 2022-05-22 21:05+0000\n"
-"PO-Revision-Date: 2022-05-22 21:05+0000\n"
->>>>>>> e1a96e450c0 ([UPD] pot files)
-=======
-"POT-Creation-Date: 2022-06-02 16:20+0000\n"
-"PO-Revision-Date: 2022-06-02 16:20+0000\n"
->>>>>>> 0a2574d3cab (Updated pot files)
+"POT-Creation-Date: 2022-06-07 21:25+0000\n"
+"PO-Revision-Date: 2022-06-07 21:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -807,7 +792,6 @@ msgid "<strong>Create a course</strong>"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:website_slides.slide_channel_partner_action
 #: model_terms:ir.actions.act_window,help:website_slides.slide_channel_partner_action_report
 msgid "<strong>No Attendees Yet!</strong>"
@@ -822,8 +806,6 @@ msgid "<strong>Thank you!</strong> Mail has been sent."
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
@@ -833,7 +815,6 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model:ir.model.constraint,message:website_slides.constraint_slide_slide_resource_check_file_type
 msgid "A resource of type file cannot contain a link."
 msgstr ""
@@ -846,11 +827,6 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.constraint,message:website_slides.constraint_slide_slide_exclusion_html_content_and_url
 msgid "A slide is either filled with a url or HTML content. Not both."
-=======
-#: model:ir.model.constraint,message:website_slides.constraint_slide_slide_exclusion_html_content_and_url
-msgid ""
-"A slide is either filled with a document url or HTML content. Not both."
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -1052,7 +1028,6 @@ msgid "All questions must be answered !"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model:ir.model.fields,help:website_slides.field_slide_channel__allow_comment
 #: model:ir.model.fields,help:website_slides.field_slide_slide__channel_allow_comment
 msgid ""
@@ -1061,8 +1036,6 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__slide_resource_downloadable
 msgid "Allow Download"
 msgstr ""
@@ -1270,7 +1243,6 @@ msgid "Back"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_home_user_achievements_small
 msgid "Badges"
 msgstr ""
@@ -1281,8 +1253,6 @@ msgid "Basic"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_unsubscribe.xml:0
 #, python-format
@@ -1463,7 +1433,6 @@ msgid "Choose a layout"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -1471,8 +1440,6 @@ msgid "Choose an Image"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_all
 msgid "Clear filters"
 msgstr ""
@@ -1529,7 +1496,6 @@ msgid "Color Index"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:website_slides.rating_rating_action_slide_channel
 msgid "Come back later to check the feedbacks given by your Attendees."
 msgstr ""
@@ -1540,8 +1506,6 @@ msgid "Come back later to oversee how well your Attendees are doing."
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__comment
 msgid "Comment"
 msgstr ""
@@ -1697,11 +1661,7 @@ msgid "Contact the responsible to enroll."
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__slide_content_ids
-=======
-#: model:ir.model.fields,field_description:website_slides.field_slide_channel__total_slides
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:website_slides.field_slide_question__slide_id
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__slide_ids
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_embed_view_search
@@ -1776,11 +1736,7 @@ msgid "Copy Link"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: code:addons/website_slides/controllers/main.py:0
-=======
-#: code:addons/website_slides/models/slide_slide.py:0
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #, python-format
 msgid ""
 "Could not find your video. Please check if your link is correct and if the "
@@ -1981,11 +1937,7 @@ msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__html_content
-<<<<<<< HEAD
 msgid "Custom HTML content for slides of category 'Article'."
-=======
-msgid "Custom HTML content for slides of type 'Web Page'."
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -2335,21 +2287,12 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
-<<<<<<< HEAD
 msgid "Evaluate the knowledge of your Attendees and certify their skills."
 msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__embed_code_external
 msgid "External Embed Code"
-=======
-msgid "Evaluate your students and certify them"
-msgstr ""
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "External Links"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -2502,7 +2445,6 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-<<<<<<< HEAD
 msgid "Fourth Try & More"
 msgstr ""
 
@@ -2513,9 +2455,6 @@ msgstr ""
 #, python-format
 msgid ""
 "From here you'll be able to monitor attendees and to track their progress."
-=======
-msgid "Fourth and more attempt"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -2524,14 +2463,6 @@ msgid "Gamification Challenge"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
-=======
-#: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
-msgid "Generate revenues thanks to your courses"
-msgstr ""
-
-#. module: website_slides
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:gamification.challenge,name:website_slides.badge_data_certification_challenge
 #: model_terms:gamification.badge,description:website_slides.badge_data_certification
 msgid "Get a certification"
@@ -2633,14 +2564,11 @@ msgid "HTTP Routing"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_tag_group_view_search
 msgid "Has Menu Entry"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__has_message
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__has_message
 msgid "Has Message"
@@ -2656,7 +2584,6 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
-<<<<<<< HEAD
 msgid "How do I add new content?"
 msgstr ""
 
@@ -2665,9 +2592,6 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "How to create a Lesson as an Article?"
-=======
-msgid "How to create a Lesson as a Web Page?"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -2685,7 +2609,6 @@ msgid "How to upload your videos ?"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -2693,8 +2616,6 @@ msgid "How to use Google Drive?"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__id
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__id
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__id
@@ -2737,7 +2658,6 @@ msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
@@ -2747,8 +2667,6 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -2793,7 +2711,6 @@ msgid "Image 512"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_binary_content
 msgid "Image Content"
 msgstr ""
@@ -2811,10 +2728,6 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Image Source"
-=======
-#: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__infographic
-msgid "Infographic"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -2906,7 +2819,6 @@ msgid "Is correct answer"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
@@ -2917,8 +2829,6 @@ msgid "It should look similar to"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_course_quiz.js:0
 #, python-format
@@ -3212,14 +3122,6 @@ msgid "Messages"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
-=======
-#: model:ir.model.fields,field_description:website_slides.field_slide_slide__mime_type
-msgid "Mime-type"
-msgstr ""
-
-#. module: website_slides
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -3547,12 +3449,6 @@ msgid "Numbers of Questions"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
-msgid "Odoo"
-msgstr ""
-
-#. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer
 msgid "Officer"
 msgstr ""
@@ -3562,10 +3458,6 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "On Google Drive"
-=======
-#: model:res.groups,name:website_slides.group_website_slides_officer
-msgid "Officer"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -3749,20 +3641,7 @@ msgid "Power User"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
-#: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
-msgid "Powered by"
-msgstr ""
-
-#. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed__slide_id
-=======
-#. openerp-web
-#: code:addons/website_slides/static/src/js/slides_upload.js:0
-#: model:ir.model.fields,field_description:website_slides.field_slide_embed__slide_id
-#: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__presentation
-#, python-format
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgid "Presentation"
 msgstr ""
 
@@ -4443,25 +4322,15 @@ msgid "Sheet (Excel, Google Sheet, ...)"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__description_short
 msgid "Short Description"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Sign Up !"
-msgstr ""
-
-#. module: website_slides
-#. openerp-web
-#: code:addons/website_slides/static/src/xml/slide_course_join.xml:0
-#, python-format
-msgid "Sign in"
 msgstr ""
 
 #. module: website_slides
@@ -4551,14 +4420,11 @@ msgid "Slides (PowerPoint, Google Slides, ...)"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__slide_ids
 msgid "Slides and categories"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
 msgid "Sort by"
 msgstr ""
@@ -4581,14 +4447,6 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_home
 msgid "Start your online course today!"
-<<<<<<< HEAD
-=======
-msgstr ""
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "Statistics"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -4809,17 +4667,12 @@ msgid "The full URL to access the document through the website."
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid ""
 "The video link to input here can be obtained by using the 'share' button in "
 "the Vimeo interface."
-=======
-#: model_terms:ir.actions.act_window,help:website_slides.slide_question_action_report
-msgid "There are no quizzes"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -4912,7 +4765,6 @@ msgid "Toggle navigation"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_tree
 msgid "Total"
 msgstr ""
@@ -4936,10 +4788,6 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_tree_report
 msgid "Total Questions"
-=======
-#: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "Total"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -4967,11 +4815,7 @@ msgid "Training Layout"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
-=======
-#: model:ir.model.fields,field_description:website_slides.field_slide_slide__slide_type
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Type"
 msgstr ""
@@ -5001,11 +4845,7 @@ msgid "Uncategorized"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: code:addons/website_slides/models/slide_embed.py:0
-=======
-#: code:addons/website_slides/models/slide_slide.py:0
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #, python-format
 msgid "Unknown Website"
 msgstr ""
@@ -5245,22 +5085,6 @@ msgid "Waiting for validation"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
-=======
-#. openerp-web
-#: code:addons/website_slides/static/src/js/slides_upload.js:0
-#: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__webpage
-#, python-format
-msgid "Web Page"
-msgstr ""
-
-#. module: website_slides
-#: model:ir.model.fields,field_description:website_slides.field_slide_channel__nbr_webpage
-msgid "Webpages"
-msgstr ""
-
-#. module: website_slides
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model,name:website_slides.model_website
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_id
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_partner__channel_website_id
@@ -5335,7 +5159,6 @@ msgid "What does"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
@@ -5344,8 +5167,6 @@ msgid "What types of documents do we support?"
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #: model:ir.model.fields,help:website_slides.field_slide_channel_invite__sub_model_object_field
 msgid ""
 "When a relationship field is selected as first field, this field lets you "
@@ -5360,7 +5181,6 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -5368,8 +5188,6 @@ msgid "When using local files, we only support PDF files."
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
@@ -5527,14 +5345,11 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 msgid "You're enrolled"
-<<<<<<< HEAD
 msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__video_source_type__youtube
 msgid "YouTube"
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -5553,7 +5368,6 @@ msgid "Your Level"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.actions.act_window,help:website_slides.slide_channel_action_overview
 #: model_terms:ir.actions.act_window,help:website_slides.slide_channel_action_report
 msgid ""
@@ -5570,8 +5384,6 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
-=======
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 #. openerp-web
 #: code:addons/website_slides/static/src/js/tours/slides_tour.js:0
 #, python-format
@@ -5678,7 +5490,6 @@ msgid "e.g. \"Which animal cannot fly?\""
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides_channel.xml:0
 #, python-format
@@ -5686,10 +5497,6 @@ msgid ""
 "e.g. Common tasks for a computer scientist is asking the right questions. In"
 " this course, you will study those topics with activities about mathematics,"
 " science and logic."
-=======
-#: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Bookm?"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -5711,13 +5518,8 @@ msgid "e.g. What powers a computer ?"
 msgstr ""
 
 #. module: website_slides
-<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_tag_group_view_form
 msgid "e.g. Your Level"
-=======
-#: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.bookm.be"
->>>>>>> f95942631c8 ([i18n} Updated pot files)
 msgstr ""
 
 #. module: website_slides
@@ -5822,13 +5624,13 @@ msgid "steps"
 msgstr ""
 
 #. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
-msgid "to contact responsible."
+#: model_terms:ir.ui.view,arch_db:website_slides.join_course_link
+msgid "to access resources"
 msgstr ""
 
 #. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.join_course_link
-msgid "to access resources"
+#: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
+msgid "to contact responsible."
 msgstr ""
 
 #. module: website_slides

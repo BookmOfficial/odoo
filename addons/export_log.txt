@@ -1,0 +1,45 @@
+2022-06-07 21:28:21,885 43 INFO ? odoo: Odoo version saas~15.2 
+2022-06-07 21:28:21,886 43 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2022-06-07 21:28:21,886 43 INFO ? odoo: addons paths: ['/usr/local/lib/python3.10/dist-packages/odoo/addons', '/var/lib/odoo/addons/saas~15.2', '/mnt/addons', '/mnt/dev/odoo-extra-addons', '/mnt/dev/odoo-themes', '/mnt/dev/odoo-security', '/mnt/dev/odoo-setup', '/mnt/dev/odoo-design-themes'] 
+2022-06-07 21:28:21,886 43 INFO ? odoo: database: odooDbUser@postgresqlDb:default 
+2022-06-07 21:28:21,895 43 INFO ? odoo: writing translation file for new language to /tmp/translations/website_twitter.po 
+2022-06-07 21:28:21,912 43 INFO bookm_1 odoo.modules.loading: loading 1 modules... 
+2022-06-07 21:28:22,002 43 INFO bookm_1 odoo.addons.base.models.ir_actions_report: A package may be missing to print Data Matrix barcodes: pylibdmtx or libdmtx. 
+2022-06-07 21:28:22,003 43 INFO bookm_1 odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-06-07 21:28:22,167 43 INFO bookm_1 odoo.modules.loading: 1 modules loaded in 0.25s, 0 queries (+0 extra) 
+2022-06-07 21:28:22,299 43 INFO bookm_1 odoo.modules.loading: loading 415 modules... 
+2022-06-07 21:28:22,973 43 WARNING bookm_1 odoo.api.create: The model odoo.addons.bookm_website_sequence.models.website is not overriding the create method in batch 
+2022-06-07 21:28:23,754 43 INFO bookm_1 odoo.modules.loading: 415 modules loaded in 1.46s, 0 queries (+0 extra) 
+2022-06-07 21:28:24,163 43 INFO bookm_1 odoo.modules.loading: Modules loaded. 
+2022-06-07 21:28:24,173 43 INFO bookm_1 odoo.modules.registry: Registry loaded in 2.277s 
+2022-06-07 21:28:24,433 43 INFO bookm_1 odoo: translation file written successfully 
+2022-06-07 21:37:36,447 50 INFO ? odoo: Odoo version saas~15.2 
+2022-06-07 21:37:36,447 50 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2022-06-07 21:37:36,447 50 INFO ? odoo: addons paths: ['/usr/local/lib/python3.10/dist-packages/odoo/addons', '/var/lib/odoo/addons/saas~15.2', '/mnt/addons', '/mnt/dev/odoo-extra-addons', '/mnt/dev/odoo-themes', '/mnt/dev/odoo-security', '/mnt/dev/odoo-setup', '/mnt/dev/odoo-design-themes'] 
+2022-06-07 21:37:36,447 50 INFO ? odoo: database: odooDbUser@postgresqlDb:default 
+2022-06-07 21:37:36,456 50 INFO ? odoo: writing translation file for new language to /tmp/translations/web_tour.po 
+2022-06-07 21:37:36,474 50 INFO bookm_1 odoo.modules.loading: loading 1 modules... 
+2022-06-07 21:37:36,563 50 INFO bookm_1 odoo.addons.base.models.ir_actions_report: A package may be missing to print Data Matrix barcodes: pylibdmtx or libdmtx. 
+2022-06-07 21:37:36,563 50 INFO bookm_1 odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-06-07 21:37:36,727 50 INFO bookm_1 odoo.modules.loading: 1 modules loaded in 0.25s, 0 queries (+0 extra) 
+2022-06-07 21:37:36,857 50 INFO bookm_1 odoo.modules.loading: loading 415 modules... 
+2022-06-07 21:37:37,468 50 WARNING bookm_1 odoo.api.create: The model odoo.addons.bookm_website_sequence.models.website is not overriding the create method in batch 
+2022-06-07 21:37:38,095 50 INFO bookm_1 odoo.modules.loading: 415 modules loaded in 1.24s, 0 queries (+0 extra) 
+2022-06-07 21:37:38,477 50 INFO bookm_1 odoo.modules.loading: Modules loaded. 
+2022-06-07 21:37:38,486 50 INFO bookm_1 odoo.modules.registry: Registry loaded in 2.030s 
+2022-06-07 21:37:38,743 50 INFO bookm_1 odoo: translation file written successfully 
+2022-06-07 21:37:46,520 57 INFO ? odoo: Odoo version saas~15.2 
+2022-06-07 21:37:46,520 57 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2022-06-07 21:37:46,520 57 INFO ? odoo: addons paths: ['/usr/local/lib/python3.10/dist-packages/odoo/addons', '/var/lib/odoo/addons/saas~15.2', '/mnt/addons', '/mnt/dev/odoo-extra-addons', '/mnt/dev/odoo-themes', '/mnt/dev/odoo-security', '/mnt/dev/odoo-setup', '/mnt/dev/odoo-design-themes'] 
+2022-06-07 21:37:46,520 57 INFO ? odoo: database: odooDbUser@postgresqlDb:default 
+2022-06-07 21:37:46,531 57 INFO ? odoo: writing translation file for new language to /tmp/translations/web_unsplash.po 
+2022-06-07 21:37:46,552 57 INFO bookm_1 odoo.modules.loading: loading 1 modules... 
+2022-06-07 21:37:46,645 57 INFO bookm_1 odoo.addons.base.models.ir_actions_report: A package may be missing to print Data Matrix barcodes: pylibdmtx or libdmtx. 
+2022-06-07 21:37:46,646 57 INFO bookm_1 odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-06-07 21:37:46,812 57 INFO bookm_1 odoo.modules.loading: 1 modules loaded in 0.26s, 0 queries (+0 extra) 
+2022-06-07 21:37:46,944 57 INFO bookm_1 odoo.modules.loading: loading 415 modules... 
+2022-06-07 21:37:47,563 57 WARNING bookm_1 odoo.api.create: The model odoo.addons.bookm_website_sequence.models.website is not overriding the create method in batch 
+2022-06-07 21:37:48,197 57 INFO bookm_1 odoo.modules.loading: 415 modules loaded in 1.25s, 0 queries (+0 extra) 
+2022-06-07 21:37:48,580 57 INFO bookm_1 odoo.modules.loading: Modules loaded. 
+2022-06-07 21:37:48,589 57 INFO bookm_1 odoo.modules.registry: Registry loaded in 2.058s 
+2022-06-07 21:37:48,817 57 INFO bookm_1 odoo: translation file written successfully 
