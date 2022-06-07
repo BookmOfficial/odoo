@@ -3,7 +3,7 @@
 
     <record id="base.partner_root" model="res.partner">
         <field name="name">BookmBot</field>
-        <field name="email">bookmbot@example.mybookm.com</field>
+        <field name="email">bookmbot@example.com</field>
         <field name="image_1920" type="base64" file="mail/static/src/img/bookm_b.png"/>
     </record>
 

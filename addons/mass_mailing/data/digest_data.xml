@@ -2,7 +2,8 @@
 <odoo>
     <data>
         <template id="digest_mail_main" inherit_id="digest.digest_mail_main">
-            <xpath expr="//div[hasclass('by_odoo')]/t[last()]" position="after">
+            <!-- changed by_odoo to unsubscribe in https://github.com/BookmOfficial/odoo/commit/5d10a6f29eb38758e6cf2334650666dfa180d08b -->
+            <xpath expr="//div[hasclass('unsubscribe')]/t[last()]" position="after">
                 <t t-if="mailing_report_token">
                     –
                     <a t-attf-href="/mailing/report/unsubscribe?token=#{mailing_report_token}&amp;user_id=#{user_id}"

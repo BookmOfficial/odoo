@@ -101,7 +101,9 @@
                                 </div>
                                 <div class="o_setting_right_pane" name="l10n_eu_oss_right_pane">
                                     <label for="module_l10n_eu_oss"/>
-                                    <!--DOCLINK: <a href="https://www.odoo.com/documentation/15.0/applications/finance/accounting/taxation/taxes/eu_distance_selling.html" title="Documentation" class="o_doc_link" target="_blank"></a> -->
+                                    <!--DOCLINK: 
+                                    <a href="https://www.odoo.com/documentation/15.0/applications/finance/accounting/taxation/taxes/eu_distance_selling.html" title="Documentation" class="o_doc_link" target="_blank"></a> 
+                                    -->
                                     <div class="text-muted">
                                         Apply VAT of the EU country to which goods and services are delivered.
                                     </div>
@@ -227,7 +229,9 @@
                                 </div>
                                 <div class="o_setting_right_pane">
                                     <label for="group_sale_delivery_address"/>
+                                    <!-- DOCLINK
                                     <a href="https://www.odoo.com/documentation/saas-15.2/applications/sales/sales/send_quotations/different_addresses.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                    -->
                                     <div class="text-muted">
                                         Select specific invoice and delivery addresses
                                     </div>

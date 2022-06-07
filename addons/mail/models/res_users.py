@@ -31,7 +31,7 @@ class Users(models.Model):
     _sql_constraints = [(
         "notification_type",
         "CHECK (notification_type = 'email' OR NOT share)",
-        "Only internal user can receive notifications in Odoo",
+        "Only internal user can receive notifications in Bookm",
     )]
 
     @api.depends('share')

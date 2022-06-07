@@ -38,7 +38,7 @@ odoo.define('l10n_eg_edi_eta.action_post_sign_invoice', function (require) {
                         'tag': 'reload',
                     });
                 }, function () {
-                    Dialog.alert(this, _t("Error trying to connect to Odoo. Check your internet connection"));
+                    Dialog.alert(this, _t("Error trying to connect to Bookm. Check your internet connection"));
                 })
 
             } else {
@@ -69,7 +69,7 @@ odoo.define('l10n_eg_edi_eta.action_post_sign_invoice', function (require) {
                         'tag': 'reload',
                     });
                 }, function () {
-                    Dialog.alert(this, _t("Error trying to connect to Odoo. Check your internet connection"));
+                    Dialog.alert(this, _t("Error trying to connect to Bookm. Check your internet connection"));
                 })
 
             } else {

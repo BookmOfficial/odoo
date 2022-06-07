@@ -56,7 +56,7 @@
                             <field name="reply_to_force_new" invisible="1"/>
                             <field name="reply_to_mode" attrs="{'invisible':[('composition_mode', '!=', 'mass_mail')]}" widget="radio"/>
                             <group>
-                                <field name="reply_to" string="Reply-to Address" placeholder='e.g: "info@mycompany.odoo.com"'
+                                <field name="reply_to" string="Reply-to Address" placeholder='e.g: "info@example.com"'
                                     attrs="{'invisible':['|', ('reply_to_mode', '=', 'update'), ('composition_mode', '!=', 'mass_mail')],
                                             'required':[('reply_to_mode', '!=', 'update'), ('composition_mode', '=', 'mass_mail')]}"/>
                             </group>
