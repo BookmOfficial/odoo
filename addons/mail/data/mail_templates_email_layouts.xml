@@ -57,7 +57,9 @@
     <a t-if="website_url" t-att-href="website_url" style="text-decoration:none; color: #875A7B;">
         <span t-esc="company.name"/>
     </a>
-    <span t-if="not website_url" t-esc="company.name"/>.
+    <span t-if="not website_url" t-esc="company.name"/>
+    </span>
+    .
 </p>
 </div>
         </template>
