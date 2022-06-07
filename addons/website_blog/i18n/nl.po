@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-22 20:53+0000\n"
+"POT-Creation-Date: 2022-06-02 16:07+0000\n"
 "PO-Revision-Date: 2022-05-10 14:52+0000\n"
 "Last-Translator: Bookm <admin@bookm.be>\n"
 "Language-Team: Dutch <https://weblate.bookm.be/projects/odoo-15/website_blog/"
@@ -616,7 +616,9 @@ msgstr "Indien aangevinkt vragen nieuwe berichten je aandacht."
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_error
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_sms_error
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_has_error
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "indien aangevinkt hebben sommige leveringen een fout."
 
@@ -693,6 +695,7 @@ msgstr "Laatste"
 
 #. module: website_blog
 #: model:ir.filters,name:website_blog.dynamic_snippet_latest_blog_post_filter
+#: model:website.snippet.filter,name:website_blog.dynamic_filter_latest_blog_posts
 msgid "Latest Blog Posts"
 msgstr "Laatste blogberichten"
 
@@ -748,6 +751,7 @@ msgstr "Meta titel"
 
 #. module: website_blog
 #: model:ir.filters,name:website_blog.dynamic_snippet_most_viewed_blog_post_filter
+#: model:website.snippet.filter,name:website_blog.dynamic_filter_most_viewed_blog_posts
 msgid "Most Viewed Blog Posts"
 msgstr "Meest bekeken blogberichten"
 
@@ -910,6 +914,12 @@ msgstr "SEO"
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__is_seo_optimized
 msgid "SEO optimized"
 msgstr "SEO geoptimaliseerd"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_sms_error
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS fout bij versturen"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.dynamic_filter_template_blog_post_big_picture
@@ -1358,9 +1368,6 @@ msgstr "| Nog geen reacties"
 #: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
 msgid "⌙ Hover effect"
 msgstr "⌙ Zweefeffect"
-
-#~ msgid "SMS Delivery error"
-#~ msgstr "SMS fout bij versturen"
 
 #~ msgid ""
 #~ "<b>Binoculars are lightweight and portable.</b> Unless you have the "

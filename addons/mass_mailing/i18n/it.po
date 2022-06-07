@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 22:49+0000\n"
+"POT-Creation-Date: 2022-06-02 15:18+0000\n"
 "PO-Revision-Date: 2021-09-14 12:23+0000\n"
 "Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
@@ -4475,11 +4475,6 @@ msgstr ""
 "loro:"
 
 #. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_social
-msgid "Your Logo"
-msgstr "Logo"
-
-#. module: mass_mailing
 #. openerp-web
 #: code:addons/mass_mailing/static/src/js/unsubscribe.js:0
 #, python-format
@@ -4598,6 +4593,9 @@ msgstr "⌙ Attiva"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options
 msgid "⌙ Inactive"
 msgstr "⌙ Non attiva"
+
+#~ msgid "Your Logo"
+#~ msgstr "Logo"
 
 #~ msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
 #~ msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~14.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 21:32+0000\n"
+"POT-Creation-Date: 2022-06-02 14:37+0000\n"
 "PO-Revision-Date: 2021-09-14 12:21+0000\n"
 "Last-Translator: Lucia Pacheco <lpo@odoo.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -119,9 +119,8 @@ msgstr "<span>productos</span>"
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
 msgid ""
-"<strong style=\"font-size: 55px; color: #875A7B\">get free shipping</strong>"
+"<strong style=\"font-size: 55px; color: #1E1E74\">get free shipping</strong>"
 msgstr ""
-"<strong style=\"font-size: 55px; color: #875A7B\">obtén envío gratis</strong>"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.view_coupon_program_kanban
@@ -1128,6 +1127,13 @@ msgstr "menos en el producto más barato"
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon
 msgid "on your next order"
 msgstr "en tu próxima orden"
+
+#~ msgid ""
+#~ "<strong style=\"font-size: 55px; color: #875A7B\">get free shipping</"
+#~ "strong>"
+#~ msgstr ""
+#~ "<strong style=\"font-size: 55px; color: #875A7B\">obtén envío gratis</"
+#~ "strong>"
 
 #~ msgid "10% Discount"
 #~ msgstr "10% de descuento"
