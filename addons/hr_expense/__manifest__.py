@@ -62,7 +62,10 @@ This module also uses analytic accounting and is compatible with the invoice on 
             'hr_expense/static/tests/tours/expense_upload_tours.js',
         ],
         'web.assets_qweb': [
-            'hr_expense/static/src/xml/**/*',
+            # Use specific files instead because we don't want hr_expense/static/src/xml/expense_qr_modal_template.xml
+            # 'hr_expense/static/src/xml/**/*',
+            'hr_expense/static/src/xml/documents_upload_views.xml',
+            'hr_expense/static/src/xml/expense_dashboard.xml',
         ],
     },
     'license': 'LGPL-3',
